@@ -1,0 +1,221 @@
+# Sort order rules
+# 1. `kind` in order of primary → secondary
+# 2. `owner` in ascending order
+# 3. `repo` in ascending order
+
+repositories:
+  - kind: primary
+    case: releases
+    name: Swift
+    owner: apple
+    repo: swift
+  
+  - kind: primary
+    case: releases
+    name: Swift Algorithms
+    owner: apple
+    repo: swift-algorithms
+  
+  - kind: primary
+    case: releases
+    name: Swift Argument Parser
+    owner: apple
+    repo: swift-argument-parser
+  
+  - kind: primary
+    case: tags
+    name: Swift Async Algorithms
+    owner: apple
+    repo: swift-async-algorithms
+  
+  - kind: primary
+    case: releases
+    name: Swift Atomics
+    owner: apple
+    repo: swift-atomics
+  
+  - kind: primary
+    case: releases
+    name: Swift Collections
+    owner: apple
+    repo: swift-collections
+  
+  - kind: primary
+    case: releases
+    name: Swift Crypto
+    owner: apple
+    repo: swift-crypto
+  
+  - kind: primary
+    case: tags
+    name: Swift-DocC
+    owner: apple
+    repo: swift-docc
+  
+  - kind: primary
+    case: releases
+    name: Swift-DocC Plugin
+    owner: apple
+    repo: swift-docc-plugin
+  
+  - kind: primary
+    case: releases
+    name: swift-format
+    owner: apple
+    repo: swift-format
+  
+  - kind: primary
+    case: tags
+    name: Swift Markdown
+    owner: apple
+    repo: swift-markdown
+  
+  - kind: primary
+    case: releases
+    name: SwiftNIO
+    owner: apple
+    repo: swift-nio
+  
+  - kind: primary
+    case: releases
+    name: Swift Numerics
+    owner: apple
+    repo: swift-numerics
+  
+  - kind: primary
+    case: releases
+    name: Swift Package Manager
+    owner: apple
+    repo: swift-package-manager
+  
+  - kind: primary
+    case: releases
+    name: Swift Protobuf
+    owner: apple
+    repo: swift-protobuf
+  
+  - kind: primary
+    case: releases
+    name: SwiftSyntax
+    owner: apple
+    repo: swift-syntax
+  
+  - kind: primary
+    case: releases
+    name: Swift System
+    owner: apple
+    repo: swift-system
+  
+  - kind: secondary
+    case: releases
+    name: Alamofire
+    owner: Alamofire
+    repo: Alamofire
+  
+  - kind: secondary
+    case: releases
+    name: Carthage
+    owner: Carthage
+    repo: Carthage
+  
+  - kind: secondary
+    case: releases
+    name: CocoaPods
+    owner: CocoaPods
+    repo: CocoaPods
+  
+  - kind: secondary
+    case: releases
+    name: fastlane
+    owner: fastlane
+    repo: fastlane
+  
+  - kind: secondary
+    case: releases
+    name: Firebase Apple SDK
+    owner: firebase
+    repo: firebase-ios-sdk
+  
+  - kind: secondary
+    case: releases
+    name: IBLinter
+    owner: IBDecodable
+    repo: IBLinter
+  
+  - kind: secondary
+    case: releases
+    name: APIKit
+    owner: ishkawa
+    repo: APIKit
+  
+  - kind: secondary
+    case: releases
+    name: R.swift
+    owner: mac-cain13
+    repo: R.swift
+  
+  - kind: secondary
+    case: releases
+    name: LicensePlist
+    owner: mono0926
+    repo: LicensePlist
+  
+  - kind: secondary
+    case: releases
+    name: Moya
+    owner: Moya
+    repo: Moya
+  
+  - kind: secondary
+    case: releases
+    name: SwiftFormat
+    owner: nicklockwood
+    repo: SwiftFormat
+  
+  - kind: secondary
+    case: releases
+    name: The Composable Architecture
+    owner: pointfreeco
+    repo: swift-composable-architecture
+  
+  - kind: secondary
+    case: releases
+    name: RxSwift
+    owner: ReactiveX
+    repo: RxSwift
+  
+  - kind: secondary
+    case: releases
+    name: SwiftLint
+    owner: realm
+    repo: SwiftLint
+  
+  - kind: secondary
+    case: releases
+    name: SwiftGen
+    owner: SwiftGen
+    repo: SwiftGen
+  
+  - kind: secondary
+    case: releases
+    name: xcbeautify
+    owner: tuist
+    repo: xcbeautify
+  
+  - kind: secondary
+    case: releases
+    name: Mockolo
+    owner: uber
+    repo: mockolo
+  
+  - kind: secondary
+    case: releases
+    name: Mint
+    owner: yonaskolb
+    repo: Mint
+  
+  - kind: secondary
+    case: releases
+    name: XcodeGen
+    owner: yonaskolb
+    repo: XcodeGen

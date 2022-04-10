@@ -1,0 +1,36 @@
+name: Scheduled Run
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  scheduled-run:
+    name: Scheduled Run
+    runs-on: ubuntu-20.04
+    
+    steps:
+    - name: Show Swift version
+      run: |
+        swift --version
+        swift package --version
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+    - uses: actions/cache@v3
+      with:
+        path: .build
+        key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+        restore-keys: |
+          ${{ runner.os }}-spm-
+    - name: Run releaseSubscriptions
+      run: |
+        swift run -c release releaseSubscriptions --primary-slack-url ${{ secrets.SLACK_WEBHOOK_PRIMARY_URL }} --secondary-slack-url ${{ secrets.SLACK_WEBHOOK_SECONDARY_URL }}
+    - name: Commit and push if needed
+      run: |
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git add .
+        git diff-index --quiet HEAD || git commit -m 'Apply scheduled running result'
+        git push --quiet

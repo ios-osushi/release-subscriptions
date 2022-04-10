@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "82905286cc3f0fa8adc4674bf49437cab65a8373",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "swift-cmark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-cmark.git",
+      "state" : {
+        "branch" : "gfm",
+        "revision" : "792c1c3326327515ce9bf64c44196b7f4daab9a6"
+      }
+    },
+    {
+      "identity" : "swift-markdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-markdown",
+      "state" : {
+        "branch" : "main",
+        "revision" : "36cf89e36e94b025dbe37d82fe2a7da3f39d4204"
+      }
+    },
+    {
+      "identity" : "yamlswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/behrang/YamlSwift",
+      "state" : {
+        "revision" : "287f5cab7da0d92eb947b5fd8151b203ae04a9a3",
+        "version" : "3.4.4"
+      }
+    }
+  ],
+  "version" : 2
+}
