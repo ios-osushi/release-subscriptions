@@ -1,0 +1,14 @@
+[
+  {
+    "body" : "Initial release.",
+    "createdAt" : "2022-03-15T03:03:46+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "RE_kwDOGYmeSs4Drt-7",
+    "owner" : "apple",
+    "publishedAt" : "2022-03-15T03:05:12+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "Swift-DocC Plugin 1.0",
+    "url" : "https://github.com/apple/swift-docc-plugin/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  }
+]

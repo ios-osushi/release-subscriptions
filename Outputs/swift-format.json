@@ -1,0 +1,86 @@
+[
+  {
+    "body" : "This release is compatible with Swift 5.6.\r\n\r\nThis update fixes a build error caused by a conflicting Windows-only conformance from `swift-tools-support-core` and one that we added in our code base. (22f1843880ff57a3c288b7d76a204dec34397032)",
+    "createdAt" : "2022-03-23T03:04:06+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "RE_kwDOC7ABTs4DuYnC",
+    "owner" : "apple",
+    "publishedAt" : "2022-03-23T04:47:57+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50600.1",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50600.1",
+    "version" : "0.50600.1"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.6.\r\n\r\nSignificant changes since the last release:\r\n\r\n* Diagnostics have been refactored as \"findings\". Users of swift-format as an API (via the `SwiftFormatter` and `SwiftLinter` classes) now receive warnings and errors via a new `Finding` type that is independent of `SwiftSyntax` diagnostic types, for greater flexibility. (7aa5df515fb910b95fbae67277dd782e1a641efc)\r\n* Diagnostics are now printed in color if standard error is connected to a terminal. This can be controlled with the `--color-diagnostics/--no-color-diagnostics` command line flags (to force color output when redirected to something other than a terminal, or to disable color output to a terminal). (4f90887ba823784e1d3b76cdd9779310843c5a57)\r\n* Formatting of `throws` and `async` property effects has been fixed. (f646a1f6803b7bd131553d1a348f3552d8c4f62e, 55fc4e23e16f463d650c45dc53c7abc731ca6de1)\r\n* The legacy `-m/--mode` flag has been removed. (defb00db9aa9b0564d487eba52a222c5267ba81a)\r\n",
+    "createdAt" : "2022-03-19T04:32:09+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "RE_kwDOC7ABTs4DtXG0",
+    "owner" : "apple",
+    "publishedAt" : "2022-03-19T05:11:29+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50600.0",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50600.0",
+    "version" : "0.50600.0"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.5.\r\n\r\nSignificant changes since the last release:\r\n\r\n* New concurrency syntax added in Swift 5.5 is supported. (https://github.com/apple/swift-format/pull/258/commits/427d31451c36c2f7fb45dbd832c3b6f269bc1414)\r\n* Closures with attributes in their function signature are supported. (https://github.com/apple/swift-format/pull/258/commits/35e8687aff623042d188f6aaa24a1ecd27d55854)\r\n* Significant stability and performance improvements have been made to `--parallel` format mode. (https://github.com/apple/swift-format/pull/261/commits/6d500ea71337bc0581cc407b71fe09c106753fe8)\r\n* `generate-pipeline` no longer uses a hardcoded list of suppressed rules, instead marking those rules as opt-in. This makes two \"new\" rules available (they have always had implementations but have been suppressed): `UseEarlyExits` and `UseWhereClausesInForLoops`. These rules are not currently stable or well-tested so they are disabled by default. (https://github.com/apple/swift-format/pull/263/commits/6bd3a5512e3f686592c52f87ad6970f5a60e42b4)\r\n",
+    "createdAt" : "2021-09-22T08:40:09+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "RE_kwDOC7ABTs4C-0bo",
+    "owner" : "apple",
+    "publishedAt" : "2021-09-22T08:59:57+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50500.0",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50500.0",
+    "version" : "0.50500.0"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.4.\r\n\r\nSignificant changes since the last release:\r\n\r\n*   The `--parallel` flag supports formatting multiple files in parallel. This should be much faster when formatting large numbers of files. (a062ec84d3230f9b9055123c7bb2903780c84608)\r\n*   The `--ignore-unparsable-files` flag is now honored in `lint` mode; unparsable files are silently ignored and no diagnostic is emitted. (fc3fab6bf6541e611830b122711af0bd750dec6f)\r\n*   `#if` declarations surrounding `case` clauses inside a `switch` statement are formatted correctly. (8df2cb04f2aa41089cd14379552cb97bcc89133a)\r\n*   `UseLetInEveryBoundCaseVariable` no longer produces incorrect diagnostics for certain patterns. (c3c17adbd93d9117f1d23fb05ffb7c435c23b581)\r\n*   `BeginDocumentationCommentWithOneLineSummary` has been made opt-in by default. (22118db1668bb22af878d1ce31184533e419411b)\r\n*   `UseSynthesizedInitializer` now produces more accurate diagnostics by considering the visibility of the stored properties in the type. (dd87cc2c9696ce8460265533471c75c225cde4fe)\r\n",
+    "createdAt" : "2021-04-29T07:32:12+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTQyMTY4OTYx",
+    "owner" : "apple",
+    "publishedAt" : "2021-04-29T07:49:59+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50400.0",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50400.0",
+    "version" : "0.50400.0"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.3.\r\n\r\nSignificant changes since the last release:\r\n\r\n*   Support is added for rules to be opt-in rather than on-by-default. (40bab4e8b99d52dc561e62aa14e39d0d6cda7c17)\r\n*   The following rules have been made opt-in, because they are either too strict for many real-world use cases or are not yet correct enough to enable universally. Existing configuration files will not be affected, but when using the default configuration, these rules will be off by default: (1c2a5a2d244b89ef10195799bbe9ca86ecc15bf3, 642c2d17e50936aa517f08c72eed9826bc163e4d)\r\n    *   `AllPublicDeclarationsHaveDocumentation`\r\n    *   `NeverForceUnwrap`\r\n    *   `NeverUseForceTry`\r\n    *   `NeverUseImplicitlyUnwrappedOptionals`\r\n    *   `NoLeadingUnderscores`\r\n    *   `ValidateDocumentationComments`\r\n*   Improvements to `AlwaysUseLowerCamelCase`:\r\n    *   It is now applied to closure arguments and variables bound in `if/guard let` patterns. (7867cda76f800f6031cafa83793dd136f17b1c38)\r\n    *   Diagnostics are now clearer about the kind of declaration affected. (97628a8b0068fd0977ce50915c36f3dee8c5426a)\r\n    *   Functions that look like test case methods are excluded; for example, to support common naming schemes like `testSomeObject_inSomeState_actsSomeWay`. (90807621e2a52ca3432c56c3bb855bc89146b360)\r\n*   Improvements to `ValidateDocumentationComments`:\r\n    *   A `Returns` section is no longer required for functions that return `Never`. (674b34df5114291df26f0f9edba8b94b76c28f80)\r\n    *   Presence of absence of the `Throws` section is now validated against the function signature. (57a5cb66a72bd04c9a07635b8a980573033dcc96)\r\n*   Multiple trailing closures are formatted. (e286081a1342944236bde8653f5ca763ba61cfc3)\r\n*   Fix a crash when linting a collection literal with single element and a trailing comma. (483580f1d3047272292aa516e06a02adc8b365aa)\r\n*   Fixed invalid locations in some diagnostics. (ea02880b86bee22da9fbbfe37e43e17d75b673dd)\r\n*   Keep `try` keyword next to the expression following it whenever possible, only breaking between them when necessary. (35fdb4fff0aeb9a506fccdfad98fab16d907c173)\r\n*   Recursively apply `NoParensAroundCondition` to pick up nested occurrences. (ed45527f1c1891f90bb98c642275f43d164d56a1)\r\n*   Do not remove semicolons between a `do` block and a `while` block. (cb4e6210c637b4ce3fd3ae81d0241c2c02895bfb)\r\n*   Fix some situations where `OneVariableDeclarationPerLine` would incorrectly break declarations. (2b4364b7676964b430e66449e2981029e99ddd20)\r\n*   Add a `indentSwitchCaseLabels` configuration option to control whether `case` statements inside a `switch` are indented. (2107603c7a0cb549a2e3fc7c35e5740dd4bee90e)\r\n*   Speed and memory usage improvements when formatting and linting.\r\n",
+    "createdAt" : "2020-09-19T13:21:35+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTMxNTYwNTUw",
+    "owner" : "apple",
+    "publishedAt" : "2020-09-20T01:44:38+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50300.0",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50300.0",
+    "version" : "0.50300.0"
+  },
+  {
+    "body" : "Significant changes in this release:\r\n\r\n* Format property wrappers correctly. (e829789)\r\n* Move open group token past ifstmt's if token to avoid extra newlines. (5df9eb4)\r\n* Handle `@derivative` attribute without a `wrt:` clause. (2c29da1)\r\n* Disallow discretionary newlines before trailing closures. (a4100c3)\r\n* Disallow line breaks inside completely empty array and dictionary expressions. (66cac37)\r\n* Force all branches of an `if/else if/else` sequence to break inside the `{...}` if the sequence requires more than one line, even for branches that contain a single statement. (c52e0d2)\r\n* Fix indentation of wrapped conditions in `while` statements. (8fbc3f1)\r\n* Fix formatting of `@differentiable` containing only `wrt:` and `where` clauses. (0da09d0)\r\n* Fix counting of consecutive newlines. (513a2c7)\r\n* Apply `NoEmptyTrailingClosureParentheses` rule recursively. (5cca489)\r\n* Fix some cases where `class` declarations would overflow line length. (20162cd)\r\n* Prevent trailing commas from overflowing the maximum line length. (ed5f980)\r\n* Detect `()` cases previously missed by `ReturnVoidInsteadOfEmptyTuple`. (ff7ac9a)\r\n* Allow right parenthesis of an `enum` `case` to be on the same line as the last parameter. (a50d4fe)\r\n* Add spaces after labels for all statement types. (c7db906)\r\n* Fix `@differentiable` attribute formatting when the `where` clause is the first thing in the attribute, or when the `wrt:` clause is a tuple. (428b33c)\r\n* Remove calls to `FileHandle.synchronizeFile()` that were crashing on Linux. (744ca11)\r\n* Restrict doc-block to doc-line transform to first doc comment on a declaration. (58ccbf3)\r\n* Discard newlines when sorting imports. (47b5015)\r\n",
+    "createdAt" : "2020-05-01T08:22:52+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTI2MDY4Mjky",
+    "owner" : "apple",
+    "publishedAt" : "2020-05-01T08:23:59+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50200.1",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50200.1",
+    "version" : "0.50200.1"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.2.",
+    "createdAt" : "2020-04-02T07:22:42+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTI1MTExOTc5",
+    "owner" : "apple",
+    "publishedAt" : "2020-04-02T07:25:32+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50200.0",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50200.0",
+    "version" : "0.50200.0"
+  }
+]
