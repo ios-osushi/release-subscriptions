@@ -1,5 +1,17 @@
 [
   {
+    "body" : "### Changes\r\n\r\n- CMake builds now always statically link `ArgumentParserToolInfo`. (#424)\r\n\r\n### Fixes\r\n\r\n- When a user provides an array-based option's key (e.g. `--key`) without any values, the error message now correctly describes the problem. (#435)\r\n\r\nThe 1.1.2 release includes contributions from @compnerd and @KeithBird. Thank you!\r\n",
+    "createdAt" : "2022-04-12T03:49:23+09:00",
+    "fetchedFromAPIAt" : "2022-04-12T03:53:25+09:00",
+    "id" : "RE_kwDODmuHYc4D0tLC",
+    "owner" : "apple",
+    "publishedAt" : "2022-04-12T03:50:30+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.1.2",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.1.2",
+    "version" : "1.1.2"
+  },
+  {
     "body" : "### Fixes\r\n\r\n- Moves the platform requirement from the package level down to the new types and protocols with `async` members. This was a source-breaking change in 1.1.0. (#427)\r\n- Fixed issues in the CMake build configuration.",
     "createdAt" : "2022-03-16T22:18:20+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
