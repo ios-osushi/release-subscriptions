@@ -1,5 +1,29 @@
 [
   {
+    "body" : "#### Enhancements\n- Fixed build loop by changing SwiftGen to only write to the output file if the generated code is different from the file contents.  \n  [Mathias Nagler](https://github.com/mathiasnagler), [#90](https://github.com/AliSoftware/SwiftGen/pull/90)\n\n#### Fixes\n- Fixed typos in code and descriptions: _instanciate_ -> _instantiate_. Please note that the default template used for storyboards `storyboards-default.stencil` had to be modified, so make sure to update your codebase accordingly.  \n  [Pan Kolega](https://github.com/pankolega), [#83](https://github.com/AliSoftware/SwiftGen/pull/83)\n- Fixed issue in `Rakefile` when trying to install via `rake` in a path containing `~`.  \n  [Jesse Armand](https://github.com/jessearmand), [#88](https://github.com/AliSoftware/SwiftGen/pull/88)\n",
+    "createdAt" : "2016-02-19T22:38:36+09:00",
+    "fetchedFromAPIAt" : "2022-04-12T16:43:46+09:00",
+    "id" : "MDc6UmVsZWFzZTI2NTE3MTA=",
+    "owner" : "SwiftGen",
+    "publishedAt" : "2016-02-20T06:09:25+09:00",
+    "repository" : "SwiftGen",
+    "title" : "",
+    "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/0.7.6",
+    "version" : "0.7.6"
+  },
+  {
+    "body" : "#### Enhancements\n- Updated stencils and unit tests to pass [SwiftLint](https://github.com/realm/SwiftLint).  \n  [Adam Gask](https://github.com/AJ9), [#79](https://github.com/AliSoftware/SwiftGen/pull/79)\n- Updated `storyboards-default.stencil` to better avoid name confusions.  \n  [Olivier Halligon](https://github.com/AliSoftware)\n  - Now `cases` names are suffixed with `…Scene` and `static func` are prefixed with `instantiate…` to lower the risks of a name conflict with your ViewController classes.\n  - The old template is still available but has been renamed `storyboards-uppercase.stencil`\n- Added support for `*.clr` files (files to store `NSColorList`'s presented in Color Picker on \"Color Palettes\" tab)  \n  [Ilya Puchka](https://github.com/ilyapuchka), [#81](https://github.com/AliSoftware/SwiftGen/pull/81)\n",
+    "createdAt" : "2016-01-11T23:50:37+09:00",
+    "fetchedFromAPIAt" : "2022-04-12T16:43:46+09:00",
+    "id" : "MDc6UmVsZWFzZTI2NTE3MDg=",
+    "owner" : "SwiftGen",
+    "publishedAt" : "2016-02-20T06:09:16+09:00",
+    "repository" : "SwiftGen",
+    "title" : "",
+    "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/0.7.5",
+    "version" : "0.7.5"
+  },
+  {
     "body" : "### Bug Fixes\n\n* Workaround for Mint that does not yet support the SPM resource bundle.  \n  [@tid-kijyun](https://github.com/tid-kijyun)\n  [#883](https://github.com/SwiftGen/SwiftGen/issues/883)\n  [#885](https://github.com/SwiftGen/SwiftGen/pull/885)\n\n### Internal Changes\n\n* Tweak release script to handle both universal & slim builds.  \n  [David Jennes](https://github.com/djbe)\n  [#884](https://github.com/SwiftGen/SwiftGen/pull/884)",
     "createdAt" : "2021-10-05T02:43:14+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
