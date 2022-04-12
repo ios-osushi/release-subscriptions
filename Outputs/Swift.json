@@ -1,5 +1,29 @@
 [
   {
+    "body" : "Release info: https://swift.org/blog/swift-4-1-released/",
+    "createdAt" : "2018-03-30T04:17:27+09:00",
+    "fetchedFromAPIAt" : "2022-04-12T19:16:11+09:00",
+    "id" : "MDc6UmVsZWFzZTEwMzI3MDUx",
+    "owner" : "apple",
+    "publishedAt" : "2018-03-30T08:24:57+09:00",
+    "repository" : "swift",
+    "title" : "Swift 4.1 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-4.1-RELEASE",
+    "version" : "swift-4.1-RELEASE"
+  },
+  {
+    "body" : "This preview contains the following repositories:\nhttps://github.com/apple/swift\nhttps://github.com/apple/swift-clang\nhttps://github.com/apple/swift-llbuild\nhttps://github.com/apple/swift-llvm\nhttps://github.com/apple/swift-corelib-libdispatch\nhttps://github.com/apple/swift-corelibs-foundation\nhttps://github.com/apple/swift-corelibs-xctest\nhttps://github.com/apple/swift-package-manager\nhttps://github.com/apple/swift-cmark\nhttps://github.com/apple/swift-integration-tests\nhttps://github.com/apple/swift-xcode-playground-support\n\nBuilding this preview on macOS requires [Xcode 8.1 beta 3](https://developer.apple.com/xcode/download). \n",
+    "createdAt" : "2016-10-12T06:57:49+09:00",
+    "fetchedFromAPIAt" : "2022-04-12T19:16:11+09:00",
+    "id" : "MDc6UmVsZWFzZTQzNjU3Njc=",
+    "owner" : "apple",
+    "publishedAt" : "2016-10-12T14:36:36+09:00",
+    "repository" : "swift",
+    "title" : "Swift 3.0.1 Preview 3",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-3.0.1-PREVIEW-3",
+    "version" : "swift-3.0.1-PREVIEW-3"
+  },
+  {
     "body" : "",
     "createdAt" : "2022-04-06T05:34:29+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",

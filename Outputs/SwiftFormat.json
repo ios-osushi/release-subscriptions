@@ -1,5 +1,17 @@
 [
   {
+    "body" : "- The `blankLinesBetweenScopes` no longer inserts a blank line before Sourcery comment directives\r\n- Fixed bug where `redundantFileprivate` rule could break code that uses property wrappers\r\n- Fixed crash in `parseDeclarations` helper",
+    "createdAt" : "2020-12-28T22:16:34+09:00",
+    "fetchedFromAPIAt" : "2022-04-12T19:16:11+09:00",
+    "id" : "MDc6UmVsZWFzZTM1NzczNjIw",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2020-12-28T23:31:00+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.47.10",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.47.10",
+    "version" : "0.47.10"
+  },
+  {
     "body" : "- Redundant `self` is now correctly removed in `if let` assignments\r\n- Fixed infinite recursion bug that would cause formatting to time out for some inputs\r\n- Lint failure now returns an error code when using stdin, matching behavior for file inputs\r\n- Fixed bug where parens were incorrectly removed around optional ranges\r\n- Updated `unusedParens` rule for new shorthand `if let` syntax in Swift 5.7\r\n- Updated indenting of function chains to match latest Xcode behavior\r\n- Fixed build error on macOS 10.11 and earlier",
     "createdAt" : "2022-04-04T08:10:33+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",

@@ -1,5 +1,17 @@
 [
   {
+    "body" : "* Adds `UINavigationController` delegate proxy and extensions:\r\n    * `willShow`\r\n    * `didShow`\r\n* Deprecates `TestScheduler.start(_:create:)` in favor of `TestScheduler.start(disposed:create:)`.\r\n* Deprecates `TestScheduler.start(_:subscribed:disposed:create:)` in favor of `TestScheduler.start(created:subscribed:disposed:create:)`.\r\n\r\n#### Anomalies\r\n\r\n* Fixes observable sequence completion in case of empty arrays for `combineLatest` and `zip`. #1205\r\n* Fixes array version of `merge` operator completing immediately in case one of the observable sequences is empty. #1221\r\n* Adds RxTest to SPM. #1215\r\n* Adds tuple version of operator `SharedSequence.zip` (collection).\r\n* Adds tuple version of operator `SharedSequence.zip`.\r\n* Adds tuple version of operator `SharedSequence.combineLatest` (collection).\r\n* Adds tuple version of operator `SharedSequence.combineLatest`.\r\n* Adds missing `trimOutput` parameter to `SharedSequence.debug`.\r\n* Makes `RxImagePickerDelegateProxy` subclass of `RxNavigationControllerDelegateProxy`.",
+    "createdAt" : "2017-05-01T20:17:41+09:00",
+    "fetchedFromAPIAt" : "2022-04-12T19:16:11+09:00",
+    "id" : "MDc6UmVsZWFzZTYyNDUyMDA=",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2017-05-02T07:29:42+09:00",
+    "repository" : "RxSwift",
+    "title" : "David.1",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/3.4.1",
+    "version" : "3.4.1"
+  },
+  {
     "body" : "## RxSwift 6.5.0 - Swift Concurrency is here! 🎊💯\r\n\r\n\r\nYou can now use `await` on `Observable`-conforming objects (as well as `Driver`, `Signal`, `Infallible`, `Single`, `Completable`) using the following syntax:\r\n\r\n```swift\r\ndo {\r\n  for try await value in observable.values {\r\n      print(value) // Next event\r\n  }\r\n  // Completed here\r\n} catch {\r\n  // Error event\r\n  print(\"An error occurred:\", error.localizedDescription)\r\n}\r\n```\r\n\r\nCheck out the [full documentation](https://github.com/ReactiveX/RxSwift/blob/main/Documentation/SwiftConcurrency.md) for additional information: https://github.com/ReactiveX/RxSwift/blob/main/Documentation/SwiftConcurrency.md\r\n",
     "createdAt" : "2022-01-15T04:13:49+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
