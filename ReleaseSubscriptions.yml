@@ -180,6 +180,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: Quick
+    owner: Quick
+    repo: Quick
+  
+  - kind: secondary
+    case: releases
     name: RxSwift
     owner: ReactiveX
     repo: RxSwift
