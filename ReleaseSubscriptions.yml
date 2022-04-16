@@ -180,6 +180,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: Nimble
+    owner: Quick
+    repo: Nimble
+  
+  - kind: secondary
+    case: releases
     name: Quick
     owner: Quick
     repo: Quick
