@@ -1,15 +1,75 @@
 [
   {
-    "body" : "This release resolves issues uncovered since 1.0.1 was tagged, including a high severity crash in `OrderedSet` and `OrderedDictionary`. Upgrading is recommended for all clients.\r\n\r\n### Fixes\r\n\r\n- Fixed a value semantic violation in `OrderedSet` and `OrderedDictionary` that could result in some mutation methods corrupting shared copies of the same value, leading to subsequent crashes. (Issue #104)\r\n- `Deque.append(contentsOf:)` now uses an exponential storage resizing strategy, as expected. Calling it in a loop no longer results in O(n) reallocations. (Issue #113)\r\n\r\n### Pull requests\r\n\r\n- #113 [Deque] append(contentsOf:): Use exponential capacity reservation (by @lorentey)\r\n- #123 [OrderedSet] Add missing uniqueness check (by @lorentey)\r\n- #126 [Utils] run-full-tests.sh: Keep going after a failure (by @lorentey)\r\n- #128 [Utils] run-full-tests.sh: Add support for testing on Swift 5.3 without manual editing (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
-    "createdAt" : "2021-11-16T09:15:59+09:00",
+    "body" : "### Fixes\r\n\r\n- Work around a nondeterministic build issue that triggered a compiler crash on some machines (#56)\r\n- Basic support for building on OpenBSD (#52)\r\n- Building the package with COLLECTIONS_INTERNAL_CHECKS no longer fails (#53)\r\n\r\n### Pull requests \r\n\r\n- #52: Changes to support OpenBSD (by @3405691582)\r\n- #53: Update invalid OrderedDictionary invariant check (by @vihanb)\r\n- #55: Fixing a small typo on quick help docs (by @rkreutz)\r\n- #54: Mark OrderedSetDiffingTests with availability (by @amonshiz)\r\n- #60: [CMake] Update config to prepare for SwiftPM adoption (by @lorentey)\r\n- #62: Work around another MergeModules crash (by @lorentey)\r\n- #63: [test] `checkCollection`: Don’t pass decreasing indices to `distance(from:to:)` (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
+    "createdAt" : "2021-07-09T10:48:48+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "RE_kwDOFDfRzs4DL1Ie",
+    "id" : "MDc6UmVsZWFzZTQ1OTQxNzM1",
     "owner" : "apple",
-    "publishedAt" : "2021-11-16T09:59:32+09:00",
+    "publishedAt" : "2021-07-09T10:54:02+09:00",
     "repository" : "swift-collections",
-    "title" : "Swift Collections 1.0.2",
-    "url" : "https://github.com/apple/swift-collections/releases/tag/1.0.2",
-    "version" : "1.0.2"
+    "title" : "Swift Collections 0.0.4",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.4",
+    "version" : "0.0.4"
+  },
+  {
+    "body" : "This release consists of an update to the CMake config that is used during non-bootstrapped builds of the Swift toolchain. It contains no changes for package-based projects.\r\n\r\n### Pull requests \r\n\r\n- #64: Add arm64 support to CMake build (by @neonichu)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
+    "createdAt" : "2021-07-30T11:57:47+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTQ3MDE5MTE1",
+    "owner" : "apple",
+    "publishedAt" : "2021-07-30T12:10:00+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 0.0.5",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.5",
+    "version" : "0.0.5"
+  },
+  {
+    "body" : "This release prepares for source stability by deprecating some OrderedDictionary APIs that we'd like to remove in version 1.0 of the package. (All deprecated names have reasonable replacements.)\r\n\r\n### Changes\r\n\r\n- The two `OrderedDictionary.modifyValue` methods were renamed `updateValue`, to better align with the standard `updateValue` function (#90)\r\n    ```swift\r\n    /* Old: */ d.modifyValue(forKey: key,  default: []) { $0.append(newValue) }\r\n    /* New: */ d.updateValue(forKey: key,  default: []) { $0.append(newValue) }\r\n\r\n    /* Old: */ d.modifyValue(forKey: key,  insertingDefault: [], at: 0) { $0.append(newValue) }\r\n    /* New: */ d.updateValue(forKey: key,  insertingDefault: [], at: 0) { $0.append(newValue) }\r\n    ```\r\n- `OrderedDictionary.subscript(offset:)` was removed; it used inconsistent terminology. To access a key-value pair at a given position, you can continue using the unlabeled subscript on the `elements` view.\r\n\r\n    ```swift\r\n    /*  Deprecated: */ d[offset: 42]\r\n    /* Replacement: */ d.element[42]\r\n    ```\r\n- The collections benchmarks were moved to a standalone nested package in a subdirectory of the repository, allowing the top-level package manifest to stop declaring a dependency on [swift-collections-benchmark](https://github.com/apple/swift-collections-benchmark). This will make it easier to add Swift Collections as a dependency, especially in projects such as the Package Manager (or the benchmarking tool itself).\r\n\r\nThe old names for removed/renamed APIs are still available as deprecated members -- these will be removed in the 1.0 release. \r\n\r\n### Pull requests\r\n\r\n- #81 Fix typos: missing subscript parameters (by @ejmarchant)\r\n- #82 Fix documentation for types conforming to ExpressibleByArrayLiteral or ExpressibleByDictionaryLiteral (by @ejmarchant)\r\n- #86 Stop depending on swift-collections-benchmark (by @lorentey)\r\n- #91 [OrderedDictionary] modifyValue → updateValue (by @lorentey)\r\n- #93 Add Benchmarks package to workspace (by @lorentey)\r\n- #92 [OrderedDictionary] Deprecate `subscript(offset:)` for now (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
+    "createdAt" : "2021-08-20T11:26:41+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTQ4MTk5ODUx",
+    "owner" : "apple",
+    "publishedAt" : "2021-08-21T03:52:06+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 0.0.7",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.7",
+    "version" : "0.0.7"
+  },
+  {
+    "body" : "This is the initial release.",
+    "createdAt" : "2021-04-06T01:41:00+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTQwOTYyNTI5",
+    "owner" : "apple",
+    "publishedAt" : "2021-04-06T05:41:14+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 0.0.1",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.1",
+    "version" : "0.0.1"
+  },
+  {
+    "body" : "### Additions\r\n\r\n- `OrderedSet` now implements an efficient, linear time diffing algorithm, like Foundation's `NSOrderedSet` and SwiftUI's `List`. (https://github.com/apple/swift-collections/pull/6)\r\n\r\n### Fixes\r\n\r\n- We've worked around a nondeterministic build issue that triggered a compiler crash on a minority of machines. (https://github.com/apple/swift-collections/issues/7)\r\n\r\n### Pull requests\r\n\r\n(You can also find a full list of issues resolved and PRs merged in this release by looking at the [0.0.2 milestone](https://github.com/apple/swift-collections/issues?q=milestone%3A0.0.2).)\r\n\r\n* #6: Efficient diffing for OrderedSet (by @numist)\r\n* #8: Fixes link to combinatorics. (by @powerje)\r\n* #9: Minor doc fix (by @byaruhaf)\r\n* #12: Remove outdated passage in OrderedSet.init(minimumCapacity:persistent:) docs (by @lorentey)\r\n* #14: Correct typo for address sanitizer (by @toddpress)\r\n* #15: Update Package.resolved with swift-collections-benchmark package (by @Sajjon)\r\n* #16: Update Xcode schemes for the package (by @lorentey)\r\n* #18: Fix nondeterministic compiler crash in debug builds (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.\r\n",
+    "createdAt" : "2021-04-10T16:17:50+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTQxMjI3ODM2",
+    "owner" : "apple",
+    "publishedAt" : "2021-04-11T04:49:46+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 0.0.2",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.2",
+    "version" : "0.0.2"
+  },
+  {
+    "body" : "### Fixes\r\n\r\n- The repository no longer contains files with invalid names on Windows (#33)\r\n- `Deque.append(contentsOf:)`, `.prepend(contentsOf:)` and the sequence-based initializer no longer crash when given an array instance bridged from Objective-C. (#27)\r\n- `OrderedSet.insert` is now marked `@discardableResult`. (#19)\r\n- The benchmark executable is no longer exposed as a public package product. (#28)\r\n\r\n### Pull requests\r\n\r\n(You can also find a full list of issues resolved and PRs merged in this release by looking at the [0.0.3 milestone](https://github.com/apple/swift-collections/issues?q=milestone%3A0.0.3).)\r\n\r\n* #10: [meta] Update links in PR templates (by @lorentey)\r\n* #13: Add Package.resolved to .gitignore (by @maniramezan)\r\n* #21: Add the @discardableResult attribute to OrderedSet.insert(_:at:) (by @kielgillard)\r\n* #23: Fix CollectionTestCase calling super's setup on tearDown issue (by @abintom)\r\n* #25: Update to swift-collections-benchmark 0.0.2 (by @lorentey)\r\n* #26: [OrderedDictionary] Document encoding format (by @lorentey)\r\n* #28: [OrderedCollections] Correct spelling of BitsetTests filename (by @msteindorfer)\r\n* #32: Replace Index with Int where possible (by @Frizlab)\r\n* #34: Documentation: remove invalid file characters (by @compnerd)\r\n* #36: Remove the benchmark product from the package manifest (by @lorentey)\r\n* #40: Add Xcode template file with license comment. (by @vihanb)\r\n* #41: git: ignore vim swap files (by @compnerd)\r\n* #42: build: add a CMake based build system (by @compnerd)\r\n* #44: [Deque] Work around stdlib issue with Array.withContiguousStorageIfAvailable (by @lorentey)\r\n* #47: [manifest] Ignore CMake files (by @lorentey)\r\n* #48: [meta] Update dependencies (by @lorentey)\r\n* #49: [Deque][NFC] Remove unused code (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.\r\n",
+    "createdAt" : "2021-05-28T12:08:42+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTQzNzQwOTUx",
+    "owner" : "apple",
+    "publishedAt" : "2021-05-28T12:35:05+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 0.0.3",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.3",
+    "version" : "0.0.3"
   },
   {
     "body" : "### Changes\r\n\r\n- The CMake configuration now supports building the package for AArch64 Linux distributions, unblocking adoption in SPM. \r\n\r\n    (Note that the CMake configuration is intended only to support the use of this package from within Swift toolchain builds. It is provided as is, with no source compatibility guarantees.)\r\n\r\n- Minor documentation updates.\r\n\r\n### Pull requests\r\n\r\n- #111 [CMake] Match lowercase \"aarch64\" (by @neonichu)\r\n- #112 [OrderedSet][doc] Fix thinko (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
@@ -36,75 +96,15 @@
     "version" : "1.0.0"
   },
   {
-    "body" : "This release prepares for source stability by deprecating some OrderedDictionary APIs that we'd like to remove in version 1.0 of the package. (All deprecated names have reasonable replacements.)\r\n\r\n### Changes\r\n\r\n- The two `OrderedDictionary.modifyValue` methods were renamed `updateValue`, to better align with the standard `updateValue` function (#90)\r\n    ```swift\r\n    /* Old: */ d.modifyValue(forKey: key,  default: []) { $0.append(newValue) }\r\n    /* New: */ d.updateValue(forKey: key,  default: []) { $0.append(newValue) }\r\n\r\n    /* Old: */ d.modifyValue(forKey: key,  insertingDefault: [], at: 0) { $0.append(newValue) }\r\n    /* New: */ d.updateValue(forKey: key,  insertingDefault: [], at: 0) { $0.append(newValue) }\r\n    ```\r\n- `OrderedDictionary.subscript(offset:)` was removed; it used inconsistent terminology. To access a key-value pair at a given position, you can continue using the unlabeled subscript on the `elements` view.\r\n\r\n    ```swift\r\n    /*  Deprecated: */ d[offset: 42]\r\n    /* Replacement: */ d.element[42]\r\n    ```\r\n- The collections benchmarks were moved to a standalone nested package in a subdirectory of the repository, allowing the top-level package manifest to stop declaring a dependency on [swift-collections-benchmark](https://github.com/apple/swift-collections-benchmark). This will make it easier to add Swift Collections as a dependency, especially in projects such as the Package Manager (or the benchmarking tool itself).\r\n\r\nThe old names for removed/renamed APIs are still available as deprecated members -- these will be removed in the 1.0 release. \r\n\r\n### Pull requests\r\n\r\n- #81 Fix typos: missing subscript parameters (by @ejmarchant)\r\n- #82 Fix documentation for types conforming to ExpressibleByArrayLiteral or ExpressibleByDictionaryLiteral (by @ejmarchant)\r\n- #86 Stop depending on swift-collections-benchmark (by @lorentey)\r\n- #91 [OrderedDictionary] modifyValue → updateValue (by @lorentey)\r\n- #93 Add Benchmarks package to workspace (by @lorentey)\r\n- #92 [OrderedDictionary] Deprecate `subscript(offset:)` for now (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
-    "createdAt" : "2021-08-20T11:26:41+09:00",
+    "body" : "This release resolves issues uncovered since 1.0.1 was tagged, including a high severity crash in `OrderedSet` and `OrderedDictionary`. Upgrading is recommended for all clients.\r\n\r\n### Fixes\r\n\r\n- Fixed a value semantic violation in `OrderedSet` and `OrderedDictionary` that could result in some mutation methods corrupting shared copies of the same value, leading to subsequent crashes. (Issue #104)\r\n- `Deque.append(contentsOf:)` now uses an exponential storage resizing strategy, as expected. Calling it in a loop no longer results in O(n) reallocations. (Issue #113)\r\n\r\n### Pull requests\r\n\r\n- #113 [Deque] append(contentsOf:): Use exponential capacity reservation (by @lorentey)\r\n- #123 [OrderedSet] Add missing uniqueness check (by @lorentey)\r\n- #126 [Utils] run-full-tests.sh: Keep going after a failure (by @lorentey)\r\n- #128 [Utils] run-full-tests.sh: Add support for testing on Swift 5.3 without manual editing (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
+    "createdAt" : "2021-11-16T09:15:59+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTQ4MTk5ODUx",
+    "id" : "RE_kwDOFDfRzs4DL1Ie",
     "owner" : "apple",
-    "publishedAt" : "2021-08-21T03:52:06+09:00",
+    "publishedAt" : "2021-11-16T09:59:32+09:00",
     "repository" : "swift-collections",
-    "title" : "Swift Collections 0.0.7",
-    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.7",
-    "version" : "0.0.7"
-  },
-  {
-    "body" : "This release consists of an update to the CMake config that is used during non-bootstrapped builds of the Swift toolchain. It contains no changes for package-based projects.\r\n\r\n### Pull requests \r\n\r\n- #64: Add arm64 support to CMake build (by @neonichu)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
-    "createdAt" : "2021-07-30T11:57:47+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTQ3MDE5MTE1",
-    "owner" : "apple",
-    "publishedAt" : "2021-07-30T12:10:00+09:00",
-    "repository" : "swift-collections",
-    "title" : "Swift Collections 0.0.5",
-    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.5",
-    "version" : "0.0.5"
-  },
-  {
-    "body" : "### Fixes\r\n\r\n- Work around a nondeterministic build issue that triggered a compiler crash on some machines (#56)\r\n- Basic support for building on OpenBSD (#52)\r\n- Building the package with COLLECTIONS_INTERNAL_CHECKS no longer fails (#53)\r\n\r\n### Pull requests \r\n\r\n- #52: Changes to support OpenBSD (by @3405691582)\r\n- #53: Update invalid OrderedDictionary invariant check (by @vihanb)\r\n- #55: Fixing a small typo on quick help docs (by @rkreutz)\r\n- #54: Mark OrderedSetDiffingTests with availability (by @amonshiz)\r\n- #60: [CMake] Update config to prepare for SwiftPM adoption (by @lorentey)\r\n- #62: Work around another MergeModules crash (by @lorentey)\r\n- #63: [test] `checkCollection`: Don’t pass decreasing indices to `distance(from:to:)` (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.",
-    "createdAt" : "2021-07-09T10:48:48+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTQ1OTQxNzM1",
-    "owner" : "apple",
-    "publishedAt" : "2021-07-09T10:54:02+09:00",
-    "repository" : "swift-collections",
-    "title" : "Swift Collections 0.0.4",
-    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.4",
-    "version" : "0.0.4"
-  },
-  {
-    "body" : "### Fixes\r\n\r\n- The repository no longer contains files with invalid names on Windows (#33)\r\n- `Deque.append(contentsOf:)`, `.prepend(contentsOf:)` and the sequence-based initializer no longer crash when given an array instance bridged from Objective-C. (#27)\r\n- `OrderedSet.insert` is now marked `@discardableResult`. (#19)\r\n- The benchmark executable is no longer exposed as a public package product. (#28)\r\n\r\n### Pull requests\r\n\r\n(You can also find a full list of issues resolved and PRs merged in this release by looking at the [0.0.3 milestone](https://github.com/apple/swift-collections/issues?q=milestone%3A0.0.3).)\r\n\r\n* #10: [meta] Update links in PR templates (by @lorentey)\r\n* #13: Add Package.resolved to .gitignore (by @maniramezan)\r\n* #21: Add the @discardableResult attribute to OrderedSet.insert(_:at:) (by @kielgillard)\r\n* #23: Fix CollectionTestCase calling super's setup on tearDown issue (by @abintom)\r\n* #25: Update to swift-collections-benchmark 0.0.2 (by @lorentey)\r\n* #26: [OrderedDictionary] Document encoding format (by @lorentey)\r\n* #28: [OrderedCollections] Correct spelling of BitsetTests filename (by @msteindorfer)\r\n* #32: Replace Index with Int where possible (by @Frizlab)\r\n* #34: Documentation: remove invalid file characters (by @compnerd)\r\n* #36: Remove the benchmark product from the package manifest (by @lorentey)\r\n* #40: Add Xcode template file with license comment. (by @vihanb)\r\n* #41: git: ignore vim swap files (by @compnerd)\r\n* #42: build: add a CMake based build system (by @compnerd)\r\n* #44: [Deque] Work around stdlib issue with Array.withContiguousStorageIfAvailable (by @lorentey)\r\n* #47: [manifest] Ignore CMake files (by @lorentey)\r\n* #48: [meta] Update dependencies (by @lorentey)\r\n* #49: [Deque][NFC] Remove unused code (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.\r\n",
-    "createdAt" : "2021-05-28T12:08:42+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTQzNzQwOTUx",
-    "owner" : "apple",
-    "publishedAt" : "2021-05-28T12:35:05+09:00",
-    "repository" : "swift-collections",
-    "title" : "Swift Collections 0.0.3",
-    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.3",
-    "version" : "0.0.3"
-  },
-  {
-    "body" : "### Additions\r\n\r\n- `OrderedSet` now implements an efficient, linear time diffing algorithm, like Foundation's `NSOrderedSet` and SwiftUI's `List`. (https://github.com/apple/swift-collections/pull/6)\r\n\r\n### Fixes\r\n\r\n- We've worked around a nondeterministic build issue that triggered a compiler crash on a minority of machines. (https://github.com/apple/swift-collections/issues/7)\r\n\r\n### Pull requests\r\n\r\n(You can also find a full list of issues resolved and PRs merged in this release by looking at the [0.0.2 milestone](https://github.com/apple/swift-collections/issues?q=milestone%3A0.0.2).)\r\n\r\n* #6: Efficient diffing for OrderedSet (by @numist)\r\n* #8: Fixes link to combinatorics. (by @powerje)\r\n* #9: Minor doc fix (by @byaruhaf)\r\n* #12: Remove outdated passage in OrderedSet.init(minimumCapacity:persistent:) docs (by @lorentey)\r\n* #14: Correct typo for address sanitizer (by @toddpress)\r\n* #15: Update Package.resolved with swift-collections-benchmark package (by @Sajjon)\r\n* #16: Update Xcode schemes for the package (by @lorentey)\r\n* #18: Fix nondeterministic compiler crash in debug builds (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.\r\n",
-    "createdAt" : "2021-04-10T16:17:50+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTQxMjI3ODM2",
-    "owner" : "apple",
-    "publishedAt" : "2021-04-11T04:49:46+09:00",
-    "repository" : "swift-collections",
-    "title" : "Swift Collections 0.0.2",
-    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.2",
-    "version" : "0.0.2"
-  },
-  {
-    "body" : "This is the initial release.",
-    "createdAt" : "2021-04-06T01:41:00+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTQwOTYyNTI5",
-    "owner" : "apple",
-    "publishedAt" : "2021-04-06T05:41:14+09:00",
-    "repository" : "swift-collections",
-    "title" : "Swift Collections 0.0.1",
-    "url" : "https://github.com/apple/swift-collections/releases/tag/0.0.1",
-    "version" : "0.0.1"
+    "title" : "Swift Collections 1.0.2",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.0.2",
+    "version" : "1.0.2"
   }
 ]

@@ -34,6 +34,26 @@ extension Release: Equatable {
     }
 }
 
+extension Release: Hashable {
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(owner)
+        hasher.combine(repository)
+        hasher.combine(version)
+        hasher.combine(title)
+        hasher.combine(body)
+        hasher.combine(url)
+        hasher.combine(createdAt)
+        hasher.combine(publishedAt)
+    }
+}
+
+extension Release: Comparable {
+    public static func < (lhs: Release, rhs: Release) -> Bool {
+        lhs.id < rhs.id
+    }
+}
+
 extension Release: Encodable {}
 
 extension Release: Decodable {

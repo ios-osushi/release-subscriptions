@@ -1,39 +1,15 @@
 [
   {
-    "body" : "## What's Changed\r\n* build: install CSystem into the system by @compnerd in https://github.com/apple/swift-system/pull/74\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.1.0...1.1.1",
-    "createdAt" : "2021-12-03T04:22:32+09:00",
+    "body" : "Initial release",
+    "createdAt" : "2020-09-26T00:20:58+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "RE_kwDOEcmZD84DQCWU",
+    "id" : "MDc6UmVsZWFzZTMxNzkwNzMz",
     "owner" : "apple",
-    "publishedAt" : "2021-12-03T06:41:43+09:00",
+    "publishedAt" : "2020-09-26T00:39:47+09:00",
     "repository" : "swift-system",
-    "title" : "System 1.1.1",
-    "url" : "https://github.com/apple/swift-system/releases/tag/1.1.1",
-    "version" : "1.1.1"
-  },
-  {
-    "body" : "Picks up pipe API and cmake changes.\r\n\r\n## What's Changed\r\n* Implement `FileDescriptor.Pipe()` by @GeorgeLyon in https://github.com/apple/swift-system/pull/58\r\n* Minor fixes in documentation comments by @amartini51 in https://github.com/apple/swift-system/pull/69\r\n* update cmake setup so that the library can be used by SwiftPM cmake build by @tomerd in https://github.com/apple/swift-system/pull/73\r\n\r\n## New Contributors\r\n* @GeorgeLyon made their first contribution in https://github.com/apple/swift-system/pull/58\r\n* @tomerd made their first contribution in https://github.com/apple/swift-system/pull/73\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.0.0...1.0.1",
-    "createdAt" : "2021-12-01T02:50:50+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "RE_kwDOEcmZD84DPUPr",
-    "owner" : "apple",
-    "publishedAt" : "2021-12-01T03:00:37+09:00",
-    "repository" : "swift-system",
-    "title" : "System 1.1.0",
-    "url" : "https://github.com/apple/swift-system/releases/tag/1.1.0",
-    "version" : "1.1.0"
-  },
-  {
-    "body" : "Official 1.0 release!\r\n\r\nSystem is already source and binary stable (at least on Darwin), so in practice this doesn't change much about System's development or guarantees (`1.0.0` is effectively the same as `0.0.3`). But, it does formalize the source stability guarantee for clients of the package.",
-    "createdAt" : "2021-09-02T00:26:18+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTQ4ODI3MzQ4",
-    "owner" : "apple",
-    "publishedAt" : "2021-09-02T00:30:35+09:00",
-    "repository" : "swift-system",
-    "title" : "System 1.0",
-    "url" : "https://github.com/apple/swift-system/releases/tag/1.0.0",
-    "version" : "1.0.0"
+    "title" : "System 0.0.1",
+    "url" : "https://github.com/apple/swift-system/releases/tag/0.0.1",
+    "version" : "0.0.1"
   },
   {
     "body" : "Contains bug fixes for Windows, and minor fixes for SystemChar.",
@@ -48,6 +24,18 @@
     "version" : "0.0.3"
   },
   {
+    "body" : "Official 1.0 release!\r\n\r\nSystem is already source and binary stable (at least on Darwin), so in practice this doesn't change much about System's development or guarantees (`1.0.0` is effectively the same as `0.0.3`). But, it does formalize the source stability guarantee for clients of the package.",
+    "createdAt" : "2021-09-02T00:26:18+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "MDc6UmVsZWFzZTQ4ODI3MzQ4",
+    "owner" : "apple",
+    "publishedAt" : "2021-09-02T00:30:35+09:00",
+    "repository" : "swift-system",
+    "title" : "System 1.0",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  },
+  {
     "body" : "* [FilePath Syntactic Operations](https://github.com/apple/swift-system/pull/14)\r\n  * decompose a path, analyze a path, components view, mutate a path, etc\r\n* [Standard file descriptors](https://github.com/apple/swift-system/pull/21)\r\n  * static `FileDescriptor.standardInput`, `FileDescriptor.standardOutput`, `FileDescriptor.standardError`\r\n* [dup/dup2](https://github.com/apple/swift-system/pull/28)\r\n  * `FileDescriptor.duplicate`, with optional `as` target.\r\n",
     "createdAt" : "2021-05-14T06:42:38+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
@@ -60,15 +48,27 @@
     "version" : "0.0.2"
   },
   {
-    "body" : "Initial release",
-    "createdAt" : "2020-09-26T00:20:58+09:00",
+    "body" : "Picks up pipe API and cmake changes.\r\n\r\n## What's Changed\r\n* Implement `FileDescriptor.Pipe()` by @GeorgeLyon in https://github.com/apple/swift-system/pull/58\r\n* Minor fixes in documentation comments by @amartini51 in https://github.com/apple/swift-system/pull/69\r\n* update cmake setup so that the library can be used by SwiftPM cmake build by @tomerd in https://github.com/apple/swift-system/pull/73\r\n\r\n## New Contributors\r\n* @GeorgeLyon made their first contribution in https://github.com/apple/swift-system/pull/58\r\n* @tomerd made their first contribution in https://github.com/apple/swift-system/pull/73\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.0.0...1.0.1",
+    "createdAt" : "2021-12-01T02:50:50+09:00",
     "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
-    "id" : "MDc6UmVsZWFzZTMxNzkwNzMz",
+    "id" : "RE_kwDOEcmZD84DPUPr",
     "owner" : "apple",
-    "publishedAt" : "2020-09-26T00:39:47+09:00",
+    "publishedAt" : "2021-12-01T03:00:37+09:00",
     "repository" : "swift-system",
-    "title" : "System 0.0.1",
-    "url" : "https://github.com/apple/swift-system/releases/tag/0.0.1",
-    "version" : "0.0.1"
+    "title" : "System 1.1.0",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* build: install CSystem into the system by @compnerd in https://github.com/apple/swift-system/pull/74\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.1.0...1.1.1",
+    "createdAt" : "2021-12-03T04:22:32+09:00",
+    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "id" : "RE_kwDOEcmZD84DQCWU",
+    "owner" : "apple",
+    "publishedAt" : "2021-12-03T06:41:43+09:00",
+    "repository" : "swift-system",
+    "title" : "System 1.1.1",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.1.1",
+    "version" : "1.1.1"
   }
 ]
