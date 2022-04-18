@@ -21,10 +21,13 @@ struct App: AsyncParsableCommand {
         let repositories = try Parser.parse()
         let oldContents = try FileHelper.load(repositories: repositories)
         let newContents = try await Fetcher.fetch(repositories: repositories)
-        let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: newContents)
+        let combinedContents = oldContents.merging(newContents) { old, new in
+            Set(old + new).sorted()
+        }
+
+        let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
         try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
-        let mergedContents = newContents.merging(updatedContents.reduce(into: [:]) { $0[$1.key] = $1.value + (oldContents[$1.key] ?? []) }) { $1 }
-        try FileHelper.save(contents: mergedContents)
+        try FileHelper.save(contents: combinedContents)
     }
     
     private func slackURLs() -> [SlackWebhookDestination : URL] {

@@ -2,7 +2,7 @@
   {
     "body" : "This is the 0.50600.1 release of SwiftSyntax that vends the parser library (`_InternalSwiftSyntaxParser.dylib`) as a binary framework dependency on macOS.\r\n\r\nTo use this snapshot add the following dependency to your Package.swift:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", branch: \"0.50600.1\")\r\n```\r\n\r\nOr, if using a swift-tools-version ≤ 5.4:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", .branch(\"0.50600.1\"))\r\n```\r\n",
     "createdAt" : "2022-03-18T17:13:51+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "RE_kwDOCIc4qs4DtJvc",
     "owner" : "apple",
     "publishedAt" : "2022-03-18T17:22:47+09:00",
@@ -14,7 +14,7 @@
   {
     "body" : "This is the 0.50600.0 release of SwiftSyntax that vends the parser library (`_InternalSwiftSyntaxParser.dylib`) as a binary framework dependency on macOS.\r\n\r\nTo use this snapshot add the following dependency to your Package.swift:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", branch: \"0.50600.0\")\r\n```\r\n\r\nOr, if using a swift-tools-version ≤ 5.4:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", .branch(\"0.50600.0\"))\r\n```\r\n",
     "createdAt" : "2022-03-15T17:47:58+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "RE_kwDOCIc4qs4Dr--h",
     "owner" : "apple",
     "publishedAt" : "2022-03-15T18:22:36+09:00",
@@ -26,7 +26,7 @@
   {
     "body" : "This is a development snapshot of the 0.50600.0 release of SwiftSyntax that vends the parser library (`_InternalSwiftSyntaxParser.dylib`) as a binary framework dependency on macOS.\r\n\r\nTo use this snapshot add the following dependency to your `Package.swift`:\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", branch: \"0.50600.0-SNAPSHOT-2022-01-24\")\r\n```\r\n\r\nOr, if using a swift-tools-version ≤ 5.4:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", .branch(\"0.50600.0-SNAPSHOT-2022-01-24\"))\r\n```",
     "createdAt" : "2022-01-25T18:35:01+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "RE_kwDOCIc4qs4Dc41X",
     "owner" : "apple",
     "publishedAt" : "2022-01-25T18:54:29+09:00",

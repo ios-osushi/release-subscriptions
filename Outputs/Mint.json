@@ -2,7 +2,7 @@
   {
     "body" : "#### Fixed\r\n- Fixed package installation on newer versions of macOS and M1 machines [#216](https://github.com/yonaskolb/Mint/pull/216) @yonaskolb\r\n- Fixed building in Xcode 13 [#218](https://github.com/yonaskolb/Mint/pull/218) [#219](https://github.com/yonaskolb/Mint/pull/219) @Armenm\r\n\r\n#### Changed\r\n- The default package install path (`$MINT_PATH`) has changed from `/usr/local/lib/mint` to `~/.mint`, and the global link path (`$MINT_LINK_PATH`) has changed from `/usr/local/bin` to `~/.mint/bin`. This fixes installation issues on some systems, but in order to run globally installed packages without Mint you'll now need to add `~/.mint/bin` to your `$PATH`. [#216](https://github.com/yonaskolb/Mint/pull/216) @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.16.0...0.17.0)",
     "createdAt" : "2021-09-23T17:41:53+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "RE_kwDOBkFB884C_LDg",
     "owner" : "yonaskolb",
     "publishedAt" : "2021-09-23T17:45:42+09:00",
@@ -14,7 +14,7 @@
   {
     "body" : "#### Added\r\n- Added `--overwrite` option to `mint install` [#186](https://github.com/yonaskolb/Mint/pull/186) @Econa77\r\n- Added `--overwrite` option to `mint bootstrap` [#193](https://github.com/yonaskolb/Mint/pull/193) @Econa77\r\n\r\n### Fixed\r\n- Fixed installation in Xcode 12 [#195](https://github.com/yonaskolb/Mint/pull/195) @nanashiki\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.15.0...0.16.0)",
     "createdAt" : "2020-11-18T18:55:48+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTM0MTA3OTc4",
     "owner" : "yonaskolb",
     "publishedAt" : "2020-11-18T19:20:48+09:00",
@@ -26,7 +26,7 @@
   {
     "body" : "#### Added\r\n- Running offline without specified version [#164](https://github.com/yonaskolb/Mint/issues/164) [#166](https://github.com/yonaskolb/Mint/pull/166) @vknabel\r\n\r\n#### Changed\r\n- Allow packages in Mintfile that don't specifiy a version [#181](https://github.com/yonaskolb/Mint/issues/181) @kiyot\r\n\r\n#### Fixed\r\n- Support building for architectures other than x86_64 on macOS (Apple Silicon) [#185](https://github.com/yonaskolb/Mint/pull/185)",
     "createdAt" : "2020-10-23T20:17:28+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTMyOTcxNTIy",
     "owner" : "yonaskolb",
     "publishedAt" : "2020-10-23T20:23:56+09:00",
@@ -38,7 +38,7 @@
   {
     "body" : "#### Changed\r\n- Changeed `list` output to show what executables are installed if they differ from package name, and also disambiguate packages with the same name and different sources [#170](https://github.com/yonaskolb/Mint/pull/170) @acecilia\r\n\r\n#### Fixed\r\n- Fixed the `run` to support when a package with the same name is installed from different origins (for example: yonaskolb/xcodegen and acecilia/xcodegen). [#170](https://github.com/yonaskolb/Mint/pull/170) @acecilia\r\n- Fix the `uninstall` option: previously, the name for the symlink to remove was calculated using the package name passed from command line, which could be partial (for example `simple` instead of `simplepackage`), resulting on the symlink not being removed. [#170](https://github.com/yonaskolb/Mint/pull/170) @acecilia\r\n- Fixed installing versions that reference a git sha [#172](https://github.com/yonaskolb/Mint/pull/172) @yonaskolb\r\n- Added escaping of paths when linking. Avoids an error, when MINT_LINK_PATH contains spaces. @lutzifer\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.14.1...0.14.2)",
     "createdAt" : "2020-04-13T21:58:56+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTI1NDQ2ODI0",
     "owner" : "yonaskolb",
     "publishedAt" : "2020-04-13T22:02:14+09:00",
@@ -50,7 +50,7 @@
   {
     "body" : "#### Fixed\r\n- Fixed some verbose output being shown in non verbose states\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.14.0...0.14.1)",
     "createdAt" : "2020-02-13T21:06:23+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIzNjQwNTAz",
     "owner" : "yonaskolb",
     "publishedAt" : "2020-02-13T21:09:37+09:00",
@@ -62,7 +62,7 @@
   {
     "body" : "#### Added\r\n- Added `--no-install` option to `mint run` [#160](https://github.com/yonaskolb/Mint/pull/160) @yonaskolb\r\n- Added `mint which` command for printing the path of an executable [#162](https://github.com/yonaskolb/Mint/pull/162) @yonaskolb\r\n- The executable no longer needs to be provided in `mint run` when passing arguments if there is only a single executable in the package eg: `mint run realm/SwiftLint autocorrect` [#159](https://github.com/yonaskolb/Mint/pull/159) @yonaskolb\r\n\r\n#### Changed\r\n- Moved output of some commands to `--verbose` and tweaked output [#154](https://github.com/yonaskolb/Mint/pull/154) @yonaskolb\r\n\r\n#### Fixed\r\n- Fixed a bug that prevented the `Mintfile` from resolving a GitHub repository where the name contains a period [#153](https://github.com/yonaskolb/Mint/pull/153) @liamnichols\r\n\r\n#### Internal\r\n- Updated to SwiftCLI 6.0 [#157](https://github.com/yonaskolb/Mint/pull/157) @yonaskolb\r\n- Replace CircleCI with Github actions [#158](https://github.com/yonaskolb/Mint/pull/158) @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.13.0...0.14.0)",
     "createdAt" : "2020-02-13T20:30:25+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIzNjM5NDAx",
     "owner" : "yonaskolb",
     "publishedAt" : "2020-02-13T20:33:28+09:00",
@@ -74,7 +74,7 @@
   {
     "body" : "#### Added\r\n- Added the `--link` (or `-l`) flag to the `bootstrap` option, to optionally link the packages of a `Mintfile` globally [#137](https://github.com/yonaskolb/Mint/pull/137) @acecilia\r\n\r\n#### Fixed\r\n- Fixed list of executables not showing when asking for to disambiguate between them [#149](https://github.com/yonaskolb/Mint/pull/149) @yonaskolb\r\n\r\n#### Internal\r\n- Updated dependencies and removed SwiftPM dependency\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.12.0...0.13.0)",
     "createdAt" : "2019-10-14T20:45:16+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIwNjc5NTg5",
     "owner" : "yonaskolb",
     "publishedAt" : "2019-10-14T20:46:24+09:00",
@@ -86,7 +86,7 @@
   {
     "body" : "#### Fixed\r\n- Fixed building packages when running in Swift 5 #130 #131 @stefanomondino @yonaskolb\r\n\r\n#### Changed\r\n- Updated to Swift 5 and dropped Swift 4.2 #131 @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.11.4...0.12.0)",
     "createdAt" : "2019-03-29T18:39:00+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE2NDMxMjk3",
     "owner" : "yonaskolb",
     "publishedAt" : "2019-03-29T18:44:22+09:00",
@@ -98,7 +98,7 @@
   {
     "body" : "#### Changed\r\n- Improved output #116 @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.11.2...0.11.3)",
     "createdAt" : "2018-12-17T22:01:32+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE0NTY5MzM1",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-12-17T22:02:30+09:00",
@@ -110,7 +110,7 @@
   {
     "body" : "#### Added\r\n- Packages can now be referenced by name in `mint install` when already installed #100 @yonaskolb\r\n\r\n#### Fixed\r\n- Fixed packages from Mintfile not being read correctly on `mint run` when specified by name #100 @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.11.1...0.11.2)",
     "createdAt" : "2018-08-13T19:29:42+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEyMzc0MTU5",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-08-13T19:39:12+09:00",
@@ -122,7 +122,7 @@
   {
     "body" : "#### Fixed\r\n- Fixed not being able to pass arguments to `mint run` @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.11.0...0.11.1)",
     "createdAt" : "2018-08-09T20:24:56+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEyMzI3Mzk5",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-08-09T20:26:56+09:00",
@@ -134,7 +134,7 @@
   {
     "body" : "#### Added\r\n- Added Linux support #82 @yonaskolb\r\n- Executable names are now automatically read from `Package.swift` #95 @yonaskolb\r\n- All executables in `Package.swift` are now installed #95 @yonaskolb\r\n- If multiple executables exist and one is not provided in `mint run` it will ask you which one to run #95 @yonaskolb\r\n\r\n#### Changed\r\n- **Breaking:** changed `MINT_INSTALL_PATH` env to `MINT_LINK_PATH` #97 @yonaskolb\r\n- **Breaking:** changed `--prevent-global` to `--no-link` #97 @yonaskolb\r\n- **Breaking:** replaced `mint update` with `mint install --force` #96 @yonaskolb\r\n- `--silent` now applies to `mint install` in addition to `mint run` @yonaskolb\r\n\r\n#### Removed\r\n- **Breaking**: Swift packages without executable products are no longer supported\r\n- **Breaking**: Older style quoted command invocations are no longer supported. eg `mint run realm/SwiftLint \"swiftlint autocorrect\"`\r\n\r\n#### Fixed\r\n- Fixed `Mintfile` output not adhering to `--silent` #85 @yutailang0119\r\n- Fixed installing nested resourcs in `Package.resources` #93 @toshi0383\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.10.2...0.11.0)",
     "createdAt" : "2018-08-07T22:15:43+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEyMjg5MDc3",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-08-07T22:19:06+09:00",
@@ -146,7 +146,7 @@
   {
     "body" : "#### Fixed\r\n- Don't overwrite install path of already installed version until after successful build\r\n- Fixed version number output\r\n\r\n#### Changed\r\n- Updated SwiftCLI 5.2.1 to allow nested help commands like `mint help install`\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.10.1...0.10.2)",
     "createdAt" : "2018-06-23T12:31:01+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTExNjE2NDc2",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-06-23T12:37:09+09:00",
@@ -158,7 +158,7 @@
   {
     "body" : "#### Fixed\r\n- Fixed environment variables not being passed via `mint run` @yonaskolb\r\n- Fixed `mint bootstrap` output referring to the wrong path for `Mintfile` @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.10.0...0.10.1)",
     "createdAt" : "2018-06-07T17:50:52+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTExMzY1OTA3",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-06-07T17:54:36+09:00",
@@ -170,7 +170,7 @@
   {
     "body" : "#### Added\r\n- Added `mint bootstrap` command for installing all the packages in your `Mintfile` #79 @yonaskolb\r\n- Added `--mintfile` argument for custom `Mintfile` path #79 @yonaskolb\r\n- Added `stdin` support to `mint run` #78 @yonaskolb\r\n\r\n#### Changed\r\n- Improved error output #78 @yonaskolb\r\n- Customizable `standardOut` and `standardError` in `Mint` #78 @yonaskolb\r\n- As global installs are now the default, replaced `--global` with `--prevent-global` flag @yonaskolb\r\n\r\n#### Fixed\r\n- Fixed output in run not being silenced when using a Mintfile #77 @yutailang0119\r\n- Removed dotfiles from `mint list` output @yonaskolb\r\n- Print errors to stderr #78 @yonaskolb\r\n\r\n#### Internal\r\n- Replaced `ShellOut` with `SwiftCLI` #78 @yonaskolb\r\n- Replaced `SPM` with `SwiftCLI` #78 @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.9.1...0.10.0)",
     "createdAt" : "2018-06-06T12:11:17+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTExMzQxNTky",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-06-06T12:16:32+09:00",
@@ -182,7 +182,7 @@
   {
     "body" : "- made `Mintfile` package lookup case insensitive @yonaskolb\r\n- fixed `Minfile` lookup by simple name on `install`\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.9.0...0.9.1)",
     "createdAt" : "2018-04-13T11:09:44+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEwNTI3NjU3",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-04-13T11:11:31+09:00",
@@ -194,7 +194,7 @@
   {
     "body" : "- added `Mintfile` for adding a list versioned dependencies #72 @Lutzifer\r\n- added `MINT_PATH` and `MINT_INSTALL_PATH` environment variables #65 @yonaskolb\r\n- fixed build errors not being logged #71 @yonaskolb\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.8.0...0.9.0)",
     "createdAt" : "2018-04-12T21:17:24+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEwNTE0NjMy",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-04-12T21:19:14+09:00",
@@ -206,7 +206,7 @@
   {
     "body" : "- add ssh support #60 @Lutzifer\r\n- add `--silent` argument #64 @yonaskolb\r\n- build packages using the current version of macOS #61 @LinusU\r\n- bundle Swift with installations, so they don't fail with Swift updates #70 @yonaskolb\r\n- show globally installed packages with a `*` in `mint list` #56 @yutailang0119\r\n- Move homebrew formula from this repo to official homebrew repo (no more custom tap required) #63 yonaskolb\r\n- help output changes #55 @pixyzehn\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.7.1...0.8.0)",
     "createdAt" : "2018-04-03T13:44:15+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEwMzYzMjU4",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-04-03T13:46:52+09:00",
@@ -218,7 +218,7 @@
   {
     "body" : "- add backwards compatibility for `mint run` calls still using quotes\r\n- don't log error message from mint if run executable fails\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.7.0...0.7.1)",
     "createdAt" : "2018-01-06T18:59:37+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTkxMzE2NDg=",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-01-06T19:00:59+09:00",
@@ -230,7 +230,7 @@
   {
     "body" : "- `install` and `update` now link the executable to `usr/local/bin` by default, for global usage. Disable this with `--global:false` #41 #44 #45\r\n- arguments to an executable no longer have to be surrounded in quotes. `mint run yonaskolb/xcodegen xcodegen --spec myspec.yml`\r\n- added streaming of run command output #36\r\n- added `--verbose` flag for cloning and building output #36\r\n- add `MINT` and `RESOURCE_PATH` envs #36\r\n- fixed ANSI color issue #36\r\n- replaced ShellOut with SwiftShell #36\r\n- added a whole bunch of tests\r\n\r\n[Commits](https://github.com/yonaskolb/Mint/compare/0.6.1...0.7.0)",
     "createdAt" : "2018-01-06T18:27:27+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTkxMzE1MzY=",
     "owner" : "yonaskolb",
     "publishedAt" : "2018-01-06T18:28:52+09:00",
@@ -242,7 +242,7 @@
   {
     "body" : "- Fixed calculation of latest version #30\r\n- Integrated SwiftPM for versioning, more integrations will follow #30\r\n\r\n[Commits](https://github.com/yonaskolb/XcodeGen/compare/0.6.0...0.6.1)",
     "createdAt" : "2017-12-01T18:32:12+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTg3MzEyNDE=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-12-01T18:33:22+09:00",
@@ -254,7 +254,7 @@
   {
     "body" : "- Fixed issues on case‐sensitive file systems #19 @SDGGiesbrecht\r\n- Fixed updating branches and packages without checked in `Package.resolved` files #24\r\n- Package repos are now checked out fresh on each install #24\r\n- If not passing a version, tags are now fetched remotely #24\r\n- Clones are now shallow #28\r\n- Added `mint list` command for listing all installed package versions #25\r\n- Added `mint --version` #27",
     "createdAt" : "2017-12-01T07:38:07+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTg3MjYyOTI=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-12-01T07:39:46+09:00",
@@ -266,7 +266,7 @@
   {
     "body" : "- BREAKING: Changed version from the second argument to an @ suffix on the repo\r\n\r\n[Commits](https://github.com/yonaskolb/XcodeGen/compare/0.4.1...0.5.0)",
     "createdAt" : "2017-10-14T00:33:02+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTgxMTI1MzQ=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-10-14T00:33:39+09:00",
@@ -278,7 +278,7 @@
   {
     "body" : "- Fixed installing a package without tags when version isn't specified #7 by @orta\r\n\r\n[Commits](https://github.com/yonaskolb/XcodeGen/compare/0.4.0...0.4.1)",
     "createdAt" : "2017-10-04T00:38:42+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTc5ODA1NzE=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-10-04T00:39:07+09:00",
@@ -290,7 +290,7 @@
   {
     "body" : "- Fixed permission issues in High Sierra\r\n\r\n[Commits](https://github.com/yonaskolb/XcodeGen/compare/0.3.0...0.4.0)",
     "createdAt" : "2017-10-02T01:44:54+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTc5NTYzMDM=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-10-02T01:45:14+09:00",
@@ -302,7 +302,7 @@
   {
     "body" : "- Made version optional (defaults to newest tagged release)\r\n- Made command name optional (defaults to trailing path in repo path)\r\n- Added `update` command",
     "createdAt" : "2017-09-28T06:32:38+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTc5MTczOTY=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-09-28T06:33:20+09:00",
@@ -314,7 +314,7 @@
   {
     "body" : "- Made CLI commands more robust, including help",
     "createdAt" : "2017-09-28T04:56:49+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTc5MTYwMDA=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-09-28T04:57:40+09:00",
@@ -326,7 +326,7 @@
   {
     "body" : "Initial release",
     "createdAt" : "2017-09-27T06:32:49+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTc5MDExODg=",
     "owner" : "yonaskolb",
     "publishedAt" : "2017-09-27T06:35:59+09:00",

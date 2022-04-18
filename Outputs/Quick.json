@@ -2,7 +2,7 @@
   {
     "body" : "This release closes the [v5.0.0 milestone](https://github.com/Quick/Quick/milestone/7?closed=1).\r\n\r\n# Highlights\r\n\r\nSee additional details under the auto-generated release notes below.\r\n\r\n## Fixed\r\n\r\n- Tests not discoverable or cannot fail in Xcode 13.3 #1123, #1129\r\n\r\n## New\r\n\r\n- Add support for running a single test #1116\r\n- Add aroundEach #1132\r\n- New API docs via Jazzy available here: http://quick.github.io/Quick/\r\n\r\n## Breaking\r\n\r\n- Rename Configuration -> QCKConfiguration #1133\r\n- Make FilterFlags implementation detail #1068\r\n\r\n# Auto-generated release notes\r\n\r\n## What's Changed\r\n* [BREAKING] Make FilterFlags implementation detail by @ikesyo in https://github.com/Quick/Quick/pull/1068\r\n* [BREAKING] Bump Swift requirement to 5.3 (Xcode 12) by @ikesyo in https://github.com/Quick/Quick/pull/1069\r\n* Re-add missing QUICK_EXPORT to Objective-C DSL by @ikesyo in https://github.com/Quick/Quick/pull/1070\r\n* Added documentation for how to do data driven tests using Quick by @pobengtsson in https://github.com/Quick/Quick/pull/940\r\n* Fix typos and code issues in the data driven examples documentation by @revolter in https://github.com/Quick/Quick/pull/1072\r\n* [CI] Test Swift 5.5 Development by @ikesyo in https://github.com/Quick/Quick/pull/1081\r\n* [README] Remove deprecated Accio references by @ikesyo in https://github.com/Quick/Quick/pull/1082\r\n* [CI] macOS 11 and Xcode 12.5 by @ikesyo in https://github.com/Quick/Quick/pull/1083\r\n* Bump danger from 8.2.3 to 8.3.1 by @dependabot in https://github.com/Quick/Quick/pull/1087\r\n* Bump cocoapods from 1.10.1 to 1.10.2 by @dependabot in https://github.com/Quick/Quick/pull/1089\r\n* Bump fkirc/skip-duplicate-actions from 3.4.0 to 3.4.1 by @dependabot in https://github.com/Quick/Quick/pull/1092\r\n* Specify header_dir in the podspec by @tsapeta in https://github.com/Quick/Quick/pull/1091\r\n* [CI] Test Xcode 13 by @ikesyo in https://github.com/Quick/Quick/pull/1095\r\n* Less [String]() by @RomanPodymov in https://github.com/Quick/Quick/pull/1090\r\n* Excluding Info.plist files from Swift Package by @heyzooi in https://github.com/Quick/Quick/pull/1088\r\n* Bump cocoapods from 1.10.2 to 1.11.0 by @dependabot in https://github.com/Quick/Quick/pull/1099\r\n* docs(DSL): fix typo by @bricker in https://github.com/Quick/Quick/pull/1100\r\n* Bump cocoapods from 1.11.0 to 1.11.1 by @dependabot in https://github.com/Quick/Quick/pull/1101\r\n* Fix individual tests run in Xcode 12.5 by @khramtsoff in https://github.com/Quick/Quick/pull/1097\r\n* Use `#if canImport(Darwin)` for checking XCTIssue availability by @ikesyo in https://github.com/Quick/Quick/pull/1104\r\n* Bump cocoapods from 1.11.1 to 1.11.2 by @dependabot in https://github.com/Quick/Quick/pull/1105\r\n* Bump danger from 8.3.1 to 8.4.0 by @dependabot in https://github.com/Quick/Quick/pull/1107\r\n* Bump danger from 8.4.0 to 8.4.1 by @dependabot in https://github.com/Quick/Quick/pull/1110\r\n* Bump danger from 8.4.1 to 8.4.2 by @dependabot in https://github.com/Quick/Quick/pull/1112\r\n* Bump danger from 8.4.2 to 8.4.3 by @dependabot in https://github.com/Quick/Quick/pull/1117\r\n* Bump actions/checkout from 2 to 3 by @dependabot in https://github.com/Quick/Quick/pull/1120\r\n* Bump danger from 8.4.3 to 8.4.5 by @dependabot in https://github.com/Quick/Quick/pull/1121\r\n* Bump cocoapods from 1.11.2 to 1.11.3 by @dependabot in https://github.com/Quick/Quick/pull/1126\r\n* Bump danger from 8.4.5 to 8.5.0 by @dependabot in https://github.com/Quick/Quick/pull/1125\r\n* Critical! Fix test cases discoverage in Xcode 13.3 by @BobCatC in https://github.com/Quick/Quick/pull/1129\r\n* Bump cocoapods-downloader from 1.5.1 to 1.6.3 by @dependabot in https://github.com/Quick/Quick/pull/1130\r\n* Keep reference to AutoreleasingUnsafeMutablePointer by @ikesyo in https://github.com/Quick/Quick/pull/1103\r\n* Use Objective-C runtime's `isSubclass(of:)` API for checking superclass by @ikesyo in https://github.com/Quick/Quick/pull/1096\r\n* Fix Swift docs for non-named `configure` argument. by @alexhayes in https://github.com/Quick/Quick/pull/1113\r\n* Fix `afterSuite` blocks not running when having excluded tests by @revolter in https://github.com/Quick/Quick/pull/1061\r\n* [Breaking] Rename Configuration -> QCKConfiguration by @jessesquires in https://github.com/Quick/Quick/pull/1133\r\n* Add aroundEach by @pcantrell in https://github.com/Quick/Quick/pull/1132\r\n* Add support for running a single test by @younata in https://github.com/Quick/Quick/pull/1116\r\n\r\n## New Contributors\r\n* @tsapeta made their first contribution in https://github.com/Quick/Quick/pull/1091\r\n* @RomanPodymov made their first contribution in https://github.com/Quick/Quick/pull/1090\r\n* @heyzooi made their first contribution in https://github.com/Quick/Quick/pull/1088\r\n* @bricker made their first contribution in https://github.com/Quick/Quick/pull/1100\r\n* @khramtsoff made their first contribution in https://github.com/Quick/Quick/pull/1097\r\n* @BobCatC made their first contribution in https://github.com/Quick/Quick/pull/1129\r\n* @alexhayes made their first contribution in https://github.com/Quick/Quick/pull/1113\r\n* @younata made their first contribution in https://github.com/Quick/Quick/pull/1116\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v4.0.0...v5.0.0",
     "createdAt" : "2022-04-16T04:47:12+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "RE_kwDOATjllM4D2RZy",
     "owner" : "Quick",
     "publishedAt" : "2022-04-16T04:48:53+09:00",
@@ -14,7 +14,7 @@
   {
     "body" : "Quick v4 has been released! 🎉 The new major version requires Swift 5.2 / Xcode 11.4 at least.\r\n\r\n## BREAKING CHANGES\r\n- Bump minimum iOS version to 9.0 #1013\r\n- Rename `master` branch to `main` #1052\r\n\r\n## Changes\r\n- [CI] Test Xcode 12 and Swift 5.3 #1010\r\n- Set ENABLE_TESTING_SEARCH_PATHS to YES #1011\r\n- Upgrade Project Format to Xcode 11.4-compatible #1012 (Thanks @mRs-)\r\n- [CI] Use rake directly instead of travis-script-macos #1019\r\n- Update Nimble to 9.1.0 #1020, #1062, #1066\r\n- Xcode 12.0: Update to recommended settings #1021\r\n- Address deprecation warnings in Xcode 12 #1040\r\n- Migrate Linux CI from Travis to GitHub Actions #1042\r\n- [CI] Use norionomura/swift Docker images for Linux CI #1043\r\n- [SwiftLint] Enable yoda_condition rule #1044\r\n- [CI] Use the official Swift Docker images #1049\r\n- [CI] Split ci.yml into dedicated workflows #1050\r\n- Tweak CI workflows regarding fkirc/skip-duplicate-actions and matrix testing #1051\r\n- Xcode 12.5: Update to recommended settings #1063\r\n- [CI] Update Xcode and Swift versions #1064\r\n\r\n## Documentation Changes\r\n- `vieiwDidAppear` not be called automatically in iOS SDK 13.0 #942 (Thanks @nickm01)\r\n- [Translation] Update Chinese README.md #1053 (Thanks @EdgarDegas)\r\n\r\n## Miscellaneous\r\n- Create dependabot.yml #1000\r\n- Bump cocoapods #1001, #1026, #1035\r\n- Bump danger #1002, #1009, #1022, #1024, #1036, #1054\r\n- Bump kramdown #1004, #1058\r\n- [Dangerfile] Avoid passing a bot account name to github.api.organization_member #1005\r\n- Bump norio-nomura/action-swiftlint from 3.1.0 to 3.2.1 #1031\r\n- Bump fkirc/skip-duplicate-actions from v3.3.0 to v3.4.0 #1055\r\n- Bump rexml from 3.2.4 to 3.2.5 #1065",
     "createdAt" : "2021-05-08T09:39:08+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTQyNjM0Mzg5",
     "owner" : "Quick",
     "publishedAt" : "2021-05-08T09:40:28+09:00",
@@ -26,7 +26,7 @@
   {
     "body" : "## Changes\r\n- [SwiftPM] Address warnings on Swift 5.3 or above #1048\r\n",
     "createdAt" : "2021-02-10T00:23:50+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTM3ODA3MTg0",
     "owner" : "Quick",
     "publishedAt" : "2021-02-10T00:25:28+09:00",
@@ -38,7 +38,7 @@
   {
     "body" : "## Bugfixes\r\n- Fix a compile error with the SwiftPM-generated Xcode project #1023, #1045\r\n",
     "createdAt" : "2021-02-08T21:36:34+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTM3NzM3ODc0",
     "owner" : "Quick",
     "publishedAt" : "2021-02-08T21:39:17+09:00",
@@ -50,7 +50,7 @@
   {
     "body" : "## Changes\r\n- Support ARM based Macs (Apple Silicon) #1017, #1039\r\n",
     "createdAt" : "2021-02-05T23:14:26+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTM3NDEwNzM4",
     "owner" : "Quick",
     "publishedAt" : "2021-02-05T23:15:46+09:00",
@@ -62,7 +62,7 @@
   {
     "body" : "## Changes\r\n- Add `Package@swift-5.3.swift` to bump minimum iOS version for SwiftPM users #1037\r\n- Update Nimble to 9.0.0 #1020, #1037\r\n",
     "createdAt" : "2021-02-05T10:09:48+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTM3Mzg1Mzcy",
     "owner" : "Quick",
     "publishedAt" : "2021-02-05T10:12:22+09:00",
@@ -74,7 +74,7 @@
   {
     "body" : "Quick v3 has been released! 🎉 The new major version requires Swift 5.2 / Xcode 11.4 at least.\r\n\r\n## BREAKING CHANGES\r\n- Bump Swift requirement to 5.2 (Xcode 11.4 or later) #986\r\n\r\n## New Features\r\n- `it`/`fit`/`xit` closures are now marked as `throws`, so you can throw `Error`s and the test fails if they do throw #680 (Thanks @marcelofabri)\r\n  - ```\r\n    it(\"should fail\") {\r\n        try throwingFunc()\r\n    }\r\n    ```\r\n\r\n## Changes\r\n- Parallelize CI builds more (Take 2) #987\r\n- Update Nimble to 9.0.0-rc.1 #988\r\n\r\n## Bugfixes\r\n- Delegate `recordFailure` to `QuickSpec.current` #990\r\n",
     "createdAt" : "2020-06-08T21:18:14+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTI3MzIzMzUx",
     "owner" : "Quick",
     "publishedAt" : "2020-06-08T21:20:46+09:00",
@@ -86,7 +86,7 @@
   {
     "body" : "## Changes\r\n- [refactoring] Build examples only for classes without root example group #922 (Thanks @VojtaStavik)\r\n- [CI] Test device builds #924\r\n- [CI] Fix GitHub Actions breakage and restore Travis build matrix for older Xcode versions #937\r\n- [CI] Run tests with newer Xcode and Swift versions #947\r\n- Update Nimble #955, #965, #982\r\n- Enable module stability #957\r\n- [CI] Use norio-nomura/action-swiftlint for running SwiftLint #960\r\n- Tweak CI #966, #979\r\n- [SwiftLint] Enable type_name rule #967\r\n- [SwiftLint] Enable identifier_name rule #968\r\n- [SwiftLint] Enable function_body_length rule #969\r\n- [SwiftLint] Enable line_length rule #970\r\n- `bundle update --bundler` && `bundle update` #971\r\n- Fix test target dependencies #972\r\n- Separate a test target for the regression test for #853 to mimic the situation in https://github.com/gzafra/QuickCrashTest #973\r\n- [SwiftLint] Set trailing_comma's mandatory_comma option to true #974\r\n- [CocoaPods] Use modular headers #977\r\n- Remove unnecessary TVOS_DEPLOYMENT_TARGET build setting in Quick-iOS target #978\r\n- [CI] Suppress warnings on SwiftPM tests #981\r\n- Rename QuickSpecBase module to QuickObjCRuntime for SwiftPM on Darwin #984\r\n\r\n## Bugfixes\r\n- Added empty default flags to xdescribe and xcontext #944 (Thanks @pobengtsson)\r\n- Fixes race conditions in QuickConfiguration #952 (Thanks @anton-plebanovich)\r\n- Update the Objective-C QuickSpec template to use modules (semantic import) #953 (Thanks @KeithMorning)\r\n- Fix to support indirect subclasses of QuickConfiguration #975\r\n- Fix focus behavior #980\r\n\r\n## Documentation Changes\r\n- Fix typo in Configuration.swift for \"Mulitple\" #927 (Thanks @denniszxxc)\r\n- Fix typo in GitHub issue template #930 (Thanks @revolter)\r\n- Fix typos in Contributing documentation file #931 (Thanks @revolter)\r\n- Migration swift 4.0 or later for Shared Examples. #946 (Thanks @kanari3)\r\n- Fix sample code in SharedExamples.md #948\r\n- Fix Xcode documentation link of how to create xcworkspace #954\r\n",
     "createdAt" : "2020-06-01T09:19:09+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTI3MDgxMDE5",
     "owner" : "Quick",
     "publishedAt" : "2020-06-01T09:21:35+09:00",
@@ -98,7 +98,7 @@
   {
     "body" : "## New Features\r\n- Make `name` variable of `Behavior` open #906 (Thanks @VojtaStavik)\r\n- [podspec] Use swift_versions DSL if available #911, #919 (Thanks @ethansinjin)\r\n\r\n## Changes\r\n- Remove unnecessary `!SWIFT_PACKAGE` compile condition #866\r\n- [refactoring] Re-implement qck_enumerateSubclasses in Swift #867\r\n- [refactoring][QuickSpec.swift] Use `World.performWithCurrentExampleGroup` #868\r\n- ⚠️ Re-enable danger 🙀 #869\r\n- [refactoring] Remove _QuickSelectorWrapper and use String instead #870\r\n- [refactoring] Reduce uses of AnyClass, replace them with QuickSpec.Type where possible #871\r\n- Refactor configuring QuickConfiguration subclasses #876\r\n- [refactoring] Convert some global variables into World's states #877\r\n- [refactoring] Remove unnecessary `!SWIFT_PACKAGE` conditions #878\r\n- Run additional test suites in a separate World instance (only with Xcode for now) #879\r\n- Merge SpecRunner implementation into single file #881\r\n- Run additional test suites in a separate World instance for SwiftPM on Darwin #882\r\n- Implement `qck_suspendObservation` on Linux #883\r\n- Run additional test suites in a separate World instance for SwiftPM on Linux #884\r\n- Re-implement SpecRunner on Linux using XCTestSuite #885\r\n- [CI] Test Swift 5.1 snapshots #892\r\n- [SwiftLint] Address reduce_boolean warnings #897\r\n- Update Nimble #898, #918\r\n- [CI] Use GitHub Actions for macOS jobs #915, #921\r\n\r\n## Bugfixes\r\n- Fix a runtime crash when a subclass of QuickSpec is subclassed and the subclass has a Swift struct property #873, #901, #916, #917 (Thanks @ikesyo and @VojtaStavik)\r\n\r\n## Documentation Changes\r\n- Document support & installation via Accio #851 (Thanks @Dschee)\r\n- Add documentation for `Behavior<Context>` #905 (Thanks @VojtaStavik)\r\n- fix typo in SharedExamples.md #913 (Thanks @akarsh)\r\n",
     "createdAt" : "2019-09-14T15:57:40+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE5OTg5NTM1",
     "owner" : "Quick",
     "publishedAt" : "2019-09-14T15:59:58+09:00",
@@ -110,7 +110,7 @@
   {
     "body" : "## New Features\r\n\r\n- Support `QuickSpec.current` for SwiftPM builds as well, on both macOS and Linux #848, #850\r\n- `Package.swift` is updated for Swift 5, which adds the `platforms` setting ([SE-0236](https://github.com/apple/swift-evolution/blob/master/proposals/0236-package-manager-platform-deployment-settings.md)) #843 (Thanks @devxoul)\r\n\r\n## Changes\r\n\r\n- Update CocoaPods to 1.7.0.beta.3 #840, #852\r\n- Update .hound.yml #844\r\n- Update Nimble to 8.0.1 #846\r\n- Xcode 10.2: Update to recommended settings #847\r\n- Introduce FileString typealias which has been used in Nimble #854\r\n- Internal refactoring #855, #858, #859, #860, #861, #862, #863, #864, #865\r\n- [CI] Propagate xcodebuild errors correctly #857\r\n",
     "createdAt" : "2019-04-18T23:50:30+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE2ODUxNzMw",
     "owner" : "Quick",
     "publishedAt" : "2019-04-18T23:53:11+09:00",
@@ -122,7 +122,7 @@
   {
     "body" : "Quick v2 has been released! 🎉 The new major version requires Swift 4.2 / Xcode 10.1 at least, which also supports Swift 5.0 / Xcode 10.2 as well.\r\n\r\n## BREAKING CHANGES\r\n- Bump requirements #786 #789 (Thanks @ikesyo)\r\n  - Bump MACOSX_DEPLOYMENT_TARGET to 10.10\r\n  - Bump Swift version to 4.1\r\n- `Behavior.name` is changed from `open` to `public` #821 (Thanks @spekke)\r\n- Bump Swift requirement to 4.2 #831 (Thanks @ikesyo)\r\n\r\n## Changes\r\n- Add left alignment spaces for copyright in template files #790 (Thanks @quesera2)\r\n- [Xcode] Enable New Build System #793 (Thanks @ikesyo)\r\n- Update Nimble #798 #808 #814 #815 #837 (Thanks @ikesyo)\r\n- [Danger] Remove CONTRIBUTING.md from SDM_DANGER_IMMUTABLE_FILES #805 (Thanks @ikesyo)\r\n- [CI] Add Swift 4.2/Xcode 10 to the build matrix #824 (Thanks @ikesyo)\r\n- Issue-689: Improve QuickBot lint warning #827 (Thanks @atfelix)\r\n- Use `#if canImport` implemented in Swift 4.1 (SE-0075) #832 (Thanks @ikesyo)\r\n- [CI] Add Xcode 10.2 image to the build matrix #838 (Thanks @ikesyo)\r\n- Update CocoaPods to 1.7.0.beta.1 #839 (Thanks @ikesyo)\r\n\r\n## Bugfixes\r\n- Fix NSInternalInconsistencyException when running a test from test navigator #716 (Thanks @haitaoli)\r\n- Xcode 10: Adjust Build Phases order #817 (Thanks @ikesyo)\r\n\r\n## Documentation Changes\r\n- Add @escaping to Swift example #787 (Thanks @bellebethcooper)\r\n- Add a \"Reviewed by Hound\" badge #810 (Thanks @salbertson)\r\n- Fix typo #812 (Thanks @revolter)\r\n- Simple typo correction in a KR doc #816 (Thanks @Willicious-k)\r\n- Update InstallingQuick.md #830 (Thanks @audrl1010)\r\n",
     "createdAt" : "2019-03-03T21:10:53+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE1ODgwOTgz",
     "owner" : "Quick",
     "publishedAt" : "2019-03-03T21:11:19+09:00",
@@ -134,7 +134,7 @@
   {
     "body" : "## Changes\r\n\r\n- [SwiftPM] Update `swiftLanguageVersions` to `4` for `Package@swift-4.swift` #834 (Thanks @ikesyo)\r\n",
     "createdAt" : "2019-01-29T22:16:03+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE1MjM5NTI0",
     "owner" : "Quick",
     "publishedAt" : "2019-01-29T22:17:55+09:00",
@@ -146,7 +146,7 @@
   {
     "body" : "## Bugfixes\r\n\r\n- Fix Xcode 10 warning #821, #833 (Thanks @spekke and @ikesyo)\r\n",
     "createdAt" : "2019-01-29T00:29:55+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE1MjE4NDI2",
     "owner" : "Quick",
     "publishedAt" : "2019-01-29T00:31:37+09:00",
@@ -158,7 +158,7 @@
   {
     "body" : "## Bugfixes\r\n\r\n- Xcode 10: Adjust Build Phases order #817, #819 (Thanks @ikesyo)\r\n",
     "createdAt" : "2018-09-21T22:30:07+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEzMDI1NDU1",
     "owner" : "Quick",
     "publishedAt" : "2018-09-21T22:33:45+09:00",
@@ -170,7 +170,7 @@
   {
     "body" : "## Changes\r\n- Update Nimble to 7.1.3 #807 #808 (Thanks @ikesyo)\r\n\r\n## Bugfixes\r\n- Quick now works with Xcode 10's parallel testing feature #716 #806 (Thanks @haitaoli)\r\n- Fix CocoaPods integration issue regarding `APPLICATION_EXTENSION_API_ONLY` build setting #791 (Thanks @ikesyo)\r\n- Fix unrecognized selector crash on static linking #792 #803 (Thanks @ikesyo)\r\n",
     "createdAt" : "2018-07-12T13:41:58+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTExODg4OTM4",
     "owner" : "Quick",
     "publishedAt" : "2018-07-12T13:46:32+09:00",
@@ -182,7 +182,7 @@
   {
     "body" : "This release fully supports Xcode 9.3 (both Swift 3.3 and Swift 4.1) and still works with Xcode 8.3 + Swift 3.1! :tada:\r\n\r\n## New Features\r\n- Expose current spec for XCTest expectations #645 (Thanks @pcantrell)\r\n- Support Xcode 9.3 / Swift 4.1 #761 #765 #778 (Thanks @ikesyo)\r\n\r\n## Changes\r\n- Improve the interoperability with CocoaPods 1.5 Swift Static Libraries support #781 (Thanks @davidahouse)\r\n\r\n## Documentation Changes\r\n- Add Korean translation for Documentation #752 (Thanks @kyeongwan)\r\n- make Swift snippets for QuickConfiguration compile #754 (Thanks @michaelom)\r\n- Minor documentation fixes #762 (Thanks @freak4pc)\r\n\r\n## Bugfixes\r\n- Fix XCTest override error on SPM/Swift4 #755 (Thanks @sunshinejr)\r\n",
     "createdAt" : "2018-04-20T13:56:11+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEwNjM2OTU5",
     "owner" : "Quick",
     "publishedAt" : "2018-04-20T14:00:57+09:00",
@@ -194,7 +194,7 @@
   {
     "body" : "This release fully supports Xcode 9 (both Swift 3.2 and Swift 4) and still works with Xcode 8.3 + Swift 3.1! :tada:\r\n\r\n## New Features\r\n- Introduce `Behavior<Context>` #701 (Thanks @mosamer)\r\n- Support Xcode 9 / Swift 4 #711, #721, #730, #735 (Thanks @ikesyo, @sharplet)\r\n\r\n## Changes\r\n- Performance improvment for large test suites #697 (Thanks @dbarden)\r\n- Better conformance to SwiftLint (Thanks @ecylo, @ikesyo, @nasakinmaxim, @wongzigii)\r\n\r\n## Documentation Changes\r\n- Fix japanese document typo #738 (Thanks @AcaiBowl)\r\n\r\n## Bugfixes\r\n- SwiftLint will be executed only on builds for testing #694 (Thanks @nerd0geek1)\r\n- Fix SwiftPM integration with generated Xcode projects #708 (Thanks @ikesyo)\r\n- Fix SPM integration #746 (Thanks @sunshinejr)\r\n",
     "createdAt" : "2017-09-29T00:15:35+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTc5MjgyMTE=",
     "owner" : "Quick",
     "publishedAt" : "2017-09-29T00:19:02+09:00",
@@ -206,7 +206,7 @@
   {
     "body" : "This release works with Xcode 8.2 + Swift 3.\n\n## New Features\n- Adds `fitBehavesLike to allow focusing of specific instantiations of shared examples (Thanks @wongzigii)\n- Add SwiftPM support on macOS (Thanks @ikesyo)\n- Add Documentation about Shared Examples in Portuguese (Thanks @pedrovereza)\n\n## Changes\n- `SharedExampleContext` is now `[String: Any]` instead of `NSDictionary` (Thanks @devdrey)\n- Better conformance to SwiftLint (Thanks @ikesyo, @wongzigii)\n\n## Bugfixes\n- Quick no longer prints warnings if SwiftLint is not installed (Thanks @wongzigii)\n- Fix bug where Quick didn't work with test bundles with non-c99 valid identifiers (Thanks @MP0w)\n",
     "createdAt" : "2017-02-09T17:08:04+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTU0MDQ5NzY=",
     "owner" : "Quick",
     "publishedAt" : "2017-02-09T17:13:18+09:00",
@@ -218,7 +218,7 @@
   {
     "body" : "Ah, we finally reached 1.0.0! Other than the official christening of a major version, there's mostly smaller code changes from v0.10.0. From here on out, we'll be following [semantic versioning](http://semver.org) rules like Nimble.\n\nThis release is intended to work with Xcode 8.1 / Swift 3.\n\n## Changes\n- Fix bug where test modules with spaces failed to run tests\n- Remove dependency on Nimble for Swift Package Manager\n\n## Documentation Changes\n- Add version table for Quick / Nimble versions to Swift versions in README\n- Update docs for testing with mocks / doubles\n- Update function prototypes for shared examples\n- Update docs for setting up with Xcode\n- Add section about who uses Quick. Feel free to [add yourself](https://github.com/Quick/Quick/wiki/Projects-using-Quick) or [add a testimonial](https://github.com/Quick/Quick/wiki/Who-uses-Quick)!\n- Add shared examples documentation in zh-cn (Chinese)\n- Add behavioral testing in pt-BR (Portuguese)\n- Add README in pt-BR (Portuguese)\n\nSee the [documentation](Documentation/README.md) directory for a list of languages or contribute one!\n\nThanks to @takecian, @ikesyo, @pedrovereza, @CodingItWrong, @istx25, @MP0w, @wongzigii, @rastersize, @marciok and the many contributors leading up to 1.0.0! 👏🏽\n",
     "createdAt" : "2016-11-22T18:14:57+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTQ3MjcyMDA=",
     "owner" : "Quick",
     "publishedAt" : "2016-11-22T18:19:58+09:00",
@@ -230,7 +230,7 @@
   {
     "body" : "This release supports Swift 3.\n\nOther changes:\n- Improve documentation. Thanks @takecian, @istx25, @wongzigii!\n- Add more documentation in Chinese. Thanks @linshiwei!\n\nSpecial Thanks to @ikesyo, @briancroom, @norio-nomura, @knellr, @andersio,\n@kylef for all the work of getting Quick to work with Swift 3.\n",
     "createdAt" : "2016-09-24T01:05:27+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTQyMTU2Nzg=",
     "owner" : "Quick",
     "publishedAt" : "2016-09-24T01:07:09+09:00",
@@ -242,7 +242,7 @@
   {
     "body" : "This release supports Xcode 8 beta and Swift 2.3.\n\nChanges:\n- Support Xcode 8 beta and Swift 2.3. Thanks, @ikesyo and @sharplet!\n- Fixed a potential crash, in which a `QuickSpec` subclass could call `+[QuickSpec initialize]`, thus kicking off an infinite recursion. Thanks, @briancroom!\n- Disables bitcode on tvOS. Thanks, @phatblat!\n",
     "createdAt" : "2016-07-29T13:25:58+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTM3NjcwNjM=",
     "owner" : "Quick",
     "publishedAt" : "2016-07-29T13:33:20+09:00",
@@ -254,7 +254,7 @@
   {
     "body" : "This release supports Xcode 7.3 and the Swift package manager from `DEVELOPMENT-SNAPSHOT-2016-02-08-a`.\n\nChanges:\n- Fixed example spec in doc comment #512, #513. Thanks @muukii & @phatblat!\n- Resolved Swift 2.2 deprecation warnings in Xcode 7.3 #504. Thanks @phatblat!\n- Updated Nimble submodule to 4.0. Thanks @ashfurrow!\n- Reworked suspendObservation #486. Thanks @briancroom!\n- Fixed typo #493. Thanks @pixyzehn!\n- Fixed image URL in docs #457. Thanks @takecian!\n- Fixed `afterSuite` #488. Thanks @briancroom!\n- Linux update #474. Thanks @briancroom!\n- xctool cleanup #483. Thanks @mokagio!\n- Japanese doc translations #476, #477, #478, #479, #480, #481, #484. Thanks @takecian!\n",
     "createdAt" : "2016-04-10T10:51:05+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTI5ODc2NDk=",
     "owner" : "Quick",
     "publishedAt" : "2016-04-10T10:52:23+09:00",
@@ -266,7 +266,7 @@
   {
     "body" : "This release supports Xcode 7.2 and the Swift package manager from `2.2-SNAPSHOT-2016-01-11-a`.\n\nChanges:\n\nSince [v0.5.1](https://github.com/Quick/Quick/releases/tag/v0.5.1), Quick displayed incredibly long test names in the Xcode test navigator. Although the names were a little hard to read, they were necessary in order to make sure examples with duplicate names were still run correctly (see the full discussion of the issue [here](https://github.com/Quick/Quick/pull/295)). Now, thanks to @abbeycode, test names are dramatically shorter and easier to read, and Quick still behaves properly even when identical example names are used.\n\nWhen two or more examples share the same name, such as `\"it_is_an_example\"`, Quick now uses test names such as `\"it_is_an_example\"`, `\"it_is_an_example_2\"`, `\"it_is_an_example_3\"`, and so on.\n",
     "createdAt" : "2016-02-09T12:08:36+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTI1NzY3Njc=",
     "owner" : "Quick",
     "publishedAt" : "2016-02-09T12:10:27+09:00",
@@ -278,7 +278,7 @@
   {
     "body" : "This release supports Xcode 7.2 and the Swift package manager from `2.2-SNAPSHOT-2016-01-11-a`. \n\nChanges:\n- Thanks to @morganchen12 and @jwfriese, Quick now displays more informative error messages when the describe/context/it language is used incorrectly. For example, `it(\"foo\") { afterEach {} }` will now raise an exception with the message: \"'afterEach' cannot be used inside 'it', 'afterEach' may only be used inside 'context' or 'describe'.\"\n- Thanks to @paulyoung and @briancroom, Quick may now be installed via the Swift package manager. See the [`Package.swift` file](https://github.com/Quick/Quick/blob/master/Package.swift) file for an example of how to specify a dependency.\n- A nasty issue would cause Quick to fail to execute certain tests after the user ran a specific test via the Xcode test navigator (see https://github.com/Quick/Quick/issues/373 and https://github.com/Quick/Quick/issues/439) for details. Thanks to @sharplet, this issue has been fixed.\n",
     "createdAt" : "2016-01-26T15:01:13+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTI0OTE1MzY=",
     "owner" : "Quick",
     "publishedAt" : "2016-01-26T15:05:51+09:00",
@@ -290,7 +290,7 @@
   {
     "body" : "This release supports Xcode 7.1 with better tvOS support.\n\nChanges:\n- tvOS is a separate build target instead of iOS\n  - Note that UI Testing Bundles currently doesn't work. We're looking into it.\n- updated import headers to be relative from module-based imports\n",
     "createdAt" : "2015-10-27T14:51:03+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIwMjM1MDE=",
     "owner" : "Quick",
     "publishedAt" : "2015-10-27T14:52:45+09:00",
@@ -302,7 +302,7 @@
   {
     "body" : "This release supports Xcode 7.0.\n\nPlease follow the `xcode7.1` branch for tvOS support (Carthage + Cocoapods).\n",
     "createdAt" : "2015-10-19T03:48:45+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE5Nzg5NjA=",
     "owner" : "Quick",
     "publishedAt" : "2015-10-19T03:57:12+09:00",
@@ -314,7 +314,7 @@
   {
     "body" : "v0.6.0 targets Xcode 7 beta 6 / Swift 2.0\n\nChanges in this release:\n- Quick works for Xcode 7 beta 6\n- Converted line numbers from `Int` to `UInt`\n\nAlso, [Nimble has been updated](https://github.com/Quick/Nimble/releases/tag/v2.0.0-rc.3) for Xcode 7 beta 6.\n",
     "createdAt" : "2015-08-31T10:36:38+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE3NDMxNjU=",
     "owner" : "Quick",
     "publishedAt" : "2015-08-31T10:43:29+09:00",
@@ -326,7 +326,7 @@
   {
     "body" : "v0.5.1 Targets Xcode 7 beta 4 / Swift 2.0\n\nChanges in this release:\n- Quick works for Xcode 7 beta 4\n- Fix support for XCTest\\* macros\n- Add support for Objective-C++ projects\n- Test methods are uniqued by file + line to fix bug where XCTest would only run one test if multiple examples produced the same example name. This is not intended as the final test naming structure and will probably change in future versions.\n",
     "createdAt" : "2015-07-27T17:25:44+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE1ODk0NzI=",
     "owner" : "Quick",
     "publishedAt" : "2015-07-27T17:28:06+09:00",
@@ -338,7 +338,7 @@
   {
     "body" : "v0.5.x targets Xcode 7 / Swift 2.0\n\nChanges in this release:\n- Quick works for Xcode 7 beta 3\n- Add beforeEachWithMetadata() for Objective-C\n- Add afterEachWithMetadata() for Objective-C\n- Minimum deployment target for OS X is 10.9\n\nRemoved in this release:\n- World class is now internal implementation\n",
     "createdAt" : "2015-07-10T14:37:47+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTE1MTkxMTY=",
     "owner" : "Quick",
     "publishedAt" : "2015-07-10T14:42:48+09:00",
@@ -350,7 +350,7 @@
   {
     "body" : "v0.4.x targets Xcode 7 and Swift 2.0.\n\nChanges in this release:\n- Backwards incompatible changes for Swift 2.0.\n- XCTestObservationCenter is now a public XCTest API, although it\n  doesn't expose \"suspend observation\". Quick tests now use the public\n  APIs where applicable.\n- Added Nimble to Quick Focused OSX Test Target in order to fix a CI\n  failure.\n\nRemoved in this release:\n- Removed Failure.swift, which was no longer being used within the framework\n  (probably) as of 6a68691, and was not a class that Quick consumers should\n  have been relying upon.\n",
     "createdAt" : "2015-06-10T12:10:47+09:00",
-    "fetchedFromAPIAt" : "2022-04-17T09:44:19+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTEzOTY5NTE=",
     "owner" : "Quick",
     "publishedAt" : "2015-06-10T12:14:41+09:00",

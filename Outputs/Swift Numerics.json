@@ -2,7 +2,7 @@
   {
     "body" : "This release adds support for the CMake build in macOS on arm64. Thanks to @DanboDuan for the patch.",
     "createdAt" : "2021-11-18T23:21:09+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "RE_kwDOCGqgm84DMojE",
     "owner" : "apple",
     "publishedAt" : "2021-11-18T23:23:59+09:00",
@@ -14,7 +14,7 @@
   {
     "body" : "This tag contains no code changes, but clarifies in the readme that API defined in a conformance to Differentiable cannot be source-stable, because Differentiable itself is not stable. Thanks @rxwei for reminding me to clarify this.",
     "createdAt" : "2021-09-01T05:29:00+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTQ4NzczMDAx",
     "owner" : "apple",
     "publishedAt" : "2021-09-01T05:34:15+09:00",
@@ -26,7 +26,7 @@
   {
     "body" : "Welcome to the first stable release of Swift Numerics!\r\n\r\nNot much has changed from 0.1.0, except that I'm declaring the API of RealModule and ComplexModule to be stable. There is some [expanded documentation](https://github.com/apple/swift-numerics/pull/193/files) for the `reciprocal` property on `AlgebraicField`, including discussion of error bounds for `Real` and `Complex` types.\r\n\r\nThe only breaking change from 0.1.0 is that `Augmented.fastTwoSum` and `Augmented.twoProdFMA` have been [deprecated](https://github.com/apple/swift-numerics/pull/183/files) and [renamed](https://github.com/apple/swift-numerics/pull/181/files) `Augmented.sum(large:small:)` and `Augmented.product`. This change is not expected to effect many users, and the deprecation should make clear how to update your code if necessary. As always, raise a [GitHub issue](https://github.com/apple/swift-numerics/issues) or post on [the forums](https://forums.swift.org/c/related-projects/swift-numerics/56) if you have questions.",
     "createdAt" : "2021-09-01T00:34:42+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTQ4NzU3MzYy",
     "owner" : "apple",
     "publishedAt" : "2021-09-01T00:58:38+09:00",
@@ -38,7 +38,7 @@
   {
     "body" : "Howdy buckaroos! It's been a while since the last release, as I've been busy with some real-life stuff.\r\n\r\nBut now I'm back to the grindstone, and I've got a fun release for you. There's a bunch of cleanups and improvements from various contributors (@NevinBR and @markuswntr come to mind), but the big news is that [Complex types now conform to the ElementaryFunctions protocol](https://github.com/apple/swift-numerics/pull/162), which means that all your favorite math functions are available for complex types.\r\n\r\nThe branch cuts of these complex functions should generally match C and C++'s (because all implementations follow Kahan's standard paper on the subject), though the exact numerical results will be slightly different in general. Unlike the real functions, the complex elementary functions are all implemented in Swift--we don't delegate to the host system math library. This is because the general quality of <complex.h> implementations is significantly lower than <math.h> implementations, and some platforms (Windows) don't provide those operations at all. In general, I believe that the basic algorithms used by Swift Numerics for these operations are as good as (and often better) than what C libraries provide, but there is always a possibility of bugs, especially with new code. Don't hesitate to raise an issue if you see anything you suspect.\r\n\r\nSpecial thanks to @compnerd for going above and beyond tracking down a [Swift bug](https://bugs.swift.org/browse/SR-13985) that held up this tag (and @eeckstein for fixing it!)",
     "createdAt" : "2021-02-20T07:38:49+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTM4Mzk4MTkw",
     "owner" : "apple",
     "publishedAt" : "2021-02-22T06:52:19+09:00",
@@ -50,7 +50,7 @@
   {
     "body" : "This is a quick-fix release to address [a bug](https://github.com/apple/swift-numerics/issues/156) reported with Float16 availability in Xcode 12 on Catalina. No puns, sorry 😂",
     "createdAt" : "2020-09-19T05:59:35+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTMxNTQ1NjA1",
     "owner" : "apple",
     "publishedAt" : "2020-09-19T06:12:21+09:00",
@@ -62,7 +62,7 @@
   {
     "body" : "Hey all, lots of updates in this release:\r\n\r\nFirst, the big features:\r\n- Differentiable and Float16 support is live in Swift Numerics. These are protected behind swift version checks, so you'll only see them when you're building with a Swift 5.3 or later toolchain (because earlier toolchains don't have the necessary support). For Float16, you need to also be targeting a platform with support in the standard library (i.e. not macOS). For Differentiable, you need to be using a toolchain that was built with differentiable programming support enabled.\r\n\r\n- Approximate equality comparisons have been added for types conforming to Numeric when the associatedtype Magnitude conforms to FloatingPoint. This includes all of the Real types, but also includes Complex, and can be extended to lots of other useful types as well. The most basic use is:\r\n  ```\r\n  a.isApproximatelyEqual(to: b)\r\n  ```\r\n  which performs a comparison with default _relative_ tolerance. You can manually specify an absolute or relative tolerance (or both), as well as a norm to use via overloads and optional arguments. Consult the doc comments for more information now, but I plan to write a more in-depth README for the feature in the coming weeks.\r\n\r\nTwo implementation details have also been added on `Real`, which are useful for building out other parts of the library:\r\n- `cosMinusOne(_ x: Self) -> Self`\r\n  This is \"just `expMinusOne(_:Self)`, but for cosine\". It's a somewhat niche feature (and trivially implementable via the half-angle formula), but it turns out to be useful when building out ElementaryFunctions support for Complex types, so it seems to make good sense to make more broadly available.\r\n- `_mulAdd(_ a: Self, _ b: Self, _ c: Self) -> Self`\r\n  This is intended to use _either_ an FMA or separate multiply and add to evaluate `a*b + c` as efficiently as possible. This is a much more niche implementation detail, and the name is subject to change (hence the underscore), but it's useful enough to expose for anyone who wants to use it.\r\n\r\nSpeaking of ElementaryFunctions support for Complex types, that's something that's in progress now (https://github.com/apple/swift-numerics/pull/146). I'll be working through it over the next few weeks, and would love to have contributions. If you'd like to contribute, be sure to read the [_implementation goals_](https://github.com/apple/swift-numerics/pull/146/files#diff-09d59967445bcdd89e02e0534c77f51b). Simply borrowing from C or C++ implementations will probably not be sufficient for the goals we have and semantics defined for Complex, but you can use them as a starting point if you're willing to iterate with me a bit.\r\n\r\nThanks everyone!\r\n\r\nForums discussion here: https://forums.swift.org/t/0-0-7-release-notes/39680",
     "createdAt" : "2020-08-25T09:36:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTMwMDc2NjMw",
     "owner" : "apple",
     "publishedAt" : "2020-08-25T08:49:06+09:00",
@@ -74,7 +74,7 @@
   {
     "body" : "There are a bunch of small changes in this release:\r\n\r\n- Added Windows support via CMake build system, contributed by @compnerd (special thanks for your patience!)\r\n\r\n- I removed the Complex benchmarks from the test targets. Semantically, benchmarks are not the same as tests, and we don't need these to run in the same conditions. Further, the Xcode benchmark infrastructure isn't quite what we want for these, and they don't work on Windows anyway, because clang does not support C complex multiplication or division on Windows. These benchmarks will return in the next release in the form of an executable target.\r\n\r\n- Complex&lt;T&gt; now conforms to Differentiable if you are using a toolchain that supports Differentiable programming and T is Differentiable. Thanks to @rxwei and @dan-zheng for their work on this.\r\n\r\n- Some documentation fixes for Complex fell out from work that @markuswntr has been doing on Quaternions (check out the Quaternions branch to play with it, and help review his PRs)\r\n\r\n- I fixed a bug in pow(Float/Double, Int) for exceptionally large exponents. It's unlikely that this ever caused any real problems, because it only occurs when the exponent is so large that the result should always be 0, 1, or infinity, but now we get the right answer for these cases.\r\n\r\nA reminder that Float16 support is available on the swift-5.3 branch, which will be merged to master when swift-5.3 is released. When that happens, I will also create a LTS swift-5.2 branch to support older toolchains that do not have Float16 support.\r\n\r\nAny questions or problems can be discussed on the GitHub repo or on the Swift Forums: https://forums.swift.org/t/0-0-6-release-notes/38146",
     "createdAt" : "2020-07-03T22:45:25+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTI4MjAwNzk5",
     "owner" : "apple",
     "publishedAt" : "2020-07-03T23:07:58+09:00",
@@ -86,7 +86,7 @@
   {
     "body" : "There are two changes in this release:\r\n\r\n- [`AlgebraicField` now refines `SignedNumeric` instead of `Numeric`](https://github.com/apple/swift-numerics/pull/99). This should have no visible change for most users, because all conforming types (`Float`, `Double`, `Float80`, and `Complex`) already conform to `SignedNumeric`. However, users who have code that is generic over the `AlgebraicField` protocol can now use unary negation (or remove existing explicit `SignedNumeric` constraints from that code).\r\n\r\n- [The `Real` and `Complex` modules have been renamed `RealModule` and `ComplexModule`](https://github.com/apple/swift-numerics/pull/97). If you import `Numerics`, then this change does not affect you. However, if you currently import either `Real` or `Complex` directly, you will need to update your import statements. (sorry!)\r\n\r\n  This is not a change that I make lightly; I would very much prefer to avoid this sort of churn, even though Swift Numerics hasn't yet declared 1.0. However, there are real limitations of the current name lookup system, which prevents use of some nice patterns when a module name shadows a type.\r\n\r\n  E.g. with this change, a user who mostly only wants to work with complex doubles can do the following:\r\n  ```swift\r\n  import ComplexModule\r\n\r\n  typealias Complex = ComplexModule.Complex<Double>\r\n\r\n  // Can now use the simpler name Complex for Complex<Double>:\r\n  func foo(_ z: Complex) -> Complex {\r\n    ...\r\n  }\r\n  \r\n  // But can still get at the generic type when necessary:\r\n  let a = ComplexModule.Complex<Float>\r\n  ```\r\n\r\n  Any Swift Numerics module that might have this ambiguity will be suffixed with `Module` in the future (just like the pattern of protocols being suffixed with `Protocol` when necessary to break ambiguity).\r\n\r\nAs always, if you have any questions or comments, there is a [forums thread for discussing this release](https://forums.swift.org/t/0-0-5-release-notes/33991).",
     "createdAt" : "2020-02-21T23:26:16+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIzODc5Njc5",
     "owner" : "apple",
     "publishedAt" : "2020-02-21T23:47:32+09:00",
@@ -98,7 +98,7 @@
   {
     "body" : "There are two changes in this release to call out specifically:\r\n\r\n- Complex's conformance to Codable now uses an *unkeyed* container, so e.g. `.zero` gets encoded as `[0,0]` in JSON instead of the old `{\"x\":0, \"y\":0}`.\r\n\r\n- There's a new protocol, `AlgebraicField` refining `Numeric` by adding the `/`, `/=` operators, and a `.reciprocal: Self?` property. The `Real` protocol refines it and `Complex<T>` conforms to it, allowing you to write code that is generic over them. There are some additional operations that it probably makes sense to add to this protocol (e.g. square root); I expect to add them gradually as needed.\r\n\r\nI also want to draw special attention to [a change](https://github.com/apple/swift-numerics/issues/94) that I expect to make in the *next* tag. In order to make certain use patterns simpler, I intend to give the `Complex` module a name that doesn't conflict with the `Complex` type. If you have opinions about this change, or suggestions for a naming pattern to adopt for modules in Swift Numerics, please weigh in on that thread.\r\n\r\nIf you have any questions, use this [discussion thread](https://forums.swift.org/t/0-0-4-release-notes/32860) on the Swift forums.",
     "createdAt" : "2020-01-23T03:43:51+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIzMDQ5NzI4",
     "owner" : "apple",
     "publishedAt" : "2020-01-23T04:07:33+09:00",
@@ -110,7 +110,7 @@
   {
     "body" : "In earlier releases, `Real.pow(Self, Int)` simply called through to `libm_pow`. This is generally acceptable on platforms with a decent math library, but gets some cases wrong for `Float` and `Double` when the exponent is so large that it would be rounded in conversion to `Self`.\r\n\r\nFor example, consider `Float.pow(-1, 0x1000001)`. Since the exponent is odd, the result should be `-1`, but when we simply called `libm_pow(-1, Float(0x1000001))`, the exponent was rounded to an even number, and the result was `1`.\r\n\r\nThis behavior is fixed in this release; in particular the parity of integer exponents is always preserved, so that we will not have sign errors like above. There is still additional work to be done on the `Real.pow` implementations--especially to provide better support for platforms with suspect math libraries--but this is a significant improvement to these operations.",
     "createdAt" : "2019-11-30T13:13:19+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIxODcyMzUz",
     "owner" : "apple",
     "publishedAt" : "2019-12-01T02:09:25+09:00",
@@ -122,7 +122,7 @@
   {
     "body" : "There are two significant API changes to the Complex module in this release:\r\n\r\n1. The `unsafeLengthSquared` property has been renamed `lengthSquared`, because--while it can overflow or underflow--the result is always well-defined, and therefore does not lead to memory unsafety. The old property is still present, marked unavailable, so you should get a useful renaming message from the compiler or your IDE. The old property will be removed after a period of time.\r\n\r\n2. The `Complex(length:phase:)` initializer has been made non-optional. Instead it is now a precondition that the length must be either zero or infinite if phase is not finite. Updating code to account for this change should be quite straightforward, because you are unlikely to have been using the paths that could return nil previously. If you have any questions, please ask for assistance on [the forums](https://forums.swift.org/t/0-0-2-release-notes/30974).",
     "createdAt" : "2019-11-21T06:27:40+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIxNjM1MDg3",
     "owner" : "apple",
     "publishedAt" : "2019-11-21T06:35:08+09:00",
@@ -134,7 +134,7 @@
   {
     "body" : "Adds an empty Tests/LinuxMain.swift to fix building on Linux, and directs users to --enable-test-discovery for testing on Linux.",
     "createdAt" : "2019-11-13T05:35:38+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIxNDIwMTQy",
     "owner" : "apple",
     "publishedAt" : "2019-11-13T05:39:56+09:00",
@@ -146,7 +146,7 @@
   {
     "body" : "I haven't yet formally defined the release policy for this repo, but it's useful for SPM workflows to have a tag exist, so I'm cutting 0.0.0 with the first few rounds of bug fixes and cleanups from open source contributors.\r\n\r\nThanks to everyone who has jumped to contribute!",
     "createdAt" : "2019-11-11T22:38:04+09:00",
-    "fetchedFromAPIAt" : "2022-04-10T16:21:22+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDc6UmVsZWFzZTIxMzY3NTc3",
     "owner" : "apple",
     "publishedAt" : "2019-11-11T23:00:02+09:00",
