@@ -4,13 +4,11 @@
 
 iOS Osushi が GitHub 上の各リポジトリのリリース情報を定期的に、自動で取得するために使用するツールです。
 
-## 動作環境
-macOS 10.15 以降の CLI および Linux の CLI で、Swift 5.6 以降。
-
-GitHub Actions で定期実行し、リリース情報を Slack Webhook に送信することを想定しています。
-
 ## リリース情報自動取得対象のリポジトリ
-リリース情報を自動で取得する先のリポジトリは、`ReleaseSubscriptions.yml` に列挙されています。
+<!-- BEGIN LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->
+<!-- END LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->
+
+なお、これらは `ReleaseSubscriptions.yml` に列挙されています。
 
 - `kind`: Slack Webhook URL の向き先を指定
   - `primary`（主としてオーナーが Apple のリポジトリ）
@@ -27,3 +25,8 @@ GitHub Actions で定期実行し、リリース情報を Slack Webhook に送�
 1. `kind` が `primary` → `secondary` の順
 1. `owner` の大文字小文字区別なし昇順
 1. `repo` の大文字小文字区別なし昇順
+
+## 動作環境
+macOS 10.15 以降の CLI および Linux の CLI で、Swift 5.6 以降。
+
+GitHub Actions で定期実行し、リリース情報を Slack Webhook に送信することを想定しています。

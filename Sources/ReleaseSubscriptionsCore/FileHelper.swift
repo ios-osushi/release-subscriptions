@@ -36,11 +36,7 @@ public struct FileHelper {
     
     static var outputURL: URL {
         get throws {
-            let outputURL = URL(fileURLWithPath: #filePath)
-                .deletingLastPathComponent()
-                .deletingLastPathComponent()
-                .deletingLastPathComponent()
-                .appendingPathComponent("Outputs", isDirectory: true)
+            let outputURL = URL.topLevelDirectory.appendingPathComponent("Outputs", isDirectory: true)
             if !manager.fileExists(atPath: outputURL.path) {
                 try manager.createDirectory(at: outputURL, withIntermediateDirectories: true)
             }
