@@ -8,7 +8,7 @@ iOS Osushi が GitHub 上の各リポジトリのリリース情報を定期的�
 <!-- BEGIN LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->
 <!-- END LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->
 
-なお、これらは `ReleaseSubscriptions.yml` に列挙されています。
+この表は [ReleaseSubscriptions.yml](./ReleaseSubscriptions.yml) から自動で生成しています。
 
 - `kind`: Slack Webhook URL の向き先を指定
   - `primary`（主としてオーナーが Apple のリポジトリ）
