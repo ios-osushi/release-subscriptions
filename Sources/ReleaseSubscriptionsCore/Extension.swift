@@ -10,6 +10,13 @@ import Foundation
 import FoundationNetworking
 #endif
 
+public extension URL {
+    static let topLevelDirectory = URL(fileURLWithPath: #filePath)
+        .deletingLastPathComponent()
+        .deletingLastPathComponent()
+        .deletingLastPathComponent()
+}
+
 public extension URLSession {
     func data(from url: URL) async throws -> (Data, URLResponse) {
         let request = URLRequest(url: url)

@@ -15,11 +15,7 @@ public struct Parser {
     }
     
     public static func parse() throws -> [GitHubRepository] {
-        let url = URL(fileURLWithPath: #filePath)
-            .deletingLastPathComponent()
-            .deletingLastPathComponent()
-            .deletingLastPathComponent()
-            .appendingPathComponent("ReleaseSubscriptions.yml")
+        let url = URL.topLevelDirectory.appendingPathComponent("ReleaseSubscriptions.yml")
         let string = try String(contentsOf: url)
         let yaml = try Yaml.load(string)
         guard let repositoriesYaml = yaml["repositories"].array else {

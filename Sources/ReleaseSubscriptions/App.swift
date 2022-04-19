@@ -28,6 +28,7 @@ struct App: AsyncParsableCommand {
         let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
         try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
         try FileHelper.save(contents: combinedContents)
+        try FileHelper.writeToREADME(repositories: repositories)
     }
     
     private func slackURLs() -> [SlackWebhookDestination : URL] {

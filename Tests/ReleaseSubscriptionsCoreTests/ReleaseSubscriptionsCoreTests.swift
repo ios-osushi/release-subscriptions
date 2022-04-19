@@ -14,6 +14,10 @@ final class ReleaseSubscriptionsCoreTests: XCTestCase {
         dump(repositories)
     }
     
+    func testREADMELoading() throws {
+        _ = try FileHelper.readFromREADME()
+    }
+    
     func testPastOutputsLoading() throws {
         let repositories = try Parser.parse()
         let oldContents = try FileHelper.load(repositories: repositories)
