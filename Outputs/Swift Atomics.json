@@ -1,41 +1,5 @@
 [
   {
-    "body" : "This is a patch release that introduces initial support for building this package with the Swift 5.5 compiler. \r\n\r\n(More fully-featured support with additional `Sendable` conformances will come in a future minor release.)\r\n\r\n#### Fixes\r\n\r\n- The package now has a workaround for an arm64 code generation issue for double wide atomics in the version of LLVM that ships in Swift 5.5. (#41)\r\n- When building with Swift 5.5, `UnsafeAtomic` and `UnsafeAtomicLazyReference` now only conform to `Sendable` when their value is. Swift 5.5 implicitly adds unconditional conformances to these types in 1.0.1, which isn't right. (#47) \r\n- The package now has better support for building with CMake. (#39) (Note that the CMake build configuration is intended only to enable the use of this package within Swift toolchain builds. It isn't part of the package's public API, so it is subject to change in any release.)\r\n\r\n### Pull Requests\r\n\r\n- #38 [shims] Only define atomic shims in Swift's Clang Importer (by @lorentey)\r\n- #39 [cmake] Fix building with CMake (by @lorentey)\r\n- #40 Add support test script (by @lorentey)\r\n- #43 Implement double-wide loads with compare-exchange on arm64 in debug builds with the Swift 5.5 compiler (by @lorentey)\r\n- #44 Update utility scripts (by @lorentey)\r\n- #48 Fix `UnsafeAtomic`'s `Sendable` conformance (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release!\r\n",
-    "createdAt" : "2021-09-25T08:35:28+09:00",
-    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
-    "id" : "RE_kwDOEeiD3M4C_Y4w",
-    "owner" : "apple",
-    "publishedAt" : "2021-09-25T08:43:21+09:00",
-    "repository" : "swift-atomics",
-    "title" : "Atomics 1.0.2",
-    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.0.2",
-    "version" : "1.0.2"
-  },
-  {
-    "body" : "This is a patch release containing several bug fixes.\r\n\r\n#### Fixes\r\n\r\n- The package now builds successfully on 32-bit architectures (i386, armv7) (#33)\r\n- The package manifest was adjusted to prevent SwiftPM warnings about unknown files in source directories.\r\n- Several types are now `@frozen` to match their `@inlinable` initializers. (This package isn't ABI stable, so this change is a no-op in all supported configurations.)\r\n\r\n### Pull Requests\r\n\r\n- #34 [shims] Fix i386/armv7 regression introduced in #26 (by @lorentey) \r\n- #35 [manifest] Fix warnings in 5.3 toolchains (by @lorentey)\r\n- #36 Fix build errors with library evolution enabled (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release!\r\n",
-    "createdAt" : "2021-08-31T06:16:24+09:00",
-    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
-    "id" : "MDc6UmVsZWFzZTQ4NzAzMTA0",
-    "owner" : "apple",
-    "publishedAt" : "2021-09-09T05:20:43+09:00",
-    "repository" : "swift-atomics",
-    "title" : "Atomics 1.0.1",
-    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.0.1",
-    "version" : "1.0.1"
-  },
-  {
-    "body" : "This release marks an important milestone for this package -- the advent of source stability!\r\n\r\n#### Changes\r\n\r\n- The public API of Swift Atomics is now considered source stable. The README defines what we consider public API.\r\n- Swift Atomics now requires a Swift 5.3 or later toolchain.\r\n- The low-level (pointer-based) atomic boolean operations are now public. (They were accidentally omitted from previous releases.)\r\n- The package now includes a CMake-based build method for bootstrapping purposes. This isn't considered stable; it may be removed or arbitrarily changed in any new release, including patch releases.\r\n\r\n#### Pull requests\r\n\r\n- #20 DoubleWord._readersBitWidth: Switch to using Int.bitWidth (by @lorentey)\r\n- #24 Mark the additional Bool methods as public (by @dfunckt)\r\n- #25 build: add a CMake based build for Atomics (by @compnerd)\r\n- #26 _AtomicShims: simplify double word setup (by @compnerd)\r\n- #28 gitignore: ignore vim swap files (by @compnerd)\r\n- #29 Tests: add XCTest manifest for non-SPM based builds (by @compnerd)\r\n- #30 Bump required toolchain version to 5.3 (by @lorentey)\r\n- #31 Declare Atomics source stable and describe what we consider public API (by @lorentey)\r\n- #32 [NFC] Update copyright notices (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release!\r\n",
-    "createdAt" : "2021-08-28T10:33:04+09:00",
-    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
-    "id" : "MDc6UmVsZWFzZTQ4NjAwMDE3",
-    "owner" : "apple",
-    "publishedAt" : "2021-08-28T10:34:19+09:00",
-    "repository" : "swift-atomics",
-    "title" : "Atomics 1.0.0",
-    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.0.0",
-    "version" : "1.0.0"
-  },
-  {
     "body" : "### Fixes\r\n\r\n- Adds basic support for building with the Swift 5.2 toolchains.\r\n- Resolves a warning about the `arm64_32` architecture emitted by swift.org compiler builds.",
     "createdAt" : "2021-01-28T06:32:19+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
@@ -46,6 +10,18 @@
     "title" : "Atomics 0.0.3",
     "url" : "https://github.com/apple/swift-atomics/releases/tag/0.0.3",
     "version" : "0.0.3"
+  },
+  {
+    "body" : "Initial release.",
+    "createdAt" : "2020-10-02T08:57:36+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
+    "id" : "MDc6UmVsZWFzZTMyMDcyNjE4",
+    "owner" : "apple",
+    "publishedAt" : "2020-10-02T09:01:31+09:00",
+    "repository" : "swift-atomics",
+    "title" : "Atomics 0.0.1",
+    "url" : "https://github.com/apple/swift-atomics/releases/tag/0.0.1",
+    "version" : "0.0.1"
   },
   {
     "body" : "## Changes\r\n\r\n- On Linux only, support for double-wide atomics is unavailable by default on x86_64 CPUs. To enable double-wide atomic functionality, you have to manually switch on support for the `cmpxchg16b` instruction:\r\n\r\n    ```\r\n    $ swift build -Xcc -mcx16 -Xswiftc -DENABLE_DOUBLEWIDE_ATOMICS -c release\r\n    ```\r\n\r\n   Code containing `cmpxchg16b` will run on all but the earliest AMD x86_64 CPUs. (You can verify your target CPU supports it by checking that the `cx16` flag is present in /proc/cpuinfo.)\r\n \r\n- The Swift Atomics test suite now requires `--enable-test-discovery` on non-Apple platforms.\r\n",
@@ -60,15 +36,39 @@
     "version" : "0.0.2"
   },
   {
-    "body" : "Initial release.",
-    "createdAt" : "2020-10-02T08:57:36+09:00",
+    "body" : "This release marks an important milestone for this package -- the advent of source stability!\r\n\r\n#### Changes\r\n\r\n- The public API of Swift Atomics is now considered source stable. The README defines what we consider public API.\r\n- Swift Atomics now requires a Swift 5.3 or later toolchain.\r\n- The low-level (pointer-based) atomic boolean operations are now public. (They were accidentally omitted from previous releases.)\r\n- The package now includes a CMake-based build method for bootstrapping purposes. This isn't considered stable; it may be removed or arbitrarily changed in any new release, including patch releases.\r\n\r\n#### Pull requests\r\n\r\n- #20 DoubleWord._readersBitWidth: Switch to using Int.bitWidth (by @lorentey)\r\n- #24 Mark the additional Bool methods as public (by @dfunckt)\r\n- #25 build: add a CMake based build for Atomics (by @compnerd)\r\n- #26 _AtomicShims: simplify double word setup (by @compnerd)\r\n- #28 gitignore: ignore vim swap files (by @compnerd)\r\n- #29 Tests: add XCTest manifest for non-SPM based builds (by @compnerd)\r\n- #30 Bump required toolchain version to 5.3 (by @lorentey)\r\n- #31 Declare Atomics source stable and describe what we consider public API (by @lorentey)\r\n- #32 [NFC] Update copyright notices (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release!\r\n",
+    "createdAt" : "2021-08-28T10:33:04+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
-    "id" : "MDc6UmVsZWFzZTMyMDcyNjE4",
+    "id" : "MDc6UmVsZWFzZTQ4NjAwMDE3",
     "owner" : "apple",
-    "publishedAt" : "2020-10-02T09:01:31+09:00",
+    "publishedAt" : "2021-08-28T10:34:19+09:00",
     "repository" : "swift-atomics",
-    "title" : "Atomics 0.0.1",
-    "url" : "https://github.com/apple/swift-atomics/releases/tag/0.0.1",
-    "version" : "0.0.1"
+    "title" : "Atomics 1.0.0",
+    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  },
+  {
+    "body" : "This is a patch release containing several bug fixes.\r\n\r\n#### Fixes\r\n\r\n- The package now builds successfully on 32-bit architectures (i386, armv7) (#33)\r\n- The package manifest was adjusted to prevent SwiftPM warnings about unknown files in source directories.\r\n- Several types are now `@frozen` to match their `@inlinable` initializers. (This package isn't ABI stable, so this change is a no-op in all supported configurations.)\r\n\r\n### Pull Requests\r\n\r\n- #34 [shims] Fix i386/armv7 regression introduced in #26 (by @lorentey) \r\n- #35 [manifest] Fix warnings in 5.3 toolchains (by @lorentey)\r\n- #36 Fix build errors with library evolution enabled (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release!\r\n",
+    "createdAt" : "2021-08-31T06:16:24+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
+    "id" : "MDc6UmVsZWFzZTQ4NzAzMTA0",
+    "owner" : "apple",
+    "publishedAt" : "2021-09-09T05:20:43+09:00",
+    "repository" : "swift-atomics",
+    "title" : "Atomics 1.0.1",
+    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.0.1",
+    "version" : "1.0.1"
+  },
+  {
+    "body" : "This is a patch release that introduces initial support for building this package with the Swift 5.5 compiler. \r\n\r\n(More fully-featured support with additional `Sendable` conformances will come in a future minor release.)\r\n\r\n#### Fixes\r\n\r\n- The package now has a workaround for an arm64 code generation issue for double wide atomics in the version of LLVM that ships in Swift 5.5. (#41)\r\n- When building with Swift 5.5, `UnsafeAtomic` and `UnsafeAtomicLazyReference` now only conform to `Sendable` when their value is. Swift 5.5 implicitly adds unconditional conformances to these types in 1.0.1, which isn't right. (#47) \r\n- The package now has better support for building with CMake. (#39) (Note that the CMake build configuration is intended only to enable the use of this package within Swift toolchain builds. It isn't part of the package's public API, so it is subject to change in any release.)\r\n\r\n### Pull Requests\r\n\r\n- #38 [shims] Only define atomic shims in Swift's Clang Importer (by @lorentey)\r\n- #39 [cmake] Fix building with CMake (by @lorentey)\r\n- #40 Add support test script (by @lorentey)\r\n- #43 Implement double-wide loads with compare-exchange on arm64 in debug builds with the Swift 5.5 compiler (by @lorentey)\r\n- #44 Update utility scripts (by @lorentey)\r\n- #48 Fix `UnsafeAtomic`'s `Sendable` conformance (by @lorentey)\r\n\r\nThank you to everyone who contributed to this release!\r\n",
+    "createdAt" : "2021-09-25T08:35:28+09:00",
+    "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
+    "id" : "RE_kwDOEeiD3M4C_Y4w",
+    "owner" : "apple",
+    "publishedAt" : "2021-09-25T08:43:21+09:00",
+    "repository" : "swift-atomics",
+    "title" : "Atomics 1.0.2",
+    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.0.2",
+    "version" : "1.0.2"
   }
 ]
