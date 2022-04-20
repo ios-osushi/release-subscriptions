@@ -358,5 +358,17 @@
     "title" : "v5.0.0",
     "url" : "https://github.com/Quick/Quick/releases/tag/v5.0.0",
     "version" : "v5.0.0"
+  },
+  {
+    "body" : "This release closes the [v5.0.1 milestone](https://github.com/Quick/Quick/milestone/9?closed=1).\r\n\r\n## What's Changed\r\n* Bump danger from 8.5.0 to 8.6.0 by @dependabot in https://github.com/Quick/Quick/pull/1141\r\n* Bump fkirc/skip-duplicate-actions from 3.4.1 to 4.0.0 by @dependabot in https://github.com/Quick/Quick/pull/1140\r\n* Fix running tests in parallel by @younata in https://github.com/Quick/Quick/pull/1143\r\n* [5.0.1] version bump, gen docs by @jessesquires in https://github.com/Quick/Quick/pull/1144\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v5.0.0...v5.0.1",
+    "createdAt" : "2022-04-20T03:00:47+09:00",
+    "fetchedFromAPIAt" : "2022-04-20T09:47:53+09:00",
+    "id" : "RE_kwDOATjllM4D3Elg",
+    "owner" : "Quick",
+    "publishedAt" : "2022-04-20T03:04:14+09:00",
+    "repository" : "Quick",
+    "title" : "v5.0.1",
+    "url" : "https://github.com/Quick/Quick/releases/tag/v5.0.1",
+    "version" : "v5.0.1"
   }
 ]
