@@ -98,6 +98,30 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2022-04-21T09:46:40+09:00",
+    "id" : "MDM6UmVmMzg3NTMyMTUyOnJlZnMvdGFncy9zd2lmdC01LjctREVWRUxPUE1FTlQtU05BUFNIT1QtMjAyMi0wNC0xOC1h",
+    "owner" : "apple",
+    "publishedAt" : null,
+    "repository" : "swift-markdown",
+    "title" : "swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-18-a",
+    "url" : "https://github.com/apple/swift-markdown/releases/tag/swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-18-a",
+    "version" : "swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-18-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2022-04-21T09:46:40+09:00",
+    "id" : "MDM6UmVmMzg3NTMyMTUyOnJlZnMvdGFncy9zd2lmdC01LjctREVWRUxPUE1FTlQtU05BUFNIT1QtMjAyMi0wNC0xOS1h",
+    "owner" : "apple",
+    "publishedAt" : null,
+    "repository" : "swift-markdown",
+    "title" : "swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-19-a",
+    "url" : "https://github.com/apple/swift-markdown/releases/tag/swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-19-a",
+    "version" : "swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-19-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDM6UmVmMzg3NTMyMTUyOnJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDIxLTExLTAyLWE=",
     "owner" : "apple",
