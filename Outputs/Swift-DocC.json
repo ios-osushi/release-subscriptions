@@ -278,6 +278,18 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2022-04-23T09:41:49+09:00",
+    "id" : "MDM6UmVmMzg3NTMxMzMzOnJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDIyLTA0LTIxLWE=",
+    "owner" : "apple",
+    "publishedAt" : null,
+    "repository" : "swift-docc",
+    "title" : "swift-DEVELOPMENT-SNAPSHOT-2022-04-21-a",
+    "url" : "https://github.com/apple/swift-docc/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2022-04-21-a",
+    "version" : "swift-DEVELOPMENT-SNAPSHOT-2022-04-21-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDM6UmVmMzg3NTMxMzMzOnJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDIyLTAxLTA2LWE=",
     "owner" : "apple",
