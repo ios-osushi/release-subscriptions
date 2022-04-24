@@ -16,7 +16,7 @@ public struct Parser {
     }
     
     public static func parse() throws -> [GitHubRepository] {
-        Logger.shared.info("ℹ️ \(#function) started.")
+        Logger.shared.info("ℹ️ \(#function) started")
         let url = URL.topLevelDirectory.appendingPathComponent("ReleaseSubscriptions.yml")
         let string = try String(contentsOf: url)
         let yaml = try Yaml.load(string)

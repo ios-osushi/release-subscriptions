@@ -28,7 +28,7 @@ public struct SlackNotifier {
     }()
     
     public static func notify(to slackURLs: [SlackWebhookDestination : URL], updates: [GitHubRepository : [Release]]) async throws {
-        Logger.shared.info("ℹ️ \(#function) started.")
+        Logger.shared.info("ℹ️ \(#function) started")
         try await withThrowingTaskGroup(of: Void.self) { group in
             for (repository, releases) in updates {
                 for release in releases {

@@ -20,12 +20,12 @@ struct App: AsyncParsableCommand {
     
     func run() async throws {
         do {
-            Logger.app.info("ℹ️ \(#function) started.")
+            Logger.app.info("ℹ️ \(#function) started")
             if primarySlackURL == nil {
-                Logger.app.notice("🔔 primarySlackURL is nil.")
+                Logger.app.info("🔔 primarySlackURL is nil")
             }
             if secondarySlackURL == nil {
-                Logger.app.notice("🔔 secondarySlackURL is nil.")
+                Logger.app.info("🔔 secondarySlackURL is nil")
             }
             let repositories = try Parser.parse()
             let oldContents = try FileHelper.load(repositories: repositories)
