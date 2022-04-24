@@ -10,8 +10,7 @@ import XCTest
 
 final class ReleaseSubscriptionsCoreTests: XCTestCase {
     func testYamlParsing() throws {
-        let repositories = try Parser.parse()
-        dump(repositories)
+        _ = try Parser.parse()
     }
     
     func testREADMELoading() throws {

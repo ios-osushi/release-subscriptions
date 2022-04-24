@@ -12,7 +12,7 @@ import FoundationNetworking
 import Logging
 
 extension Logger {
-    static var core: Logger {
+    static var shared: Logger {
         Logger(label: "io.github.ios-osushi.releasesubscriptionscore")
     }
 }
