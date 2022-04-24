@@ -9,6 +9,7 @@ import Foundation
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
+import Logging
 
 public struct FileHelper {
     enum Error: Swift.Error {
@@ -51,27 +52,33 @@ public struct FileHelper {
     // MARK: - Repositories and Releases
     
     public static func load(repositories: [GitHubRepository]) throws -> [GitHubRepository : [Release]] {
+        Logger.shared.info("ℹ️ \(#function) started.")
         var contents: [GitHubRepository : [Release]] = [:]
         for repository in repositories {
+            Logger.shared.info("ℹ️ Loading \(repository.outputJSONFileName)")
             let url = try outputURL.appendingPathComponent(repository.outputJSONFileName)
             do {
                 let data = try Data(contentsOf: url)
                 let releases = try decoder.decode([Release].self, from: data)
                 contents[repository] = releases
+                Logger.shared.info("✅ Successfully loaded \(repository.outputJSONFileName)")
             } catch CocoaError.fileReadNoSuchFile {
-                // skip
+                Logger.shared.notice("🔔 \(repository.outputJSONFileName) loading was skipped because that file could not be found.")
             } catch let nsError as NSError where nsError.domain == NSPOSIXErrorDomain && nsError.code == POSIXError.ENOENT.rawValue {
-                // skip
+                Logger.shared.notice("🔔 \(repository.outputJSONFileName) loading was skipped because that file could not be found.")
             }
         }
         return contents
     }
     
     public static func save(contents: [GitHubRepository : [Release]]) throws {
-        for (repositry, releases) in contents {
-            let url = try outputURL.appendingPathComponent(repositry.outputJSONFileName)
+        Logger.shared.info("ℹ️ \(#function) started.")
+        for (repository, releases) in contents {
+            Logger.shared.info("ℹ️ Saving \(repository.outputJSONFileName)")
+            let url = try outputURL.appendingPathComponent(repository.outputJSONFileName)
             let data = try encoder.encode(releases)
             try data.write(to: url)
+            Logger.shared.info("✅ Saved: \(repository.outputJSONFileName)")
         }
     }
     
@@ -81,6 +88,7 @@ public struct FileHelper {
     private static let lowerBoundKeyword = "<!-- BEGIN LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->"
     private static let upperBoundKeyword = "<!-- END LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->"
     public static func writeToREADME(repositories: [GitHubRepository]) throws {
+        Logger.shared.info("ℹ️ \(#function) started.")
         let (url, string, lowerBound, upperBound) = try readFromREADME()
         let outputListOfRepositoriesString = """
         \(lowerBoundKeyword)
@@ -98,6 +106,7 @@ public struct FileHelper {
     }
     
     static func readFromREADME() throws -> (URL, String, String.Index, String.Index) {
+        Logger.shared.info("ℹ️ \(#function) started.")
         let url = URL.topLevelDirectory.appendingPathComponent("README.md")
         let string = try String(contentsOf: url)
         guard let lowerBound = string.range(of: lowerBoundKeyword)?.lowerBound,
