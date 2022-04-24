@@ -122,6 +122,18 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2022-04-24T09:41:49+09:00",
+    "id" : "MDM6UmVmMzg3NTMyMTUyOnJlZnMvdGFncy9zd2lmdC01LjctREVWRUxPUE1FTlQtU05BUFNIT1QtMjAyMi0wNC0yMi1h",
+    "owner" : "apple",
+    "publishedAt" : null,
+    "repository" : "swift-markdown",
+    "title" : "swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-22-a",
+    "url" : "https://github.com/apple/swift-markdown/releases/tag/swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-22-a",
+    "version" : "swift-5.7-DEVELOPMENT-SNAPSHOT-2022-04-22-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
     "id" : "MDM6UmVmMzg3NTMyMTUyOnJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDIxLTExLTAyLWE=",
     "owner" : "apple",
