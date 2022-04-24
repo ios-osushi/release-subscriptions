@@ -65,6 +65,12 @@ repositories:
     repo: swift-format
   
   - kind: primary
+    case: releases
+    name: SwiftLog
+    owner: apple
+    repo: swift-log
+  
+  - kind: primary
     case: tags
     name: Swift Markdown
     owner: apple
