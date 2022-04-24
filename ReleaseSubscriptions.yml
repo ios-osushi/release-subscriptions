@@ -47,7 +47,7 @@ repositories:
     repo: swift-crypto
   
   - kind: primary
-    case: tags
+    case: releases
     name: Swift-DocC
     owner: apple
     repo: swift-docc
