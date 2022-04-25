@@ -19,8 +19,11 @@ struct App: AsyncParsableCommand {
     var secondarySlackURL: URL?
     
     func run() async throws {
+        defer {
+            Logger.app.info("🎉 \(#function) finished")
+        }
+        Logger.app.info("ℹ️ \(#function) started")
         do {
-            Logger.app.info("ℹ️ \(#function) started")
             if primarySlackURL == nil {
                 Logger.app.info("🔔 primarySlackURL is nil")
             }

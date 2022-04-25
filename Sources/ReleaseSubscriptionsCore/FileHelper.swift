@@ -52,6 +52,9 @@ public struct FileHelper {
     // MARK: - Repositories and Releases
     
     public static func load(repositories: [GitHubRepository]) throws -> [GitHubRepository : [Release]] {
+        defer {
+            Logger.shared.info("🎉 \(#function) finished")
+        }
         Logger.shared.info("ℹ️ \(#function) started")
         var contents: [GitHubRepository : [Release]] = [:]
         for repository in repositories {
@@ -72,6 +75,9 @@ public struct FileHelper {
     }
     
     public static func save(contents: [GitHubRepository : [Release]]) throws {
+        defer {
+            Logger.shared.info("🎉 \(#function) finished")
+        }
         Logger.shared.info("ℹ️ \(#function) started")
         for (repository, releases) in contents {
             Logger.shared.info("ℹ️ Saving \(repository.outputJSONFileName)")
@@ -88,6 +94,9 @@ public struct FileHelper {
     private static let lowerBoundKeyword = "<!-- BEGIN LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->"
     private static let upperBoundKeyword = "<!-- END LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->"
     public static func writeToREADME(repositories: [GitHubRepository]) throws {
+        defer {
+            Logger.shared.info("🎉 \(#function) finished")
+        }
         Logger.shared.info("ℹ️ \(#function) started")
         let (url, string, lowerBound, upperBound) = try readFromREADME()
         let outputListOfRepositoriesString = """
@@ -106,6 +115,9 @@ public struct FileHelper {
     }
     
     static func readFromREADME() throws -> (URL, String, String.Index, String.Index) {
+        defer {
+            Logger.shared.info("🎉 \(#function) finished")
+        }
         Logger.shared.info("ℹ️ \(#function) started")
         let url = URL.topLevelDirectory.appendingPathComponent("README.md")
         let string = try String(contentsOf: url)

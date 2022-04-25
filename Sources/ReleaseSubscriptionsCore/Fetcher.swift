@@ -28,6 +28,9 @@ public struct Fetcher {
     }
     
     public static func fetch(repositories: [GitHubRepository]) async throws -> [GitHubRepository : [Release]] {
+        defer {
+            Logger.shared.info("🎉 \(#function) finished")
+        }
         Logger.shared.info("ℹ️ \(#function) started")
         return try await withThrowingTaskGroup(of: (GitHubRepository, [Release]).self) { group in
             for repository in repositories {
