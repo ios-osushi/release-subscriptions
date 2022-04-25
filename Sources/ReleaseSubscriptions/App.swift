@@ -56,7 +56,5 @@ struct App: AsyncParsableCommand {
 }
 
 extension Logger {
-    fileprivate static var app: Logger {
-        Logger(label: "io.github.ios-osushi.releasesubscriptions")
-    }
+    fileprivate static var app = Logger(label: "io.github.ios-osushi.releasesubscriptions")
 }
