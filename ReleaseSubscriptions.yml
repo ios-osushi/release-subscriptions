@@ -186,6 +186,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: APNGKit
+    owner: onevcat
+    repo: APNGKit
+  
+  - kind: secondary
+    case: releases
     name: Kingfisher
     owner: onevcat
     repo: Kingfisher
