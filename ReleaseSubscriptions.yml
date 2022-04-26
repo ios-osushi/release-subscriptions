@@ -150,6 +150,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: APIKit
+    owner: kean
+    repo: Nuke
+  
+  - kind: secondary
+    case: releases
     name: R.swift
     owner: mac-cain13
     repo: R.swift
