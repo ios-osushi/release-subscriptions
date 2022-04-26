@@ -150,7 +150,7 @@ repositories:
   
   - kind: secondary
     case: releases
-    name: APIKit
+    name: Nuke
     owner: kean
     repo: Nuke
   
@@ -177,7 +177,13 @@ repositories:
     name: SwiftFormat
     owner: nicklockwood
     repo: SwiftFormat
-  
+
+  - kind: secondary
+    case: releases
+    name: Kingfisher
+    owner: onevcat
+    repo: Kingfisher
+
   - kind: secondary
     case: releases
     name: The Composable Architecture
