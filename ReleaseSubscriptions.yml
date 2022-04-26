@@ -120,15 +120,15 @@ repositories:
   
   - kind: secondary
     case: releases
-    name: Apollo iOS
-    owner: apollographql
-    repo: apollo-ios
-  
-  - kind: secondary
-    case: releases
     name: AlamofireImage
     owner: Alamofire
     repo: AlamofireImage
+  
+  - kind: secondary
+    case: releases
+    name: Apollo iOS
+    owner: apollographql
+    repo: apollo-ios
   
   - kind: secondary
     case: releases
