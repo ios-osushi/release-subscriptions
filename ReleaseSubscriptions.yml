@@ -177,13 +177,19 @@ repositories:
     name: SwiftFormat
     owner: nicklockwood
     repo: SwiftFormat
-
+  
   - kind: secondary
     case: releases
     name: Kingfisher
     owner: onevcat
     repo: Kingfisher
-
+  
+  - kind: secondary
+    case: releases
+    name: PINRemoteImage
+    owner: pinterest
+    repo: PINRemoteImage
+  
   - kind: secondary
     case: releases
     name: The Composable Architecture
