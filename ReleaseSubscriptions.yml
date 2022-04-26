@@ -114,6 +114,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: AlamofireImage
+    owner: Alamofire
+    repo: AlamofireImage
+  
+  - kind: secondary
+    case: releases
     name: Carthage
     owner: Carthage
     repo: Carthage
