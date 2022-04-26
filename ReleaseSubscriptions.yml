@@ -240,15 +240,15 @@ repositories:
   
   - kind: secondary
     case: releases
-    name: SDWebImage
-    owner: SDWebImage
-    repo: SDWebImage
-  
-  - kind: secondary
-    case: releases
     name: SwiftLint
     owner: realm
     repo: SwiftLint
+  
+  - kind: secondary
+    case: releases
+    name: SDWebImage
+    owner: SDWebImage
+    repo: SDWebImage
   
   - kind: secondary
     case: releases
