@@ -240,6 +240,18 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: xcodes
+    owner: RobotsAndPencils
+    repo: xcodes
+  
+  - kind: secondary
+    case: releases
+    name: Xcodes.app
+    owner: RobotsAndPencils
+    repo: XcodesApp
+  
+  - kind: secondary
+    case: releases
     name: SwiftLint
     owner: realm
     repo: SwiftLint
