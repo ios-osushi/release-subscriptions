@@ -108,9 +108,27 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: Lottie for iOS, macOS
+    owner: airbnb
+    repo: lottie-ios
+  
+  - kind: secondary
+    case: releases
     name: Alamofire
     owner: Alamofire
     repo: Alamofire
+  
+  - kind: secondary
+    case: releases
+    name: AlamofireImage
+    owner: Alamofire
+    repo: AlamofireImage
+  
+  - kind: secondary
+    case: releases
+    name: Apollo iOS
+    owner: apollographql
+    repo: apollo-ios
   
   - kind: secondary
     case: releases
@@ -150,6 +168,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: Nuke
+    owner: kean
+    repo: Nuke
+  
+  - kind: secondary
+    case: releases
     name: R.swift
     owner: mac-cain13
     repo: R.swift
@@ -171,6 +195,24 @@ repositories:
     name: SwiftFormat
     owner: nicklockwood
     repo: SwiftFormat
+  
+  - kind: secondary
+    case: releases
+    name: APNGKit
+    owner: onevcat
+    repo: APNGKit
+  
+  - kind: secondary
+    case: releases
+    name: Kingfisher
+    owner: onevcat
+    repo: Kingfisher
+  
+  - kind: secondary
+    case: releases
+    name: PINRemoteImage
+    owner: pinterest
+    repo: PINRemoteImage
   
   - kind: secondary
     case: releases
@@ -201,6 +243,24 @@ repositories:
     name: SwiftLint
     owner: realm
     repo: SwiftLint
+  
+  - kind: secondary
+    case: releases
+    name: xcodes
+    owner: RobotsAndPencils
+    repo: xcodes
+  
+  - kind: secondary
+    case: releases
+    name: Xcodes.app
+    owner: RobotsAndPencils
+    repo: XcodesApp
+  
+  - kind: secondary
+    case: releases
+    name: SDWebImage
+    owner: SDWebImage
+    repo: SDWebImage
   
   - kind: secondary
     case: releases
