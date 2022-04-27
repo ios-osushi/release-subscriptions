@@ -168,6 +168,18 @@
     "version" : "2.0.0-beta.2"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- Drop support for Swift 5.2 and 5.3 (#111)\r\n\r\n### SemVer Patch\r\n\r\n- Avoid unnecessary copies of BoringSSL (#94)\r\n- Update BoringSSL to f961de5c47ed265c3e758ec70dd15ece20809962 (#115)\r\n\r\n### Other Changes\r\n\r\n- Use SPM API diff checker (#112)",
+    "createdAt" : "2022-04-21T18:39:48+09:00",
+    "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
+    "id" : "RE_kwDOC9Swts4D5z4f",
+    "owner" : "apple",
+    "publishedAt" : "2022-04-28T01:33:52+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.1.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.1.0",
+    "version" : "2.1.0"
+  },
+  {
     "body" : "### Semver Patch\r\n\r\n- Update BoringSSL to a9670a8b476470e6f874fef3554e8059683e1413 (#95)\r\n\r\n### Other changes\r\n\r\n- Update to Swift 5.5 release in CI (#92)\r\n- Update the README to cover a wider version range (#93)",
     "createdAt" : "2021-11-10T18:06:17+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",

@@ -288,6 +288,18 @@
     "version" : "2.33.0"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- Drop support for Swift 5.2 and 5.3 (#2080)\r\n- Add `Hashable` conformance to `HTTPResponseStatus` (#2069)\r\n\r\n### SemVer Patch\r\n\r\n- Improve the performance of copying CircularBuffer (#2059)\r\n- Use unbuffered IO for stdout in NIOPerformanceTester (#2072)\r\n- Remove invalid math in ByteBuffer slice slow path (#2075)\r\n- http_parser uses \"main\" as the main branch (#2078)\r\n- BaseSocket: Remove dead code in BaseSocket.bind(to:) (#2086)\r\n\r\n### Other Changes\r\n\r\n- Fix doc comment formatting in `SingleStepByteToMessageDecoder.swift` (#2076, patch credit to @MaxDesiatov)\r\n- Increase runtime of performance tests to O(10 ms) to increase SNR (#2063)\r\n- Update alloc limits for nightly. (#2071)\r\n- update contributors (#2077)\r\n- Script to list transitive dependencies (#2082)\r\n- Fix warnings, that appeared after requiring Swift 5.4 (#2085)",
+    "createdAt" : "2022-04-23T01:42:09+09:00",
+    "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
+    "id" : "RE_kwDOBy6rG84D5zxm",
+    "owner" : "apple",
+    "publishedAt" : "2022-04-28T01:33:24+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.40.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.40.0",
+    "version" : "2.40.0"
+  },
+  {
     "body" : "### SemVer Minor\r\n\r\n- Conform EventLoopFuture/Promise to Sendable (#1982, patch credit to @adam-fowler)\r\n- HTTPDecoder: Decode informational http response head correctly (#1984)\r\n- Allow HTTP Server to send multiple informational heads before actual response head (#1985)\r\n\r\n### SemVer Patch\r\n\r\n- Remove not on eventLoop precondition for NIOPipeBootstrap (#1977, patch credit to @jabwd)\r\n- ByteBuffer: Reduce ARC traffic when reading (#1978, #1979)\r\n- ByteBuffer: shrink getSlice (#1980)\r\n- ByteBuffer: force getSlice to be inlined into readSlice (#1981)\r\n\r\n### Other Changes\r\n\r\n- Update workarounds list with our recent ones (#1962)\r\n- Add perf hooks for testing substring path. (#1976)",
     "createdAt" : "2021-11-09T19:20:51+09:00",
     "fetchedFromAPIAt" : "2022-04-18T23:56:32+09:00",
