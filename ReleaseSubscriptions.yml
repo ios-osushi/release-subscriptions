@@ -71,7 +71,7 @@ repositories:
     repo: swift-log
   
   - kind: primary
-    case: tags
+    case: releases
     name: Swift Markdown
     owner: apple
     repo: swift-markdown
