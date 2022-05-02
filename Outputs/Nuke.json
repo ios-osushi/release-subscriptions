@@ -300,6 +300,18 @@
     "version" : "10.8.0"
   },
   {
+    "body" : "- Rename recently added async/await `loadImage(with:)` method to `image(for:)`, and `loadData(with:)` to `data(for:)` (to match Apple naming convention)\r\n- Add `Sendable` conformance to some of the types",
+    "createdAt" : "2022-05-02T00:42:44+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T09:46:01+09:00",
+    "id" : "RE_kwDOAeh5z84D63K9",
+    "owner" : "kean",
+    "publishedAt" : "2022-05-02T00:43:26+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 10.9.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/10.9.0",
+    "version" : "10.9.0"
+  },
+  {
     "body" : "\r\n- Improve image decompressiong performance on iOS 15 and tvOS 15 by using [preparingForDispaly()](https://developer.apple.com/documentation/uikit/uiimage/3750834-preparingfordisplay?language=o_5) (requires Xcode 13) - [#512](https://github.com/kean/Nuke/pull/512)\r\n- On iOS 15, tvOS 15, image decompressiong now preserves 8 bits per pixel for grayscale images - [#512](https://github.com/kean/Nuke/pull/512)\r\n- Adopt extended static member lookup ([SE-0299](https://github.com/apple/swift-evolution/blob/main/proposals/0299-extend-generic-static-member-lookup.md)) (requires Xcode 13) - [#513](https://github.com/kean/Nuke/pull/513)\r\n\r\n```swift\r\n// Before\r\nImageRequest(url: url, processors: [ImageProcessors.Resize(width: 320)])\r\n\r\n// After\r\nImageRequest(url: url, processors: [.resize(width: 320)])\r\n```\r\n\r\n- `ImageRequest` now takes a *non-optional* array of image processors in its initializers. This change is required to mitigate an Xcode issue where it won't suggest code-completion for [SE-0299](https://github.com/apple/swift-evolution/blob/main/proposals/0299-extend-generic-static-member-lookup.md) - [#513](https://github.com/kean/Nuke/pull/513)\r\n- Add `ImageDecoders.Video` (registered by default)",
     "createdAt" : "2021-10-24T03:22:48+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
