@@ -1,0 +1,98 @@
+[
+  {
+    "body" : "This release fixes a single bug in the propagation of the `function` parameter in the source-less `Logger.trace` function.\r\n\r\nFor more details refer to https://github.com/apple/swift-log/pull/185 - thank you noticing and fixing the issue @saulbaro!\r\n\r\nYou can find additional details on all changes in this release in the [1.4.2 milestone](https://github.com/apple/swift-log/milestone/8?closed=1).",
+    "createdAt" : "2021-03-03T14:36:17+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTM5MjY4MzU0",
+    "owner" : "apple",
+    "publishedAt" : "2021-03-04T20:12:07+09:00",
+    "repository" : "swift-log",
+    "title" : "1.4.2",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.4.2",
+    "version" : "1.4.2"
+  },
+  {
+    "body" : "This patch release fixes some compatibility issues, including a Windows compatibility issue as well as wrongly removed APIs in the 1.3.0->1.4.0 transition.\r\n\r\nNo new features were added in this release.\r\n\r\nYou can refer to the detailed changes by inspecting the issues linked form the [1.4.1 milestone](https://github.com/apple/swift-log/milestone/7?closed=1).",
+    "createdAt" : "2021-02-22T19:19:44+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTM4NDE1OTQy",
+    "owner" : "apple",
+    "publishedAt" : "2021-02-22T19:27:30+09:00",
+    "repository" : "swift-log",
+    "title" : "1.4.1",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.4.1",
+    "version" : "1.4.1"
+  },
+  {
+    "body" : "### Highlights\r\n\r\nThis release addresses a missing `public init` in the newly introduced `NoOpLogHandler`. Please use 1.4.0 rather than 1.3.0 to be able to actually instantiate the that handler.\r\n\r\n### SemVer Minor\r\n\r\n- Add `public init` to `NoOpLogHandler` introduced in 1.3.0 https://github.com/apple/swift-log/pull/142\r\n\r\n### Credits\r\n\r\nThis release contains a single PR: https://github.com/apple/swift-log/pull/146\r\n\r\nThe complete change-list is available on the [1.4.0 milestone](https://github.com/apple/swift-log/milestone/6?closed=1).\r\n\r\nThank you @adam-fowler for spotting and fixing the mistake!\r\n\r\n",
+    "createdAt" : "2020-07-16T11:03:17+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTI4NjEyODcz",
+    "owner" : "apple",
+    "publishedAt" : "2020-07-16T11:06:49+09:00",
+    "repository" : "swift-log",
+    "title" : "SwiftLog 1.4.0",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.4.0",
+    "version" : "1.4.0"
+  },
+  {
+    "body" : "### Highlights\r\n\r\n**`LogHandler` implementations** should take care adjust their implementations moving forward to implement the following `log` function:\r\n\r\n```swift\r\nfunc log(\r\n    level: Logging.Logger.Level, \r\n    message: Logging.Logger.Message, \r\n    metadata: Logging.Logger.Metadata?, \r\n    source: String, // new (!)\r\n    file: String, function: String, line: UInt\r\n)\r\n```\r\n\r\nrather than the previous function: \r\n\r\n```swift\r\nfunc log(\r\n    level: Logging.Logger.Level, \r\n    message: Logging.Logger.Message, \r\n    metadata: Logging.Logger.Metadata?, \r\n    file: String, function: String, line: UInt\r\n)\r\n```\r\n\r\nCompatibility shims are provided and existing implementations will continue to work as-is. However in order to reap benefits of the new `source` (which will contain the \"module name from which this log message originates\") parameter, they will have to change which `log` overload they implement. We suggest moving to implementing the _new_ overload (with `source:`) as soon as possible, allowing the logging ecosystem to make use of this new capability.\r\n\r\nFor details  see:\r\n\r\n- Add \"source\" for log messages https://github.com/apple/swift-log/pull/135 \r\n\r\n### SemVer Minor\r\n\r\n- Add \"source\" for log messages https://github.com/apple/swift-log/pull/135\r\n- Add NoOpLogHandler for when you don't want logging https://github.com/apple/swift-log/pull/142\r\n- Logging: port to Windows https://github.com/apple/swift-log/pull/118\r\n- =multiplex #139 more properly handle logLevel in multiplex handler https://github.com/apple/swift-log/pull/140\r\n  - Note that previous behavior of the `MultiplexLogHandler` was very surprising and this change makes it more consistent, see the PR for details if you are using multiplex handlers\r\n\r\n### SemVer Patch\r\n\r\n- silence #file to #filePath warnings https://github.com/apple/swift-log/pull/133\r\n- a number of readme and docs improvements:\r\n  - docs: =doc #82 avoid showcasing internal lock in public docs https://github.com/apple/swift-log/pull/144\r\n  - Fix doc typo #134 \r\n  - Add more syntax highlighting to the readme file #114 \r\n- and more, see the [1.3.0](https://github.com/apple/swift-log/milestone/5?closed=1) milestone for all closed issues.\r\n\r\n### Credits\r\n\r\nThis release includes 15 issues/PRs, which were made possible with the help of 18 contributors 🎉 \r\n\r\nWe would like to thank all everyone for their feedback and contributions:\r\n\r\nTomer Doron, Johannes Weiss, Konrad `ktoso` Malawski, Saleem Abdulrasool, Gwynne Raskind, prafsoni, Adam Fowler, Neal Lester, Artur Dryomov, Franz Busch, Shiva Huang, zach wick, Ravi Kandhadai, YR Chen, Jeremy Greenwood, Will Lisac, Mattt, Tanner\r\n\r\nThank you!",
+    "createdAt" : "2020-07-07T12:25:39+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTI4Mjk1MjQ1",
+    "owner" : "apple",
+    "publishedAt" : "2020-07-07T12:44:44+09:00",
+    "repository" : "swift-log",
+    "title" : "SwiftLog 1.3.0",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.3.0",
+    "version" : "1.3.0"
+  },
+  {
+    "body" : "## SemVer Major\r\n\r\n- Make log levels codable (#99)\r\n\r\n## SemVer Minor\r\n\r\n- docs: remove level parameter from log helpers (#91)\r\n- list more logging backends in readme (#95, #92, #88)\r\n\r\n",
+    "createdAt" : "2019-10-12T06:58:34+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTIxMTg2OTc1",
+    "owner" : "apple",
+    "publishedAt" : "2019-11-04T20:10:56+09:00",
+    "repository" : "swift-log",
+    "title" : "SwiftLog 1.2.0",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.2.0",
+    "version" : "1.2.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- add flush api to default stdout/stderr logger (#87) \r\n- Fix typo in LogHandler doc comment (#76)\r\n- Link to ianpartridge/swift-log-syslog backend impl (#73)\r\n- Fix documented ordering of Level (#78)\r\n- Add Adorkable/swift-log-format-and-pipe to Backend list (#83)\r\n- test formatting issues as part of sanity check (#84)\r\n- better documentation around MetadataValue being expressible by literal\r\n- Add HeliumLogger to README (#88)",
+    "createdAt" : "2019-08-17T01:13:06+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTE5NDA0Mjgw",
+    "owner" : "apple",
+    "publishedAt" : "2019-08-20T21:45:08+09:00",
+    "repository" : "swift-log",
+    "title" : "SwiftLog 1.1.1",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.1.1",
+    "version" : "1.1.1"
+  },
+  {
+    "body" : "## SemVer Minor\r\n- Expose an API for configuring basic stdio log handling (#61)\r\n- Added CaseIterable to Logger.Level enum (#46)\r\n\r\n## SemVer Patch\r\n\r\n- Add internal section link to README.md (#71)\r\n- add a CocoaPods podspec generator (#54)\r\n- Update README.md\r\n- explain the upcoming SwiftLog 0 (#69)\r\n- changed to isEmpty. (#65)\r\n- docs: improve API documentation coverage (#67)\r\n- Fix API documentation (#66)\r\n- Add 'Show on GitHub' link to API docs (#64)\r\n- add git commit template (#62)\r\n- fix docs #file -> #function (#59)\r\n- Fixed typo. (#58)\r\n- add contribution guidelines and github default config (#55)\r\n- fix linux tests formatting (#45)\r\n- fix docker setup to use release version of swift 5 (#48)\r\n- Link to more appropriate (still open) Swift issue (#50)\r\n- Fix typo in \"critical\" words in docs (#49)\r\n- retain SwiftNIO copyright header (#44)\r\n- readme: fix log levels (#43)\r\n- fix typo in API docs (#42)\r\n- use consistent, swifty naming convention (#41)\r\n",
+    "createdAt" : "2019-05-06T12:34:31+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTE3NDIyNDg1",
+    "owner" : "apple",
+    "publishedAt" : "2019-05-17T22:03:34+09:00",
+    "repository" : "swift-log",
+    "title" : "SwiftLog 1.1.0",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
+    "body" : "The initial release.",
+    "createdAt" : "2019-04-11T00:26:23+09:00",
+    "fetchedFromAPIAt" : "2022-05-02T22:55:13+09:00",
+    "id" : "MDc6UmVsZWFzZTE2Njc4OTcy",
+    "owner" : "apple",
+    "publishedAt" : "2019-04-11T00:53:24+09:00",
+    "repository" : "swift-log",
+    "title" : "swift-log 1.0.0",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  }
+]

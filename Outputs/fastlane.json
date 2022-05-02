@@ -168,9 +168,9 @@
     "version" : "2.205.2"
   },
   {
-    "body" : "- [match] avoid mutating app_identifiers (#20125) via @AliSoftware\r\n- [frameit] add support for iPhone 13 device family with updated colors (#20148) via @casperson\r\n- [spaceship] refresh token and retry on authorization errors (#19502) via @andersonvom\r\n- [match] check validity of provisioning profile certificates (#20194) via @nekrich\r\n- [action][update_project_provisioning] fail when profile cannot be verified (#20169) via @lucgrabowski",
+    "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski (@lucgrabowski)\r\n* [match] check validity of provisioning profile certificates when `force_for_new_certificates` option is provided (#20194) via Vitalii Budnik (@nekrich)\r\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita (@andersonvom)\r\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson (@casperson)\r\n* [match] fix crash in match when passing a frozen value as app_identifiers (#20125) via Olivier Halligon (@AliSoftware)",
     "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-25T09:39:55+09:00",
+    "fetchedFromAPIAt" : "2022-04-26T09:45:51+09:00",
     "id" : "RE_kwDOAaK_F84D3pLp",
     "owner" : "fastlane",
     "publishedAt" : "2022-04-21T12:29:15+09:00",
@@ -180,9 +180,9 @@
     "version" : "2.205.2"
   },
   {
-    "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski (@lucgrabowski)\r\n* [match] check validity of provisioning profile certificates when `force_for_new_certificates` option is provided (#20194) via Vitalii Budnik (@nekrich)\r\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita (@andersonvom)\r\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson (@casperson)\r\n* [match] fix crash in match when passing a frozen value as app_identifiers (#20125) via Olivier Halligon (@AliSoftware)",
+    "body" : "- [match] avoid mutating app_identifiers (#20125) via @AliSoftware\r\n- [frameit] add support for iPhone 13 device family with updated colors (#20148) via @casperson\r\n- [spaceship] refresh token and retry on authorization errors (#19502) via @andersonvom\r\n- [match] check validity of provisioning profile certificates (#20194) via @nekrich\r\n- [action][update_project_provisioning] fail when profile cannot be verified (#20169) via @lucgrabowski",
     "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-26T09:45:51+09:00",
+    "fetchedFromAPIAt" : "2022-04-25T09:39:55+09:00",
     "id" : "RE_kwDOAaK_F84D3pLp",
     "owner" : "fastlane",
     "publishedAt" : "2022-04-21T12:29:15+09:00",
