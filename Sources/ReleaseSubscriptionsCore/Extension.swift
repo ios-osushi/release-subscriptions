@@ -9,6 +9,11 @@ import Foundation
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
+import Logging
+
+extension Logger {
+    static let shared = Logger(label: "io.github.ios-osushi.releasesubscriptionscore")
+}
 
 public extension URL {
     static let topLevelDirectory = URL(fileURLWithPath: #filePath)

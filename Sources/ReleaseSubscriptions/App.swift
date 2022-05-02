@@ -7,6 +7,7 @@
 
 import ArgumentParser
 import Foundation
+import Logging
 import ReleaseSubscriptionsCore
 
 @main
@@ -18,14 +19,29 @@ struct App: AsyncParsableCommand {
     var secondarySlackURL: URL?
     
     func run() async throws {
-        let repositories = try Parser.parse()
-        let oldContents = try FileHelper.load(repositories: repositories)
-        let newContents = try await Fetcher.fetch(repositories: repositories)
-        let combinedContents = oldContents.merging(newContents) { Set($0 + $1).sorted() }
-        let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
-        try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
-        try FileHelper.save(contents: combinedContents)
-        try FileHelper.writeToREADME(repositories: repositories)
+        defer {
+            Logger.app.info("🎉 \(#function) finished")
+        }
+        Logger.app.info("ℹ️ \(#function) started")
+        do {
+            if primarySlackURL == nil {
+                Logger.app.info("🔔 primarySlackURL is nil")
+            }
+            if secondarySlackURL == nil {
+                Logger.app.info("🔔 secondarySlackURL is nil")
+            }
+            let repositories = try Parser.parse()
+            let oldContents = try FileHelper.load(repositories: repositories)
+            let newContents = try await Fetcher.fetch(repositories: repositories)
+            let combinedContents = oldContents.merging(newContents) { Set($0 + $1).sorted() }
+            let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
+            try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
+            try FileHelper.save(contents: combinedContents)
+            try FileHelper.writeToREADME(repositories: repositories)
+        } catch {
+            Logger.app.error("❌ \(error)")
+            throw error
+        }
     }
     
     private func slackURLs() -> [SlackWebhookDestination : URL] {
@@ -40,4 +56,8 @@ struct App: AsyncParsableCommand {
             $0[$1] = url
         }
     }
+}
+
+extension Logger {
+    fileprivate static let app = Logger(label: "io.github.ios-osushi.releasesubscriptions")
 }

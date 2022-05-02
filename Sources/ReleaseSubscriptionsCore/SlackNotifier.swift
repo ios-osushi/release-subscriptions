@@ -9,6 +9,7 @@
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
+import Logging
 import Markdown
 
 public struct SlackNotifier {
@@ -27,10 +28,15 @@ public struct SlackNotifier {
     }()
     
     public static func notify(to slackURLs: [SlackWebhookDestination : URL], updates: [GitHubRepository : [Release]]) async throws {
+        defer {
+            Logger.shared.info("🎉 \(#function) finished")
+        }
+        Logger.shared.info("ℹ️ \(#function) started")
         try await withThrowingTaskGroup(of: Void.self) { group in
             for (repository, releases) in updates {
                 for release in releases {
                     group.addTask {
+                        Logger.shared.info("ℹ️ Notifing to Slack (\(repository.slackWebhookDestination)) about \(repository.name) releases")
                         let publishedAt = release.publishedAt == nil ? nil : formatter.string(from: release.publishedAt!)
                         let body = Document(parsing: release.body ?? "")
                             .children
@@ -48,6 +54,7 @@ public struct SlackNotifier {
                         guard (response as? HTTPURLResponse)?.statusCode == 200 else {
                             throw Error.invalidHTTPResponseStatus(response, String(data: data, encoding: .utf8), repository, release)
                         }
+                        Logger.shared.info("✅ Successfully notified Slack (\(repository.slackWebhookDestination)) of the \(repository.name) release!")
                     }
                 }
             }
