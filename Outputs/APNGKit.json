@@ -240,6 +240,18 @@
     "version" : "1.0.0"
   },
   {
+    "body" : "### Fix\n\n- Wrong canvas parameter when the image header set to \"true color\". Now an image with non-alpha channel should be also read correctly. [#125](https://github.com/onevcat/APNGKit/pull/125) @onevcat",
+    "createdAt" : "2022-05-08T17:26:05+09:00",
+    "fetchedFromAPIAt" : "2022-05-09T09:47:22+09:00",
+    "id" : "RE_kwDOAn3VYc4D884L",
+    "owner" : "onevcat",
+    "publishedAt" : "2022-05-08T17:26:27+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.1",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.1",
+    "version" : "2.2.1"
+  },
+  {
     "body" : "## Fix\r\n\r\n- A problem that the first frame is skipping when playing an APNG and the same frame is stopped at when finishing it. #109 ",
     "createdAt" : "2021-10-04T00:45:08+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",

@@ -312,6 +312,18 @@
     "version" : "7.2.1"
   },
   {
+    "body" : "#### Fix\n* Loading an animated images from cache now respects the received options. [#1935](https://github.com/onevcat/Kingfisher/pull/1935) @uclort\n\n",
+    "createdAt" : "2022-05-08T21:39:38+09:00",
+    "fetchedFromAPIAt" : "2022-05-09T09:47:23+09:00",
+    "id" : "RE_kwDOAf70wM4D896F",
+    "owner" : "onevcat",
+    "publishedAt" : "2022-05-08T21:41:22+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.2.2 - Rainy Season",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.2.2",
+    "version" : "7.2.2"
+  },
+  {
     "body" : "#### Add\n* Extension for CarPlay support. Now you can use Kingfisher's extension image setting methods on `CPListItem`. [#1802](https://github.com/onevcat/Kingfisher/pull/1820) from @waynehartman\n\n#### Fix\n* An Xcode issue that not recognizes iOS 15 availability checking for Apple Silicon. [#1822](https://github.com/onevcat/Kingfisher/pull/1822) from @enoktate\n* Add `onFailureImage` modifier back to `KFImage`, which was unexpected removed while upgrading. [#1829](https://github.com/onevcat/Kingfisher/pull/1829) from @skellock\n* Start binder loading when `body` is evaluated. This fixes an unwanted flickering. This also adds a protection for internal loading state.  [#1828](https://github.com/onevcat/Kingfisher/pull/1828) from @JetForMe and @IvanShah\n* Use color description based on `CGFloat` style of a color instead of a hex value to allow extended color space when setting it to a processor. [#1826](https://github.com/onevcat/Kingfisher/pull/1826) from @vonox7\n* An issue that the local file provided images are cached for multiple times when an app is updated. This is due to a changing main bundle location on the disk. Now Kingfisher uses a stable version of disk URL as the default cache key. [#1831](https://github.com/onevcat/Kingfisher/pull/1831) from @iaomw\n* Now `KFImage`'s internal rendered view is wrapped by a `ZStack`. This prevents a lazy container from recognizing different `KFImage`s with a same URL as the same view. [#1840](https://github.com/onevcat/Kingfisher/pull/1840) from @iOSappssolutions\n\n",
     "createdAt" : "2021-10-12T01:07:06+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
