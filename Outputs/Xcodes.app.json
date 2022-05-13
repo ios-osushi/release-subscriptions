@@ -96,6 +96,18 @@
     "version" : "v1.2.0b8"
   },
   {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\nPlease follow us on Twitter at [@xcodesapp](https://twitter.com/xcodesapp) to be notified when new releases happen!\r\n\r\n## Localization Support 🎉 \r\n\r\nSalut Hola привет नमस्ते\r\n\r\nXcodes now supports localization! Included in v1.5 is 4 languages thanks to our amazing contributors below! We've added Spanish, French, Russian and Hindi!\r\n\r\nWant to add another language - just make a PR on the [Github](https://github.com/RobotsAndPencils/XcodesApp)\r\n\r\n## 🚀 Enhancements\r\n\r\n* Hindi Localization (#212) @KGurpreet\r\n* French Localization (#210) @dompepin\r\n* Russian Localization  (#208) @alexmazlov\r\n* Spanish Localization  (#205) @cesartru88\r\n* Support Localization (#203) @MattKiazyk\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Fixes some localization formatting (#206) @MattKiazyk\r\n* Fix: Load create SymLink preference on start (#202) @MattKiazyk\r\n\r\n## 🧰 Maintenance\r\n\r\n* Update Sparkle to 2.1 (#218) @MattKiazyk\r\n\r\n<!-- sparkle:edSignature=oOzczQVk8QV9OsnTvEkp0U6H7w5OE0KYHt0DI1jgeywW7ciiydsBnGx3cl+5/tbdpHXvfVni7ePAzapjPPloAQ== -->\r\n\r\n",
+    "createdAt" : "2022-05-13T03:35:07+09:00",
+    "fetchedFromAPIAt" : "2022-05-13T09:55:14+09:00",
+    "id" : "RE_kwDOEtMR_84D2wUZ",
+    "owner" : "RobotsAndPencils",
+    "publishedAt" : "2022-05-13T03:57:32+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v1.5.0",
+    "url" : "https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.5.0b13",
+    "version" : "v1.5.0b13"
+  },
+  {
     "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\n## Changes\r\n## 🧪  Experiments\r\nIncluded in this release is the ability to turn on experiments inside of Xcodes! (Settings > Experiments) \r\nIn the first experiment - thanks to the wonderful work of https://github.com/saagarjha/unxip - unxipping speed is increased by up to 70% on some newer Macs. \r\n\r\nThis experiment is turned OFF by default - so make sure you increase your productivity by trying this new experiement! \r\n\r\n## 🚀 Enhancements\r\n\r\n* add a unxip experiment for faster unxipping (#179) @MattKiazyk\r\n* Show a message when user is not authorized yet (#165) @qyzdo\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Allow Non-Paid Apple Developer to download versions. (#168) @MattKiazyk\r\n\r\n## 🧰 Maintenance\r\n\r\n* Bump actions/cache from 2.1.6 to 2.1.7 (#170) @dependabot\r\n* Bump actions/checkout from 2.3.5 to 2.4.0 (#166) @dependabot\r\n\r\n<!-- sparkle:edSignature=sgLWFusBeT/DO6ca2oEen+dkuVNp8uE/XjOl+fjZy2G7rtmAJrhB8H4ElXMryI0dMybyFtZX+3+wj11aLT32DA== -->",
     "createdAt" : "2022-02-08T06:26:35+09:00",
     "fetchedFromAPIAt" : "2022-04-28T05:24:51+09:00",
