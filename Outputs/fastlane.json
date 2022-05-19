@@ -192,9 +192,9 @@
     "version" : "2.195.0"
   },
   {
-    "body" : "- [match] avoid mutating app_identifiers (#20125) via @AliSoftware\r\n- [frameit] add support for iPhone 13 device family with updated colors (#20148) via @casperson\r\n- [spaceship] refresh token and retry on authorization errors (#19502) via @andersonvom\r\n- [match] check validity of provisioning profile certificates (#20194) via @nekrich\r\n- [action][update_project_provisioning] fail when profile cannot be verified (#20169) via @lucgrabowski",
+    "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski (@lucgrabowski)\r\n* [match] check validity of provisioning profile certificates when `force_for_new_certificates` option is provided (#20194) via Vitalii Budnik (@nekrich)\r\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita (@andersonvom)\r\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson (@casperson)\r\n* [match] fix crash in match when passing a frozen value as app_identifiers (#20125) via Olivier Halligon (@AliSoftware)",
     "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-25T10:45:47+09:00",
+    "fetchedFromAPIAt" : "2022-04-26T10:56:23+09:00",
     "id" : "RE_kwDOAaK_F84D3pLp",
     "owner" : "fastlane",
     "publishedAt" : "2022-04-21T12:29:15+09:00",
@@ -204,9 +204,9 @@
     "version" : "2.205.2"
   },
   {
-    "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski (@lucgrabowski)\r\n* [match] check validity of provisioning profile certificates when `force_for_new_certificates` option is provided (#20194) via Vitalii Budnik (@nekrich)\r\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita (@andersonvom)\r\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson (@casperson)\r\n* [match] fix crash in match when passing a frozen value as app_identifiers (#20125) via Olivier Halligon (@AliSoftware)",
+    "body" : "- [match] avoid mutating app_identifiers (#20125) via @AliSoftware\r\n- [frameit] add support for iPhone 13 device family with updated colors (#20148) via @casperson\r\n- [spaceship] refresh token and retry on authorization errors (#19502) via @andersonvom\r\n- [match] check validity of provisioning profile certificates (#20194) via @nekrich\r\n- [action][update_project_provisioning] fail when profile cannot be verified (#20169) via @lucgrabowski",
     "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-26T10:56:23+09:00",
+    "fetchedFromAPIAt" : "2022-04-25T10:45:47+09:00",
     "id" : "RE_kwDOAaK_F84D3pLp",
     "owner" : "fastlane",
     "publishedAt" : "2022-04-21T12:29:15+09:00",
@@ -430,5 +430,17 @@
     "title" : "2.205.1 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.205.1",
     "version" : "2.205.1"
+  },
+  {
+    "body" : "* [match] add support for Developer ID certificates from G2 Sub-CA (#20145) via Frederik Seiffert (@triplef)\n* [spaceship] add ability to invite a single TestFlight user (#20112) via Lucas (@LcTwisk)\n* [deliver] add `verify_only` option to deliver (#20247) via Pol Piella (@pol-piella)\n* [scan] fix scan failing to return results when there are test failures (#20237) via Mahmood Tahir (@tahirmt)\n* [docs] remove named parameter from `create_capability` example. (#20197) via Trent Kocurek (@t2)\n* [spaceship] fix creation App Store Connect API authorization token (#20206) via Yuya Oka (@nnsnodnb)\n* [match] add option to skip google account confirmation (#20223) via Tim Sneed (@trsneed)\n* [aciton][setup_ci] added timeout param into setup_ci (#20211) via javigines (@javigines)\n* [action][danger] add GitHub Enterprise flags (#20216) via Alexander Weiß (@alexanderwe)\n* [fastlane] allows aliased tool names (build_app, sync_code_signing, etc) to run from CLI (#20287) via Josh Holtz (@joshdholtz)\n* [spaceship] update buildDeliveries request to use app id in path (#20268) via Lukasz Grabowski (@lucgrabowski)\n* [spaceship] update `Spaceship::ConnectAPI::User model` to include `delete!` method (#20251) via Liam Nichols (@liamnichols)\n* [infra] changelog will now show github usernames which makes contributors stand out more in releases (#20214) via Josh Holtz (@joshdholtz)",
+    "createdAt" : "2022-05-18T13:10:10+09:00",
+    "fetchedFromAPIAt" : "2022-05-19T11:00:30+09:00",
+    "id" : "RE_kwDOAaK_F84EAG_M",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-05-18T13:17:58+09:00",
+    "repository" : "fastlane",
+    "title" : "2.206.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.206.0",
+    "version" : "2.206.0"
   }
 ]
