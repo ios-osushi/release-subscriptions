@@ -358,5 +358,17 @@
     "title" : "Version 0.51.2",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/0.51.2",
     "version" : "0.51.2"
+  },
+  {
+    "body" : "This is the fifth Alpha Release of Apollo iOS 1.0. This first major version will include a new code generation engine, better generated models, and many syntax and performance improvements across the entire library. The primary goal of Apollo iOS 1.0 is to stabilize the API of the model layer and provide a foundation for future feature additions and evolution of the library.\r\n\r\n* **Test Mocks are now supported!**\r\n  * Test mocks can be generated to make it much easier to create mocks of your generated selection sets for unit testing.\r\n  * This long requested feature can be enabled in your code generation config with the option `config.output.testMocks`.\r\n  * Once you've generated test mocks, import the new `ApolloTestSupport` target (as well as your generated mocks) in your unit tests to start.\r\n  * More documentation for test mocks will be coming soon. In the mean time, here is some example usage: \r\n```swift\r\nlet mockDog = Mock<Dog>()\r\nmock.species = \"Canine\"\r\nmock.height = Mock<Height>(feet: 3, inches: 6)\r\n\r\n// To mock an object in a generated operation:\r\nlet generatedDogMock: AnimalQuery.Data.Animal = AnimalQuery.Data.Animal.mock(from: mockDog)\r\n\r\n// To mock an entire query:\r\nlet queryMock = Mock<Query>()\r\nqueryMock.animals = [mockDog]\r\nlet generatedSelectionSetMock: AnimalQuery.Data = AnimalQuery.Data.mock(from: queryMock)\r\n```\r\n\r\n* `GraphQLNullable` and `GraphQLEnum` from the `ApolloAPI` target are now exported by your generated operations. This prevents you from having to `import ApolloAPI` everywhere that you are consuming your generated models.\r\n* `CacheKeyProvider` now supports grouping multiple types that share key uniqueness.   \r\n* Lots of performance improvements\r\n  * Using `StaticString` instead of `String` in generated files.\r\n  * Added `@inlinable` to many `ApolloAPI` functions consumed by generated code.\r\n  * And more!",
+    "createdAt" : "2022-05-20T04:36:28+09:00",
+    "fetchedFromAPIAt" : "2022-05-20T09:48:10+09:00",
+    "id" : "RE_kwDOA9NCTc4EAzfe",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-05-20T04:38:29+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.0.0 Alpha 5",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-alpha.5",
+    "version" : "1.0.0-alpha.5"
   }
 ]
