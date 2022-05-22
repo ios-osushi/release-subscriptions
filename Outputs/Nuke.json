@@ -370,5 +370,17 @@
     "title" : "Nuke 10.7.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/10.7.1",
     "version" : "10.7.1"
+  },
+  {
+    "body" : "- Remove APIs deprecated in Nuke 10.0\r\n- Increase minimum deployment targets to iOS 12.0, watchOS 5.0, macOS 10.14, tvOS 12.0",
+    "createdAt" : "2022-05-22T02:06:50+09:00",
+    "fetchedFromAPIAt" : "2022-05-22T09:45:39+09:00",
+    "id" : "RE_kwDOAeh5z84EBVkx",
+    "owner" : "kean",
+    "publishedAt" : "2022-05-22T02:18:53+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 10.10.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/10.10.0",
+    "version" : "10.10.0"
   }
 ]
