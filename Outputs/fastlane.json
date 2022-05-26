@@ -192,9 +192,9 @@
     "version" : "2.195.0"
   },
   {
-    "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski\n* [match] check validity of provisioning profile certificates (#20194) via Vitalii Budnik\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson\n* [match] Avoid mutating app_identifiers (#20125) via Olivier Halligon",
+    "body" : "- [match] avoid mutating app_identifiers (#20125) via @AliSoftware\r\n- [frameit] add support for iPhone 13 device family with updated colors (#20148) via @casperson\r\n- [spaceship] refresh token and retry on authorization errors (#19502) via @andersonvom\r\n- [match] check validity of provisioning profile certificates (#20194) via @nekrich\r\n- [action][update_project_provisioning] fail when profile cannot be verified (#20169) via @lucgrabowski",
     "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-22T09:47:35+09:00",
+    "fetchedFromAPIAt" : "2022-04-25T09:39:55+09:00",
     "id" : "RE_kwDOAaK_F84D3pLp",
     "owner" : "fastlane",
     "publishedAt" : "2022-04-21T12:29:15+09:00",
@@ -216,9 +216,9 @@
     "version" : "2.205.2"
   },
   {
-    "body" : "- [match] avoid mutating app_identifiers (#20125) via @AliSoftware\r\n- [frameit] add support for iPhone 13 device family with updated colors (#20148) via @casperson\r\n- [spaceship] refresh token and retry on authorization errors (#19502) via @andersonvom\r\n- [match] check validity of provisioning profile certificates (#20194) via @nekrich\r\n- [action][update_project_provisioning] fail when profile cannot be verified (#20169) via @lucgrabowski",
+    "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski\n* [match] check validity of provisioning profile certificates (#20194) via Vitalii Budnik\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson\n* [match] Avoid mutating app_identifiers (#20125) via Olivier Halligon",
     "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-25T09:39:55+09:00",
+    "fetchedFromAPIAt" : "2022-04-22T09:47:35+09:00",
     "id" : "RE_kwDOAaK_F84D3pLp",
     "owner" : "fastlane",
     "publishedAt" : "2022-04-21T12:29:15+09:00",
@@ -454,5 +454,17 @@
     "title" : "2.206.1 Hot fix",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.206.1",
     "version" : "2.206.1"
+  },
+  {
+    "body" : "* [Fastlane.swift] fix compile issue with argumentProcessor (#20318) via Josh Holtz (@joshdholtz)\n* [Fastlane.Swift] Use ArgumentProcessor port to start fastlane socket_server (#20176) via Sven Tiigi (@SvenTiigi)\n* [pem] fixed \"\\x82\" from ASCII-8BIT to UTF-8 when saving .p12 files to disk (#20317) via Roger Oba (@rogerluan)\n* [fastlane] fix a grammatical mistake when prompting which lane to run (#20307) via kamimi01 (@kamimi01)\n* [fastlane][tests] add tests for CLIToolsDistributor (#20315) via Lukasz Grabowski (@lucgrabowski)",
+    "createdAt" : "2022-05-25T22:21:09+09:00",
+    "fetchedFromAPIAt" : "2022-05-26T09:55:53+09:00",
+    "id" : "RE_kwDOAaK_F84ECo1U",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-05-25T22:30:39+09:00",
+    "repository" : "fastlane",
+    "title" : "2.206.2 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.206.2",
+    "version" : "2.206.2"
   }
 ]
