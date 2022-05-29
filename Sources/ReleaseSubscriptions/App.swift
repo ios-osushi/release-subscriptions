@@ -33,7 +33,7 @@ struct App: AsyncParsableCommand {
             let repositories = try Parser.parse()
             let oldContents = try FileHelper.load(repositories: repositories)
             let newContents = try await Fetcher.fetch(repositories: repositories)
-            let combinedContents = oldContents.merging(newContents) { Set($0 + $1).sorted() }
+            let combinedContents = oldContents.merging(newContents) { ($0 + $1).identified().sorted() }
             let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
             try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
             try FileHelper.save(contents: combinedContents)
