@@ -41,3 +41,13 @@ public extension URLSession {
         }
     }
 }
+
+public extension Array where Element: Identifiable {
+    func identified() -> Self {
+        var ids: Set<Element.ID> = []
+        return filter { element in
+            let (inserted, _) = ids.insert(element.id)
+            return inserted
+        }
+    }
+}
