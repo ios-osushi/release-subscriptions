@@ -170,7 +170,7 @@
   {
     "body" : "**Improved**\n- **Carthage itself now compiles with both Xcode 8 / Swift 2.3 and Xcode 7 / Swift 2.2** (#1395, #1397, #1398, #1404, #1410, #1442). Thanks @ikesyo!\n- Symlinks will now be created in `Carthage/Checkouts/` for dependencies (#1421). Thanks @BobElDevil!\n- `macOS` is accepted as a value for `--platform` (#1390). Thanks @ikesyo!\n- `appletvos` and `appletvsimulator` are accepted as values for `--platform` (#1391). Thanks @ikesyo!\n- Output is now flushed at the end of each line (#1444). Thanks @slabko!\n\n**Fixed**\n- `xcodebuild` hang when the target contains a core data model (#1447). Thanks @salling!\n- Redundant fetching of dependencies (#1429). Thanks @BobElDevil!\n- `carthage archive` incorrectly added absolute paths (#1386). Thanks @BernardGatt!\n- Crash when a repository wasn’t found (#1451). Thanks @mdiep!\n- `PrivateHeaders` weren’t stripped from copied frameworks (#1380). Thanks @erichoracek!\n- Issues working repositories that were in `/tmp` (#1459). Thanks @ikesyo!\n- Schemes weren’t escaped when invoking `xcodebuild` (#1389). Thanks @ikesyo!\n- Failure to get tags when the global Git config changed the output of `git tag` (#1463). Thanks @jalcine!\n\nThank you to @rondiamond and @evgeniyd for improvements to the documentation; to @ikesyo for improvements to the codebase; and to @mdiep and @NachoSoto for reviewing pull requests!\n",
     "createdAt" : "2016-09-11T10:09:11+09:00",
-    "fetchedFromAPIAt" : "2022-05-10T09:44:33+09:00",
+    "fetchedFromAPIAt" : "2022-05-10T10:26:39+09:00",
     "id" : "MDc6UmVsZWFzZTQwOTgxNTk=",
     "owner" : "Carthage",
     "publishedAt" : "2016-09-11T10:49:57+09:00",

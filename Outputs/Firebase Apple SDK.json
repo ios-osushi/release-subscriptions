@@ -266,7 +266,7 @@
   {
     "body" : "The Firebase Apple SDK (9.0.0) is now available. For more details, see\r\nthe [Firebase Apple SDK release notes.](https://firebase.google.com/support/release-notes/ios#9.0.0)\r\n\r\nTo install this SDK, see [Add Firebase to your project.](https://firebase.google.com/docs/ios/setup)",
     "createdAt" : "2022-05-03T23:34:26+09:00",
-    "fetchedFromAPIAt" : "2022-05-05T09:47:53+09:00",
+    "fetchedFromAPIAt" : "2022-05-05T10:50:23+09:00",
     "id" : "RE_kwDOBU6LVM4D79ik",
     "owner" : "firebase",
     "publishedAt" : "2022-05-05T03:23:40+09:00",
@@ -374,7 +374,7 @@
   {
     "body" : "The Firebase Apple SDK (9.1.0) is now available. For more details, see\r\nthe [Firebase Apple SDK release notes.](https://firebase.google.com/support/release-notes/ios#9.1.0)\r\n\r\nTo install this SDK, see [Add Firebase to your project.](https://firebase.google.com/docs/ios/setup)",
     "createdAt" : "2022-05-18T05:52:39+09:00",
-    "fetchedFromAPIAt" : "2022-05-25T09:51:01+09:00",
+    "fetchedFromAPIAt" : "2022-05-25T10:54:55+09:00",
     "id" : "RE_kwDOBU6LVM4ECYvn",
     "owner" : "firebase",
     "publishedAt" : "2022-05-25T04:47:44+09:00",
