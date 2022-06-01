@@ -84,42 +84,6 @@
     "version" : "2.193.1"
   },
   {
-    "body" : "* [supply][Ruby 3] fix Ruby 3 keyword args issues (#18703) via Satoshi Namai",
-    "createdAt" : "2021-05-19T01:18:05+09:00",
-    "fetchedFromAPIAt" : "2022-05-11T10:57:38+09:00",
-    "id" : "MDc6UmVsZWFzZTQzMTU1NTYz",
-    "owner" : "fastlane",
-    "publishedAt" : "2021-05-19T01:55:08+09:00",
-    "repository" : "fastlane",
-    "title" : "2.183.2 Hotfix for Ruby 3.0",
-    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.183.2",
-    "version" : "2.183.2"
-  },
-  {
-    "body" : "* [app store connect] cleanup token creation code across entire project (#18186) via Josh Holtz\n* [deliver][spaceship] migrate AgeRatingDeclaration from AppStoreVersion to AppInfo for App Store Connect API 1.3 update (#18732) via Josh Holtz\n* [pilot] introducing `timeout feature` for Apple build-processing waiting-time (#18660) via Manish Rathi\n* [action][swiftlint] Added support for `--fix mode` option (#18695) via Manish Rathi\n* [resign] fix incorrectly typoed variable name (#18715) via Nick Silvestro\n* [Fastlane.Swift] fix `OptionalConfigValue` for `Any`-based types. (#18664) via Jorge Revuelta\n* [deliver] remove all instances of `is_string` in options and use `type` (#18617) via Josh Holtz\n* [resign] fix entitlements merging when changing team while resigning (#18713) via Nick Silvestro\n* [fastlane_core][configuration] suggestion message improvement when fetching value with non symbol key (#18696) via Manish Rathi\n* [spaceship] update AppStoreConnect SandboxTester doc (#18708) via Yasuharu Yanamura",
-    "createdAt" : "2021-05-22T09:34:14+09:00",
-    "fetchedFromAPIAt" : "2022-05-11T10:57:38+09:00",
-    "id" : "MDc6UmVsZWFzZTQzNDAwMDE4",
-    "owner" : "fastlane",
-    "publishedAt" : "2021-05-22T09:53:10+09:00",
-    "repository" : "fastlane",
-    "title" : "2.184.0 Improvements and App Store Connect API 1.3 Support",
-    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.184.0",
-    "version" : "2.184.0"
-  },
-  {
-    "body" : "* [fastlane][plugin_manager] printing comma separated plugin actions (#18739) via Manish Rathi\n* [docs] onboarding pull-request (core contributor) (#18769) via Manish Rathi\n* [fastlane_core][pilot] fix pilot is unable to select latest build when distribute_only is true (#18710) via Lukasz Grabowski\n* [action][swiftlint] remove all instances of `is_string` in options and use `type` (#18735) via Manish Rathi\n* [spaceship] adding missing `beta_testers` attribute to BetaGroup (#18724) via gsavit\n* [spaceship adding beta build localizations attribute to Build model (#18725) via gsavit\n* [fastlane_core] ConfigItem - `auto_convert_value` improvements for Boolean type (#18736) via Manish Rathi\n* [match] update s3_secret_access_key to sensitive option (#18737) via Peelz\n* [carthage] fix typo in carthage.rb (#18744) via Ikko Ashimine\n* [gym] improved provisioning export with odd names in specs (#18741) via Hans Fehrmann\n* [Ruby 3.0][app_store_connect_api_key] fix spaceship connect-api token creation (#18758) via Manish Rathi\n* [docs] Improved the README file avatars resolution (#18764) via Manish Rathi",
-    "createdAt" : "2021-05-29T06:23:34+09:00",
-    "fetchedFromAPIAt" : "2022-05-11T10:57:38+09:00",
-    "id" : "MDc6UmVsZWFzZTQzNzkwMDU3",
-    "owner" : "fastlane",
-    "publishedAt" : "2021-05-29T06:34:27+09:00",
-    "repository" : "fastlane",
-    "title" : "2.184.1 Improvements",
-    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.184.1",
-    "version" : "2.184.1"
-  },
-  {
     "body" : "* [action][notarize] add support for api_key parameter (#19353) via Vitalii Budnik\n* [snapshot] wait for simulator to boot before overriding status bar (#19344) via Joseph Duffy\n* [fastlane_core] build watcher fails when build_beta_detail is nil - fix (#19331) via Lukasz Grabowski\n* [supply] fixed supply promote uploading metadata to wrong track (#19343) via Jonas Kalderstam\n* [docs] change links for api_key option explanation in App Store Connect API Key docs (#19350) via Lukasz Grabowski\n* [action][slather] add github option to slather action (#19347) via Atsuto Yamashita",
     "createdAt" : "2021-09-16T05:37:37+09:00",
     "fetchedFromAPIAt" : "2022-05-29T15:17:24+09:00",
@@ -145,30 +109,6 @@
   },
   {
     "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski (@lucgrabowski)\r\n* [match] check validity of provisioning profile certificates when `force_for_new_certificates` option is provided (#20194) via Vitalii Budnik (@nekrich)\r\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita (@andersonvom)\r\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson (@casperson)\r\n* [match] fix crash in match when passing a frozen value as app_identifiers (#20125) via Olivier Halligon (@AliSoftware)",
-    "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-26T10:56:23+09:00",
-    "id" : "RE_kwDOAaK_F84D3pLp",
-    "owner" : "fastlane",
-    "publishedAt" : "2022-04-21T12:29:15+09:00",
-    "repository" : "fastlane",
-    "title" : "2.205.2 Improvements",
-    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.205.2",
-    "version" : "2.205.2"
-  },
-  {
-    "body" : "- [match] avoid mutating app_identifiers (#20125) via @AliSoftware\r\n- [frameit] add support for iPhone 13 device family with updated colors (#20148) via @casperson\r\n- [spaceship] refresh token and retry on authorization errors (#19502) via @andersonvom\r\n- [match] check validity of provisioning profile certificates (#20194) via @nekrich\r\n- [action][update_project_provisioning] fail when profile cannot be verified (#20169) via @lucgrabowski",
-    "createdAt" : "2022-04-21T12:21:31+09:00",
-    "fetchedFromAPIAt" : "2022-04-25T10:45:47+09:00",
-    "id" : "RE_kwDOAaK_F84D3pLp",
-    "owner" : "fastlane",
-    "publishedAt" : "2022-04-21T12:29:15+09:00",
-    "repository" : "fastlane",
-    "title" : "2.205.2 Improvements",
-    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.205.2",
-    "version" : "2.205.2"
-  },
-  {
-    "body" : "* [action][update_project_provisioning] fail when profile cannot be verified (#20169) via Lukasz Grabowski\n* [match] check validity of provisioning profile certificates (#20194) via Vitalii Budnik\n* [spaceship] refresh token and retry on authorization errors (#19502) via Anderson Mesquita\n* [frameit] add support for iPhone 13 device family with updated colors (#20148) via Braden Casperson\n* [match] Avoid mutating app_identifiers (#20125) via Olivier Halligon",
     "createdAt" : "2022-04-21T12:21:31+09:00",
     "fetchedFromAPIAt" : "2022-05-29T15:17:24+09:00",
     "id" : "RE_kwDOAaK_F84D3pLp",
