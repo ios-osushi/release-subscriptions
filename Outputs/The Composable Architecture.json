@@ -370,5 +370,17 @@
     "title" : "0.34.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.34.0",
     "version" : "0.34.0"
+  },
+  {
+    "body" : "- Added: `Effect.throttle` overloads that take `Any.Type` (thanks @elkraneo).\r\n- Added: `TestStore.state`, which reflects the state of the store between assertions. This property can be used to further probe test store state over time and make additional assertions.\r\n- Updated: `WithViewStore` can be in more places, like `@CommandsBuilder` (thanks @tgrapperon).\r\n- Fixed: `Effect.task` modifiers now deliver output and completion on the main actor, avoiding potential data races.\r\n- Documentation: Added support for [SPI documentation](https://blog.swiftpackageindex.com/posts/auto-generating-auto-hosting-and-auto-updating-docc-documentation/) (thanks @finestructure).\r\n- Infrastructure: typo fixes (thanks @konomae) and demo app cleanup.",
+    "createdAt" : "2022-06-04T07:40:51+09:00",
+    "fetchedFromAPIAt" : "2022-06-05T09:52:00+09:00",
+    "id" : "RE_kwDOD48kk84EFuY_",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-06-04T10:49:50+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.36.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.36.0",
+    "version" : "0.36.0"
   }
 ]
