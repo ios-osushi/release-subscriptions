@@ -142,5 +142,17 @@
     "title" : "v1.4.0",
     "url" : "https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.4.0b12",
     "version" : "v1.4.0b12"
+  },
+  {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\nPlease follow us on Twitter at [@xcodesapp](https://twitter.com/xcodesapp) to be notified when new releases happen!\r\n\r\n## Changes\r\n\r\n### Support for 4 new languages! Thanks to all the 1st time contributors!   🎉 \r\n\r\n## 🚀 Enhancements\r\n\r\n* Adding Italian localization 🇮🇹  (#229) @gualtierofrigerio\r\n* Adding Chinese-Simplified localizations. 🇨🇳  (#222) @megabitsenmzq\r\n* Add Korean Localization 🇰🇷  (#233) @ryan-son\r\n* Adding Turkish Language 🇹🇷  (#219) @egrimo\r\n* Update Localizable.strings for Russian language (#234) @duffpod\r\n* Added a new bottom status bar @MattKiazyk \r\n* Updated unxip binary to latest @MattKiazyk \r\n\r\n## 🧰 Maintenance\r\n\r\n* Bump actions/cache from 3.0.2 to 3.0.3 (#236) @dependabot\r\n\r\n<!-- sparkle:edSignature=whzvbz/AK1Zv7laaOlBC+O5b2ra1stDa38FI30cA1+KxRExSIve/sf7d0JEBz18rbFBHxO1DpOpIiB5rwZRODQ== -->\r\n",
+    "createdAt" : "2022-06-05T11:42:30+09:00",
+    "fetchedFromAPIAt" : "2022-06-06T09:50:56+09:00",
+    "id" : "RE_kwDOEtMR_84EA4i9",
+    "owner" : "RobotsAndPencils",
+    "publishedAt" : "2022-06-05T11:55:33+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v1.6.0",
+    "url" : "https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.6.0b14",
+    "version" : "v1.6.0b14"
   }
 ]
