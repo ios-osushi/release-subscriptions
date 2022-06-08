@@ -370,5 +370,17 @@
     "title" : "1.0.0 Alpha 5",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-alpha.5",
     "version" : "1.0.0-alpha.5"
+  },
+  {
+    "body" : "This is the sixth Alpha Release of Apollo iOS 1.0. This first major version will include a new code generation engine, better generated models, and many syntax and performance improvements across the entire library. The primary goal of Apollo iOS 1.0 is to stabilize the API of the model layer and provide a foundation for future feature additions and evolution of the library.\r\n\r\n* **New - Objects and InputObjects are now equatable:** Many objects now conform to `AnyHashable` bringing with them the ability to conform to `Equatable`, this should make tests easier to write.\r\n* **Change - GraphQLOperation fields are now static:** Previously an instance of a `GraphQLOperation` was required to query any of it's properties, you can do that on the type now.\r\n* **Fixed - Nested fragment type cases:** Nested fragment type cases were not being generated causing a crash in selection set generation.\r\n* **New - Code generation now has a CLI:** A new command line executable has been built and will be available on Homebrew very soon! Check it out [here](https://github.com/apollographql/apollo-ios/tree/release/1.0/CodegenCLI).\r\n* **Fixed - SelectionSet and InlineFragment protocol definitions:** These were incorrectly being generated within the namespace when a module of type `.embeddedInTarget` was being used.\r\n* **Fixed - Test mock convenience initializers:** These were incorrectly defining parameter types for `Interface` and `Union` fields and the generated package could not successfully build.",
+    "createdAt" : "2022-06-08T02:20:13+09:00",
+    "fetchedFromAPIAt" : "2022-06-08T09:46:16+09:00",
+    "id" : "RE_kwDOA9NCTc4EGsrT",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-06-08T02:29:14+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.0.0 Alpha 6",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-alpha.6",
+    "version" : "1.0.0-alpha.6"
   }
 ]
