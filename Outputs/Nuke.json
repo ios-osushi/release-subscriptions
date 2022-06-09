@@ -382,5 +382,17 @@
     "title" : "Nuke 10.10.0",
     "url" : "https://github.com/kean/Nuke/releases/tag/10.10.0",
     "version" : "10.10.0"
+  },
+  {
+    "body" : "- Add associated `Data` to `ImagePipeline.Error.decodingFailed` - [#545](https://github.com/kean/Nuke/pull/545), thanks to [Shai Mishali](https://github.com/freak4pc)\r\n\r\n> There are other major improvements to error reporting coming in [Nuke 11](https://github.com/kean/Nuke/pull/547)",
+    "createdAt" : "2022-06-09T06:13:25+09:00",
+    "fetchedFromAPIAt" : "2022-06-09T09:49:15+09:00",
+    "id" : "RE_kwDOAeh5z84EHN9A",
+    "owner" : "kean",
+    "publishedAt" : "2022-06-09T06:14:07+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 10.11.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/10.11.0",
+    "version" : "10.11.0"
   }
 ]
