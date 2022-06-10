@@ -70,5 +70,17 @@
     "title" : "System 1.1.1",
     "url" : "https://github.com/apple/swift-system/releases/tag/1.1.1",
     "version" : "1.1.1"
+  },
+  {
+    "body" : "## What's New\r\n* FileDescriptor: Add resize(to newSize:)  by @simonjbeaumont in https://github.com/apple/swift-system/pull/82\r\n\r\n## What's Changed\r\n* Unify availability annotations & introduce a script to manage them by @lorentey in https://github.com/apple/swift-system/pull/75\r\n* Update Linux tests manifest by @dduan in https://github.com/apple/swift-system/pull/81\r\n* docs: Removed duplicate paragraph from FileDescriptor.writeAll(_:) docs by @simonjbeaumont in https://github.com/apple/swift-system/pull/85\r\n* Unbreak the Windows port by @lorentey in https://github.com/apple/swift-system/pull/88\r\n* Rebind byte types safely by @glessard in https://github.com/apple/swift-system/pull/79\r\n* Fix broken links. by @amartini51 in https://github.com/apple/swift-system/pull/77\r\n* Mitigate misuse of Swift's pointer conversion feature by @glessard in https://github.com/apple/swift-system/pull/80\r\n* Import C module as `@_implementationOnly` by @colemancda in https://github.com/apple/swift-system/pull/83\r\n* FileOperations: Add Windows implementation for FileDescriptor.resize(to:) by @simonjbeaumont in https://github.com/apple/swift-system/pull/89\r\n\r\n## New Contributors\r\n* @dduan made their first contribution in https://github.com/apple/swift-system/pull/81\r\n* @simonjbeaumont made their first contribution in https://github.com/apple/swift-system/pull/85\r\n* @glessard made their first contribution in https://github.com/apple/swift-system/pull/79\r\n* @colemancda made their first contribution in https://github.com/apple/swift-system/pull/83\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.1.1...1.2.0",
+    "createdAt" : "2022-06-10T00:51:28+09:00",
+    "fetchedFromAPIAt" : "2022-06-10T09:49:53+09:00",
+    "id" : "RE_kwDOEcmZD84EHgdZ",
+    "owner" : "apple",
+    "publishedAt" : "2022-06-10T00:57:45+09:00",
+    "repository" : "swift-system",
+    "title" : "1.2.0",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.2.0",
+    "version" : "1.2.0"
   }
 ]
