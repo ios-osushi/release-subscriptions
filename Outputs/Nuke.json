@@ -394,5 +394,29 @@
     "title" : "Nuke 10.11.0",
     "url" : "https://github.com/kean/Nuke/releases/tag/10.11.0",
     "version" : "10.11.0"
+  },
+  {
+    "body" : "- Fix an issue with data not always being attached to an error when decoding fails",
+    "createdAt" : "2022-06-10T09:54:26+09:00",
+    "fetchedFromAPIAt" : "2022-06-11T09:45:11+09:00",
+    "id" : "RE_kwDOAeh5z84EHpN4",
+    "owner" : "kean",
+    "publishedAt" : "2022-06-10T10:00:34+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 10.11.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/10.11.1",
+    "version" : "10.11.1"
+  },
+  {
+    "body" : "- Revert changes to the deployment targets introduced in 10.10 release\r\n\r\n> The minimum deployment targets will be increased in the upcoming major release",
+    "createdAt" : "2022-06-10T11:21:48+09:00",
+    "fetchedFromAPIAt" : "2022-06-11T09:45:11+09:00",
+    "id" : "RE_kwDOAeh5z84EHqCb",
+    "owner" : "kean",
+    "publishedAt" : "2022-06-10T11:29:26+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 10.11.2",
+    "url" : "https://github.com/kean/Nuke/releases/tag/10.11.2",
+    "version" : "10.11.2"
   }
 ]
