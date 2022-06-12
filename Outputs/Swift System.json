@@ -82,5 +82,17 @@
     "title" : "1.2.0",
     "url" : "https://github.com/apple/swift-system/releases/tag/1.2.0",
     "version" : "1.2.0"
+  },
+  {
+    "body" : "This is a bug fix release restoring the ability to build this package on Windows.\r\n\r\n## What's Changed\r\n* Revert \"FileOperations: Add Windows implementation for FileDescriptor.resize(to:)\" in https://github.com/apple/swift-system/pull/93\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.2.0...1.2.1",
+    "createdAt" : "2022-06-12T04:57:28+09:00",
+    "fetchedFromAPIAt" : "2022-06-12T09:48:26+09:00",
+    "id" : "RE_kwDOEcmZD84EIFE2",
+    "owner" : "apple",
+    "publishedAt" : "2022-06-12T06:36:12+09:00",
+    "repository" : "swift-system",
+    "title" : "System 1.2.1",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.2.1",
+    "version" : "1.2.1"
   }
 ]
