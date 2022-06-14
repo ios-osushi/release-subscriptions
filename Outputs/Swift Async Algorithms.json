@@ -10,5 +10,17 @@
     "title" : "0.0.1",
     "url" : "https://github.com/apple/swift-async-algorithms/releases/tag/0.0.1",
     "version" : "0.0.1"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2022-06-14T09:56:36+09:00",
+    "id" : "REF_kwDOGp6Bqq9yZWZzL3RhZ3MvMC4wLjI",
+    "owner" : "apple",
+    "publishedAt" : null,
+    "repository" : "swift-async-algorithms",
+    "title" : "0.0.2",
+    "url" : "https://github.com/apple/swift-async-algorithms/releases/tag/0.0.2",
+    "version" : "0.0.2"
   }
 ]
