@@ -382,5 +382,17 @@
     "title" : "7.2.3 - Track Transform",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.2.3",
     "version" : "7.2.3"
+  },
+  {
+    "body" : "#### Fix\n* Dependency of DocC plugin is now removed and Swift Package Index can still generate and host the documentation. [#1952](https://github.com/onevcat/Kingfisher/discussions/1952) @marcusziade\n\n",
+    "createdAt" : "2022-06-15T11:05:07+09:00",
+    "fetchedFromAPIAt" : "2022-06-16T09:52:27+09:00",
+    "id" : "RE_kwDOAf70wM4EJB9N",
+    "owner" : "onevcat",
+    "publishedAt" : "2022-06-15T11:06:53+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.2.4 - Removing DocC plugin",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.2.4",
+    "version" : "7.2.4"
   }
 ]
