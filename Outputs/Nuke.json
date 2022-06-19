@@ -430,5 +430,17 @@
     "title" : "Nuke 11.0 (Beta 1)",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.1",
     "version" : "11.0.0-beta.1"
+  },
+  {
+    "body" : "In addition to changes made in [Nuke 11.0 (Beta 1)](https://github.com/kean/Nuke/releases/tag/11.0.0-beta.1):\r\n\r\n- Add DocC support. For the latest documentation, use the docs from the project repo.\r\n- Add `imageCache(for:pipeline:)` method to `ImagePipelineDelegate`\r\n- Remove public `ImagePublisher` class (make it internal)\r\n- `ImageProcessing` types that implement `Hashable` protocol now get default `hashableIdentifier` implementation - [#563](https://github.com/kean/Nuke/pull/563)\r\n- Add a way to customize decompression using `ImagePipelineDelegate`\r\n- Remove `CocoaPods` support\r\n- Remove `ImageTaskEvent` and consolidate it with the new `ImageTaskDelegate` API - [#564](https://github.com/kean/Nuke/pull/564)\r\n- Add `ImageTask.Progress` to simplify progress reporting APIs\r\n- Add `ImageRequest.Options.skipDecompression`\r\n- Remove progress monitoring using `Foundation.Progress`\r\n- Remove `ImageRequestConvertible` conformance from `String`\r\n\r\n> For feedback, please use [Nuke 11 Discussion Channel](https://github.com/kean/Nuke/discussions/562)",
+    "createdAt" : "2022-06-18T10:41:59+09:00",
+    "fetchedFromAPIAt" : "2022-06-19T09:49:35+09:00",
+    "id" : "RE_kwDOAeh5z84EKGYW",
+    "owner" : "kean",
+    "publishedAt" : "2022-06-18T10:43:32+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.0 (Beta 2)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.2",
+    "version" : "11.0.0-beta.2"
   }
 ]

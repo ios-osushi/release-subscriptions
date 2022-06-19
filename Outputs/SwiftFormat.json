@@ -382,5 +382,17 @@
     "title" : "0.49.7",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.7",
     "version" : "0.49.7"
+  },
+  {
+    "body" : "- Added preliminary support for Swift 5.7 regular expression literals\r\n- Fixed conflict between `wrapMultilineStatementBraces` and `indent` rules\r\n- Fixed bug where arguments referenced using `$` prefix were incorrectly marked as unused\r\n- Fixed `enumNamespaces` bug where `class` modifiers were mistakenly converted to `enum`\r\n- Fixed bug where `preferKeyPath` mangled functions using multiple trailing closure syntax\r\n- Unterminated string literals are now treated as an error",
+    "createdAt" : "2022-06-19T06:22:17+09:00",
+    "fetchedFromAPIAt" : "2022-06-19T09:49:35+09:00",
+    "id" : "RE_kwDOA_OyXc4EKLlZ",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-06-19T06:45:33+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.49.10",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.10",
+    "version" : "0.49.10"
   }
 ]
