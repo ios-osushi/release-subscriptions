@@ -382,5 +382,17 @@
     "title" : "0.36.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.36.0",
     "version" : "0.36.0"
+  },
+  {
+    "body" : "- Added: `Effect.animation()`, which adds animation to an effect without the need of a scheduler.\r\n- Changed: `TestStore` state modification failures are less noisy.\r\n- Renamed: `ViewStore.suspend(while:)` has been renamed to `ViewStore.yield(while:)`.\r\n- Bug fixed: A bug was introduced to the deprecated `TestStore.assert` APIs in 0.36.0, which caused test failures when a sent/received test action left state unchanged. This has been fixed.\r\n- Infrastructure: Worked around a SwiftUI bug/warning in the Case Studies demo; cleaned up some of the library's generic signatures.",
+    "createdAt" : "2022-06-20T22:36:47+09:00",
+    "fetchedFromAPIAt" : "2022-06-21T09:49:46+09:00",
+    "id" : "RE_kwDOD48kk84EKiHo",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-06-21T02:56:27+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.37.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.37.0",
+    "version" : "0.37.0"
   }
 ]
