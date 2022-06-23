@@ -394,5 +394,17 @@
     "title" : "0.49.10",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.10",
     "version" : "0.49.10"
+  },
+  {
+    "body" : "- Fixed parsing of prefix `/` operator (as used in CasePath library)\r\n- Fixed bug with indenting of trailing closures after a conditional statement\r\n- Fixed bug with `wrapMultilineStatementBraces` rule\r\n- Added Swift 5.6 and 5.7 to supported versions",
+    "createdAt" : "2022-06-23T06:06:42+09:00",
+    "fetchedFromAPIAt" : "2022-06-23T09:43:09+09:00",
+    "id" : "RE_kwDOA_OyXc4ELYcR",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-06-23T07:00:39+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.49.11",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.11",
+    "version" : "0.49.11"
   }
 ]
