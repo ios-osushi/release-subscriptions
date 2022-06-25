@@ -442,5 +442,17 @@
     "title" : "Nuke 11.0 (Beta 2)",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.2",
     "version" : "11.0.0-beta.2"
+  },
+  {
+    "body" : "- Docs completely rewriting using DocC and hosted on GitHub: [Nuke](https://kean-docs.github.io/nuke/documentation/nuke/), [NukeUI](https://kean-docs.github.io/nukeui/documentation/nukeui/), [NukeExtensions](https://kean-docs.github.io/nukeextensions/documentation/nukeextensions/)\r\n- Deprecate `ImageCaching` extension that works with `ImageRequest` \r\n- Make `ImageCacheKey` initializer with ``ImageRequest`` public\r\n- Add static method `ImageProcessing.custom(id:closure:)` for creating custom processors\r\n- Make `ImagePipeline.Cache` `Sendable`\r\n- Add `ImageResponse` typealias to NukeUI\r\n- Use new `ImageTask.Progress` in NukeUI\r\n- When pipeline is invalidated, it now throws a new `.pipelineInvalidated` error for new requests",
+    "createdAt" : "2022-06-25T03:14:15+09:00",
+    "fetchedFromAPIAt" : "2022-06-25T09:49:30+09:00",
+    "id" : "RE_kwDOAeh5z84EM_gA",
+    "owner" : "kean",
+    "publishedAt" : "2022-06-25T03:14:51+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.0 (Beta 3)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.3",
+    "version" : "11.0.0-beta.3"
   }
 ]
