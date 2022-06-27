@@ -370,5 +370,17 @@
     "title" : "5.12.6 - 5.12 Patch",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.12.6",
     "version" : "5.12.6"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.13.0 release](https://github.com/SDWebImage/SDWebImage/milestone/97)\r\n\r\n### Features\r\n\r\n#### Thumbnail\r\n- Change thumbnail cache behavior as expected, share cache through different loading pipeline without extra download #3362\r\n- Now the thumbnail behavior more like transformer. When request different thumbnail size and cache miss, it prefers to query full size disk cache again, then decode for request thumbnail size without actual network download\r\n\r\n#### Coder\r\n- Added new API for custom coder better handling the thumbnail size #3359\r\n\r\n#### Cache\r\n- Allows store image data only and introduce async API #3336\r\n- Now the queryCacheOperationForKey API return `SDImageCacheToken` instead of useless placeholder `NSOperation`. When you cancel the cache query from main queue, it will callback in sync instead of async\r\n\r\n### Performance\r\n- Support using iOS 15 UIImage new API imageByPreparingForDisplay for faster force decoding #3355 #3340\r\n\r\n### Fixes\r\n- Fix the encodeMaxPixelSize logic #3357\r\n- Fix the case when user cancel the image loading for same URL in sequence cause placeholder mass #3363\r\n\r\n\r\n### Extra - Collaborator and maintainer wanted\r\n> After 4 years of maintainess of SDWebImage open source project, I have met many interesting areas in pass 2 years, like LLVM/Swift, like Rust. And I have the full-time job. So the maintainess will become slower down.\r\n> If anyone who was interested in the future of SDWebImage open source project, please feel free to contact me via [email](mailto:lizhuoli1126@126.com) or [discussions](https://github.com/SDWebImage/SDWebImage/discussions) 🙏",
+    "createdAt" : "2022-06-27T03:42:20+09:00",
+    "fetchedFromAPIAt" : "2022-06-27T09:54:33+09:00",
+    "id" : "RE_kwDOAATIS84ENRcf",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2022-06-27T03:50:16+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.13.0 - Thumbnail",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.13.0",
+    "version" : "5.13.0"
   }
 ]
