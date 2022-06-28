@@ -394,5 +394,17 @@
     "title" : "1.0.0 Alpha 7",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-alpha.7",
     "version" : "1.0.0-alpha.7"
+  },
+  {
+    "body" : "This is the eighth Alpha Release of Apollo iOS 1.0. This first major version will include a new code generation engine, better generated models, and many syntax and performance improvements across the entire library. The primary goal of Apollo iOS 1.0 is to stabilize the API of the model layer and provide a foundation for future feature additions and evolution of the library.\r\n\r\n* **New: Added `Equatable` and `Hashable` Conformance to public API Models:** Object's like `GraphQLRequest` and `GraphQLError` now can be compared!\r\n* **New: Code Generation now supports Schema Extensions**.\r\n* **Fixed: Namespacing and Access Control on Generated Models:** Generated models were failing to compile due to namespacing and access control issues in certain code generation configurations. This is fixed now!\r\n* **Improved: Custom Scalar Default Float Behavior:** If the response for a custom scalar is provided as a `Float`, it will automatically be converetd to a `String` (just like it's always done for `Int`).\r\n* **Improved: GraphQL Float now treated as Swift Double:** The `Float` defined in the GraphQL spec is actually compliant with a Swift `Double`. Generated code will now generate Swift code with fields of type `Double` for GraphQL `Float`.\r\n* **Improved: Rename `SelectionSet.data` to `SelectionSet.__data`:** This is to prevent naming conflicts with GraphQL fields named `data`.\r\n* **Fixed: `graphql_transport_ws` protocol now sends 'complete' to end subscription:** The protocol implementation was previously sending the wrong message to close the connection.\r\n* **Improved: Generated Operations Folder Structure:** The generated output folder structure for fragments and operations are now organized into sub-folders.\r\n* **New: Introspection Schema Download can output JSON:** Schema downloads via Introspection now support output as JSON instead of only SDL. Note that Apollo Registry schema downloads still only support SDL as the output.",
+    "createdAt" : "2022-06-28T03:21:37+09:00",
+    "fetchedFromAPIAt" : "2022-06-28T09:53:07+09:00",
+    "id" : "RE_kwDOA9NCTc4ENmCB",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-06-28T03:34:45+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.0.0 Alpha 8",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-alpha.8",
+    "version" : "1.0.0-alpha.8"
   }
 ]
