@@ -418,5 +418,17 @@
     "title" : "0.38.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.38.1",
     "version" : "0.38.1"
+  },
+  {
+    "body" : "- Changed: Bumped dependencies to include Combine Schedulers 0.6.0 and XCTest Dynamic Overlay 0.3.0, which includes the renamed `UnimplementedScheduler`, and `XCTUnimplemented`, respectively.\r\n- Infrastructure: Cleaned up and simplified some demo apps and case studies.",
+    "createdAt" : "2022-06-30T22:03:34+09:00",
+    "fetchedFromAPIAt" : "2022-07-01T09:55:47+09:00",
+    "id" : "RE_kwDOD48kk84EOxh1",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-06-30T23:05:29+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.38.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.38.2",
+    "version" : "0.38.2"
   }
 ]

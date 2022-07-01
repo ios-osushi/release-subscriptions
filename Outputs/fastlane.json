@@ -358,5 +358,17 @@
     "title" : "2.206.2 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.206.2",
     "version" : "2.206.2"
+  },
+  {
+    "body" : "* [match] add profile_type filtering when checking if profile exists (#20311) via Paul Taykalo (@PaulTaykalo)\n* [deliver] update deliver/runner.rb to handle both ipa and pkg paths. (#20043) via Stefan Natchev (@snatchev)\n* [match] add imports, fix linting errors, rename env variable (#20418) via Josh Holtz (@joshdholtz)\n* [spaceship] allow for removing app from sale by updating territories (#20324) via Lukasz Grabowski (@lucgrabowski)\n* [sigh][match][spaceship] add missing inhouse to mac profile types (#20353) via Bartosz Nowak (@DuMaM)\n* [Fastlane.swift] show http error message from AppStore (#20397) via Julian Kalinowski (@kalinjul)\n* [match] adding support for GitLab Secure Files as a Match storage mode (#20386) via Darby Frey (@darbyfrey)\n* [match] improve Match::CommandsGenerator's decrypt option unit test (#20395) via Manish Rathi (@crazymanish)\n* [match] added Match::CommandsGenerator's import option unit test (#20396) via Manish Rathi (@crazymanish)\n* [fastlane-core][scan] added destination param support inside the `xcodebuild` command (#20399) via Manish Rathi (@crazymanish)\n* [pilot] added the Pilot::TesterExporter class unit tests (#20394) via Manish Rathi (@crazymanish)\n* [frameit] add Device Google Pixel 5 (#20389) via Denis Andrašec (@denrase)\n* [action][update_info_plist] improve the plist file-path option validation check (#20356) via Manish Rathi (@crazymanish)\n* [match] specify s3 object prefix (#20344) via Hiroshi Ishihara (@iaia)\n* [snapshot] Add missing iPod touch to Generated Snapshot Reports (#20337) via Kyle Howells (@kylehowells)\n* [Ruby] Ruby 2.6 is now the minimum (dropping Ruby 2.5) (#20413) via Josh Holtz (@joshdholtz)\n* [gem] update rack due to security alert from dependabot (#20339) via Lukasz Grabowski (@lucgrabowski)\n* [fastlane] allow overriding the architecture to run xcodebuild under (#20323) via Manu Wallner (@milch)",
+    "createdAt" : "2022-06-30T19:27:58+09:00",
+    "fetchedFromAPIAt" : "2022-07-01T09:55:46+09:00",
+    "id" : "RE_kwDOAaK_F84EOsch",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-06-30T19:44:21+09:00",
+    "repository" : "fastlane",
+    "title" : "2.207.0 Many Improvements and Dropping Ruby 2.5 Support",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.207.0",
+    "version" : "2.207.0"
   }
 ]
