@@ -454,5 +454,17 @@
     "title" : "Nuke 11.0 (Beta 3)",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.3",
     "version" : "11.0.0-beta.3"
+  },
+  {
+    "body" : "- Soft-deprecate `ImageRequestConvertible` and use `ImageRequest` and `URL` directly in all news APIs for better discoverability and performance  - [#567](https://github.com/kean/Nuke/pull/567)\r\n- Rename `ImagePipeline/Configuration/DataCachePolicy` to `ImagePipeline/DataCachePolicy`\r\n- More documentation improvements: [Nuke](https://kean-docs.github.io/nuke/documentation/nuke/), [NukeUI](https://kean-docs.github.io/nukeui/documentation/nukeui/), [NukeExtensions](https://kean-docs.github.io/nukeextensions/documentation/nukeextensions/)",
+    "createdAt" : "2022-07-02T06:36:56+09:00",
+    "fetchedFromAPIAt" : "2022-07-02T09:51:19+09:00",
+    "id" : "RE_kwDOAeh5z84EPP_b",
+    "owner" : "kean",
+    "publishedAt" : "2022-07-02T06:48:37+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.0 (Beta 4)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.4",
+    "version" : "11.0.0-beta.4"
   }
 ]
