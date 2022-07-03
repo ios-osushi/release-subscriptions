@@ -466,5 +466,17 @@
     "title" : "Nuke 11.0 (Beta 4)",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.4",
     "version" : "11.0.0-beta.4"
+  },
+  {
+    "body" : "- Fix [#511](https://github.com/kean/Nuke/issues/511) `OSAtomic` deprecation warnings - [#573](https://github.com/kean/Nuke/pull/573)\r\n- Revert `ImageTask` `priority` replacement with `setPriority(_:)` method\r\n- Revert `ImageDecoderRegistry` `init` being made private\r\n- Add `ImageTask.State`. Improve performance when canceling and changing priority of completed tasks.",
+    "createdAt" : "2022-07-03T01:26:35+09:00",
+    "fetchedFromAPIAt" : "2022-07-03T09:53:03+09:00",
+    "id" : "RE_kwDOAeh5z84EPU7R",
+    "owner" : "kean",
+    "publishedAt" : "2022-07-03T01:38:38+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.0 (Beta 5)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0-beta.5",
+    "version" : "11.0.0-beta.5"
   }
 ]
