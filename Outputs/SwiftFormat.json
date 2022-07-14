@@ -406,5 +406,17 @@
     "title" : "0.49.11",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.11",
     "version" : "0.49.11"
+  },
+  {
+    "body" : "- Fix bug with parsing ternary chains containing chevron\r\n- Add another fix for `/` operator\r\n- Fix indent after wrapped closure `in`\r\n- Improve rule search in SwiftFormat for Xcode app\r\n- Fix enum popups in SwiftFormat for Xcode options\r\n- Added prebuilt SPM binary target\r\n",
+    "createdAt" : "2022-07-14T06:24:49+09:00",
+    "fetchedFromAPIAt" : "2022-07-14T09:55:26+09:00",
+    "id" : "RE_kwDOA_OyXc4EScjx",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-07-14T06:19:13+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.49.12",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.12",
+    "version" : "0.49.12"
   }
 ]
