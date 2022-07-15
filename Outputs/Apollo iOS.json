@@ -418,5 +418,17 @@
     "title" : "1.0.0 Beta 1",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-beta.1",
     "version" : "1.0.0-beta.1"
+  },
+  {
+    "body" : "- **Add codegen option for excludes**: There is a new property on the codegen configuration options to allow files matching the pattern to be excluded, in the case they are found in the `includes` path. [#2205](https://github.com/apollographql/apollo-ios/pull/2205) - _Thanks to [@bannzai](https://github.com/bannzai) for the contribution!_\r\n- **Fixed - Using the `graphql_transport_ws` protocol could result in `4400` errors from the server**: The correct protocol message is now being sent to the server to end communication. [#2320](https://github.com/apollographql/apollo-ios/pull/2320)\r\n- **Replace `print` statement with `CodegenLogger.log`**: All codegen output is logged with `CodegenLogger` which can be disabled if needed. [#2348](https://github.com/apollographql/apollo-ios/issues/2348) - _Thanks to [@hiltonc](https://github.com/hiltonc) for the contribution!_\r\n- **Expose `GraphQLResultError` path string**: Adds a new publicly available computed property to `GraphQLResultError` which just exposes the `path` description. [#2361](https://github.com/apollographql/apollo-ios/pull/2361) - _Thanks to [@joshuashroyer-toast](https://github.com/joshuashroyer-toast) for the contribution!_",
+    "createdAt" : "2022-07-14T19:05:28+09:00",
+    "fetchedFromAPIAt" : "2022-07-15T10:04:25+09:00",
+    "id" : "RE_kwDOA9NCTc4ESmIA",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-07-14T19:08:15+09:00",
+    "repository" : "apollo-ios",
+    "title" : "Version 0.52.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/0.52.0",
+    "version" : "0.52.0"
   }
 ]
