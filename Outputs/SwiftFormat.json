@@ -418,5 +418,17 @@
     "title" : "0.49.12",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.12",
     "version" : "0.49.12"
+  },
+  {
+    "body" : "- Fixed `for...in` mistaken for closure `in` in indent rule\r\n- Fixed incorrect spacing around `@MainActor`",
+    "createdAt" : "2022-07-16T07:02:30+09:00",
+    "fetchedFromAPIAt" : "2022-07-16T09:53:57+09:00",
+    "id" : "RE_kwDOA_OyXc4ETJgB",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-07-16T07:02:01+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.49.13",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.13",
+    "version" : "0.49.13"
   }
 ]

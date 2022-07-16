@@ -430,5 +430,17 @@
     "title" : "0.38.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.38.2",
     "version" : "0.38.2"
+  },
+  {
+    "body" : "  * Deprecated: `Store.unchecked` has been deprecated. As the Composable Architecture migrates to modern Swift concurrency tools, its async endpoints must run on a consistent actor to ensure safety from data races. Because the primary use case of the Composable Architecture is driving UIs, we have chosen the `@MainActor` for these endpoints, which makes them unsafe to call from unchecked stores. We believe the number of unchecked stores out in the wild is small, but in the meantime are soliciting feedback from the community with this deprecation warning.\r\n\r\n    See #1206 for more information and migration paths.",
+    "createdAt" : "2022-07-13T23:17:27+09:00",
+    "fetchedFromAPIAt" : "2022-07-16T09:53:57+09:00",
+    "id" : "RE_kwDOD48kk84ETEbR",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-07-16T01:24:19+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.38.3",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.38.3",
+    "version" : "0.38.3"
   }
 ]
