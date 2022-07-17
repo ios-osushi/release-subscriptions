@@ -382,5 +382,17 @@
     "title" : "5.13.0 - Thumbnail",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.13.0",
     "version" : "5.13.0"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.13.1 release](https://github.com/SDWebImage/SDWebImage/milestone/98)\r\n\r\n### Features\r\n- Added `SDImageCoderHelper.defaultDecodeSolution` to control the force decode solution. Automatic by default #3368 #3365\r\n- Now imageByPreparingForDisplay is only applied for JPEG/HEIF images. If you want the 5.12.0 behavior, set the solution to `.coreGraphics` instead\r\n\r\n### Fixes\r\n- Fix the PDF image without thumbnailPixelSize will result huge bitmap size, now fixed into 72 DPI matching PDFKit #3370\r\n- Fix `sd_colorAtPoint` and `sd_colorsWithRect` support for grayscale image (white and alpha) #3372\r\n\r\n### Warnings\r\n- Fix the clang analyze issue #3373",
+    "createdAt" : "2022-07-16T20:54:36+09:00",
+    "fetchedFromAPIAt" : "2022-07-17T09:57:03+09:00",
+    "id" : "RE_kwDOAATIS84ETNVc",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2022-07-16T20:56:44+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.13.1 - 5.13 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.13.1",
+    "version" : "5.13.1"
   }
 ]

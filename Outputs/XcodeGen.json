@@ -370,5 +370,17 @@
     "title" : "2.28.0",
     "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.28.0",
     "version" : "2.28.0"
+  },
+  {
+    "body" : "### Added\r\n- Added support for new target type `extensionkit-extension` in Xcode 14 #1228 @aleksproger\r\n\r\n### Changed\r\n- Speed up generating build settings for large projects #1221 @jpsim\r\n\r\n### Fixed\r\n- Fix XcodeGen building as library after breaking XcodeProj update 8.8.0 #1228 @aleksproger",
+    "createdAt" : "2022-07-16T15:57:26+09:00",
+    "fetchedFromAPIAt" : "2022-07-17T09:57:03+09:00",
+    "id" : "RE_kwDOBdMHVM4ETMO0",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2022-07-16T16:00:24+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.30.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.30.0",
+    "version" : "2.30.0"
   }
 ]
