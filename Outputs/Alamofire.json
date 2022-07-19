@@ -358,5 +358,17 @@
     "title" : "Swift Concurrency",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.5.0",
     "version" : "5.5.0"
+  },
+  {
+    "body" : "Released on 2022-07-17. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/82?closed=1).\r\n\r\n#### Added\r\n- Error when object provided to `JSONEcoding` contains values that can't be passed through `JSONSerialization`.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3624](https://github.com/Alamofire/Alamofire/pull/3624).\r\n\r\n#### Updated\r\n- CI support for all supported Xcode, macOS, and Linux versions.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Requests [#3607](https://github.com/Alamofire/Alamofire/pull/3607) and [#3622](https://github.com/Alamofire/Alamofire/pull/3622).\r\n- Support for various Xcode versions.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Requests [#3616](https://github.com/Alamofire/Alamofire/pull/3616) and [#3632](https://github.com/Alamofire/Alamofire/pull/3632).\r\n- `Cache-Control` header tests to not require hard-coded delays.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3601](https://github.com/Alamofire/Alamofire/pull/3601).\r\n\r\n#### Fixed\r\n- Swift version check for `SecTrustCopyCertificateChain`.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3606](https://github.com/Alamofire/Alamofire/pull/3606).\r\n- Various documentation issues.\r\n  - Fixed by [Jacob Lange](https://github.com/jacoblange-dev), [rain2540](https://github.com/rain2540), [bondxf](https://github.com/bondxf), [Ikko Ashimine](https://github.com/eltociear), and [Elon Park](https://github.com/ElonPark) in various Pull Requests.\r\n",
+    "createdAt" : "2022-07-18T11:23:40+09:00",
+    "fetchedFromAPIAt" : "2022-07-19T09:58:58+09:00",
+    "id" : "RE_kwDOAVavk84ETXjk",
+    "owner" : "Alamofire",
+    "publishedAt" : "2022-07-18T11:25:06+09:00",
+    "repository" : "Alamofire",
+    "title" : "Safer Encoding",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.6.2",
+    "version" : "5.6.2"
   }
 ]
