@@ -370,5 +370,17 @@
     "title" : "2.207.0 Many Improvements and Dropping Ruby 2.5 Support",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.207.0",
     "version" : "2.207.0"
+  },
+  {
+    "body" : "* [spaceship] fix `fastlane init` and temporarily retrofitting `Spaceship::Tunes::Application.find` (#20480) via Josh Holtz (@joshdholtz)\n* [match][sigh] prefer default keychain during wwdr cert installation (#20448) via Bartosz Nowak (@DuMaM)\n* [match][sigh] fix access to certs installed by fastlane tools for productsign command for macOS (#20474) via Bartosz Nowak (@DuMaM)\n* [match] extract the certificate name from provisioning profiles (#20187) via Tejas Sharma (@tejassharma96)\n* [action][changelog_from_git_commits] fix description for documentation (#20430) via Mathijs Bernson (@mbernson)\n* [snapshot] use empty string to blank out operator name by default (#20429) via Zev Eisenberg (@ZevEisenberg)\n* [trainer] fix ERB.new() deprecation warnings (#20440) via Philipp Wallisch (@wallisch)\n* [match] fixes set up bugs when using GitLab Secure Files as a Match storage backend (#20452) via Darby Frey (@darbyfrey)",
+    "createdAt" : "2022-07-19T19:03:51+09:00",
+    "fetchedFromAPIAt" : "2022-07-20T09:49:28+09:00",
+    "id" : "RE_kwDOAaK_F84ET1dm",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-07-19T19:12:03+09:00",
+    "repository" : "fastlane",
+    "title" : "2.208.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.208.0",
+    "version" : "2.208.0"
   }
 ]
