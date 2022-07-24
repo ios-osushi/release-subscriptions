@@ -394,5 +394,17 @@
     "title" : "5.13.1 - 5.13 Patch",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.13.1",
     "version" : "5.13.1"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.13.2 release](https://github.com/SDWebImage/SDWebImage/milestone/99)\r\n\r\n### Fixes\r\n- Fix the rare case when cancel an async disk cache query may cause twice callback #3380 #3374\r\n- This Bug effect version 5.13.0-5.13.1\r\n\r\n### Warnings\r\n- Fix pragma mark typo #3379",
+    "createdAt" : "2022-07-24T00:09:36+09:00",
+    "fetchedFromAPIAt" : "2022-07-24T09:57:18+09:00",
+    "id" : "RE_kwDOAATIS84EVPBT",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2022-07-24T00:10:25+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.13.2 - 5.13 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.13.2",
+    "version" : "5.13.2"
   }
 ]
