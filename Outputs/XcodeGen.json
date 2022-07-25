@@ -382,5 +382,17 @@
     "title" : "2.30.0",
     "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.30.0",
     "version" : "2.30.0"
+  },
+  {
+    "body" : "### Added\r\n\r\n- Added a new CopyFilesBuildPhase, \"Embed ExtensionKit Extensions\" #1230 @mtj0928\r\n- Added duplicate dependencies validation #1234 @aleksproger",
+    "createdAt" : "2022-07-24T15:10:15+09:00",
+    "fetchedFromAPIAt" : "2022-07-25T09:52:27+09:00",
+    "id" : "RE_kwDOBdMHVM4EVSqK",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2022-07-24T15:12:11+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.31.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.31.0",
+    "version" : "2.31.0"
   }
 ]

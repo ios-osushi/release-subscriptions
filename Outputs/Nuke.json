@@ -502,5 +502,17 @@
     "title" : "Nuke 11.0",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.0.0",
     "version" : "11.0.0"
+  },
+  {
+    "body" : "- Fix an issue with cancellation of requests created with Combine publishers - [#576](https://github.com/kean/Nuke/pull/576), thanks to [douknow](https://github.com/douknow)",
+    "createdAt" : "2022-07-25T06:44:56+09:00",
+    "fetchedFromAPIAt" : "2022-07-25T09:52:27+09:00",
+    "id" : "RE_kwDOAeh5z84EVXIU",
+    "owner" : "kean",
+    "publishedAt" : "2022-07-25T06:48:32+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.0.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.0.1",
+    "version" : "11.0.1"
   }
 ]
