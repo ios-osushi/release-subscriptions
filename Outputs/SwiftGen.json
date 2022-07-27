@@ -358,5 +358,17 @@
     "title" : "6.5.1",
     "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/6.5.1",
     "version" : "6.5.1"
+  },
+  {
+    "body" : "WIP",
+    "createdAt" : "2022-07-27T02:40:25+09:00",
+    "fetchedFromAPIAt" : "2022-07-27T09:55:26+09:00",
+    "id" : "RE_kwDOAlWj5s4EWCB1",
+    "owner" : "SwiftGen",
+    "publishedAt" : "2022-07-27T02:39:27+09:00",
+    "repository" : "SwiftGen",
+    "title" : "6.6.0 Prerelease",
+    "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/6.6.0-prerelease",
+    "version" : "6.6.0-prerelease"
   }
 ]

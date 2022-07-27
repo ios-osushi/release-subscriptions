@@ -370,5 +370,17 @@
     "title" : "3.4.0",
     "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.4.0",
     "version" : "3.4.0"
+  },
+  {
+    "body" : "## General\r\n\r\n### New features\r\n - Added `configuration: LottieConfiguration = .shared` option to more `AnimationView` initializers (https://github.com/airbnb/lottie-ios/pull/1654)\r\n - `AnimatedSwitch` and `AnimatedButton` are now accessibility elements by default (https://github.com/airbnb/lottie-ios/pull/1637, https://github.com/airbnb/lottie-ios/pull/1639)\r\n\r\n### Bug fixes\r\n - Fixed issue where `LottieLogger.shared.assertionFailure` would unexpectedly crash in `-O` / release builds (https://github.com/airbnb/lottie-ios/pull/1665)\r\n - Fixed Carthage support on macOS (https://github.com/airbnb/lottie-ios/pull/1641)\r\n\r\n## Core Animation rendering engine\r\n\r\n> Reminder: Lottie 3.4.0 added a new rendering engine powered by Core Animation. Please try it out and let us know if you encounter any issues! It will be enabled by default in a future version of Lottie. More information is available in this announcement: https://github.com/airbnb/lottie-ios/discussions/1627\r\n\r\n### New features\r\n - Added support for mixed `isHold` / `!isHold` keyframes (https://github.com/airbnb/lottie-ios/pull/1644)\r\n - Added support for gradients with alpha values (https://github.com/airbnb/lottie-ios/pull/1634, https://github.com/airbnb/lottie-ios/pull/1640)\r\n - Added support for negative speed values (https://github.com/airbnb/lottie-ios/pull/1660)\r\n\r\n### Bug fixes\r\n\r\n - Fixed issue where `ShapeLayer` with no `Group`s would fail to render (https://github.com/airbnb/lottie-ios/pull/1646)\r\n - Fixed issue where some shape fills would be applied incorrectly (https://github.com/airbnb/lottie-ios/pull/1647)\r\n - Fixed issue where `LottieBackgroundBehavior` would unexpectedly be applied even when the animation was paused (#1653)",
+    "createdAt" : "2022-07-27T05:41:14+09:00",
+    "fetchedFromAPIAt" : "2022-07-27T09:55:26+09:00",
+    "id" : "RE_kwDOBC8liM4EWGWx",
+    "owner" : "airbnb",
+    "publishedAt" : "2022-07-27T06:21:14+09:00",
+    "repository" : "lottie-ios",
+    "title" : "3.4.1",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.4.1",
+    "version" : "3.4.1"
   }
 ]
