@@ -370,5 +370,17 @@
     "title" : "3.21.1: Improve license type detection for CocoaPods ",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.21.1",
     "version" : "3.21.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* SPM are not supported. by @sugitatestblue in https://github.com/mono0926/LicensePlist/pull/190\r\n* Add description for `--package-paths` option into readme.md by @kitwtnb in https://github.com/mono0926/LicensePlist/pull/191\r\n* Improve Naming for Swift Packages using Package.resolved v2 by @bennokress in https://github.com/mono0926/LicensePlist/pull/192\r\n\r\n## New Contributors\r\n* @sugitatestblue made their first contribution in https://github.com/mono0926/LicensePlist/pull/190\r\n* @kitwtnb made their first contribution in https://github.com/mono0926/LicensePlist/pull/191\r\n* @bennokress made their first contribution in https://github.com/mono0926/LicensePlist/pull/192\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.22.0...3.22.2",
+    "createdAt" : "2022-07-29T14:54:02+09:00",
+    "fetchedFromAPIAt" : "2022-07-30T09:48:41+09:00",
+    "id" : "RE_kwDOBVhcvM4EW9hl",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-07-29T14:54:26+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.22.2",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.2",
+    "version" : "3.22.2"
   }
 ]

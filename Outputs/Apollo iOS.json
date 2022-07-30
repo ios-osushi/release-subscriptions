@@ -430,5 +430,17 @@
     "title" : "Version 0.52.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/0.52.0",
     "version" : "0.52.0"
+  },
+  {
+    "body" : "* **Remove all instances of bitcode as not supported in Xcode 14**: Starting with Xcode 14, bitcode is no longer required for watchOS and tvOS applications, and the App Store no longer accepts bitcode submissions from Xcode 14. [#2398](https://github.com/apollographql/apollo-ios/pull/2398) - _Thanks to [@stareque-atlassian](stareque-atlassian) for the contribution!_",
+    "createdAt" : "2022-07-29T21:31:47+09:00",
+    "fetchedFromAPIAt" : "2022-07-30T09:48:41+09:00",
+    "id" : "RE_kwDOA9NCTc4EXFpr",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-07-29T21:35:10+09:00",
+    "repository" : "apollo-ios",
+    "title" : "Release 0.53.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/0.53.0",
+    "version" : "0.53.0"
   }
 ]
