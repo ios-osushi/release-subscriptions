@@ -382,5 +382,17 @@
     "title" : "3.22.2",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.2",
     "version" : "3.22.2"
+  },
+  {
+    "body" : "## What's Changed\r\n* Merge packagePaths and Xcode license results by @stmitt in https://github.com/mono0926/LicensePlist/pull/194\r\n* Fixes out of bounds access if package.swift cannot be parsed by @stmitt in https://github.com/mono0926/LicensePlist/pull/193\r\n\r\n## New Contributors\r\n* @stmitt made their first contribution in https://github.com/mono0926/LicensePlist/pull/194\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.22.2...3.22.3",
+    "createdAt" : "2022-07-31T10:47:19+09:00",
+    "fetchedFromAPIAt" : "2022-08-01T10:01:35+09:00",
+    "id" : "RE_kwDOBVhcvM4EXgF_",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-07-31T10:47:55+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.22.3",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.3",
+    "version" : "3.22.3"
   }
 ]
