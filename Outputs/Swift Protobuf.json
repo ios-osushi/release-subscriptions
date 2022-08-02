@@ -358,5 +358,17 @@
     "title" : "1.19.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.19.0",
     "version" : "1.19.0"
+  },
+  {
+    "body" : "* Minor Updates\r\n  * Back port negative duration #1260\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.19.0...1.19.1",
+    "createdAt" : "2022-08-02T01:00:20+09:00",
+    "fetchedFromAPIAt" : "2022-08-02T09:57:15+09:00",
+    "id" : "RE_kwDOBAEMEM4EX1fx",
+    "owner" : "apple",
+    "publishedAt" : "2022-08-02T01:03:26+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.19.1 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.19.1",
+    "version" : "1.19.1"
   }
 ]

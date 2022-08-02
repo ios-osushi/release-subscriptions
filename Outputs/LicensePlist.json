@@ -394,5 +394,17 @@
     "title" : "3.22.3",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.3",
     "version" : "3.22.3"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix #193 V2 naming regression by @mono0926 in https://github.com/mono0926/LicensePlist/pull/195\r\n\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.22.3...3.22.4",
+    "createdAt" : "2022-08-01T11:47:03+09:00",
+    "fetchedFromAPIAt" : "2022-08-02T09:57:16+09:00",
+    "id" : "RE_kwDOBVhcvM4EXnuE",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-08-01T11:47:34+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.22.4",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.4",
+    "version" : "3.22.4"
   }
 ]
