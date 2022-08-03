@@ -430,5 +430,17 @@
     "title" : "0.49.13",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.13",
     "version" : "0.49.13"
+  },
+  {
+    "body" : "- Fixed `unusedArguments` rule incorrectly removing `async` keyword from closure arguments\r\n- Fixed `unusedArguments` not being applied correctly to throwing closures\r\n- Fixed assertion failure when parsing `@unchecked Sendable` enum\r\n- Fixed assertion failure after applying typeSugar rule to array/dictionary extensions\r\n- Fixed line indent after `wrapAttributes` rule is applied\r\n- Fixed issue where redundantClosure would break build for Void closures calling `@discardableResult` functions\r\n- Added `--typeblankline` option for `blankLinesAtStartOfScope` and `blankLinesAtEndOfScope` rules\r\n- Added support for Xcode `SCRIPT_INPUT_FILE` arguments\r\n",
+    "createdAt" : "2022-08-03T04:38:51+09:00",
+    "fetchedFromAPIAt" : "2022-08-03T09:56:34+09:00",
+    "id" : "RE_kwDOA_OyXc4EYSXc",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-08-03T04:47:28+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.49.14",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.14",
+    "version" : "0.49.14"
   }
 ]

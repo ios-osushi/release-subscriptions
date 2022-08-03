@@ -370,5 +370,17 @@
     "title" : "SwiftNIO 2.39.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.39.0",
     "version" : "2.39.0"
+  },
+  {
+    "body" : "### Highlights\r\n\r\nThis release fully adopts `Sendable` in all libraries. In minimal concurrency checking mode (i.e. without `-warn-concurrency`) this should not produce any `Sendable` errors in your code as we have used `@preconccurency` to give adopters time to comply to the sendability rules. Many conformances are only available in Swift 5.7 though. Note that `swift-nio` itself currently does *not* compile successfully with strict concurrency checking turned on (with `-warn-concurrency`). \r\n\r\nPlease file an issue if your code no longer compiles because of `Sendable` errors.\r\n\r\n### SemVer Minor\r\n\r\n- Fully adopt `Sendable` (#2096, #2097, #2098, #2100, #2101, #2102, #2103, #2104, #2107, #2109, #2115, #2135, #2143, #2144, #2145, #2146, #2148, #2149, #2195, #2199, #2202, #2203, #2206, #2208, #2209, #2210, #2211, #2212, #2213, #2214, #2216, #2217, #2218, #2220, #2225, #2229)\r\n- NIOCore: replace `mode_t` with `CInt` (#2132, patch credit to @compnerd)\r\n- Deprecate `NIOAtomics` in favor of `Atomics` (#2204, patch credit to @stevapple)\r\n- Define AsyncTestingEventLoop (#2083)\r\n- Add initial support for connected datagram sockets (#2084)\r\n- Throw fatalError when scheduling on shutdown EL if SWIFTNIO_STRICT is set (#2190)\r\n- Provide conversion APIs between TimeAmount and Swift.Duration (#2191)\r\n\r\n### SemVer Patch\r\n- Repair the build on windows (#2127, #2128, #2129, #2130, #2131, #2133, #2138, #2139, #2140, #2141, #2150, #2151, #2152, #2155, #2156, #2157, #2158, #2163, #2164, #2165, #2166, #2167, #2168, #2170, #2171, #2172, #2173, #2174, #2177, #2179, #2180, #2181, #2182, #2183, #2184, #2188, #2189, #2194, #2215, #2219, patch credit to @compnerd)\r\n- Implement the _failEarlyRangeCheck methods as no-ops (#2161, patch credit to @stepan-ulyanin)\r\n- NIOCore: Implemented all three variants of _failEarlyRangeCheck methods for ByteBufferView (#2226, patch credit to @anishagg17)\r\n- wip: Use clock_gettime for NIODeadline.now() (#2119)\r\n- [docs] Fix docc warning about missing symbol (#2162)\r\n- Add support for translating subnet prefixes to masks (#2169)\r\n- Enhance and rename AsyncTestingEventLoop (#2224)\r\n\r\n### Other Changes\r\n\r\n- Added test for BufferView custom contains function (#2227, patch credit to @anishagg17)\r\n- Move tests of NIOCore types from NIOPosixTests to NIOCoreTests (#2093)\r\n- Reduce the alloc limits for main (#2095)\r\n- Reduce the alloc limits of `1000_tcpconnections` for main (#2116)\r\n- NIOPerformanceTester: Add DeadlineNowBenchmark for NIODeadline.now() (#2117)\r\n- Reduce the alloc limits for main (#2118)\r\n- NIOPerformanceTester: Increase operations used in lock benchmarks from 1M to 10M (#2121)\r\n- DatagramChannelTests: Handle receiving datagrams out-of-order in ECN tests (#2123)\r\n- readme: Fix API docs link following NIOCore refactoring (#2126)\r\n- Fix flake AsyncTestingEventLoopTest (#2147)\r\n- Use 5.7 nightlies (#2186)\r\n- Use correct alloc limits for 5.7 (#2193)",
+    "createdAt" : "2022-07-28T19:57:02+09:00",
+    "fetchedFromAPIAt" : "2022-08-03T09:56:34+09:00",
+    "id" : "RE_kwDOBy6rG84EYB-D",
+    "owner" : "apple",
+    "publishedAt" : "2022-08-02T23:14:54+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.41.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.41.0",
+    "version" : "2.41.0"
   }
 ]
