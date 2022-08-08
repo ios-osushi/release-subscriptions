@@ -514,5 +514,17 @@
     "title" : "Nuke 11.0.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.0.1",
     "version" : "11.0.1"
+  },
+  {
+    "body" : "- Add missing content mode to NukeUI - [#582](https://github.com/kean/Nuke/pull/582), thanks to [Ethan Pippin](https://github.com/LePips)\r\n- Add `DataLoader` `delegate` for easy Pulse integration (please use it with Pulse 2.0 which is optimized for images) - [#583](https://github.com/kean/Nuke/pull/583)\r\n\r\n```swift\r\n(ImagePipeline.shared.configuration.dataLoader as? DataLoader)?.delegate = URLSessionProxyDelegate()\r\n```\r\n\r\n\r\n",
+    "createdAt" : "2022-08-08T04:37:13+09:00",
+    "fetchedFromAPIAt" : "2022-08-08T09:49:08+09:00",
+    "id" : "RE_kwDOAeh5z84EZrXh",
+    "owner" : "kean",
+    "publishedAt" : "2022-08-08T04:40:39+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.1.0",
+    "version" : "11.1.0"
   }
 ]
