@@ -406,5 +406,17 @@
     "title" : "Firebase Apple 9.3.0",
     "url" : "https://github.com/firebase/firebase-ios-sdk/releases/tag/9.3.0",
     "version" : "9.3.0"
+  },
+  {
+    "body" : "9.4.1 is a Swift Package Manager only tag, which is equivalent to CocoaPods 9.4.0 tag. The 9.4.0 tag for Swift Package Manager was incorrectly placed on the 9.3.0 tag.\r\n\r\nThe Firebase Apple SDK (9.4.1) is now available. For more details, see\r\nthe [Firebase Apple SDK release notes.](https://firebase.google.com/support/release-notes/ios#9.4.1)\r\n\r\nTo install this SDK, see [Add Firebase to your project.](https://firebase.google.com/docs/ios/setup)\r\n",
+    "createdAt" : "2022-07-27T07:09:34+09:00",
+    "fetchedFromAPIAt" : "2022-08-10T09:56:36+09:00",
+    "id" : "RE_kwDOBU6LVM4EaA99",
+    "owner" : "firebase",
+    "publishedAt" : "2022-08-09T05:55:14+09:00",
+    "repository" : "firebase-ios-sdk",
+    "title" : "Firebase Apple 9.4.1",
+    "url" : "https://github.com/firebase/firebase-ios-sdk/releases/tag/9.4.1",
+    "version" : "9.4.1"
   }
 ]
