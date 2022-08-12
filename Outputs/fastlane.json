@@ -382,5 +382,17 @@
     "title" : "2.208.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.208.0",
     "version" : "2.208.0"
+  },
+  {
+    "body" : "* [deliver] fix typo caused by string concatenation (#20531) via Roger Oba (@rogerluan)\n* [frameit] faceook.design moved to design.facebook.com (#20513) via Guglielmo Faglioni (@guidev)\n* [match][sigh][cert] added checking hash of installed wwdr certificates (#20507) via grey442 (@grey442)\n* [action] adding no overwrite and local only options to the pod repo push command (#20455) via polmum (@polmum)\n* [core] fix unescaped \\ (#20508) via Arthur Baars (@aibaars)\n* [action][tests] don't create keychain files in lazy manner (#20478) via Bartosz Nowak (@DuMaM)\n* [pilot] app_version and app_build should not be fetched from a local IPA or PKG when distribute_only is set (#20488) via Colin Tremblay (@tremblay)\n* [match] suppress null byte message (#20497) via Aaron Brager (@getaaron)",
+    "createdAt" : "2022-08-11T11:30:34+09:00",
+    "fetchedFromAPIAt" : "2022-08-12T09:48:45+09:00",
+    "id" : "RE_kwDOAaK_F84EbL2q",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-08-12T04:02:31+09:00",
+    "repository" : "fastlane",
+    "title" : "2.209.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.209.0",
+    "version" : "2.209.0"
   }
 ]
