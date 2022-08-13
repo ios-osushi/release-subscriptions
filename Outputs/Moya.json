@@ -358,5 +358,29 @@
     "title" : "11.0.0-beta.1",
     "url" : "https://github.com/Moya/Moya/releases/tag/11.0.0-beta.1",
     "version" : "11.0.0-beta.1"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n- Pin dependencies to their major versions only, so no specific minor or patch versions are required. [#2207](https://github.com/Moya/Moya/pull/2207) by [@BasThomas](https://github.com/BasThomas).\r\n",
+    "createdAt" : "2022-08-12T10:25:49+09:00",
+    "fetchedFromAPIAt" : "2022-08-13T09:45:12+09:00",
+    "id" : "RE_kwDOAV8nlM4EbQ6R",
+    "owner" : "Moya",
+    "publishedAt" : "2022-08-12T10:28:41+09:00",
+    "repository" : "Moya",
+    "title" : "15.0.1",
+    "url" : "https://github.com/Moya/Moya/releases/tag/15.0.1",
+    "version" : "15.0.1"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n* Package.swift: mark entire testTarget region as dev for rocket by @AndrewSB in https://github.com/Moya/Moya/pull/2275\r\n",
+    "createdAt" : "2022-08-13T01:14:44+09:00",
+    "fetchedFromAPIAt" : "2022-08-13T09:45:12+09:00",
+    "id" : "RE_kwDOAV8nlM4Ebe7q",
+    "owner" : "Moya",
+    "publishedAt" : "2022-08-13T01:16:53+09:00",
+    "repository" : "Moya",
+    "title" : "15.0.3",
+    "url" : "https://github.com/Moya/Moya/releases/tag/15.0.3",
+    "version" : "15.0.3"
   }
 ]
