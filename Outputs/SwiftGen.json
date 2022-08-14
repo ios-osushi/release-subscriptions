@@ -394,5 +394,17 @@
     "title" : "6.6.1",
     "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/6.6.1",
     "version" : "6.6.1"
+  },
+  {
+    "body" : "### Changes in core dependencies of SwiftGen\n\n* [StencilSwiftKit 2.10.1](https://github.com/SwiftGen/StencilSwiftKit/blob/2.10.1/CHANGELOG.md)\n\n### Bug Fixes\n\n* Strings: correctly handle translations containing `\\t` (tabs) and other escape sequences.  \n  [David Jennes](https://github.com/djbe)\n  [#985](https://github.com/SwiftGen/SwiftGen/issues/985)\n  [#986](https://github.com/SwiftGen/SwiftGen/issues/986)\n  [#988](https://github.com/SwiftGen/SwiftGen/pull/988)\n  [#998](https://github.com/SwiftGen/SwiftGen/pull/998)\n* Strings: fix the Objective-C template.  \n  [David Jennes](https://github.com/djbe)\n  [#990](https://github.com/SwiftGen/SwiftGen/issues/990)\n  [#991](https://github.com/SwiftGen/SwiftGen/pull/991)\n\n### Internal Changes\n\n* Strings: greatly improve the performance of the new comments parser.  \n  [David Jennes](https://github.com/djbe)\n  [#987](https://github.com/SwiftGen/SwiftGen/issues/987)\n  [#989](https://github.com/SwiftGen/SwiftGen/pull/989)",
+    "createdAt" : "2022-08-13T22:02:24+09:00",
+    "fetchedFromAPIAt" : "2022-08-14T09:53:49+09:00",
+    "id" : "RE_kwDOAlWj5s4EbpBF",
+    "owner" : "SwiftGen",
+    "publishedAt" : "2022-08-13T22:17:42+09:00",
+    "repository" : "SwiftGen",
+    "title" : "6.6.2",
+    "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/6.6.2",
+    "version" : "6.6.2"
   }
 ]

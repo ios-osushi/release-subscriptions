@@ -442,5 +442,17 @@
     "title" : "0.49.14",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.14",
     "version" : "0.49.14"
+  },
+  {
+    "body" : "- Fixed illegal wrapping of ternary expressions inside single-line string interpolation\r\n- Fixed bug where `await case` was incorrectly interpreted as ending the current scope\r\n- Fixed issue where `async throws` was indented incorrectly\r\n- Fixed bug where a pair of less-than, greater-than operators could be interpreted as generics\r\n- Fixed case where `andOperator` rule could introduce parser ambiguity\r\n",
+    "createdAt" : "2022-08-13T18:24:30+09:00",
+    "fetchedFromAPIAt" : "2022-08-14T09:53:49+09:00",
+    "id" : "RE_kwDOA_OyXc4EbntN",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-08-13T18:44:43+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.49.15",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.15",
+    "version" : "0.49.15"
   }
 ]
