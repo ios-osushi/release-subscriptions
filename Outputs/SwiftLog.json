@@ -106,5 +106,17 @@
     "title" : "1.4.3",
     "url" : "https://github.com/apple/swift-log/releases/tag/1.4.3",
     "version" : "1.4.3"
+  },
+  {
+    "body" : "## Sendable fixup for 1.4.3\r\n\r\nThe 1.4.3 release carefully introduced `Sendable` across the library; sadly we missed that `5.6.x` Swift series treat a \"missing marker protocol conformance for Sendable\" as an _error_ while it is intended to be a _warning_ as which it is correctly reported in Swift 5.7.\r\n\r\nThis release fixes this by _not requiring_ that values stored in `Logger.MetadataValue.stringConvertible` must be Sendable, however practically speaking they should be thread-safe in any case, as it is not guaranteed in any way when/where this string convertible value will be invoked from.\r\n\r\nThis release contains no other changes from 1.4.3.\r\n\r\n## What's Changed\r\n* [sendable] Sendable conformance checks cause errors on 5.6 but warnings on 5.7 by @ktoso in https://github.com/apple/swift-log/pull/229\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.4.3...1.4.4",
+    "createdAt" : "2022-08-15T16:41:03+09:00",
+    "fetchedFromAPIAt" : "2022-08-16T09:58:31+09:00",
+    "id" : "RE_kwDOCiSz584Eb1fH",
+    "owner" : "apple",
+    "publishedAt" : "2022-08-15T16:44:25+09:00",
+    "repository" : "swift-log",
+    "title" : "1.4.4",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.4.4",
+    "version" : "1.4.4"
   }
 ]
