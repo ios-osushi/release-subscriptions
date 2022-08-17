@@ -526,5 +526,17 @@
     "title" : "Nuke 11.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.1.0",
     "version" : "11.1.0"
+  },
+  {
+    "body" : "- **Breaking** Progressive decoding is now disabled by default as a way to mitigate\r\n- Add `prefersIncrementalDelivery` to `DataLoader`. When progressive decoding is disabled, it now uses `prefersIncrementalDelivery` on `URLSessionTask`, slightly increasing the performance.\r\n- Fix an issue with placeholder not being shown by `LazyImage` when the initial URL is `nil` – [#586](https://github.com/kean/Nuke/pull/586), thanks to [Jeffrey](https://github.com/jeffreykuiken)\r\n- Add convenience options to `Image` and `LazyImage`: `resizingMode(_:)`, `videoRenderingEnabled(_:)`, `videoLoopingEnabled(_:)`, `animatedImageRenderingEnabled(_:)`\r\n- Fix an issue where `AVPlayerLayer` was created eagerly\r\n- Disable `prepareForDisplay` by default and add a configuration option to enable it",
+    "createdAt" : "2022-08-17T09:17:20+09:00",
+    "fetchedFromAPIAt" : "2022-08-17T09:57:42+09:00",
+    "id" : "RE_kwDOAeh5z84Ecddq",
+    "owner" : "kean",
+    "publishedAt" : "2022-08-17T09:28:56+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.1.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.1.1",
+    "version" : "11.1.1"
   }
 ]

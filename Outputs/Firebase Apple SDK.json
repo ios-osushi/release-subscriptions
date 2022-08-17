@@ -418,5 +418,17 @@
     "title" : "Firebase Apple 9.4.1",
     "url" : "https://github.com/firebase/firebase-ios-sdk/releases/tag/9.4.1",
     "version" : "9.4.1"
+  },
+  {
+    "body" : "This tag is in the wrong place and this GitHub Release should only be used to access the Firebase 9.4.0 zip release.",
+    "createdAt" : "2022-07-08T00:37:13+09:00",
+    "fetchedFromAPIAt" : "2022-08-17T09:57:42+09:00",
+    "id" : "RE_kwDOBU6LVM4EcVX3",
+    "owner" : "firebase",
+    "publishedAt" : "2022-08-17T01:14:30+09:00",
+    "repository" : "firebase-ios-sdk",
+    "title" : "Firebase 9.4.0 zip only",
+    "url" : "https://github.com/firebase/firebase-ios-sdk/releases/tag/9.4.0",
+    "version" : "9.4.0"
   }
 ]
