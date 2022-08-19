@@ -394,5 +394,17 @@
     "title" : "2.31.0",
     "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.31.0",
     "version" : "2.31.0"
+  },
+  {
+    "body" : "### Added\r\n\r\n- Add support for `mlmodelc` files #1236 @antonsergeev88\r\n- Add `enable` option for `include` #1242 @freddi-kit\r\n\r\n### Fixed\r\n\r\n- Fix checking environment variable in `include` #1242 @freddi-kit\r\n- Fix profile action for frameworks in Xcode 14 #1245 @SSheldon",
+    "createdAt" : "2022-08-18T23:53:34+09:00",
+    "fetchedFromAPIAt" : "2022-08-19T09:56:17+09:00",
+    "id" : "RE_kwDOBdMHVM4EdILI",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2022-08-18T23:55:48+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.32.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.32.0",
+    "version" : "2.32.0"
   }
 ]
