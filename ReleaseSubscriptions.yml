@@ -246,6 +246,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: Realm
+    owner: realm
+    repo: realm-swift
+  
+  - kind: secondary
+    case: releases
     name: SwiftLint
     owner: realm
     repo: SwiftLint
