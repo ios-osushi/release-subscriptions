@@ -394,5 +394,17 @@
     "title" : "2.209.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.209.0",
     "version" : "2.209.0"
+  },
+  {
+    "body" : "* [fastlane_core] install all Apple WWDR Intermediate Certificates (#20537) via Tony Li (@crazytonyli)\n* [Fastlane.swift] the word phrasing used has been standardized. (#20543) via Yusuke Arakawa (@nekolaboratory)\n* [spaceship] ignoring case sensitive when requesting SMS (#20436) via harrimaatta (@harrimaatta)",
+    "createdAt" : "2022-08-22T10:44:50+09:00",
+    "fetchedFromAPIAt" : "2022-08-23T10:01:51+09:00",
+    "id" : "RE_kwDOAaK_F84EeD8v",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-08-22T22:02:17+09:00",
+    "repository" : "fastlane",
+    "title" : "2.209.1 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.209.1",
+    "version" : "2.209.1"
   }
 ]
