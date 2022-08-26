@@ -454,5 +454,17 @@
     "title" : "0.39.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.39.0",
     "version" : "0.39.0"
+  },
+  {
+    "body" : "- Fixed: Pinned combine-schedulers to [0.7.3](https://github.com/pointfreeco/combine-schedulers/releases/0.7.3), which removes an errant `@_exported import Foundation`. This change _may_ be breaking and require you to add `import Foundation` in your code.\r\n- Changed: Updated `Global`/`Local` generics to more relative `Parent`/`Child`, or more domain-specific names.\r\n- Infrastructure: Added Spanish language translation of the README (thanks @pitt500).\r\n- Infrastructure: README and documentation improvements (thanks @ole, @SevioCorrea, @kalupas226)\r\n- Infrastructure: Demo cleanup.\r\n- Infrastructure: Made test classes `final` (thanks @Jager-yoo).",
+    "createdAt" : "2022-08-26T00:58:49+09:00",
+    "fetchedFromAPIAt" : "2022-08-26T09:57:20+09:00",
+    "id" : "RE_kwDOD48kk84EffVB",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-08-26T01:05:36+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.39.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.39.1",
+    "version" : "0.39.1"
   }
 ]
