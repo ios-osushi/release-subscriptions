@@ -372,6 +372,18 @@
     "version" : "1.19.1"
   },
   {
+    "body" : "* Minor Updates\r\n  * Provide environment variable configuration option by @FranzBusch in https://github.com/apple/swift-protobuf/pull/1279\r\n  * Fix warning in new package.swift by @FranzBusch in https://github.com/apple/swift-protobuf/pull/1281\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.20.0...1.20.1",
+    "createdAt" : "2022-08-27T01:26:00+09:00",
+    "fetchedFromAPIAt" : "2022-08-27T09:51:13+09:00",
+    "id" : "RE_kwDOBAEMEM4Ef9Yb",
+    "owner" : "apple",
+    "publishedAt" : "2022-08-27T01:28:50+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.20.1 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.20.1",
+    "version" : "1.20.1"
+  },
+  {
     "body" : "* Major Updates\r\n  * SPM plugin by @FranzBusch #1276\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.19.1...1.20.0",
     "createdAt" : "2022-08-25T21:47:50+09:00",
     "fetchedFromAPIAt" : "2022-08-26T09:57:20+09:00",

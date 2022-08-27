@@ -334,5 +334,17 @@
     "title" : "1.7.0",
     "url" : "https://github.com/uber/mockolo/releases/tag/1.7.0",
     "version" : "1.7.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Remove LICENSE.txt and README.md in MockoloFramework by @uhooi in https://github.com/uber/mockolo/pull/181\r\n* Handle varying names for SyntaxParser by @tinder-maxwellelliott in https://github.com/uber/mockolo/pull/183\r\n* Disable combine parameter overloading via a flag by @maxwellE in https://github.com/uber/mockolo/pull/186\r\n* Update CI by @uhooi in https://github.com/uber/mockolo/pull/187\r\n* Use `@main` in Mockolo target by @yutailang0119 in https://github.com/uber/mockolo/pull/190\r\n* Report error when fails to write mock file by @maiyama18 in https://github.com/uber/mockolo/pull/193\r\n* Automatic generation of binaries at release time by @uhooi in https://github.com/uber/mockolo/pull/192\r\n* Updated swift-tools-support-core version from 0.2.3 to 0.2.7 by @fummicc1 in https://github.com/uber/mockolo/pull/198\r\n* Tried to use mockolo via Mint by @fummicc1 in https://github.com/uber/mockolo/pull/199\r\n* Make universal binary by @ikesyo in https://github.com/uber/mockolo/pull/200\r\n* Update swift-argument-parser dependency by @pablocornejo in https://github.com/uber/mockolo/pull/197\r\n\r\n## New Contributors\r\n* @maiyama18 made their first contribution in https://github.com/uber/mockolo/pull/193\r\n* @fummicc1 made their first contribution in https://github.com/uber/mockolo/pull/198\r\n* @pablocornejo made their first contribution in https://github.com/uber/mockolo/pull/197\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/1.7.0...1.7.1",
+    "createdAt" : "2022-08-26T12:47:01+09:00",
+    "fetchedFromAPIAt" : "2022-08-27T09:51:13+09:00",
+    "id" : "RE_kwDOCaWADM4EgFHF",
+    "owner" : "uber",
+    "publishedAt" : "2022-08-27T09:27:01+09:00",
+    "repository" : "mockolo",
+    "title" : "1.7.1",
+    "url" : "https://github.com/uber/mockolo/releases/tag/1.7.1",
+    "version" : "1.7.1"
   }
 ]
