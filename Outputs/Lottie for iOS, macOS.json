@@ -394,5 +394,17 @@
     "title" : "3.4.2",
     "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.4.2",
     "version" : "3.4.2"
+  },
+  {
+    "body" : "> **Note**: Lottie 3.4.0 added a new rendering engine powered by Core Animation. Please try it out and let us know if you encounter any issues! It will be enabled by default in a future version of Lottie. More information is available in this announcement: https://github.com/airbnb/lottie-ios/discussions/1627\r\n\r\n## New Features\r\n* Updated Core Animation rendering engine to support `TextProvider`s (https://github.com/airbnb/lottie-ios/pull/1723)\r\n* Updated Core Animation rendering engine to support time stretch in pre-comp layers (https://github.com/airbnb/lottie-ios/pull/1726)\r\n* Updated `Animation.loadedFrom` method to support using a custom `URLSession` (https://github.com/airbnb/lottie-ios/pull/1733)\r\n\r\n## Bug fixes\r\n* Fixed performance issue with line dash patterns (https://github.com/airbnb/lottie-ios/pull/1736)\r\n* Fixed race condition in Core Animation rendering engine's `playbackState` property (https://github.com/airbnb/lottie-ios/pull/1727)\r\n* Fixed issue where Core Animation rendering engine would ignore `hidden` flag on some shape items (https://github.com/airbnb/lottie-ios/pull/1728)\r\n* Fixed issue where Core Animation rendering engine would ignore `CAGradientLayer` locations / color stops (https://github.com/airbnb/lottie-ios/pull/1734)\r\n* Fixed issue where Core Animation rendering engine would not render alpha gradient (https://github.com/airbnb/lottie-ios/pull/1737)",
+    "createdAt" : "2022-08-30T07:17:07+09:00",
+    "fetchedFromAPIAt" : "2022-08-30T10:02:45+09:00",
+    "id" : "RE_kwDOBC8liM4Egxmi",
+    "owner" : "airbnb",
+    "publishedAt" : "2022-08-30T08:01:51+09:00",
+    "repository" : "lottie-ios",
+    "title" : "3.4.3",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.4.3",
+    "version" : "3.4.3"
   }
 ]
