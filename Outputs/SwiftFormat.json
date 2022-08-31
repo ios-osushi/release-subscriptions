@@ -478,5 +478,17 @@
     "title" : "0.49.17",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.17",
     "version" : "0.49.17"
+  },
+  {
+    "body" : "- Fixed bug in `unusedArguments` when argument is shadowed in a `switch` case statement\r\n- Fixed `enumNamespaces` rule breaking `open` class declarations\r\n- Fixed `redundantLet` removing `let` incorrectly in `async let` statement\r\n- Fixed indent regression when using `--xcodeindentation` option\r\n",
+    "createdAt" : "2022-08-31T05:21:11+09:00",
+    "fetchedFromAPIAt" : "2022-08-31T10:04:57+09:00",
+    "id" : "RE_kwDOA_OyXc4EhQAR",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-08-31T05:37:03+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.49.18",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.49.18",
+    "version" : "0.49.18"
   }
 ]
