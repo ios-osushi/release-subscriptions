@@ -106,5 +106,17 @@
     "title" : "Swift Collections 1.0.2",
     "url" : "https://github.com/apple/swift-collections/releases/tag/1.0.2",
     "version" : "1.0.2"
+  },
+  {
+    "body" : "This release resolves issues uncovered since 1.0.2 was tagged. The fixes improve performance of some operations, resolve compile-time issues and update documentation. This release contains no observable behavioral changes.\r\n\r\n### Changes\r\n\r\n- [Clutter] When opened in Xcode, the package no longer adds spurious schemes to dependent projects. (#155)\r\n\r\n### Fixes\r\n\r\n- [Build-time issue] Code that is calling `OrderedDictionary`'s uniquing/unique/grouping initializers and merge operations no longer gets flagged as ambiguous in certain cases involving type inference. (#125, #139)\r\n- [Build-time issue] The package no longer fails to build when library evolution is enabled. (#157) (Note: this configuration remains unsupported. This package does not provide any guarantees about ABI stability.)\r\n- [Performance] In-place mutations of collection contents no longer result in unnecessary heap allocations. (#164)\r\n- [Performance] On Swift 5.6 and better, some operations in the `OrderedCollections` module now make use of the stdlib's [temporary allocation facility](https://github.com/apple/swift-evolution/blob/main/proposals/0322-temporary-buffers.md). (#160)\r\n- [Docs] Documentation was updated to clarify behavior of the `filter` and `merge` methods of `OrderedDictionary`. (#145)\r\n\r\n### Pull requests\r\n\r\n- #140 [OrderedDictionary] Fix type inference issue with OrderedDictionary.init(grouping:by:) (by @lorentey)\r\n- #153 [OrderedDictionary][doc] Update docs for merge/filter operations (by @lorentey)\r\n- #155 Remove Swift PM Artifacts to avoid Generated Schemes in Xcode (by @hectormatos2011)\r\n- #156 Reinstate custom schemes under Utils/swift-collections.xcworkspace (by @lorentey)\r\n- #160 [OrderedCollection] Use standard temp allocation facility, if available (by @lorentey)\r\n- #161 [Xcode] Update schemes & file template (by @lorentey)\r\n- #162 [OrderedSet] Work around weird name lookup issue in compiler (by @lorentey)\r\n- #165 Force-inline _modify accessors to work around a performance issue (by @lorentey)\r\n- #169 [OrderedDictionary] Resolve call-site ambiguities (by @lorentey)\r\n- #170 Update README for 1.0.3 (by @lorentey)\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.0.2...1.0.3\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.\r\n\r\n",
+    "createdAt" : "2022-09-02T09:32:57+09:00",
+    "fetchedFromAPIAt" : "2022-09-03T09:54:10+09:00",
+    "id" : "RE_kwDOFDfRzs4EiTkf",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-03T05:29:51+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 1.0.3",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.0.3",
+    "version" : "1.0.3"
   }
 ]

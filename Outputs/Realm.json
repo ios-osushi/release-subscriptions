@@ -358,5 +358,17 @@
     "title" : "v10.28.6",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.28.6",
     "version" : "v10.28.6"
+  },
+  {
+    "body" : "### Enhancements\n\n* Add prebuilt binaries for Xcode 14 to the release package.\n\n### Fixed\n\n* Fix archiving watchOS release builds with Xcode 14.\n\n### Compatibility\n\n* Realm Studio: 11.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 13.4.1.\n* CocoaPods: 1.10 or later.\n* Xcode: 13.1-14 beta 6.",
+    "createdAt" : "2022-09-03T04:23:47+09:00",
+    "fetchedFromAPIAt" : "2022-09-03T09:54:10+09:00",
+    "id" : "RE_kwDOAD24W84EimFt",
+    "owner" : "realm",
+    "publishedAt" : "2022-09-03T04:29:23+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.28.7",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.28.7",
+    "version" : "v10.28.7"
   }
 ]
