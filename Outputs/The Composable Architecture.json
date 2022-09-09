@@ -466,5 +466,29 @@
     "title" : "0.39.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.39.1",
     "version" : "0.39.1"
+  },
+  {
+    "body" : "This release brings many performance improvements to the library. See our [blog post](https://www.pointfree.co/blog/posts/80-improving-composable-architecture-performance) for information about those changes.\r\n\r\n- Added: `WithViewStore(_:observe:…)`, a new initializer that makes state observation explicit. We hope these initializers will help users avoid performance pitfalls and identify areas of their application where performance can be improved. The existing initializers have been soft-deprecated and will surface warnings in a future release.\r\n- Performance: `Effect` performance has been improved, especially with regard to merging effects (a common operation that occurs when reducers are combined), and async effects (which previously often incurred overhead from Combine).\r\n- Performance: `Store.scope` performance has been improved for nested scopes, which no longer incur a penalty for each layer of scoping (thanks @iampatbrown).\r\n- Performance: `WithViewStore` now uses a state object under the hood, which should tie the lifecycle of a view store to a view (thanks @tgrapperon).\r\n- Performance: `ForEachStore` performance has been improved for state updates in which element state has changed but no elements were added, removed, or moved (thanks @tgrapperon).\r\n- Fix: `Effect.run`'s `Send` closure is now explicitly `@MainActor`.\r\n- Fix: Long-living effects no longer accumulate `Task` values in memory for each action sent back into the store, saving memory over time.\r\n- Fix: macOS 11 compilation with the Xcode 14 release candidate.\r\n- Fix: Actions that re-enter the store at the end of processing are now processed immediately.\r\n- Infrastructure: README fixes (thanks @Jager-yoo).\r\n- Infrastructure: Added benchmarks for effects, store scoping.\r\n- Infrastructure: Fixed Todos demo's incrementing UUID helper (thanks @pitt500).\r\n- Infrastructure: Fixed Voice Memos AV settings (thanks @entaku0818).",
+    "createdAt" : "2022-09-09T00:47:28+09:00",
+    "fetchedFromAPIAt" : "2022-09-09T10:00:46+09:00",
+    "id" : "RE_kwDOD48kk84EkQP2",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-09-09T00:50:45+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.40.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.40.0",
+    "version" : "0.40.0"
+  },
+  {
+    "body" : "- Fixed: Removed the `@StateObject` shim added in 0.40.0 to avoid a release build regression in some applications. We'll investigate on bringing it back in the future!",
+    "createdAt" : "2022-09-09T08:20:13+09:00",
+    "fetchedFromAPIAt" : "2022-09-09T10:00:46+09:00",
+    "id" : "RE_kwDOD48kk84EkabH",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-09-09T08:21:25+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.40.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.40.1",
+    "version" : "0.40.1"
   }
 ]
