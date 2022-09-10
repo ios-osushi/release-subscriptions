@@ -466,5 +466,17 @@
     "title" : "1.0.0 Beta 3",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-beta.3",
     "version" : "1.0.0-beta.3"
+  },
+  {
+    "body" : "This is the fourth Beta Release of Apollo iOS 1.0. The Beta version has full feature parity with the 0.x.x releases. The API is expected to be mostly stable. Some breaking changes may occur due to user feedback prior to General Availability (GA) Release. The Beta does not have complete documentation or usage guides, which will be completed prior to GA.\r\n\r\nThis first major version will include a new code generation engine, better generated models, and many syntax and performance improvements across the entire library. The primary goal of Apollo iOS 1.0 is to stabilize the API of the model layer and provide a foundation for future feature additions and evolution of the library.\r\n\r\n* **Breaking: Generated Files now have the file extension `.graphql.swift`.**\r\n  * This allows you to clearly distinguish which files in your project are Apollo generated files.\r\n  * Generated template files that are user-editable will still have the `.swift` file extension. \r\n    * `CustomScalar` templates as well as the `SchemaConfiguration` file are user-editable. Once these are generated, they are never overwritten by future code generation execution.\r\n  * This change is also necessary for the identification of generated files for the pruning functionality.\r\n* **New: Pruning of Unused Generated Files**\r\n  * Generated files that no longer should exist are automatically deleted now. This occurs when a `.graphql` file is removed from your project. The generated file will also be deleted the next time code generation is run.\r\n  * This can be disabled with the new `pruneGeneratedFiles` codegen option.\r\n  * **Breaking: Automatic Deletion will not delete files generated in previous Alpha/Beta versions.**\r\n    * Only files with the `.graphql.swift` file extension will be deleted.\r\n    * If you have used previous Alpha/Beta versions, you will need to delete your generated files manually one last time before running code generation with this version.\r\n* **New: Enum Case Names are Converted to Camel Case in Generated Enums.** \r\n  * **Breaking: This is enabled by default, your call sites will need to be updated.**\r\n  * Camel case conversion for enum cases can be disabled with the new `conversionStrategies.enumCases` codegen option.\r\n  * Thanks [@bannzai](https://github.com/bannzai) for this one!\r\n* **Fixed: Swift Keywords are escaped when used as names of Enum Values** Thanks [@bannzai](https://github.com/bannzai) for the fix!\r\n* **Fixed: Compilation Error when Using Fragment with Lowercased Name** This was an edge case that only occured when referencing a nested, merged selection set from the lowercase named fragment.\r\n* **Fixed: Retain Cycle in `ReadTransaction`** Thanks [@lorraine-hatch](https://github.com/lorraine-hatch) for the fix!\r\n* **Fixed: String `jsonValue` Initializer for Large Numbers** Thanks [@Almaz5200](https://github.com/Almaz5200) for the fix!",
+    "createdAt" : "2022-09-10T09:34:45+09:00",
+    "fetchedFromAPIAt" : "2022-09-10T09:59:49+09:00",
+    "id" : "RE_kwDOA9NCTc4Ek3-e",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-09-10T09:36:07+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.0.0 Beta 4",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-beta.4",
+    "version" : "1.0.0-beta.4"
   }
 ]
