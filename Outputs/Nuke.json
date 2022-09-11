@@ -538,5 +538,29 @@
     "title" : "Nuke 11.1.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.1.1",
     "version" : "11.1.1"
+  },
+  {
+    "body" : "- Add support for Xcode 14.0\r\n- Fix [#595](https://github.com/kean/Nuke/issues/595) – compilation issue on macOS",
+    "createdAt" : "2022-09-11T05:57:52+09:00",
+    "fetchedFromAPIAt" : "2022-09-11T09:59:29+09:00",
+    "id" : "RE_kwDOAeh5z84ElAFK",
+    "owner" : "kean",
+    "publishedAt" : "2022-09-11T05:58:29+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.2.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.2.0",
+    "version" : "11.2.0"
+  },
+  {
+    "body" : "- Fix an issue with Mac Catalyst on Xcode 14.0",
+    "createdAt" : "2022-09-11T08:06:43+09:00",
+    "fetchedFromAPIAt" : "2022-09-11T09:59:29+09:00",
+    "id" : "RE_kwDOAeh5z84ElAmB",
+    "owner" : "kean",
+    "publishedAt" : "2022-09-11T08:07:09+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.2.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.2.1",
+    "version" : "11.2.1"
   }
 ]
