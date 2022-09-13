@@ -382,5 +382,17 @@
     "title" : "Swift 5.6.3 Release",
     "url" : "https://github.com/apple/swift/releases/tag/swift-5.6.3-RELEASE",
     "version" : "swift-5.6.3-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2022-09-12T04:42:21+09:00",
+    "fetchedFromAPIAt" : "2022-09-13T09:59:20+09:00",
+    "id" : "RE_kwDOAqwwJc4EldFn",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-13T03:41:55+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.7 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.7-RELEASE",
+    "version" : "swift-5.7-RELEASE"
   }
 ]
