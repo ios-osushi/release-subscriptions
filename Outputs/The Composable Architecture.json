@@ -490,5 +490,17 @@
     "title" : "0.40.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.40.1",
     "version" : "0.40.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Re-entrant actions from store publisher subscriptions no longer run with the previous state (thanks @diederich, #1360).\r\n* Fixed: The test store is now slightly more forgiving when it comes to Swift's async runtime. If you are having issues with async effects and the test store, let us know and we'll do our best to accommodate!\r\n* Fixed: The SPM package no longer publicly vends its internal schemes.",
+    "createdAt" : "2022-09-13T13:37:33+09:00",
+    "fetchedFromAPIAt" : "2022-09-14T09:58:36+09:00",
+    "id" : "RE_kwDOD48kk84EllE3",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-09-13T13:42:42+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.40.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.40.2",
+    "version" : "0.40.2"
   }
 ]
