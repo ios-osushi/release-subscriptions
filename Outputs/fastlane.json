@@ -406,5 +406,17 @@
     "title" : "2.209.1 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.209.1",
     "version" : "2.209.1"
+  },
+  {
+    "body" : "* [deliver][pilot] use altool instead of using iTMSTransporter for Xcode 14 (#20631) via freddi(Yuki Aki) (@freddi-kit)\n* [docs][run_tests] fix typo and improve phrasing of documentation (#20585) via Roger Oba (@rogerluan)",
+    "createdAt" : "2022-09-15T21:32:42+09:00",
+    "fetchedFromAPIAt" : "2022-09-16T10:02:12+09:00",
+    "id" : "RE_kwDOAaK_F84Em16M",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-09-15T21:58:28+09:00",
+    "repository" : "fastlane",
+    "title" : "2.210.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.210.0",
+    "version" : "2.210.0"
   }
 ]
