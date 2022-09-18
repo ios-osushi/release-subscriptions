@@ -166,5 +166,17 @@
     "title" : "v1.7.0",
     "url" : "https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.7.0b15",
     "version" : "v1.7.0b15"
+  },
+  {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\n## Xcodes now **DOES NOT** require any Apple ID and password when downloading Xcode! 🎉 \r\n\r\nAt long last!  **you no longer are required** to provide your Apple username and password in order to download Xcode (as long as your using XcodeReleases datasource). \r\n- No more 2FA prompts!\r\n- No more errors when you haven't signed the latest developer EULA!\r\n- No more nervous feeling giving your password to a 3rd Party. \r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Add ability to download Xcode without logging in using XcodeReleases (#290) @MattKiazyk\r\n\r\n## 🌎 Localization\r\n\r\n* Fix French Translation (#288) @florentmorin\r\n* updated German translation (#285) @drct\r\n* Added Turkish missing translations in 1.7.0 (#277) @egrimo\r\n* Fix \"Unarchiving\" localization in Japanese (#280) @swiftty\r\n* Update Localizable.strings for Russian language (2) (#271) @duffpod\r\n* Update zh_Hans localizations. (#270) @megabitsenmzq\r\n\r\n## 🧰 Maintenance\r\n\r\n* Fix Finnish language name typo in README (#284) @marcusziade\r\n* Update readme with Taiwan flag (#274) @ymhuang0808\r\n* Bump actions/cache from 3.0.7 to 3.0.8 (#276) @dependabot\r\n* Bump actions/cache from 3.0.6 to 3.0.7 (#272) @dependabot\r\n\r\n<!-- sparkle:edSignature=SgcxGfx96rqxNpxpecvyLbgzAg6gqSk6pYPn38zyRqs4Tp1RSTAp4kNLJJSbwSdYneo8yaHrIkJyBWft48XnAw== -->\r\n",
+    "createdAt" : "2022-09-17T12:52:05+09:00",
+    "fetchedFromAPIAt" : "2022-09-18T10:01:33+09:00",
+    "id" : "RE_kwDOEtMR_84EbQUA",
+    "owner" : "RobotsAndPencils",
+    "publishedAt" : "2022-09-17T13:05:30+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v1.8.0",
+    "url" : "https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.8.0b16",
+    "version" : "v1.8.0b16"
   }
 ]

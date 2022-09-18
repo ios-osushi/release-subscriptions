@@ -562,5 +562,17 @@
     "title" : "Nuke 11.2.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.2.1",
     "version" : "11.2.1"
+  },
+  {
+    "body" : "* Add support for loading image into TVPosterView by @lukaskukacka in https://github.com/kean/Nuke/pull/602",
+    "createdAt" : "2022-09-18T05:17:02+09:00",
+    "fetchedFromAPIAt" : "2022-09-18T10:01:33+09:00",
+    "id" : "RE_kwDOAeh5z84EnfmX",
+    "owner" : "kean",
+    "publishedAt" : "2022-09-18T05:17:24+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.3.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.3.0",
+    "version" : "11.3.0"
   }
 ]
