@@ -370,5 +370,17 @@
     "title" : "0.13.0",
     "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.13.0",
     "version" : "0.13.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Allow any extension for PCH files by @remyjette in https://github.com/tuist/xcbeautify/pull/75\r\n* Add a command-line option to allow preserving unbeautified output lines by @GetToSet in https://github.com/tuist/xcbeautify/pull/78\r\n\r\n## New Contributors\r\n* @remyjette made their first contribution in https://github.com/tuist/xcbeautify/pull/75\r\n* @kitwtnb made their first contribution in https://github.com/tuist/xcbeautify/pull/76\r\n* @GetToSet made their first contribution in https://github.com/tuist/xcbeautify/pull/78\r\n\r\n**Full Changelog**: https://github.com/tuist/xcbeautify/compare/0.13.0...0.14.0",
+    "createdAt" : "2022-09-18T21:16:01+09:00",
+    "fetchedFromAPIAt" : "2022-09-19T09:59:27+09:00",
+    "id" : "RE_kwDOCNUZc84EnjwY",
+    "owner" : "tuist",
+    "publishedAt" : "2022-09-18T21:16:14+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.14.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.14.0",
+    "version" : "0.14.0"
   }
 ]
