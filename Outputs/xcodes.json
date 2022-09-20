@@ -286,5 +286,17 @@
     "title" : "0.19.0",
     "url" : "https://github.com/RobotsAndPencils/xcodes/releases/tag/0.19.0",
     "version" : "0.19.0"
+  },
+  {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade robotsandpencils/made/xcodes`.\r\n\r\n## Xcodes now **DOES NOT** require any Apple ID and password when downloading Xcode! 🎉 \r\n\r\nAt long last!  **you no longer are required** to provide your Apple username and password in order to download Xcode (as long as your using XcodeReleases datasource). \r\n- No more 2FA prompts!\r\n- No more errors when you haven't signed the latest developer EULA!\r\n- No more nervous feeling giving your password to a 3rd Party. \r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Add ability to download Xcode without logging in using XcodeRelease (#215) @MattKiazyk\r\n* Added support to immediately delete Xcode and its XIPs (#211) @juanjonol\r\n* Added `no-superuser` flag (#207) @juanjonol\r\n\r\n## 🧰 Maintenance\r\n\r\n* Update Makefile - refactor swift-build option (#214) @ahmetgeymen\r\n* update unxip to the latest version (#209) @rpendleton\r\n* Fix broken unit tests due to new logs and Xcode version (#189) @tahirmt\r\n",
+    "createdAt" : "2022-09-18T10:06:17+09:00",
+    "fetchedFromAPIAt" : "2022-09-20T10:01:12+09:00",
+    "id" : "RE_kwDOCj_3JM4DqJT-",
+    "owner" : "RobotsAndPencils",
+    "publishedAt" : "2022-09-19T12:30:06+09:00",
+    "repository" : "xcodes",
+    "title" : "v1.0.0",
+    "url" : "https://github.com/RobotsAndPencils/xcodes/releases/tag/1.0.0",
+    "version" : "1.0.0"
   }
 ]
