@@ -82,5 +82,17 @@
     "title" : "0.50600.1",
     "url" : "https://github.com/apple/swift-format/releases/tag/0.50600.1",
     "version" : "0.50600.1"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.7.\r\n\r\nSignificant changes since the last release:\r\n\r\n*   The `AlwaysUseLowerCamelCase` rule no longer emits a warning for `override` declarations. (0e705f43b1b265c510b39b22d6eadcc1463f85a2)\r\n*   The `UseWhereClausesInForLoops` rule won't hoist an `if` condition into a `where` clause if it also has an `else` block. (793d764d628bd16222f18e0678edbc28a93057b9)\r\n*   `#if` postfix expressions now have improved formatting. (7216a18c7967fad06bae9211e0ee710fa9b788f7)\r\n*   Files will not be overwritten if they are not changed during formatting, preserving their modification time and other metadata. (3b2b9b4349247927e2ae2d09169f6ad267977299)",
+    "createdAt" : "2022-09-21T01:07:43+09:00",
+    "fetchedFromAPIAt" : "2022-09-21T10:02:33+09:00",
+    "id" : "RE_kwDOC7ABTs4EoUJK",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-21T01:12:48+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50700.0",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50700.0",
+    "version" : "0.50700.0"
   }
 ]

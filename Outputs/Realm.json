@@ -382,5 +382,17 @@
     "title" : "v10.29.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.29.0",
     "version" : "v10.29.0"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n* Incoming links from `RealmAny` properties were not handled correctly when migrating an object type from top-level to embedded. `RealmAny` properties currently cannot link to embedded objects. ([Core #5796](https://github.com/realm/realm-core/pull/5796), since 10.8.0).\r\n* `Realm.refresh()` sometimes did not actually advance to the latest version. It attempted to be semi-non-blocking in a very confusing way which resulted in it sometimes advancing to a newer version that is not the latest version, and sometimes blocking until notifiers are ready so that it could advance to the latest version. This behavior was undocumented and didn't work correctly, so it now always blocks if needed to advance to the latest version. ([#7625](https://github.com/realm/realm-swift/issues/7625), since v0.98.0).\r\n* Fix the most common cause of thread priority inversions when performing writes on the main thread. If beginning the write transaction has to wait for the background notification calculations to complete, that wait is now done in a QoS-aware way. ([#7902](https://github.com/realm/realm-swift/issues/7902))\r\n* Subscribing to link properties in a flexible sync Realm did not work due to a mismatch between what the client sent and what the server needed. ([Core #5409](https://github.com/realm/realm-core/issues/5409))\r\n* Attempting to use `AsymmetricObject` with partition-based sync now reports a sensible error much earlier in the process. Asymmetric sync requires using flexible sync. ([Core #5691](https://github.com/realm/realm-core/issues/5691), since 10.29.0).\r\n* Case-insensitive but diacritic-sensitive queries would crash on 4-byte UTF-8 characters ([Core #5825](https://github.com/realm/realm-core/issues/5825), since v2.2.0)\r\n* Accented characters are now handled by case-insensitive but diacritic-sensitive queries. ([Core #5825](https://github.com/realm/realm-core/issues/5825), since v2.2.0)\r\n\r\n### Breaking Changes\r\n\r\n* `-[RLMASLoginDelegate authenticationDidCompleteWithError:]` has been renamed to `-[RLMASLoginDelegate authenticationDidFailWithError:]` to comply with new app store requirements. This only effects the obj-c API. ([#7945](https://github.com/realm/realm-swift/issues/7945))\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 11.0.0 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 13.4.1.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 13.1 - 14.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 12.6.0 to 12.7.0\r\n",
+    "createdAt" : "2022-09-21T06:03:34+09:00",
+    "fetchedFromAPIAt" : "2022-09-21T10:02:34+09:00",
+    "id" : "RE_kwDOAD24W84EoaQs",
+    "owner" : "realm",
+    "publishedAt" : "2022-09-21T06:09:29+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.30.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.30.0",
+    "version" : "v10.30.0"
   }
 ]

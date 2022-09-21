@@ -418,5 +418,17 @@
     "title" : "3.22.5: swift-argument-parser 1.0.3 for official Homebrew support",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.22.5",
     "version" : "3.22.5"
+  },
+  {
+    "body" : "## What's Changed\r\n* Prefer the Homebrew official formula by @umireon in https://github.com/mono0926/LicensePlist/pull/199\r\n* Mention LICENSE_PLIST_GITHUB_TOKEN in README.md by @acevif in https://github.com/mono0926/LicensePlist/pull/200\r\n* Add --no-color, --color and --verbose command line options by @acevif in https://github.com/mono0926/LicensePlist/pull/201\r\n\r\n## New Contributors\r\n* @acevif made their first contribution in https://github.com/mono0926/LicensePlist/pull/200\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.23.0...3.23.3",
+    "createdAt" : "2022-09-20T15:12:19+09:00",
+    "fetchedFromAPIAt" : "2022-09-21T10:02:34+09:00",
+    "id" : "RE_kwDOBVhcvM4EoFaP",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-09-20T15:13:02+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.23.3: Add --no-color, --color and --verbose command line options, etc.",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.23.3",
+    "version" : "3.23.3"
   }
 ]

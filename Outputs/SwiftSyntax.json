@@ -34,5 +34,17 @@
     "title" : "0.50600.1",
     "url" : "https://github.com/apple/swift-syntax/releases/tag/0.50600.1",
     "version" : "0.50600.1"
+  },
+  {
+    "body" : "This is the 0.50700.0 release of SwiftSyntax that vends the parser library (`_InternalSwiftSyntaxParser.dylib`) as a binary framework dependency on macOS.\r\n\r\nTo use this snapshot add the following dependency to your Package.swift:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", branch: \"0.50700.0\")\r\n```\r\n\r\nOr, if using a swift-tools-version ≤ 5.4:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", .branch(\"0.50700.0\"))\r\n```\r\n",
+    "createdAt" : "2022-09-20T19:36:19+09:00",
+    "fetchedFromAPIAt" : "2022-09-21T10:02:33+09:00",
+    "id" : "RE_kwDOCIc4qs4EoLX-",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-20T19:42:29+09:00",
+    "repository" : "swift-syntax",
+    "title" : "0.50700.0",
+    "url" : "https://github.com/apple/swift-syntax/releases/tag/0.50700.0",
+    "version" : "0.50700.0"
   }
 ]
