@@ -418,5 +418,17 @@
     "title" : "2.210.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.210.0",
     "version" : "2.210.0"
+  },
+  {
+    "body" : "* [pilot][deliver] Fix how to encode base64 p8 key on deliver and pilot (#20669) via freddi(Yuki Aki) (@freddi-kit)",
+    "createdAt" : "2022-09-21T23:09:58+09:00",
+    "fetchedFromAPIAt" : "2022-09-22T09:59:08+09:00",
+    "id" : "RE_kwDOAaK_F84EotGb",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-09-21T23:23:11+09:00",
+    "repository" : "fastlane",
+    "title" : "2.210.1 Hotfix for deliver and pilot",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.210.1",
+    "version" : "2.210.1"
   }
 ]
