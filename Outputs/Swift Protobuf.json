@@ -394,5 +394,17 @@
     "title" : "1.20.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.20.0",
     "version" : "1.20.0"
+  },
+  {
+    "body" : "* Minor Updates\r\n  * For protoc generator authors (swift-grpc), bring over some descriptor improvements to aid migration. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1291\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.20.1...1.20.2",
+    "createdAt" : "2022-09-24T01:26:54+09:00",
+    "fetchedFromAPIAt" : "2022-09-24T10:03:07+09:00",
+    "id" : "RE_kwDOBAEMEM4EpkVI",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-24T01:30:59+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.20.2 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.20.2",
+    "version" : "1.20.2"
   }
 ]
