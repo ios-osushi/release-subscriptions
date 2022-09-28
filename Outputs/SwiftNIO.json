@@ -394,5 +394,41 @@
     "title" : "SwiftNIO 2.41.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.41.0",
     "version" : "2.41.0"
+  },
+  {
+    "body" : "### Security\r\n\r\n- This update fixes CVE-2022-3215: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') . For more details please see [the security advisory](https://github.com/apple/swift-nio/security/advisories/GHSA-7fj7-39wj-c64f). Please update to 2.42.0 if possible, otherwise update to 2.39.1 as rapidly as possible.",
+    "createdAt" : "2022-09-27T21:09:52+09:00",
+    "fetchedFromAPIAt" : "2022-09-28T10:04:26+09:00",
+    "id" : "RE_kwDOBy6rG84Eqo51",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-27T21:24:01+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.39.1",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.39.1",
+    "version" : "2.39.1"
+  },
+  {
+    "body" : "### Security\r\n\r\n- This update fixes CVE-2022-3215: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') . For more details please see [the security advisory](https://github.com/apple/swift-nio/security/advisories/GHSA-7fj7-39wj-c64f). Please update to 2.42.0 if possible, otherwise update to 2.39.1, otherwise update to 2.29.1 as rapidly as possible.",
+    "createdAt" : "2022-09-27T21:09:52+09:00",
+    "fetchedFromAPIAt" : "2022-09-28T10:04:26+09:00",
+    "id" : "RE_kwDOBy6rG84Eqo8T",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-27T21:24:23+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.29.1",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.29.1",
+    "version" : "2.29.1"
+  },
+  {
+    "body" : "### Security\r\n\r\n- This update fixes CVE-2022-3215: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') . For more details please see [the security advisory](https://github.com/apple/swift-nio/security/advisories/GHSA-7fj7-39wj-c64f). Please update to 2.42.0 as rapidly as possible.\r\n\r\n### SemVer Minor\r\n\r\n- Implement a back-pressure aware `AsyncSequence` source (#2230)\r\n- Add throwing version of `NIOAsyncSequenceProducer` (#2237)\r\n- Conform `NIOTooManyBytesError` to `Hashable` (#2246)\r\n- Functions passed to non-`Sendable` `ChannelHandler`s do not need to conform to `Sendable` (#2249)\r\n- Implement a `NIOAsyncWriter` (#2251)\r\n- Add EventLoopFuture.makeCompletedFuture(withResultOf:) (#2253)\r\n- HTTPResponseStatus should print code and reason (#2257)\r\n- Provide NIOAsyncTestingChannel (#2238)\r\n- NIOConcurrency: add NIOLockedValueBox (#2265)\r\n- rename class Lock to struct NIOLock (#2266)\r\n\r\n### SemVer Patch\r\n\r\n- Small changes for the `NIOAsyncSequenceProducer` (#2254)\r\n- Call finish once the Source is deinited (#2258)\r\n- Add availability requirements to NIOAsyncSequenceProducer extension (#2236)\r\n- Update HTTP parser to LLHTTP (#2263)\r\n- Add support for newer LLHTTP status codes (#2269)\r\n\r\n### Other Changes\r\n\r\n- Define `Array` element type explicitly to fix nightly CI (#2250)\r\n- Fix typo in the name of a constant (#2262, patch credit to @heldersrvio)\r\n- Fixup docs for the `NIOAsyncWriter` (#2271)\r\n- initial adoption of DocC based documentaiton (#2235)\r\n- Update soundness.sh (#2240)\r\n- Validate missing imports in CI (#2245)\r\n- Widen the tolerance on testSystemCallWrapperPerformance in debug mode (#2259)\r\n- helpful error message when compiling without test discovery on >= 5.5 (#2264)\r\n- address additional NIOLockedValueBox review comments (#2270)",
+    "createdAt" : "2022-09-27T21:09:52+09:00",
+    "fetchedFromAPIAt" : "2022-09-28T10:04:26+09:00",
+    "id" : "RE_kwDOBy6rG84Eqoly",
+    "owner" : "apple",
+    "publishedAt" : "2022-09-27T21:18:52+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.42.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.42.0",
+    "version" : "2.42.0"
   }
 ]
