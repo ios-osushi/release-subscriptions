@@ -430,5 +430,17 @@
     "title" : "3.23.3: Add --no-color, --color and --verbose command line options, etc.",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.23.3",
     "version" : "3.23.3"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix no name bug with trailing slash in URL by @acevif in https://github.com/mono0926/LicensePlist/pull/202\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.23.3...3.23.4",
+    "createdAt" : "2022-09-28T16:24:50+09:00",
+    "fetchedFromAPIAt" : "2022-09-29T10:09:29+09:00",
+    "id" : "RE_kwDOBVhcvM4ErGKy",
+    "owner" : "mono0926",
+    "publishedAt" : "2022-09-28T16:26:23+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.23.4: Fix no name bug with trailing slash in URL",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.23.4",
+    "version" : "3.23.4"
   }
 ]
