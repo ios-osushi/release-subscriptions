@@ -334,5 +334,17 @@
     "title" : "0.17.0",
     "url" : "https://github.com/yonaskolb/Mint/releases/tag/0.17.0",
     "version" : "0.17.0"
+  },
+  {
+    "body" : "#### Fixed\r\n- Fix dependencies like bundles and dylibs not getting copied, which fixes some packages like `apple/swift-format` and `swiftgen/swiftgen` [#248](https://github.com/yonaskolb/Mint/pull/248) @fummicc1\r\n> Run `mint install --force {package}` to fix already installed packages",
+    "createdAt" : "2022-09-29T11:21:26+09:00",
+    "fetchedFromAPIAt" : "2022-09-30T10:22:05+09:00",
+    "id" : "RE_kwDOBkFB884Eri_6",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2022-09-29T12:26:31+09:00",
+    "repository" : "Mint",
+    "title" : "0.17.2",
+    "url" : "https://github.com/yonaskolb/Mint/releases/tag/0.17.2",
+    "version" : "0.17.2"
   }
 ]
