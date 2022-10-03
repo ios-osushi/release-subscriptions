@@ -358,5 +358,17 @@
     "title" : "5.3.0",
     "url" : "https://github.com/ishkawa/APIKit/releases/tag/5.3.0",
     "version" : "5.3.0"
+  },
+  {
+    "body" : "- Fix deprecated `class` keyword #297 \r\n- Added default implementation of `response(from:urlResponse:)` when Response is Void #304 \r\n- Drop support for swift 5.3 and below #303 \r\n- Support Swift Concurrency #306",
+    "createdAt" : "2022-10-02T15:55:46+09:00",
+    "fetchedFromAPIAt" : "2022-10-03T10:00:14+09:00",
+    "id" : "RE_kwDOAdiJ5c4Eshj9",
+    "owner" : "ishkawa",
+    "publishedAt" : "2022-10-02T16:09:43+09:00",
+    "repository" : "APIKit",
+    "title" : "5.4.0",
+    "url" : "https://github.com/ishkawa/APIKit/releases/tag/5.4.0",
+    "version" : "5.4.0"
   }
 ]

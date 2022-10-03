@@ -490,5 +490,17 @@
     "title" : "1.0.0 Release Candidate #1",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0-rc.1",
     "version" : "1.0.0-rc.1"
+  },
+  {
+    "body" : "**This is the first major version release of Apollo iOS! The primary goal of Apollo iOS 1.0 is to stabilize the API of the model layer and provide a foundation for future feature additions and evolution of the library.**\r\n\r\nIn a nutshell, v1.0.0 brings:\r\n* A new code generation engine built entirely in Swift\r\n* Improvements to the generated models\r\n* Syntax and performance improvements across the entire library\r\n\r\nThere is [documentation](https://www.apollographql.com/docs/ios) and a blog post coming soon. Feel free to ask questions by either [opening an issue on our GitHub repo](https://github.com/apollographql/apollo-ios/issues), or [joining the community](https://community.apollographql.com/tags/c/help/6/mobile).\r\n\r\nThank you to all contributors who have helped us get to this first major release! ❤️",
+    "createdAt" : "2022-10-02T13:20:49+09:00",
+    "fetchedFromAPIAt" : "2022-10-03T10:00:14+09:00",
+    "id" : "RE_kwDOA9NCTc4Esg_d",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-10-02T13:24:18+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.0.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0",
+    "version" : "1.0.0"
   }
 ]
