@@ -502,5 +502,17 @@
     "title" : "0.50.0",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.0",
     "version" : "0.50.0"
+  },
+  {
+    "body" : "- Fixed bug in `opaqueGenericParameters` where type constraint depended on another type parameter\r\n- Fixed crash in `opaqueGenericParameters` rule where type constraint contained closure type\r\n- Fixed bug where `opaqueGenericParameters` broke variadic parameter expressions\r\n- Fixed several bugs in `wrapSingleLineComments` rule\r\n- Fixed crash in `andOperator` rule",
+    "createdAt" : "2022-10-06T07:59:33+09:00",
+    "fetchedFromAPIAt" : "2022-10-06T10:03:41+09:00",
+    "id" : "RE_kwDOA_OyXc4EtxzW",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-10-06T08:14:11+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.1",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.1",
+    "version" : "0.50.1"
   }
 ]
