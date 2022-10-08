@@ -406,5 +406,17 @@
     "title" : "3.4.3",
     "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.4.3",
     "version" : "3.4.3"
+  },
+  {
+    "body" : "> **Note**: Lottie 3.4.0 added a new rendering engine powered by Core Animation. Please try it out and let us know if you encounter any issues! It will be enabled by default in Lottie 4.0, which we plan on releasing later this month. More information is available in this announcement: https://github.com/airbnb/lottie-ios/discussions/1627\r\n\r\n## What's Changed\r\n* Updated Main Thread rendering engine to use `warn` (`print`) instead of `assertionFailure` when detecting unsupported usage of repeaters (https://github.com/airbnb/lottie-ios/pull/1754)\r\n* Fixed issue where manually-interpolated shape animations would ignore time remapping (https://github.com/airbnb/lottie-ios/pull/1757)\r\n* Added marker duration support (https://github.com/airbnb/lottie-ios/pull/1749)\r\n* Updated `animationDidSet` to be `open` (https://github.com/airbnb/lottie-ios/pull/1746)\r\n* Updated `AnimatedSwitch` and `AnimatedButton` to allow overrides of begin/end tracking in subclasses (https://github.com/airbnb/lottie-ios/pull/1747)\r\n* Added `animateUpdateWhenChangingAnimation` flag to `AnimatedControl` (https://github.com/airbnb/lottie-ios/pull/1750)",
+    "createdAt" : "2022-10-08T06:06:24+09:00",
+    "fetchedFromAPIAt" : "2022-10-08T09:58:09+09:00",
+    "id" : "RE_kwDOBC8liM4Euj1Z",
+    "owner" : "airbnb",
+    "publishedAt" : "2022-10-08T06:32:32+09:00",
+    "repository" : "lottie-ios",
+    "title" : "3.4.4",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.4.4",
+    "version" : "3.4.4"
   }
 ]

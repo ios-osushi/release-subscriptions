@@ -442,5 +442,17 @@
     "title" : "SwiftNIO 2.43.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.43.0",
     "version" : "2.43.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Ensure fatalError for the NIOAsyncSequenceProducer when finished (#2282)\r\n- Get NIO compiling with GM Xcode (#2284)",
+    "createdAt" : "2022-10-07T19:42:34+09:00",
+    "fetchedFromAPIAt" : "2022-10-08T09:58:09+09:00",
+    "id" : "RE_kwDOBy6rG84EuVvD",
+    "owner" : "apple",
+    "publishedAt" : "2022-10-07T19:48:46+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.43.1",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.43.1",
+    "version" : "2.43.1"
   }
 ]
