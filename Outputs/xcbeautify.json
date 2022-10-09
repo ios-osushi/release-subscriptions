@@ -382,5 +382,17 @@
     "title" : "0.14.0",
     "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.14.0",
     "version" : "0.14.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Support parsing name and unitname for measurements by @Cyberbeni in https://github.com/tuist/xcbeautify/pull/73\r\n* Add support for `xcodebuild` errors by @omarzl in https://github.com/tuist/xcbeautify/pull/80\r\n* Allow custom JUnit report output filename by @navartis in https://github.com/tuist/xcbeautify/pull/81\r\n\r\n## New Contributors\r\n* @navartis made their first contribution in https://github.com/tuist/xcbeautify/pull/81\r\n\r\n**Full Changelog**: https://github.com/tuist/xcbeautify/compare/0.14.0...0.15.0",
+    "createdAt" : "2022-10-08T21:25:51+09:00",
+    "fetchedFromAPIAt" : "2022-10-09T10:01:40+09:00",
+    "id" : "RE_kwDOCNUZc84Eupqz",
+    "owner" : "tuist",
+    "publishedAt" : "2022-10-08T21:26:04+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.15.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.15.0",
+    "version" : "0.15.0"
   }
 ]
