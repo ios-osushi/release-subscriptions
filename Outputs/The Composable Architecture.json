@@ -502,5 +502,29 @@
     "title" : "0.40.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.40.2",
     "version" : "0.40.2"
+  },
+  {
+    "body" : "## What's Changed\r\n* Update example to set badge to the unread count by @hyperspacemark in https://github.com/pointfreeco/swift-composable-architecture/pull/1391\r\n* Fix the CaseStudies (UIKit) by @Czajnikowski in https://github.com/pointfreeco/swift-composable-architecture/pull/1392\r\n* Fix warnings introduced in Xcode 14.1 by @stephencelis in https://github.com/pointfreeco/swift-composable-architecture/pull/1388\r\n* Clean up the recursive case study. by @mbrandonw in https://github.com/pointfreeco/swift-composable-architecture/pull/1403\r\n* Todos demo: fix sorting filtered todos by @stephencelis in https://github.com/pointfreeco/swift-composable-architecture/pull/1404\r\n* Fix task cancellation leak by @mbrandonw in https://github.com/pointfreeco/swift-composable-architecture/pull/1418\r\n* Check in `Package.resolved` by @stephencelis in https://github.com/pointfreeco/swift-composable-architecture/pull/1427\r\n* Fix Performance.md brackets by @ddanilyuk in https://github.com/pointfreeco/swift-composable-architecture/pull/1446\r\n* ReducerProtocol by @mbrandonw in https://github.com/pointfreeco/swift-composable-architecture/pull/1283\r\n\r\n## New Contributors\r\n* @hyperspacemark made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1391\r\n* @Czajnikowski made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1392\r\n* @ddanilyuk made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1446\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.40.2...0.41.0",
+    "createdAt" : "2022-10-11T00:37:50+09:00",
+    "fetchedFromAPIAt" : "2022-10-11T09:59:43+09:00",
+    "id" : "RE_kwDOD48kk84EvEG7",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-11T00:42:34+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.41.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.41.0",
+    "version" : "0.41.0"
+  },
+  {
+    "body" : "- Fixed: Xcode's SPM integration does not allow for unsafe build flags to be configured, even when empty, for version-based releases. We've removed the empty build flag settings to fix this.",
+    "createdAt" : "2022-10-11T01:05:46+09:00",
+    "fetchedFromAPIAt" : "2022-10-11T09:59:43+09:00",
+    "id" : "RE_kwDOD48kk84EvEwi",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-11T01:09:08+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.41.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.41.2",
+    "version" : "0.41.2"
   }
 ]

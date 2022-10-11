@@ -418,5 +418,17 @@
     "title" : "3.4.4",
     "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.4.4",
     "version" : "3.4.4"
+  },
+  {
+    "body" : "> **Note**: Lottie 3.4.0 added a new rendering engine powered by Core Animation. Please try it out and let us know if you encounter any issues! It will be enabled by default in Lottie 4.0, which we plan on releasing later this month. More information is available in this announcement: https://github.com/airbnb/lottie-ios/discussions/1627\r\n\r\n### Lottie 3.5.0\r\n\r\nThis version renames several public types, to resolve conflicts with types in Apple frameworks (https://github.com/airbnb/lottie-ios/issues/1420):\r\n - `Lottie.Animation` has been renamed to `LottieAnimation`, to resolve a conflict with [`SwiftUI.Animation`](https://developer.apple.com/documentation/swiftui/animation)\r\n - `Lottie.Color` has been renamed to `LottieColor`, to resolve a conflict with [`SwiftUI.Color`](https://developer.apple.com/documentation/swiftui/color)\r\n - `Lottie.Vector3D` has been renamed to `LottieVector3D`, to resolve a conflict with [`Spatial.Vector3D`](https://developer.apple.com/documentation/spatial/vector3d?changes=latest_major)\r\n\r\nFor consistency with these new names, we have also renamed the following public types:\r\n - `Lottie.AnimationView` has been renamed to `LottieAnimationView`\r\n - `Lottie.Vector1D` has been renamed to `LottieVector1D`\r\n - `Lottie.Vector2D` has been renamed to `LottieVector2D`.\r\n\r\nFor backwards compatibility Lottie 3.5.0 includes `typealias`es for the old names, which map to the new names. These `typealias`es are marked as deprecated and include fix-its to update call-sites to the new name.\r\n\r\n### Lottie 4.0\r\n\r\nWe plan on releasing **Lottie 4.0** in the next few weeks. In Lottie 4.0 we will remove the compatibility typealiases (for `Animation`, `AnimationView`, `Color`, etc) , so code using the old names will no longer compile. This will resolve the naming conflicts with SwiftUI types. Consider updating to Lottie 3.5.0 first, applying the fix-its recommended by the deprecation warnings, and then update to Lottie 4.0 once it is released (Lottie 4.0 will no longer include deprecation warnings with fix-its). Thank you for bearing with us through this transition process!\r\n\r\nLottie 4.0 will also make the new Core Animation rendering engine ([added in Lottie 3.4.0](https://github.com/airbnb/lottie-ios/discussions/1627)) the default rendering engine option. As mentioned above, please try out the new rendering engine if you haven't yet and let us know if you encounter any issues! We've been hard at work fixing issues reported by the community.",
+    "createdAt" : "2022-10-11T08:45:04+09:00",
+    "fetchedFromAPIAt" : "2022-10-11T09:59:43+09:00",
+    "id" : "RE_kwDOBC8liM4EvL4r",
+    "owner" : "airbnb",
+    "publishedAt" : "2022-10-11T09:08:24+09:00",
+    "repository" : "lottie-ios",
+    "title" : "3.5.0",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/3.5.0",
+    "version" : "3.5.0"
   }
 ]

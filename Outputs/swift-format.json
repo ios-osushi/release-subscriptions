@@ -94,5 +94,17 @@
     "title" : "0.50700.0",
     "url" : "https://github.com/apple/swift-format/releases/tag/0.50700.0",
     "version" : "0.50700.0"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.7.\r\n\r\nThis update pins the swift-syntax dependency to at least 0.50700.1, which fixes an issue where new `if let` shorthand syntax was not recognized.\r\n",
+    "createdAt" : "2022-10-11T00:22:35+09:00",
+    "fetchedFromAPIAt" : "2022-10-11T09:59:43+09:00",
+    "id" : "RE_kwDOC7ABTs4EvDG_",
+    "owner" : "apple",
+    "publishedAt" : "2022-10-11T00:24:07+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50700.1",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50700.1",
+    "version" : "0.50700.1"
   }
 ]
