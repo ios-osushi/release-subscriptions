@@ -514,5 +514,17 @@
     "title" : "0.50.1",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.1",
     "version" : "0.50.1"
+  },
+  {
+    "body" : "- Fixed `redundantImports` dropping `@_implementationOnly` or `@_exported` annotations\r\n- Fixed `blankLineAfterImports` bug affecting `@_implementationOnly` or `@_exported` imports\r\n- Fixed case where regex literals were incorrectly interpreted as division operators\r\n- Fixed bug with `genericExtensions` and nested generics\r\n- Fixed crash in `opaqueGenericParameters` rule",
+    "createdAt" : "2022-10-13T06:20:08+09:00",
+    "fetchedFromAPIAt" : "2022-10-13T10:04:40+09:00",
+    "id" : "RE_kwDOA_OyXc4Ev_44",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-10-13T06:12:59+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.2",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.2",
+    "version" : "0.50.2"
   }
 ]

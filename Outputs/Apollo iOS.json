@@ -502,5 +502,17 @@
     "title" : "1.0.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.0",
     "version" : "1.0.0"
+  },
+  {
+    "body" : "### Fixes\r\n* **Fixed - apollo-ios-cli code generation on CocoaPods installation:** All required resources for the CLI are now bundled correctly. This was an issue in CocoaPods installations where the `generate` command of `apollo-ios-cli` would result in a fatal error. [#2548](https://github.com/apollographql/apollo-ios/pull/2548) _Thank you to [@ilockett](https://github.com/ilockett) for reporting the issue._\r\n* **Fixed - Xcode integration for Swift Package Plugins:** The SwiftPM plugins now support `XcodePluginContext` from Xcode 14 and accepts the additional command line options that Xcode sends. [#2554](https://github.com/apollographql/apollo-ios/pull/2554) _Thank you to [@SilverTab](https://github.com/SilverTab) for reporting the issue._\r\n* **Fixed - Escaping input param names:** Input parameter names recognized as reserved words are now escaped to prevent build errors. [#2561](https://github.com/apollographql/apollo-ios/pull/2561) _Thank you to [@puls](https://github.com/puls) for the contribution._\r\n* **Fixed - Multiline deprecation messages:** Deprecation messages that span multiple lines would previously result in build errors. [#2579](https://github.com/apollographql/apollo-ios/pull/2579) _Thank you to [@TizianoCoroneo](https://github.com/TizianoCoroneo) for the contribution._\r\n\r\n### Changes\r\n* **Changed - Warnings for deprecated enums:** Deprecated enum cases are no longer annotated with the Swift `@available` attribute. They will now have comments indicating their deprecated status. [#2579](https://github.com/apollographql/apollo-ios/pull/2579)",
+    "createdAt" : "2022-10-13T07:24:09+09:00",
+    "fetchedFromAPIAt" : "2022-10-13T10:04:40+09:00",
+    "id" : "RE_kwDOA9NCTc4EwBL0",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-10-13T07:26:17+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.0.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.1",
+    "version" : "1.0.1"
   }
 ]
