@@ -538,5 +538,17 @@
     "title" : "0.42.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.42.0",
     "version" : "0.42.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Requirement Change: Swift 5.6 is now required as of the release of the `ReducerProtocol` (#1491); we'd love to support Swift 5.5 still, but need help from the community: #1494.\r\n* Deprecation/Rename: The `Reducer` type alias is now hard-deprecated to be renamed to `AnyReducer` to help call out reducers that should be migrated (#1478). The `ReducerProtocol` will be renamed to `Reducer` in the future and this hard deprecation makes room for it.\r\n* Deprecation/Rename: The `Effect` type has been renamed to a soft-deprecated `EffectPublisher` type, both generic over `Action` and `Failure`, while a temporary `EffectTask` type alias has been introduced as a replacement that is only generic over `Action` (#1471). This rename is in preparation for breaking changes in a forthcoming 1.0 release, where the `EffectTask` will become `Effect`, and will only be generic over `Action`.\r\n* Change: Some interfaces that previously required escaping closures no longer require them (#1493; thanks @tgrapperon , #1513).\r\n* Bug fix: `ReducerProtocol.transformDependency` is now properly fused with upstream calls to `ReducerProtocol.dependency` and `ReducerProtocol.transformDependency` (#1495).\r\n* Bug fix: `ViewStore.yield(while:)` is now performed on the main actor (#1517).\r\n* Infrastructure: Documentation fixes (thanks @luoxiu, #1470; @qmoya, #1473; @Jager-yoo, #1475, #1490; @gohanlon, #1482; @GREENOVER, #1483; @yimajo, #1484, #1485; @roeybiran, #1479; @tgrapperon, #1509; @ts, #1504; @sillygoose, #1507; #1523); demo fixes (thanks @tgrapperon, #1492; @Jager-yoo, #1503); new benchmark for view stores (#1518).\r\n\r\n## New Contributors\r\n\r\n* @luoxiu made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1470\r\n* @qmoya made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1473\r\n* @gohanlon made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1482\r\n* @GREENOVER made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1483\r\n* @roeybiran made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1479\r\n* @ts made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1504\r\n* @sillygoose made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1507\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.42.0...0.43.0",
+    "createdAt" : "2022-10-18T10:10:14+09:00",
+    "fetchedFromAPIAt" : "2022-10-19T10:07:52+09:00",
+    "id" : "RE_kwDOD48kk84Exxqk",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-18T13:00:26+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.43.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.43.0",
+    "version" : "0.43.0"
   }
 ]
