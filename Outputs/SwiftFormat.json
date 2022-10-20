@@ -526,5 +526,17 @@
     "title" : "0.50.2",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.2",
     "version" : "0.50.2"
+  },
+  {
+    "body" : "- Fixed bug where `redundantFileprivate` rule could break Array extensions using type sugar\r\n- Fixed bug and crash in `wrapSingleLineComments` rule relating to long URLs\r\n- Improved `wrapSingleLineComments` handling of comments containing long URLs\r\n- The `opaqueGenericParameters` rule is now correctly applied to initializers and subscripts\r\n- Added some known issues for `opaqueGenericParameters` and `genericExtensions` to README",
+    "createdAt" : "2022-10-20T00:08:28+09:00",
+    "fetchedFromAPIAt" : "2022-10-20T10:02:41+09:00",
+    "id" : "RE_kwDOA_OyXc4Eygoh",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-10-20T00:33:47+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.3",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.3",
+    "version" : "0.50.3"
   }
 ]
