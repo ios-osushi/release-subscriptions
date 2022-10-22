@@ -514,5 +514,17 @@
     "title" : "1.0.1",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.1",
     "version" : "1.0.1"
+  },
+  {
+    "body" : "- **Fixed - Not generating code for subtypes only used as input to mutations:** If you are using a JSON format schema that was fetched via GraphQL introspection code generation will now generate all referenced subtypes. [#2583](https://github.com/apollographql/apollo-ios/pull/2583) _Thank you to [@vrutberg](https://github.com/vrutberg) for reporting the issue._\r\n- **Fixed - When using the test mock, touching a `GraphQLEnum` property will cause a crash:** JSON Encoding the mocks into the `SelectionSet.DataDict` was causing `CustomScalar` values to get encoded into their JSON values. The mock data is now converted into the correct format for the `SelectionSet.DataDict`. [#2584](https://github.com/apollographql/apollo-ios/pull/2584) _Thank you to [@asapo](https://github.com/asapo) for reporting the issue._\r\n- **Fixed - Add namespace for ApolloAPI types in generated code:** The Apollo `DocumentType` enum is now correctly namespaced in generated code. [#2585](https://github.com/apollographql/apollo-ios/pull/2585) _Thank you to [@matijakregarGH](https://github.com/matijakregarGH) for reporting the issue._\r\n- **Fixed - Problems with schema name in generated code:**\r\n  - Schema name is now correctly cased for generated code namespacing. [#2586](https://github.com/apollographql/apollo-ios/pull/2586) _Thank you to [@pchmelar](https://github.com/pchmelar) for reporting the issue._\r\n  - The schema name is now not allowed to match any referenced schema type, entity field, or entity list field names. [#2589](https://github.com/apollographql/apollo-ios/pull/2589)\r\n- **Fixed - Test mocks crash when touching array of objects:** Test mock list of objects is now correctly converted into selection set data. [#2591](https://github.com/apollographql/apollo-ios/pull/2591) _Thank you to [@konomae](https://github.com/konomae) for reporting the issue._\r\n- **Fixed: `GraphQLNullable` nil coalescing:** `@exported import` statements now ensure that the operator overload is imported when using the generated models. [#2600](https://github.com/apollographql/apollo-ios/pull/2600) _Thank you to bassrock for reporting the issue._",
+    "createdAt" : "2022-10-22T09:01:29+09:00",
+    "fetchedFromAPIAt" : "2022-10-22T10:09:36+09:00",
+    "id" : "RE_kwDOA9NCTc4Ezx17",
+    "owner" : "apollographql",
+    "publishedAt" : "2022-10-22T09:06:41+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.0.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.0.2",
+    "version" : "1.0.2"
   }
 ]
