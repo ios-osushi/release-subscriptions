@@ -574,5 +574,17 @@
     "title" : "Nuke 11.3.0",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.3.0",
     "version" : "11.3.0"
+  },
+  {
+    "body" : "## Fixes\r\n- Fix deprecated `withTaskCancellationHandler` usage - [#614](https://github.com/kean/Nuke/pull/614), thanks to [@swasta](https://github.com/swasta)\r\n- Fix xcodebuild & docc build issue on Xcode 14.0.1 - [#609](https://github.com/kean/Nuke/issues/609)\r\n\r\n## New Contributors\r\n* @swasta made their first contribution in https://github.com/kean/Nuke/pull/614\r\n",
+    "createdAt" : "2022-10-22T22:45:20+09:00",
+    "fetchedFromAPIAt" : "2022-10-23T10:05:32+09:00",
+    "id" : "RE_kwDOAeh5z84Ez2ga",
+    "owner" : "kean",
+    "publishedAt" : "2022-10-22T22:46:12+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.3.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.3.1",
+    "version" : "11.3.1"
   }
 ]
