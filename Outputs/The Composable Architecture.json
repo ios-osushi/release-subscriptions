@@ -372,6 +372,30 @@
     "version" : "0.34.0"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Added: Support for Swift 5.7's `Clock` protocol as a dependency via [swift-clocks](https://github.com/pointfreeco/swift-clocks) (https://github.com/pointfreeco/swift-composable-architecture/pull/1547).\r\n\r\n* Fixed: First access of a dependency vended from `DependencyKey` is now cached (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1510). This means that a dependency vended from a computed property, when stateful, is now maintained over time.\r\n\r\n    If you are using the `Dependencies` module outside of the Composable Architecture, make sure your tests fully reset `DependencyValues` when you first control them. For example:\r\n\r\n    ```swift\r\n    func testMyFeature() async throws {\r\n      try await DependencyValues.withValues { values in\r\n        values = DependencyValues() // reset \"values\"\r\n        values.context = .test // default \"values\" for testing\r\n        // further mutate \"values\" for this test\r\n      } operation: {\r\n        // make assertions\r\n      }\r\n    }\r\n    ```\r\n\r\n* Infrastructure: Improve the layout of `Web Socket` case study (thanks @Jager-yoo, https://github.com/pointfreeco/swift-composable-architecture/pull/1529); updated `XCTUnimplemented` calls to `unimplemented` (https://github.com/pointfreeco/swift-composable-architecture/pull/1530); removed unnecessary conformance to Sendable Protocol (thanks @inwoodev; https://github.com/pointfreeco/swift-composable-architecture/pull/1535); add a few missing tests (https://github.com/pointfreeco/swift-composable-architecture/pull/1539); remove redundant error type in ReusableFavoritingTests.swift (thanks @Jager-yoo, https://github.com/pointfreeco/swift-composable-architecture/pull/1538)\r\n\r\n## New Contributors\r\n\r\n* @inwoodev made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1535\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.43.0...0.44.0",
+    "createdAt" : "2022-10-24T14:37:09+09:00",
+    "fetchedFromAPIAt" : "2022-10-25T10:08:32+09:00",
+    "id" : "RE_kwDOD48kk84E0DwO",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-24T14:57:56+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.44.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.44.0",
+    "version" : "0.44.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Bumped [swift-clocks](https://github.com/pointfreeco/swift-clocks) to 0.1.4 to address platform compatibility issues (#1561).\r\n* Fixed: `Reducer` availability was not correctly deprecated in the previous release. This is now fixed (thanks @konomae, #1550).\r\n* Infrastructure: Update GitHub bug report template to ask if bug is reproducible in vanilla SwiftUI (#1555; thanks @gohanlon for finesse #1562).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.44.0...0.44.1",
+    "createdAt" : "2022-10-25T08:10:09+09:00",
+    "fetchedFromAPIAt" : "2022-10-25T10:08:32+09:00",
+    "id" : "RE_kwDOD48kk84E0c15",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-10-25T08:58:22+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.44.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.44.1",
+    "version" : "0.44.1"
+  },
+  {
     "body" : "- Added: `Effect.throttle` overloads that take `Any.Type` (thanks @elkraneo).\r\n- Added: `TestStore.state`, which reflects the state of the store between assertions. This property can be used to further probe test store state over time and make additional assertions.\r\n- Updated: `WithViewStore` can be in more places, like `@CommandsBuilder` (thanks @tgrapperon).\r\n- Fixed: `Effect.task` modifiers now deliver output and completion on the main actor, avoiding potential data races.\r\n- Documentation: Added support for [SPI documentation](https://blog.swiftpackageindex.com/posts/auto-generating-auto-hosting-and-auto-updating-docc-documentation/) (thanks @finestructure).\r\n- Infrastructure: typo fixes (thanks @konomae) and demo app cleanup.",
     "createdAt" : "2022-06-04T07:40:51+09:00",
     "fetchedFromAPIAt" : "2022-06-05T09:52:00+09:00",
