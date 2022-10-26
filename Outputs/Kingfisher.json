@@ -372,6 +372,18 @@
     "version" : "7.2.0"
   },
   {
+    "body" : "#### Fix\n* A rare crash from `_UIImageCGImageContent` when loading GIF files on iOS 15 or later. [#2004](https://github.com/onevcat/Kingfisher/pull/2004)\n* Now the dSYM symbols are contained inside the xcframework bundle instead of as standalone files. [#1998](https://github.com/onevcat/Kingfisher/pull/1998)\n* An issue that the processor is not applied to original image data when `DefaultCacheSerializer.preferCacheOriginalData` is set to `true`. [#1999](https://github.com/onevcat/Kingfisher/pull/1999)\n\n",
+    "createdAt" : "2022-10-26T00:50:19+09:00",
+    "fetchedFromAPIAt" : "2022-10-26T09:58:26+09:00",
+    "id" : "RE_kwDOAf70wM4E0x0R",
+    "owner" : "onevcat",
+    "publishedAt" : "2022-10-26T00:51:50+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.4.1 - Maple Days",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.4.1",
+    "version" : "7.4.1"
+  },
+  {
     "body" : "#### Fix\n* Now the URL based `AVAssetImageDataProvider` support tracking transform by default. This could solve some cases that the video thumbnail were not at correct orientation. [#1951](https://github.com/onevcat/Kingfisher/pull/1951) @sgarg4008\n* Use DocC as documentation generator and switch to [Swift Package Index as the host](https://swiftpackageindex.com/onevcat/Kingfisher/master/documentation/kingfisher). Big thanks to @daveverwer and all other fellows for the fantastic work!\n\n",
     "createdAt" : "2022-06-09T23:32:00+09:00",
     "fetchedFromAPIAt" : "2022-06-10T09:49:53+09:00",
