@@ -360,6 +360,18 @@
     "version" : "5.12.5"
   },
   {
+    "body" : "See [all tickets marked for the 5.13.4 release](https://github.com/SDWebImage/SDWebImage/milestone/103)\r\n\r\n### Fixes\r\n- Quick fix the issue that UIImage.sd_decodeOptions cause retain cycle when pass custom cache in context option #3420 #3371",
+    "createdAt" : "2022-10-29T21:34:41+09:00",
+    "fetchedFromAPIAt" : "2022-10-30T10:03:20+09:00",
+    "id" : "RE_kwDOAATIS84E2uYH",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2022-10-29T21:35:06+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.13.5 - 5.13 Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.13.5",
+    "version" : "5.13.5"
+  },
+  {
     "body" : "### Fixes\r\n- Fix the thumbnail pixel size calculation when preserveAspectRatio is true #3354\r\n- Fix macOS compile on Xcode 14 which missing necessary CoreImage import #3353\r\n- Fix a crash of accessing +[NSScreen mainScreen] from background thread on OSX 10.11. #3337\r\n\r\n### Performance\r\n- Small performance improvement to generating file URLs in SDDiskCache `-setData:forKey:` #3346",
     "createdAt" : "2022-06-12T19:30:33+09:00",
     "fetchedFromAPIAt" : "2022-06-13T09:51:28+09:00",
