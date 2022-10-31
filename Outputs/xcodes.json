@@ -298,5 +298,17 @@
     "title" : "v1.0.0",
     "url" : "https://github.com/RobotsAndPencils/xcodes/releases/tag/1.0.0",
     "version" : "1.0.0"
+  },
+  {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade robotsandpencils/made/xcodes`.\r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Add select option to install (#182) @tahirmt\r\n* Update the cached list of available Xcodes if it's more than 24 hours old (#226) @rpendleton\r\n* Add a command for listing available simulators (#223) @StevenMagdy\r\n* Add \"version\" argument to \"installed\" function, printing Xcode's installation path (#220) @rogerluan\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Exit immediately if trying to select currently selected xcode (#181) @tahirmt\r\n\r\n## 🧰 Maintenance\r\n\r\n* Use mocks when writing the cache file in unit tests (#227) @rpendleton\r\n* Add documentation for the `.xcode-version` file (#218) @rogerluan\r\n* Lint Markdown Files (#217) @rogerluan\r\n",
+    "createdAt" : "2022-10-30T12:11:50+09:00",
+    "fetchedFromAPIAt" : "2022-10-31T10:05:16+09:00",
+    "id" : "RE_kwDOCj_3JM4EriVH",
+    "owner" : "RobotsAndPencils",
+    "publishedAt" : "2022-10-30T12:29:11+09:00",
+    "repository" : "xcodes",
+    "title" : "1.1",
+    "url" : "https://github.com/RobotsAndPencils/xcodes/releases/tag/1.1.0",
+    "version" : "1.1.0"
   }
 ]
