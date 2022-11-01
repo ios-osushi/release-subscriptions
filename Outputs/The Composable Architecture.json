@@ -396,6 +396,18 @@
     "version" : "0.44.1"
   },
   {
+    "body" : "## What's Changed\r\n\r\n- Added: `TestStore.exhaustivity` (thanks @krzysztofzablocki for the inspiration, #1599).\r\n- Added: `UncheckedSendable` now conditionally conforms to `Equatable` (thanks @maxgoedjen), `Hashable`, `Encodable` and `Decodable`.\r\n- Fixed: Reducer builders would occasionally, incorrectly warn that a deprecated `buildFinalResult` was being invoked. All known instances of this warning have been eliminated, but if you find another, please let us know!\r\n- Fixed: Stores accessing dependencies in tests via `ReducerProtocol.dependency` should no longer erroneously report test failures (#1570)\r\n- Infrastructure: documentation fixes (thanks @tgrapperon, @onevcat); increased `@Dependency` test coverage.\r\n\r\n## New Contributors\r\n* @maxgoedjen made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1565\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.44.1...0.45.0",
+    "createdAt" : "2022-11-01T03:55:30+09:00",
+    "fetchedFromAPIAt" : "2022-11-01T10:08:41+09:00",
+    "id" : "RE_kwDOD48kk84E3OnE",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-11-01T03:56:23+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.45.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.45.0",
+    "version" : "0.45.0"
+  },
+  {
     "body" : "- Added: `Effect.throttle` overloads that take `Any.Type` (thanks @elkraneo).\r\n- Added: `TestStore.state`, which reflects the state of the store between assertions. This property can be used to further probe test store state over time and make additional assertions.\r\n- Updated: `WithViewStore` can be in more places, like `@CommandsBuilder` (thanks @tgrapperon).\r\n- Fixed: `Effect.task` modifiers now deliver output and completion on the main actor, avoiding potential data races.\r\n- Documentation: Added support for [SPI documentation](https://blog.swiftpackageindex.com/posts/auto-generating-auto-hosting-and-auto-updating-docc-documentation/) (thanks @finestructure).\r\n- Infrastructure: typo fixes (thanks @konomae) and demo app cleanup.",
     "createdAt" : "2022-06-04T07:40:51+09:00",
     "fetchedFromAPIAt" : "2022-06-05T09:52:00+09:00",
