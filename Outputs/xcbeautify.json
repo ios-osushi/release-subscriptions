@@ -360,6 +360,18 @@
     "version" : "0.12.0"
   },
   {
+    "body" : "## What's Changed\r\n* Add more tests by @MontakOleg in https://github.com/tuist/xcbeautify/pull/85\r\n* Update `JunitReporter` to parse parallel tests by @welshm in https://github.com/tuist/xcbeautify/pull/84\r\n* Speedup regex by reducing backtracking by @MontakOleg in https://github.com/tuist/xcbeautify/pull/86\r\n\r\n## New Contributors\r\n* @MontakOleg made their first contribution in https://github.com/tuist/xcbeautify/pull/85\r\n* @welshm made their first contribution in https://github.com/tuist/xcbeautify/pull/84\r\n\r\n**Full Changelog**: https://github.com/tuist/xcbeautify/compare/0.15.0...0.16.0",
+    "createdAt" : "2022-11-02T18:28:31+09:00",
+    "fetchedFromAPIAt" : "2022-11-03T09:57:30+09:00",
+    "id" : "RE_kwDOCNUZc84E3_vh",
+    "owner" : "tuist",
+    "publishedAt" : "2022-11-02T18:28:49+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.16.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.16.0",
+    "version" : "0.16.0"
+  },
+  {
     "body" : "",
     "createdAt" : "2022-05-27T19:37:00+09:00",
     "fetchedFromAPIAt" : "2022-05-28T09:46:51+09:00",

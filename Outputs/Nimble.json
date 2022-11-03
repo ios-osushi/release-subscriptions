@@ -382,5 +382,17 @@
     "title" : "v11.0.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v11.0.0",
     "version" : "v11.0.0"
+  },
+  {
+    "body" : "11.1.0 **drops support** for Swift 5.6 (you must use Xcode 14 or later). https://github.com/Quick/Nimble/pull/1009\r\n\r\n11.1.0 fixes a developer experience bug where you could unknowingly use the sync version of `toEventually` in an async context, which will cause test timeout failures. https://github.com/Quick/Nimble/pull/1010\r\n\r\nThat is, the following test method (XCTest-style) would compile with no errors or warnings emitted, but fail at test runtime due to timeout issues. In v11.1.0, this now emits a warning that you're using the wrong version of `toEventually` (and similar).\r\n\r\n```swift\r\n@MainActor func testSomething() async {\r\n    expect(1).toEventually(equal(1)) // (in v11.0.0, this would not emit any kind of warning or error, but would definitely fail with a timeout error)\r\n}\r\n```\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v11.0.0...v11.1.0",
+    "createdAt" : "2022-11-03T01:53:16+09:00",
+    "fetchedFromAPIAt" : "2022-11-03T09:57:30+09:00",
+    "id" : "RE_kwDOAUUIhc4E4OFZ",
+    "owner" : "Quick",
+    "publishedAt" : "2022-11-03T02:00:06+09:00",
+    "repository" : "Nimble",
+    "title" : "v11.1.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v11.1.0",
+    "version" : "v11.1.0"
   }
 ]

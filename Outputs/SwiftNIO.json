@@ -372,6 +372,18 @@
     "version" : "2.39.0"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- Add utilties for reading and writing UUIDs (#2045)\r\n- Implement additional file operation in NonBlockingFileIO (#2244)\r\n- Mark types explicitly non sendable (#2290)\r\n- Replace `NIOSendable` with `Sendable` (#2291)\r\n- Add create directory method (#2296)\r\n- Add support for removing channel options (#2297)\r\n- Move 5.7 beta APIs to NIOCore (#2300)\r\n- Make `NIOWebSocketServerUpgrader` `Sendable` (#2304)\r\n\r\n### SemVer Patch\r\n\r\n- Improve diagnostics for deprecated `Lock`. (#2285, patch credit to @ffried)\r\n- Add correct C directory function declarations for Android (#2302, patch credit to @buttaface)\r\n- Don't unconditionally remove the HTTPServerUpgradeHandler (#2303)\r\n\r\n### Other Changes\r\n\r\n- Improve `NIOAsyncSequenceProducer` docs (#2287)\r\n- Fix Nightly Build to work with new Swift versions (#2288)\r\n- Remove `#if compiler(>=5.5)` (#2292)\r\n- Clarify version support in README (#2293)\r\n- Add benchmarks for `NIOAsyncWriter` and `NIOAsyncSequenceProducer` (#2301)",
+    "createdAt" : "2022-10-31T22:25:28+09:00",
+    "fetchedFromAPIAt" : "2022-11-03T09:57:29+09:00",
+    "id" : "RE_kwDOBy6rG84E3ioB",
+    "owner" : "apple",
+    "publishedAt" : "2022-11-02T20:58:20+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.44.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.44.0",
+    "version" : "2.44.0"
+  },
+  {
     "body" : "### SemVer Patch\r\n\r\n- Fix compilation with Swift 5.5.0 and 5.5.1 (#2234)",
     "createdAt" : "2022-08-04T18:22:47+09:00",
     "fetchedFromAPIAt" : "2022-08-05T10:05:11+09:00",
