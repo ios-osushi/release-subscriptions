@@ -361,6 +361,18 @@
   },
   {
     "body" : "",
+    "createdAt" : "2022-11-01T14:30:46+09:00",
+    "fetchedFromAPIAt" : "2022-11-04T09:57:32+09:00",
+    "id" : "RE_kwDOAqwwJc4E40vc",
+    "owner" : "apple",
+    "publishedAt" : "2022-11-04T04:50:01+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.7.1 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.7.1-RELEASE",
+    "version" : "swift-5.7.1-RELEASE"
+  },
+  {
+    "body" : "",
     "createdAt" : "2022-06-02T14:26:31+09:00",
     "fetchedFromAPIAt" : "2022-06-21T09:49:46+09:00",
     "id" : "RE_kwDOAqwwJc4EKkdh",
