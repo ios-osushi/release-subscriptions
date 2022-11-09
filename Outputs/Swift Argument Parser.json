@@ -312,6 +312,18 @@
     "version" : "1.1.1"
   },
   {
+    "body" : "### Additions\r\n\r\n- You can now provide a title in an `@OptionGroup` declaration. Titled option groups are listed separately in the help screen under that title as a heading. (#492)\r\n- Two new parsing strategies have been added for `@Argument` array properties:\r\n\r\n  - `.allUnrecognized` captures all unrecognized inputs after parsing known flags, options, and arguments.\r\n  - `.postTerminator` collects any inputs that follow the `--` terminator.\r\n\r\n  See the [`ArgumentArrayParsingStrategy` documentation][arrayparse-docs] for more. (#496)\r\n- Default values are now supported for `@Argument` or `@Option` properties with optional type, allowing you to initialize those properties with `nil`. Providing a non-`nil` default value results in a warning, since optional properties with non-`nil` defaults don't need to be declared as optionals. (#477, #480)\r\n\r\n### Changes\r\n\r\n- The `.unconditionalRemaining` array parsing strategy has been deprecated and renamed to `.captureForPassthrough`, to better fit its semantic behavior and intended usage. See the [`ArgumentArrayParsingStrategy` documentation][arrayparse-docs] for more. (#496)\r\n\r\n### Fixes\r\n\r\n- Invalid `init(from:)` decoding initializers are now correctly diagnosed by ArgumentParser's validators. (#487)\r\n- Default values are now correctly displayed as flags for `@Flag` properties with inversions or `EnumerableFlag` types. (#486)\r\n- The help display for non-string-backed raw representable types has been corrected to not show raw Swift values. Instead, the help display uses the type's customized `defaultValueDescription` and `allValues` implementations. (#494)\r\n- Properties at different levels of a command hierarchy with the same Swift name but different argument names no longer collide. (#495)\r\n- The **`generate-manual`** plugin name is improved when used from within Xcode. (#505)\r\n- Documentation fixes and improvements.\r\n\r\nThe 1.2.0 release includes contributions from @allevato, @clayellis, @compnerd, @d-ronnqvist, @natecook1000, @randomeizer, and @rauhul. Thank you!\r\n\r\n[arrayparse-docs]: https://apple.github.io/swift-argument-parser/documentation/argumentparser/argumentarrayparsingstrategy\r\n",
+    "createdAt" : "2022-11-09T04:45:58+09:00",
+    "fetchedFromAPIAt" : "2022-11-09T09:54:53+09:00",
+    "id" : "RE_kwDODmuHYc4E6dcs",
+    "owner" : "apple",
+    "publishedAt" : "2022-11-09T04:47:21+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.2.0",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.0",
+    "version" : "1.2.0"
+  },
+  {
     "body" : "### Additions\r\n\r\n- `ArgumentParser` now includes a SwiftPM plugin for generating `man` pages. Explore the functionality and configuration by running `swift package plugin experimental-generate-manual --help` from your package root. (#332)\r\n\r\n### Fixes\r\n\r\n- Hidden subcommands are now excluded from completion scripts. (#443)\r\n- When an invalid value is provided for a `CaseIterable` type, the error message now includes a list of valid inputs. (#445)\r\n- There's now a diagnostic when an `AsyncParsableCommand` is incorrectly placed under a non-`async` root command. (#436)\r\n\r\nThe 1.1.3 release includes contributions from @keith, @KeithBird, @konomae, @LucianoPAlmeida, and @rauhul. Thank you!\r\n",
     "createdAt" : "2022-06-24T03:28:27+09:00",
     "fetchedFromAPIAt" : "2022-06-24T09:48:29+09:00",
