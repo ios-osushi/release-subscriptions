@@ -382,5 +382,17 @@
     "title" : "v6.0.0",
     "url" : "https://github.com/Quick/Quick/releases/tag/v6.0.0",
     "version" : "v6.0.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Force async in `fit`, `xit`, `pending` and `justBeforeEach` by @younata in https://github.com/Quick/Quick/pull/1183\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v6.0.0...v6.0.1",
+    "createdAt" : "2022-11-11T16:04:29+09:00",
+    "fetchedFromAPIAt" : "2022-11-12T09:54:01+09:00",
+    "id" : "RE_kwDOATjllM4E7ueU",
+    "owner" : "Quick",
+    "publishedAt" : "2022-11-11T16:07:09+09:00",
+    "repository" : "Quick",
+    "title" : "v6.0.1",
+    "url" : "https://github.com/Quick/Quick/releases/tag/v6.0.1",
+    "version" : "v6.0.1"
   }
 ]

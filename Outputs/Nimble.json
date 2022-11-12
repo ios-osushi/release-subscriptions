@@ -394,5 +394,17 @@
     "title" : "v11.1.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v11.1.0",
     "version" : "v11.1.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fix regression where named tuples could not be compared with unnamed tuples of the same types using the == operator by @younata in https://github.com/Quick/Nimble/pull/1017\r\n* Use uncached expression in the async versions of toEventually by @younata in https://github.com/Quick/Nimble/pull/1018\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v11.1.0...v11.1.1",
+    "createdAt" : "2022-11-11T15:53:31+09:00",
+    "fetchedFromAPIAt" : "2022-11-12T09:54:01+09:00",
+    "id" : "RE_kwDOAUUIhc4E7uXQ",
+    "owner" : "Quick",
+    "publishedAt" : "2022-11-11T15:56:48+09:00",
+    "repository" : "Nimble",
+    "title" : "v11.1.1",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v11.1.1",
+    "version" : "v11.1.1"
   }
 ]
