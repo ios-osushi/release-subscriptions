@@ -406,5 +406,17 @@
     "title" : "v11.1.1",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v11.1.1",
     "version" : "v11.1.1"
+  },
+  {
+    "body" : "Improved developer experience by allowing you to use the sync form of `expect` in a test that has other usage of async test. i.e. the following code compiles again:\r\n\r\n```swift\r\nclass MyTest: XCTestCase {\r\n    func testExample() {\r\n        await someAsyncFunction()\r\n        expect(someValue).to(equal(expectedValue))\r\n    }\r\n}\r\n```\r\n\r\n## What's Changed\r\n* Remove autoclosure tag with async expectations by @younata in https://github.com/Quick/Nimble/pull/1020\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v11.1.1...v11.2.0",
+    "createdAt" : "2022-11-12T10:36:40+09:00",
+    "fetchedFromAPIAt" : "2022-11-13T09:52:32+09:00",
+    "id" : "RE_kwDOAUUIhc4E8HNu",
+    "owner" : "Quick",
+    "publishedAt" : "2022-11-12T10:39:06+09:00",
+    "repository" : "Nimble",
+    "title" : "v11.2.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v11.2.0",
+    "version" : "v11.2.0"
   }
 ]

@@ -324,6 +324,18 @@
     "version" : "2.205.1"
   },
   {
+    "body" : "* [release] fix for more forgiving changelog generation for release (#20851) via Josh Holtz (@joshdholtz)\n* [match][sigh] add support for Apple Silicon Macs in iOS/iPadOS provisioning profiles (#20676) via Philipp Resch (@PinkidG)\n* [snapshot] fix compiler error on `SnapshotHelper.swift` (#20689) via amcalgates (@amcalgates)\n* [match] fix match nuke not deleting decrypted files (#20776) via Iulian Onofrei (@revolter)\n* [docs] update path to iTMSTransporter for Fastlane.swift (#20795) via Rafał Wyszomirski (@rafauke)\n* [action][update_code_signing_settings] add `sdk` key to update_code_signing_settings (#20655) via gabimoncha (@gabimoncha)\n* [pilot][deliver] fix private method clone' called for #<Hash> on uploading app  (#20662) via freddi(Yuki Aki) (@freddi-kit)\n* [spaceship] implement resolution center API in Spaceship::ConnectAPI (#20726) via Hiroto Nakamura (@Hiroto-N)\n* [action] add `xcodes` action, deprecating `xcversion` and `xcode-install` (#20672) via Roger Oba (@rogerluan)\n* [frameit] fix device detection that would match less specific devices first (#20642) via Guglielmo Faglioni (@guidev)\n* [deliver] add support to detecting and uploading 6.7\" (iPhone 14 Pro Max) screenshots (#20694) via Evgeny Cherpak (@cherpake)",
+    "createdAt" : "2022-11-13T07:15:16+09:00",
+    "fetchedFromAPIAt" : "2022-11-13T09:52:32+09:00",
+    "id" : "RE_kwDOAaK_F84E8NEF",
+    "owner" : "fastlane",
+    "publishedAt" : "2022-11-13T07:23:42+09:00",
+    "repository" : "fastlane",
+    "title" : "2.211.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.211.0",
+    "version" : "2.211.0"
+  },
+  {
     "body" : "* [match] add support for Developer ID certificates from G2 Sub-CA (#20145) via Frederik Seiffert (@triplef)\n* [spaceship] add ability to invite a single TestFlight user (#20112) via Lucas (@LcTwisk)\n* [deliver] add `verify_only` option to deliver (#20247) via Pol Piella (@pol-piella)\n* [scan] fix scan failing to return results when there are test failures (#20237) via Mahmood Tahir (@tahirmt)\n* [docs] remove named parameter from `create_capability` example. (#20197) via Trent Kocurek (@t2)\n* [spaceship] fix creation App Store Connect API authorization token (#20206) via Yuya Oka (@nnsnodnb)\n* [match] add option to skip google account confirmation (#20223) via Tim Sneed (@trsneed)\n* [aciton][setup_ci] added timeout param into setup_ci (#20211) via javigines (@javigines)\n* [action][danger] add GitHub Enterprise flags (#20216) via Alexander Weiß (@alexanderwe)\n* [fastlane] allows aliased tool names (build_app, sync_code_signing, etc) to run from CLI (#20287) via Josh Holtz (@joshdholtz)\n* [spaceship] update buildDeliveries request to use app id in path (#20268) via Lukasz Grabowski (@lucgrabowski)\n* [spaceship] update `Spaceship::ConnectAPI::User model` to include `delete!` method (#20251) via Liam Nichols (@liamnichols)\n* [infra] changelog will now show github usernames which makes contributors stand out more in releases (#20214) via Josh Holtz (@joshdholtz)",
     "createdAt" : "2022-05-18T13:10:10+09:00",
     "fetchedFromAPIAt" : "2022-05-29T15:17:24+09:00",
