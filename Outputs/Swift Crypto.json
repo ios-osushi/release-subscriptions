@@ -250,5 +250,17 @@
     "title" : "Swift Crypto 2.0.5",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.0.5",
     "version" : "2.0.5"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Update Swift Crypto for the Ventura API (#123)\r\n- Raise minimum supported Swift version from 5.4 to 5.5 (#131)\r\n\r\n### SemVer Patch\r\n\r\n- truncating for big `contentLength` (#119, patch credit to @d-date)\r\n- Fix ASN.1 serialization when content greater than or equal to 128 bytes (#120, patch credit to @swiftty)\r\n- Crypto: explicitly type the array slice (#122, patch credit to @compnerd)\r\n- Make BoringSSL wrapper match CryptoKit behaviour when working with x9.63 (#128)\r\n- Provide AES-GCM-SIV in CryptoExtras (#133)\r\n- Update BoringSSL to 0faffc7a30eeb195248ea43056f4848e2a9b1c6d (#121, #132, #134)\r\n\r\n### Other Changes\r\n\r\n- Update Python script to Python 3 (#117, patch credit to @0xTim)\r\n- build: use cctols ranlib on Darwin (#129, patch credit to @edymtt)\r\n- Use 5.7 nightlies (#118)\r\n- Validate missing imports in CI (#127)",
+    "createdAt" : "2022-11-14T20:17:06+09:00",
+    "fetchedFromAPIAt" : "2022-11-15T09:52:03+09:00",
+    "id" : "RE_kwDOC9Swts4E8k27",
+    "owner" : "apple",
+    "publishedAt" : "2022-11-14T22:54:28+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.2.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.0",
+    "version" : "2.2.0"
   }
 ]

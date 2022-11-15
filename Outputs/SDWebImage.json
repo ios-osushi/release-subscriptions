@@ -396,6 +396,18 @@
     "version" : "5.14.1"
   },
   {
+    "body" : "See [all tickets marked for the 5.14.2 release](https://github.com/SDWebImage/SDWebImage/milestone/105)\r\n\r\n### Fixes\r\n- Move the `SD_CHECK_CGIMAGE_RETAIN_SOURCE` assertion to SDWebImage Demo and Tests only #3443 #3442 #3441",
+    "createdAt" : "2022-11-14T19:50:32+09:00",
+    "fetchedFromAPIAt" : "2022-11-15T09:52:04+09:00",
+    "id" : "RE_kwDOAATIS84E8fa4",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2022-11-14T19:51:02+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.14.2 - 5.14 Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.14.2",
+    "version" : "5.14.2"
+  },
+  {
     "body" : "### Fixes\r\n- Fix the thumbnail pixel size calculation when preserveAspectRatio is true #3354\r\n- Fix macOS compile on Xcode 14 which missing necessary CoreImage import #3353\r\n- Fix a crash of accessing +[NSScreen mainScreen] from background thread on OSX 10.11. #3337\r\n\r\n### Performance\r\n- Small performance improvement to generating file URLs in SDDiskCache `-setData:forKey:` #3346",
     "createdAt" : "2022-06-12T19:30:33+09:00",
     "fetchedFromAPIAt" : "2022-06-13T09:51:28+09:00",
