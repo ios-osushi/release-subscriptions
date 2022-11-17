@@ -408,6 +408,18 @@
     "version" : "0.45.0"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Added: `TestStore` now takes a trailing closure for configuring its dependency values (https://github.com/pointfreeco/swift-composable-architecture/pull/1620). These dependency values are used when processing `initialState`, which means state that relies on `@Dependency` (`\\.uuid`, for example) will use these dependencies.\r\n* Changed: `TestStore` was recently, briefly made an `open` class, but we are marking it `final` again (https://github.com/pointfreeco/swift-composable-architecture/pull/1655). We are open to making it `open` again, but would like to know if there are use cases, first.\r\n* Fixed: `@Dependency(\\.openURL)`'s `callAsFunction`s overloads are no longer ambiguous in certain cases (https://github.com/pointfreeco/swift-composable-architecture/pull/1621).\r\n* Fixed: Printing is now disabled when running debugged reducers from Xcode previews (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1625).\r\n* Fixed: Documentation typos (thanks @PierreCapo, https://github.com/pointfreeco/swift-composable-architecture/pull/1609; @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1608; @ts, https://github.com/pointfreeco/swift-composable-architecture/pull/1612; @Jager-yoo, https://github.com/pointfreeco/swift-composable-architecture/pull/1638; @hmhv, https://github.com/pointfreeco/swift-composable-architecture/pull/1659).\r\n* Infrastructure: Case Studies modernization (https://github.com/pointfreeco/swift-composable-architecture/pull/1623); CI cleanup (https://github.com/pointfreeco/swift-composable-architecture/pull/1632); documentation additions (https://github.com/pointfreeco/swift-composable-architecture/pull/1642); dependencies test (thanks @crayment, https://github.com/pointfreeco/swift-composable-architecture/pull/1644).\r\n\r\n## New Contributors\r\n\r\n* @PierreCapo made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1609\r\n* @crayment made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1644\r\n* @hmhv made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1659\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.45.0...0.46.0",
+    "createdAt" : "2022-11-15T00:56:58+09:00",
+    "fetchedFromAPIAt" : "2022-11-17T09:51:25+09:00",
+    "id" : "RE_kwDOD48kk84E93W1",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-11-17T08:21:55+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.46.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.46.0",
+    "version" : "0.46.0"
+  },
+  {
     "body" : "- Added: `Effect.throttle` overloads that take `Any.Type` (thanks @elkraneo).\r\n- Added: `TestStore.state`, which reflects the state of the store between assertions. This property can be used to further probe test store state over time and make additional assertions.\r\n- Updated: `WithViewStore` can be in more places, like `@CommandsBuilder` (thanks @tgrapperon).\r\n- Fixed: `Effect.task` modifiers now deliver output and completion on the main actor, avoiding potential data races.\r\n- Documentation: Added support for [SPI documentation](https://blog.swiftpackageindex.com/posts/auto-generating-auto-hosting-and-auto-updating-docc-documentation/) (thanks @finestructure).\r\n- Infrastructure: typo fixes (thanks @konomae) and demo app cleanup.",
     "createdAt" : "2022-06-04T07:40:51+09:00",
     "fetchedFromAPIAt" : "2022-06-05T09:52:00+09:00",
