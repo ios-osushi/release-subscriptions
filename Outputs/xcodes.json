@@ -300,6 +300,18 @@
     "version" : "1.0.0"
   },
   {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade robotsandpencils/made/xcodes`.\r\n\r\n## Changes\r\nThis returns the requirement of having to log in via your Apple username/password. :( \r\n\r\nIn happier news - thanks to @StevenMagdy you can now download ~~simulators~~ runtimes via `xcodes runtimes install` with the speed of `aria2`! 🚀    \r\n\r\n## 🚀 Enhancements\r\n\r\n* Support runtime downloading/installing (#230) @StevenMagdy\r\n* Update select command to use .xcode-version (#238) @daltonclaybrook\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* restore downloading via xcodereleases with apple username/password :( (#245) @MattKiazyk\r\n\r\n## 🧰 Maintenance\r\n\r\n* Add contributing guide (#237) @MattKiazyk\r\n",
+    "createdAt" : "2022-11-18T13:56:01+09:00",
+    "fetchedFromAPIAt" : "2022-11-19T09:53:29+09:00",
+    "id" : "RE_kwDOCj_3JM4E3M3E",
+    "owner" : "RobotsAndPencils",
+    "publishedAt" : "2022-11-18T14:09:33+09:00",
+    "repository" : "xcodes",
+    "title" : "1.2.0 - The Empire Strikes Back 🍎 ",
+    "url" : "https://github.com/RobotsAndPencils/xcodes/releases/tag/1.2.0",
+    "version" : "1.2.0"
+  },
+  {
     "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade robotsandpencils/made/xcodes`.\r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Add select option to install (#182) @tahirmt\r\n* Update the cached list of available Xcodes if it's more than 24 hours old (#226) @rpendleton\r\n* Add a command for listing available simulators (#223) @StevenMagdy\r\n* Add \"version\" argument to \"installed\" function, printing Xcode's installation path (#220) @rogerluan\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Exit immediately if trying to select currently selected xcode (#181) @tahirmt\r\n\r\n## 🧰 Maintenance\r\n\r\n* Use mocks when writing the cache file in unit tests (#227) @rpendleton\r\n* Add documentation for the `.xcode-version` file (#218) @rogerluan\r\n* Lint Markdown Files (#217) @rogerluan\r\n",
     "createdAt" : "2022-10-30T12:11:50+09:00",
     "fetchedFromAPIAt" : "2022-10-31T10:05:16+09:00",
