@@ -336,6 +336,18 @@
     "version" : "0.17.0"
   },
   {
+    "body" : "#### Changed\r\n- Only build executables from the package [#251](https://github.com/yonaskolb/Mint/pull/251) @417-72KI\r\n\r\n#### Fixed\r\n- Fixed some packages like newest version of SwiftlLint building as we're not building tests anymore [#251](https://github.com/yonaskolb/Mint/pull/251) @417-72KI",
+    "createdAt" : "2022-11-20T11:36:43+09:00",
+    "fetchedFromAPIAt" : "2022-11-21T09:54:25+09:00",
+    "id" : "RE_kwDOBkFB884E_J9u",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2022-11-20T11:38:37+09:00",
+    "repository" : "Mint",
+    "title" : "0.17.3",
+    "url" : "https://github.com/yonaskolb/Mint/releases/tag/0.17.3",
+    "version" : "0.17.3"
+  },
+  {
     "body" : "#### Fixed\r\n- Fix dependencies like bundles and dylibs not getting copied, which fixes some packages like `apple/swift-format` and `swiftgen/swiftgen` [#248](https://github.com/yonaskolb/Mint/pull/248) @fummicc1\r\n> Run `mint install --force {package}` to fix already installed packages",
     "createdAt" : "2022-09-29T11:21:26+09:00",
     "fetchedFromAPIAt" : "2022-09-30T10:22:05+09:00",
