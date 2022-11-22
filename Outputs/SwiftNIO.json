@@ -408,6 +408,18 @@
     "version" : "2.41.0"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- Add missing `Sendable` requirements (#2305)\r\n- Add `NIOAsyncTestingChannel.waitForOut/InboundWrite()` (#2307)\r\n- MPTCP support on Linux (#2308)\r\n- Make `NIOHTTP1TestServer` Sendable (#2318)\r\n\r\n### SemVer Patch\r\n\r\n- add witnesses for `ByteBufferView.reserveCapacity(_:)`, `append(_:)`, and `append(contentsOf:)` (#2309, patch credit to @kelvin13)\r\n- Use `#fileID`/`#filePath` instead of `#file` (#2306)\r\n- Correctly include netinet/in.h (#2315)\r\n\r\n### Other Changes\r\n\r\n- Fix failing build on MacOS (#2313)\r\n- Fix `testTaskCancel_whenStreaming_andNotSuspended` flakiness (#2314)",
+    "createdAt" : "2022-11-18T02:40:15+09:00",
+    "fetchedFromAPIAt" : "2022-11-22T09:53:46+09:00",
+    "id" : "RE_kwDOBy6rG84E_dc3",
+    "owner" : "apple",
+    "publishedAt" : "2022-11-21T22:27:10+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.45.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.45.0",
+    "version" : "2.45.0"
+  },
+  {
     "body" : "### Security\r\n\r\n- This update fixes CVE-2022-3215: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') . For more details please see [the security advisory](https://github.com/apple/swift-nio/security/advisories/GHSA-7fj7-39wj-c64f). Please update to 2.42.0 if possible, otherwise update to 2.39.1 as rapidly as possible.",
     "createdAt" : "2022-09-27T21:09:52+09:00",
     "fetchedFromAPIAt" : "2022-09-28T10:04:26+09:00",

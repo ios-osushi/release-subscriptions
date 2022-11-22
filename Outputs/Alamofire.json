@@ -370,5 +370,17 @@
     "title" : "Safer Encoding",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.6.2",
     "version" : "5.6.2"
+  },
+  {
+    "body" : "Released on 2022-11-20. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/83?closed=1).\r\n\r\n#### Updated\r\n- Swift package to 5.7, CI to Xcode 14.1.\r\n  - Updated by [Jon Shier](https://github.com/jshier)[](@jshier) in Pull Request [#3653](https://github.com/Alamofire/Alamofire/pull/3653).\r\n\r\n#### Fixed\r\n- Calls to deprecated cancellation handler function.\r\n  - Fixed by [Sven Münnich](https://github.com/svenmuennich) in Pull Request [#3641](https://github.com/Alamofire/Alamofire/pull/3657).\r\n- Unnecessary protocol conformance on Combine publishers.\r\n  - Fixed by [MoonkiKim(김문기)](https://github.com/tedKim5178) in Pull Request [#3641](https://github.com/Alamofire/Alamofire/pull/3650).\r\n- Don't attempt retry when `Request` has already been cancelled.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3641](https://github.com/Alamofire/Alamofire/pull/3641).\r\n\r\n#### New Contributors\r\n* @tedKim5178 made their first contribution in https://github.com/Alamofire/Alamofire/pull/3650\r\n* @svenmuennich made their first contribution in https://github.com/Alamofire/Alamofire/pull/3657\r\n\r\n**Full Changelog**: https://github.com/Alamofire/Alamofire/compare/5.6.2...5.6.3",
+    "createdAt" : "2022-11-21T13:41:19+09:00",
+    "fetchedFromAPIAt" : "2022-11-22T09:53:46+09:00",
+    "id" : "RE_kwDOAVavk84E_Tzk",
+    "owner" : "Alamofire",
+    "publishedAt" : "2022-11-21T13:42:38+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.6.3",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.6.3",
+    "version" : "5.6.3"
   }
 ]
