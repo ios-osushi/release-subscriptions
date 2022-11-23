@@ -504,6 +504,18 @@
     "version" : "0.39.0"
   },
   {
+    "body" : "Pinned SwiftUINavigation to its newest release, [0.4.2](https://github.com/pointfreeco/swiftui-navigation/releases/tag/0.4.2), to fix an issue with `ButtonState`'s equatable conformance.\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.47.0...0.47.1",
+    "createdAt" : "2022-11-22T22:18:52+09:00",
+    "fetchedFromAPIAt" : "2022-11-23T09:44:59+09:00",
+    "id" : "RE_kwDOD48kk84E_8Dp",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-11-22T22:20:24+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.47.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.47.1",
+    "version" : "0.47.1"
+  },
+  {
     "body" : "## What's Changed\r\n* Depend on SwiftUINavigation for TextState, AlertState, etc... in https://github.com/pointfreeco/swift-composable-architecture/pull/1685\r\n  \r\n  The `TextState`, `AlertState` and `ConfirmationDialogState` types have been moved out of the library and into [SwiftUINavigation](http://github.com/pointfreeco/swiftui-navigation). It should be completely backwards compatible, and you should not have to change your code, but let us know if you encounter problems.\r\n\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.46.0...0.47.0",
     "createdAt" : "2022-11-22T07:46:36+09:00",
     "fetchedFromAPIAt" : "2022-11-22T09:53:46+09:00",

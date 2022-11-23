@@ -262,5 +262,17 @@
     "title" : "Swift Crypto 2.2.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.0",
     "version" : "2.2.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Add Linux support for PKCS#1 RSA public keys (#135)",
+    "createdAt" : "2022-11-22T02:45:13+09:00",
+    "fetchedFromAPIAt" : "2022-11-23T09:44:59+09:00",
+    "id" : "RE_kwDOC9Swts4E_1zQ",
+    "owner" : "apple",
+    "publishedAt" : "2022-11-22T18:26:12+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.2.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.1",
+    "version" : "2.2.1"
   }
 ]
