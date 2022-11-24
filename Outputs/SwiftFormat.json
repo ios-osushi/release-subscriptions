@@ -538,5 +538,17 @@
     "title" : "0.50.3",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.3",
     "version" : "0.50.3"
+  },
+  {
+    "body" : "- Added Swift package command plugin\r\n- Added `docComments` rule to convert between regular and documentation comments\r\n- Fixed `redundantLet` rule incorrectly stripping `let` inside Result Builders\r\n- Fixed `void` rule in cases where `Void` has been locally shadowed\r\n- Fixed `fileHeader` rule when file only contains header comment\r\n- Fixed unexpected indent and spurious `wrap` warning for blank lines\r\n- Fixed parsing bug in `redundantSelf` rule",
+    "createdAt" : "2022-11-24T06:32:19+09:00",
+    "fetchedFromAPIAt" : "2022-11-24T09:51:41+09:00",
+    "id" : "RE_kwDOA_OyXc4FAl3U",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-11-24T06:44:01+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.4",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.4",
+    "version" : "0.50.4"
   }
 ]

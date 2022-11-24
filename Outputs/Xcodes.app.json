@@ -178,5 +178,17 @@
     "title" : "v1.8.0",
     "url" : "https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.8.0b16",
     "version" : "v1.8.0b16"
+  },
+  {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\nThis returns the requirement of having to log in via your Apple username/password when using xcodereleases. 😢 \r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Improve Spanish localization in Preferences (#322) @DannyJJK\r\n* Adds an option to save beta versions with `-beta` symlink (#304) @leon-wolf\r\n* add error message when trying to uninstall Xcode if file not found (#306) @leon-wolf\r\n* move download settings to own PreferencePane (#305) @leon-wolf\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Switch Xcode releases back to using Apple Auth :( (#328) @MattKiazyk\r\n* fix: Preference button on toolbar not working on Mac OS 13 Ventura (#303) @chedabob\r\n\r\n## 🌎 Localization\r\n\r\n* Add brazilian portuguese localization (#260) @brunomunizaf\r\n* Add Dutch localization (#307) @jfversluis\r\n* Fix localization on UnsupportedFileFormat (#309) @tt37\r\n* Remove localization from apple.com links (#308) @jfversluis\r\n* Typo in German Localization File (#296) @nklasio\r\n\r\n## 🧰 Maintenance\r\n\r\n* Bump actions/cache from 3.0.8 to 3.0.11 (#310) @dependabot\r\n* Add new contributing.md (#318) @MattKiazyk\r\n\r\n<!-- sparkle:edSignature=BHOjL96nA0/98Fw4OJoSi/PXhjcTpo2jb3twRvwhwFbsJQV+AKLM+H3GRAvsT4rVbtX+txQw6A0UDeiSliPPBg== -->",
+    "createdAt" : "2022-11-23T12:49:41+09:00",
+    "fetchedFromAPIAt" : "2022-11-24T09:51:41+09:00",
+    "id" : "RE_kwDOEtMR_84ErjnP",
+    "owner" : "RobotsAndPencils",
+    "publishedAt" : "2022-11-23T12:56:04+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v1.9.0 - The Empire Strikes Back 🍎 ",
+    "url" : "https://github.com/RobotsAndPencils/XcodesApp/releases/tag/v1.9.0b17",
+    "version" : "v1.9.0b17"
   }
 ]
