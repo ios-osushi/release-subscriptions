@@ -394,5 +394,17 @@
     "title" : "v6.0.1",
     "url" : "https://github.com/Quick/Quick/releases/tag/v6.0.1",
     "version" : "v6.0.1"
+  },
+  {
+    "body" : "# Highlighted Changes\r\n\r\n- New `TestState` property wrapper (Thanks @CraigSiemens!). You can now wrap properties with `@TestState` to have them automatically set to nil.\r\n- Objective-C API is no longer available in Swift, this should reduce confusion whether a test is being executed in an async context or not.\r\n- This release drops support for Swift 5.6/Xcode 13.3.1.\r\n\r\n# Auto-generated Release Notes\r\n\r\n## What's Changed\r\n* Bump danger from 9.0.0 to 9.1.0 by @dependabot in https://github.com/Quick/Quick/pull/1184\r\n* Make Objective-C API unavailable in Swift. by @younata in https://github.com/Quick/Quick/pull/1185\r\n* Update Nimble to 11.2.1, remove now-unnecessary usage of awaits in tests. Drop support for swift 5.6/Xcode 13.3.1 by @younata in https://github.com/Quick/Quick/pull/1187\r\n* Added a `TestState` property wrapper. by @CraigSiemens in https://github.com/Quick/Quick/pull/1186\r\n\r\n## New Contributors\r\n* @CraigSiemens made their first contribution in https://github.com/Quick/Quick/pull/1186\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v6.0.1...v6.1.0",
+    "createdAt" : "2022-11-26T06:01:36+09:00",
+    "fetchedFromAPIAt" : "2022-11-26T09:42:24+09:00",
+    "id" : "RE_kwDOATjllM4FBQr_",
+    "owner" : "Quick",
+    "publishedAt" : "2022-11-26T06:05:13+09:00",
+    "repository" : "Quick",
+    "title" : "v6.1.0",
+    "url" : "https://github.com/Quick/Quick/releases/tag/v6.1.0",
+    "version" : "v6.1.0"
   }
 ]

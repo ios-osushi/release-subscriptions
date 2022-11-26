@@ -490,5 +490,17 @@
     "title" : "0.50.0-rc.2: Artisanal Clothes Pegs",
     "url" : "https://github.com/realm/SwiftLint/releases/tag/0.50.0-rc.2",
     "version" : "0.50.0-rc.2"
+  },
+  {
+    "body" : "#### Breaking\r\n\r\n* None.\r\n\r\n#### Experimental\r\n\r\n* None.\r\n\r\n#### Enhancements\r\n\r\n* Moved the validation of doc comments in local scopes out of\r\n  `orphaned_doc_comment` and into a new opt-in `local_doc_comment` rule.  \r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4573](https://github.com/realm/SwiftLint/issues/4573)\r\n\r\n* SwiftLint's Swift Package Build Tool Plugin will now only scan files\r\n  in the target being built.  \r\n  [Tony Arnold](https://github.com/tonyarnold)\r\n  [#4406](https://github.com/realm/SwiftLint/pull/4406)\r\n\r\n#### Bug Fixes\r\n\r\n* Fix building with `swift build -c release`.  \r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4559](https://github.com/realm/SwiftLint/issues/4559)\r\n  [#4560](https://github.com/realm/SwiftLint/issues/4560)\r\n\r\n* Fix false positives in `lower_acl_than_parent` when the nominal parent\r\n  is an extension.  \r\n  [Steffen Matthischke](https://github.com/heeaad)\r\n  [#4564](https://github.com/realm/SwiftLint/issues/4564)\r\n\r\n* Fix `minimum_fraction_length` handling in `number_separator`.  \r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4576](https://github.com/realm/SwiftLint/issues/4576)\r\n\r\n* Fix false positives in `closure_spacing`.  \r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4565](https://github.com/realm/SwiftLint/issues/4565)\r\n  [#4582](https://github.com/realm/SwiftLint/issues/4582)\r\n\r\n* Fix line count calculation for multiline string literals.  \r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4585](https://github.com/realm/SwiftLint/issues/4585)\r\n\r\n* Fix false positives in `unused_closure_parameter` when using\r\n  identifiers with backticks.  \r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4588](https://github.com/realm/SwiftLint/issues/4588)\r\n\r\n* Fix `type_name` regression where names with backticks would trigger\r\n  violations.  \r\n  [JP Simard](https://github.com/jpsim)\r\n  [#4571](https://github.com/realm/SwiftLint/issues/4571)",
+    "createdAt" : "2022-11-26T01:38:16+09:00",
+    "fetchedFromAPIAt" : "2022-11-26T09:42:24+09:00",
+    "id" : "RE_kwDOAiE69s4FBNXB",
+    "owner" : "realm",
+    "publishedAt" : "2022-11-26T01:38:49+09:00",
+    "repository" : "SwiftLint",
+    "title" : "0.50.1: Artisanal Clothes Pegs Fixup Edition",
+    "url" : "https://github.com/realm/SwiftLint/releases/tag/0.50.1",
+    "version" : "0.50.1"
   }
 ]
