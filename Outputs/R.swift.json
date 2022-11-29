@@ -430,5 +430,29 @@
     "title" : "7.0.0-alpha.17",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.0.0-alpha.17",
     "version" : "7.0.0-alpha.17"
+  },
+  {
+    "body" : "Major release, refactor of internals.\r\n\r\n- Merged R.swift and R.swift.Library projects into single package\r\n- Preferred installation method is now Swift Package Manager (instead of CocoaPods)\r\n- Added Swift Build Tool Plug-in\r\n- Fixed a lot of open issues (see https://github.com/mac-cain13/R.swift/pull/766)\r\n- Changes to command-line tool and library, see [Migration Guide](https://github.com/mac-cain13/R.swift/blob/master/Documentation/Migration.md)",
+    "createdAt" : "2022-11-28T22:10:47+09:00",
+    "fetchedFromAPIAt" : "2022-11-29T09:46:32+09:00",
+    "id" : "RE_kwDOAamb-84FBsFV",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-11-28T22:12:44+09:00",
+    "repository" : "R.swift",
+    "title" : "7.0.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.0.0",
+    "version" : "7.0.0"
+  },
+  {
+    "body" : "- Always uses `String(format:)`, also for strings without arguments, fixes https://github.com/mac-cain13/R.swift/issues/711",
+    "createdAt" : "2022-11-29T02:35:38+09:00",
+    "fetchedFromAPIAt" : "2022-11-29T09:46:32+09:00",
+    "id" : "RE_kwDOAamb-84FBz9b",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-11-29T02:37:08+09:00",
+    "repository" : "R.swift",
+    "title" : "7.0.1",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.0.1",
+    "version" : "7.0.1"
   }
 ]

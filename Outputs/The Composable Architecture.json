@@ -622,5 +622,17 @@
     "title" : "0.43.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.43.0",
     "version" : "0.43.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Dependency values test context is no longer implicitly inferred, which could cause unexpected behavior for host applications that run during tests (https://github.com/pointfreeco/swift-composable-architecture/pull/1686).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.47.1...0.47.2",
+    "createdAt" : "2022-11-23T03:01:56+09:00",
+    "fetchedFromAPIAt" : "2022-11-29T09:46:33+09:00",
+    "id" : "RE_kwDOD48kk84FByhU",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2022-11-29T01:38:29+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.47.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.47.2",
+    "version" : "0.47.2"
   }
 ]
