@@ -550,5 +550,17 @@
     "title" : "0.50.4",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.4",
     "version" : "0.50.4"
+  },
+  {
+    "body" : "- Fixed incorrect macOS command line binary that accidentally shipped with 0.50.4",
+    "createdAt" : "2022-11-30T03:44:30+09:00",
+    "fetchedFromAPIAt" : "2022-11-30T09:47:32+09:00",
+    "id" : "RE_kwDOA_OyXc4FCTSu",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-11-30T03:49:46+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.5",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.5",
+    "version" : "0.50.5"
   }
 ]
