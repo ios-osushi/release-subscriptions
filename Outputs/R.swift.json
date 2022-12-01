@@ -454,5 +454,17 @@
     "title" : "7.0.1",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.0.1",
     "version" : "7.0.1"
+  },
+  {
+    "body" : "- Add Storyboard dependency injection (thanks @417-72KI) ",
+    "createdAt" : "2022-12-01T05:24:40+09:00",
+    "fetchedFromAPIAt" : "2022-12-01T09:52:58+09:00",
+    "id" : "RE_kwDOAamb-84FCz5b",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-12-01T05:30:31+09:00",
+    "repository" : "R.swift",
+    "title" : "7.1.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.1.0",
+    "version" : "7.1.0"
   }
 ]
