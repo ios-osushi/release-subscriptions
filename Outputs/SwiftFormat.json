@@ -562,5 +562,17 @@
     "title" : "0.50.5",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.5",
     "version" : "0.50.5"
+  },
+  {
+    "body" : "- Fixed regression in `fileHeader` rule where blank lines were removed after header\r\n- Fixed globs matching when command-line tool is invoked from a directory such as `/var/tmp`\r\n- Fixed bug in parsing regex literals beginning with `^` character\r\n",
+    "createdAt" : "2022-12-04T07:00:23+09:00",
+    "fetchedFromAPIAt" : "2022-12-04T09:43:37+09:00",
+    "id" : "RE_kwDOA_OyXc4FD3Gm",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-12-04T07:09:21+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.6",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.6",
+    "version" : "0.50.6"
   }
 ]
