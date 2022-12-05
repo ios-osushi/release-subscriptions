@@ -466,5 +466,17 @@
     "title" : "7.1.0",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.1.0",
     "version" : "7.1.0"
+  },
+  {
+    "body" : "- Add function to get Data from DataResource directly (thanks @417-72KI)\r\n- Correctly parse Nibs and Storyboards on macOS",
+    "createdAt" : "2022-12-04T20:14:45+09:00",
+    "fetchedFromAPIAt" : "2022-12-05T09:42:28+09:00",
+    "id" : "RE_kwDOAamb-84FD61g",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-12-04T20:26:46+09:00",
+    "repository" : "R.swift",
+    "title" : "7.2.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.2.0",
+    "version" : "7.2.0"
   }
 ]
