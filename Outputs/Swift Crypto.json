@@ -274,5 +274,17 @@
     "title" : "Swift Crypto 2.2.1",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.1",
     "version" : "2.2.1"
+  },
+  {
+    "body" : "This release contains no functional changes\r\n\r\n### Other Changes\r\n\r\n- Link Foundation in CryptoBoringWrapper (#136)",
+    "createdAt" : "2022-12-05T18:40:28+09:00",
+    "fetchedFromAPIAt" : "2022-12-07T09:44:13+09:00",
+    "id" : "RE_kwDOC9Swts4FEsYN",
+    "owner" : "apple",
+    "publishedAt" : "2022-12-06T20:13:24+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.2.2",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.2",
+    "version" : "2.2.2"
   }
 ]
