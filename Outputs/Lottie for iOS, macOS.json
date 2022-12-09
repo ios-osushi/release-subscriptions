@@ -442,5 +442,17 @@
     "title" : "4.0.0",
     "url" : "https://github.com/airbnb/lottie-ios/releases/tag/4.0.0",
     "version" : "4.0.0"
+  },
+  {
+    "body" : "4.0.1 fixes an issue in 4.0.0 where the install could fail due to issues with Git LFS: #1830, #1834.\r\n\r\nWe now publish `xframework` binaries as a part of our release process: https://github.com/airbnb/lottie-ios/discussions/1807#discussioncomment-4346438\r\n\r\n## Major changes in Lottie 4.0\r\n\r\nLearn more about this release: **[Announcing Lottie 4.0 for iOS](https://medium.com/airbnb-engineering/announcing-lottie-4-0-for-ios-d4d226862a54)** on the Airbnb Tech Blog\r\n\r\n* The new Core Animation rendering engine ([first introduced in Lottie 3.4.0](https://github.com/airbnb/lottie-ios/discussions/1627)) is now enabled by default for supported animations.\r\n  * Specifically, `LottieConfiguration.shared.renderingEngine` now defaults to `.automatic` instead of `.mainThread`. Animations that use features which are not supported by the Core Animation rendering engine will automatically fall back to using the original Main Thread rendering engine.\r\n  * When using the Core Animation rendering engine, Lottie animations now always animate smoothly regardless of the amount of work being done on the app’s main thread. This **significantly improves animation performance** while also eliminating CPU overhead.\r\n  * If you encounter any compatibility issues when using `RenderingEngineOption.automatic`, please file an issue with a copy of your animation json.\r\n\r\n* `DecodingStrategy.dictionaryBased` is now enabled by default\r\n  * The new dictionary-based decoding implementation is 2x faster than the previous `Codable` decoding implementation\r\n  * If you encounter any compatibility issues with this new decoding implementation, please file an issue with a copy of your animation json.\r\n* Backwards compatibility typealiases for `Animation`, `AnimationView`, `Color`, `Vector1D`, `Vector2D`, and `Vector3D`, which were introduced in [Lottie 3.5.0](https://github.com/airbnb/lottie-ios/releases), have been removed to resolve conflicts with types in Apple frameworks. These types are now named `LottieAnimation`, `LottieAnimationView`, `LottieColor`, `LottieVector1D`, `LottieVector2D`, and `LottieVector3D`.\r\n * The default `LottieBackgroundBehavior` used by `LottieAnimationView` is now `.pauseAndRestore` instead of `pause`.\r\n * Lottie for iOS now supports the [dotLottie file format](https://dotlottie.io/).\r\n * The library's minimum-supported Swift version is now Swift 5.5.\r\n\r\n",
+    "createdAt" : "2022-12-09T03:28:27+09:00",
+    "fetchedFromAPIAt" : "2022-12-09T09:44:17+09:00",
+    "id" : "RE_kwDOBC8liM4FGDJf",
+    "owner" : "airbnb",
+    "publishedAt" : "2022-12-09T03:30:12+09:00",
+    "repository" : "lottie-ios",
+    "title" : "4.0.1",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/4.0.1",
+    "version" : "4.0.1"
   }
 ]

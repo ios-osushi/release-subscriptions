@@ -118,5 +118,17 @@
     "title" : "Swift Collections 1.0.3",
     "url" : "https://github.com/apple/swift-collections/releases/tag/1.0.3",
     "version" : "1.0.3"
+  },
+  {
+    "body" : "This is a documentation update, including the addition of basic DocC documentation bundles. This release has no functional changes.\r\n\r\n### Changes\r\n\r\n- The package now contains documentation bundles, enabling nicer presentation of API documentation in DocC.\r\n\r\n### Fixes\r\n\r\n- #186 [OrderedCollections] Document Sorting as Stable (by @benrimmington)\r\n\r\n### Pull requests\r\n\r\n- #178 [OrderedDictionary] Tiny documentation fix (by @lorentey)\r\n- #187 Fix `rethrows` position (by @ensan-hcl)\r\n- #189 [OrderedSet] Tiny doc fixes for isSuperset (by @lorentey)\r\n- #201 [OrderedCollections] Update docs to state that the sort algorithm is stable (by @lorentey)\r\n- #214 [OrderedSet] Small doc updates/fixes (by @lorentey)\r\n- #252 [1.0] Add DocC documentation bundles (by @lorentey)\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.0.3...1.0.4\r\n\r\nThank you to everyone who contributed to this release! Your bug reports, discussions and pull requests all help improve this package.\r\n",
+    "createdAt" : "2022-12-09T03:54:21+09:00",
+    "fetchedFromAPIAt" : "2022-12-09T09:44:16+09:00",
+    "id" : "RE_kwDOFDfRzs4FGIcl",
+    "owner" : "apple",
+    "publishedAt" : "2022-12-09T07:30:54+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 1.0.4",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.0.4",
+    "version" : "1.0.4"
   }
 ]
