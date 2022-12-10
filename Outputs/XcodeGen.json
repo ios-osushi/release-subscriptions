@@ -406,5 +406,17 @@
     "title" : "2.32.0",
     "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.32.0",
     "version" : "2.32.0"
+  },
+  {
+    "body" : "### Added\r\n\r\n- Added support for `enableGPUFrameCaptureMode` #1251 @bsudekum\r\n- Config setting presets can now also be loaded from the main bundle when bundling XcodeGenKit #1135 @SofteqDG\r\n- Added ability to generate multiple projects in one XcodeGen launch #1270 @skofgar\r\n- Use memoization during recursive SpecFiles creation. This provides a drastic performance boost with lots of recursive includes #1275 @ma-oli\r\n\r\n### Fixed\r\n\r\n- Fix scheme not being generated for aggregate targets #1250 @CraigSiemens\r\n- Fix recursive include path when relativePath is not set #1275 @ma-oli\r\n- Include projectRoot in include paths #1275 @ma-oli\r\n\r\n### Internal\r\n- Updated to Yams 5.0.1 #1297 @s2mr\r\n- Delete ignored `try` keyword #1298 @s2mr",
+    "createdAt" : "2022-12-09T19:35:49+09:00",
+    "fetchedFromAPIAt" : "2022-12-10T09:40:51+09:00",
+    "id" : "RE_kwDOBdMHVM4FGUSJ",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2022-12-09T19:38:39+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.33.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.33.0",
+    "version" : "2.33.0"
   }
 ]
