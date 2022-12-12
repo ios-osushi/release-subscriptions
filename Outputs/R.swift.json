@@ -514,5 +514,29 @@
     "title" : "7.2.3",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.2.3",
     "version" : "7.2.3"
+  },
+  {
+    "body" : "Test of release workflow",
+    "createdAt" : "2022-12-12T04:31:03+09:00",
+    "fetchedFromAPIAt" : "2022-12-12T09:47:03+09:00",
+    "id" : "RE_kwDOAamb-84FGzZM",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-12-12T04:32:02+09:00",
+    "repository" : "R.swift",
+    "title" : "7.2.4-alpha.1",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.2.4-alpha.1",
+    "version" : "7.2.4-alpha.1"
+  },
+  {
+    "body" : "Test of release workflow",
+    "createdAt" : "2022-12-12T04:47:39+09:00",
+    "fetchedFromAPIAt" : "2022-12-12T09:47:03+09:00",
+    "id" : "RE_kwDOAamb-84FGzfE",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-12-12T04:48:13+09:00",
+    "repository" : "R.swift",
+    "title" : "7.2.4-alpha.2",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.2.4-alpha.2",
+    "version" : "7.2.4-alpha.2"
   }
 ]
