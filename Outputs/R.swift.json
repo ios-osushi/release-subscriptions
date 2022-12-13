@@ -504,6 +504,18 @@
     "version" : "7.2.2"
   },
   {
+    "body" : "- Fixed issue where on macOS, AppKit wasn't always imported\r\n- Fixed building library on macCatalyst\r\n- Fixed deprecation warning when building library for iOS16/macOS13 only",
+    "createdAt" : "2022-12-12T18:35:01+09:00",
+    "fetchedFromAPIAt" : "2022-12-13T09:46:40+09:00",
+    "id" : "RE_kwDOAamb-84FG89B",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2022-12-12T18:37:51+09:00",
+    "repository" : "R.swift",
+    "title" : "7.2.4",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.2.4",
+    "version" : "7.2.4"
+  },
+  {
     "body" : "- Fix broken generated code for certain asset tag names",
     "createdAt" : "2022-12-10T20:09:49+09:00",
     "fetchedFromAPIAt" : "2022-12-11T09:48:18+09:00",
