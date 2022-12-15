@@ -406,5 +406,17 @@
     "title" : "Swift 5.7 Release",
     "url" : "https://github.com/apple/swift/releases/tag/swift-5.7-RELEASE",
     "version" : "swift-5.7-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2022-12-13T13:14:24+09:00",
+    "fetchedFromAPIAt" : "2022-12-15T09:45:13+09:00",
+    "id" : "RE_kwDOAqwwJc4FIV9g",
+    "owner" : "apple",
+    "publishedAt" : "2022-12-15T04:25:33+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.7.2 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.7.2-RELEASE",
+    "version" : "swift-5.7.2-RELEASE"
   }
 ]
