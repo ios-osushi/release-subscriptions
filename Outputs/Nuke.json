@@ -586,5 +586,29 @@
     "title" : "Nuke 11.3.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.3.1",
     "version" : "11.3.1"
+  },
+  {
+    "body" : "- Correct the release commit/branch",
+    "createdAt" : "2022-12-16T03:46:38+09:00",
+    "fetchedFromAPIAt" : "2022-12-17T09:40:34+09:00",
+    "id" : "RE_kwDOAeh5z84FI3hn",
+    "owner" : "kean",
+    "publishedAt" : "2022-12-16T04:11:10+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.4.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.4.1",
+    "version" : "11.4.1"
+  },
+  {
+    "body" : "- Add `isVideoFrameAnimationEnabled` option to NukeUI views, thanks to [@maciesielka](https://github.com/maciesielka) ",
+    "createdAt" : "2022-12-15T10:57:02+09:00",
+    "fetchedFromAPIAt" : "2022-12-17T09:40:34+09:00",
+    "id" : "RE_kwDOAeh5z84FIdYP",
+    "owner" : "kean",
+    "publishedAt" : "2022-12-15T10:57:37+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.4.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.4.0",
+    "version" : "11.4.0"
   }
 ]
