@@ -370,5 +370,17 @@
     "title" : "0.17.4",
     "url" : "https://github.com/yonaskolb/Mint/releases/tag/0.17.4",
     "version" : "0.17.4"
+  },
+  {
+    "body" : "### Fixed\r\n- Fixed a regression in 0.17.3 where packages with multiple executables were not being installed properly [#256]",
+    "createdAt" : "2022-12-22T14:42:13+09:00",
+    "fetchedFromAPIAt" : "2022-12-24T09:37:55+09:00",
+    "id" : "RE_kwDOBkFB884FLdM5",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2022-12-22T14:43:48+09:00",
+    "repository" : "Mint",
+    "title" : "0.17.5",
+    "url" : "https://github.com/yonaskolb/Mint/releases/tag/0.17.5",
+    "version" : "0.17.5"
   }
 ]
