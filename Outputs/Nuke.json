@@ -622,5 +622,17 @@
     "title" : "Nuke 11.5.0",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.5.0",
     "version" : "11.5.0"
+  },
+  {
+    "body" : "- Fix `ImagePipeline.shared` warning with Strit Concurrency Checking set to Complete\r\n- Fix an issue where `ImagePrefetcher/didComplete` wasn't called in some scenarios\r\n- `ImagePrefetcher/didComplete` is now called on the main queue",
+    "createdAt" : "2022-12-26T04:58:50+09:00",
+    "fetchedFromAPIAt" : "2022-12-26T09:42:25+09:00",
+    "id" : "RE_kwDOAeh5z84FMsGg",
+    "owner" : "kean",
+    "publishedAt" : "2022-12-26T05:35:56+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.5.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.5.1",
+    "version" : "11.5.1"
   }
 ]
