@@ -478,5 +478,17 @@
     "title" : "5.13.4 - 5.13 Crash Fix",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.13.4",
     "version" : "5.13.4"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.14.3 release](https://github.com/SDWebImage/SDWebImage/milestone/106)\r\n\r\n### Performance\r\n- Added ioQueueAttributes to use concurrent or control QoS for image cache internal IO Queue #3460\r\n- When frame timestamp not reached, we should prefetch frame in advance for image render #3452\r\n\r\n### Fixes\r\n- Fix the iOS 15+ force-decode hack break Apple's HEIF and JPEG YUV420 optimization #3461\r\n- The poster image should not trigger a frameChange callback #3459",
+    "createdAt" : "2022-12-27T21:03:23+09:00",
+    "fetchedFromAPIAt" : "2022-12-28T09:41:38+09:00",
+    "id" : "RE_kwDOAATIS84FNA9E",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2022-12-27T21:04:04+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.14.3 - 5.14 Opt",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.14.3",
+    "version" : "5.14.3"
   }
 ]

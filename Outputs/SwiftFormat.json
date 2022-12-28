@@ -574,5 +574,17 @@
     "title" : "0.50.6",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.6",
     "version" : "0.50.6"
+  },
+  {
+    "body" : "- Fixed parsing of regex literals preceded by `try` or `await`\r\n- Fixed required parens being removed around `await` keyword\r\n- Fixed indent for nested, wrapped parameters",
+    "createdAt" : "2022-12-28T01:03:14+09:00",
+    "fetchedFromAPIAt" : "2022-12-28T09:41:38+09:00",
+    "id" : "RE_kwDOA_OyXc4FNGDM",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2022-12-28T01:18:38+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.7",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.7",
+    "version" : "0.50.7"
   }
 ]
