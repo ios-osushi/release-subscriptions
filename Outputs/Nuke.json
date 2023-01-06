@@ -634,5 +634,17 @@
     "title" : "Nuke 11.5.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.5.1",
     "version" : "11.5.1"
+  },
+  {
+    "body" : "- Remove DocC files to address https://github.com/kean/Nuke/issues/609",
+    "createdAt" : "2023-01-04T22:07:32+09:00",
+    "fetchedFromAPIAt" : "2023-01-06T09:43:52+09:00",
+    "id" : "RE_kwDOAeh5z84FPdG0",
+    "owner" : "kean",
+    "publishedAt" : "2023-01-05T05:30:22+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.5.3",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.5.3",
+    "version" : "11.5.3"
   }
 ]

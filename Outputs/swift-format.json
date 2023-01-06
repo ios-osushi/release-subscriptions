@@ -106,5 +106,17 @@
     "title" : "0.50700.1",
     "url" : "https://github.com/apple/swift-format/releases/tag/0.50700.1",
     "version" : "0.50700.1"
+  },
+  {
+    "body" : "This is a development snapshot of the 0.50800.0 release of swift-format.",
+    "createdAt" : "2023-01-06T06:23:15+09:00",
+    "fetchedFromAPIAt" : "2023-01-06T09:43:51+09:00",
+    "id" : "RE_kwDOC7ABTs4FP8cM",
+    "owner" : "apple",
+    "publishedAt" : "2023-01-06T06:25:44+09:00",
+    "repository" : "swift-format",
+    "title" : "0.50800.0-SNAPSHOT-2022-12-29-a",
+    "url" : "https://github.com/apple/swift-format/releases/tag/0.50800.0-SNAPSHOT-2022-12-29-a",
+    "version" : "0.50800.0-SNAPSHOT-2022-12-29-a"
   }
 ]
