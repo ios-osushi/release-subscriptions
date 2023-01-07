@@ -286,5 +286,17 @@
     "title" : "Swift Crypto 2.2.2",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.2",
     "version" : "2.2.2"
+  },
+  {
+    "body" : "This release contains no semantic changes, only adjustments to the CMake build.\r\n\r\n### Other Changes\r\n\r\n- build: adjust linking for Crypto (#137, patch credit to @compnerd)",
+    "createdAt" : "2023-01-06T18:04:40+09:00",
+    "fetchedFromAPIAt" : "2023-01-07T09:41:52+09:00",
+    "id" : "RE_kwDOC9Swts4FQFUK",
+    "owner" : "apple",
+    "publishedAt" : "2023-01-06T18:32:55+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.2.3",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.3",
+    "version" : "2.2.3"
   }
 ]

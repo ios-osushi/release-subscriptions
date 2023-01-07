@@ -634,5 +634,29 @@
     "title" : "0.47.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.47.2",
     "version" : "0.47.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Changed: `withTaskCancellation(id:)` now executes on the current executor without suspension (https://github.com/pointfreeco/swift-composable-architecture/pull/1779).\r\n* Deprecated: `Effect` has been temporarily deprecated for `EffectTask` to prepare for renames [coming in 1.0](https://github.com/pointfreeco/swift-composable-architecture/discussions/1477) (https://github.com/pointfreeco/swift-composable-architecture/pull/1788).\r\n* Deprecated: `EffectPublisher` is now soft-deprecated (https://github.com/pointfreeco/swift-composable-architecture/pull/1791).\r\n* Deprecated: The `async` version of `ActorIsolated.withValue` has been deprecated. It can introduce re-entrancy bugs. Instead, we have introduced a synchronous version (https://github.com/pointfreeco/swift-composable-architecture/pull/1792).\r\n* Fixed: `@Dependency(\\.openURL)` is now supported in App extensions (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1714).\r\n* Fixed: `ButtonRole` and `Button` deprecation warnings have been silenced (thanks @kgrigsby59, https://github.com/pointfreeco/swift-composable-architecture/pull/1715).\r\n* Fixed: A longstanding bug in SwiftUI can cause bindings to be evaluated in views that are no longer rendered. In apps built in the Composable Architecture, which provides flexible tools for deriving custom bindings, this could lead to accessing state that no longer exists, which at worst could try to evaluate an element of an array at an invalidated index, crashing the application. This bug has now been worked around to avoid such crashes. (Thanks @barabashd, https://github.com/pointfreeco/swift-composable-architecture/pull/1784; https://github.com/pointfreeco/swift-composable-architecture/pull/1785).\r\n* Fixed: The predicated-based version of `TestStore.receive` now properly evaluates the given predicate (thanks @pyrtsa, https://github.com/pointfreeco/swift-composable-architecture/pull/1780).\r\n* Infrastructure: Fix typos, etc., in documentation, README, and tests (thanks @ZevEisenberg, https://github.com/pointfreeco/swift-composable-architecture/pull/1701; @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1702; @yimajo, https://github.com/pointfreeco/swift-composable-architecture/pull/1725; @yuanhang, https://github.com/pointfreeco/swift-composable-architecture/pull/1762; @kalupas226, https://github.com/pointfreeco/swift-composable-architecture/pull/1764; @dy-kim, https://github.com/pointfreeco/swift-composable-architecture/pull/1773; @Iikeli, https://github.com/pointfreeco/swift-composable-architecture/pull/1776; https://github.com/pointfreeco/swift-composable-architecture/pull/1787; @jeffersonsetiawan, https://github.com/pointfreeco/swift-composable-architecture/pull/1793).\r\n* Infrastructure: Fix todo deletion in Todos sample app when the list is filtered (https://github.com/pointfreeco/swift-composable-architecture/pull/1696).\r\n* Infrastructure: Bump SwiftUINavigation and update examples (thanks @iampatbrown, https://github.com/pointfreeco/swift-composable-architecture/pull/1760).\r\n\r\n## New Contributors\r\n\r\n* @ZevEisenberg made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1701\r\n* @yuanhang made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1762\r\n* @dy-kim made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1773\r\n* @Iikeli made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1776\r\n* @barabashd made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1784\r\n* @pyrtsa made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1780\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.47.2...0.48.0",
+    "createdAt" : "2023-01-06T08:04:48+09:00",
+    "fetchedFromAPIAt" : "2023-01-07T09:41:52+09:00",
+    "id" : "RE_kwDOD48kk84FP_z3",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-01-06T10:21:38+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.48.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.48.0",
+    "version" : "0.48.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Reverted #1784, which introduced a regression in SwiftUI binding behavior (https://github.com/pointfreeco/swift-composable-architecture/pull/1799).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.48.0...0.48.1",
+    "createdAt" : "2023-01-07T01:22:47+09:00",
+    "fetchedFromAPIAt" : "2023-01-07T09:41:52+09:00",
+    "id" : "RE_kwDOD48kk84FQQUK",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-01-07T01:23:42+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.48.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.48.1",
+    "version" : "0.48.1"
   }
 ]
