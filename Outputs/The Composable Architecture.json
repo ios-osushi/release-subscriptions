@@ -648,6 +648,18 @@
     "version" : "0.48.0"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Changed: Depend on [swift-dependencies](https://github.com/pointfreeco/swift-dependencies). The `Dependencies` module has been extracted to its own library so that it can be used in non-TCA apps.\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.48.1...0.49.0",
+    "createdAt" : "2023-01-10T01:08:23+09:00",
+    "fetchedFromAPIAt" : "2023-01-13T09:44:35+09:00",
+    "id" : "RE_kwDOD48kk84FQ8RX",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-01-10T01:09:54+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.49.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.49.0",
+    "version" : "0.49.0"
+  },
+  {
     "body" : "## What's Changed\r\n\r\n* Fixed: Reverted #1784, which introduced a regression in SwiftUI binding behavior (https://github.com/pointfreeco/swift-composable-architecture/pull/1799).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.48.0...0.48.1",
     "createdAt" : "2023-01-07T01:22:47+09:00",
     "fetchedFromAPIAt" : "2023-01-07T09:41:52+09:00",
@@ -658,5 +670,29 @@
     "title" : "0.48.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.48.1",
     "version" : "0.48.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: An internal test helper added in 0.49.0 could prevent builds from working. This has been fixed (https://github.com/pointfreeco/swift-composable-architecture/pull/1809).\r\n* Infrastructure: Fixed UIKit's \"Navigate and Load\" study (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1807).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.49.0...0.49.1",
+    "createdAt" : "2023-01-10T04:10:09+09:00",
+    "fetchedFromAPIAt" : "2023-01-13T09:44:35+09:00",
+    "id" : "RE_kwDOD48kk84FRCGm",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-01-10T04:12:14+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.49.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.49.1",
+    "version" : "0.49.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: A longstanding bug in SwiftUI can cause bindings to be evaluated in views that are no longer rendered. In apps built in the Composable Architecture, which provides flexible tools for deriving custom bindings, this could lead to accessing state that no longer exists, which at worst could try to evaluate an element of an array at an invalidated index, crashing the application. While this bug was fixed in 0.48.0, it introduced another regression and was reverted in 0.48.1. We have a new workaround (thanks @iampatbrown, https://github.com/pointfreeco/swift-composable-architecture/pull/1802), that appears to be more reliable and work in both cases. If you encounter any regressions in `ViewStore.binding` behavior in your applications, [let us know](https://github.com/pointfreeco/swift-composable-architecture/issues/new?assignees=&labels=bug&template=bug_report.yml)!\r\n* Fixed: `Dependencies` has been force-bumped to 0.1.2 to work around a regression in how effects inherit dependencies (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1813).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.49.1...0.49.2",
+    "createdAt" : "2023-01-11T05:08:39+09:00",
+    "fetchedFromAPIAt" : "2023-01-13T09:44:35+09:00",
+    "id" : "RE_kwDOD48kk84FRmGw",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-01-11T05:42:43+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.49.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.49.2",
+    "version" : "0.49.2"
   }
 ]
