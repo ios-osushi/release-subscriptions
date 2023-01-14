@@ -346,5 +346,17 @@
     "title" : "ArgumentParser 1.1.4",
     "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.1.4",
     "version" : "1.1.4"
+  },
+  {
+    "body" : "### Changes\r\n\r\n- Documentation is now primarily hosted at the [Swift Package Index](https://swiftpackageindex.com/apple/swift-argument-parser).\r\n\r\n### Fixes\r\n\r\n- `exit(_:)` no longer causes infinite recursion on the WASI platform. (#520)\r\n- Completion scripts for `fish` now provide completions after a non-hyphen-prefixed argument has been provided. (#535) \r\n- Overload selection for custom `ExpressibleByArgument` types has been improved. (#522)\r\n- The usage string for `.postTerminator` arguments now includes the required terminator (`--`). (#542)\r\n- Documentation and testing fixes and improvements.\r\n\r\nThe 1.2.1 release includes contributions from @Chamepp, @kkk669, @mtj0928, @natecook1000, @rauhul, @rickrizzo, @TiagoMaiaL, and @yim-lee. Thank you!\r\n",
+    "createdAt" : "2023-01-14T04:15:14+09:00",
+    "fetchedFromAPIAt" : "2023-01-14T09:42:11+09:00",
+    "id" : "RE_kwDODmuHYc4FTJTz",
+    "owner" : "apple",
+    "publishedAt" : "2023-01-14T04:19:24+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.2.1",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.1",
+    "version" : "1.2.1"
   }
 ]

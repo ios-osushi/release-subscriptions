@@ -466,5 +466,17 @@
     "title" : "v10.33.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.33.0",
     "version" : "v10.33.0"
+  },
+  {
+    "body" : "Swift 5.5 is no longer supported. Swift 5.6 (Xcode 13.3) is now the minimum supported version.\r\n\r\nThe prebuilt binary for Carthage is now build with Xcode 14.2.\r\n\r\n### Enhancements\r\n\r\n* Improve performance of creating Projection objects and of change notifications on projections ([PR #8050](https://github.com/realm/realm-swift/pull/8050)).\r\n* Allow initialising any sync configuration with `cancelAsyncOpenOnNonFatalErrors`.\r\n* Improve performance of Combine value publishers which do not use the object/collection changesets a little.\r\n* All public types have been audited for sendability and are now marked as Sendable when applicable. A few types which were incidentally not thread-safe but make sense to use from multiple threads are now thread-safe.\r\n* Add support for building Realm with strict concurrency checking enabled.\r\n\r\n### Fixed\r\n\r\n* Fix bad memory access exception that can occur when watching change streams. [PR #8039](https://github.com/realm/realm-swift/pull/8039).\r\n* Object change notifications on projections only included the first projected property for each source property ([PR #8050](https://github.com/realm/realm-swift/pull/8050), since v10.21.0).\r\n* `@AutoOpen` failed to open flexible sync Realms while offline ([#7986](https://github.com/realm/realm-swift/issues/7986), since v10.27.0).\r\n* Fix \"Publishing changes from within view updates is not allowed\" warnings when using `@ObservedResults` or `@ObservedSectionedResults` ([#7908](https://github.com/realm/realm-swift/issues/7908)).\r\n* Fix \"Publishing changes from within view updates is not allowed\" warnings when using `@AutoOpen` or `@AsyncOpen`. ([#7908](https://github.com/realm/realm-swift/issues/7908)).\r\n* Defer `Realm.asyncOpen` execution on `@AsyncOpen` and `@AutoOpen` property wrappers until all the environment values are set. This will guarantee the configuration and partition value are set set before opening the realm. ([#7931](https://github.com/realm/realm-swift/issues/7931), since v10.12.0).\r\n* `@ObservedResults.remove()` could delete the wrong object if a write on a background thread which changed the index of the object being removed occurred at a very specific time (since v10.6.0).\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 11.0.0 - 12.0.0. 13.0.0 is currently incompatible.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 14.2.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 13.3-14.2.",
+    "createdAt" : "2023-01-14T09:17:52+09:00",
+    "fetchedFromAPIAt" : "2023-01-14T09:42:11+09:00",
+    "id" : "RE_kwDOAD24W84FTRvp",
+    "owner" : "realm",
+    "publishedAt" : "2023-01-14T09:21:07+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.34.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.34.0",
+    "version" : "v10.34.0"
   }
 ]
