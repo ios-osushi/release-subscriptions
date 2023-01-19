@@ -502,5 +502,17 @@
     "title" : "SwiftNIO 2.46.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.46.0",
     "version" : "2.46.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Remove useless instance variables in the SelectableEventLoop (#2338, patch credit to @thomas-gill-0xff)\r\n- Repair the Windows build of NIOCore (#2339, patch credit to @compnerd)\r\n- Allow writing and reading empty datagrams (#2341, patch credit to @hashemi)\r\n- Prepare mmsghdr structure properly. (#2346, patch credit to @ser-0xff)\r\n- Implement `remoteAddress0` and `localAddress0` on `EmbeddedChannel` (#2345)\r\n\r\n### Other Changes\r\n\r\n- Fix main nightly CI (#2337)\r\n- 2023 is real, we should support it (#2342)\r\n- Avoid actually allocating a giant buffer (#2347)\r\n- Avoid integer literals that won't fit. (#2348)",
+    "createdAt" : "2023-01-13T22:53:17+09:00",
+    "fetchedFromAPIAt" : "2023-01-19T09:45:22+09:00",
+    "id" : "RE_kwDOBy6rG84FUFRj",
+    "owner" : "apple",
+    "publishedAt" : "2023-01-17T02:32:40+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.47.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.47.0",
+    "version" : "2.47.0"
   }
 ]
