@@ -130,5 +130,17 @@
     "title" : "1.5.0",
     "url" : "https://github.com/apple/swift-log/releases/tag/1.5.0",
     "version" : "1.5.0"
+  },
+  {
+    "body" : "## Summary\r\n\r\nThis patch release focuses on minor cleanups to ergonomics of setting metadata providers with the default stream log handlers, and fixes a bug in the default handler not printing the provided extra metadata by default (it does now).\r\n\r\nThank you to @slashmo for quickly noticing and providing a patch for the latter!\r\n\r\n## What's Changed\r\n* Allow passing explicit provider into the stream handlers by @ktoso in https://github.com/apple/swift-log/pull/250\r\n* Emit correct metadata from StreamLogHandler by @slashmo in https://github.com/apple/swift-log/pull/251\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.5.0...1.5.1",
+    "createdAt" : "2023-01-19T19:40:11+09:00",
+    "fetchedFromAPIAt" : "2023-01-21T09:44:14+09:00",
+    "id" : "RE_kwDOCiSz584FVhD0",
+    "owner" : "apple",
+    "publishedAt" : "2023-01-19T19:42:16+09:00",
+    "repository" : "swift-log",
+    "title" : "1.5.1",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.5.1",
+    "version" : "1.5.1"
   }
 ]

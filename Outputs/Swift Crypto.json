@@ -298,5 +298,17 @@
     "title" : "Swift Crypto 2.2.3",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.3",
     "version" : "2.2.3"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Add AES block function to CryptoExtras (#142)\r\n- Update BoringSSL to 45b8d7bbd771cbf7e116db2ba1f1cc7af959497e (#143)",
+    "createdAt" : "2023-01-20T02:30:15+09:00",
+    "fetchedFromAPIAt" : "2023-01-21T09:44:14+09:00",
+    "id" : "RE_kwDOC9Swts4FVvI0",
+    "owner" : "apple",
+    "publishedAt" : "2023-01-20T02:43:25+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.2.4",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.4",
+    "version" : "2.2.4"
   }
 ]

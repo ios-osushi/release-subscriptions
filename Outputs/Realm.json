@@ -478,5 +478,17 @@
     "title" : "v10.34.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.34.0",
     "version" : "v10.34.0"
+  },
+  {
+    "body" : "### Fixed\n\n* Add some missing `@preconcurrency` annotations which lead to build failures\n  with Xcode 14.0 when importing via SPM or CocoaPods\n  ([#8104](https://github.com/realm/realm-swift/issues/8104), since v10.34.0).\n\n### Compatibility\n\n* Realm Studio: 11.0.0 - 12.0.0.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 14.2.\n* CocoaPods: 1.10 or later.\n* Xcode: 13.3-14.2.",
+    "createdAt" : "2023-01-21T07:06:28+09:00",
+    "fetchedFromAPIAt" : "2023-01-21T09:44:14+09:00",
+    "id" : "RE_kwDOAD24W84FWe-H",
+    "owner" : "realm",
+    "publishedAt" : "2023-01-21T07:10:12+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.34.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.34.1",
+    "version" : "v10.34.1"
   }
 ]
