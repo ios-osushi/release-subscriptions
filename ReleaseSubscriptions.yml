@@ -234,16 +234,16 @@ repositories:
   
   - kind: secondary
     case: releases
-    name: Dependencies
-    owner: pointfreeco
-    repo: swift-dependencies
-
-  - kind: secondary
-    case: releases
     name: The Composable Architecture
     owner: pointfreeco
     repo: swift-composable-architecture
   
+  - kind: secondary
+    case: releases
+    name: Dependencies
+    owner: pointfreeco
+    repo: swift-dependencies
+
   - kind: secondary
     case: releases
     name: Nimble
