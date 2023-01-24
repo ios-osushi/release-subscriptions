@@ -291,6 +291,12 @@ repositories:
     name: SwiftGen
     owner: SwiftGen
     repo: SwiftGen
+
+  - kind: secondary
+    case: releases
+    name: SwiftGenPlugin
+    owner: SwiftGen
+    repo: SwiftGenPlugin
   
   - kind: secondary
     case: releases
