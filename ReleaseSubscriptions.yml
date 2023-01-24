@@ -123,6 +123,12 @@ repositories:
     name: Lottie for iOS, macOS
     owner: airbnb
     repo: lottie-ios
+
+  - kind: secondary
+    case: releases
+    name: Lottie for Swift Package Manager
+    owner: airbnb
+    repo: lottie-spm
   
   - kind: secondary
     case: releases
