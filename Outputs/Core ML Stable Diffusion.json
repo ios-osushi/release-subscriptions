@@ -1,0 +1,14 @@
+[
+  {
+    "body" : "Initial release",
+    "createdAt" : "2022-12-01T04:41:05+09:00",
+    "fetchedFromAPIAt" : "2023-01-24T18:50:41+09:00",
+    "id" : "RE_kwDOIcVD8s4FHyU5",
+    "owner" : "apple",
+    "publishedAt" : "2022-12-14T04:08:03+09:00",
+    "repository" : "ml-stable-diffusion",
+    "title" : "0.1.0",
+    "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/0.1.0",
+    "version" : "0.1.0"
+  }
+]
