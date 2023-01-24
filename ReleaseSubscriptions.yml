@@ -6,6 +6,12 @@
 repositories:
   - kind: primary
     case: releases
+    name: Core ML Stable Diffusion
+    owner: apple
+    repo: ml-stable-diffusion
+
+  - kind: primary
+    case: releases
     name: Swift
     owner: apple
     repo: swift
