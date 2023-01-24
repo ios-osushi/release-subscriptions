@@ -6,6 +6,12 @@
 repositories:
   - kind: primary
     case: releases
+    name: Core ML Stable Diffusion
+    owner: apple
+    repo: ml-stable-diffusion
+
+  - kind: primary
+    case: releases
     name: Swift
     owner: apple
     repo: swift
@@ -117,6 +123,12 @@ repositories:
     name: Lottie for iOS, macOS
     owner: airbnb
     repo: lottie-ios
+
+  - kind: secondary
+    case: releases
+    name: Lottie for Swift Package Manager
+    owner: airbnb
+    repo: lottie-spm
   
   - kind: secondary
     case: releases
@@ -228,6 +240,12 @@ repositories:
   
   - kind: secondary
     case: releases
+    name: Dependencies
+    owner: pointfreeco
+    repo: swift-dependencies
+
+  - kind: secondary
+    case: releases
     name: Nimble
     owner: Quick
     repo: Nimble
@@ -279,6 +297,12 @@ repositories:
     name: SwiftGen
     owner: SwiftGen
     repo: SwiftGen
+
+  - kind: secondary
+    case: releases
+    name: SwiftGenPlugin
+    owner: SwiftGen
+    repo: SwiftGenPlugin
   
   - kind: secondary
     case: releases
