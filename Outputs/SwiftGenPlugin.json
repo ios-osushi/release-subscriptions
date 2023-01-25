@@ -1,15 +1,15 @@
 [
   {
-    "body" : "### Changes in core dependencies of SwiftGenPlugin\n\n* [SwiftGen 6.6.2](https://github.com/SwiftGen/SwiftGen/blob/6.6.2/CHANGELOG.md)",
-    "createdAt" : "2022-08-14T11:02:09+09:00",
+    "body" : "### Changes in core dependencies of SwiftGenPlugin\n\n* [SwiftGen 6.6.0](https://github.com/SwiftGen/SwiftGen/blob/6.6.0/CHANGELOG.md)",
+    "createdAt" : "2022-08-01T03:02:47+09:00",
     "fetchedFromAPIAt" : "2023-01-24T18:50:41+09:00",
-    "id" : "RE_kwDOHt1bwc4EbsGa",
+    "id" : "RE_kwDOHt1bwc4EXkuX",
     "owner" : "SwiftGen",
-    "publishedAt" : "2022-08-14T11:06:21+09:00",
+    "publishedAt" : "2022-08-01T03:03:46+09:00",
     "repository" : "SwiftGenPlugin",
-    "title" : "6.6.2",
-    "url" : "https://github.com/SwiftGen/SwiftGenPlugin/releases/tag/6.6.2",
-    "version" : "6.6.2"
+    "title" : "6.6.0",
+    "url" : "https://github.com/SwiftGen/SwiftGenPlugin/releases/tag/6.6.0",
+    "version" : "6.6.0"
   },
   {
     "body" : "### Changes in core dependencies of SwiftGenPlugin\n\n* [SwiftGen 6.6.1](https://github.com/SwiftGen/SwiftGen/blob/6.6.1/CHANGELOG.md)",
@@ -24,15 +24,15 @@
     "version" : "6.6.1"
   },
   {
-    "body" : "### Changes in core dependencies of SwiftGenPlugin\n\n* [SwiftGen 6.6.0](https://github.com/SwiftGen/SwiftGen/blob/6.6.0/CHANGELOG.md)",
-    "createdAt" : "2022-08-01T03:02:47+09:00",
+    "body" : "### Changes in core dependencies of SwiftGenPlugin\n\n* [SwiftGen 6.6.2](https://github.com/SwiftGen/SwiftGen/blob/6.6.2/CHANGELOG.md)",
+    "createdAt" : "2022-08-14T11:02:09+09:00",
     "fetchedFromAPIAt" : "2023-01-24T18:50:41+09:00",
-    "id" : "RE_kwDOHt1bwc4EXkuX",
+    "id" : "RE_kwDOHt1bwc4EbsGa",
     "owner" : "SwiftGen",
-    "publishedAt" : "2022-08-01T03:03:46+09:00",
+    "publishedAt" : "2022-08-14T11:06:21+09:00",
     "repository" : "SwiftGenPlugin",
-    "title" : "6.6.0",
-    "url" : "https://github.com/SwiftGen/SwiftGenPlugin/releases/tag/6.6.0",
-    "version" : "6.6.0"
+    "title" : "6.6.2",
+    "url" : "https://github.com/SwiftGen/SwiftGenPlugin/releases/tag/6.6.2",
+    "version" : "6.6.2"
   }
 ]
