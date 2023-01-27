@@ -514,5 +514,17 @@
     "title" : "SwiftNIO 2.47.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.47.0",
     "version" : "2.47.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Special case EventLoopPromise.succeed() when Value is Void (#2311, patch credit to @mob-connection)\r\n\r\n### SemVer Patch\r\n\r\n- Tail allocate mutex and a generic value using ManagedBuffer (#2349, patch credit to @asdf-bro)\r\n\r\n### Other Changes\r\n\r\n- Add Swift 5.8 CI and update nightly CI to Ubuntu 22.04 (#2350)\r\n- Lift alloc counter Package.swift to 5.1 and add platforms (#2352)\r\n- Point docs to Swift Package Index (#2353)\r\n- Fix flaky testTaskCancel_whenStreaming_andNotSuspended (#2355)",
+    "createdAt" : "2023-01-25T23:09:22+09:00",
+    "fetchedFromAPIAt" : "2023-01-27T09:45:47+09:00",
+    "id" : "RE_kwDOBy6rG84FYbXW",
+    "owner" : "apple",
+    "publishedAt" : "2023-01-26T22:19:31+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.48.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.48.0",
+    "version" : "2.48.0"
   }
 ]
