@@ -646,5 +646,17 @@
     "title" : "Nuke 11.5.3",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.5.3",
     "version" : "11.5.3"
+  },
+  {
+    "body" : "- Fix [#579](https://github.com/kean/Nuke/issues/579): `ImageEncoders.ImageIO` losing image orientation - [#643](https://github.com/kean/Nuke/pull/643)\r\n- Deprecate previously soft-deprecated `ImageRequestConvertible` - [#642](https://github.com/kean/Nuke/pull/642)\r\n- Add `isCompressionEnabled` option to `DataCache` that enables compression using Apple’s [lzfse](https://en.wikipedia.org/wiki/LZFSE) algorithm\r\n- Add `ExpressibleByStringLiteral` conformance to `ImageRequest`\r\n- Make compatible with Swift 6 mode\r\n- Now distributed with precompiled xcframeworks as an alternative installation option",
+    "createdAt" : "2023-01-28T06:37:08+09:00",
+    "fetchedFromAPIAt" : "2023-01-28T09:44:16+09:00",
+    "id" : "RE_kwDOAeh5z84FZKcl",
+    "owner" : "kean",
+    "publishedAt" : "2023-01-28T06:56:21+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.6.0",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.6.0",
+    "version" : "11.6.0"
   }
 ]
