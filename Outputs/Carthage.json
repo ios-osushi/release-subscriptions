@@ -370,5 +370,17 @@
     "title" : "0.28.0",
     "url" : "https://github.com/Carthage/Carthage/releases/tag/0.28.0",
     "version" : "0.28.0"
+  },
+  {
+    "body" : "## Fixed \r\n\r\n- [In Xcode 14, Carthage does not create tvOS & watchOS builds when Bitcode is disabled · Issue #3292 · Carthage/Carthage](https://github.com/Carthage/Carthage/issues/3292)\r\n\r\n## What's Changed\r\n* Add: --use-xcframeworks check by @ryu1sazae in https://github.com/Carthage/Carthage/pull/3204\r\n* Fix typo in fileReadCorruptFile error description by @TTOzzi in https://github.com/Carthage/Carthage/pull/3231\r\n* README.md: HTTP => HTTPS by @Schweinepriester in https://github.com/Carthage/Carthage/pull/3244\r\n* Update Xcode12Workaround.md by @Huang-Libo in https://github.com/Carthage/Carthage/pull/3248\r\n* Use modern Alamofire version in README by @jshier in https://github.com/Carthage/Carthage/pull/3200\r\n* Fix issue where Carthage doesn’t build for watchOS or tvOS if bitcode is disabled in Xcode 14 by @daltonclaybrook in https://github.com/Carthage/Carthage/pull/3293\r\n* Bump up version to 0.39.0 by @giginet in https://github.com/Carthage/Carthage/pull/3318\r\n\r\n## New Contributors\r\n* @ryu1sazae made their first contribution in https://github.com/Carthage/Carthage/pull/3204\r\n* @TTOzzi made their first contribution in https://github.com/Carthage/Carthage/pull/3231\r\n* @Schweinepriester made their first contribution in https://github.com/Carthage/Carthage/pull/3244\r\n* @Huang-Libo made their first contribution in https://github.com/Carthage/Carthage/pull/3248\r\n* @jshier made their first contribution in https://github.com/Carthage/Carthage/pull/3200\r\n* @daltonclaybrook made their first contribution in https://github.com/Carthage/Carthage/pull/3293\r\n\r\n**Full Changelog**: https://github.com/Carthage/Carthage/compare/0.38.0...0.39.0",
+    "createdAt" : "2023-01-28T17:49:03+09:00",
+    "fetchedFromAPIAt" : "2023-01-30T09:40:17+09:00",
+    "id" : "RE_kwDOAX4-3M4FZR8V",
+    "owner" : "Carthage",
+    "publishedAt" : "2023-01-28T17:58:07+09:00",
+    "repository" : "Carthage",
+    "title" : "0.39.0",
+    "url" : "https://github.com/Carthage/Carthage/releases/tag/0.39.0",
+    "version" : "0.39.0"
   }
 ]

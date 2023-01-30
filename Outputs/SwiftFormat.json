@@ -586,5 +586,17 @@
     "title" : "0.50.7",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.7",
     "version" : "0.50.7"
+  },
+  {
+    "body" : "- The `redundantBackticks` rule no longer removes required comments around `self`\r\n- Associated type headerdoc comments are now handles correctly by the `docComments` rule\r\n- Fixed mangled comments when using the `sortedSwitchCases` rule\r\n- Hex, octal or binary literals are now sorted correctly in `sortedSwitchCases` rule\r\n- Fixed regression in closed brace indentation (introduced in 0.50.7)\r\n- Fixed unsafe semicolon removal after inferred `var` properties\r\n- Added fileHeader placeholder documentation",
+    "createdAt" : "2023-01-29T23:26:57+09:00",
+    "fetchedFromAPIAt" : "2023-01-30T09:40:17+09:00",
+    "id" : "RE_kwDOA_OyXc4FZkoN",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-01-29T23:47:20+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.8",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.8",
+    "version" : "0.50.8"
   }
 ]
