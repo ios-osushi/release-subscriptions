@@ -706,5 +706,17 @@
     "title" : "0.50.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.50.0",
     "version" : "0.50.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: SwiftUI can write to bindings at inopportune times, like if a text field in a sheet is focussed, it will write to the binding _after_ the sheet has been dismissed. When using `IfLetStore`, this can lead to noisy runtime warnings emitted by TCA, where optional state driving the sheet is now `nil`, and thus the binding cannot write to state at this time. As a workaround, `IfLetStore` will now ignore actions sent through bindings when state is `nil` (https://github.com/pointfreeco/swift-composable-architecture/pull/1879).\r\n* Fixed: A bug in Swift 5.7 and earlier can cause the runtime metadata mechanism used by swift-case-paths to crash in release mode when an `Any` existential exists in the type data. Because `BindingAction` holds onto an `Any` under the hood, it could be responsible for the occasional crash in release mode when present in certain type layouts. We've worked around this bug to prevent crashes in release mode (https://github.com/pointfreeco/swift-composable-architecture/pull/1881).\r\n* Infrastructure: Fix docs link (thanks @Jager-yoo, https://github.com/pointfreeco/swift-composable-architecture/pull/1874); add note to reducer protocol dependency docs (https://github.com/pointfreeco/swift-composable-architecture/pull/1873); updated CoC to the latest Contributor Covenant.\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.50.0...0.50.1",
+    "createdAt" : "2023-01-31T05:31:23+09:00",
+    "fetchedFromAPIAt" : "2023-02-02T09:45:39+09:00",
+    "id" : "RE_kwDOD48kk84FaKcW",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-01-31T05:38:04+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.50.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.50.1",
+    "version" : "0.50.1"
   }
 ]
