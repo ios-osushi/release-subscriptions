@@ -358,5 +358,17 @@
     "title" : "ArgumentParser 1.2.1",
     "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.1",
     "version" : "1.2.1"
+  },
+  {
+    "body" : "### Fixes\r\n\r\n- Arguments with the `.allUnrecognized` parsing strategy no longer consume built-in flags like `--help` and `--version`. (#550)\r\n- Fixes an issue introduced in version 1.2.0 where properties with underscored names couldn't be parsed. (#548)\r\n- Improves the error message for cases where platform availability causes the synchronous `ParsableCommand.main()` static method to be run on an `AsyncParsableCommand` type. (#547)\r\n",
+    "createdAt" : "2023-02-10T02:25:51+09:00",
+    "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
+    "id" : "RE_kwDODmuHYc4FeqCi",
+    "owner" : "apple",
+    "publishedAt" : "2023-02-10T02:27:47+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.2.2",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.2",
+    "version" : "1.2.2"
   }
 ]

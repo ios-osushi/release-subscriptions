@@ -658,5 +658,41 @@
     "title" : "Nuke 11.6.0",
     "url" : "https://github.com/kean/Nuke/releases/tag/11.6.0",
     "version" : "11.6.0"
+  },
+  {
+    "body" : "- Fix [#653](https://github.com/kean/Nuke/issues/653): ImageView wasn't calling `prepareForReuse` on its `animatedImageView`",
+    "createdAt" : "2023-02-06T08:32:25+09:00",
+    "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
+    "id" : "RE_kwDOAeh5z84FcrTe",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-06T08:32:50+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.6.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.6.1",
+    "version" : "11.6.1"
+  },
+  {
+    "body" : "- Fix an issue with static GIFs not rendered correctly – [#667](https://github.com/kean/Nuke/pull/667) by [@Havhingstor](https://github.com/Havhingstor)",
+    "createdAt" : "2023-02-10T07:30:31+09:00",
+    "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
+    "id" : "RE_kwDOAeh5z84FeyrW",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-10T07:30:57+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.6.2",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.6.2",
+    "version" : "11.6.2"
+  },
+  {
+    "body" : "> **Warning**: This is an early preview. The documentation hasn't been updated yet.\r\n\r\n## NukeUI 2.0\r\n\r\nNukeUI started as a separate [repo](https://github.com/kean/NukeUI), but the initial production version was released as part of [Nuke 11](https://github.com/kean/Nuke/releases/tag/11.0.0). Let's call it NukeUI 1.0. The framework was designed before the [`AsyncImage`](https://developer.apple.com/documentation/swiftui/asyncimage) announcement and had a few discrepancies that made it harder to migrate from `AsyncImage`. This release addresses the shortcomings of the original design.\r\n\r\nStarting with NukeUI 2.0, `LazyImage` uses `SwiftUI.Image` to display images and eliminates any [discrepancies](https://github.com/kean/Nuke/issues/578) between `LazyImage` and `AsyncImage` layout and self-sizing behavior. And the previously used `NukeUI.Image` was removed so it no longer [conflicts](https://github.com/kean/Nuke/discussions/658) with `SwiftUI.Image`.\r\n\r\nNukeUI 1.0 tried to do too much in terms of _rendering_ images which is not its primary responsibility – _loading_ images is. The original design resulted in a convoluted and poorly composable API where `LazyImage` would know too much about how the images are rendered. This is no longer the case.\r\n\r\n- `LazyImage` now uses `SwiftUI.Image` for rendering images and the layout/sizing behavior matches `AsyncImage` exactly \r\n- Remove `Image`, `ImageView`, `ImageResizingMode`\r\n- Add `LazyImage` initializer that accepts `content` and `placeholder` closures (the same as `AsyncImage`)\r\n- Add `scale` parameter to `LazyImage` initializer \r\n- GIF rendering is no longer included in the framework. To enable it, use one of the frameworks that support GIF directly, such as [Gifu](https://github.com/kaishin/Gifu) \r\n- Video support is also disabled by default (this is subject to change)\r\n\r\n> **Warning**: GIF and video rendering are now disabled by default \r\n\r\n## Deprecations\r\n\r\nThis release also removes the APIs deprecated in the previous versions of the framework",
+    "createdAt" : "2023-02-10T07:30:31+09:00",
+    "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
+    "id" : "RE_kwDOAeh5z84Fez5m",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-10T09:00:08+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.0 (Beta 1)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.1",
+    "version" : "12.0.0-beta.1"
   }
 ]

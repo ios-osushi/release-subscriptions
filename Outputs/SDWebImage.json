@@ -502,5 +502,29 @@
     "title" : "5.15.0 - Performance Enhancement",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.0",
     "version" : "5.15.0"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.15.1 release](https://github.com/SDWebImage/SDWebImage/milestone/109)\r\n\r\n### Fixes\r\n- Ensure the Downloader and DownloaderOperation callback the completion in atomic and never miss one #3477\r\n- - This fix a long-term issue when multiple download request for same URL at the same time, some callbacks will missing. After fix, this will cause a brand new HTTP request but never miss any callbacks.\r\n- Fix the issue the fallback logic of ImageIO Source should avoid passing any UTI hint #3473\r\n- Try to fix the SDAsyncBlockOperation's race condition #3479 #3275\r\n- Avoid compiler generate the wrong property attribute with non-atomic #3474\r\n\r\n### Performance\r\n- Remove the unused extra copy for SDAnimatedImage data initializer #3480",
+    "createdAt" : "2023-02-06T22:57:28+09:00",
+    "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
+    "id" : "RE_kwDOAATIS84Fc6z9",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-02-06T22:58:26+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.15.1 - Race Condition Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.1",
+    "version" : "5.15.1"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.15.2 release](https://github.com/SDWebImage/SDWebImage/milestone/110)\r\n\r\n### Fixes\r\n- Fix the atomic logic between downloader and operation again #3483\r\n\r\n### Warnings\r\n- Code garden to change Objc bool from true/false to YES/NO #3484",
+    "createdAt" : "2023-02-07T16:20:42+09:00",
+    "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
+    "id" : "RE_kwDOAATIS84FdR5J",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-02-07T16:21:42+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.15.2 - Race Condition Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.2",
+    "version" : "5.15.2"
   }
 ]

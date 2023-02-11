@@ -718,5 +718,17 @@
     "title" : "0.50.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.50.1",
     "version" : "0.50.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Changed: Improved formatting of test store failures when expected action isn't received (https://github.com/pointfreeco/swift-composable-architecture/pull/1883).\r\n* Changed: Added unavailable overloads to `TestStore.send` and `receive` when state/action is not `Equatable` (https://github.com/pointfreeco/swift-composable-architecture/pull/1890). This should improve compiler error messaging when attempting to write tests against non-equatable state.\r\n* Changed: `Scope`'s trailing builder parameter now has an explicit name, `child`, and `ReducerProtocol.forEach` has an explicit `element` (https://github.com/pointfreeco/swift-composable-architecture/pull/1897).\r\n* Infrastructure: Documentation and deprecation fixes (thanks @bjford, https://github.com/pointfreeco/swift-composable-architecture/pull/1893; @eimantas, https://github.com/pointfreeco/swift-composable-architecture/pull/1896).\r\n* Infrastructure: Added a workflow for Slack release announcements (https://github.com/pointfreeco/swift-composable-architecture/pull/1899).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.50.1...0.50.2",
+    "createdAt" : "2023-02-11T05:54:57+09:00",
+    "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
+    "id" : "RE_kwDOD48kk84FfO_S",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-02-11T06:01:17+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.50.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.50.2",
+    "version" : "0.50.2"
   }
 ]
