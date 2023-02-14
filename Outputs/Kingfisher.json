@@ -478,5 +478,17 @@
     "title" : "7.6.0 - Content Configuration",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.6.0",
     "version" : "7.6.0"
+  },
+  {
+    "body" : "#### Fix\n* A compiling issue that new version of Swift (Swift 5.8) refuses to accept the false-positive optional binding. [#2029](https://github.com/onevcat/Kingfisher/pull/2029) @JetForMe\n\n",
+    "createdAt" : "2023-02-13T20:22:13+09:00",
+    "fetchedFromAPIAt" : "2023-02-14T09:45:40+09:00",
+    "id" : "RE_kwDOAf70wM4Ffume",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-02-13T20:23:38+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.6.1 - Strict for Compiling",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.6.1",
+    "version" : "7.6.1"
   }
 ]
