@@ -730,5 +730,17 @@
     "title" : "0.50.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.50.2",
     "version" : "0.50.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Changed: The `Identified` type has been extracted from the Composable Architecture and now comes from Identified Collections (https://github.com/pointfreeco/swift-composable-architecture/pull/1907).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.50.2...0.50.3",
+    "createdAt" : "2023-02-15T02:16:05+09:00",
+    "fetchedFromAPIAt" : "2023-02-15T09:46:13+09:00",
+    "id" : "RE_kwDOD48kk84FgeGf",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-02-15T02:19:25+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.50.3",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.50.3",
+    "version" : "0.50.3"
   }
 ]
