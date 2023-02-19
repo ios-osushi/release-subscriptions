@@ -742,5 +742,17 @@
     "title" : "0.50.3",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.50.3",
     "version" : "0.50.3"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: Escaping `send` from `Effect.run` and sending actions to it after the effect has completed now produces runtime warnings (thanks @kabiroberai, https://github.com/pointfreeco/swift-composable-architecture/pull/1900).\r\n* Changed: `ReducerProtocol._printChanges()` now logs to console for Xcode 14.3 previews (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1917).\r\n* Changed: The `Send` type has been moved to be nested in the `Effect` type and should no longer take precedence over the `Sendable` protocol in autocomplete (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1911).\r\n* Changed: `WithViewStore` now conforms to `View` (https://github.com/pointfreeco/swift-composable-architecture/pull/1910).\r\n* Fixed: Fix some Xcode 14.3 / sendability checking warnings (https://github.com/pointfreeco/swift-composable-architecture/pull/1920).\r\n\r\n## New Contributors\r\n* @kabiroberai made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1900\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.50.3...0.51.0",
+    "createdAt" : "2023-02-18T04:28:31+09:00",
+    "fetchedFromAPIAt" : "2023-02-19T09:46:39+09:00",
+    "id" : "RE_kwDOD48kk84FiTSw",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-02-18T04:36:02+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.51.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.51.0",
+    "version" : "0.51.0"
   }
 ]

@@ -598,5 +598,17 @@
     "title" : "0.50.8",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.8",
     "version" : "0.50.8"
+  },
+  {
+    "body" : "- Added Github actions log reporter (see `--reporter` option for details)\r\n- Fixed bug where `redundantType` sometimes stripped in cases where it couldn't be inferred\r\n- The `redundantType` rule now supports removing type in more cases where supported\r\n- Made SwiftFormat for Xcode instructions dynamic according to OS version\r\n- Fixed bug where a trailing comma could be left behind by `opaqueGenericParameters` rule\r\n- Fixed bug where `wrapAttributes` rule sometimes wrapped inline attributes like `@MainActor`\r\n- Improved support for `// swiftformat:options` comment directives\r\n- Removed deprecated options from the example `.swiftformat` file",
+    "createdAt" : "2023-02-17T07:59:39+09:00",
+    "fetchedFromAPIAt" : "2023-02-19T09:46:39+09:00",
+    "id" : "RE_kwDOA_OyXc4Fh64y",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-02-17T08:16:43+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.50.9",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.9",
+    "version" : "0.50.9"
   }
 ]

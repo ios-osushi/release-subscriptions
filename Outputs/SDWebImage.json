@@ -526,5 +526,17 @@
     "title" : "5.15.2 - Race Condition Fix",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.2",
     "version" : "5.15.2"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.15.3 release](https://github.com/SDWebImage/SDWebImage/milestone/111)\r\n\r\n### Fixes\r\n- Fix the issue when multiple request for same url failed, the completedBlock will callback more times #3497 #3493\r\n- Try to fix the SDAnimatedImageView playback speed issue in Promotion devices (iPhone Pro) #3496 #3491",
+    "createdAt" : "2023-02-18T20:49:32+09:00",
+    "fetchedFromAPIAt" : "2023-02-19T09:46:39+09:00",
+    "id" : "RE_kwDOAATIS84Fibss",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-02-18T20:50:17+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.15.3 - Promotion Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.3",
+    "version" : "5.15.3"
   }
 ]

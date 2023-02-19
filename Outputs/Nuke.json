@@ -694,5 +694,29 @@
     "title" : "Nuke 12.0 (Beta 1)",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.1",
     "version" : "12.0.0-beta.1"
+  },
+  {
+    "body" : "- Extract progress from `FetchImage` to a separate observable object and reduce a number of `body` reloads\r\n- Disable animations by default \r\n\r\nSee also: [Nuke 12.0 (Beta 1) changes](https://github.com/kean/Nuke/releases/tag/12.0.0-beta.1)",
+    "createdAt" : "2023-02-18T09:50:44+09:00",
+    "fetchedFromAPIAt" : "2023-02-19T09:46:39+09:00",
+    "id" : "RE_kwDOAeh5z84FiY55",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-18T11:00:04+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.0 (Beta 2)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.2",
+    "version" : "12.0.0-beta.2"
+  },
+  {
+    "body" : "- `ImageCache` uses 20% of available RAM which is quite aggressive. It's a good default on iOS because it clears 90% of the used RAM when entering the background to be a good citizen. But it's not a good default on a Mac where the app is constantly running, and the RAM usage is highly visible. Starting with Nuke 12, the default size is now strictly limited by 512 MB.\r\n- Move all video-related code to a separate module `NukeVideo`, so that the users who don't need it, which are the majoriry, don't need to pay the extra compile time / code size price\r\n- Remove `ImageContainer.asset`. The asset is now added to `ImageContainer/userInfo` under the new `.videoAssetKey`.\r\n- Make `_PlatformImageView` internal (was public)\r\n- Fix an issue with `FetchImage/progress` not delivering updates\r\n- `FetchImage/progress` is now created lazily\r\n- Remove callbacks from `FetchImage`\r\n- `FetchImage/image` now returns `Image` instead of `PlatformImage`",
+    "createdAt" : "2023-02-19T07:34:34+09:00",
+    "fetchedFromAPIAt" : "2023-02-19T09:46:39+09:00",
+    "id" : "RE_kwDOAeh5z84FifaN",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-19T07:53:40+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.0 (Beta 3)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.3",
+    "version" : "12.0.0-beta.3"
   }
 ]
