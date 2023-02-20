@@ -718,5 +718,29 @@
     "title" : "Nuke 12.0 (Beta 3)",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.3",
     "version" : "12.0.0-beta.3"
+  },
+  {
+    "body" : "- Fix warnings in Xcode 14.3",
+    "createdAt" : "2023-02-19T12:49:54+09:00",
+    "fetchedFromAPIAt" : "2023-02-20T09:50:01+09:00",
+    "id" : "RE_kwDOAeh5z84Fig9B",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-19T13:06:45+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.6.3",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.6.3",
+    "version" : "11.6.3"
+  },
+  {
+    "body" : "- Remove the convenience `LazyImage(url:content:placeholder:)` init method that doesn't offer much compared to the main init and remove public `_LazyImageContents`\r\n- Fix an issue where if you change the `LazyImage`'s `processors` or `priority` without also changing the image source, the image wasn't being reloaded\r\n- Remove some of the typealises from `NukeUI`\r\n- Remove the deprecated APIs in NukeUI\r\n- Add missing scale parameter to init with content\r\n- `ImageDecoder` now defaults to scale `1` for images\r\n- Remove `scale` parameter from `LazyImage` init: it's available via `ImageRequest` `userInfo`",
+    "createdAt" : "2023-02-19T13:33:01+09:00",
+    "fetchedFromAPIAt" : "2023-02-20T09:50:01+09:00",
+    "id" : "RE_kwDOAeh5z84FihGy",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-19T13:46:35+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.0 (Beta 4)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.4",
+    "version" : "12.0.0-beta.4"
   }
 ]

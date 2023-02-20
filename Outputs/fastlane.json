@@ -442,5 +442,17 @@
     "title" : "2.210.1 Hotfix for deliver and pilot",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.210.1",
     "version" : "2.210.1"
+  },
+  {
+    "body" : "* [fastlane_core] New FASTLANE_WWDR_USE_HTTP1_AND_RETRIES env (feature flag) to use http 1.1 and retries when installing WWDC certs to fix some CI failures (#21044) via Josh Holtz (@joshdholtz)\n* [CI] Update deprecated CircleCI images (#20932) via Aaron Brager (@getaaron)\n* [spaceship] Add language name in stack trace when localization operations fail (#20581) via Cristian Caruceru (@ccaruceru)\n* [gym] Add show build timing summary option (#20896) via Pol Piella (@polpielladev)\n* [deliver] add iPad Pro 6th generation (#20993) via Kohki Miki (@giginet)\n* [action][import_from_git] fix error when cache_path is not specified (#20958) via Vitalii Budnik (@nekrich)\n* [spaceship] add methods to rename and disable/enable devices (#20928) via Vitalii Budnik (@nekrich)\n* [spaceship] Remove unused params in ConnectAPI::Device (#20931) via Aaron Brager (@getaaron)\n* [action][xcodes] add error handling for `xcodes` when running the `installed` cmd (#20867) via Gio Lodi (@mokagio)\n* [scan] add option to specify result bundle path (#20742) via Benedek Kozma (@Cyberbeni)\n* [deliver] fix bug when canceling a rejected submission (#20754) via merchang (@merchang)\n* [fastlane_core] prevent negative argument error for message formatting (#20857) via Akseli Lukkarila (@akselilukkarila)\n* [spaceship] support fetching `build_bundle_file_sizes` for a `BuildBundle` (#20860) via Liam Nichols (@liamnichols)\n* [action][update_project_provisioning] redownload AppleIncRootCertificate.cer if file size is 0. (#20812) via Jerry.Qiushi (@JerryZQS)\n* [docs] add link to Spaceship Debugging docs from Tooling and Debugging docs (#20849) via Rob Mathers (@robmathers)\n* [screengrab] fix formatting of the `screengrab` / `capture_android_screenshots` docs (#20597) via Olivier Halligon (@AliSoftware)\n* [action][pod lib lint] fix grammar in success message (#20627) via Tejas Sharma (@tejassharma96)\n* [match] developer id installer profile for the accessible environments (#20782) via Paul Taykalo (@PaulTaykalo)",
+    "createdAt" : "2023-02-20T00:32:26+09:00",
+    "fetchedFromAPIAt" : "2023-02-20T09:50:01+09:00",
+    "id" : "RE_kwDOAaK_F84Fik6_",
+    "owner" : "fastlane",
+    "publishedAt" : "2023-02-20T00:58:19+09:00",
+    "repository" : "fastlane",
+    "title" : "2.212.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.212.0",
+    "version" : "2.212.0"
   }
 ]

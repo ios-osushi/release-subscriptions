@@ -406,5 +406,17 @@
     "title" : "0.15.0",
     "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.15.0",
     "version" : "0.15.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix packaging on macOS 12.6 by @thii in https://github.com/tuist/xcbeautify/pull/87\r\n* Add support for xcodebuild exportLocalizations warnings by @clayellis in https://github.com/tuist/xcbeautify/pull/91\r\n* Update ruby and gems by @thii in https://github.com/tuist/xcbeautify/pull/96\r\n\r\n## New Contributors\r\n* @clayellis made their first contribution in https://github.com/tuist/xcbeautify/pull/91\r\n\r\n**Full Changelog**: https://github.com/tuist/xcbeautify/compare/0.16.0...0.17.0",
+    "createdAt" : "2023-02-19T10:34:30+09:00",
+    "fetchedFromAPIAt" : "2023-02-20T09:50:01+09:00",
+    "id" : "RE_kwDOCNUZc84FigKe",
+    "owner" : "tuist",
+    "publishedAt" : "2023-02-19T10:34:44+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.17.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.17.0",
+    "version" : "0.17.0"
   }
 ]
