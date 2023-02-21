@@ -742,5 +742,29 @@
     "title" : "Nuke 12.0 (Beta 4)",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.4",
     "version" : "12.0.0-beta.4"
+  },
+  {
+    "body" : "- Fix [#671](https://github.com/kean/Nuke/pull/671): `ImagePipeline/image(for:)` hangs if you cancel the async Task before it is started. Thanks @muukii for reporting and providing a sample.",
+    "createdAt" : "2023-02-20T11:25:56+09:00",
+    "fetchedFromAPIAt" : "2023-02-21T09:47:53+09:00",
+    "id" : "RE_kwDOAeh5z84Fiqz8",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-20T11:40:01+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 11.6.4",
+    "url" : "https://github.com/kean/Nuke/releases/tag/11.6.4",
+    "version" : "11.6.4"
+  },
+  {
+    "body" : "Redesign the concurrency APIs in Nuke ahead of the upcoming changes in Xcode 14.3, making them safer and ergonomic to use, and fully `Sendable`-compliant.\r\n\r\n- Add `ImagePipeline/imageTask(with:)` method that returns a new type `AsyncImageTask` that you can use to monitor the task progress, change its priority, and, of course, fetch the response.\r\n\r\n```swift\r\nlet task = ImagePipeline.shared.imageTask(with: URL(string: \"example.com\"))\r\nfor await progress in task.progress {\r\n    print(\"Updated progress: \", progress)\r\n}\r\nlet image = try await task.image\r\n```\r\n\r\n- The existing convenience `ImagePipeline/image(for:)` methods now return `UIImage` (or `NSImage`)  instead of `ImageResponse`\r\n- Remove the `delegate` parameter from the existing `ImagePipeline/image(for:)` async/await method to address the upcoming concurrency warnings in Xcode 14.3\r\n- Remove `ImageTaskDelegate` and move its methods to `ImagePipelineDelegate` and add the `pipeline` parameter\r\n- Add one final `LazyImage` optimization where when the image is in memory cache, `LazyImage` now requires a single body calculation to render it (instead of three before) – can't get better than this\r\n",
+    "createdAt" : "2023-02-20T11:41:08+09:00",
+    "fetchedFromAPIAt" : "2023-02-21T09:47:53+09:00",
+    "id" : "RE_kwDOAeh5z84FjHfy",
+    "owner" : "kean",
+    "publishedAt" : "2023-02-21T07:17:16+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.0 (Beta 5)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0-beta.5",
+    "version" : "12.0.0-beta.5"
   }
 ]
