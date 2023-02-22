@@ -538,5 +538,17 @@
     "title" : "5.15.3 - Promotion Fix",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.3",
     "version" : "5.15.3"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.15.4 release](https://github.com/SDWebImage/SDWebImage/milestone/112)\r\n\r\n### Fixes\r\n- Fix the crash because of wrong usage of NS_NOESCAPE for SDCallbackQueue async block, should matching DispatchQueue #3500\r\n- - This crash only occurs in specified version of clang compiler. But still recommended to update",
+    "createdAt" : "2023-02-21T22:15:10+09:00",
+    "fetchedFromAPIAt" : "2023-02-22T09:42:57+09:00",
+    "id" : "RE_kwDOAATIS84FjXyX",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-02-21T22:16:06+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.15.4 - Hotfix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.4",
+    "version" : "5.15.4"
   }
 ]
