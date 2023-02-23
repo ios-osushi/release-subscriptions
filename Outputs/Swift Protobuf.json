@@ -418,5 +418,17 @@
     "title" : "1.20.2 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.20.2",
     "version" : "1.20.2"
+  },
+  {
+    "body" : "## What's Changed\r\n* 1.x branch unknown enums decoding option support by @thomasvl in https://github.com/apple/swift-protobuf/pull/1347\r\n* 1.x branch: Bump the Swift 5.7.0 testing to 5.7.2. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1354\r\n* 1.x branch: Fail to encode google.protobuf.Value number if not finite. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1353\r\n* 1.x branch: Add import paths to SPM Plugin (#1373) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1374\r\n* 1.x branch: Validate length before turning into an Int. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1376\r\n* 1.x branch: bump to 1.21.0 to make a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1383\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.20.3...1.21.0",
+    "createdAt" : "2023-02-23T05:40:52+09:00",
+    "fetchedFromAPIAt" : "2023-02-23T09:43:57+09:00",
+    "id" : "RE_kwDOBAEMEM4FkJQb",
+    "owner" : "apple",
+    "publishedAt" : "2023-02-23T06:39:20+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.21.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.21.0",
+    "version" : "1.21.0"
   }
 ]
