@@ -490,5 +490,17 @@
     "title" : "7.6.1 - Strict for Compiling",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.6.1",
     "version" : "7.6.1"
+  },
+  {
+    "body" : "#### Fix\n* An issue causes high CPU usage and infinite loop when setting `nil` URL to a `KFImage` when `startLoadingBeforeViewAppear` is also `true`. [#2035](https://github.com/onevcat/Kingfisher/issues/2035) Big thanks to @BobbyRohweder\n* The extension support for `CPListItem` won't set the image back to blank when the loading failing. Now it keeps showing the placeholder, if set. [#2031](https://github.com/onevcat/Kingfisher/pull/2031) @DevVenusK\n\n",
+    "createdAt" : "2023-02-23T09:56:29+09:00",
+    "fetchedFromAPIAt" : "2023-02-24T09:48:23+09:00",
+    "id" : "RE_kwDOAf70wM4FkN-X",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-02-23T09:57:57+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.6.2 - Fix Dead Loop",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.6.2",
+    "version" : "7.6.2"
   }
 ]
