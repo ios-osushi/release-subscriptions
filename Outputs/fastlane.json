@@ -454,5 +454,17 @@
     "title" : "2.212.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.212.0",
     "version" : "2.212.0"
+  },
+  {
+    "body" : "* [spaceship] Implements new hashcash header in auth flow (#21073) via Josh Holtz (@joshdholtz)\n* [spaceship] Fix Apple ID 2FA with SMS (#21072) via Josh Holtz (@joshdholtz)",
+    "createdAt" : "2023-02-25T00:36:56+09:00",
+    "fetchedFromAPIAt" : "2023-02-25T11:17:01+09:00",
+    "id" : "RE_kwDOAaK_F84FlCqG",
+    "owner" : "fastlane",
+    "publishedAt" : "2023-02-25T01:05:56+09:00",
+    "repository" : "fastlane",
+    "title" : "2.212.1 Fix for Apple ID lockout and Access Forbidden with new hashcash header",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.212.1",
+    "version" : "2.212.1"
   }
 ]
