@@ -358,5 +358,17 @@
     "title" : "1.7.1",
     "url" : "https://github.com/uber/mockolo/releases/tag/1.7.1",
     "version" : "1.7.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Use SwiftSyntax.TokenKind to determine a String is SwiftKeyword or not. by @sidepelican in https://github.com/uber/mockolo/pull/208\r\n* Add customImports command shorthand back by @tinder-matthewmourlam in https://github.com/uber/mockolo/pull/196\r\n* Disable Start/done logs when log level is 3 by @maxwellE in https://github.com/uber/mockolo/pull/209\r\n* Support `some` parameter's handler by @fummicc1 in https://github.com/uber/mockolo/pull/213\r\n* Prepare for update to version 1.8.1 by @fummicc1 in https://github.com/uber/mockolo/pull/215\r\n\r\n## New Contributors\r\n* @tinder-matthewmourlam made their first contribution in https://github.com/uber/mockolo/pull/196\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/1.8.0...1.8.1",
+    "createdAt" : "2023-02-28T11:19:13+09:00",
+    "fetchedFromAPIAt" : "2023-03-01T09:52:37+09:00",
+    "id" : "RE_kwDOCaWADM4FmHHN",
+    "owner" : "uber",
+    "publishedAt" : "2023-02-28T11:41:57+09:00",
+    "repository" : "mockolo",
+    "title" : "1.8.1",
+    "url" : "https://github.com/uber/mockolo/releases/tag/1.8.1",
+    "version" : "1.8.1"
   }
 ]

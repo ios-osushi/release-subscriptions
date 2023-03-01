@@ -610,5 +610,17 @@
     "title" : "0.50.9",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.9",
     "version" : "0.50.9"
+  },
+  {
+    "body" : "- Added `hoistAwait` and `hoistTry` rules to hoist inline `await`/`try` to start of expression\r\n- Extended `redundantPattern` rule to remove redundant `let` in patterns\r\n- The `wrapMultilineStatementBraces` rules is now applied more consistently\r\n- Updated `redundantReturn`/`Closure` rules to support `if`/`switch` expressions in Swift 5.8\r\n- Added `conditionalAssignment` rule to assign variables using `if`/`switch` expressions in Swift 5.8\r\n- Updated `redundantType` rule to support `if`/`switch` expression assignment Swift 5.8\r\n- Extended `redundantSelf` rule to support implicit `self` in eligible closures in Swift 5.8\r\n- SwiftFormat now ignores `.swiftformat` files when explicit `--config` file is provided\r\n- Added `--wrapenumcases with-values` option to only wrap enum cases with values\r\n- Added `--wrapeffects` option for wrapping function effects\r\n- Removed unsafe `preferDouble` rule",
+    "createdAt" : "2023-03-01T07:45:21+09:00",
+    "fetchedFromAPIAt" : "2023-03-01T09:52:37+09:00",
+    "id" : "RE_kwDOA_OyXc4Fmnmd",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-03-01T07:48:11+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.0",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.0",
+    "version" : "0.51.0"
   }
 ]
