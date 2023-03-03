@@ -622,5 +622,17 @@
     "title" : "0.51.0",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.0",
     "version" : "0.51.0"
+  },
+  {
+    "body" : "- Fixed `redundantNilInit` removing required `nil` inside Result Builders\r\n- Fixed `redundantLet` removing required `let` inside Result Builder `switch/case` statements\r\n- Fixed `hoistTry` rule removing second `try` inside XCTAssert statements\r\n",
+    "createdAt" : "2023-03-02T16:49:12+09:00",
+    "fetchedFromAPIAt" : "2023-03-03T11:38:13+09:00",
+    "id" : "RE_kwDOA_OyXc4FnT6S",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-03-02T17:04:02+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.1",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.1",
+    "version" : "0.51.1"
   }
 ]
