@@ -550,5 +550,17 @@
     "title" : "5.15.4 - Hotfix",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.4",
     "version" : "5.15.4"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.15.5 release](https://github.com/SDWebImage/SDWebImage/milestone/113)\r\n\r\n### Fixes\r\n- Protect the disk operation when input key is nil and cause exception #3505 #3504\r\n- Fix the blur effect logic by avoid color convert and always use three box-blur methodology #3506",
+    "createdAt" : "2023-03-04T00:12:18+09:00",
+    "fetchedFromAPIAt" : "2023-03-04T13:24:18+09:00",
+    "id" : "RE_kwDOAATIS84FoNza",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-03-04T00:13:27+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.15.5 - Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.5",
+    "version" : "5.15.5"
   }
 ]

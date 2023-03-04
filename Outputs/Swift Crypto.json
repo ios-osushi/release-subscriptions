@@ -310,5 +310,17 @@
     "title" : "Swift Crypto 2.2.4",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.2.4",
     "version" : "2.2.4"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Support SwiftWasm (#145, patch credit to @AndrewBarba)\r\n\r\n### Other Changes\r\n\r\n- build: add `ARM64` spelling for Windows (#148, patch credit to @compnerd)\r\n- Set up CMake build for _CryptoExtras (#144)",
+    "createdAt" : "2023-03-03T05:13:00+09:00",
+    "fetchedFromAPIAt" : "2023-03-04T13:24:18+09:00",
+    "id" : "RE_kwDOC9Swts4FoBy7",
+    "owner" : "apple",
+    "publishedAt" : "2023-03-03T18:15:28+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.3.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.3.0",
+    "version" : "2.3.0"
   }
 ]
