@@ -550,5 +550,17 @@
     "title" : "7.2.4-alpha.2",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.2.4-alpha.2",
     "version" : "7.2.4-alpha.2"
+  },
+  {
+    "body" : "- Add flag `--omit-main-let` to disable main `R` let generation: https://github.com/mac-cain13/R.swift/pull/809 (thanks @jimmya)\r\n- Resolve symlinks when comparing Asset Catalog base URLs: https://github.com/mac-cain13/R.swift/pull/811 (thanks @cerisier)\r\n- Re-enable watchOS in CocoaPods podspec: https://github.com/mac-cain13/R.swift/issues/800\r\n",
+    "createdAt" : "2023-03-06T00:31:01+09:00",
+    "fetchedFromAPIAt" : "2023-03-06T10:49:59+09:00",
+    "id" : "RE_kwDOAamb-84FotGS",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2023-03-06T00:45:53+09:00",
+    "repository" : "R.swift",
+    "title" : "7.3.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.3.0",
+    "version" : "7.3.0"
   }
 ]
