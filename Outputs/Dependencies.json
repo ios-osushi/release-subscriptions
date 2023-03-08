@@ -58,5 +58,17 @@
     "title" : "0.1.4",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.1.4",
     "version" : "0.1.4"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: The dependency context (live, test, preview) can now be specified with an environment variable (https://github.com/pointfreeco/swift-dependencies/pull/60).\r\n* Changed: Fire-and-forget's `testValue` no longer participates in cooperative cancellation, making it behave more like the `liveValue` (https://github.com/pointfreeco/swift-dependencies/pull/59).\r\n* Infrastructure: Added [Testing](https://pointfreeco.github.io/swift-dependencies/main/documentation/dependencies/testing/) article to documentation (https://github.com/pointfreeco/swift-dependencies/pull/33).\r\n* Infrastructure: Fixed typo in documentation (thanks @karlis, https://github.com/pointfreeco/swift-dependencies/pull/35).\r\n* Infrastructure: Added `withEscapedDependencies` documentation (https://github.com/pointfreeco/swift-dependencies/pull/39).\r\n* Infrastructure: Clarify that `previewValue` must be defined in interface module in documentation (https://github.com/pointfreeco/swift-dependencies/pull/50),\r\n* Infrastructure: Add a reference to Weaver to the \"Alternatives\" section of README (thanks @tgrapperon, https://github.com/pointfreeco/swift-dependencies/pull/51).\r\n* Infrastructure: Document the issue about linking `Dependencies` in the tests target (thanks @tgrapperon, https://github.com/pointfreeco/swift-dependencies/pull/56).\r\n\r\n## New Contributors\r\n\r\n* @karlis made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/35\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.1.4...0.2.0",
+    "createdAt" : "2023-03-08T02:14:04+09:00",
+    "fetchedFromAPIAt" : "2023-03-08T09:47:37+09:00",
+    "id" : "RE_kwDOIF_Mq84Fpxxr",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-03-08T06:49:57+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "0.2.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.2.0",
+    "version" : "0.2.0"
   }
 ]
