@@ -754,5 +754,17 @@
     "title" : "0.51.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.51.0",
     "version" : "0.51.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: Support for `XCTModify` and non-exhaustive testing (https://github.com/pointfreeco/swift-composable-architecture/pull/1939).\r\n* Added: Library reducer operators are now annotated with `@warn_unqualified_access` to prevent accidental bugs (https://github.com/pointfreeco/swift-composable-architecture/pull/1950).\r\n* Added: `Effect.publisher` for bridging effects from Combine (https://github.com/pointfreeco/swift-composable-architecture/pull/1958).\r\n* Changed: `Effect<Action>.Send` has been renamed to `Send<Action>` (thanks @tgrapperon, https://github.com/pointfreeco/swift-composable-architecture/pull/1930).\r\n* Changed: Dependencies have been bumped to their latest versions to encourage adoption of bug fixes (https://github.com/pointfreeco/swift-composable-architecture/pull/1964).\r\n* Fixed: Dependencies are no longer recursively propagated over effects (https://github.com/pointfreeco/swift-composable-architecture/pull/1954).\r\n* Fixed: `TestStore.init` now calls `prepareDependencies` in a `withDependencies` block (https://github.com/pointfreeco/swift-composable-architecture/pull/1955).\r\n* Infrastructure: Fix UI test for `ForEach` bindings (https://github.com/pointfreeco/swift-composable-architecture/pull/1933).\r\n* Infrastructure: Add missing documentation to `Store.init` (thanks @kristofferjohansson, https://github.com/pointfreeco/swift-composable-architecture/pull/1940).\r\n* Infrastructure: DocC fixes (https://github.com/pointfreeco/swift-composable-architecture/pull/1942, https://github.com/pointfreeco/swift-composable-architecture/pull/1956).\r\n* Infrastructure: Update latest version documentation link in README (thanks @yimajo, https://github.com/pointfreeco/swift-composable-architecture/pull/1943)\r\n* Infrastructure: Fix `.forEach()` documentation (thanks @finestructure, https://github.com/pointfreeco/swift-composable-architecture/pull/1957).\r\n* Infrastructure: Documentation grammar fixes (thanks @bjford, https://github.com/pointfreeco/swift-composable-architecture/pull/1963)\r\n\r\n## New Contributors\r\n\r\n* @kristofferjohansson made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/1940\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.51.0...0.52.0",
+    "createdAt" : "2023-03-08T14:47:47+09:00",
+    "fetchedFromAPIAt" : "2023-03-09T10:12:05+09:00",
+    "id" : "RE_kwDOD48kk84Fp9Y4",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-03-08T14:56:50+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.52.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.52.0",
+    "version" : "0.52.0"
   }
 ]
