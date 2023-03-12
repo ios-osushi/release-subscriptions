@@ -322,5 +322,17 @@
     "title" : "Swift Crypto 2.3.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.3.0",
     "version" : "2.3.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Make RSA public key formats consistent on all platforms (#151)",
+    "createdAt" : "2023-03-10T20:38:36+09:00",
+    "fetchedFromAPIAt" : "2023-03-12T09:46:51+09:00",
+    "id" : "RE_kwDOC9Swts4FrI6N",
+    "owner" : "apple",
+    "publishedAt" : "2023-03-10T22:26:10+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.4.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.4.0",
+    "version" : "2.4.0"
   }
 ]

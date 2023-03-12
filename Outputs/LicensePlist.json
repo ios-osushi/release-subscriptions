@@ -456,6 +456,18 @@
     "version" : "3.24.1"
   },
   {
+    "body" : "3.24.3\r\n\r\n## What's Changed\r\n* Add '--swift-package-sources-path' option support by @vladvlasov256 in https://github.com/mono0926/LicensePlist/pull/211\r\n\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.24.2...3.24.3",
+    "createdAt" : "2023-03-10T10:34:17+09:00",
+    "fetchedFromAPIAt" : "2023-03-12T09:46:52+09:00",
+    "id" : "RE_kwDOBVhcvM4Fq-Zs",
+    "owner" : "mono0926",
+    "publishedAt" : "2023-03-10T10:34:26+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.24.3: Add '--swift-package-sources-path' option support",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.3",
+    "version" : "3.24.3"
+  },
+  {
     "body" : "3.24.2\r\n\r\n## What's Changed\r\n* Add binary target to package definition by @vladvlasov256 in https://github.com/mono0926/LicensePlist/pull/210\r\n\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.24.1...3.24.2",
     "createdAt" : "2023-03-09T16:06:47+09:00",
     "fetchedFromAPIAt" : "2023-03-10T09:50:38+09:00",
