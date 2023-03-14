@@ -22,5 +22,29 @@
     "title" : "Swift-DocC Plugin 1.1.0",
     "url" : "https://github.com/apple/swift-docc-plugin/releases/tag/1.1.0",
     "version" : "1.1.0"
+  },
+  {
+    "body" : "### What's Changed\r\n\r\n- You can now generate documentation that includes [Swift Snippets](https://github.com/apple/swift-evolution/blob/main/proposals/0356-swift-snippets.md) when building with **Swift 5.7 or later**.\r\n\r\n---\r\n\r\nThe `1.1.0` release includes contributions from @A-N-uraag, @bitjammer, @compnerd, @denil-ct, @ethan-kusters, @franklinsch,  @sofiaromorales, and @SRowley90. Thank you!",
+    "createdAt" : "2023-01-24T06:59:33+09:00",
+    "fetchedFromAPIAt" : "2023-03-14T09:39:38+09:00",
+    "id" : "RE_kwDOGYmeSs4FsJ_U",
+    "owner" : "apple",
+    "publishedAt" : "2023-03-14T06:15:39+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "Swift-DocC Plugin 1.1.0",
+    "url" : "https://github.com/apple/swift-docc-plugin/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
+    "body" : "### What's Changed\r\n\r\n- You can now generate documentation that includes [Swift symbols that extend other modules](https://forums.swift.org/t/document-extensions-to-external-types-using-docc/56060) when building with **Swift 5.8 or later**. This is an opt-in feature that can be used by passing the `--included-extended-types` flag:\r\n\r\n   ```shell\r\n   swift package generate-documentation --include-extended-types --target [target-name]\r\n   ```\r\n\r\n- You can now generate documentation that excludes compiler synthesized symbols provided by default implementations of protocol requirements. This is an opt-in, experimental feature that can used by passing the `--experimental-skip-synthesized-symbols` flag:\r\n\r\n   ```shell\r\n   swift package generate-documentation --experimental-skip-synthesized-symbols --target [target-name]\r\n   ```\r\n\r\n---\r\n\r\nThe `1.2.0` release includes contributions from @finestructure, @sofiaromorales, and @theMomax. Thank you! ",
+    "createdAt" : "2023-03-14T06:04:11+09:00",
+    "fetchedFromAPIAt" : "2023-03-14T09:39:38+09:00",
+    "id" : "RE_kwDOGYmeSs4FsKdB",
+    "owner" : "apple",
+    "publishedAt" : "2023-03-14T06:34:56+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "1.2.0",
+    "url" : "https://github.com/apple/swift-docc-plugin/releases/tag/1.2.0",
+    "version" : "1.2.0"
   }
 ]
