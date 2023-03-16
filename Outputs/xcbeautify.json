@@ -418,5 +418,17 @@
     "title" : "0.17.0",
     "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.17.0",
     "version" : "0.17.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add an \"xcodeproj error\" matcher by @hisaac in https://github.com/tuist/xcbeautify/pull/99\r\n* Add fetching, updating, and checking out logs by @ilendemli in https://github.com/tuist/xcbeautify/pull/98\r\n\r\n## New Contributors\r\n* @hisaac made their first contribution in https://github.com/tuist/xcbeautify/pull/99\r\n* @ilendemli made their first contribution in https://github.com/tuist/xcbeautify/pull/98\r\n\r\n**Full Changelog**: https://github.com/tuist/xcbeautify/compare/0.17.0...0.18.0",
+    "createdAt" : "2023-03-15T20:56:59+09:00",
+    "fetchedFromAPIAt" : "2023-03-16T09:46:34+09:00",
+    "id" : "RE_kwDOCNUZc84FtBxA",
+    "owner" : "tuist",
+    "publishedAt" : "2023-03-15T20:57:16+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.18.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.18.0",
+    "version" : "0.18.0"
   }
 ]
