@@ -478,5 +478,17 @@
     "title" : "3.24.2: Add binary target to package definition",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.2",
     "version" : "3.24.2"
+  },
+  {
+    "body" : "3.24.5\r\n\r\n## What's Changed\r\n* Add Swift package plugins support by @vladvlasov256 in https://github.com/mono0926/LicensePlist/pull/212\r\n\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.24.3...3.24.5",
+    "createdAt" : "2023-03-20T14:19:41+09:00",
+    "fetchedFromAPIAt" : "2023-03-21T09:41:17+09:00",
+    "id" : "RE_kwDOBVhcvM4FuxMC",
+    "owner" : "mono0926",
+    "publishedAt" : "2023-03-20T14:19:57+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.24.5: Add Swift package plugins support ",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.5",
+    "version" : "3.24.5"
   }
 ]
