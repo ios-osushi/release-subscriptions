@@ -790,5 +790,17 @@
     "title" : "Nuke 12.0",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.0.0",
     "version" : "12.0.0"
+  },
+  {
+    "body" : "- Add `makeImageView` closure to `LazyImageView` to allow using custom views for rendering images\r\n- Add `onCompletion` closure to `LazyImage` and `FetchImage`\r\n- Fix an issue with `.videoAssetKey` value missing from `ImageContainer`\r\n- Fix an issue with `.gif` being encoded as `.jpeg` when `.storeEncodedImages` policy is used ",
+    "createdAt" : "2023-03-26T01:41:13+09:00",
+    "fetchedFromAPIAt" : "2023-03-26T09:45:27+09:00",
+    "id" : "RE_kwDOAeh5z84FxrUC",
+    "owner" : "kean",
+    "publishedAt" : "2023-03-26T02:04:49+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.1.0",
+    "version" : "12.1.0"
   }
 ]

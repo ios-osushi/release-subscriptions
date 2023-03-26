@@ -22,5 +22,17 @@
     "title" : "0.2.0",
     "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/0.2.0",
     "version" : "0.2.0"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-03-04T13:24:38+09:00",
+    "fetchedFromAPIAt" : "2023-03-26T09:45:27+09:00",
+    "id" : "RE_kwDOIcVD8s4FxDX_",
+    "owner" : "apple",
+    "publishedAt" : "2023-03-24T11:52:53+09:00",
+    "repository" : "ml-stable-diffusion",
+    "title" : "image2image",
+    "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/0.3.0",
+    "version" : "0.3.0"
   }
 ]
