@@ -646,5 +646,17 @@
     "title" : "0.51.2",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.2",
     "version" : "0.51.2"
+  },
+  {
+    "body" : "- Fixed `hoistTry` and `hoistAwait` rule breaking string interpolations\r\n- Fixed bug where `opaqueGenericParameters` rule would remove non-redundant generic type\r\n- Fixed parsing bug with trailing closures on optional methods\r\n- Fixed `redundantSelf` rule parsing bug affecting string literals\r\n- Updated if / switch expression features to be enabled only in Swift 5.9+",
+    "createdAt" : "2023-03-28T03:16:23+09:00",
+    "fetchedFromAPIAt" : "2023-03-28T09:43:31+09:00",
+    "id" : "RE_kwDOA_OyXc4FyU7X",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-03-28T05:14:10+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.3",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.3",
+    "version" : "0.51.3"
   }
 ]
