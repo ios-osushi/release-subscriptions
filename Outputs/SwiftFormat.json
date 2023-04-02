@@ -540,6 +540,18 @@
     "version" : "0.50.3"
   },
   {
+    "body" : "- Limited `redundantReturn` inside if / switch expressions to Swift 5.9+\r\n- Fixed `hoistTry` and `hoistAwait` inside multiline string literals\r\n- Fixed invalid indenting of blank lines inside multiline string literals",
+    "createdAt" : "2023-04-01T20:51:38+09:00",
+    "fetchedFromAPIAt" : "2023-04-02T09:44:15+09:00",
+    "id" : "RE_kwDOA_OyXc4F01ab",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-04-02T01:43:00+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.4",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.4",
+    "version" : "0.51.4"
+  },
+  {
     "body" : "- Added Swift package command plugin\r\n- Added `docComments` rule to convert between regular and documentation comments\r\n- Fixed `redundantLet` rule incorrectly stripping `let` inside Result Builders\r\n- Fixed `void` rule in cases where `Void` has been locally shadowed\r\n- Fixed `fileHeader` rule when file only contains header comment\r\n- Fixed unexpected indent and spurious `wrap` warning for blank lines\r\n- Fixed parsing bug in `redundantSelf` rule",
     "createdAt" : "2022-11-24T06:32:19+09:00",
     "fetchedFromAPIAt" : "2022-11-24T09:51:41+09:00",
