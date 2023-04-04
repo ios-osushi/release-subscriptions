@@ -60,6 +60,18 @@
     "version" : "0.50700.1"
   },
   {
+    "body" : "This is the 508.0.0 release of SwiftSyntax, aligned with the release of Swift 5.8.\r\n\r\nTo use this snapshot add the following dependency to your Package.swift:\r\n\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", from: \"508.0.0\")\r\n```",
+    "createdAt" : "2023-02-20T16:18:37+09:00",
+    "fetchedFromAPIAt" : "2023-04-04T09:41:16+09:00",
+    "id" : "RE_kwDOCIc4qs4F1bpx",
+    "owner" : "apple",
+    "publishedAt" : "2023-04-04T03:25:34+09:00",
+    "repository" : "swift-syntax",
+    "title" : "508.0.0",
+    "url" : "https://github.com/apple/swift-syntax/releases/tag/508.0.0",
+    "version" : "508.0.0"
+  },
+  {
     "body" : "This is a development snapshot of the 0.50800.0 release of SwiftSyntax.\r\n\r\nTo use this snapshot add the following dependency to your `Package.swift`:\r\n```swift\r\n.package(url: \"https://github.com/apple/swift-syntax\", exact: \"0.50800.0-SNAPSHOT-2022-12-20-a\")\r\n```",
     "createdAt" : "2022-12-20T07:01:17+09:00",
     "fetchedFromAPIAt" : "2022-12-28T09:41:38+09:00",
