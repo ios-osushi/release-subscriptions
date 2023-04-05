@@ -456,6 +456,18 @@
     "version" : "3.24.8"
   },
   {
+    "body" : "3.24.9\r\n\r\n- Fix missing iOS support (#216)\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.24.8...3.24.9",
+    "createdAt" : "2023-04-04T11:50:58+09:00",
+    "fetchedFromAPIAt" : "2023-04-05T09:36:47+09:00",
+    "id" : "RE_kwDOBVhcvM4F1uK3",
+    "owner" : "mono0926",
+    "publishedAt" : "2023-04-04T11:51:12+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.24.9",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.9",
+    "version" : "3.24.9"
+  },
+  {
     "body" : "## What's Changed\r\n* Update CI by @uhooi in https://github.com/mono0926/LicensePlist/pull/204\r\n* Duplicate the parameters inside license_plist.yml by @vladvlasov256 in https://github.com/mono0926/LicensePlist/pull/207\r\n\r\n## New Contributors\r\n* @vladvlasov256 made their first contribution in https://github.com/mono0926/LicensePlist/pull/207\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.23.4...3.24.1",
     "createdAt" : "2023-02-20T16:51:25+09:00",
     "fetchedFromAPIAt" : "2023-02-21T09:47:54+09:00",
