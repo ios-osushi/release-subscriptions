@@ -108,6 +108,18 @@
     "version" : "0.50700.1"
   },
   {
+    "body" : "This release is compatible with Swift 5.8.\r\n\r\nSignificant changes since the last release:\r\n\r\n* The `spacesAroundRangeFormationOperators` configuration option has been added to force a space around range formation operators like `...` and `..<`.\r\n* A new rule, `NoAssignmentInExpressions`, has been added that emits a linter finding if an assignment expression is found in another expression context (for example, `return x = y`).\r\n* Format and Lint plug-ins have been added that can be used from Swift Package Manager and Xcode.\r\n* Detection of \"files that contain `XCTest`s\" has been improved to include cases where `XCTest` is imported conditionally in a `#if` block.\r\n* Primary associated type clauses in `protocol` declarations are formatted correctly.\r\n* When a closure literal contains both a leading attribute and a capture list (e.g., `{ @MainActor [weak self] in ...`), a space is guaranteed between the attribute and capture list.\r\n* `Optional<T>` will not be automatically converted to the shorthand `T?` in positions where it would cause a performance issue due to subtle Swift initialization characteristics, like in member variable declarations.\r\n",
+    "createdAt" : "2023-04-08T03:01:49+09:00",
+    "fetchedFromAPIAt" : "2023-04-08T10:46:32+09:00",
+    "id" : "RE_kwDOC7ABTs4F4Fxu",
+    "owner" : "apple",
+    "publishedAt" : "2023-04-08T03:14:59+09:00",
+    "repository" : "swift-format",
+    "title" : "508.0.0",
+    "url" : "https://github.com/apple/swift-format/releases/tag/508.0.0",
+    "version" : "508.0.0"
+  },
+  {
     "body" : "This is a development snapshot of the 0.50800.0 release of swift-format.",
     "createdAt" : "2023-01-06T06:23:15+09:00",
     "fetchedFromAPIAt" : "2023-01-06T09:43:51+09:00",
