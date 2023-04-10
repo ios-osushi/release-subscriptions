@@ -552,6 +552,18 @@
     "version" : "0.51.4"
   },
   {
+    "body" : "- Added `--baseconfig` option to replicate old `--config` behavior\r\n- Fixed `self` being incorrectly inserted inside capture list\r\n- Fixed indenting of `.init` inside `#if` statements\r\n- Fixed `redundantInit` glitch inside `#if` statements\r\n- Fixed `redundantSelf` inside `if case` expressions\r\n- Fixed `hoistTry` for strings containing multiple interpolation clauses\r\n- Fixed redundant parens not being removed after `return` keyword\r\n- Fixed spacing after attribute when using `--funcattributes same-line`\r\n- Fixed false positive in collection literals for `unusedArguments`\r\n- Fixed file access permissions errors not being reported",
+    "createdAt" : "2023-04-09T22:28:20+09:00",
+    "fetchedFromAPIAt" : "2023-04-10T09:40:28+09:00",
+    "id" : "RE_kwDOA_OyXc4F4VOZ",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-04-09T22:45:08+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.5",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.5",
+    "version" : "0.51.5"
+  },
+  {
     "body" : "- Added Swift package command plugin\r\n- Added `docComments` rule to convert between regular and documentation comments\r\n- Fixed `redundantLet` rule incorrectly stripping `let` inside Result Builders\r\n- Fixed `void` rule in cases where `Void` has been locally shadowed\r\n- Fixed `fileHeader` rule when file only contains header comment\r\n- Fixed unexpected indent and spurious `wrap` warning for blank lines\r\n- Fixed parsing bug in `redundantSelf` rule",
     "createdAt" : "2022-11-24T06:32:19+09:00",
     "fetchedFromAPIAt" : "2022-11-24T09:51:41+09:00",
