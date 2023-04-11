@@ -1,5 +1,17 @@
 [
   {
+    "body" : "## What's Changed\r\n\r\n* Added: A `UUID.init(_ intValue:)` helper for more easily testing with incrementing UUIDs (https://github.com/pointfreeco/swift-dependencies/pull/69).\r\n* Changed: `@Dependency`'s wrapped value is now computed by completely overriding the current dependency values with a version that merges the initial values of the wrapper (thanks @iampatbrown, https://github.com/pointfreeco/swift-dependencies/pull/71). This helps propagate dependencies further, especially when dependencies hold onto their own dependencies via the `@Dependency` property wrapper.\r\n* Changed: A debug task local will now be compiled out of release mode, making dependency access slightly faster (https://github.com/pointfreeco/swift-dependencies/pull/62).\r\n* Changed: `TestDependencyKey` now constrains its `Value` associated type to be `Sendable` in Swift >=5.7.1 (thanks @adriansergheev, https://github.com/pointfreeco/swift-dependencies/pull/68).\r\n\r\n## New Contributors\r\n\r\n* @adriansergheev made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/68\r\n* @iampatbrown made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/71\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.2.0...0.3.0",
+    "createdAt" : "2023-04-11T06:31:28+09:00",
+    "fetchedFromAPIAt" : "2023-04-11T09:41:27+09:00",
+    "id" : "RE_kwDOIF_Mq84F5E8o",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-04-11T07:41:32+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "0.3.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.3.0",
+    "version" : "0.3.0"
+  },
+  {
     "body" : "Initial release.",
     "createdAt" : "2023-01-07T01:57:55+09:00",
     "fetchedFromAPIAt" : "2023-01-24T18:50:41+09:00",
