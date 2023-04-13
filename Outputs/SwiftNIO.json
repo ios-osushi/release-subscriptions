@@ -492,6 +492,18 @@
     "version" : "2.42.1"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- Add `NIOAsyncChannel` as SPI (`@_spi(AsyncChannel)`) (#2397)\r\n- Throw `CancellationError` if `NIOThrowingAsyncSequenceProducer.AsyncIterator.next()` is cancelled instead of returning `nil`. The user defined generic `Failure` type of `NIOThrowingAsyncSequenceProducer` is also deprecated and must now always be `any Swift.Error`.  (#2399, #2401)\r\n\r\n### SemVer Patch\r\n\r\n- Mildly rework the NIOLock storage (#2395)\r\n\r\n### Other Changes\r\n\r\n- Update links in NIO docs index (#2396)\r\n- Clean up and regression check the docs. (#2400)",
+    "createdAt" : "2023-04-12T00:58:01+09:00",
+    "fetchedFromAPIAt" : "2023-04-13T09:39:15+09:00",
+    "id" : "RE_kwDOBy6rG84F6Bzz",
+    "owner" : "apple",
+    "publishedAt" : "2023-04-12T18:29:36+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.50.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.50.0",
+    "version" : "2.50.0"
+  },
+  {
     "body" : "### SemVer Minor\r\n\r\n- Add `NIORawSocketBootstrap` (#2320, #2317)\r\n- Make EventLoopFuture.wait() unavailable from async (#2331)\r\n- Add easier async to future conversion (#2334)\r\n\r\n### SemVer Patch\r\n\r\n- Cap read+pread POSIX read sizes at Int32.max (#2323)\r\n- Fix non Darwin/Linux builds (#2328)\r\n- Remove implicit ByteBuffer copy in copyMemory (#2330)\r\n\r\n### Other Changes\r\n\r\n- Remove `_NIOBeta` product (#2319)\r\n- Remove obsolete information from the README (#2321)\r\n- Add .spi.yml for Swift Package Index DocC support (#2324, #2329)\r\n- Measure allocations applying WS mask (#2333)\r\n- Improve performance of tests (#2336)",
     "createdAt" : "2022-12-20T03:14:27+09:00",
     "fetchedFromAPIAt" : "2022-12-21T09:39:45+09:00",

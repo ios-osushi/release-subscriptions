@@ -564,6 +564,18 @@
     "version" : "0.51.5"
   },
   {
+    "body" : "- Required `self` is now preserved in function bodies inside closures with `[weak self]` captures\r\n- Fixed bug with `hoistTry` inside chains of concatenated interpolated strings\r\n- Fixed indenting of dot-prefixed identifiers inside `#else` and `#elseif` blocks\r\n- Fixed parsing bug in `redundantSelf` rule",
+    "createdAt" : "2023-04-12T22:06:25+09:00",
+    "fetchedFromAPIAt" : "2023-04-13T09:39:15+09:00",
+    "id" : "RE_kwDOA_OyXc4F6Nt-",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-04-12T22:32:58+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.6",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.6",
+    "version" : "0.51.6"
+  },
+  {
     "body" : "- Added Swift package command plugin\r\n- Added `docComments` rule to convert between regular and documentation comments\r\n- Fixed `redundantLet` rule incorrectly stripping `let` inside Result Builders\r\n- Fixed `void` rule in cases where `Void` has been locally shadowed\r\n- Fixed `fileHeader` rule when file only contains header comment\r\n- Fixed unexpected indent and spurious `wrap` warning for blank lines\r\n- Fixed parsing bug in `redundantSelf` rule",
     "createdAt" : "2022-11-24T06:32:19+09:00",
     "fetchedFromAPIAt" : "2022-11-24T09:51:41+09:00",
