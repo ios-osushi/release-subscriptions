@@ -12,6 +12,18 @@
     "version" : "0.3.0"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Added: A `withMainSerialExecutor` test helper for executing a block of async code serially on the main executor (https://github.com/pointfreeco/swift-dependencies/pull/81). This code is gated by `@_spi(Concurrency)`:\r\n\r\n    ```swift\r\n    @_spi(Concurrency) import Dependencies\r\n\r\n    await withMainSerialExecutor {\r\n      // code in here will run predictably/serially\r\n    }\r\n    ```\r\n\r\n* Fixed: Dependencies can now be statically linked to the Swift standard library (thanks @finestructure, https://github.com/pointfreeco/swift-dependencies/pull/80).\r\n\r\n## New Contributors\r\n\r\n* @finestructure made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/80\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.3.0...0.4.0",
+    "createdAt" : "2023-04-14T05:24:27+09:00",
+    "fetchedFromAPIAt" : "2023-04-14T09:39:22+09:00",
+    "id" : "RE_kwDOIF_Mq84F7Z_2",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-04-14T05:33:04+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "0.4.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.4.0",
+    "version" : "0.4.0"
+  },
+  {
     "body" : "Initial release.",
     "createdAt" : "2023-01-07T01:57:55+09:00",
     "fetchedFromAPIAt" : "2023-01-24T18:50:41+09:00",

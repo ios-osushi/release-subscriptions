@@ -276,6 +276,18 @@
     "version" : "2.2.1"
   },
   {
+    "body" : "### SemVer Patch\r\n\r\n- Update BoringSSL to abfd5ebc87ddca0fab9fca067c9d7edbc355eae8 (#171)\r\n\r\n### Other Changes\r\n\r\n- Fix broken link (#153, patch credit to @Sajjon)\r\n- Update Wycheproof 'x25519_test.json' to v1 (#155, patch credit to @Sajjon)\r\n- Update Wycheproof aes_gcm.json to v1 (#156, patch credit to @Sajjon)\r\n- Update Wycheproof chacha20_poly1305 to v1 (#157, patch credit to @Sajjon)\r\n- Update Wycheproof ecdh_secp256r1_ecpoint_test.json to v1 (#158, patch credit to @Sajjon)\r\n- Update Wycheproof eddsa_test to v1 (renamed to ed25519_test) (#159, patch credit to @Sajjon)\r\n- Update Wycheproof ecdh_secp256r1_test.json to v1 (#160, patch credit to @Sajjon)\r\n- Update Wycheproof ecdh_secp384r1_ecpoint_test.json to v1 (#161, patch credit to @Sajjon)\r\n- Update Wycheproof ecdh_secp384r1_test.json to v1 (#162, patch credit to @Sajjon)\r\n- Update Wycheproof ecdh_secp521r1_test.json to v1 (#163, patch credit to @Sajjon)\r\n- Update Wycheproof ecdh_secp521r1_ecpoint_test.json to v1 (#164, patch credit to @Sajjon)\r\n- Update Wycheproof multiple ECDSA test vectors to v1 (#166, patch credit to @Sajjon)\r\n- Add five new Wycheproof ECDSA test vectors using IEEE P1363 format (#167, patch credit to @Sajjon)\r\n- Exclude AES from CMake (#152)\r\n- Add docker-compose file for Swift 5.8 and 5.9 (#170)",
+    "createdAt" : "2023-04-13T21:02:12+09:00",
+    "fetchedFromAPIAt" : "2023-04-14T09:39:22+09:00",
+    "id" : "RE_kwDOC9Swts4F7Ho_",
+    "owner" : "apple",
+    "publishedAt" : "2023-04-13T21:04:47+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.4.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.4.1",
+    "version" : "2.4.1"
+  },
+  {
     "body" : "This release contains no functional changes\r\n\r\n### Other Changes\r\n\r\n- Link Foundation in CryptoBoringWrapper (#136)",
     "createdAt" : "2022-12-05T18:40:28+09:00",
     "fetchedFromAPIAt" : "2022-12-07T09:44:13+09:00",
