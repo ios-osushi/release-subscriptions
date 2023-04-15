@@ -396,6 +396,18 @@
     "version" : "v6.0.1"
   },
   {
+    "body" : "Quick 7 changes how Async tests are run. Instead of forcing all tests to run in an async context, Quick 7 provides a separate Spec class for Async Tests. Create an `AsyncSpec` subclass, and all tests inside of that subclass will run in an async context. Tests inside of `QuickSpec` subclasses will have a similar behavior to what was in Quick 5.\r\n\r\nAdditionally, Quick 7 changes how the DSL is defined slightly. In Quick 6 and before, the DSL was defined as a series of global functions, available to be called anywhere. In Quick 7, these functions were moved to be static methods on the new `SyncDSLUser` (which `QuickSpec`, `Behavior`, and `QuickConfiguration` conform to) and `AsyncDSLUser` (which `AsyncSpec` and `AsyncBehavior` conform to) protocols. This allows us to make sure that you are using the correct DSL for the context, and was necessary for this approach.\r\n\r\nFor example:\r\n\r\n```swift\r\nclass SynchronousSpec: QuickSpec {\r\n    override class func spec() {\r\n        it(\"runs synchronously, as you'd expect\") {\r\n            var ocean: [String] = []\r\n            DispatchQueue.main.async {\r\n                ocean.append(\"dolphins\")\r\n                ocean.append(\"whales\")\r\n            }\r\n            expect(ocean).toEventually(contain(\"dolphins\", \"whales\"))\r\n        }\r\n    }\r\n}\r\n\r\nclass AsynchronousSpec: AsyncSpec {\r\n    override class func spec() {\r\n        it(\"runs the test in an async context\") {\r\n            var ocean: [String] = []\r\n            DispatchQueue.main.async {\r\n                ocean.append(\"dolphins\")\r\n                ocean.append(\"whales\")\r\n            }\r\n            await expect(ocean).toEventually(contain(\"dolphins\", \"whales\"))\r\n        }\r\n    }\r\n}\r\n```\r\n\r\nWe encourage you to check this out, and to share feedback by filing an issue or discussing this in the discussions.\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v6.1.0...v7.0.0-beta.1",
+    "createdAt" : "2023-04-15T00:41:38+09:00",
+    "fetchedFromAPIAt" : "2023-04-15T16:05:47+09:00",
+    "id" : "RE_kwDOATjllM4F70sx",
+    "owner" : "Quick",
+    "publishedAt" : "2023-04-15T00:57:26+09:00",
+    "repository" : "Quick",
+    "title" : "v7.0.0 Beta 1",
+    "url" : "https://github.com/Quick/Quick/releases/tag/v7.0.0-beta.1",
+    "version" : "v7.0.0-beta.1"
+  },
+  {
     "body" : "# Highlighted Changes\r\n\r\n- New `TestState` property wrapper (Thanks @CraigSiemens!). You can now wrap properties with `@TestState` to have them automatically set to nil.\r\n- Objective-C API is no longer available in Swift, this should reduce confusion whether a test is being executed in an async context or not.\r\n- This release drops support for Swift 5.6/Xcode 13.3.1.\r\n\r\n# Auto-generated Release Notes\r\n\r\n## What's Changed\r\n* Bump danger from 9.0.0 to 9.1.0 by @dependabot in https://github.com/Quick/Quick/pull/1184\r\n* Make Objective-C API unavailable in Swift. by @younata in https://github.com/Quick/Quick/pull/1185\r\n* Update Nimble to 11.2.1, remove now-unnecessary usage of awaits in tests. Drop support for swift 5.6/Xcode 13.3.1 by @younata in https://github.com/Quick/Quick/pull/1187\r\n* Added a `TestState` property wrapper. by @CraigSiemens in https://github.com/Quick/Quick/pull/1186\r\n\r\n## New Contributors\r\n* @CraigSiemens made their first contribution in https://github.com/Quick/Quick/pull/1186\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v6.0.1...v6.1.0",
     "createdAt" : "2022-11-26T06:01:36+09:00",
     "fetchedFromAPIAt" : "2022-11-26T09:42:24+09:00",

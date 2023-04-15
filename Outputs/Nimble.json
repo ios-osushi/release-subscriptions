@@ -442,5 +442,17 @@
     "title" : "v11.2.2",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v11.2.2",
     "version" : "v11.2.2"
+  },
+  {
+    "body" : "Nimble 12 adds the ability to using polling expectations with async expressions. Additionally, Nimble 12 includes a number of quality-of-life improvements and bug fixes.\r\n\r\n## What's Changed\r\n* Update the README to have an accurate usage of expect by @younata in https://github.com/Quick/Nimble/pull/1038\r\n* Allow usage of toEventually with async expressions by @younata in https://github.com/Quick/Nimble/pull/1039\r\n* Replace public usage of DispatchTimeInterval with a new NimbleTimeInterval by @younata in https://github.com/Quick/Nimble/pull/1042\r\n* Make NimbleTimeInterval.dispatchTimeInterval public by @younata in https://github.com/Quick/Nimble/pull/1043\r\n* Run SyncExpectation's expression in async contexts of toEventually on the main actor. by @younata in https://github.com/Quick/Nimble/pull/1044\r\n* satisfyAllOf and satisfyAnyOf should only evaluate the expression once. by @younata in https://github.com/Quick/Nimble/pull/1045\r\n* Rename AsyncDefaults to PollingDefaults by @younata in https://github.com/Quick/Nimble/pull/1023\r\n* Fixed Swift.package: added macCatalyst to the condition for CwlPreconditionTesting dependency by @uebelack in https://github.com/Quick/Nimble/pull/1048\r\n* Raise minimum watchos deployment target to 7.0 by @younata in https://github.com/Quick/Nimble/pull/1050\r\n* Feature/handle multithreaded notifications by @johnmckerrell and @younata in https://github.com/Quick/Nimble/pull/1051\r\n* Objective-C support in the Swift Package version by @younata in https://github.com/Quick/Nimble/pull/1005\r\n* Update documentation in preparation for Nimble 12 by @younata in https://github.com/Quick/Nimble/pull/1052\r\n\r\n## New Contributors\r\n* @uebelack made their first contribution in https://github.com/Quick/Nimble/pull/1048\r\n* @johnmckerrell made their first contribution in https://github.com/Quick/Nimble/pull/1051\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v11.2.2...v12.0.0",
+    "createdAt" : "2023-04-15T01:22:44+09:00",
+    "fetchedFromAPIAt" : "2023-04-15T16:05:47+09:00",
+    "id" : "RE_kwDOAUUIhc4F72Ln",
+    "owner" : "Quick",
+    "publishedAt" : "2023-04-15T01:57:19+09:00",
+    "repository" : "Nimble",
+    "title" : "v12.0.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v12.0.0",
+    "version" : "v12.0.0"
   }
 ]
