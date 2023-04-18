@@ -432,6 +432,18 @@
     "version" : "7.0.0-alpha.17"
   },
   {
+    "body" : "- Handle sourceRootURL in SPM builds (thanks @m-sugawara)\r\n- Use notarytool for signing builds, instead of deprecated altool",
+    "createdAt" : "2023-04-18T03:57:18+09:00",
+    "fetchedFromAPIAt" : "2023-04-18T09:39:52+09:00",
+    "id" : "RE_kwDOAamb-84F8vcd",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2023-04-18T04:31:15+09:00",
+    "repository" : "R.swift",
+    "title" : "7.3.2",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.3.2",
+    "version" : "7.3.2"
+  },
+  {
     "body" : "Major release, refactor of internals.\r\n\r\n- Merged R.swift and R.swift.Library projects into single package\r\n- Preferred installation method is now Swift Package Manager (instead of CocoaPods)\r\n- Added Swift Build Tool Plug-in\r\n- Fixed a lot of open issues (see https://github.com/mac-cain13/R.swift/pull/766)\r\n- Changes to command-line tool and library, see [Migration Guide](https://github.com/mac-cain13/R.swift/blob/master/Documentation/Migration.md)",
     "createdAt" : "2022-11-28T22:10:47+09:00",
     "fetchedFromAPIAt" : "2022-11-29T09:46:32+09:00",
