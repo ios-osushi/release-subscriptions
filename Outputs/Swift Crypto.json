@@ -288,6 +288,18 @@
     "version" : "2.4.1"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- ChaCha20 CTR Encryption (#169, patch credit to @btoms20)\r\n\r\n### SemVer Patch\r\n\r\n- Drop support for Swift 5.5 (#172)\r\n\r\n### Other Changes\r\n\r\n- Set CRYPTO_IN_SWIFTPM (#177, patch credit to @etcwilde)",
+    "createdAt" : "2023-04-19T14:40:30+09:00",
+    "fetchedFromAPIAt" : "2023-04-20T09:41:51+09:00",
+    "id" : "RE_kwDOC9Swts4F9eZg",
+    "owner" : "apple",
+    "publishedAt" : "2023-04-19T17:39:50+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.5.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.5.0",
+    "version" : "2.5.0"
+  },
+  {
     "body" : "This release contains no functional changes\r\n\r\n### Other Changes\r\n\r\n- Link Foundation in CryptoBoringWrapper (#136)",
     "createdAt" : "2022-12-05T18:40:28+09:00",
     "fetchedFromAPIAt" : "2022-12-07T09:44:13+09:00",
