@@ -504,6 +504,18 @@
     "version" : "5.15.0"
   },
   {
+    "body" : "See [all tickets marked for the 5.15.6 release](https://github.com/SDWebImage/SDWebImage/milestone/114)\r\n\r\n### Performance\r\n- Small improvements to SDDiskCache write perf #3517\r\n- - Note this slightly change the behavior when you manual grab the `SDImageCache.diskCachePath` and remove it without creating new directory, next disk cache write operation will fail, before the restart of App.\r\n\r\n### Fixes\r\n- Revert the SDDisplayLink for watchOS, fix the animated image duration bug #3520 #3511\r\n\r\n### Warnings\r\n- Fix the warning of C function with no param #3519",
+    "createdAt" : "2023-04-24T00:22:07+09:00",
+    "fetchedFromAPIAt" : "2023-04-24T09:42:04+09:00",
+    "id" : "RE_kwDOAATIS84F_oW4",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-04-24T00:22:46+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.15.6 - Fix watchOS",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.6",
+    "version" : "5.15.6"
+  },
+  {
     "body" : "See [all tickets marked for the 5.15.1 release](https://github.com/SDWebImage/SDWebImage/milestone/109)\r\n\r\n### Fixes\r\n- Ensure the Downloader and DownloaderOperation callback the completion in atomic and never miss one #3477\r\n- - This fix a long-term issue when multiple download request for same URL at the same time, some callbacks will missing. After fix, this will cause a brand new HTTP request but never miss any callbacks.\r\n- Fix the issue the fallback logic of ImageIO Source should avoid passing any UTI hint #3473\r\n- Try to fix the SDAsyncBlockOperation's race condition #3479 #3275\r\n- Avoid compiler generate the wrong property attribute with non-atomic #3474\r\n\r\n### Performance\r\n- Remove the unused extra copy for SDAnimatedImage data initializer #3480",
     "createdAt" : "2023-02-06T22:57:28+09:00",
     "fetchedFromAPIAt" : "2023-02-11T23:53:40+09:00",
