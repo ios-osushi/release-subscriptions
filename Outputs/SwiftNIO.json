@@ -540,6 +540,18 @@
     "version" : "2.48.0"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- Drop Swift 5.5 (#2406)\r\n\r\n### SemVer Patch\r\n\r\n- Handle reentrant reads in ALPNHandler (#2402)\r\n- Close accepted FDs if we fail to create Socket (#2407)\r\n- Don't have channels stop reading on errors they tolerate. (#2408)\r\n\r\n### Other Changes\r\n\r\n- Add docker-compose file for Swift 5.9 (#2404)\r\n- Fix broken docs. (#2405)\r\n- Avoid double-closing on fcntl failures (#2409)",
+    "createdAt" : "2023-04-20T20:40:39+09:00",
+    "fetchedFromAPIAt" : "2023-04-25T09:42:26+09:00",
+    "id" : "RE_kwDOBy6rG84F_3P4",
+    "owner" : "apple",
+    "publishedAt" : "2023-04-24T20:23:56+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.51.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.51.0",
+    "version" : "2.51.0"
+  },
+  {
     "body" : "### SemVer Minor\r\n\r\n- Mark EventLoop.syncShutdownGracefully and EventLoopGroup.syncShutdownGracefully noasync (#2381)\r\n- Add a pooled recv buffer allocator (#2362)\r\n- NIOAsyncWriter: Provide a fast path for single element writes (#2365)\r\n- Provide OnLoopSendable: Sendable containers that bind a value to a specific EventLoop (#2370)\r\n- Add support for UDP_SEGMENT (#2372)\r\n- Add support for UDP_GRO (#2385)\r\n\r\n### SemVer Patch\r\n\r\n- Pool buffers for ivecs and storage refs in the event loop. (#2358, patch credit to @ser-0xff)\r\n- Fix memory binding. (#2376, patch credit to @ser-0xff)\r\n- Fix an upcoming compiler warning on implicit raw pointer casts. (#2377, patch credit to @atrick)\r\n- Buffer pool for message headers and addresses. (#2378, patch credit to @ser-0xff)\r\n- Remove unused array (#2361)\r\n- Make PooledBuffer safer. (#2363)\r\n- Fix swift-nio iOS builds. (#2369)\r\n- Don't retain a task when all we want is a time (#2373)\r\n- Make our time types transparent (#2374)\r\n- Allow UDP GRO tests to fail in some circumstances (#2387)\r\n\r\n### Other Changes\r\n\r\n- TCP channel throughput benchmark. (#2367, patch credit to @ser-0xff)\r\n- Add UDP performance tests (#2360)\r\n- Clarify on EL semantics (#2366)\r\n- Add availability requirements to TCPThroughputBenchmark (#2368)\r\n- Not Holding OnToRunClosure() test updates (#2375)\r\n- Remove redundant availability guards (#2379)\r\n- Lower the max segment count in tests (#2382)\r\n- Rebuild the channel when retrying testWriteBufferAtGSOSegmentCountLimit (#2383)\r\n- Rework the `NIOAsyncSequenceProducer` tests to rely less on timings (#2386)\r\n- Work around the SwiftPM layout change. (#2389)\r\n- Always populate utsname (#2391)",
     "createdAt" : "2023-03-15T01:37:10+09:00",
     "fetchedFromAPIAt" : "2023-03-21T09:41:17+09:00",
