@@ -430,5 +430,17 @@
     "title" : "2.34.0",
     "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.34.0",
     "version" : "2.34.0"
+  },
+  {
+    "body" : "### Added\r\n\r\n- Added support for shared breakpoints #177 @alexruperez @myihsan\r\n- Added support for `putResourcesBeforeSourcesBuildPhase` in a target #1351 @mat1th \r\n\r\n### Fixed\r\n\r\n- Fix case where source paths may not be deduplicated correctly resulting in duplicate groups and/or a crash in running XcodeGen #1341 @dalemyers",
+    "createdAt" : "2023-04-27T16:04:40+09:00",
+    "fetchedFromAPIAt" : "2023-04-30T23:55:23+09:00",
+    "id" : "RE_kwDOBdMHVM4GBfqm",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2023-04-27T16:07:19+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.35.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.35.0",
+    "version" : "2.35.0"
   }
 ]

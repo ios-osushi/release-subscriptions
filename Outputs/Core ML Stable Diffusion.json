@@ -34,5 +34,17 @@
     "title" : "image2image",
     "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/0.3.0",
     "version" : "0.3.0"
+  },
+  {
+    "body" : "- ControlNet\r\n- Speed improvements to Swift.package scheduler and tokenizer code",
+    "createdAt" : "2023-04-27T13:51:25+09:00",
+    "fetchedFromAPIAt" : "2023-04-30T23:55:23+09:00",
+    "id" : "RE_kwDOIcVD8s4GBcv1",
+    "owner" : "apple",
+    "publishedAt" : "2023-04-27T13:55:47+09:00",
+    "repository" : "ml-stable-diffusion",
+    "title" : "0.4.0",
+    "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/0.4.0",
+    "version" : "0.4.0"
   }
 ]

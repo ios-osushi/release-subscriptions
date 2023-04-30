@@ -92,7 +92,7 @@ public struct SlackNotifier {
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "\(body.isEmpty ? " " : String(body.prefix(2500)))"
+                    "text": "\(body.isEmpty ? " " : String(body.prefix(1500)))"
                 }
             }
         ]
