@@ -58,5 +58,17 @@
     "title" : "4.1.3",
     "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.1.3",
     "version" : "4.1.3"
+  },
+  {
+    "body" : "> **Note**\r\n> Starting in Lottie 4.0, the Core Animation rendering engine is now enabled by default. \r\n> Learn more about this change: **[Announcing Lottie 4.0 for iOS](https://medium.com/airbnb-engineering/announcing-lottie-4-0-for-ios-d4d226862a54)** on the Airbnb Tech Blog\r\n\r\n## What's Changed\r\n\r\n* Added support for Opacity, Position, Scale, and Rotation value providers to Core Animation rendering engine (https://github.com/airbnb/lottie-ios/pull/2047)\r\n* Updateed minimum macOS version to 10.11 (https://github.com/airbnb/lottie-ios/pull/2050)\r\n* Fixed issue where rounded corners algorithm would return incorrect path for shapes without any rounded corners (#1964)\r\n* Improved dotLottie error handling (https://github.com/airbnb/lottie-ios/pull/1969)\r\n* Added support for loading DotLottieFile by name and filename synchronously (https://github.com/airbnb/lottie-ios/pull/1968)\r\n* Updated ZIPFoundation to 0.9.16 to resolve `dataCorrupted` errors (https://github.com/airbnb/lottie-ios/pull/1978)\r\n* Fixed issue where `**` wildcard incorrectly required matching at least one path component (https://github.com/airbnb/lottie-ios/pull/1988)\r\n* Fixed issue where completion handler could be called unexpectedly when setting up animation (https://github.com/airbnb/lottie-ios/pull/1994)\r\n* Added `LottieAnimationView.allHierarchyKeypaths()` to get list of animation keypaths at runtime (https://github.com/airbnb/lottie-ios/pull/2004)\r\n* Added a warning when playing animation that uses unsupported After Effects expressions (https://github.com/airbnb/lottie-ios/pull/2006)\r\n* Added `LottieAnimationView.maskAnimationToBounds` configuration option (https://github.com/airbnb/lottie-ios/pull/2008)\r\n* Trim whitespaces and newlines before decoding base 64 string to image (https://github.com/airbnb/lottie-ios/pull/2016)\r\n* Added support for configuring `LottieBackgroundBehavior` to Objective-C `CompatibleAnimationView` (https://github.com/airbnb/lottie-ios/pull/2027)\r\n* Fixed issue where Trim could be applied to too many shape items (https://github.com/airbnb/lottie-ios/pull/2041)\r\n* Set animationLayer to nil when removing oldAnimation (https://github.com/airbnb/lottie-ios/pull/2035)\r\n* Fixed issue where Trim strokeStart / strokeEnd could be rendered in incorrect order (https://github.com/airbnb/lottie-ios/pull/2049)\r\n* Fixed issue where calling `setValueProvider` would reset animation progress (https://github.com/airbnb/lottie-ios/pull/2052)\r\n* Fixed issue where trim offset could be calculated incorrectly (https://github.com/airbnb/lottie-ios/pull/2053)\r\n\r\n**Full Changelog**: https://github.com/airbnb/lottie-ios/compare/4.1.3...4.2.0",
+    "createdAt" : "2023-04-28T09:47:51+09:00",
+    "fetchedFromAPIAt" : "2023-04-30T23:55:23+09:00",
+    "id" : "RE_kwDOIwpDsc4GCCkY",
+    "owner" : "airbnb",
+    "publishedAt" : "2023-04-28T09:48:31+09:00",
+    "repository" : "lottie-spm",
+    "title" : "4.2.0",
+    "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.2.0",
+    "version" : "4.2.0"
   }
 ]

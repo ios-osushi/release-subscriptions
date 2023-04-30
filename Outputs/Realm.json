@@ -598,5 +598,17 @@
     "title" : "v10.38.1",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.38.1",
     "version" : "v10.38.1"
+  },
+  {
+    "body" : "### Enhancements\n\n* Improve performance of cancelling a write transactions after making changes. If no KVO observers are used this is now constant time rather than taking time proportional to the number of changes to be rolled back. Cancelling a write transaction with KVO observers is 10-20% faster. ([Core PR #6513](https://github.com/realm/realm-core/pull/6513)).\n\n### Fixed\n\n* Performing a large number of queries without ever performing a write resulted in steadily increasing memory usage, some of which was never fully freed due to an unbounded cache ([#7978](https://github.com/realm/realm-swift/issues/7978), since v10.27.0).\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 14.3.\n* CocoaPods: 1.10 or later.\n* Xcode: 13.4-14.3.\n\n### Internal\n\n* Upgraded realm-core from 13.9.3 to 13.9.4",
+    "createdAt" : "2023-04-29T03:06:36+09:00",
+    "fetchedFromAPIAt" : "2023-04-30T23:55:23+09:00",
+    "id" : "RE_kwDOAD24W84GCgVP",
+    "owner" : "realm",
+    "publishedAt" : "2023-04-29T03:10:23+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.38.3",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.38.3",
+    "version" : "v10.38.3"
   }
 ]
