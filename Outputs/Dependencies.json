@@ -106,5 +106,17 @@
     "title" : "0.2.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.2.0",
     "version" : "0.2.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Changed: Both `continuousClock` and `suspendingClock` test values have been changed from failing immediate clocks to failing live clocks (https://github.com/pointfreeco/swift-dependencies/pull/89). While this is a behavioral change, it should only affect failing test suites. It should also make analyzing failure easier/less noisy, since code will behave as it would in live applications, and timers won't immediately emit many failures.\r\n* Fixed: re-introduce SPI-gated `withMainSerialExecutor` (thanks @kabiroberai, https://github.com/pointfreeco/swift-dependencies/pull/84).\r\n\r\n## New Contributors\r\n* @kabiroberai made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/84\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.4.1...0.4.2",
+    "createdAt" : "2023-05-02T02:47:00+09:00",
+    "fetchedFromAPIAt" : "2023-05-02T09:44:38+09:00",
+    "id" : "RE_kwDOIF_Mq84GDNgp",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-05-02T06:58:53+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "0.4.2",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.4.2",
+    "version" : "0.4.2"
   }
 ]
