@@ -562,5 +562,17 @@
     "title" : "SwiftNIO 2.49.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.49.0",
     "version" : "2.49.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Handle close(output) in the pipeline handler. (#2414)\r\n- NIOThrowingAsyncSequenceProducer throws when cancelled (#2415)\r\n\r\n### Other Changes\r\n\r\n- Add `AsyncChannel` based `ServerBootstrap.bind()` methods (#2403)\r\n- Extend the integration test harness to track FDs (#2411)\r\n- AsyncChannelBootstrapTests bind to 0 instead (#2412, #2413)",
+    "createdAt" : "2023-04-29T00:21:15+09:00",
+    "fetchedFromAPIAt" : "2023-05-03T09:41:12+09:00",
+    "id" : "RE_kwDOBy6rG84GDZPM",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-02T19:26:10+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.51.1",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.51.1",
+    "version" : "2.51.1"
   }
 ]

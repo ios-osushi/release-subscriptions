@@ -706,5 +706,17 @@
     "title" : "0.51.3",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.3",
     "version" : "0.51.3"
+  },
+  {
+    "body" : "- Fixed `redundantSelf` removing non-unwrapped weak `self` inside closures\r\n- Fixed `fileprivate` rule making `init` private when inherited by subclass in the same file\r\n- Fixed `hoistPatternLet` rule inserting `let` inside dictionary type literal\r\n- Fixed indenting for chained members inside conditional compilation blocks\r\n- Fixed `unusedArguments` incorrectly removing used argument after conditional compilation block\r\n- Improved `unusedArguments` rule error handling\r\n",
+    "createdAt" : "2023-05-03T04:11:27+09:00",
+    "fetchedFromAPIAt" : "2023-05-03T09:41:12+09:00",
+    "id" : "RE_kwDOA_OyXc4GDsES",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-05-03T04:21:56+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.8",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.8",
+    "version" : "0.51.8"
   }
 ]
