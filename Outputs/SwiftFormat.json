@@ -718,5 +718,17 @@
     "title" : "0.51.8",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.8",
     "version" : "0.51.8"
+  },
+  {
+    "body" : "- Fixed `typeSugar` rule unwrapping Optional `some/any` without inserting required parentheses\r\n- Fixed indenting of function arguments inside an `#ifdef` block after a closing brace\r\n- Fixed comment directive state leaking between rules\r\n",
+    "createdAt" : "2023-05-05T06:11:29+09:00",
+    "fetchedFromAPIAt" : "2023-05-05T09:38:31+09:00",
+    "id" : "RE_kwDOA_OyXc4GE3h-",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-05-05T06:25:23+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.9",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.9",
+    "version" : "0.51.9"
   }
 ]

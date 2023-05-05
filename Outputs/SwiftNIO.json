@@ -574,5 +574,17 @@
     "title" : "SwiftNIO 2.51.1",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.51.1",
     "version" : "2.51.1"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add CustomDebugStringConvertible conformance to ByteBuffer (#2418, patch credit to @gwynne)\r\n- Add unprocessedBytes property on NIOSingleStepByteToMessageProcessor (#2419)",
+    "createdAt" : "2023-05-04T01:19:13+09:00",
+    "fetchedFromAPIAt" : "2023-05-05T09:38:30+09:00",
+    "id" : "RE_kwDOBy6rG84GEe0j",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-04T21:59:00+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.52.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.52.0",
+    "version" : "2.52.0"
   }
 ]

@@ -370,5 +370,17 @@
     "title" : "2.2.0",
     "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.0",
     "version" : "2.2.0"
+  },
+  {
+    "body" : "### Fix\n\n- Use `.info` log level for missing frames when decoding. This allows a better debugging experience when the image is not rendered as expected. [#129](https://github.com/onevcat/APNGKit/pull/129)\n- Upgrade the project for Xcode 14.3. The deploy target version of demo app prevented it from building with Xcode 14.3. [#134](https://github.com/onevcat/APNGKit/pull/134)",
+    "createdAt" : "2023-05-04T22:39:57+09:00",
+    "fetchedFromAPIAt" : "2023-05-05T09:38:31+09:00",
+    "id" : "RE_kwDOAn3VYc4GEnk-",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-05-04T22:40:05+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.2",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.2",
+    "version" : "2.2.2"
   }
 ]
