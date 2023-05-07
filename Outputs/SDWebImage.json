@@ -574,5 +574,17 @@
     "title" : "5.15.5 - Fix",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.5",
     "version" : "5.15.5"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.15.7 release](https://github.com/SDWebImage/SDWebImage/milestone/115)\r\n\r\n### Fixes\r\n- Try to solve the strange dispatch group crash in SDSafeExecute by removing inline #3526\r\n\r\n### Performance\r\n- Opt when multiple same URLs queried in parallel, which may cause duplicated decode and store disk operation #3523",
+    "createdAt" : "2023-05-06T17:22:50+09:00",
+    "fetchedFromAPIAt" : "2023-05-07T14:20:03+09:00",
+    "id" : "RE_kwDOAATIS84GFb1L",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-05-06T17:23:53+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.15.7 - Fix Crash",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.15.7",
+    "version" : "5.15.7"
   }
 ]
