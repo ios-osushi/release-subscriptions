@@ -586,5 +586,17 @@
     "title" : "SwiftNIO 2.52.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.52.0",
     "version" : "2.52.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- addition of assertSuccess() and assertFailure() on EventLoopFuture (#2417, patch credit to @dkz2)\r\n\r\n### SemVer Patch\r\n\r\n- Tolerate sending data after close(mode: .output) (#2421)",
+    "createdAt" : "2023-05-09T18:52:48+09:00",
+    "fetchedFromAPIAt" : "2023-05-10T09:45:31+09:00",
+    "id" : "RE_kwDOBy6rG84GGVUU",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-09T22:36:21+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.53.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.53.0",
+    "version" : "2.53.0"
   }
 ]

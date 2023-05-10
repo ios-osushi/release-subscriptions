@@ -394,5 +394,17 @@
     "title" : "5.6.4",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.6.4",
     "version" : "5.6.4"
+  },
+  {
+    "body" : "Released on 2023-05-09. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/84?closed=1).\r\n\r\n#### Added\r\n- Request body compression support. This is disabled by default.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3701](https://github.com/Alamofire/Alamofire/pull/3701).\r\n- `ArrayEncoding.custom` to `URLEncodedFormEncoder` and `URLEncoding`.\r\n  - Added by [Mike Naquin](https://github.com/naquin) in Pull Request [#3699](https://github.com/Alamofire/Alamofire/pull/3699).\r\n- `KeyPathEncoding` to `URLEncodedFormEncoder`.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3689](https://github.com/Alamofire/Alamofire/pull/3689).\r\n- `NilEncoding` to `URLEncodedFormEncoder`.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3686](https://github.com/Alamofire/Alamofire/pull/3686).\r\n\r\n#### Updated\r\n- Alamofire now requires Swift 5.5+ and (macOS 10.13, iOS 11, tvOS 11, and watchOS 4)+.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Requests [#3670](https://github.com/Alamofire/Alamofire/pull/3670) and [#3717](https://github.com/Alamofire/Alamofire/pull/3717).\r\n- `flatMap` to `map` in `HTTPHeaders`.\r\n  - Updated by [kati](https://github.com/kati-kms) in Pull Request [#3704](https://github.com/Alamofire/Alamofire/pull/3704).\r\n- Various CI integrations.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Requests [#3685](https://github.com/Alamofire/Alamofire/pull/3685) and [#3712](https://github.com/Alamofire/Alamofire/pull/3712).\r\n\r\n#### Fixed\r\n- Reachability API usage safety.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3684](https://github.com/Alamofire/Alamofire/pull/3684).\r\n- Unused `bufferingPolicy` in `StreamOf`.\r\n  - Fixed by [Duc](https://github.com/trungducc) in Pull Request [#3668](https://github.com/Alamofire/Alamofire/pull/3668).\r\n- Various documentation typos.\r\n  - Fixed by [Timo Wälisch](https://github.com/TimoWaelischIdealo), [Tony](https://github.com/iamtony), and [uhooi](https://github.com/uhooi) in various PRs.",
+    "createdAt" : "2023-05-10T07:58:41+09:00",
+    "fetchedFromAPIAt" : "2023-05-10T09:45:31+09:00",
+    "id" : "RE_kwDOAVavk84GGr7V",
+    "owner" : "Alamofire",
+    "publishedAt" : "2023-05-10T08:00:31+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.7.0",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.7.0",
+    "version" : "5.7.0"
   }
 ]
