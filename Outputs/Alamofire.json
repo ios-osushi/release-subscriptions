@@ -406,5 +406,17 @@
     "title" : "5.7.0",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.7.0",
     "version" : "5.7.0"
+  },
+  {
+    "body" : "Released on 2023-05-10. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/86?closed=1).\r\n\r\n#### Updated\r\n- Deployment targets reverted to (macOS 10.12, iOS 10, tvOS 10, and watchOS 3)+\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3720](https://github.com/Alamofire/Alamofire/pull/3720).",
+    "createdAt" : "2023-05-11T00:59:02+09:00",
+    "fetchedFromAPIAt" : "2023-05-11T09:43:39+09:00",
+    "id" : "RE_kwDOAVavk84GHEIc",
+    "owner" : "Alamofire",
+    "publishedAt" : "2023-05-11T01:00:06+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.7.1",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.7.1",
+    "version" : "5.7.1"
   }
 ]

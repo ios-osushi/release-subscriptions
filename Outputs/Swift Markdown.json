@@ -1,3 +1,14 @@
 [
-
+  {
+    "body" : "This release is based on the Swift 5.8 release.",
+    "createdAt" : "2023-05-11T07:57:55+09:00",
+    "fetchedFromAPIAt" : "2023-05-11T09:43:39+09:00",
+    "id" : "RE_kwDOFxlFeM4GHNov",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-11T08:12:35+09:00",
+    "repository" : "swift-markdown",
+    "title" : "Swift-Markdown 0.2.0",
+    "url" : "https://github.com/apple/swift-markdown/releases/tag/0.2.0",
+    "version" : "0.2.0"
+  }
 ]
