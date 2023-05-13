@@ -358,5 +358,17 @@
     "title" : "Atlas",
     "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.5.0",
     "version" : "6.5.0"
+  },
+  {
+    "body" : "## RxSwift 6.6.0 🪨 \r\n\r\n- New helpful conversions to `Infallible`\r\n- Fix an issue with continuation leak for `async/await` bridge\r\n- Improve atomicity of `BooleanDisposable`\r\n- Crash workaround for `Table/CollectionViewDelegateProxy`\r\n- New `Infallible` helpers for `CombineLatest`\r\n- More minor fixes and updates\r\n- Support catalyst for xcframework distribution",
+    "createdAt" : "2023-05-12T14:02:28+09:00",
+    "fetchedFromAPIAt" : "2023-05-13T09:39:04+09:00",
+    "id" : "RE_kwDOAgA5b84GIEKS",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2023-05-12T21:18:04+09:00",
+    "repository" : "RxSwift",
+    "title" : "Onyx 🪨 ",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.6.0",
+    "version" : "6.6.0"
   }
 ]

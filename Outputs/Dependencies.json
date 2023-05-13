@@ -118,5 +118,17 @@
     "title" : "0.4.2",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.4.2",
     "version" : "0.4.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: SwiftWasm support.\r\n* Changed: `Async[Throwing]Stream.streamWithContinuation` has been renamed to `Async[ThrowingStream].makeStream` as a drop-in back-port of [SE-0388](https://github.com/apple/swift-evolution/blob/main/proposals/0388-async-stream-factory.md) (https://github.com/pointfreeco/swift-dependencies/pull/92).\r\n* Fixed: Windows support has been restored (https://github.com/pointfreeco/swift-dependencies/pull/91).\r\n* Infrastructure: CI updates (https://github.com/pointfreeco/swift-dependencies/pull/91).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.4.2...0.5.0",
+    "createdAt" : "2023-05-12T00:19:29+09:00",
+    "fetchedFromAPIAt" : "2023-05-13T09:39:04+09:00",
+    "id" : "RE_kwDOIF_Mq84GHxxe",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-05-12T05:40:34+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "0.5.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.5.0",
+    "version" : "0.5.0"
   }
 ]
