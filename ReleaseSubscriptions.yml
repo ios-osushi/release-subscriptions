@@ -72,6 +72,18 @@ repositories:
   
   - kind: primary
     case: releases
+    name: Foundation
+    owner: apple
+    repo: swift-foundation
+  
+  - kind: primary
+    case: releases
+    name: Foundation ICU
+    owner: apple
+    repo: swift-foundation-icu
+  
+  - kind: primary
+    case: releases
     name: SwiftLog
     owner: apple
     repo: swift-log
