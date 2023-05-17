@@ -778,5 +778,17 @@
     "title" : "0.53.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.53.0",
     "version" : "0.53.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: A regression was introduced in 0.53.0 where `TestStore.init`'s `prepareDependencies` was called twice. It will not be called just a single time again (https://github.com/pointfreeco/swift-composable-architecture/pull/2111).\r\n* Infrastructure: Added a \"Meet the Composable Architecture\" tutorial (https://github.com/pointfreeco/swift-composable-architecture/pull/2107, https://github.com/pointfreeco/swift-composable-architecture/pull/2109).\r\n* Infrastructure: Docs fixes (thanks @Ryu0118, https://github.com/pointfreeco/swift-composable-architecture/pull/2110)\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.53.0...0.53.1",
+    "createdAt" : "2023-05-17T00:28:50+09:00",
+    "fetchedFromAPIAt" : "2023-05-17T09:45:50+09:00",
+    "id" : "RE_kwDOD48kk84GJpZg",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-05-17T01:30:38+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.53.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.53.1",
+    "version" : "0.53.1"
   }
 ]

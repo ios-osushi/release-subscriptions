@@ -94,5 +94,17 @@
     "title" : "0.50800.0-SNAPSHOT-2022-12-29-a",
     "url" : "https://github.com/apple/swift-syntax/releases/tag/0.50800.0-SNAPSHOT-2022-12-29-a",
     "version" : "0.50800.0-SNAPSHOT-2022-12-29-a"
+  },
+  {
+    "body" : "This release of SwiftSyntax is aligned with the release of Swift 5.8.\r\n\r\nCompared to 508.0.0, this release relaxes the version requirement for `swift-argument-parser`, resulting in fewer version conflicts for users of SwiftSyntax.",
+    "createdAt" : "2023-05-16T04:05:18+09:00",
+    "fetchedFromAPIAt" : "2023-05-17T09:45:50+09:00",
+    "id" : "RE_kwDOCIc4qs4GJHPn",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-16T04:13:03+09:00",
+    "repository" : "swift-syntax",
+    "title" : "508.0.1",
+    "url" : "https://github.com/apple/swift-syntax/releases/tag/508.0.1",
+    "version" : "508.0.1"
   }
 ]

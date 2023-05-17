@@ -1,17 +1,5 @@
 [
   {
-    "body" : "This release contains important fixes for building on iOS and Windows.\r\n\r\n### Pull Requests\r\n- https://github.com/apple/swift-foundation-icu/pull/8 build: indicate that we are building ICU statically\r\n- https://github.com/apple/swift-foundation-icu/pull/9 build: bump C++ standard to C++14 on Windows\r\n- https://github.com/apple/swift-foundation-icu/pull/10 build: define `_CRT_SECURE_NO_DEPRECATE` on Windows\r\n- https://github.com/apple/swift-foundation-icu/pull/11 build: disable POSIX paths on Windows\r\n- https://github.com/apple/swift-foundation-icu/pull/12 build: define `U_ATTRIBUTE_DEPRECATED` when building\r\n- https://github.com/apple/swift-foundation-icu/pull/13 Fixed iOS build failures\r\n\r\n### Corresponding ICU Version: `ICU 70.1`",
-    "createdAt" : "2023-05-12T03:32:22+09:00",
-    "fetchedFromAPIAt" : "2023-05-15T09:43:02+09:00",
-    "id" : "RE_kwDOIzpzt84GHuPq",
-    "owner" : "apple",
-    "publishedAt" : "2023-05-12T03:43:26+09:00",
-    "repository" : "swift-foundation-icu",
-    "title" : "FoundationICU 0.0.2",
-    "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.2",
-    "version" : "0.0.2"
-  },
-  {
     "body" : "This is the initial release of `FoundationICU` for `FoundationPreview`. This version corresponds to `ICU 70.13` released under [this repository](https://github.com/apple-oss-distributions/ICU/commit/d9fe5a625f9d8f2c80814c5ae1b5ab544fdf7b92).",
     "createdAt" : "2023-04-13T06:49:21+09:00",
     "fetchedFromAPIAt" : "2023-05-15T09:43:02+09:00",
@@ -22,5 +10,17 @@
     "title" : "FoundationICU 0.0.1",
     "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.1",
     "version" : "0.0.1"
+  },
+  {
+    "body" : "This release contains important fixes for building on iOS and Windows.\r\n\r\n### Pull Requests\r\n- https://github.com/apple/swift-foundation-icu/pull/8 build: indicate that we are building ICU statically\r\n- https://github.com/apple/swift-foundation-icu/pull/9 build: bump C++ standard to C++14 on Windows\r\n- https://github.com/apple/swift-foundation-icu/pull/10 build: define `_CRT_SECURE_NO_DEPRECATE` on Windows\r\n- https://github.com/apple/swift-foundation-icu/pull/11 build: disable POSIX paths on Windows\r\n- https://github.com/apple/swift-foundation-icu/pull/12 build: define `U_ATTRIBUTE_DEPRECATED` when building\r\n- https://github.com/apple/swift-foundation-icu/pull/13 Fixed iOS build failures\r\n\r\n### Corresponding ICU Version: `ICU 70.1`",
+    "createdAt" : "2023-05-12T03:32:22+09:00",
+    "fetchedFromAPIAt" : "2023-05-15T09:43:02+09:00",
+    "id" : "RE_kwDOIzpzt84GHuPq",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-12T03:43:26+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "FoundationICU 0.0.2",
+    "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.2",
+    "version" : "0.0.2"
   }
 ]
