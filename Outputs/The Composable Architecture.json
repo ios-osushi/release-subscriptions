@@ -790,5 +790,17 @@
     "title" : "0.53.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.53.1",
     "version" : "0.53.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Make `Send` sendable (https://github.com/pointfreeco/swift-composable-architecture/pull/2112)\r\n* When test exhaustivity is off, `receive` now waits for the expected action rather than taking the first action (thanks @alex-reilly-pronto, https://github.com/pointfreeco/swift-composable-architecture/pull/2100)\r\n* Fix typo in the \"Meet the Composable Architecture\" (thanks @redryerye, https://github.com/pointfreeco/swift-composable-architecture/pull/2114)\r\n* Fix compile error in Xcode <14.3 (thanks @hj56775, https://github.com/pointfreeco/swift-composable-architecture/pull/2115)\r\n\r\n## New Contributors\r\n* @alex-reilly-pronto made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2100\r\n* @redryerye made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2114\r\n* @hj56775 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2115\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.53.1...0.53.2",
+    "createdAt" : "2023-05-17T21:44:32+09:00",
+    "fetchedFromAPIAt" : "2023-05-18T09:48:27+09:00",
+    "id" : "RE_kwDOD48kk84GKHsL",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-05-17T22:17:02+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.53.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.53.2",
+    "version" : "0.53.2"
   }
 ]

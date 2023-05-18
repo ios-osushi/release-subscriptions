@@ -130,5 +130,17 @@
     "title" : "0.50800.0-SNAPSHOT-2022-12-29-a",
     "url" : "https://github.com/apple/swift-format/releases/tag/0.50800.0-SNAPSHOT-2022-12-29-a",
     "version" : "0.50800.0-SNAPSHOT-2022-12-29-a"
+  },
+  {
+    "body" : "This release is compatible with Swift 5.8.\r\n\r\nCompared to 508.0.0, this release relaxes the version requirement for `swift-argument-parser`, resulting in fewer version conflicts for users of swift-format and SwiftSyntax.",
+    "createdAt" : "2023-05-18T05:09:28+09:00",
+    "fetchedFromAPIAt" : "2023-05-18T09:48:27+09:00",
+    "id" : "RE_kwDOC7ABTs4GKVvx",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-18T05:11:24+09:00",
+    "repository" : "swift-format",
+    "title" : "508.0.1",
+    "url" : "https://github.com/apple/swift-format/releases/tag/508.0.1",
+    "version" : "508.0.1"
   }
 ]
