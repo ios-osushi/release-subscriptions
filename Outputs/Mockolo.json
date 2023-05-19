@@ -382,5 +382,17 @@
     "title" : "1.8.1",
     "url" : "https://github.com/uber/mockolo/releases/tag/1.8.1",
     "version" : "1.8.1"
+  },
+  {
+    "body" : "# 2.0.0 Major Update\r\n\r\nmockolo uses SwiftSyntax508.0.0 from this version.\r\nThis will solve many installation issues.\r\nAlong with this, build support for mockolo itself in lower Xcode versions will be terminated.\r\n\r\nSince mockolo built with the latest Xcode will still work for older Swift code, many users will not need to worry about this.\r\n\r\n## What's Changed\r\n* Use SwiftSyntax 508.0.0 by @sidepelican in https://github.com/uber/mockolo/pull/230\r\n* Avoid to generate duplicated variable name by @fummicc1 in https://github.com/uber/mockolo/pull/231\r\n* Fix typos by @woxtu in https://github.com/uber/mockolo/pull/232\r\n* Add support to build on macOS 12 by @sidepelican in https://github.com/uber/mockolo/pull/233\r\n* Wrap underlyingType if the type has existential any by @sidepelican in https://github.com/uber/mockolo/pull/235\r\n* Update version number to 2.0.0 by @sidepelican in https://github.com/uber/mockolo/pull/236\r\n\r\n## New Contributors\r\n* @woxtu made their first contribution in https://github.com/uber/mockolo/pull/232\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/1.8.2...2.0.0\r\n",
+    "createdAt" : "2023-05-18T14:06:26+09:00",
+    "fetchedFromAPIAt" : "2023-05-19T09:49:07+09:00",
+    "id" : "RE_kwDOCaWADM4GKept",
+    "owner" : "uber",
+    "publishedAt" : "2023-05-18T14:19:47+09:00",
+    "repository" : "mockolo",
+    "title" : "2.0.0",
+    "url" : "https://github.com/uber/mockolo/releases/tag/2.0.0",
+    "version" : "2.0.0"
   }
 ]
