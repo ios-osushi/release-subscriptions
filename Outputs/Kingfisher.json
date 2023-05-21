@@ -502,5 +502,17 @@
     "title" : "7.6.2 - Fix Dead Loop",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.6.2",
     "version" : "7.6.2"
+  },
+  {
+    "body" : "#### Add\n* Expose a new `imageDownloader(_:didReceive:completionHandler:)` delegate method in `ImageDownloaderDelegate` to allow making `ResponseDisposition` decision to the download task. [#2048](https://github.com/onevcat/Kingfisher/pull/2048) @onevcat\n\n#### Fix\n* Some type conversion warnings which might annoy under Swift 6 compiler. [#2060](https://github.com/onevcat/Kingfisher/pull/2060) [#2063](https://github.com/onevcat/Kingfisher/pull/2063) @zunda-pixel\n* Apply access limitation to the internal `Source.Identifier`. [#2074](https://github.com/onevcat/Kingfisher/pull/2074) @iwill-hwang\n\n",
+    "createdAt" : "2023-05-20T12:15:16+09:00",
+    "fetchedFromAPIAt" : "2023-05-21T09:44:15+09:00",
+    "id" : "RE_kwDOAf70wM4GLgRW",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-05-20T12:16:56+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.7.0 - The Last Chance",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.7.0",
+    "version" : "7.7.0"
   }
 ]
