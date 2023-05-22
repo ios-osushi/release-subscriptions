@@ -730,5 +730,17 @@
     "title" : "0.51.9",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.9",
     "version" : "0.51.9"
+  },
+  {
+    "body" : "- Fixed bug in `wrapAttributes` rule due to `class` declaration being mistaken for class-scoped var\r\n- Fixed another case of incorrect indenting inside an `#ifdef` block\r\n- Fixed linebreaks being incorrectly removed by `sortedSwitchCases`",
+    "createdAt" : "2023-05-22T06:38:35+09:00",
+    "fetchedFromAPIAt" : "2023-05-22T09:44:12+09:00",
+    "id" : "RE_kwDOA_OyXc4GLvgh",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-05-22T07:17:47+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.10",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.10",
+    "version" : "0.51.10"
   }
 ]
