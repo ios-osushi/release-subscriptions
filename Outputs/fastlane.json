@@ -478,5 +478,17 @@
     "title" : "2.212.1 Fix for Apple ID lockout and Access Forbidden with new hashcash header",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.212.1",
     "version" : "2.212.1"
+  },
+  {
+    "body" : "* [core][match] remove obsolete and expired WWDR G1 certificate (#21271) via Frederik Seiffert (@triplef)\n* [action][ensure_git_status_clean] new ignore_files option for explicitly ignoring files (#21283) via Josh Holtz (@joshdholtz)\n* [scan] run simulator destination with arch=x86_64 for Xcode 14.3 and up if on Intel (#21284) via Josh Holtz (@joshdholtz)\n* [match] adding support for self-managed GitLab instances (#21274) via Darby Frey (@darbyfrey)\n* [pilot] fix increase limit for build query (#21212) via Eric Lindvall (@eric)\n* [dependency] relax `multipart_post` dependency version requirement (#20870) via Edouard Brière (@edouard)",
+    "createdAt" : "2023-05-24T23:05:40+09:00",
+    "fetchedFromAPIAt" : "2023-05-25T09:41:10+09:00",
+    "id" : "RE_kwDOAaK_F84GNMqs",
+    "owner" : "fastlane",
+    "publishedAt" : "2023-05-24T23:15:02+09:00",
+    "repository" : "fastlane",
+    "title" : "2.213.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.213.0",
+    "version" : "2.213.0"
   }
 ]
