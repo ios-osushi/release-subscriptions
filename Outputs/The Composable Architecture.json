@@ -802,5 +802,17 @@
     "title" : "0.53.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.53.2",
     "version" : "0.53.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: All-new navigation tools for presenting child features (https://github.com/pointfreeco/swift-composable-architecture/pull/1945, https://github.com/pointfreeco/swift-composable-architecture/discussions/1944, https://github.com/pointfreeco/swift-composable-architecture/discussions/2048).\r\n\r\n    See the associated [documentation](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/navigation) and [tutorial](https://pointfreeco.github.io/swift-composable-architecture/main/tutorials/meetcomposablearchitecture/#navigation) for how to incorporate these tools into your applications today!\r\n\r\n* Added: `TestStore.assert`, for asserting state changes on non-exhaustive stores at any time (https://github.com/pointfreeco/swift-composable-architecture/pull/2123).\r\n* Fixed: Ensure that a test store helper runs on the main actor (https://github.com/pointfreeco/swift-composable-architecture/pull/2117).\r\n* Added: Ukrainian translation of TCA's README (thanks @barabashd, https://github.com/pointfreeco/swift-composable-architecture/pull/2121).\r\n* Infrastructure: DocC organization (https://github.com/pointfreeco/swift-composable-architecture/pull/2118).\r\n* Infrastructure: Ensure CI runs library tests in release (https://github.com/pointfreeco/swift-composable-architecture/pull/2120).\r\n* Fix assertion values by @tomassliz in https://github.com/pointfreeco/swift-composable-architecture/pull/2128\r\n* Infrastructure: Documentation fixes (thanks @tomassliz, https://github.com/pointfreeco/swift-composable-architecture/pull/2124, https://github.com/pointfreeco/swift-composable-architecture/pull/2128; @jaesung-0o0, https://github.com/pointfreeco/swift-composable-architecture/pull/2144).\r\n\r\n## New Contributors\r\n\r\n* @tomassliz made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2124\r\n* @jaesung-0o0 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2144\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.53.2...0.54.0",
+    "createdAt" : "2023-05-31T01:25:21+09:00",
+    "fetchedFromAPIAt" : "2023-05-31T10:39:48+09:00",
+    "id" : "RE_kwDOD48kk84GSESf",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-05-31T01:38:32+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "0.54.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/0.54.0",
+    "version" : "0.54.0"
   }
 ]

@@ -130,5 +130,17 @@
     "title" : "0.5.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.5.0",
     "version" : "0.5.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: `withMainSerialExecutor`'s concurrency warnings have been addressed (https://github.com/pointfreeco/swift-dependencies/pull/94).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.5.0...0.5.1",
+    "createdAt" : "2023-05-27T00:44:03+09:00",
+    "fetchedFromAPIAt" : "2023-05-31T10:39:48+09:00",
+    "id" : "RE_kwDOIF_Mq84GSB9y",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-05-31T00:47:12+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "0.5.1",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.5.1",
+    "version" : "0.5.1"
   }
 ]

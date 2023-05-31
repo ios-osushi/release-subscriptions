@@ -742,5 +742,17 @@
     "title" : "0.51.10",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.10",
     "version" : "0.51.10"
+  },
+  {
+    "body" : "- Fixed unexpected static function error false positive in `redundantSelf` rule\r\n- Fixed failure to report lint error when removing a duplicate blank line at the end of the file\r\n- Fixed bug where `hoistTry` rule failed with more than 10 `try` expressions at the same scope level\r\n- Comments containing `TODO:` directives are no longer converted by the `docComments` rule",
+    "createdAt" : "2023-05-30T03:45:56+09:00",
+    "fetchedFromAPIAt" : "2023-05-31T10:39:48+09:00",
+    "id" : "RE_kwDOA_OyXc4GRldt",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-05-30T03:59:23+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.11",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.11",
+    "version" : "0.51.11"
   }
 ]
