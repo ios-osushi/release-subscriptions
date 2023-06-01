@@ -598,5 +598,17 @@
     "title" : "SwiftNIO 2.53.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.53.0",
     "version" : "2.53.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- `EmbeddedChannel`: `getOption(ChannelOptions.allowRemoteHalfClosure)` should not `fatalError` (#2429)\r\n\r\n### SemVer Patch\r\n\r\n- Pooled control message storage. (#2422, patch credit to @ser-0xff)\r\n- NIOPOSIX happy eyeballs now hops to the connection event loop when using a custom resolver to avoid data races (#2436)\r\n\r\n### Other Changes\r\n\r\n- Add tests for WebSocketMaskingKey.random() (#2433, patch credit to @gwynne)\r\n- Add narrative documentation for NIO's concurrency bridges (#2423)\r\n- Include relevant versions (kernel & Swift) in test output (#2425)\r\n- Update `update-alloc-limits-...` script (#2430)\r\n- Fix flaky test in NIOAsyncWriter (#2431)",
+    "createdAt" : "2023-05-31T22:06:23+09:00",
+    "fetchedFromAPIAt" : "2023-06-01T09:58:02+09:00",
+    "id" : "RE_kwDOBy6rG84GSjmj",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-31T23:42:06+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.54.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.54.0",
+    "version" : "2.54.0"
   }
 ]
