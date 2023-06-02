@@ -454,5 +454,17 @@
     "title" : "v12.0.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v12.0.0",
     "version" : "v12.0.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix wasm build by @ikesyo in https://github.com/Quick/Nimble/pull/1053\r\n* Bump cocoapods from 1.12.0 to 1.12.1 by @dependabot in https://github.com/Quick/Nimble/pull/1054\r\n* Bump swiftwasm/swiftwasm-action from 5.7 to 5.8 by @dependabot in https://github.com/Quick/Nimble/pull/1057\r\n* Make the async version of poll concurrency-safe by wrapping it in an actor by @younata in https://github.com/Quick/Nimble/pull/1059\r\n* cast an empty array to avoid a warning during compile time by @younata in https://github.com/Quick/Nimble/pull/1060\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v12.0.0...v12.0.1",
+    "createdAt" : "2023-06-02T07:41:58+09:00",
+    "fetchedFromAPIAt" : "2023-06-02T13:05:47+09:00",
+    "id" : "RE_kwDOAUUIhc4GTcZy",
+    "owner" : "Quick",
+    "publishedAt" : "2023-06-02T07:45:00+09:00",
+    "repository" : "Nimble",
+    "title" : "v12.0.1",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v12.0.1",
+    "version" : "v12.0.1"
   }
 ]

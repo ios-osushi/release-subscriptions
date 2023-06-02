@@ -442,5 +442,17 @@
     "title" : "Swift 5.7.3 Release",
     "url" : "https://github.com/apple/swift/releases/tag/swift-5.7.3-RELEASE",
     "version" : "swift-5.7.3-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-05-24T05:17:24+09:00",
+    "fetchedFromAPIAt" : "2023-06-02T13:05:47+09:00",
+    "id" : "RE_kwDOAqwwJc4GTUEP",
+    "owner" : "apple",
+    "publishedAt" : "2023-06-02T03:10:11+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.8.1 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.8.1-RELEASE",
+    "version" : "swift-5.8.1-RELEASE"
   }
 ]
