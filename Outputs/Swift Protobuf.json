@@ -430,5 +430,17 @@
     "title" : "1.21.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.21.0",
     "version" : "1.21.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Pull a few updates to the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1384\r\n  * 2GB limits on delimited decode\r\n  * Reading of delimited data in chunks for better performance/error handing\r\n* Update 1.x podspec to work with Xcode 14.3 by @bnickel in https://github.com/apple/swift-protobuf/pull/1403\r\n* Bump version for a 1.22.0 release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1404\r\n* Expose implementationOnlyImports option in SPM plugin by @gjcairo in https://github.com/apple/swift-protobuf/pull/1406\r\n\r\n## New Contributors\r\n* @bnickel made their first contribution in https://github.com/apple/swift-protobuf/pull/1403\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.21.0...1.22.0",
+    "createdAt" : "2023-06-02T21:27:38+09:00",
+    "fetchedFromAPIAt" : "2023-06-04T09:56:09+09:00",
+    "id" : "RE_kwDOBAEMEM4GTtzA",
+    "owner" : "apple",
+    "publishedAt" : "2023-06-02T21:44:13+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.22.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.22.0",
+    "version" : "1.22.0"
   }
 ]

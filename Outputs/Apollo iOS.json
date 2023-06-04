@@ -658,5 +658,17 @@
     "title" : "1.2.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.2.0",
     "version" : "1.2.0"
+  },
+  {
+    "body" : "### Improved\r\n- **Added new validation to alert users to type naming conflict when running code generation([#2405](https://github.com/apollographql/apollo-ios/issues/2405)):** See PR [#3041](https://github.com/apollographql/apollo-ios/pull/3041).\r\n\r\n### Fixed\r\n- **Int values failing to cast to Scalar Type during cache key resolution ([#3034](https://github.com/apollographql/apollo-ios/issues/3034)):** See PR [#3037](https://github.com/apollographql/apollo-ios/pull/3037). _Thank you to [@asbhat](https://github.com/asbhat) for raising the issue._\r\n- **Fix malformed RootEntityType on generated fragment with `@include` condition. ([#2962](https://github.com/apollographql/apollo-ios/issues/2962)):** See PR [#3045](https://github.com/apollographql/apollo-ios/pull/3045). _Thank you to [@alexisbronchart](https://github.com/alexisbronchart) for raising the issue._",
+    "createdAt" : "2023-06-03T03:53:28+09:00",
+    "fetchedFromAPIAt" : "2023-06-04T09:56:09+09:00",
+    "id" : "RE_kwDOA9NCTc4GT4sI",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-06-03T03:56:29+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.2.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.2.1",
+    "version" : "1.2.1"
   }
 ]
