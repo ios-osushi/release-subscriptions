@@ -646,5 +646,17 @@
     "title" : "v10.40.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.40.0",
     "version" : "v10.40.0"
+  },
+  {
+    "body" : "### Enhancements\n\n* Fix compilation with Xcode 15. Note that iOS 12 is the minimum supported\n  deployment target when using Xcode 15.\n* Switch to building the Carthage release with Xcode 14.3.1.\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 14.3.1.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.1-15 beta 1.\n\n### Internal\n\n* Overhauled SDK metrics collection to better drive future development efforts.",
+    "createdAt" : "2023-06-07T14:25:27+09:00",
+    "fetchedFromAPIAt" : "2023-06-08T09:50:46+09:00",
+    "id" : "RE_kwDOAD24W84GagNy",
+    "owner" : "realm",
+    "publishedAt" : "2023-06-07T14:27:39+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.40.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.40.1",
+    "version" : "v10.40.1"
   }
 ]
