@@ -658,5 +658,17 @@
     "title" : "v10.40.1",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.40.1",
     "version" : "v10.40.1"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* `Actor.preconditionIsolated()` is now used for runtime actor checking when available (i.e. building with Xcode 15 and running on iOS 17) rather than the less reliable workaround.\r\n\r\n### Fixed\r\n\r\n* If downloading the fresh Realm file failed during a client reset on a flexible sync Realm, the sync client would crash the next time the Realm was opened. ([Core #6494](https://github.com/realm/realm-core/issues/6494), since v10.28.2)\r\n* If the order of properties in the local class definitions did not match the order in the server-side schema, the before-reset Realm argument passed to a client reset handler would have an invalid schema and likely crash if any data was read from it. ([Core 6693](https://github.com/realm/realm-core/issues/6693), since v10.40.0)\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 14.3.1.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15 beta 1.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 13.13.0 to 13.16.0.\r\n* The prebuilt library used for CocoaPods installations is now built with Xcode 14. This should not have any observable effects other than the download being much smaller due to no longer including bitcode.",
+    "createdAt" : "2023-06-10T08:46:34+09:00",
+    "fetchedFromAPIAt" : "2023-06-11T09:53:24+09:00",
+    "id" : "RE_kwDOAD24W84GcQhz",
+    "owner" : "realm",
+    "publishedAt" : "2023-06-10T08:48:49+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.40.2",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.40.2",
+    "version" : "v10.40.2"
   }
 ]
