@@ -754,5 +754,17 @@
     "title" : "0.51.11",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.11",
     "version" : "0.51.11"
+  },
+  {
+    "body" : "- Fixed `hoistTry` bugs with generics, subscripts and collection literals\r\n- Fixed hoisting bugs with statements containing both `try?` and `try`\r\n- Fixed hoisting of `try` inside an optional function\r\n- Fixed function argument wrapping bug\r\n- Fixed bug where nested closure `in` was mistaken for part of a `for` loop\r\n- Added preliminary support for wrapping Swift 5.9 macro declarations\r\n- Added preliminary support for Swift 5.9 `package` access modifier\r\n- Added preliminary support for Swift 5.9 `consume` and `discard` operators\r\n- Added preliminary support for Swift 5.9 `borrowing` and `consuming` modifiers",
+    "createdAt" : "2023-06-14T07:30:34+09:00",
+    "fetchedFromAPIAt" : "2023-06-14T09:45:21+09:00",
+    "id" : "RE_kwDOA_OyXc4GdteK",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-06-14T07:47:12+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.12",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.12",
+    "version" : "0.51.12"
   }
 ]

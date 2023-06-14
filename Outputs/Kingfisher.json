@@ -514,5 +514,17 @@
     "title" : "7.7.0 - The Last Chance",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.7.0",
     "version" : "7.7.0"
+  },
+  {
+    "body" : "#### Add\n* Introduce a custom image source provider to enable third-party image processors to utilize `AnimatedImageView`. [#2094](https://github.com/onevcat/Kingfisher/pull/2094) @yeatse\n\n#### Fix\n* Deprecate the `ImageResource` and rename it to `KF.ImageResource`. This triggers a warning when explicitly refering to `ImageResource`, which conflicts to the identical names from Apple's `GeneratedAssetSymbols` or `DeveloperToolsSupport` in Xcode 15. It does not fix the issue automatically, but can help to achieve a smoother transition. [#2092](https://github.com/onevcat/Kingfisher/pull/2092) @JohnnyTseng @rtharston\n\n",
+    "createdAt" : "2023-06-13T22:10:53+09:00",
+    "fetchedFromAPIAt" : "2023-06-14T09:45:21+09:00",
+    "id" : "RE_kwDOAf70wM4GdaPI",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-06-13T22:12:50+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.8.0 - ImageSource Protocol",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.8.0",
+    "version" : "7.8.0"
   }
 ]

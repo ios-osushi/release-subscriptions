@@ -358,5 +358,17 @@
     "title" : "Swift Crypto 2.4.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/2.4.0",
     "version" : "2.4.0"
+  },
+  {
+    "body" : "### Semver Major\r\n\r\n- Update to the 2023 CryptoKit API (#181)\r\n\r\n### Other changes\r\n\r\n- Update code of conduct (#182)\r\n- Clean up documentation typos (#179) (patch credit to @joey-gm)",
+    "createdAt" : "2023-06-14T02:27:01+09:00",
+    "fetchedFromAPIAt" : "2023-06-14T09:45:21+09:00",
+    "id" : "RE_kwDOC9Swts4GdlXG",
+    "owner" : "apple",
+    "publishedAt" : "2023-06-14T02:34:09+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.0.0-beta.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.0.0-beta.1",
+    "version" : "3.0.0-beta.1"
   }
 ]
