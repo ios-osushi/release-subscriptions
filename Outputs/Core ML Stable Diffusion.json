@@ -46,5 +46,17 @@
     "title" : "0.4.0",
     "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/0.4.0",
     "version" : "0.4.0"
+  },
+  {
+    "body" : "- 6-bit weight compression using coremltools\r\n- Improved attention implementation (`SPLIT_EINSUM_V2`) which yields up to 30% improved Neural Engine performance\r\n- Multilingual text encoder support\r\n- New benchmarks for iPhone, iPad and Mac",
+    "createdAt" : "2023-06-15T00:27:02+09:00",
+    "fetchedFromAPIAt" : "2023-06-15T09:46:31+09:00",
+    "id" : "RE_kwDOIcVD8s4GeSjh",
+    "owner" : "apple",
+    "publishedAt" : "2023-06-15T00:48:40+09:00",
+    "repository" : "ml-stable-diffusion",
+    "title" : "1.0.0",
+    "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/1.0.0",
+    "version" : "1.0.0"
   }
 ]
