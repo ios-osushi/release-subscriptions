@@ -802,5 +802,17 @@
     "title" : "Nuke 12.1",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.1.0",
     "version" : "12.1.0"
+  },
+  {
+    "body" : "- Fix compilation errors on xrOS\r\n- Fix warnings in Xcode 15",
+    "createdAt" : "2023-06-22T11:48:18+09:00",
+    "fetchedFromAPIAt" : "2023-06-23T09:53:16+09:00",
+    "id" : "RE_kwDOAeh5z84Gho3z",
+    "owner" : "kean",
+    "publishedAt" : "2023-06-22T11:54:57+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.2 (Beta 1)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.2.0-beta.1",
+    "version" : "12.2.0-beta.1"
   }
 ]

@@ -46,5 +46,17 @@
     "title" : "1.2.0",
     "url" : "https://github.com/apple/swift-docc-plugin/releases/tag/1.2.0",
     "version" : "1.2.0"
+  },
+  {
+    "body" : "### What's Changed\r\n\r\n- Documentation for [Swift symbols that extend other modules](https://apple.github.io/swift-docc-plugin/documentation/swiftdoccplugin/generating-documentation-for-extended-types) is now included **by default** when building with **Swift 5.9 or later**. To exclude external types when building Swift 5.9 or later, you can pass the new `--exclude-extended-types` flag:\r\n\r\n   ```shell\r\n   swift package generate-documentation --exclude-extended-types --target [target-name]\r\n   ```\r\n---\r\n\r\nThe `1.3.0` release includes contributions from @theMomax. Thank you! ",
+    "createdAt" : "2023-05-04T23:58:12+09:00",
+    "fetchedFromAPIAt" : "2023-06-23T09:53:16+09:00",
+    "id" : "RE_kwDOGYmeSs4GiErq",
+    "owner" : "apple",
+    "publishedAt" : "2023-06-23T03:30:52+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "Swift-DocC-Plugin 1.3.0",
+    "url" : "https://github.com/apple/swift-docc-plugin/releases/tag/1.3.0",
+    "version" : "1.3.0"
   }
 ]
