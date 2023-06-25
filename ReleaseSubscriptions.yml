@@ -108,6 +108,24 @@ repositories:
   
   - kind: primary
     case: releases
+    name: Swift OpenAPI Generator
+    owner: apple
+    repo: swift-openapi-generator
+  
+  - kind: primary
+    case: releases
+    name: Swift OpenAPI Runtime
+    owner: apple
+    repo: swift-openapi-runtime
+  
+  - kind: primary
+    case: releases
+    name: Swift OpenAPI URLSession
+    owner: apple
+    repo: swift-openapi-urlsession
+  
+  - kind: primary
+    case: releases
     name: Swift Package Manager
     owner: apple
     repo: swift-package-manager
