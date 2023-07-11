@@ -19,9 +19,6 @@ struct App: AsyncParsableCommand {
     var secondarySlackURL: URL?
     
     func run() async throws {
-        defer {
-            Logger.app.info("🎉 \(#function) finished")
-        }
         Logger.app.info("ℹ️ \(#function) started")
         do {
             if primarySlackURL == nil {
@@ -38,6 +35,7 @@ struct App: AsyncParsableCommand {
             try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
             try FileHelper.save(contents: combinedContents)
             try FileHelper.writeToREADME(repositories: repositories)
+            Logger.app.info("🎉 \(#function) finished")
         } catch {
             Logger.app.error("❌ \(error)")
             throw error

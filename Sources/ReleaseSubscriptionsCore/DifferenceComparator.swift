@@ -10,9 +10,6 @@ import Logging
 
 public struct DifferenceComparator {
     public static func insertions(repositories: [GitHubRepository], old: [GitHubRepository : [Release]], new: [GitHubRepository : [Release]]) -> [GitHubRepository : [Release]] {
-        defer {
-            Logger.shared.info("🎉 \(#function) finished")
-        }
         Logger.shared.info("ℹ️ \(#function) started")
         var insertions: [GitHubRepository : [Release]] = [:]
         for repository in repositories {
@@ -34,6 +31,7 @@ public struct DifferenceComparator {
                 Logger.shared.info("🤩 There are differences in \(repository.name) releases")
             }
         }
+        Logger.shared.info("🎉 \(#function) finished")
         return insertions
     }
 }
