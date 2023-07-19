@@ -35,8 +35,14 @@ public struct Fetcher {
         return try await withThrowingTaskGroup(of: (GitHubRepository, [Release]).self) { group in
             for repository in repositories {
                 group.addTask {
-                    let releases = try await fetch(repository: repository)
-                    return (repository, releases)
+                    do {
+                        let releases = try await fetch(repository: repository)
+                        return (repository, releases)
+                    } catch {
+                        Logger.shared.error("❌ \(#function) failed")
+                        Logger.shared.error("❌ repository: \(repository)")
+                        throw error
+                    }
                 }
             }
             
