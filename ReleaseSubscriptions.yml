@@ -306,18 +306,6 @@ repositories:
   
   - kind: secondary
     case: releases
-    name: xcodes
-    owner: RobotsAndPencils
-    repo: xcodes
-  
-  - kind: secondary
-    case: releases
-    name: Xcodes.app
-    owner: XcodesOrg
-    repo: XcodesApp
-  
-  - kind: secondary
-    case: releases
     name: SDWebImage
     owner: SDWebImage
     repo: SDWebImage
@@ -345,6 +333,18 @@ repositories:
     name: Mockolo
     owner: uber
     repo: mockolo
+
+  - kind: secondary
+    case: releases
+    name: xcodes
+    owner: XcodesOrg
+    repo: xcodes
+  
+  - kind: secondary
+    case: releases
+    name: Xcodes.app
+    owner: XcodesOrg
+    repo: XcodesApp
   
   - kind: secondary
     case: releases
