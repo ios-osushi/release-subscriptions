@@ -313,7 +313,7 @@ repositories:
   - kind: secondary
     case: releases
     name: Xcodes.app
-    owner: RobotsAndPencils
+    owner: XcodesOrg
     repo: XcodesApp
   
   - kind: secondary
