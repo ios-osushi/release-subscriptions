@@ -28,9 +28,6 @@ public struct SlackNotifier {
     }()
     
     public static func notify(to slackURLs: [SlackWebhookDestination : URL], updates: [GitHubRepository : [Release]]) async throws {
-        defer {
-            Logger.shared.info("🎉 \(#function) finished")
-        }
         Logger.shared.info("ℹ️ \(#function) started")
         try await withThrowingTaskGroup(of: Void.self) { group in
             for (repository, releases) in updates {
@@ -60,6 +57,7 @@ public struct SlackNotifier {
             }
             try await group.waitForAll()
         }
+        Logger.shared.info("🎉 \(#function) finished")
     }
     
     static private func message(name: String, owner: String, repo: String, repoURL: URL, title: String, version: String, releaseURL: URL, publishedAt: String?, body: String) -> String {

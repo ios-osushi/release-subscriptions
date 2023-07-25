@@ -52,9 +52,6 @@ public struct FileHelper {
     // MARK: - Repositories and Releases
     
     public static func load(repositories: [GitHubRepository]) throws -> [GitHubRepository : [Release]] {
-        defer {
-            Logger.shared.info("🎉 \(#function) finished")
-        }
         Logger.shared.info("ℹ️ \(#function) started")
         var contents: [GitHubRepository : [Release]] = [:]
         for repository in repositories {
@@ -71,13 +68,11 @@ public struct FileHelper {
                 Logger.shared.info("🔔 \(repository.outputJSONFileName) loading was skipped because that file could not be found")
             }
         }
+        Logger.shared.info("🎉 \(#function) finished")
         return contents
     }
     
     public static func save(contents: [GitHubRepository : [Release]]) throws {
-        defer {
-            Logger.shared.info("🎉 \(#function) finished")
-        }
         Logger.shared.info("ℹ️ \(#function) started")
         for (repository, releases) in contents {
             Logger.shared.info("ℹ️ Saving \(repository.outputJSONFileName)")
@@ -86,17 +81,14 @@ public struct FileHelper {
             try data.write(to: url)
             Logger.shared.info("✅ Saved \(repository.outputJSONFileName)")
         }
+        Logger.shared.info("🎉 \(#function) finished")
     }
-    
     
     // MARK: - README.md
     
     private static let lowerBoundKeyword = "<!-- BEGIN LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->"
     private static let upperBoundKeyword = "<!-- END LIST OF REPOSITORIES (AUTOMATICALLY OUTPUT) -->"
     public static func writeToREADME(repositories: [GitHubRepository]) throws {
-        defer {
-            Logger.shared.info("🎉 \(#function) finished")
-        }
         Logger.shared.info("ℹ️ \(#function) started")
         let (url, string, lowerBound, upperBound) = try readFromREADME()
         let outputListOfRepositoriesString = """
@@ -112,12 +104,10 @@ public struct FileHelper {
         + upperBoundKeyword
         try string.replacingCharacters(in: lowerBound..<upperBound, with: outputListOfRepositoriesString)
             .write(to: url, atomically: true, encoding: .utf8)
+        Logger.shared.info("🎉 \(#function) finished")
     }
     
     static func readFromREADME() throws -> (URL, String, String.Index, String.Index) {
-        defer {
-            Logger.shared.info("🎉 \(#function) finished")
-        }
         Logger.shared.info("ℹ️ \(#function) started")
         let url = URL.topLevelDirectory.appendingPathComponent("README.md")
         let string = try String(contentsOf: url)
@@ -125,6 +115,7 @@ public struct FileHelper {
               let upperBound = string.range(of: upperBoundKeyword)?.upperBound else {
             throw Error.invalidREADMEFormat
         }
+        Logger.shared.info("🎉 \(#function) finished")
         return (url, string, lowerBound, upperBound)
     }
 }

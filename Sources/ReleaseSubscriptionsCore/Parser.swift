@@ -16,9 +16,6 @@ public struct Parser {
     }
     
     public static func parse() throws -> [GitHubRepository] {
-        defer {
-            Logger.shared.info("🎉 \(#function) finished")
-        }
         Logger.shared.info("ℹ️ \(#function) started")
         let url = URL.topLevelDirectory.appendingPathComponent("ReleaseSubscriptions.yml")
         let string = try String(contentsOf: url)
@@ -39,9 +36,11 @@ public struct Parser {
             switch `case` {
             case "releases":
                 Logger.shared.info("✅ The correct YAML format: \(name) (\(`case`))")
+                Logger.shared.info("🎉 \(#function) finished")
                 return .releases(destination, .init(name: name, owner: owner, repository: repository))
             case "tags":
                 Logger.shared.info("✅ The correct YAML format: \(name) (\(`case`))")
+                Logger.shared.info("🎉 \(#function) finished")
                 return .tags(destination, .init(name: name, owner: owner, repository: repository))
             default:
                 throw Error.unknownCase
