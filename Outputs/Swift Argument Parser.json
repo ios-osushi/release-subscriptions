@@ -370,5 +370,17 @@
     "title" : "ArgumentParser 1.2.2",
     "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.2",
     "version" : "1.2.2"
+  },
+  {
+    "body" : "### Additions\r\n\r\n- You can now use ArgumentParser with Musl libc. (#574)\r\n\r\n### Fixes\r\n\r\n- Fixes a bug where single-page manuals did not include command abstracts for\r\n  subcommands. (#552)\r\n- Fixes a bug where non-optional properties in ParsableCommands could cause\r\n  ArgumentParser to crash. You can now include properties like dictionaries in\r\n  ParsableCommands without issue. (#554)\r\n- Fixes a configuration issue which would cause `ArgumentParserTestHelpers` to\r\n  fail to link when building for Windows. (#579)\r\n\r\nThe 1.2.3 release includes contributions from @compnerd, @gwynne,\r\n@MaxDesiatov, @natecook1000, and @rauhul. Thank you!",
+    "createdAt" : "2023-08-16T04:01:35+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDODmuHYc4G_qPq",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-16T04:04:53+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.2.3",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.3",
+    "version" : "1.2.3"
   }
 ]

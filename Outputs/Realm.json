@@ -576,6 +576,18 @@
     "version" : "v10.37.2"
   },
   {
+    "body" : "### Enhancements\r\n\r\n* Add support for building for visionOS and add Xcode 15 binaries to the release package. visionOS currently requires installing Realm via either Swift Package Manager or by using a XCFramework as CocoaPods and Carthage do not yet support it.\r\n* Zips compatible with SPM's `.binaryTarget()` are now published as part of the releases on Github.\r\n* Prebuilt XCFrameworks are now built with LTO enabled. This has insignificant performance benefits, but cuts the size of the library by ~15%.\r\n\r\n### Fixed\r\n\r\n* Fix nested properties observation on a `Projections` not notifying when there is a property change. ([#8276](https://github.com/realm/realm-swift/issues/8276), since v10.34.0).\r\n* Fix undefined symbol error for `UIKit` when linking Realm to a framework using SPM. ([#8308](https://github.com/realm/realm-swift/issues/8308), since v10.41.0)\r\n* If the app crashed at exactly the wrong time while opening a freshly compacted Realm the file could be left in an invalid state ([Core #6807](https://github.com/realm/realm-core/pull/6807), since v10.33.0).\r\n* Sync progress for DOWNLOAD messages was sometimes stored incorrectly, resulting in an extra round trip to the server. ([Core #6827](https://github.com/realm/realm-core/issues/6827), since v10.31.0)\r\n\r\n### Breaking Changes\r\n\r\n* Legacy non-xcframework Carthage installations are no longer supported. Please ensure you are using `--use-xcframeworks` if installing via Carthage.\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 14.3.1.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15 beta 5.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 13.17.0 to 13.17.1\r\n* Release packages were being uploaded to several static.realm.io URLs which are no longer linked to anywhere. These are no longer being updated, and release packages are now only being uploaded to Github.",
+    "createdAt" : "2023-07-31T06:44:33+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAD24W84G0c_0",
+    "owner" : "realm",
+    "publishedAt" : "2023-07-31T07:30:19+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.42.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.42.0",
+    "version" : "v10.42.0"
+  },
+  {
     "body" : "### Enhancements\n\n* Improve performance of equality queries on a non-indexed AnyRealmValue\n  property by about 30%. ([Core #6506](https://github.com/realm/realm-core/issues/6506))\n\n### Fixed\n\n* SSL handshake errors were treated as fatal errors rather than errors which\n  should be retried. ([Core #6434](https://github.com/realm/realm-core/issues/6434), since v10.35.0)\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 14.3.\n* CocoaPods: 1.10 or later.\n* Xcode: 13.4-14.3.\n\n### Internal\n\n* Upgraded realm-core from 13.9.0 to 13.9.3.",
     "createdAt" : "2023-04-26T14:27:23+09:00",
     "fetchedFromAPIAt" : "2023-04-27T09:43:33+09:00",
@@ -670,5 +682,41 @@
     "title" : "v10.40.2",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.40.2",
     "version" : "v10.40.2"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* Add support for multiplexing sync connections. When enabled (the default), a single connection is used per sync user rather than one per synchronized Realm. This reduces resource consumption when multiple Realms are opened and will typically improve performance ([PR #8282](https://github.com/realm/realm-swift/pull/8282)).\r\n* Sync timeout options can now be set on `RLMAppConfiguration` along with the other app-wide configuration settings ([PR #8282](https://github.com/realm/realm-swift/pull/8282)).\r\n\r\n### Fixed\r\n\r\n* Import as `RLMRealm_Private.h` as a module would cause issues when using Realm as a subdependency. ([#8164](https://github.com/realm/realm-swift/issues/8164), since 10.37.0)\r\n* Disable setting a custom logger by default on the sync client when the sync manager is created. This was overriding the default logger set using `RLMLogger.defaultLogger`. (since v10.39.0).\r\n\r\n### Breaking Changes\r\n\r\n* The `RLMSyncTimeouts.appConfiguration` property has been removed. This was an unimplemented read-only property which did not make any sense on the containing type ([PR #8282](https://github.com/realm/realm-swift/pull/8282)).\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 14.3.1.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15 beta 2.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 13.15.0 to 13.15.1\r\n",
+    "createdAt" : "2023-06-27T04:10:43+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAD24W84Gjddw",
+    "owner" : "realm",
+    "publishedAt" : "2023-06-27T04:12:47+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.41.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.41.0",
+    "version" : "v10.41.0"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* Filesystem errors now include more information in the error message.\r\n* Sync connection and session reconnect timing/backoff logic has been reworked and unified into a single implementation. Previously some categories of errors would cause an hour-long wait before attempting to reconnect, while others would use an exponential backoff strategy. All errors now result in the sync client waiting for 1 second before retrying, doubling the wait after each subsequent failure up to a maximum of five minutes. If the cause of the error changes, the backoff will be reset. If the sync client voluntarily disconnects, no backoff will be used. ([Core #6526]((https://github.com/realm/realm-core/pull/6526)))\r\n\r\n### Fixed\r\n\r\n* Removed warnings for deprecated APIs internal use. ([#8251](https://github.com/realm/realm-swift/issues/8251), since v10.39.0)\r\n* Fix an error during async open and client reset if properties have been added to the schema. This fix also applies to partition-based to flexible sync migration if async open is used. ([Core #6707](https://github.com/realm/realm-core/issues/6707), since v10.28.2)\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 14.3.1.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15 beta 4.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 13.15.1 to 13.17.0\r\n* The location where prebuilt core binaries are published has changed slightly. If you are using `REALM_BASE_URL` to mirror the binaries, you may need to adjust your mirroring logic.\r\n* Release packages were being uploaded to several static.realm.io URLs which are no longer linked to anywhere. These are no longer being updated, and release packages are now only being uploaded to Github.",
+    "createdAt" : "2023-07-18T07:58:31+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAD24W84GtcPu",
+    "owner" : "realm",
+    "publishedAt" : "2023-07-18T08:00:45+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.41.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.41.1",
+    "version" : "v10.41.1"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n* The names of the prebuilt zips for SPM have changed to avoid having Carthage download them instead of the intended Carthage zip ([#8326](https://github.com/realm/realm-swift/issues/8326), since v10.42.0).\r\n* The prebuild Realm.xcframework for SwiftPM now has all platforms other than visionOS built with Xcode 14 to comply with app store rules ([#8339](https://github.com/realm/realm-swift/issues/8339), since 10.42.0).\r\n* Fix visionOS compilation with Xcode beta 7.\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 14.3.1.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15 beta 7.",
+    "createdAt" : "2023-08-29T06:25:19+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAD24W84HF7kU",
+    "owner" : "realm",
+    "publishedAt" : "2023-08-29T07:53:33+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.42.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.42.1",
+    "version" : "v10.42.1"
   }
 ]

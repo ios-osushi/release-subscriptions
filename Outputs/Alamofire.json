@@ -418,5 +418,17 @@
     "title" : "5.7.1",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.7.1",
     "version" : "5.7.1"
+  },
+  {
+    "body" : "Released on 2023-08-31. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/87?closed=1).\r\n\r\n#### Added\r\n\r\n- visionOS support.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Requests [#3738](https://github.com/Alamofire/Alamofire/pull/3738) and [#3750](https://github.com/Alamofire/Alamofire/pull/3750).\r\n- Hooks for initial `HTTPURLResponse` values.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3762](https://github.com/Alamofire/Alamofire/pull/3738).\r\n- Android build support.\r\n  - Added by [Hugo Gonzalez](https://github.com/hggz) in Pull Request [#3744](https://github.com/Alamofire/Alamofire/pull/3744).\r\n\r\n#### Updated\r\n\r\n- Async integration to obey automatic cancellation by default.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3757](https://github.com/Alamofire/Alamofire/pull/3757).\r\n- Platform `#if` checks.\r\n  - Updated by [brenno](https://github.com/brennobemoura) in Pull Request [#3756](https://github.com/Alamofire/Alamofire/pull/3756).\r\n- Windows CI.\r\n  - Updated by [Saleem Abdulrasool](https://github.com/compnerd) in Pull Request [#3763](https://github.com/Alamofire/Alamofire/pull/3763).\r\n- `URL` conversion tests for 2023 `URL` changes.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3734](https://github.com/Alamofire/Alamofire/pull/3734).\r\n- for-loop to `contains`.\r\n  - Updated by [Mayank Kumar Gupta](https://github.com/Mayank-84) in Pull Request [#3726](https://github.com/Alamofire/Alamofire/pull/3726).\r\n\r\n#### Fixed\r\n\r\n- `MultipartFormData` stream to properly obey `bodyContentLength`.\r\n  - Fixed by [Henrique Valcanaia](https://github.com/hvsw) in Pull Request [#3730](https://github.com/Alamofire/Alamofire/pull/3730).\r\n- Unnecessary call to empty init.\r\n  - Fixed by [Shinolr](https://github.com/Shinolr) in Pull Request [#3742](https://github.com/Alamofire/Alamofire/pull/3742).\r\n- Documentation typos.\r\n  - Fixed by [Jenna](https://github.com/ueunli) in Pull Request [#3733](https://github.com/Alamofire/Alamofire/pull/3733).",
+    "createdAt" : "2023-09-01T07:50:52+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAVavk84HH90B",
+    "owner" : "Alamofire",
+    "publishedAt" : "2023-09-01T07:52:04+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.8.0",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.8.0",
+    "version" : "5.8.0"
   }
 ]

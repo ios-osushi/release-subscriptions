@@ -708,6 +708,30 @@
     "version" : "0.51.3"
   },
   {
+    "body" : "- Added `redundantInternal` rule to remove redundant `internal` access modifiers\r\n- Added `sortTypealiases` rule to sort `typealias` types alphabetically\r\n- Added `headerFileName` rule to ensure filename in header comment matches actual file\r\n- Added `redundantStaticSelf` rule to remove redundant `self` inside static functions\r\n- Added `blankLinesBetweenChainedFunctions` rule to remove blank lines inside function chains\r\n- Added `applicationMain` rule to remove obsolete `@UIApplicationMain` and `@NSApplicationMain` attributes\r\n- Renamed `sortedSwitchCases` rule to `sortSwitchCases` for consistency\r\n- Renamed `sortedImports` rule to `sortImports` for consistency\r\n- Redundant `return` is now correctly removed in switch cases with associated values\r\n- Fixed failure to terminate when removing returns from long switch statement\r\n- Fixed spurious \"unexpected static\" error in `redundantSelf` rule\r\n- Deliberate blank line before `else` statement is now preserved\r\n- Rule options are now case-insensitive",
+    "createdAt" : "2023-08-14T02:54:48+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA_OyXc4G-lB9",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-08-14T03:01:13+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.0",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.0",
+    "version" : "0.52.0"
+  },
+  {
+    "body" : "- Fixed regression in `unusedArguments` rule that caused used parameters to be marked unused\r\n- Fixed some additional cases where regex literal was mistaken for `/` operator\r\n- Vertical tab and form feed characters in source file no longer cause spurious errors\r\n\r\n(Note: this release includes the fixes that were *supposed* to be included in 0.51.14, but were omitted due to a merge error).",
+    "createdAt" : "2023-08-07T03:50:39+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA_OyXc4G4Kje",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-08-07T03:56:31+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.15",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.15",
+    "version" : "0.51.15"
+  },
+  {
     "body" : "- Fixed `redundantSelf` removing non-unwrapped weak `self` inside closures\r\n- Fixed `fileprivate` rule making `init` private when inherited by subclass in the same file\r\n- Fixed `hoistPatternLet` rule inserting `let` inside dictionary type literal\r\n- Fixed indenting for chained members inside conditional compilation blocks\r\n- Fixed `unusedArguments` incorrectly removing used argument after conditional compilation block\r\n- Improved `unusedArguments` rule error handling\r\n",
     "createdAt" : "2023-05-03T04:11:27+09:00",
     "fetchedFromAPIAt" : "2023-05-03T09:41:12+09:00",
@@ -766,5 +790,53 @@
     "title" : "0.51.12",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.12",
     "version" : "0.51.12"
+  },
+  {
+    "body" : "- Fixed bug where importing a type caused the `redundantSelf` rule to be silently disabled\r\n- Fixed bug where `unusedArguments` would remove an argument that was used after an `if`\r\n- Fixed Windows support and added Windows release  binaries (thanks to Saleem Abdulrasool)\r\n- Fixed bug where backticks were incorrectly stripped from standalone `$` identifier\r\n- Added support for `package` keyword in `organizeDeclarations` rule",
+    "createdAt" : "2023-07-19T03:26:15+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA_OyXc4Gt-Vr",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-07-19T03:51:46+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.51.13",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.51.13",
+    "version" : "0.51.13"
+  },
+  {
+    "body" : "- Fixed various bugs and edge cases in `redundantStaticSelf` rule\r\n- Fixed bug with `redundantReturn` rule for switch statements containing `fallthrough`\r\n- Fixed `redundantReturn` rule stripping required return from `Void` switch statements\r\n- Fixed some more cases where prefix `/` operator could be mistaken for a regex literal\r\n- The `redundantReturn` rule now handles statements containing comments or raw strings\r\n- Fixed spurious warning for unused options when using `--lintonly` rules\r\n- Including `/` operator in `--nospaceoperators` or `--nowrapoperators` now works again\r\n",
+    "createdAt" : "2023-08-18T04:19:04+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA_OyXc4HA5Zp",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-08-18T04:36:50+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.1",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.1",
+    "version" : "0.52.1"
+  },
+  {
+    "body" : "- Fixed static `Self` being incorrectly removed in `let` or `if let` expressions\r\n- Fixed `// swiftformat:disable` directive not working for `redundantReturn` rule\r\n- Fixed spurious assertion failure",
+    "createdAt" : "2023-08-19T14:16:00+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA_OyXc4HBk_L",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-08-19T15:02:40+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.2",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.2",
+    "version" : "0.52.2"
+  },
+  {
+    "body" : "- Fixed incorrect hoisting of `try` inside multiline string literal interpolations\r\n- Fixed incorrect hoisting of `try` inside generic type initializer calls\r\n- Fixed case where parens were incorrectly removed around optional function calls\r\n- Fixed bug where early `return` statements added while debugging would be incorrectly removed\r\n",
+    "createdAt" : "2023-09-02T17:14:14+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA_OyXc4HIlEo",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-09-02T18:41:56+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.3",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.3",
+    "version" : "0.52.3"
   }
 ]

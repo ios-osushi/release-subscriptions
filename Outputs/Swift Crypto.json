@@ -360,6 +360,18 @@
     "version" : "2.4.0"
   },
   {
+    "body" : "### Semver Minor\r\n\r\n- Add API providing basic RSA pubkey encrypt and privkey decrypt (#125, #191, patch credit to @gwynne)\r\n\r\n### Semver Patch\r\n\r\n- Switch to canImport instead of os conditions (#184, #192)\r\n- Update BoringSSL to 7ae2b910c13017b63f1a8bd6c8decfce692869b0 (#190, #193)\r\n\r\n### Other changes\r\n\r\n- Typo fixes (#179, patch credit to @joey-gm)\r\n- Update code of conduct (#182)",
+    "createdAt" : "2023-08-04T01:02:34+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOC9Swts4G4Un1",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-07T17:50:30+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.6.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.6.0",
+    "version" : "2.6.0"
+  },
+  {
     "body" : "### Semver Major\r\n\r\n- Update to the 2023 CryptoKit API (#181)\r\n\r\n### Other changes\r\n\r\n- Update code of conduct (#182)\r\n- Clean up documentation typos (#179) (patch credit to @joey-gm)",
     "createdAt" : "2023-06-14T02:27:01+09:00",
     "fetchedFromAPIAt" : "2023-06-14T09:45:21+09:00",

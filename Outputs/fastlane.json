@@ -490,5 +490,17 @@
     "title" : "2.213.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.213.0",
     "version" : "2.213.0"
+  },
+  {
+    "body" : "* [spaceship] fix olympus session request error after skipping 2FA Upgrade (#21317) via AbbyM (@AbbyM)\n* [spaceship] add update method to ConnectAPI::User (#20956) via Vitalii Budnik (@nekrich)\n* [supply][action] add `download_apk_from_google_play` action (and corresponding `supply` methods) (#21315) via Olivier Halligon (@AliSoftware)\n* [docs] fix sync_code_signing.md (#21202) via Yuki Sakai (@VeyronSakai)\n* [fastlane] fix fastlane action template warnings reported by Rubocop (#21310) via Bartosz Kosiorek (@BartoszKosiorek-TomTom)\n* [docs][match] fix typos, improve wording, incorporate improvements to match documentation examples (#21302) via Roger Oba (@rogerluan)\n* [match] fixes Gitlab Secure Files API limit (#21361) via Darby Frey (@darbyfrey)\n* [match] adding access token prompt for GitLab Secure Files Match (#21279) via Darby Frey (@darbyfrey)\n* [deliver] update upload_price_tier (#21282) via lukethoene (@lukethoene)",
+    "createdAt" : "2023-07-15T01:50:19+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAaK_F84GsT8Y",
+    "owner" : "fastlane",
+    "publishedAt" : "2023-07-15T02:01:43+09:00",
+    "repository" : "fastlane",
+    "title" : "2.214.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.214.0",
+    "version" : "2.214.0"
   }
 ]

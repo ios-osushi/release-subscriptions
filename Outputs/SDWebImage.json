@@ -610,5 +610,29 @@
     "title" : "5.16.0 - Limit Bytes && Frame Pool",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.16.0",
     "version" : "5.16.0"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.17.0 release](https://github.com/SDWebImage/SDWebImage/milestone/118)\r\n\r\n### Performance\r\n- Refactory the logic to handle force decode logic to avoid CA copy frame buffer, introduce SDImageForceDecodePolicy detailed control #3559 #3417\r\n- - This fix the issue that non-ImageIO coder (means, WebPCoder) will cause CA to copy bitmap buffers and increase memory usage.\r\n- - You can still custom the behavior using the new `SDImageForceDecodePolicy`, defaults to automatic.\r\n- For coder plugin who want to opt-in to avoid `CA::copy_image`, use the new `preferredPixelFormat:` and do byte alignment and colorspace convert.\r\n\r\n### Fixes\r\n- Fix macOS bug that SDImageCoderDecodeScaleDownLimitBytes still use the AnimatedImageRep and beyond the byte limit #3561\r\n- Change macOS `sd_colorAtPoint/sd_colorsWithRect` which may loss colorspace information. Now it correctly convert to sRGB colorspace always.\r\n- Fix the CGImageCreateScaled to support 16/32 bit depth CGImage (RGB161616) and always preserve pixel format info #3575",
+    "createdAt" : "2023-07-14T01:23:18+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAATIS84GryOo",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-07-14T01:23:57+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.17.0 - Reduce RAM with Force Decode",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.17.0",
+    "version" : "5.17.0"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.0 release](https://github.com/SDWebImage/SDWebImage/milestone/119)\r\n\r\n### VisionOS\r\n- Support to build for visionOS (no package manager support) #3556\r\n- - Note this does not include CocoaPods/SwiftPM support. You need Xcode 15+ Beta to open SDWebImage project and build by yourself\r\n\r\n### Features\r\n#### UI Category\r\n- Added SDWebImageAvoidAutoCancelImage to avoid cancel loading image requests for the same operation key #3592 @mTz0206 \r\n- Add better support for stateful view (UIButton) for image URL/progres s state management #3576\r\n\r\n#### Downloader\r\n- Fix redundant requests for the same url during decoding time #3572 @Mervin1024\r\n\r\n#### Decoder\r\n- Expose the data and format when SDAnimatedImageRep created with APNG/GIF/WebP/HEICS #3573\r\n- Fix the CGImageCreateScaled to support 16/32 bit depth CGImage (RGB161616) and always preserve pixel format info #3575\r\n\r\n### Fixes\r\n- Add extra check for empty data during URLSession data callback #3587\r\n",
+    "createdAt" : "2023-09-02T21:31:38+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAATIS84HImmu",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-09-02T21:32:44+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.0 - VisionOS and more",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.0",
+    "version" : "5.18.0"
   }
 ]

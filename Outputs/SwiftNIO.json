@@ -564,6 +564,18 @@
     "version" : "2.49.0"
   },
   {
+    "body" : "### SemVer Minor\r\n\r\n- Add support for using `EventLoop`s as custom actor executor (#2388)\r\n- Add new `EventLoop` singletons (#2471)\r\n- Add bootstrap APIs for VSOCK sockets (#2479)\r\n\r\n### SemVer Patch\r\n\r\n- Fix huge compile time of setUUIDBytes (#2482, patch credit to @sidepelican)\r\n- Get Android building again after #2479 (#2490, patch credit to @finagolfin)\r\n- Make `System.coreCount` aware of cgroup2 (#2394)\r\n- Don't lose or delay writes before `channelActive` (#2486)\r\n\r\n### [SPI](https://github.com/apple/swift/blob/main/docs/ReferenceGuides/UnderscoredAttributes.md#_spispiname)(AsyncChannel) changes\r\n- Rename the `waitForFinalResult()` methods and provide an `ELF` convenience (#2483)\r\n- Add testing interfaces for the stream and writer of the `NIOAsyncChannel` (#2488)\r\n- Provide throwing `finish` method on test stream (#2493)\r\n- Fix leaked promise in `NIOTypedApplicationProtocolNegotiationHandler` (#2489)\r\n- Add async TCP echo example (#2463)\r\n- Avoid using deinit to fulfil the protocol negotiation promise (#2497)\r\n\r\n### Other Changes\r\n\r\n- Correct malformed codelink (#2484, patch credit to @tayloraswift)\r\n- Update contributor email address (#2481)\r\n- Fix 5.9 and nightly allocation limits (#2485) (#2487)",
+    "createdAt" : "2023-08-08T17:17:08+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBy6rG84G4dia",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-08T19:16:34+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.58.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.58.0",
+    "version" : "2.58.0"
+  },
+  {
     "body" : "### SemVer Patch\r\n\r\n- Handle close(output) in the pipeline handler. (#2414)\r\n- NIOThrowingAsyncSequenceProducer throws when cancelled (#2415)\r\n\r\n### Other Changes\r\n\r\n- Add `AsyncChannel` based `ServerBootstrap.bind()` methods (#2403)\r\n- Extend the integration test harness to track FDs (#2411)\r\n- AsyncChannelBootstrapTests bind to 0 instead (#2412, #2413)",
     "createdAt" : "2023-04-29T00:21:15+09:00",
     "fetchedFromAPIAt" : "2023-05-03T09:41:12+09:00",
@@ -610,5 +622,41 @@
     "title" : "SwiftNIO 2.54.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.54.0",
     "version" : "2.54.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Make `NIO[Throwing]AsyncSequenceProducer.Source` `Sendable` (#2459)\r\n\r\n### SemVer Patch\r\n\r\n- Add support for Musl libc (#2449)\r\n- Close Channel when input & output are closed (#2450)\r\n- Correct a few Musl additions from #2449 for Android, plus error if libc not found (#2451, patch credit to @finagolfin)\r\n- Use #if canImport(Darwin) where possible (#2446)\r\n\r\n### Other Changes\r\n\r\n- Update RediStack URL in README.md (#2445)\r\n- Allow opt-out of PII in CONTRIBUTORS.txt (#2453, patch credit to @therealbnut)\r\n- Update mailmap to unify Gwynne's email addresses (#2454, patch credit to @gwynne)\r\n- Fix several minor typos in comments found in various files (#2455, patch credit to @gwynne)\r\n- Fix last remaining test on Android (#2457, patch credit to @finagolfin)\r\n- Adopt the Swift CoC (#2440)\r\n- Updated allocation counters in 5.9 (#2456)\r\n\r\n### SPI(AsyncChannel) changes\r\n\r\n- Add `NIOAsyncChannel` based connect methods to `ClientBootstrap` (#2437)\r\n- Add `NIOAsyncChannel` based connect and bind methods to `DatagramBootstrap` (#2439)\r\n- 🚨Breaking change: Align `ServerBootstrap` bind methods with the initializer style (#2443)",
+    "createdAt" : "2023-07-04T19:31:26+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBy6rG84Gn00d",
+    "owner" : "apple",
+    "publishedAt" : "2023-07-05T21:31:16+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.55.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.55.0",
+    "version" : "2.55.0"
+  },
+  {
+    "body" : "### [SPI](https://github.com/apple/swift/blob/main/docs/ReferenceGuides/UnderscoredAttributes.md#_spispiname)(AsyncChannel) changes\r\n\r\n- 🚨Breaking change: Add configuration for `NIOAsyncChannel` (#2464)\r\n- Async support for `NIOPipeBootstrap` (#2458)\r\n- Async support for `NIORawSocketBootstrap` (#2460)\r\n\r\n### Other Changes\r\n\r\n- Remove `XCTAsyncTest` usage (#2461)\r\n- Restructure `Package.swift` (#2462)",
+    "createdAt" : "2023-07-11T18:36:47+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBy6rG84GqdUJ",
+    "owner" : "apple",
+    "publishedAt" : "2023-07-11T22:44:59+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.56.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.56.0",
+    "version" : "2.56.0"
+  },
+  {
+    "body" : "### [SPI](https://github.com/apple/swift/blob/main/docs/ReferenceGuides/UnderscoredAttributes.md#_spispiname)(AsyncChannel) changes\r\n\r\n- 🚨Breaking change: Reduce the amount of bootstrap async methods (#2474)\r\n- Make `NIOAsyncChannel.Configuration` conform to `Sendable` (#2466)\r\n\r\n### SemVer Patch\r\n\r\n- Skip TCP_NODELAY on sockets that NIO doesn't explicitly support (#2476)\r\n- Throw `SocketAddressError` (cf. fatalError) in SocketAddress.convert for unknown address family (#2477)",
+    "createdAt" : "2023-07-23T06:40:36+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBy6rG84GwIT2",
+    "owner" : "apple",
+    "publishedAt" : "2023-07-24T19:01:27+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.57.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.57.0",
+    "version" : "2.57.0"
   }
 ]

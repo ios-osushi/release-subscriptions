@@ -466,5 +466,29 @@
     "title" : "v12.0.1",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v12.0.1",
     "version" : "v12.0.1"
+  },
+  {
+    "body" : "## Highlights\r\n\r\n- You can now create Predicates that run in async contexts.\r\n\r\n## What's Changed\r\n* Add AsyncPredicate - Matchers with AsyncExpressions by @younata in https://github.com/Quick/Nimble/pull/1056\r\n* Remove unused constant by @peterringset in https://github.com/Quick/Nimble/pull/1064\r\n\r\n## New Contributors\r\n* @peterringset made their first contribution in https://github.com/Quick/Nimble/pull/1064\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v12.0.1...v12.1.0",
+    "createdAt" : "2023-07-15T14:42:05+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAUUIhc4Gsl8N",
+    "owner" : "Quick",
+    "publishedAt" : "2023-07-15T14:48:40+09:00",
+    "repository" : "Nimble",
+    "title" : "v12.1.0 - AsyncPredicate",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v12.1.0",
+    "version" : "v12.1.0"
+  },
+  {
+    "body" : "# Highlights\r\n\r\nthe `equal` matcher now supports arrays of tuples. For example:\r\n\r\n```swift\r\nexpect([\r\n    (1, 2),\r\n    (3, 4)\r\n]).to(equal([\r\n    (1, 2),\r\n    (3, 4)\r\n]))\r\n```\r\n\r\nThanks @faroman for their contribution!\r\n\r\n# Automatically Generated Release Notes\r\n\r\n## What's Changed\r\n* Fix typo in README.md by @nemesis in https://github.com/Quick/Nimble/pull/1066\r\n* Equal predicate for array of tuples by @faroman in https://github.com/Quick/Nimble/pull/1065\r\n\r\n## New Contributors\r\n* @nemesis made their first contribution in https://github.com/Quick/Nimble/pull/1066\r\n* @faroman made their first contribution in https://github.com/Quick/Nimble/pull/1065\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v12.1.0...v12.2.0",
+    "createdAt" : "2023-07-29T00:32:19+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAUUIhc4Gy6yG",
+    "owner" : "Quick",
+    "publishedAt" : "2023-07-29T00:34:14+09:00",
+    "repository" : "Nimble",
+    "title" : "v12.2.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v12.2.0",
+    "version" : "v12.2.0"
   }
 ]

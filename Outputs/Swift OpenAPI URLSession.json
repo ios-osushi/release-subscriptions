@@ -1,0 +1,74 @@
+[
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### Other Changes\r\n* Docs fixes by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/13\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/0.2.0...0.2.1",
+    "createdAt" : "2023-08-31T21:26:31+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOJZWyrc4HHm27",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-31T21:31:15+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "Swift OpenAPI URLSession 0.2.1",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/0.2.1",
+    "version" : "0.2.1"
+  },
+  {
+    "body" : "Identical to 0.1.3, here for consistency with the other packages moving to 0.2.0.",
+    "createdAt" : "2023-08-31T00:14:56+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOJZWyrc4HHio-",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-31T21:04:05+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "Swift OpenAPI URLSession 0.2.0",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/0.2.0",
+    "version" : "0.2.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Prepare being compatible with runtime 0.2.0 release by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/12\r\n### Other Changes\r\n* Enable strict concurrency checking in CI by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/11\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/0.1.2...0.1.3",
+    "createdAt" : "2023-08-31T00:14:56+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOJZWyrc4HHDWR",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-31T00:29:13+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "Swift OpenAPI URLSession 0.1.3",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/0.1.3",
+    "version" : "0.1.3"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### Other Changes\r\n* Full compatibility with the \"ExistentialAny\" upcoming feature by @MahdiBM in https://github.com/apple/swift-openapi-urlsession/pull/9\r\n* Disable ExistentialAny temporarily by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/10\r\n\r\n## New Contributors\r\n* @MahdiBM made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/9\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/0.1.1...0.1.2",
+    "createdAt" : "2023-07-17T18:26:23+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOJZWyrc4GtE2x",
+    "owner" : "apple",
+    "publishedAt" : "2023-07-17T21:32:51+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "Swift OpenAPI URLSession 0.1.2",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/0.1.2",
+    "version" : "0.1.2"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Support platforms back to macOS 10.15, iOS 13, tvOS 13, and watchOS 6  by @denil-ct in https://github.com/apple/swift-openapi-urlsession/pull/7\r\n### Other Changes\r\n* CI: remove temporary gitconfig workaround by @yim-lee in https://github.com/apple/swift-openapi-urlsession/pull/6\r\n* Add .github/release.yml to automate drafting release notes by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/8\r\n\r\n## New Contributors\r\n* @yim-lee made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/6\r\n* @denil-ct made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/7\r\n* @simonjbeaumont made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/8\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/0.1.0...0.1.1",
+    "createdAt" : "2023-06-13T23:51:39+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOJZWyrc4GdfZz",
+    "owner" : "apple",
+    "publishedAt" : "2023-06-13T23:56:49+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "Swift OpenAPI URLSession 0.1.1",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/0.1.1",
+    "version" : "0.1.1"
+  },
+  {
+    "body" : "Initial release.",
+    "createdAt" : "2023-05-13T01:32:37+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOJZWyrc4GEOi0",
+    "owner" : "apple",
+    "publishedAt" : "2023-05-30T20:22:24+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "0.1.0 – Initial release",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/0.1.0",
+    "version" : "0.1.0"
+  }
+]

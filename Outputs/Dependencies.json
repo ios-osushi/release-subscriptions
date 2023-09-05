@@ -108,6 +108,18 @@
     "version" : "0.2.0"
   },
   {
+    "body" : "* Added: First \"stable\" release. Dependencies contains APIs extracted from the Composable Architecture's suite of tools, which is now considered stable. This 1.0 release will introduce a more strict adherence to semantic versioning.\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.6.0...1.0.0",
+    "createdAt" : "2023-07-31T03:27:14+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOIF_Mq84G0bnX",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-07-31T03:27:50+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.0.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  },
+  {
     "body" : "## What's Changed\r\n\r\n* Changed: Both `continuousClock` and `suspendingClock` test values have been changed from failing immediate clocks to failing live clocks (https://github.com/pointfreeco/swift-dependencies/pull/89). While this is a behavioral change, it should only affect failing test suites. It should also make analyzing failure easier/less noisy, since code will behave as it would in live applications, and timers won't immediately emit many failures.\r\n* Fixed: re-introduce SPI-gated `withMainSerialExecutor` (thanks @kabiroberai, https://github.com/pointfreeco/swift-dependencies/pull/84).\r\n\r\n## New Contributors\r\n* @kabiroberai made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/84\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.4.1...0.4.2",
     "createdAt" : "2023-05-02T02:47:00+09:00",
     "fetchedFromAPIAt" : "2023-05-02T09:44:38+09:00",
@@ -142,5 +154,17 @@
     "title" : "0.5.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.5.1",
     "version" : "0.5.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: Extracted concurrency helpers to new ConcurrencyExtras dependency (https://github.com/pointfreeco/swift-dependencies/pull/105).\r\n* Infrastructure: Add test/docs around static `@Dependency` usage (https://github.com/pointfreeco/swift-dependencies/pull/97); doc fixes (thanks @alexhunsley, https://github.com/pointfreeco/swift-dependencies/pull/98, https://github.com/pointfreeco/swift-dependencies/pull/101; @Mika5652, https://github.com/pointfreeco/swift-dependencies/pull/95); add test for `invokeTest` behavior (https://github.com/pointfreeco/swift-dependencies/pull/103); add test for thread safety (https://github.com/pointfreeco/swift-dependencies/pull/70).\r\n\r\n## New Contributors\r\n\r\n* @alexhunsley made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/98\r\n* @Mika5652 made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/95\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/0.5.1...0.6.0",
+    "createdAt" : "2023-07-18T04:52:47+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOIF_Mq84GtX9W",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-07-18T04:54:58+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "0.6.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.6.0",
+    "version" : "0.6.0"
   }
 ]

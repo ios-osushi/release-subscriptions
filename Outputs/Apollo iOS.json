@@ -636,6 +636,30 @@
     "version" : "1.1.0-beta.1"
   },
   {
+    "body" : "### Fixed\r\n- **Fix two issues with generated models:** See PR ([#3168](https://github.com/apollographql/apollo-ios/pull/3168)). _Thank you to [@iAmericanBoy](https://github.com/iAmericanBoy) for finding these issues and providing a reproduction case._\r\n- **Fix computation of operation identifiers for persisted queries:** See PR ([#3163](https://github.com/apollographql/apollo-ios/pull/3163)). _Thank you to [@WolframPRO](https://github.com/WolframPRO) for finding these issues._",
+    "createdAt" : "2023-08-02T04:14:39+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA9NCTc4G1jo8",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-08-02T04:17:32+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.3.3",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.3.3",
+    "version" : "1.3.3"
+  },
+  {
+    "body" : "## v1.4.0\r\n\r\n### New\r\n\r\n- **Added the ability to set a casing strategy for field names in code generation ([#2738](https://github.com/apollographql/apollo-ios/issues/2738)):** See PR ([#3171](https://github.com/apollographql/apollo-ios/pull/3171)). _Thank you to [@Spatel91111](https://github.com/Spatel91111) for the feature request._\r\n\r\n### Improvement\r\n\r\n- **Updated the way persisted queries are configured for code and manifest generation:** See PR ([#3175](https://github.com/apollographql/apollo-ios/pull/3175))\r\n- **Updated docs for `other` schema module type to provide more clarity ([#3164](https://github.com/apollographql/apollo-ios/issues/3164)):** See PR ([#3170](https://github.com/apollographql/apollo-ios/pull/3170)) _Thank you to [@Mordil](https://github.com/Mordil) for suggesting this update._",
+    "createdAt" : "2023-08-11T02:44:19+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA9NCTc4G6YhK",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-08-11T02:47:21+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.4.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.4.0",
+    "version" : "1.4.0"
+  },
+  {
     "body" : "### Fixed\r\n- **`@dynamicMember` conflicting field name ([#2950](https://github.com/apollographql/apollo-ios/issues/2950)):** The subscript setters have been changed to allow a selection set property named `hash`. [#2965](https://github.com/apollographql/apollo-ios/pull/2965) _Thank you to [@renanbdias](https://github.com/renanbdias) for raising the issue._\r\n- **Disallow certain targetNames in code generation ([#2958](https://github.com/apollographql/apollo-ios/issues/2958)):** `apollo` is no longer allowed as a target name otherwise it causes a conflict when importing `Apollo` as a module. [#2972](https://github.com/apollographql/apollo-ios/pull/2972) _Thank you to [@moopoints](https://github.com/moopoints) for raising the issue._\r\n- **Fully Qualify name of RootEntityType and mergedSources ([#2949](https://github.com/apollographql/apollo-ios/issues/2949)):** Selection set types use fully qualified namespacing to prevent conflicts with other types. [#2956](https://github.com/apollographql/apollo-ios/pull/2956) _Thank you to [@martin-muller](https://github.com/martin-muller) for raising the issue._\r\n- **SelectionSet Codegen `__typename` fix ([#2955](https://github.com/apollographql/apollo-ios/issues/2955)):** Custom root types defined in the schema are now correctly applied to selection set fields typename definitions [#2983](https://github.com/apollographql/apollo-ios/pull/2983) _Thank you to [@ynnadrules](https://github.com/ynnadrules) for raising the issue._",
     "createdAt" : "2023-05-02T03:42:30+09:00",
     "fetchedFromAPIAt" : "2023-05-02T09:44:38+09:00",
@@ -694,5 +718,29 @@
     "title" : "1.3.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.3.0",
     "version" : "1.3.0"
+  },
+  {
+    "body" : "### Fixed\r\n- **Fix crashes in test mocks when setting an array of union types ([#3023](https://github.com/apollographql/apollo-ios/pull/3023)):** See PR ([#3089](https://github.com/apollographql/apollo-ios/pull/3089)). _Thank you to [@jabeattie](https://github.com/jabeattie) & [@scottasoutherland](https://github.com/scottasoutherland) for raising the issue._\r\n\r\n### Deprecated\r\n- **Deprecated `APQConfig` & `operationIdentifiersPath` in `ApolloCodegenConfiguration`.** \r\n  - These have been replaced with `OperationDocumentFormat` and `OperationManifestFileOutput` respectively. Please see the documentation for [`ApolloCodegenConfiguration`](https://www.apollographql.com/docs/ios/code-generation/codegen-configuration) for more information.",
+    "createdAt" : "2023-07-13T06:19:05+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA9NCTc4GrVGV",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-07-13T06:20:49+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.3.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.3.1",
+    "version" : "1.3.1"
+  },
+  {
+    "body" : "### Improved\r\n- **Throw an error when an invalid key is present in the codegen configuration JSON ([#2942](https://github.com/apollographql/apollo-ios/issues/2942)):** See PR ([#3125](https://github.com/apollographql/apollo-ios/pull/3125)) _Thank you to [@Iron-Ham](https://github.com/Iron-Ham) for the contribution._\r\n- **Cleanup unused imports and declarations. ([#3099](https://github.com/apollographql/apollo-ios/issues/3099)):** See PR ([#3100](https://github.com/apollographql/apollo-ios/pull/3100)) _Thank you to [@Iron-Ham](https://github.com/Iron-Ham) for raising the issue and contributing the fix._\r\n- **Improvement to response code error API ([#2426](https://github.com/apollographql/apollo-ios/issues/2426)):** See PR ([#3123](https://github.com/apollographql/apollo-ios/pull/3123)). _Thank you to [@dfperry5](https://github.com/dfperry5) for the contribution._\r\n- **Improved file path support for operation manifest generation:** See PR ([#3128](https://github.com/apollographql/apollo-ios/pull/3128))\r\n\r\n### Fixed\r\n- **Fix two issues in test mock generation:** See PR ([#3120](https://github.com/apollographql/apollo-ios/pull/3120)). _Thank you to [@TizianoCoroneo](https://github.com/TizianoCoroneo) for finding this issue and contributing the fix._\r\n- **Fixed precondition failure when surpassing graphql-js max error count ([#3126](https://github.com/apollographql/apollo-ios/issues/3126)):** See PR ([#3132](https://github.com/apollographql/apollo-ios/pull/3132)).\r\n\r\n### Deprecated\r\n- **Deprecated `queryStringLiteralFormat` in `ApolloCodegenConfiguration`:** Query string literals will now always be generated as single line strings. See PR ([#3129](https://github.com/apollographql/apollo-ios/pull/3129)).",
+    "createdAt" : "2023-07-21T07:07:39+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOA9NCTc4GvN67",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-07-21T07:11:23+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.3.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.3.2",
+    "version" : "1.3.2"
   }
 ]

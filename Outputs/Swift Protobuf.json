@@ -442,5 +442,29 @@
     "title" : "1.22.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.22.0",
     "version" : "1.22.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Cherry pick XcodeProjectPlugin changes by @denil-ct in https://github.com/apple/swift-protobuf/pull/1413\r\n* Add a 5.8 Package.swift file for the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1429\r\n* Provide better errors for the SPM plugin (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1428\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.22.0...1.22.1",
+    "createdAt" : "2023-07-26T22:39:49+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBAEMEM4GxoVS",
+    "owner" : "apple",
+    "publishedAt" : "2023-07-26T22:41:26+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.22.1 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.22.1",
+    "version" : "1.22.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Bring most of the protos shuffle/update over to the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1432\r\n* Fix docs errors (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1443\r\n* Fix allCases to generate a let by @gjcairo in https://github.com/apple/swift-protobuf/pull/1451\r\n* 1.x version bump for a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1452\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.22.1...1.23.0",
+    "createdAt" : "2023-09-01T01:29:40+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBAEMEM4HHxZ7",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-01T01:39:33+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.23.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.23.0",
+    "version" : "1.23.0"
   }
 ]

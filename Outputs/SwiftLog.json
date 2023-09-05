@@ -154,5 +154,17 @@
     "title" : "1.5.2",
     "url" : "https://github.com/apple/swift-log/releases/tag/1.5.2",
     "version" : "1.5.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n### Cleanups & minor compatibility improvements\r\n* Remove leftover 5.0 Package.swift; not supported since 1.5.0 by @ktoso in https://github.com/apple/swift-log/pull/259\r\n* Use #if canImport(Darwin) where possible by @FranzBusch in https://github.com/apple/swift-log/pull/269\r\n* docs: fix typos by @FannyGautierr in https://github.com/apple/swift-log/pull/272\r\n\r\n### Non code changes\r\n* Add DiscordBM/DiscordLogger to loggers list by @MahdiBM in https://github.com/apple/swift-log/pull/257\r\n* Update CI by @yim-lee in https://github.com/apple/swift-log/pull/264\r\n* update code of conduct by @tomerd in https://github.com/apple/swift-log/pull/268\r\n* Fix DiscordLogger link by @MahdiBM in https://github.com/apple/swift-log/pull/266\r\n* add kiliankoe/swift-log-matrix to list of backends by @kiliankoe in https://github.com/apple/swift-log/pull/263\r\n\r\n## New Contributors\r\n* @MahdiBM made their first contribution in https://github.com/apple/swift-log/pull/257\r\n* @kiliankoe made their first contribution in https://github.com/apple/swift-log/pull/263\r\n* @FannyGautierr made their first contribution in https://github.com/apple/swift-log/pull/272\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.5.2...1.5.3",
+    "createdAt" : "2023-08-11T15:37:26+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOCiSz584G6mDe",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-11T15:52:51+09:00",
+    "repository" : "swift-log",
+    "title" : "1.5.3",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.5.3",
+    "version" : "1.5.3"
   }
 ]

@@ -538,5 +538,29 @@
     "title" : "7.8.1 - Animated <3 Processor",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.8.1",
     "version" : "7.8.1"
+  },
+  {
+    "body" : "#### Add\r\n* Add visionOS as support target. Now Kingfisher can run natively on visionOS, in both UIKit or SwiftUI mode. [#2103](https://github.com/onevcat/Kingfisher/pull/2103)\r\n* Add private manifest file (`PrivacyInfo.xcprivacy`) to the project to meet Apple's requirement of describing data collected and use of required reason API. [#2104](https://github.com/onevcat/Kingfisher/pull/2104)\r\n* Support digital signature in xcframework. Now the xcframework of Kingfisher is signed with the Apple Developer ID of the maintainer team. [#2106](https://github.com/onevcat/Kingfisher/pull/2106)\r\n* A public initializer of `ImageDownloadResult`. This allows overriding side to construct and return a valid download result. [#2107](https://github.com/onevcat/Kingfisher/pull/2107) @kmaschke85\r\n\r\n#### Fix\r\n* Some documentation fixes.\r\n\r\nIn this version, visionOS support is not yet available when integrating with CocoaPods. It requires the new version of CocoaPods 1.13.0 and not yet released. (https://github.com/CocoaPods/CocoaPods/pull/11965)",
+    "createdAt" : "2023-07-29T10:31:27+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAf70wM4GzJGH",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-07-29T10:33:12+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.9.0 - visionOS & Xcode 15",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.9.0",
+    "version" : "7.9.0"
+  },
+  {
+    "body" : "#### Fix\n* Update to the terminology for the latest Xcode 15 beta. It prevents building failing and warnings from previous beta versions. [#2123](https://github.com/onevcat/Kingfisher/pull/2123) @simonbs\n* A misused reason in the privacy manifest file. Now Kingfisher should declare the reason of using file creation and access time correctly. (However, the manifest file mechanism of SDK seems not working yet in Xcode 15 beta 7) [#2135](https://github.com/onevcat/Kingfisher/pull/2135) @CloudosaurusRex @onevcat\n* Some warnings which happens when building xcframework. This prevents them from becoming errors in the coming Swift 6. [#2136](https://github.com/onevcat/Kingfisher/pull/2136)\n\n",
+    "createdAt" : "2023-08-26T13:49:50+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOAf70wM4HFJ3B",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-08-26T13:51:16+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.9.1 - Lastest Xcode 15 beta",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.9.1",
+    "version" : "7.9.1"
   }
 ]

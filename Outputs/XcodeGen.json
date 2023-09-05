@@ -432,6 +432,30 @@
     "version" : "2.34.0"
   },
   {
+    "body" : "### Fixed\r\n\r\n- Revert addition of `ENABLE_MODULE_VERIFIER` build setting for causing issues in tests and some setups #1387 @yonaskolb",
+    "createdAt" : "2023-08-14T09:56:24+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBdMHVM4G-p7c",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2023-08-14T10:00:32+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.36.1",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.36.1",
+    "version" : "2.36.1"
+  },
+  {
+    "body" : "### Added\r\n\r\n- Added `scheme.enableGPUValidationMode` #1294 @LouisLWang\r\n- Added visionOS support #1379 @shiba1014\r\n- Added ability to disable Thread performance checker in Schemes #1380 @piellarda\r\n- Added support for `RuntimeIssue` breakpoints #1384 @yonaskolb\r\n\r\n### Changed\r\n\r\n- The project object version has been updated for Xcode 14.3 #1368 @leonardorock\r\n- Updated recommended settings for Xcode 14.3 #1385 @yonaskolb\r\n- Dropped support for Xcode 12 and 13, due to XcodeProj update #1384 @yonaskolb\r\n\r\n### Fixed\r\n\r\n- Fix external dependencies from being removed by Xcode #1354 @OdNairy\r\n- Stop creating orphaned object references when reusing references to external dependencies #1377 @liamnichols",
+    "createdAt" : "2023-08-12T23:23:48+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBdMHVM4G8_AC",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2023-08-12T23:29:37+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.36.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.36.0",
+    "version" : "2.36.0"
+  },
+  {
     "body" : "### Added\r\n\r\n- Added support for shared breakpoints #177 @alexruperez @myihsan\r\n- Added support for `putResourcesBeforeSourcesBuildPhase` in a target #1351 @mat1th \r\n\r\n### Fixed\r\n\r\n- Fix case where source paths may not be deduplicated correctly resulting in duplicate groups and/or a crash in running XcodeGen #1341 @dalemyers",
     "createdAt" : "2023-04-27T16:04:40+09:00",
     "fetchedFromAPIAt" : "2023-04-30T23:55:23+09:00",
@@ -442,5 +466,17 @@
     "title" : "2.35.0",
     "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.35.0",
     "version" : "2.35.0"
+  },
+  {
+    "body" : "### Added\r\n\r\n- Added support for adding `Build Tool Plug-ins` to targets #1374 @BarredEwe",
+    "createdAt" : "2023-08-16T22:48:44+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOBdMHVM4HAGDA",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2023-08-16T22:53:10+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.37.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.37.0",
+    "version" : "2.37.0"
   }
 ]

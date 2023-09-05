@@ -454,5 +454,41 @@
     "title" : "0.19.0",
     "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.19.0",
     "version" : "0.19.0"
+  },
+  {
+    "body" : "- Added support for a GitHub Actions renderer to surface errors through GitHub's UI [#107](https://github.com/tuist/xcbeautify/pull/107) by [@cpisciotta](https://github.com/cpisciotta)\r\n- Updated `ArgumentParser` to 1.2.2 [#132](https://github.com/tuist/xcbeautify/pull/132)\r\n- Added support for `CompileSwift` and `SwiftCompile` outputs [#128](https://github.com/tuist/xcbeautify/pull/128) by [@cpisciotta](https://github.com/cpisciotta).\r\n- Added support for passing absolute paths via the `--report-path` flag [#129](https://github.com/tuist/xcbeautify/pull/129) by [@cpisciotta](https://github.com/cpisciotta).\r\n",
+    "createdAt" : "2023-07-15T01:19:31+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOCNUZc84GsS8K",
+    "owner" : "tuist",
+    "publishedAt" : "2023-07-15T01:19:49+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.21.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.21.0",
+    "version" : "0.21.0"
+  },
+  {
+    "body" : "- Fixed handling -q for certain scenarios involving test cases (#139) by @grigorye\r\n- Convert xcbeautify from Target to Executable Target (#140) by @cpisciotta \r\n- Revert \"Refactor Pattern to Support SPM Compilation\" (#141) by @cpisciotta ",
+    "createdAt" : "2023-07-27T06:20:16+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOCNUZc84Gx2_X",
+    "owner" : "tuist",
+    "publishedAt" : "2023-07-27T06:20:33+09:00",
+    "repository" : "xcbeautify",
+    "title" : "0.21.1",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/0.21.1",
+    "version" : "0.21.1"
+  },
+  {
+    "body" : "- **Breaking** Removed support for CocoaPods [#135](https://github.com/tuist/xcbeautify/pull/135) by [@pepicrft](https://github.com/pepicrft)",
+    "createdAt" : "2023-07-27T06:41:11+09:00",
+    "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
+    "id" : "RE_kwDOCNUZc84Gx3dP",
+    "owner" : "tuist",
+    "publishedAt" : "2023-07-27T06:41:56+09:00",
+    "repository" : "xcbeautify",
+    "title" : "1.0.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/1.0.0",
+    "version" : "1.0.0"
   }
 ]
