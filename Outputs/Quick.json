@@ -502,5 +502,17 @@
     "title" : "v7.2.0 - TestState property wrapper",
     "url" : "https://github.com/Quick/Quick/releases/tag/v7.2.0",
     "version" : "v7.2.0"
+  },
+  {
+    "body" : "## Highlights\r\n\r\n- Adds a property wrapper default initializer for TestState. Meaning the following declaration is now accepted!\r\n\r\n```swift\r\n@TestState var foo: Int! = 30\r\n```\r\n\r\nThanks @tahirmt!\r\n\r\n- TestState now nils out the value after all afterEach blocks run, instead of in the middle of the afterEach chain. Thanks @CraigSiemens \r\n\r\n## What's Changed\r\n* Bump activesupport from 7.0.4.3 to 7.0.7.2 by @dependabot in https://github.com/Quick/Quick/pull/1238\r\n* Add property wrapper default initializer for TestState by @tahirmt in https://github.com/Quick/Quick/pull/1235\r\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/Quick/Quick/pull/1241\r\n* Updated TestState to remove the value after the test. by @CraigSiemens in https://github.com/Quick/Quick/pull/1240\r\n* Update release script to generate a carthage binary and include it in the release. by @younata in https://github.com/Quick/Quick/pull/1234\r\n\r\n## New Contributors\r\n* @tahirmt made their first contribution in https://github.com/Quick/Quick/pull/1235\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v7.2.0...v7.3.0",
+    "createdAt" : "2023-09-17T14:08:38+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOATjllM4HPP1D",
+    "owner" : "Quick",
+    "publishedAt" : "2023-09-17T14:10:29+09:00",
+    "repository" : "Quick",
+    "title" : "v7.3.0",
+    "url" : "https://github.com/Quick/Quick/releases/tag/v7.3.0",
+    "version" : "v7.3.0"
   }
 ]

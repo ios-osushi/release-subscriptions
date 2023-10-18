@@ -454,5 +454,17 @@
     "title" : "Swift 5.8.1 Release",
     "url" : "https://github.com/apple/swift/releases/tag/swift-5.8.1-RELEASE",
     "version" : "swift-5.8.1-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-09-09T15:07:55+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAqwwJc4HPxOs",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-19T02:41:31+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.9 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.9-RELEASE",
+    "version" : "swift-5.9-RELEASE"
   }
 ]

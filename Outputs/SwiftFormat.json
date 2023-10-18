@@ -838,5 +838,65 @@
     "title" : "0.52.3",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.3",
     "version" : "0.52.3"
+  },
+  {
+    "body" : "- Fixed `docComments` rule incorrectly replacing comments inside switch cases and if/guard conditions\r\n- Fixed `redundantLet` rule removing required `let` inside `ViewBuilder` modifiers\r\n- Fixed `redundantLet` rule removing required `let` after `@MainActor` or `@Sendable`\r\n- Fixed bug when using `--wrapconditions after-first` if first line of condition is a comment\r\n- Added more context to \"failed to terminate\" error message to aid tracking down issues\r\n- Updated `sortTypealiases` rule to also remove duplicate protocols in declaration\r\n- Added some fixes to support parameter packs in Swift 5.9",
+    "createdAt" : "2023-09-18T06:12:20+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA_OyXc4HPU2S",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-09-18T04:30:35+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.4",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.4",
+    "version" : "0.52.4"
+  },
+  {
+    "body" : "- Fixed bug where `redundantReturn` rule could break fallible initializers in Swift 5.9\r\n- Fixed incorrect application of `docComments` rule inside `#if` statements\r\n- The `docComments` rule no longer treats comments starting with `Note:` as a special directive\r\n- Fixed incorrect indenting inside `#if` statements immediately preceded by a comment\r\n- Removed arbitrary unwrap threshold for `braces` rule when no `--maxwidth` is specified\r\n- You can now include operators in the `--asynccapturing` list",
+    "createdAt" : "2023-09-30T17:15:21+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA_OyXc4HV_rv",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-09-30T18:45:26+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.5",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.5",
+    "version" : "0.52.5"
+  },
+  {
+    "body" : "- Fixed bug where `redundantReturn` rule was incorrectly applied to consecutive `if` statements in Swift 5.9\r\n",
+    "createdAt" : "2023-10-01T15:42:17+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA_OyXc4HWHuV",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-10-01T15:55:26+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.6",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.6",
+    "version" : "0.52.6"
+  },
+  {
+    "body" : "- Fixed bug where `conditionalAssignment` and `redundantClosure` rules would be applied incorrectly\r\n- Fixed `redundantClosure` rule leaving stray `try` or `await` keywords behind\r\n",
+    "createdAt" : "2023-10-07T03:56:02+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA_OyXc4HZZbo",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-10-07T04:05:17+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.7",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.7",
+    "version" : "0.52.7"
+  },
+  {
+    "body" : "- Fixed `redundantClosure` rule in cases where an `if`/`switch` expression is not permitted\r\n- The `docComments` rule now correctly handles macro comments\r\n- The `docComments` rule is now only applied to a comment block if all lines match the pattern \r\n",
+    "createdAt" : "2023-10-17T19:54:35+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA_OyXc4HeXNg",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-10-17T20:17:58+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.8",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.8",
+    "version" : "0.52.8"
   }
 ]

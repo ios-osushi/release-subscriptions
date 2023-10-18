@@ -106,5 +106,17 @@
     "title" : "Swift Algorithms 1.0.0",
     "url" : "https://github.com/apple/swift-algorithms/releases/tag/1.0.0",
     "version" : "1.0.0"
+  },
+  {
+    "body" : "### Additions\r\n\r\n- New nonmutating `partitioned(by:)` methods that return both the failing and passing elements of a sequence or collection in separate arrays. (#152)\r\n\r\n    ```swift\r\n    let cast = [\"Vivien\", \"Marlon\", \"Kim\", \"Karl\"]\r\n    let (longNames, shortNames) = cast.partitioned(by: { $0.count < 5 })\r\n    \r\n    print(longNames)\r\n    // Prints \"[\"Vivien\", \"Marlon\"]\"\r\n    print(shortNames)\r\n    // Prints \"[\"Kim\", \"Karl\"]\"\r\n    ```\r\n    \r\n- A new `evenlyChunked(in:)` method that chunks a sequence or collection into the specified number of evenly-sized subsequences. (#96)\r\n\r\n    ```swift\r\n    let numbers = Array(0..<10) \r\n    for chunk in numbers.evenlyChunked(in: 4) {\r\n        print(chunk)\r\n    }\r\n    // Prints: \r\n    // [0, 1, 2]\r\n    // [3, 4, 5]\r\n    // [6, 7]\r\n    // [8, 9]\r\n    ```\r\n\r\n### Changes\r\n\r\n- The package now has a minimum Swift version of Swift 5.4.\r\n\r\n### Fixes\r\n\r\n- Improvements to documentation, including a new DocC-based documentation structure.\r\n\r\nThe 1.1.0 release includes contributions from @dickoff, @gwynne, @mdznr, @natecook1000, @ole, @stephentyrone, and @timvermeulen.\r\nThank you!\r\n",
+    "createdAt" : "2023-10-06T04:45:17+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOEeO1ns4HYvr-",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-06T05:00:02+09:00",
+    "repository" : "swift-algorithms",
+    "title" : "Swift Algorithms 1.1.0",
+    "url" : "https://github.com/apple/swift-algorithms/releases/tag/1.1.0",
+    "version" : "1.1.0"
   }
 ]

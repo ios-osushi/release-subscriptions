@@ -574,5 +574,17 @@
     "title" : "7.3.0",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.3.0",
     "version" : "7.3.0"
+  },
+  {
+    "body" : "- Use current locale when overrideLocale is missing (thanks @ribilynn)\r\n- Support local swift packages (thanks @aldk98)\r\n- Generate artifactbundle with release (thanks @roman-aliyev)\r\n- Add availability checks for visionOS to integrations\r\n",
+    "createdAt" : "2023-09-11T04:34:16+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAamb-84HL6DA",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2023-09-11T04:44:01+09:00",
+    "repository" : "R.swift",
+    "title" : "7.4.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.4.0",
+    "version" : "7.4.0"
   }
 ]

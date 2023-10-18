@@ -382,5 +382,17 @@
     "title" : "",
     "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.12.0",
     "version" : "1.12.0"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* Add `visionOS` as a new platform.  \r\n  [Gabriel Donadel](https://github.com/gabrieldonadel)\r\n  [#11965](https://github.com/CocoaPods/CocoaPods/pull/11965)\r\n\r\n* Extend `script_phase` DSL to support `always_out_of_date` attribute.  \r\n  [Alvar Hansen](https://github.com/alvarhansen)\r\n  [#12055](https://github.com/CocoaPods/CocoaPods/pull/12055)\r\n\r\n##### Bug Fixes\r\n\r\n* Use `safe_load` during custom YAML config loading.  \r\n  [Dimitris Koutsogiorgas](https://github.com/dnkoutso)\r\n  [#11974](https://github.com/CocoaPods/CocoaPods/pull/11974)\r\n\r\n* Xcode 15 fix: Replace `DT_TOOLCHAIN_DIR` with `TOOLCHAIN_DIR` when generating script.  \r\n  [Marcus Wu](https://github.com/marcuswu0814)\r\n  [#12009](https://github.com/CocoaPods/CocoaPods/pull/12009)",
+    "createdAt" : "2023-09-23T06:47:37+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOACGf_c4HSeii",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-09-23T06:48:49+09:00",
+    "repository" : "CocoaPods",
+    "title" : "1.13.0",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.13.0",
+    "version" : "1.13.0"
   }
 ]

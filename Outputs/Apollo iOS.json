@@ -742,5 +742,65 @@
     "title" : "1.3.2",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.3.2",
     "version" : "1.3.2"
+  },
+  {
+    "body" : "### New\r\n\r\n- **Added the ability pass a custom `RequestContext` to networking APIs ([#3198](https://github.com/apollographql/apollo-ios/pull/3198)):** _Thank you to [@danieltiger](https://github.com/danieltiger) for the contribution._\r\n  - **Minor Breaking Change:** The `requestContext` parameter is optional with a default value of `nil`. This means there are no breaking changes to the APIs for making networking calls. However, the `requestContext` parameter was also added to the `ApolloClientProtocol`. For custom implementations of this protocol (usually used for unit testing), you will need to add the `requestContext` parameter to your function signatures.\r\n  \r\n### Fixed\r\n\r\n- **Null values are no longer stripped from the underlying data used by generated `SelectionSet` models ([apollo-ios-dev/#25](https://github.com/apollographql/apollo-ios-dev/pull/25)):**\r\n  - When these models were manually inserted into the cache, the null fields, which were stripped, were not written to the cache. This caused unintended cache misses when fetching those values back out of the cache.\r\n  - This fixes [#3092](https://github.com/apollographql/apollo-ios/issues/3092). _Thank you to [@aleksanderlorenc-lw](https://github.com/aleksanderlorenc-lw) for raising this issue._ ",
+    "createdAt" : "2023-09-06T05:51:53+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA9NCTc4HJ1aR",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-09-06T06:07:16+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.5.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.5.0",
+    "version" : "1.5.0"
+  },
+  {
+    "body" : "### Improvement\r\n\r\n- **Added `OutputOptions` property to codegen for marking generated classes as `final` ([#3189](https://github.com/apollographql/apollo-ios/pull/3189)):** _Thank you to [@Mordil](https://github.com/Mordil) for the contribution._\r\n\r\n### Fixed\r\n\r\n- **Codegen `itemsToGenerate` option for `.all` not generating an operation manifest ([#3215](https://github.com/apollographql/apollo-ios/pull/3215)):** _Thank you to [@TizianoCoroneo](https://github.com/TizianoCoroneo) for finding and fixing the issue._\r\n- **Codegen operation manifest inadvertantly being generated twice ([#3225](https://github.com/apollographql/apollo-ios/pull/3225)):** _Thank you to [@jimisaacs](https://github.com/jimisaacs) for finding and fixing the issue._",
+    "createdAt" : "2023-09-30T04:44:50+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA9NCTc4HV3KZ",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-09-30T04:47:42+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.5.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.5.1",
+    "version" : "1.5.1"
+  },
+  {
+    "body" : "The purpose of this release is to provide a deprecation message to users of `ApolloCodegenLib` who are scripting their code generation in advance of an upcoming change to our libraries and repo structure. Beginning with the upcoming 1.6.0 release the code generation libraries will be their own SPM package in their own repo which will require you to add a new dependency to you project in order for your code generation scripting to compile. More information can be found in our [announcement](https://github.com/apollographql/apollo-ios/issues/3240) of this change.\r\n\r\n**If you would like to avoid this deprecation warning in your builds feel free to stay on 1.5.1 or earlier, this warning will be gone in the 1.6.0 release**\r\n\r\nPR containing deprecation warning for reference: [#3243](https://github.com/apollographql/apollo-ios/pull/3243).",
+    "createdAt" : "2023-09-30T05:08:52+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA9NCTc4HV3u7",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-09-30T05:10:39+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.5.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.5.2",
+    "version" : "1.5.2"
+  },
+  {
+    "body" : "The Apollo iOS ecosystem is changing in the 1.6.0 release in order to provide a better development experience for users. For most users nothing will change, while some users will see a minor difference. The biggest change is that the `ApolloCodegenLib` is now in a separate repo/package that will need to be included as its own dependency from [apollo-ios-codegen](https://github.com/apollographql/apollo-ios-codegen) if you are doing your code generation through Swift. If you are using the codegen CLI then no changes are necessary.\r\n\r\nFor a detailed breakdown of the changes please see this [GitHub Issue](https://github.com/apollographql/apollo-ios/issues/3240).\r\n\r\n### Fixed\r\n\r\n- **Fixed crashes in iOS 14.4 and below ([#61](https://github.com/apollographql/apollo-ios-dev/pull/61)):** _Thank you to [matijakregarGH](https://github.com/matijakregarGH) for reporting the issue._",
+    "createdAt" : "2023-10-07T03:59:21+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA9NCTc4HZZc2",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-10-07T04:06:14+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.6.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.6.0",
+    "version" : "1.6.0"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n- **Fix bug with `AnyHashable` coercion ([#68](https://github.com/apollographql/apollo-ios-dev/pull/68)):** This is an additional fix for the crashes on iOS `14.4.1`.",
+    "createdAt" : "2023-10-13T07:55:54+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOA9NCTc4Hcepo",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-10-13T08:03:23+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.6.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.6.1",
+    "version" : "1.6.1"
   }
 ]

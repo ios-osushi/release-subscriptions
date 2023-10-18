@@ -466,5 +466,17 @@
     "title" : "1.23.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.23.0",
     "version" : "1.23.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* 5.9 sendable issues for the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1463\r\n* Block more things, #1469 but for the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1470\r\n* Add support for `package` visibility modifier by @thomasvl in https://github.com/apple/swift-protobuf/pull/1473\r\n* Version bump to ready a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1474\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.23.0...1.24.0",
+    "createdAt" : "2023-09-29T01:33:46+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOBAEMEM4HVOxA",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-29T01:36:05+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.24.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.24.0",
+    "version" : "1.24.0"
   }
 ]

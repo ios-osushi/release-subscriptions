@@ -382,5 +382,17 @@
     "title" : "2.2.2",
     "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.2",
     "version" : "2.2.2"
+  },
+  {
+    "body" : "### Fix\n\n- Use an alpha bitmap context to render images with true color (PNG ColorType 2). This allows the `tRNS` chunk to be handled correctly. [#138](https://github.com/onevcat/APNGKit/pull/138)",
+    "createdAt" : "2023-10-09T13:46:49+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAn3VYc4HZzj5",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-10-09T13:46:56+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.3",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.3",
+    "version" : "2.2.3"
   }
 ]

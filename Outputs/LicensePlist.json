@@ -526,5 +526,17 @@
     "title" : "3.24.10",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.10",
     "version" : "3.24.10"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add `Source` key to the generated *.plist files by @nandodelauni in https://github.com/mono0926/LicensePlist/pull/219\r\n\r\n## New Contributors\r\n* @nandodelauni made their first contribution in https://github.com/mono0926/LicensePlist/pull/219\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.24.10...3.24.11",
+    "createdAt" : "2023-09-06T16:41:34+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOBVhcvM4HKBcU",
+    "owner" : "mono0926",
+    "publishedAt" : "2023-09-06T16:41:42+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.24.11: Add `Source` key to the generated *.plist files",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.11",
+    "version" : "3.24.11"
   }
 ]

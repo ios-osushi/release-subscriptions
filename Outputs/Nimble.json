@@ -490,5 +490,41 @@
     "title" : "v12.2.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v12.2.0",
     "version" : "v12.2.0"
+  },
+  {
+    "body" : "## Highlights\r\n\r\n- the async variant of `toEventually` no longer kicks off unstructured background tasks to check that the matcher matches. This means that there will no longer be the possibility that the same value will be being checked by multiples of the same matcher.\r\n\r\n## What's Changed\r\n* Bump activesupport from 7.0.4.3 to 7.0.7.2 by @dependabot in https://github.com/Quick/Nimble/pull/1080\r\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/Quick/Nimble/pull/1081\r\n* Implement the async variant of toEventually using structured concurrency by @younata in https://github.com/Quick/Nimble/pull/1079\r\n* Fix all swiftlint warnings by @younata in https://github.com/Quick/Nimble/pull/1085\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v12.2.0...v12.3.0",
+    "createdAt" : "2023-09-17T13:52:32+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAUUIhc4HPPwi",
+    "owner" : "Quick",
+    "publishedAt" : "2023-09-17T13:54:28+09:00",
+    "repository" : "Nimble",
+    "title" : "v12.3.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v12.3.0",
+    "version" : "v12.3.0"
+  },
+  {
+    "body" : "# Highlights\r\n\r\n## New Features\r\n\r\n- Nimble now supports Windows! (Thanks @brianmichel!)\r\n- the `Predicate` series of APIs has been renamed to `Matcher`. There are typealiases for the older APIs to better enable migrations. These typealiases will be marked as removed in the next major version of Nimble (Nimble 14), and they will be removed entirely in Nimble 15.\r\n- Nimble now supports the DriverKit platform.\r\n\r\n## Breaking Changes\r\n\r\n- The `Predicate` series of APIs have been renamed.\r\n- The `AsyncDefaults` struct is now marked as removed. It will be fully removed in the next major version of Nimble.\r\n- The platform-independent targets in `Nimble.xcodeproj` have now been consolidated into a single Nimble (and NimbleTests) target.\r\n\r\n# Automated Release Notes\r\n\r\n## What's Changed\r\n* Update release script for a more modern-ish release process by @younata in https://github.com/Quick/Nimble/pull/1086\r\n* Bump cocoapods from 1.12.1 to 1.13.0 by @dependabot in https://github.com/Quick/Nimble/pull/1089\r\n* Add Windows Support by @brianmichel in https://github.com/Quick/Nimble/pull/1088\r\n* Rename Predicate to Matcher by @younata in https://github.com/Quick/Nimble/pull/1090\r\n* Mark the AsyncDefaults struct as removed. by @younata in https://github.com/Quick/Nimble/pull/1092\r\n* Consolidate xcodeproj targets (... again). by @younata in https://github.com/Quick/Nimble/pull/1093\r\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/Quick/Nimble/pull/1091\r\n\r\n## New Contributors\r\n* @brianmichel made their first contribution in https://github.com/Quick/Nimble/pull/1088\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v12.3.0...v13.0.0-rc.1",
+    "createdAt" : "2023-10-03T05:44:54+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAUUIhc4HWtDa",
+    "owner" : "Quick",
+    "publishedAt" : "2023-10-03T05:45:22+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.0.0-rc.1",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.0.0-rc.1",
+    "version" : "v13.0.0-rc.1"
+  },
+  {
+    "body" : "# Highlights\r\n\r\n## New Features\r\n\r\n- Nimble now supports Windows! (Thanks @brianmichel!)\r\n- the `Predicate` series of APIs has been renamed to `Matcher`. There are typealiases for the older APIs to better enable migrations. These typealiases will be marked as removed in the next major version of Nimble (Nimble 14), and they will be removed entirely in Nimble 15.\r\n- Nimble now supports the DriverKit platform.\r\n\r\n## Breaking Changes\r\n\r\n- The `Predicate` series of APIs have been renamed.\r\n- The `AsyncDefaults` struct is now marked as removed. It will be fully removed in the next major version of Nimble.\r\n- The platform-independent targets in `Nimble.xcodeproj` have now been consolidated into a single Nimble (and NimbleTests) target.\r\n\r\n## Other Notes\r\n\r\n- No changes since [Nimble 13 RC 1](https://github.com/Quick/Nimble/releases/tag/v13.0.0-rc.1).\r\n\r\n# Automated Release Notes\r\n\r\n## What's Changed\r\n* Update release script for a more modern-ish release process by @younata in https://github.com/Quick/Nimble/pull/1086\r\n* Bump cocoapods from 1.12.1 to 1.13.0 by @dependabot in https://github.com/Quick/Nimble/pull/1089\r\n* Add Windows Support by @brianmichel in https://github.com/Quick/Nimble/pull/1088\r\n* Rename Predicate to Matcher by @younata in https://github.com/Quick/Nimble/pull/1090\r\n* Mark the AsyncDefaults struct as removed. by @younata in https://github.com/Quick/Nimble/pull/1092\r\n* Consolidate xcodeproj targets (... again). by @younata in https://github.com/Quick/Nimble/pull/1093\r\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/Quick/Nimble/pull/1091\r\n\r\n## New Contributors\r\n* @brianmichel made their first contribution in https://github.com/Quick/Nimble/pull/1088\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v12.3.0...v13.0.0",
+    "createdAt" : "2023-10-11T01:38:59+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAUUIhc4HaxtK",
+    "owner" : "Quick",
+    "publishedAt" : "2023-10-11T01:40:31+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.0.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.0.0",
+    "version" : "v13.0.0"
   }
 ]

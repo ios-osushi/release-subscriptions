@@ -502,5 +502,41 @@
     "title" : "2.214.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.214.0",
     "version" : "2.214.0"
+  },
+  {
+    "body" : "* [match] fixes missing job-token error in GitLab storage mode (#21520) via Darby Frey (@darbyfrey)",
+    "createdAt" : "2023-09-19T11:36:09+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAaK_F84HP9dP",
+    "owner" : "fastlane",
+    "publishedAt" : "2023-09-19T11:43:28+09:00",
+    "repository" : "fastlane",
+    "title" : "2.216.0 Fix for match GitLab storage",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.216.0",
+    "version" : "2.216.0"
+  },
+  {
+    "body" : "* [spaceship] add request retry with backoff when encountring 429 errors (#21511) via Stefan Natchev (@snatchev)\n* [supply] introduce a new synchronization logic for screenshots (#21498) via Olivier Halligon (@AliSoftware)\n* [deliver] validate the status of app version to be ready_for_review before submitting the app (#20515) via 醉 (@404pilot)\n* [match] Added s3_skip_encryption parameter (#21018) via Morten Bøgh (@mbogh)\n* [docs] add minor branding guidelines to `CONTRIBUTING.md` (#21495) via Roger Oba (@rogerluan)\n* [match] prevent directory download from s3 (#20975) via Mark Homoki (@markhomoki)\n* [xcodes] fix issue where `xcodes` action wouldn't accept beta versions of Xcode (#21434) via apps4everyone (@apps4everyone)\n* [spaceship] explicit beta group access to all builds at creation (#21478) via Vincent Isambart (@vincentisambart)\n* [docs] update pull request template to ask contributors to write unit tests (#21427) via Roger Oba (@rogerluan)\n* [action] deprecate the ensure_xcode_version action (#21448) via Iulian Onofrei (@revolter)\n* [tests] stop generating rspec temp file in current directory (#21466) via Roger Oba (@rogerluan)\n* [ci] fix CI by replacing deprecated Xcode versions, and add Xcode 14, Xcode 15, and Ruby 3.1 to test envs (#21465) via Roger Oba (@rogerluan)\n* [deliver][frameit] add iPhone 14 Pro / 6.1\" display type (#21393) via Stefan Natchev (@snatchev)\n* [spaceship] add missing `AppStoreState` cases (#21312) via Roger Oba (@rogerluan)\n* [fastlane_core] fix WWDR certificates import flow (#21442) via Paul Taykalo (@PaulTaykalo)\n* [docs] fix tool name formatting (for `supply`) to be lowercase to pass fastlane docs unit tests (#21426) via Roger Oba (@rogerluan)",
+    "createdAt" : "2023-09-16T10:15:42+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAaK_F84HPDfC",
+    "owner" : "fastlane",
+    "publishedAt" : "2023-09-16T10:23:01+09:00",
+    "repository" : "fastlane",
+    "title" : "2.215.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.215.0",
+    "version" : "2.215.0"
+  },
+  {
+    "body" : "* [supply] add new SUPPLY_UPLOAD_MAX_RETRIES env var to attempt to solve failed Google API calls (#21518) via Josh Holtz (@joshdholtz)",
+    "createdAt" : "2023-09-18T00:58:10+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAaK_F84HPTuT",
+    "owner" : "fastlane",
+    "publishedAt" : "2023-09-18T01:17:40+09:00",
+    "repository" : "fastlane",
+    "title" : "2.215.1 Workaround for Google Play API instability",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.215.1",
+    "version" : "2.215.1"
   }
 ]

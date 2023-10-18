@@ -358,5 +358,17 @@
     "title" : "Swift 3.2 and Xcode 9",
     "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/3.3.0",
     "version" : "3.3.0"
+  },
+  {
+    "body" : "Released on 2023-09-13. All issues associated with this milestone can be found using this\r\n[filter](https://github.com/Alamofire/AlamofireImage/milestone/42?closed=1).\r\n\r\n#### Added\r\n\r\n- visionOS support.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#469](https://github.com/Alamofire/AlamofireImage/pull/469).\r\n- Swift concurrency support.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#464](https://github.com/Alamofire/AlamofireImage/pull/464).\r\n- Combine support.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#464](https://github.com/Alamofire/AlamofireImage/pull/464).\r\n- AVIF and JPEG XL image support.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#464](https://github.com/Alamofire/AlamofireImage/pull/464).\r\n\r\n#### Updated\r\n\r\n- Project to require Swift 5.5.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#464](https://github.com/Alamofire/AlamofireImage/pull/464).\r\n- Testing infrastructure and CI integration.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#464](https://github.com/Alamofire/AlamofireImage/pull/464).\r\n- `ImageResponseSerializer` to be `open`.\r\n  - Updated by [Aleksey Ostapenko](https://github.com/Banannzza) in Pull Request [#452](https://github.com/Alamofire/AlamofireImage/pull/452).\r\n- `acceptableImageContentTypes` to be publicly visible.\r\n  - Updated by [Adam Lickel](https://github.com/lickel) in Pull Request [#453](https://github.com/Alamofire/AlamofireImage/pull/453).\r\n\r\n#### Fixed\r\n\r\n- Documentation example.\r\n  - Fixed by [Norton](https://github.com/jiangdi0924) in Pull Request [#444](https://github.com/Alamofire/AlamofireImage/pull/444).",
+    "createdAt" : "2023-09-14T00:30:53+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAn2D584HNiet",
+    "owner" : "Alamofire",
+    "publishedAt" : "2023-09-14T00:31:52+09:00",
+    "repository" : "AlamofireImage",
+    "title" : "4.3.0: Welcome Back",
+    "url" : "https://github.com/Alamofire/AlamofireImage/releases/tag/4.3.0",
+    "version" : "4.3.0"
   }
 ]

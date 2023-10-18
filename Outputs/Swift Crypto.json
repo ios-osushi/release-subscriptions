@@ -382,5 +382,29 @@
     "title" : "Swift Crypto 3.0.0-beta.1",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.0.0-beta.1",
     "version" : "3.0.0-beta.1"
+  },
+  {
+    "body" : "The only meaningful breaking change in this release is the addition of new cases in the `CryptoKitError` enum. The overwhelming majority of users can and should express a wider version range than usual: \"1.0.0\" ..< \"4.0.0\" is the recommended version range.\r\n\r\n### SemVer Major\r\n\r\n- Update to CryptoKit 2023 final API (#199)\r\n\r\n### SemVer Patch\r\n\r\n- Set missing Windows defines (#197) (patch credit to @compnerd)\r\n- Use `SecKeyGetBlockSize` instead of `kSecAttrKeySizeInBits` (#198)\r\n",
+    "createdAt" : "2023-09-13T20:03:22+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOC9Swts4HQwFK",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-20T18:06:28+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.0.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.0.0",
+    "version" : "3.0.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add support for AES-CBC in `_CryptoExtras` (#200)\r\n- Bump minimum Swift version to 5.7 (#201)",
+    "createdAt" : "2023-10-04T18:19:44+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOC9Swts4HX4O9",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-04T23:32:11+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.1.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.1.0",
+    "version" : "3.1.0"
   }
 ]

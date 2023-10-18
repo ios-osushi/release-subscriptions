@@ -658,5 +658,17 @@
     "title" : "SwiftNIO 2.57.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.57.0",
     "version" : "2.57.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Added `ByteBuffer.hexDump(format:)` (#2475, patch credit to @natikgadzhi)\r\n- Make the initializers of `NIOThreadPoolError` public (#2503, patch credit to @omochi)\r\n- Make `ByteBuffer` Codable (#2509, patch credit to @natikgadzhi)\r\n- `EventLoopFuture/Promise`: only `Sendable` if `Value` is `Sendable` (#2496)\r\n- HTTP1: Support users opting-out of us setting framing headers. (#2508)\r\n- Support for custom protocols in `DatagramBootstrap` (#2516)\r\n\r\n### SemVer Patch\r\n\r\n- HTTP1: Simplify header separator and crlf (#2513, patch credit to @alex-taffe)\r\n- Update `CNIOLLHTTP` to latest `nodejs/llhttp` (#2512)\r\n\r\n### Other Changes\r\n\r\n- Docs: explain the basic safe usage of `ByteBuffer` (#2499, patch credit to @natikgadzhi)\r\n- Match casing of reference links to the casing of the actual referenced declaration/module (#2500, patch credit to @tayloraswift)\r\n- Update nightly allocation limits (#2502)",
+    "createdAt" : "2023-09-17T16:03:56+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOBy6rG84HQ2MB",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-20T21:11:56+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.59.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.59.0",
+    "version" : "2.59.0"
   }
 ]

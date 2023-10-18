@@ -94,5 +94,17 @@
     "title" : "Swift Atomics 1.0.3",
     "url" : "https://github.com/apple/swift-atomics/releases/tag/1.0.3",
     "version" : "1.0.3"
+  },
+  {
+    "body" : "This minor release adds support for Swift 5.9.\r\n\r\nThis release contains no API-level additions nor any other visible changes to stable interfaces; the version number bump is simply acknowledging that this release ships a full rewrite of package internals -- it isn't just a regular bug fix release.\r\n\r\n### Changes\r\n\r\n- This release requires Swift 5.7 or later. (Clients on older toolchains will automatically remain on the 1.0 or 1.1 releases.)\r\n- The package now supports being used as a dependency in projects that have C++ interoperability enabled in Swift 5.9.\r\n- On Swift 5.9+, atomic operations are now implemented using native Swift compiler builtins. The package no longer forwards to C atomics when built on newer toolchains.\r\n\r\n### Fixes\r\n\r\n- Minor documentation fixes.\r\n\r\n### Pull Requests\r\n\r\n* [Xcode] Set a code sign identity by @lorentey in https://github.com/apple/swift-atomics/pull/85\r\n* [Xcode] Don’t use a bridging header in a framework target by @lorentey in https://github.com/apple/swift-atomics/pull/87\r\n* Fix reference doc variable references by @rolson in https://github.com/apple/swift-atomics/pull/89\r\n* Avoid C atomic operations in Swift 5.9+ by @lorentey in https://github.com/apple/swift-atomics/pull/90\r\n* Regenerate sources by @lorentey in https://github.com/apple/swift-atomics/pull/91\r\n* Fix version-specific manifest for 5.6..<5.9 by @lorentey in https://github.com/apple/swift-atomics/pull/93\r\n* [_AtomicShims] On Darwin, ensure we link against libswiftCore using assembly shenanigans by @lorentey in https://github.com/apple/swift-atomics/pull/97\r\n* Avoid using symlinks for package files by @ktoso in https://github.com/apple/swift-atomics/pull/100\r\n* Reorganize sources for future work by @lorentey in https://github.com/apple/swift-atomics/pull/101\r\n* Fix alignment issues with double-wide atomics on i386 by @lorentey in https://github.com/apple/swift-atomics/pull/102\r\n* [CMake] Do not list .gyb files as sources by @lorentey in https://github.com/apple/swift-atomics/pull/105\r\n* Drop support for Swift 5.6 by @lorentey in https://github.com/apple/swift-atomics/pull/103\r\n* Not so minor prerelease fixups/changes by @lorentey in https://github.com/apple/swift-atomics/pull/106\r\n\r\n## New Contributors\r\n* @rolson made their first contribution in https://github.com/apple/swift-atomics/pull/89\r\n* @ktoso made their first contribution in https://github.com/apple/swift-atomics/pull/100\r\n\r\n**Full Changelog**: https://github.com/apple/swift-atomics/compare/1.1.0...1.2.0\r\n\r\nThank you very much to everyone who contributed to this release!",
+    "createdAt" : "2023-09-28T10:26:29+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOEeiD3M4HWy1i",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-03T10:36:05+09:00",
+    "repository" : "swift-atomics",
+    "title" : "Swift Atomics 1.2.0",
+    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.2.0",
+    "version" : "1.2.0"
   }
 ]

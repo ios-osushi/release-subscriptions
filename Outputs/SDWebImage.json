@@ -634,5 +634,41 @@
     "title" : "5.18.0 - VisionOS and more",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.0",
     "version" : "5.18.0"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.1 release](https://github.com/SDWebImage/SDWebImage/milestone/120)\r\n\r\n### Project\r\n- Added the visionOS support for \"Build XCFramework\" script target #3598\r\n- Added xcprivacy to framework target and SPM #3600\r\n\r\n### Fixes\r\n- Fix the JFIF image orientation bug (which does not use EXIF but JFIF metadata) #3597\r\n\r\n### Warnings\r\n- Fix one warning because local variable shadows the variable outside of block #3599",
+    "createdAt" : "2023-09-12T17:15:43+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAATIS84HMolT",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-09-12T17:18:00+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.1 - Privacy Manifest",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.1",
+    "version" : "5.18.1"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.2 release](https://github.com/SDWebImage/SDWebImage/milestone/121)\r\n\r\n### Fixes\r\n- Fix the SDDisplayLink on watchOS does not behave like other platform #3607",
+    "createdAt" : "2023-09-22T00:22:50+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAATIS84HRqxp",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-09-22T00:23:54+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.2 - 5.18 Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.2",
+    "version" : "5.18.2"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.3 release](https://github.com/SDWebImage/SDWebImage/milestone/122)\r\n\r\n### Project\r\n- Update the TargetConditionals check for visionOS on Xcode 15.1 #3620\r\n\r\n### Fixes\r\n- Update the convenient API for case when user encode the format the same as image format, provide better quick return #3617\r\n- Try to remove the unused NSNotification object filter, do filter by ourself #3619",
+    "createdAt" : "2023-10-10T16:59:18+09:00",
+    "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
+    "id" : "RE_kwDOAATIS84Had0V",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-10-10T17:00:56+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.3 - 5.18 Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.3",
+    "version" : "5.18.3"
   }
 ]
