@@ -804,6 +804,18 @@
     "version" : "0.51.13"
   },
   {
+    "body" : "- Updated `if`/`switch` expression workaround for Swift 5.9 bug to handle `as!` casts\r\n- Fixed indent logic  for wrapped conditional assignment expressions\r\n- Fixed assertion failure in `redundantSelf` rule\r\n- Fixed raw string parsing bug",
+    "createdAt" : "2023-12-06T09:05:51+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOA_OyXc4H6ch1",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-12-06T09:17:28+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.11",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.11",
+    "version" : "0.52.11"
+  },
+  {
     "body" : "- Fixed various bugs and edge cases in `redundantStaticSelf` rule\r\n- Fixed bug with `redundantReturn` rule for switch statements containing `fallthrough`\r\n- Fixed `redundantReturn` rule stripping required return from `Void` switch statements\r\n- Fixed some more cases where prefix `/` operator could be mistaken for a regex literal\r\n- The `redundantReturn` rule now handles statements containing comments or raw strings\r\n- Fixed spurious warning for unused options when using `--lintonly` rules\r\n- Including `/` operator in `--nospaceoperators` or `--nowrapoperators` now works again\r\n",
     "createdAt" : "2023-08-18T04:19:04+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
@@ -898,5 +910,29 @@
     "title" : "0.52.8",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.8",
     "version" : "0.52.8"
+  },
+  {
+    "body" : "- Fixed `redundantClosure` removing required closure around conditional statements\r\n- Fixed `redundantClosure` removing closure containing conditional expressions inside a method call\r\n- Fixed `redundantClosure` generating invalid code when the `redundantReturn` rule is disabled\r\n- Fixed issue where if/switch expressions with `as?` cast would break build in Swift 5.9\r\n- Fixed `blankLineAfterImports` introducing spurious blank line before `@preconcurrency` attribute\r\n- Fixed bug where `enumNamespaces` rule wouldn't be applied immediately after an `import` statement\r\n- Fixed issue where `switch` case with multiple `where` clauses could be parsed incorrectly\r\n- The SwiftFormat SPM plugin now formats local dependencies, not just final product targets",
+    "createdAt" : "2023-11-11T17:06:23+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOA_OyXc4HsJAj",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-11-11T17:24:41+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.9",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.9",
+    "version" : "0.52.9"
+  },
+  {
+    "body" : "- Fixed `enumNamespaces` rule breaking `import struct`/`class` statements\r\n- Fixed unsafe application of `conditionalAssignment` rule to `switch` statements containing `#if` blocks",
+    "createdAt" : "2023-11-15T08:08:29+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOA_OyXc4Ht3k9",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2023-11-15T08:18:19+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.52.10",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.10",
+    "version" : "0.52.10"
   }
 ]

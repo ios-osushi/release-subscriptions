@@ -22,5 +22,29 @@
     "title" : "FoundationICU 0.0.2",
     "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.2",
     "version" : "0.0.2"
+  },
+  {
+    "body" : "This release fixed Linux build failures for `ICU 72.1`.\r\n\r\n### Pull Requests\r\n- https://github.com/apple/swift-foundation-icu/pull/17 Fix Linux build failure\r\n\r\n\r\n### Corresponding ICU Version: `ICU 72.1`",
+    "createdAt" : "2023-12-06T10:40:23+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOIzpzt84H6eFJ",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-06T10:49:03+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "FoundationICU 0.0.4",
+    "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.4",
+    "version" : "0.0.4"
+  },
+  {
+    "body" : "This release changed ICU data delivery method to embedded binary, as well as upgraded ICU to `72.1` (which aligns with the version shipped in macOS Sonoma).\r\n\r\n### Pull Requests\r\n- https://github.com/apple/swift-foundation-icu/pull/14 Update SwiftFoundationICU to embed data files in the binary\r\n- https://github.com/apple/swift-foundation-icu/pull/16 Upgrade to ICU 72.1\r\n\r\n### Corresponding ICU Version: `ICU 72.1`",
+    "createdAt" : "2023-10-31T01:03:54+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOIzpzt84HmAkl",
+    "owner" : "apple",
+    "publishedAt" : "2023-11-01T02:22:38+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "FoundationICU 0.0.3",
+    "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.3",
+    "version" : "0.0.3"
   }
 ]

@@ -10,5 +10,17 @@
     "title" : "Swift-Markdown 0.2.0",
     "url" : "https://github.com/apple/swift-markdown/releases/tag/0.2.0",
     "version" : "0.2.0"
+  },
+  {
+    "body" : "This release is based on the Swift 5.9 release.",
+    "createdAt" : "2023-10-31T05:50:04+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOFxlFeM4Hlc3K",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-31T05:53:02+09:00",
+    "repository" : "swift-markdown",
+    "title" : "Swift-Markdown 0.3.0",
+    "url" : "https://github.com/apple/swift-markdown/releases/tag/0.3.0",
+    "version" : "0.3.0"
   }
 ]

@@ -118,5 +118,29 @@
     "title" : "509.0.0",
     "url" : "https://github.com/apple/swift-syntax/releases/tag/509.0.0",
     "version" : "509.0.0"
+  },
+  {
+    "body" : "Fixes the following issues:\r\n- `Foo<T>.bar` should not have whitespace added between `>` and `.` (https://github.com/apple/swift-syntax/pull/2224)\r\n- Missing dependency declaration between `SwiftSyntaxMacroExpansion` and `SwiftOperators` (https://github.com/apple/swift-syntax/pull/2224)",
+    "createdAt" : "2023-10-17T09:22:54+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOCIc4qs4Hg9Vm",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-21T07:05:16+09:00",
+    "repository" : "swift-syntax",
+    "title" : "509.0.1",
+    "url" : "https://github.com/apple/swift-syntax/releases/tag/509.0.1",
+    "version" : "509.0.1"
+  },
+  {
+    "body" : "Fixes a possible misaligned memory access",
+    "createdAt" : "2023-11-01T08:07:18+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOCIc4qs4HmL_1",
+    "owner" : "apple",
+    "publishedAt" : "2023-11-01T09:05:00+09:00",
+    "repository" : "swift-syntax",
+    "title" : "509.0.2",
+    "url" : "https://github.com/apple/swift-syntax/releases/tag/509.0.2",
+    "version" : "509.0.2"
   }
 ]

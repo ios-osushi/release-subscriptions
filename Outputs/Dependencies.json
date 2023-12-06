@@ -166,5 +166,41 @@
     "title" : "0.6.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/0.6.0",
     "version" : "0.6.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: `@DependencyClient` and `@DependencyEndpoint` now properly support closures with inout parameters (thanks @Alex293, https://github.com/pointfreeco/swift-dependencies/pull/149).\r\n* Infrastructure: Update docs links to SPI (https://github.com/pointfreeco/swift-dependencies/pull/143).\r\n* Infrastructure: Update the demo repo link in the Examples section of the README to point to the SyncUps repo (thanks @kuglee, https://github.com/pointfreeco/swift-dependencies/pull/144).\r\n* Infrastructure: Update README.md (thanks @kgrigsby59, https://github.com/pointfreeco/swift-dependencies/pull/145)\r\n* Infrastructure: Add missing shortcuts to sections in README (thanks @Mika5652, https://github.com/pointfreeco/swift-dependencies/pull/142).\r\n\r\n## New Contributors\r\n\r\n* @kuglee made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/144\r\n* @kgrigsby59 made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/145\r\n* @Alex293 made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/149\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.1.1...1.1.2",
+    "createdAt" : "2023-11-30T03:25:19+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOIF_Mq84H3auI",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-11-30T03:32:36+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.1.2",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.1.2",
+    "version" : "1.1.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: A `DependenciesMacros` module, which includes a new `@DependencyClient` macro (https://github.com/pointfreeco/swift-dependencies/pull/132).\r\n* Fixed: Avoid a watchOS test crash (https://github.com/pointfreeco/swift-dependencies/pull/122).\r\n* Infrastructure: Bumped README version to 1.0.0 (thanks @Jager-yoo, https://github.com/pointfreeco/swift-dependencies/pull/106)\r\n* Infrastructure: CI fixes (https://github.com/pointfreeco/swift-dependencies/pull/109)\r\n* Infrastructure: Document SWIFT_DEPENDENCIES_CONTEXT (https://github.com/pointfreeco/swift-dependencies/pull/115).\r\n* Infrastructure: Document test leakage (https://github.com/pointfreeco/swift-dependencies/pull/130).\r\n\r\n## New Contributors\r\n\r\n* @Jager-yoo made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/106\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.0.0...1.1.0",
+    "createdAt" : "2023-11-16T03:04:58+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOIF_Mq84HuZVr",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-11-16T03:08:12+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.1.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: `@DependencyClient` and `@DependencyEndpoint` now emit diagnostics when non-closure literal is assigned, including `unimplemented` (https://github.com/pointfreeco/swift-dependencies/pull/137).\r\n* Fixed: `@DependencyClient` and `@DependencyEndpoint` no longer fail on multiline closure literal defaults (https://github.com/pointfreeco/swift-dependencies/pull/137).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.1.0...1.1.1",
+    "createdAt" : "2023-11-17T05:42:31+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOIF_Mq84HvTPY",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-11-17T05:43:55+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.1.1",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.1.1",
+    "version" : "1.1.1"
   }
 ]

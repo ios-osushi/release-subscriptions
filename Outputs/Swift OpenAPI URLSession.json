@@ -36,6 +36,30 @@
     "version" : "0.1.2"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Add support for streaming on recent Darwin platforms by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/24\r\n* Use APIs available on older macOS in tests by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/25\r\n* Add missing transition AsyncBackpressuredStream state machine by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/27\r\n* Improve debug logging and add tests that it is not evaluated when disabled by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/26\r\n* Avoid double continuation resume in URLSession delegate in corner case by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/28\r\n* Replace AsyncBackpressuredStream with updated implementation by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/29\r\n### Other Changes\r\n* Add docker-compose file for 5.10 CI by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/16\r\n* Enable documentation comment validation in swift-format by @PARAIPAN9 in https://github.com/apple/swift-openapi-urlsession/pull/18\r\n* Bump swift-format to 5.9 by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/17\r\n* Add a soundness --fix flag by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/19\r\n* Disable warnings as errors in nightlies by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/21\r\n* Disable \"respectsExistingLineBreaks\" in .swift-format for more consistent styling by @PARAIPAN9 in https://github.com/apple/swift-openapi-urlsession/pull/20\r\n* Add README badges by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/23\r\n\r\n## New Contributors\r\n* @PARAIPAN9 made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/18\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/0.3.0...0.3.1",
+    "createdAt" : "2023-11-24T05:34:56+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOJZWyrc4H0010",
+    "owner" : "apple",
+    "publishedAt" : "2023-11-24T19:33:28+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "Swift OpenAPI URLSession 0.3.1",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/0.3.1",
+    "version" : "0.3.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Major\r\n* Move to Swift 5.9 as the minimum version by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/32\r\n### SemVer Minor\r\n* Improve inlining by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/30\r\n* Remove AsyncStream.makeStream backports now we support only Swift 5.9+ by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/34\r\n### SemVer Patch\r\n* Add missing available annotation to streaming tests by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/33\r\n### Other Changes\r\n* Prep for 1.0 alpha, adapted to runtime changes in main by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/31\r\n* Bump to 1.0.0-alpha.1 by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/36\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/0.3.1...1.0.0-alpha.1",
+    "createdAt" : "2023-11-28T18:40:35+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOJZWyrc4H2a3d",
+    "owner" : "apple",
+    "publishedAt" : "2023-11-28T20:01:34+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "Swift OpenAPI URLSession 1.0.0-alpha.1",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/1.0.0-alpha.1",
+    "version" : "1.0.0-alpha.1"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Prepare being compatible with runtime 0.2.0 release by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/12\r\n### Other Changes\r\n* Enable strict concurrency checking in CI by @czechboy0 in https://github.com/apple/swift-openapi-urlsession/pull/11\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/0.1.2...0.1.3",
     "createdAt" : "2023-08-31T00:14:56+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",

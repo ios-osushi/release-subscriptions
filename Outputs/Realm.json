@@ -778,5 +778,17 @@
     "title" : "v10.43.1",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.43.1",
     "version" : "v10.43.1"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* Expose `SyncSession.reconnect()`, which requests an immediate reconnection if the session is currently disconnected rather than waiting for the normal reconnect delay.\r\n* Update release packaging for Xcode 15.1 beta. visionOS slices are now only included for 15.1 rather than splicing them into the non-beta 15.0 release.\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.0.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15.0.0.",
+    "createdAt" : "2023-10-30T11:49:27+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:36+09:00",
+    "id" : "RE_kwDOAD24W84Hk5l7",
+    "owner" : "realm",
+    "publishedAt" : "2023-10-30T11:55:50+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.44.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.44.0",
+    "version" : "v10.44.0"
   }
 ]

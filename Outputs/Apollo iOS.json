@@ -802,5 +802,29 @@
     "title" : "1.6.1",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.6.1",
     "version" : "1.6.1"
+  },
+  {
+    "body" : "**`ApolloCodegenLib` Now Uses Swift Concurrency**\r\nTo improve the performance of the code generation, the `ApolloCodegenLib` now uses `async/await`. Code generation is now parallelized and should complete much faster for users with a large number of GraphQL files.\r\nThis means that the entry point function, `ApolloCodegen.build(with configuration:)` is now an `async` function. For users using the `ApolloCodegenLib` directly, you will need to make your call sites into this function use `async/await`. In most cases, this requires minimal code changes. Please see the [1.7.0 migration guide](https://www.apollographql.com/docs/ios/migrations/1.7) for information on how to upgrade.\r\n\r\nSee PR [#57](https://github.com/apollographql/apollo-ios-dev/pull/57).\r\n\r\n### Fixed\r\n\r\n- **Fixed a bug with ApolloAPI.Object clashing with custom objects name Object ([#94](https://github.com/apollographql/apollo-ios-dev/pull/94)):** _Thank you to [215eight](https://github.com/215eight) for reporting the issue._",
+    "createdAt" : "2023-11-02T05:52:28+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOA9NCTc4HmvDY",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-11-02T05:53:12+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.7.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.7.0",
+    "version" : "1.7.0"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n- **Fixed inconsistent ordering of fragments in generated operation definitions  ([#130](https://github.com/apollographql/apollo-ios-dev/pull/130)):** In order to make the ordering of fragments consistent, they are now alphabetized. This is a change to the data that gets sent over the wire when making a network request for an operation with fragments. **[Persisted Queries](https://www.apollographql.com/docs/ios/fetching/persisted-queries) users should re-register their queries when upgrading to this version.** _Thank you to [@scottasoutherland](https://github.com/scottasoutherland) for reporting the issue._\r\n\r\n### Improvement\r\n\r\n- **Add initializer for `SelectionSet` that takes a `[String: Any]` JSON object ([#102](https://github.com/apollographql/apollo-ios-dev/pull/102)):** _Thank you to [@Cookiezby](https://github.com/Cookiezby) for the contribution._",
+    "createdAt" : "2023-11-14T07:03:05+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOA9NCTc4HtAi1",
+    "owner" : "apollographql",
+    "publishedAt" : "2023-11-14T07:03:19+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.7.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.7.1",
+    "version" : "1.7.1"
   }
 ]

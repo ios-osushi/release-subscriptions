@@ -466,5 +466,17 @@
     "title" : "Swift 5.9 Release",
     "url" : "https://github.com/apple/swift/releases/tag/swift-5.9-RELEASE",
     "version" : "swift-5.9-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-10-17T11:41:15+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOAqwwJc4HgJid",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-20T05:06:50+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.9.1 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.9.1-RELEASE",
+    "version" : "swift-5.9.1-RELEASE"
   }
 ]

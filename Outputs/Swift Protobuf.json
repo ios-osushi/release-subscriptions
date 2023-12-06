@@ -456,6 +456,18 @@
     "version" : "1.22.1"
   },
   {
+    "body" : "## What's Changed\r\n* Fix ordering bug in MessageSet parsing (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1513\r\n* Version bump to do a release with the messageset fix. (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1515\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.25.1...1.25.2",
+    "createdAt" : "2023-11-30T03:02:30+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOBAEMEM4H3bBv",
+    "owner" : "apple",
+    "publishedAt" : "2023-11-30T03:42:49+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.25.2 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.25.2",
+    "version" : "1.25.2"
+  },
+  {
     "body" : "## What's Changed\r\n* Bring most of the protos shuffle/update over to the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1432\r\n* Fix docs errors (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1443\r\n* Fix allCases to generate a let by @gjcairo in https://github.com/apple/swift-protobuf/pull/1451\r\n* 1.x version bump for a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1452\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.22.1...1.23.0",
     "createdAt" : "2023-09-01T01:29:40+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
@@ -478,5 +490,29 @@
     "title" : "1.24.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.24.0",
     "version" : "1.24.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* 1.x branch Better Plugin Support by @thomasvl in https://github.com/apple/swift-protobuf/pull/1485\r\n* Add `useDeterministicOrdering` opt-in option to JSON + Binary encoding by @rebello95 in https://github.com/apple/swift-protobuf/pull/1487\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.24.0...1.25.0",
+    "createdAt" : "2023-10-28T02:17:01+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOBAEMEM4Hka08",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-28T02:23:19+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.25.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.25.0",
+    "version" : "1.25.0"
+  },
+  {
+    "body" : "No function changes, just fixes the checked in Xcode project file.\r\n\r\n## What's Changed\r\n* Add the new files for the Xcode project on the 1.x branch. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1494\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.25.0...1.25.1",
+    "createdAt" : "2023-10-31T23:34:45+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOBAEMEM4Hl4hU",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-31T23:37:00+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.25.1 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.25.1",
+    "version" : "1.25.1"
   }
 ]

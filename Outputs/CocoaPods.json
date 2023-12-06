@@ -394,5 +394,53 @@
     "title" : "1.13.0",
     "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.13.0",
     "version" : "1.13.0"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Fix a crash when attempting to `require 'cocoapods-core'` on specific versions of activesupport\r\n  [Eric Amorde](https://github.com/amorde)\r\n  [#12116](https://github.com/CocoaPods/CocoaPods/issues/12116)",
+    "createdAt" : "2023-10-27T05:34:42+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOACGf_c4Hj6P_",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-10-27T05:45:58+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.1",
+    "version" : "1.14.1"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Fix a crash when running with activesupport 7.1.0.  \r\n  [MCanhisares](https://github.com/MCanhisares)\r\n  [#12081](https://github.com/CocoaPods/CocoaPods/issues/12081)\r\n\r\n* Fix another crash when running with activesupport 7.1.0.  \r\n  [movila](https://github.com/movila)\r\n  [#12089](https://github.com/CocoaPods/CocoaPods/issues/12089)\r\n\r\n##### Other\r\n\r\n* Drop support for Ruby 2.6 (note: this may be reversed if possible so we can support macOS system ruby, but was a blocker at the time of release)\r\n\r\n* Drop support for bazaar SCM. \r\n",
+    "createdAt" : "2023-10-26T15:03:22+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOACGf_c4HjX1B",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-10-26T15:05:01+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.0",
+    "version" : "1.14.0"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Fix a bug when attempting to publish a Pod with `pod trunk push` in certain cases  \r\n  [Eric Amorde](https://github.com/amorde)\r\n  [CocoaPods/Core#729](https://github.com/CocoaPods/Core/pull/759)\r\n",
+    "createdAt" : "2023-10-27T10:28:51+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOACGf_c4Hj_V1",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-10-27T10:30:28+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.2",
+    "version" : "1.14.2"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Revert minimum required Ruby version to 2.6 to support macOS system Ruby  \r\n  [Eric Amorde](https://github.com/amorde)\r\n  [#12122](https://github.com/CocoaPods/CocoaPods/issues/12122)\r\n\r\n",
+    "createdAt" : "2023-11-20T06:24:31+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOACGf_c4HwzES",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-11-20T06:26:35+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.3",
+    "version" : "1.14.3"
   }
 ]

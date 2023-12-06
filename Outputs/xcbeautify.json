@@ -490,5 +490,29 @@
     "title" : "1.0.0",
     "url" : "https://github.com/tuist/xcbeautify/releases/tag/1.0.0",
     "version" : "1.0.0"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-12-04T06:20:00+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:36+09:00",
+    "id" : "RE_kwDOCNUZc84H5LQJ",
+    "owner" : "tuist",
+    "publishedAt" : "2023-12-04T06:20:14+09:00",
+    "repository" : "xcbeautify",
+    "title" : "1.1.0",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Update actions/checkout action to v4 by @renovate in https://github.com/tuist/xcbeautify/pull/148\r\n* Update swift-actions/setup-swift digest to f51889e by @renovate in https://github.com/tuist/xcbeautify/pull/151\r\n* Update README.md by @pjtnt11 in https://github.com/tuist/xcbeautify/pull/152\r\n* Fix LinkerDuplicateSymbolsLocationCaptureGroup by @cpisciotta in https://github.com/tuist/xcbeautify/pull/158\r\n\r\n## New Contributors\r\n* @pjtnt11 made their first contribution in https://github.com/tuist/xcbeautify/pull/152\r\n\r\n**Full Changelog**: https://github.com/tuist/xcbeautify/compare/1.0.0...1.0.1",
+    "createdAt" : "2023-11-14T02:29:57+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:36+09:00",
+    "id" : "RE_kwDOCNUZc84Hvb3x",
+    "owner" : "tuist",
+    "publishedAt" : "2023-11-17T11:38:39+09:00",
+    "repository" : "xcbeautify",
+    "title" : "1.0.1",
+    "url" : "https://github.com/tuist/xcbeautify/releases/tag/1.0.1",
+    "version" : "1.0.1"
   }
 ]

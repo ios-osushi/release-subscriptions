@@ -624,6 +624,18 @@
     "version" : "5.17.0"
   },
   {
+    "body" : "See [all tickets marked for the 5.18.6 release](https://github.com/SDWebImage/SDWebImage/milestone/126)\r\n\r\n### Fixes\r\n- Use the new solution for CADisplayLink duration calculation and fix 90Hz/120Hz display (iPhone Pro or Vision Pro) #3644 #3579",
+    "createdAt" : "2023-12-05T17:00:24+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOAATIS84H56G-",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-12-05T17:02:31+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.6 - ProMotion/Vision Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.6",
+    "version" : "5.18.6"
+  },
+  {
     "body" : "See [all tickets marked for the 5.18.0 release](https://github.com/SDWebImage/SDWebImage/milestone/119)\r\n\r\n### VisionOS\r\n- Support to build for visionOS (no package manager support) #3556\r\n- - Note this does not include CocoaPods/SwiftPM support. You need Xcode 15+ Beta to open SDWebImage project and build by yourself\r\n\r\n### Features\r\n#### UI Category\r\n- Added SDWebImageAvoidAutoCancelImage to avoid cancel loading image requests for the same operation key #3592 @mTz0206 \r\n- Add better support for stateful view (UIButton) for image URL/progres s state management #3576\r\n\r\n#### Downloader\r\n- Fix redundant requests for the same url during decoding time #3572 @Mervin1024\r\n\r\n#### Decoder\r\n- Expose the data and format when SDAnimatedImageRep created with APNG/GIF/WebP/HEICS #3573\r\n- Fix the CGImageCreateScaled to support 16/32 bit depth CGImage (RGB161616) and always preserve pixel format info #3575\r\n\r\n### Fixes\r\n- Add extra check for empty data during URLSession data callback #3587\r\n",
     "createdAt" : "2023-09-02T21:31:38+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
@@ -670,5 +682,29 @@
     "title" : "5.18.3 - 5.18 Fix",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.3",
     "version" : "5.18.3"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.4 release](https://github.com/SDWebImage/SDWebImage/milestone/124)\r\n\r\n### Changes\r\n- SDAnimatedImage now supports static image like JPEG data #3626 #3625\r\n-  - Previous version the initializer will return nil and has to use UIImage/NSImage instead\r\n\r\n",
+    "createdAt" : "2023-10-27T18:38:25+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOAATIS84HkJ1U",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-10-27T18:39:31+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.4 - 5.18 Fix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.4",
+    "version" : "5.18.4"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.5 release](https://github.com/SDWebImage/SDWebImage/milestone/125)\r\n\r\n### Fixes\r\n- Introduce the hacky workaround for iOS 17/macOS 14 ImageIO indexed color png decode (Apple's bug) #3634\r\n- - This will use runtime detection (accurate and safe), and fix the wrong CGImageAlphaInfo when created from PNG using ImageIO decoder. Currently bug exists on iOS 17.0-17.2\r\n- - Please help to fire radar to Apple, let them fix this problem as soon as possible.\r\n- Fix the iOS 17 UIKit issue that UIImageView entering the background will reset CALayer's contents, which cause SDAnimatedImageView render issue (out-of-sync) #3636\r\n- Fix the sd_colorAtPoint/sd_colorsWithRect return wrong value on pre-multiplied CGImage #3637\r\n- - Previous version this may return the premultiplied color, which is wrong. Should always return the un-premultiplied color.\r\n\r\n### Tests\r\n- [Unit test] Use placehold.co to replace the down site via.placeholder.com #3639",
+    "createdAt" : "2023-11-16T19:59:13+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOAATIS84HuzKC",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-11-16T20:00:41+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.5 - iOS 17 Workaround",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.5",
+    "version" : "5.18.5"
   }
 ]

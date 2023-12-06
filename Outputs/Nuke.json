@@ -876,6 +876,18 @@
     "version" : "12.1.5"
   },
   {
+    "body" : "## What's Changed\r\n* Add another file type signature for `.m4v` files by @leonid-shevtsov in https://github.com/kean/Nuke/pull/735\r\n* Added the `onStart` callback to` LazyImage` by @urbaneewe in https://github.com/kean/Nuke/pull/736\r\n\r\n## New Contributors\r\n* @leonid-shevtsov made their first contribution in https://github.com/kean/Nuke/pull/735\r\n* @urbaneewe made their first contribution in https://github.com/kean/Nuke/pull/736\r\n\r\n**Full Changelog**: https://github.com/kean/Nuke/compare/12.1.6...12.2.0",
+    "createdAt" : "2023-11-24T01:37:38+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOAeh5z84H0vyB",
+    "owner" : "kean",
+    "publishedAt" : "2023-11-24T01:41:48+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.2",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.2.0",
+    "version" : "12.2.0"
+  },
+  {
     "body" : "- Improve `ImageCache` (memory cache) performance by 20%\r\n- Improve `NukeExtensions` performance by 5%\r\n- Update the code to support future visionOS releases by switching to `canImport` where possible",
     "createdAt" : "2023-08-19T23:56:33+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",

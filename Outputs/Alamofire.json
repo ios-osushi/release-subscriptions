@@ -430,5 +430,17 @@
     "title" : "5.8.0",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.8.0",
     "version" : "5.8.0"
+  },
+  {
+    "body" : "Released on 2023-10-26. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/88?closed=1).\r\n\r\n### Updated\r\n\r\n- Internal: `Protected` to no longer be a `@propertyWrapper`.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3777](https://github.com/Alamofire/Alamofire/pull/3777).\r\n\r\n### Fixed\r\n\r\n- `URLEncodedFormEncoder` encoding of `Encodable` values with optional properties using `encodeIfPresent`.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3779](https://github.com/Alamofire/Alamofire/pull/3779).\r\n- Missing \"Skip Install\" setting for visionOS target.\r\n  - Fixed by [Sai](https://github.com/Sai) in Pull Request [#3788](https://github.com/Alamofire/Alamofire/pull/3788).",
+    "createdAt" : "2023-10-27T04:47:55+09:00",
+    "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
+    "id" : "RE_kwDOAVavk84Hj3pS",
+    "owner" : "Alamofire",
+    "publishedAt" : "2023-10-27T04:49:10+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.8.1",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.8.1",
+    "version" : "5.8.1"
   }
 ]
