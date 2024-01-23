@@ -826,5 +826,29 @@
     "title" : "1.7.1",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.7.1",
     "version" : "1.7.1"
+  },
+  {
+    "body" : "This is the first preview release of `@defer` support in Apollo iOS which focuses on providing early access to using the `@defer` directive in your operations. During preview releases bugs can occur, if you do experience anything unexpected please report it to us.\r\n\r\n**Note:** Apollo supports a very specific early RFC version of the `@defer` directive as documented [here](https://www.apollographql.com/docs/router/executing-operations/defer-support#specification-status). The `@defer` directive is still an RFC and is not an official addition to the [GraphQL specification](https://spec.graphql.org/draft/) yet. This means that Apollo iOS may not work with all servers that currently support `@defer`.\r\n\r\n**How to use it**\r\nWe have a [sample schema/server that supports `@defer`](https://github.com/apollographql/client-router-e2e-tests/tree/main) and can be  launched using the [Docker configuration](https://github.com/apollographql/client-router-e2e-tests/blob/main/scripts/docker-compose.router.yml).\r\n\r\nOnce you have that service launched you can configure your Apollo iOS client to target the `apollo-ios` and `apollo-ios-codegen` dependency packages using the `preview/defer` branch. Below is an example query using `@defer` against the schema.\r\n```\r\nquery ExampleQuery {\r\n  allProducts {\r\n    sku\r\n    id\r\n    ... on Product @defer(label: \"additional\") {\r\n      dimensions {\r\n        size\r\n      }\r\n      variation {\r\n        id\r\n        name\r\n      }\r\n    }\r\n  }\r\n}\r\n```\r\n\r\nAlternatively [here](https://github.com/apollographql/apollo-ios/files/13845848/DeferExampleClient.zip) is a sample client to demonstrate the code generation and operation execution of the `@defer` directive.\r\n\r\n**Caveats in this preview release**\r\n* Caching is intentionally disabled for operations using `@defer`.",
+    "createdAt" : "2024-01-06T03:17:29+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOA9NCTc4IG2pp",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-01-06T04:34:34+09:00",
+    "repository" : "apollo-ios",
+    "title" : "preview-defer.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/preview-defer.1",
+    "version" : "preview-defer.1"
+  },
+  {
+    "body" : "### Fixed\r\n- **Duplicate `@defer` directive error ([#235](https://github.com/apollographql/apollo-ios-dev/pull/235)):** When executing codegen against Apollo Router and a schema that supports the `@defer` directive it would fail with an error stating the directive is duplicated.\r\n\r\n### Changed\r\n- **InstallCLI plugin updates ([#132](https://github.com/apollographql/apollo-ios-dev/pull/132)):** The InstallCLI plugin now downloads the CLI binary from GitHub. This requires that we update the `swift-tools-version` to `5.9`, therefore **Xcode 15 is now the minimum version of Xcode allowed.**\r\n\r\n### Improvement\r\n\r\n- **Added `InputObject` casing strategy ([#137](https://github.com/apollographql/apollo-ios-dev/pull/137)):** We've added a new casing strategy option for InputObjects which mimics the behaviour of the enum case conversion strategy. _Thank you to [@alexifrim](https://github.com/alexifrim) for raising this in issue [#3257](https://github.com/apollographql/apollo-ios/issues/3257)._\r\n- **Added `GraphQLResult` conversion extension ([#139](https://github.com/apollographql/apollo-ios-dev/pull/139)):** `GraphQLResult` response data can now be easily converted into a JSON dictionary. This is useful for taking server response data and serializing it into a JSON dictionary which can then be used in a test suite.\r\n- **Codegen performance improvements ([#152](https://github.com/apollographql/apollo-ios-dev/pull/152)):** There has been a bunch of refactoring work to prepare for future codegen features but we've also managed to squeeze out some performance improvements.",
+    "createdAt" : "2024-01-13T07:08:02+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOA9NCTc4IKQCm",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-01-13T07:29:12+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.8.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.8.0",
+    "version" : "1.8.0"
   }
 ]

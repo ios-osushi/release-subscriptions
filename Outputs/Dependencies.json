@@ -180,6 +180,42 @@
     "version" : "1.1.2"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Support `@autoclosure` in `@DependencyEndpoint`s (thanks @xiii111, https://github.com/pointfreeco/swift-dependencies/pull/160).\r\n* Fixed: Support (but warn against) `fatalError` default (https://github.com/pointfreeco/swift-dependencies/pull/158).\r\n* Infrastructure:  Add community library link to README (thanks @arasan01, https://github.com/pointfreeco/swift-dependencies/pull/151).\r\n* Infrastructure: Clarify documentation (https://github.com/pointfreeco/swift-dependencies/pull/152).\r\n\r\n## New Contributors\r\n\r\n* @arasan01 made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/151\r\n* @xiii111 made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/160\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.1.2...1.1.3",
+    "createdAt" : "2023-12-12T06:27:25+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOIF_Mq84H9MLu",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-12T06:29:22+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.1.3",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.1.3",
+    "version" : "1.1.3"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Avoid erroneous missing default diagnosis, a regression introduced in 1.1.3 (https://github.com/pointfreeco/swift-dependencies/pull/161).\r\n* Infrastructure: Bumped Swift tools version to 5.7.1 to follow Apple's policy (thanks @x-0o0, https://github.com/pointfreeco/swift-dependencies/pull/140).\r\n\r\n## New Contributors\r\n\r\n* @x-0o0 made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/140\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.1.3...1.1.4",
+    "createdAt" : "2023-12-13T02:23:18+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOIF_Mq84H9tmm",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-13T02:24:18+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.1.4",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.1.4",
+    "version" : "1.1.4"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: `@DependencyClient` no longer tries to apply `@DependencyEndpoint` to `let` properties (https://github.com/pointfreeco/swift-dependencies/pull/163).\r\n* Fixed: `@DependencyClient` no longer tries to apply `@DependencyEndpoint` to computed properties with explicit `get` blocks (https://github.com/pointfreeco/swift-dependencies/pull/163).\r\n* Fixed: `@DependencyEndpoint` now properly forwards `willSet` and `didSet` accessors to the underlying storage (https://github.com/pointfreeco/swift-dependencies/pull/163).\r\n* Infrastructure: Document default value requirement for `@DependencyClient` endpoints (https://github.com/pointfreeco/swift-dependencies/pull/164).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.1.4...1.1.5",
+    "createdAt" : "2023-12-16T05:46:13+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOIF_Mq84H_wx_",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-16T07:19:10+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.1.5",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.1.5",
+    "version" : "1.1.5"
+  },
+  {
     "body" : "## What's Changed\r\n\r\n* Added: A `DependenciesMacros` module, which includes a new `@DependencyClient` macro (https://github.com/pointfreeco/swift-dependencies/pull/132).\r\n* Fixed: Avoid a watchOS test crash (https://github.com/pointfreeco/swift-dependencies/pull/122).\r\n* Infrastructure: Bumped README version to 1.0.0 (thanks @Jager-yoo, https://github.com/pointfreeco/swift-dependencies/pull/106)\r\n* Infrastructure: CI fixes (https://github.com/pointfreeco/swift-dependencies/pull/109)\r\n* Infrastructure: Document SWIFT_DEPENDENCIES_CONTEXT (https://github.com/pointfreeco/swift-dependencies/pull/115).\r\n* Infrastructure: Document test leakage (https://github.com/pointfreeco/swift-dependencies/pull/130).\r\n\r\n## New Contributors\r\n\r\n* @Jager-yoo made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/106\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.0.0...1.1.0",
     "createdAt" : "2023-11-16T03:04:58+09:00",
     "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
@@ -202,5 +238,17 @@
     "title" : "1.1.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.1.1",
     "version" : "1.1.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: `DependencyKey` and `TestDependencyKey` now have a `Value` primary associated type (https://github.com/pointfreeco/swift-dependencies/pull/173).\r\n* Added: `@Dependency(MyDependency.self)`, for specifying a dependency by a type name instead of a key path (https://github.com/pointfreeco/swift-dependencies/pull/172).\r\n* Fixed: Test values are now cached when accessed in a live context (thanks @oronbz, https://github.com/pointfreeco/swift-dependencies/pull/78). This ensures a dependency isn't recreated every single time it is accessed in an application. \r\n* Fixed: `XCTest` is now dynamically linked on non-Apple platforms, like Linux and Windows (thanks @compnerd, https://github.com/pointfreeco/swift-dependencies/pull/169).\r\n* Infrastructure: Improved macro warning message (thanks @ZevEisenberg, https://github.com/pointfreeco/swift-dependencies/pull/167).\r\n* Infrastructure: Updated installation snippet (thanks @x-0o0, https://github.com/pointfreeco/swift-dependencies/pull/168).\r\n* Infrastructure: Simplify WASI handling in tests (thanks @compnerd, https://github.com/pointfreeco/swift-dependencies/pull/170).\r\n\r\n## New Contributors\r\n\r\n* @ZevEisenberg made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/167\r\n* @compnerd made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/170\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.1.5...1.2.0",
+    "createdAt" : "2024-01-23T07:47:39+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOIF_Mq84IOqYJ",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-01-23T07:58:22+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.2.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.2.0",
+    "version" : "1.2.0"
   }
 ]

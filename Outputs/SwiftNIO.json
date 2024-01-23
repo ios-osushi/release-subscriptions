@@ -718,5 +718,17 @@
     "title" : "SwiftNIO 2.62.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.62.0",
     "version" : "2.62.0"
+  },
+  {
+    "body" : "This release includes a new module, `NIOFileSystem`, for asynchronously interacting with the filesystem. The module isn't yet considered public API and is therefore available via the `_NIOFileSystem` product. We plan to stabilise the API soon and welcome feedback in the meantime. You can learn more about `NIOFileSystem` by reading the [documentation](https://swiftpackageindex.com/apple/swift-nio/main/documentation/NIOFileSystem).\r\n\r\n### SemVer Minor\r\n\r\n- Add `async` API for `NonBlockingFileIO` (#2576, patch credit to @adam-fowler)\r\n- Allow setting `MTELG.singleton` as Swift Concurrency executor (#2564)\r\n\r\n### SemVer Patch\r\n\r\n- Changes to support building with Musl (#2595 and #2628, patch credit to @al45tair)\r\n- Build for Android with NDK 26, by accounting for the new nullability annotations (#2600, patch credit to @finagolfin)\r\n- Fix warnings caused by not defining the feature macros. (#2606, patch credit to @al45tair)\r\n- [arch] Add arm64_32 to the 32-bit platform check (#2625, patch credit to @hyerra)\r\n- Remove precondition on result of `IOCTL_VM_SOCKETS_GET_LOCAL_CID` (#2588)\r\n- Add missing availability guards in tests (#2596)\r\n- Add `NIOAsyncWriterSinkDelegate._didSuspend` hook for testing (#2597)\r\n- Suppress the performance checker warning by being sneaky (#2620)\r\n- Avoid `confstr` on Android (#2627)\r\n\r\n### Other Changes\r\n\r\n- Update APNSwift Repository Link in README.md (#2602, patch credit to @Ryu0118)\r\n- Add tests to validate the behaviour when requests/response content-length headers are wrong in HTTP1 (#2601)\r\n- Fix test availability annotations (#2607)\r\n- Fix warnings when building tests on Swift 5.9.2 Linux (#2610)\r\n- Set `SWIFT_VERSION` environment variable to resolve to the correct benchmarks thresholds path (#2613)\r\n- Add cxx interop build pipeline (#2614)\r\n- Fix the broken performance test binary (#2619)\r\n- Fix broken tests (#2621)\r\n- Fix `NIOAsyncChannel` allocation benchmarks (#2622)\r\n- Add additional guards in tests for mocking (#2624)\r\n- Avoid overflow in tests where Int is 32-bit (#2626)",
+    "createdAt" : "2024-01-19T19:43:19+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOBy6rG84IOVwM",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-22T23:03:24+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.63.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.63.0",
+    "version" : "2.63.0"
   }
 ]

@@ -948,6 +948,54 @@
     "version" : "1.5.1"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Performance: cache more child stores and avoid extra copies of child/presented state (https://github.com/pointfreeco/swift-composable-architecture/pull/2627).\r\n* Infrastructure: 1.5 migration guide updates (https://github.com/pointfreeco/swift-composable-architecture/pull/2615); link to observation beta in README (https://github.com/pointfreeco/swift-composable-architecture/pull/2616).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.5.1...1.5.2",
+    "createdAt" : "2023-12-08T05:53:07+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOD48kk84H7woS",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-08T07:56:43+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.5.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.5.2",
+    "version" : "1.5.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Don't force-unwrap state from invalidated optional stores when replaying parent state updates (https://github.com/pointfreeco/swift-composable-architecture/pull/2633). This force-unwrap could affect `IfLetStore` views.\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.5.2...1.5.3",
+    "createdAt" : "2023-12-09T02:15:35+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOD48kk84H8Iqw",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-09T02:12:54+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.5.3",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.5.3",
+    "version" : "1.5.3"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: A retain cycle fix in 1.5.4 could lead to regressions where stores can deinitialize before actions make it back into the system. This has been reverted and will have to be addressed in the future (https://github.com/pointfreeco/swift-composable-architecture/pull/2648).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.5.4...1.5.5",
+    "createdAt" : "2023-12-13T07:07:02+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOD48kk84H92OE",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-13T07:10:16+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.5.5",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.5.5",
+    "version" : "1.5.5"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Archives should no longer fail due to `BindableAction` symbols (thanks @rhysm94, https://github.com/pointfreeco/swift-composable-architecture/pull/2641).\r\n* Fixed: Stores no longer leak for the duration of an async effect. Instead, they will automatically cancel their in-flight effects when they deinitialize (https://github.com/pointfreeco/swift-composable-architecture/pull/2643).\r\n* Infrastructure: Improve docs for sharing logic in parent and child features (https://github.com/pointfreeco/swift-composable-architecture/pull/2638).\r\n* Infrastructure: Update test cases to use case key paths (thanks @yimajo, https://github.com/pointfreeco/swift-composable-architecture/pull/2637).\r\n* Infrastructure: Fix tutorial code diffs (https://github.com/pointfreeco/swift-composable-architecture/pull/2642).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.5.3...1.5.4",
+    "createdAt" : "2023-12-12T14:32:49+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOD48kk84H9YL7",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-12T17:44:02+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.5.4",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.5.4",
+    "version" : "1.5.4"
+  },
+  {
     "body" : "## What's Changed\r\n\r\n* Fixed: Back-ported a deprecation warning fix for `TestStore.init` (thanks @AndreaRomani, https://github.com/pointfreeco/swift-composable-architecture/pull/2378).\r\n\r\n## New Contributors\r\n\r\n* @AndreaRomani made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2378\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/0.58.1...0.58.2",
     "createdAt" : "2023-08-17T01:29:09+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
@@ -1030,5 +1078,29 @@
     "title" : "1.4.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.4.2",
     "version" : "1.4.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n> [!IMPORTANT]\r\n> While this release contains no additions or breaking changes to the Composable Architecture's APIs, the `Store.scope` operation has been significantly refactored for performance. While we have vetted these changes in our own test suites and applications, and have worked with members of the community to test these changes before this release, please thoroughly test the view layer of your applications after upgrading to this version, and before releasing your application to production.\r\n>\r\n> See #2664 for more details on the change.\r\n\r\n* Performance: Overhaul store scope communication (https://github.com/pointfreeco/swift-composable-architecture/pull/2664).\r\n* Infrastructure: Update sample code to use the `@DependencyClient` macro (https://github.com/pointfreeco/swift-composable-architecture/pull/2653).\r\n* Infrastructure: Update migration guide with more information about applying `@CasePathable` to enums (https://github.com/pointfreeco/swift-composable-architecture/pull/2672).\r\n* Infrastructure: Add basics of composition to the \"essentials\" tutorial (https://github.com/pointfreeco/swift-composable-architecture/pull/2659).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.5.5...1.5.6",
+    "createdAt" : "2023-12-21T01:48:44+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOD48kk84IBsro",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2023-12-21T01:58:34+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.5.6",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.5.6",
+    "version" : "1.5.6"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: `TestStore.receive(\\.action, payload)` for asserting against the payload of an action without requiring the action itself be `Equatable` (https://github.com/pointfreeco/swift-composable-architecture/pull/2669; https://github.com/pointfreeco/swift-composable-architecture/pull/2691)\r\n* Fixed: It was possible for `ViewStore`s to ping their `objectWillChange` publisher during a body computation, triggering a SwiftUI warning. This has been fixed (https://github.com/pointfreeco/swift-composable-architecture/pull/2688).\r\n* Fixed: `@Reducer` macro no longer automatically applies `@CasePathable` macro to enums with explicit conformance (thanks @scogeo, https://github.com/pointfreeco/swift-composable-architecture/pull/2685).\r\n* Fixed: The `prepareDependencies` closure is now only performed a single time when creating a store, not every single time an action is received (https://github.com/pointfreeco/swift-composable-architecture/pull/2695).\r\n* Fixed: A retain cycle in `PresentationModifier` has been fixed (https://github.com/pointfreeco/swift-composable-architecture/pull/2697).\r\n* Performance: Clean up parent/child store invalidation checks (https://github.com/pointfreeco/swift-composable-architecture/pull/2674).\r\n* Infrastructure: Fix package build in 5.7 for SPI (https://github.com/pointfreeco/swift-composable-architecture/pull/2675; thanks @finestructure, https://github.com/pointfreeco/swift-composable-architecture/pull/2679).\r\n* Infrastructure: Typo fix (thanks @tomokisun, https://github.com/pointfreeco/swift-composable-architecture/pull/2678).\r\n* Infrastructure: Add documentation around new store scoping characteristics (https://github.com/pointfreeco/swift-composable-architecture/pull/2676).\r\n* Infrastructure: Prevent unnecessary tutorial diffs (thanks @bricklife, https://github.com/pointfreeco/swift-composable-architecture/pull/2692).\r\n* Infrastructure: Tutorial fixes (https://github.com/pointfreeco/swift-composable-architecture/pull/2693).\r\n* Infrastructure : Clean up shared state case study (https://github.com/pointfreeco/swift-composable-architecture/pull/2696).\r\n\r\n## New Contributors\r\n* @bricklife made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2692\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.5.6...1.6.0",
+    "createdAt" : "2024-01-09T03:25:52+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOD48kk84IHqK_",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-01-09T03:43:34+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.6.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.6.0",
+    "version" : "1.6.0"
   }
 ]

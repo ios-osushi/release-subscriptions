@@ -768,6 +768,18 @@
     "version" : "v10.43.0"
   },
   {
+    "body" : "### Enhancements\r\n\r\n* Update release packaging for Xcode 15.1.\r\n* Expose waiting for upload/download on SyncSession, which will suspend the current method (or call an asynchronous block) until an upload or download completes for a given sync session, e.g.,:\r\n  ```swift\r\n  try realm.write {\r\n    realm.add(Person())\r\n  }\r\n  try await realm.syncSession?.wait(for: .upload)\r\n  ```\r\n  Note that this should not generally be used– sync is eventually consistent and should be used as such. However, there are special cases (notably in testing) where this may be used.\r\n* Sync subscription change notifications are now cancelled if the sync session becomes inactive as is done for upload and download progress handlers. If a fatal sync error occurs it will be reported to the completion handler, and if the user is logged out an \"operation cancelled\" error will be reported. Non-fatal errors are unchanged (i.e. the sync client internally retries without reporting errors). Previously fatal errors would result in the completion handler never being called. ([Core #7073](https://github.com/realm/realm-core/pull/7073))\r\n* Automatic client reset recovery now preserves the original division of changesets, rather than combining all unsynchronized changes into a single changeset. This will typically improve server-side performance when there are a large number of recovered changes ([Core #7161](https://github.com/realm/realm-core/pull/7161)).\r\n* Automatic client reset recovery now does a better job of recovering changes when changesets were downloaded from the server after the unuploaded local changes were committed. If the local Realm happened to be fully up to date with the server prior to the client reset, automatic recovery should now always produce exactly the same state as if no client reset was involved ([Core #7161](https://github.com/realm/realm-core/pull/7161)).\r\n\r\n### Fixed\r\n\r\n* Flexible sync subscriptions would sometimes not be sent to the server if they were created while the client was downloading the bootstrap state for a previous subscription change and the bootstrap did not complete successfully. ([Core #7077](https://github.com/realm/realm-core/issues/7077), since v10.21.1)\r\n* Flexible sync subscriptions would sometimes not be sent to the server if an UPLOAD message was sent immediately after the subscription was created. ([Core #7076](https://github.com/realm/realm-core/issues/7076), since v10.43.1)\r\n* Creating or removing flexible sync subscriptions while a client reset with automatic recovery enabled was being processed in the background would occasionally crash with a `KeyNotFound` exception. ([Core #7090](https://github.com/realm/realm-core/issues/7090), since v10.28.2)\r\n* Automatic client reset recovery would sometimes fail with the error \"Invalid schema change (UPLOAD): cannot process AddColumn instruction for non-existent table\" when recovering schema changes while made offline. This would only occur if the server is using the recently introduced option to allow breaking schema changes in developer mode. ([Core #7042](https://github.com/realm/realm-core/pull/7042)).\r\n* `MutableSet<String>.formIntersection()` would sometimes cause a use-after-free if asked to intersect a set with itself (since v10.0.0).\r\n* Errors encountered while reapplying local changes for client reset recovery on partition-based sync Realms would result in the client reset attempt not being recorded, possibly resulting in an endless loop of attempting and failing to automatically recover the client reset. Flexible sync and errors from the server after completing the local recovery were handled correctly ([Core #7149](https://github.com/realm/realm-core/pull/7149), since v10.0.0).\r\n* During a client reset with recovery when recovering a move or set operation on a `List<Object>` or `List<AnyRealmValue>` that operated on indices that were not also added in the recovery, links to an object which had been deleted by another client while offline would be recreated by the recovering client, but the objects of these links would only have the primary key populated and all other fields would be default values. Now, instead of creating these zombie objects, the lists being recovered skip such deleted links. ([Core #7112](https://github.com/realm/realm-core/issues/7112), since client reset recovery was implemented in v10.25.0).\r\n* During a client reset recovery a Set of links could be missing items, or an exception could be thrown that prevents recovery (e.g. \"Requested index 1 calling get() on set 'source.collection' when max is 0\") ([Core #7112](https://github.com/realm/realm-core/issues/7112), since client reset recovery was implemented in v10.25.0).\r\n* Calling `sort()` or `distinct()` on a `MutableSet<Object>` that had unresolved links in it (i.e. objects which had been deleted by a different sync client) would produce a Results with duplicate entries.\r\n* Automatic client reset recovery would duplicate insertions in a list when recovering a write which made an unrecoverable change to a list (i.e. modifying or deleting a pre-existing entry), followed by a subscription change, followed by a write which added an entry to the list ([Core #7155](https://github.com/realm/realm-core/pull/7155), since the introduction of automatic client reset recovery for flexible sync).\r\n* Fixed several causes of \"decryption failed\" exceptions that could happen when opening multiple encrypted Realm files in the same process while using Realms stored on an exFAT file system. ([Core #7156](https://github.com/realm/realm-core/issues/7156), since v1.0.0)\r\n* Fixed deadlock which occurred when accessing the current user from the `App` from within a callback from the `User` listener ([Core #7183](https://github.com/realm/realm-core/issues/7183), since v10.42.0)\r\n* Having a class name of length 57 would make client reset crash as a limit of 56 was wrongly enforced (57 is the correct limit) ([Core #7176](https://github.com/realm/realm-core/issues/7176), since v10.0.0)\r\n* Automatic client reset recovery on flexible sync Realms would apply recovered changes in multiple write transactions, releasing the write lock in between. This had several observable negative effects:\r\n  - Other threads reading from the Realm while a client reset was in progress could observe invalid mid-reset state.\r\n  - Other threads could potentially write in the middle of a client reset, resulting in history diverging from the server.\r\n  - The change notifications produced by client resets were not minimal and would report that some things changed which actually didn't.\r\n  - All pending subscriptions were marked as Superseded and then recreating, resulting in anything waiting for subscriptions to complete firing early.\r\n  ([Core #7161](https://github.com/realm/realm-core/pull/7161), since v10.29.0).\r\n* If the very first open of a flexible sync Realm triggered a client reset, the configuration had an initial subscriptions callback, both before and after reset callbacks, and the initial subscription callback began a read transaction without ending it (which is normally going to be the case), opening the frozen Realm for the after reset callback would trigger a BadVersion exception ([Core #7161](https://github.com/realm/realm-core/pull/7161), since v10.29.0).\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.1.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15.1.0.\r\n\r\n### Internal\r\n\r\n* Migrated our current CI Pipelines to Xcode Cloud.\r\n* Upgraded realm-core from 13.23.1 to 13.24.1\r\n",
+    "createdAt" : "2023-12-16T11:55:09+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAD24W84H_zgp",
+    "owner" : "realm",
+    "publishedAt" : "2023-12-16T12:01:02+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.45.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.45.0",
+    "version" : "v10.45.0"
+  },
+  {
     "body" : "### Enhancements\n\n* Empty commits no longer trigger an extra invocation of the sync progress\n  handler reporting the exact same information as the previous invocation\n  ([Core #7031](https://github.com/realm/realm-core/pull/7031)).\n\n### Fixed\n\n* Updating subscriptions did not trigger Realm autorefreshes, sometimes\n  resulting in Realm.asyncRefresh() hanging until another write was performed by\n  something else ([Core #7031](https://github.com/realm/realm-core/pull/7031)).\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.0.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.1-15.0.0.\n\n### Internal\n\n* Upgraded realm-core from 13.22.0 to 13.23.1",
     "createdAt" : "2023-10-16T11:47:28+09:00",
     "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
@@ -790,5 +802,53 @@
     "title" : "v10.44.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.44.0",
     "version" : "v10.44.0"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n* Exceptions thrown while applying the initial download for a sync subscription change terminated the program rather than being reported to the sync error handler ([Core #7196](https://github.com/realm/realm-core/issues/7196) and [Core #7197](https://github.com/realm/realm-core/pull/7197)).\r\n* Calling `SyncSession.reconnect()` while a reconnect after a non-fatal error was pending would result in an assertion failure mentioning \"!m_try_again_activation_timer\" if another non-fatal error was received ([Core #6961](https://github.com/realm/realm-core/issues/6961)).\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.1.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15.1.0.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 13.24.1 to 13.25.0",
+    "createdAt" : "2023-12-19T12:51:06+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAD24W84IAvcZ",
+    "owner" : "realm",
+    "publishedAt" : "2023-12-19T12:57:21+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.45.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.45.1",
+    "version" : "v10.45.1"
+  },
+  {
+    "body" : "### Fixed\n\n* Registering new notifications inside write transactions before actually\n  making any changes is now actually allowed. This was supposed to be allowed\n  in 10.39.1, but it did not actually work due to some redundant validation.\n* `SyncSession.ProgressDirection` and `SyncSession.ProgressMode` were missing\n  `Sendable` annotations ([PR #8435](https://github.com/realm/realm-swift/pull/8435)).\n* `Realm.Error.subscriptionFailed` was reported with the incorrect error\n  domain, making it impossible to catch (since v10.42.2, [PR #8435](https://github.com/realm/realm-swift/pull/8435)).\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.1.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.1-15.1.0.",
+    "createdAt" : "2023-12-21T00:45:04+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAD24W84ICFog",
+    "owner" : "realm",
+    "publishedAt" : "2023-12-21T21:17:56+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.46.0-beta1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.46.0-beta1",
+    "version" : "v10.46.0-beta1"
+  },
+  {
+    "body" : "### Enhancements\n\n* Greatly improve the performance of creating objects with a very large number\n  of pre-existing incoming links. This is primarily relevant to initial sync\n  bootstrapping when linking objects happen to be synchronized before the\n  target objects they link to ([Core #7217](https://github.com/realm/realm-core/issues/7217), since v10.0.0).\n\n### Fixed\n\n* Registering new notifications inside write transactions before actually\n  making any changes is now actually allowed. This was supposed to be allowed\n  in 10.39.1, but it did not actually work due to some redundant validation.\n* `SyncSession.ProgressDirection` and `SyncSession.ProgressMode` were missing\n  `Sendable` annotations ([PR #8435](https://github.com/realm/realm-swift/pull/8435)).\n* `Realm.Error.subscriptionFailed` was reported with the incorrect error\n  domain, making it impossible to catch (since v10.42.2, [PR #8435](https://github.com/realm/realm-swift/pull/8435)).\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.1.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.1-15.1.0.\n\n### Internal\n\n* Upgraded realm-core from 13.25.0 to 13.25.1",
+    "createdAt" : "2023-12-23T06:51:47+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAD24W84ICzdX",
+    "owner" : "realm",
+    "publishedAt" : "2023-12-23T06:57:56+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.45.2",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.45.2",
+    "version" : "v10.45.2"
+  },
+  {
+    "body" : "### Enhancements\n\n* Update release packaging for Xcode 15.2. Prebuilt binaries for 14.1 and 15.0\n  have now been dropped from the release package.\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.2.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.2-15.2.0.",
+    "createdAt" : "2024-01-09T13:35:25+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAD24W84IH1cA",
+    "owner" : "realm",
+    "publishedAt" : "2024-01-09T13:41:34+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.45.3",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.45.3",
+    "version" : "v10.45.3"
   }
 ]

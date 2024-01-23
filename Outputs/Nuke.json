@@ -910,5 +910,17 @@
     "title" : "Nuke 12.2 (Beta 2)",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.2.0-beta.2",
     "version" : "12.2.0-beta.2"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add support for visionOS by @bobek-balinek in https://github.com/kean/Nuke/pull/743\r\n\r\n## New Contributors\r\n* @bobek-balinek made their first contribution in https://github.com/kean/Nuke/pull/743\r\n\r\n**Full Changelog**: https://github.com/kean/Nuke/compare/12.2.0...12.3.0",
+    "createdAt" : "2024-01-07T05:18:14+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAeh5z84IHFR4",
+    "owner" : "kean",
+    "publishedAt" : "2024-01-07T05:34:02+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.3",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.3.0",
+    "version" : "12.3.0"
   }
 ]

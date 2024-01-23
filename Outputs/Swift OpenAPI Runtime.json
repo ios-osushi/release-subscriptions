@@ -120,6 +120,18 @@
     "version" : "1.0.0-alpha.1"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed since 1.0.0-alpha.1\r\n### SemVer Patch\r\n* Remove no-longer-needed `@preconcurrency`s by @MahdiBM in https://github.com/apple/swift-openapi-runtime/pull/83\r\n* [Docs] Make sure all symbols are curated by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/88\r\n### Other Changes\r\n* Add visionOS platform support by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/85\r\n* Add Docker Compose file for Swift 5.9.0 by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/86\r\n* [Docs] Prep 1.0.0 by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/89\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.0.0-alpha.1...1.0.0\r\n\r\n## What's Changed since 0.3.6\r\n### SemVer Major\r\n* Change type of HTTPBody.Length.known from Int to Int64 by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/79\r\n* Move to Swift 5.9 as the minimum version by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/80\r\n* Remove deprecated code by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/81\r\n### SemVer Minor\r\n* Base64EncodedData initializer taking an array slice shouldn't have a label by @PARAIPAN9 in https://github.com/apple/swift-openapi-runtime/pull/71\r\n* [Multipart] Add public types by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/77\r\n* [Multipart] Add converter SPI methods by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/78\r\n### SemVer Patch\r\n* [Multipart] Introduce a bytes -> frames parser by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/72\r\n* [Multipart] Add the frame -> bytes serializer by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/73\r\n* [Multipart] Add a frames -> raw parts parsing sequence by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/74\r\n* [Multipart] Add a raw parts to frames serializer sequence. by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/75\r\n* [Multipart] Validation sequence by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/76\r\n* Remove no-longer-needed `@preconcurrency`s by @MahdiBM in https://github.com/apple/swift-openapi-runtime/pull/83\r\n* [Docs] Make sure all symbols are curated by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/88\r\n### Other Changes\r\n* Apply the same .swift-format as the generator repo by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/68\r\n* Add README badges by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/70\r\n* Bump version docs to 1.0.0-alpha.1 by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/82\r\n* Add visionOS platform support by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/85\r\n* Add Docker Compose file for Swift 5.9.0 by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/86\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/0.3.6...1.0.0",
+    "createdAt" : "2023-12-11T19:52:19+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWxLs4H81gA",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-11T20:06:20+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.0.0 🚀",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Fixes #114 - Replace @preconcurrency import Foundation with scoped import by @PARAIPAN9 in https://github.com/apple/swift-openapi-runtime/pull/36\r\n* [Runtime] Stop generating an undocumented case for enums/oneOfs by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/40\r\n\r\n## New Contributors\r\n* @PARAIPAN9 made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/36\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/0.1.8...0.1.9",
     "createdAt" : "2023-08-17T20:01:40+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
@@ -252,6 +264,18 @@
     "version" : "0.3.1"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* [Runtime] Add headerFields and body to UndocumentedPayload by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/90\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.0.0...1.1.0",
+    "createdAt" : "2023-12-15T21:58:50+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWxLs4H_gpM",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-15T22:01:14+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.1.0",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Support base64-encoded data by @rnro in https://github.com/apple/swift-openapi-runtime/pull/55\r\n### Other Changes\r\n* Add docker-compose file for 5.10 CI by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/57\r\n\r\n## New Contributors\r\n* @rnro made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/55\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/0.3.1...0.3.2",
     "createdAt" : "2023-10-10T16:55:13+09:00",
     "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
@@ -310,5 +334,53 @@
     "title" : "Swift OpenAPI Runtime 0.3.6",
     "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/0.3.6",
     "version" : "0.3.6"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* [Runtime] SOAR-0010: Event streams sequences by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/91\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.1.0...1.2.0",
+    "createdAt" : "2024-01-08T23:06:57+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWxLs4IHgeX",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-08T23:09:34+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.2.0",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.2.0",
+    "version" : "1.2.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Make the ISO8601 date transcoder configurable by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/94\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.2.0...1.3.0",
+    "createdAt" : "2024-01-17T00:33:54+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWxLs4ILjEH",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-17T00:37:45+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.3.0",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.3.0",
+    "version" : "1.3.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Set content-length header if body has known length by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/96\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.3.1...1.3.2",
+    "createdAt" : "2024-01-19T02:35:32+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWxLs4IM8DE",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-19T03:46:37+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.3.2",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.3.2",
+    "version" : "1.3.2"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Make setting HTTPBody.iteratorCreated thread-safe by @LarsPetersHH in https://github.com/apple/swift-openapi-runtime/pull/95\r\n\r\n## New Contributors\r\n* @LarsPetersHH made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/95\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.3.0...1.3.1",
+    "createdAt" : "2024-01-18T21:47:50+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWxLs4IMuMx",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-19T00:57:19+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.3.1",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.3.1",
+    "version" : "1.3.1"
   }
 ]

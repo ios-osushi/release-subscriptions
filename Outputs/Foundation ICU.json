@@ -46,5 +46,17 @@
     "title" : "FoundationICU 0.0.3",
     "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.3",
     "version" : "0.0.3"
+  },
+  {
+    "body" : "This release contains a (temporary) fix for build failures on macOS.\r\n\r\n### Pull Requests\r\n- https://github.com/apple/swift-foundation-icu/pull/18 Renamed Point to work around the build failure\r\n\r\n### Corresponding ICU Version: `ICU 72.1`",
+    "createdAt" : "2024-01-18T03:31:18+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOIzpzt84IMSX3",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-18T03:35:49+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "FoundationICU 0.0.5",
+    "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.5",
+    "version" : "0.0.5"
   }
 ]

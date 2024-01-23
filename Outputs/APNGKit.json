@@ -384,6 +384,30 @@
     "version" : "2.2.2"
   },
   {
+    "body" : "### Fix\n\n- A timing issue that on iOS 17 a wrong timestamp might be used when the image starts to play when the app is just going to start up. It caused the image to be played at the wrong speed. [#140](https://github.com/onevcat/APNGKit/pull/140) @alexander-steel @devflow @onevcat",
+    "createdAt" : "2023-12-09T21:31:17+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAn3VYc4H8aYO",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-12-09T21:31:24+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.4",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.4",
+    "version" : "2.2.4"
+  },
+  {
+    "body" : "### Fix\n\n- A wrong condition check that caused the fix in 2.2.4 not to work as expected. [#141](https://github.com/onevcat/APNGKit/pull/141)",
+    "createdAt" : "2023-12-11T11:39:39+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAn3VYc4H8qgW",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-12-11T11:39:47+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.5",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.5",
+    "version" : "2.2.5"
+  },
+  {
     "body" : "### Fix\n\n- Use an alpha bitmap context to render images with true color (PNG ColorType 2). This allows the `tRNS` chunk to be handled correctly. [#138](https://github.com/onevcat/APNGKit/pull/138)",
     "createdAt" : "2023-10-09T13:46:49+09:00",
     "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",

@@ -552,6 +552,18 @@
     "version" : "7.9.0"
   },
   {
+    "body" : "#### Fix\r\n* Now the CarPlay support (`CPListItem`) compiles again for iOS SDK 14.0 to 14.4. It was because an undocumented API change in the `CPListItem` property. [#2172](https://github.com/onevcat/Kingfisher/pull/2172) @brendonjkding\r\n* Fix an infinite `View` refreshing loop when `KFImage` is set with `startLoadingBeforeViewAppear` to `true` and the loading keeping fails. [#2169](https://github.com/onevcat/Kingfisher/pull/2169) @onevcat @sisoje @mirkokg\r\n\r\n",
+    "createdAt" : "2023-12-09T21:49:35+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAf70wM4H8afE",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-12-09T21:51:33+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.10.1 - Compilation & Infinity",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.10.1",
+    "version" : "7.10.1"
+  },
+  {
     "body" : "#### Fix\n* Update to the terminology for the latest Xcode 15 beta. It prevents building failing and warnings from previous beta versions. [#2123](https://github.com/onevcat/Kingfisher/pull/2123) @simonbs\n* A misused reason in the privacy manifest file. Now Kingfisher should declare the reason of using file creation and access time correctly. (However, the manifest file mechanism of SDK seems not working yet in Xcode 15 beta 7) [#2135](https://github.com/onevcat/Kingfisher/pull/2135) @CloudosaurusRex @onevcat\n* Some warnings which happens when building xcframework. This prevents them from becoming errors in the coming Swift 6. [#2136](https://github.com/onevcat/Kingfisher/pull/2136)\n\n",
     "createdAt" : "2023-08-26T13:49:50+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
@@ -574,5 +586,17 @@
     "title" : "7.10.0 - Privacy Manifest",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.10.0",
     "version" : "7.10.0"
+  },
+  {
+    "body" : "#### Fix\n* An issue that loading the same GIF image in differnet image views may crash the app. [#2194](https://github.com/onevcat/Kingfisher/pull/2194)\n* A build script issue that exported the xcframeworks does not have the correct cert signing. [#2179](https://github.com/onevcat/Kingfisher/pull/2179)\n* In iOS 13 and earlier, the new Swift runtime fails to convert `Any?` to a protocol value. [#2182](https://github.com/onevcat/Kingfisher/pull/2182)\n\n",
+    "createdAt" : "2024-01-11T23:03:42+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAf70wM4IJWwO",
+    "owner" : "onevcat",
+    "publishedAt" : "2024-01-11T23:05:44+09:00",
+    "repository" : "Kingfisher",
+    "title" : "7.10.2 - GIF crash fix",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/7.10.2",
+    "version" : "7.10.2"
   }
 ]

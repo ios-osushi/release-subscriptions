@@ -636,6 +636,18 @@
     "version" : "5.18.6"
   },
   {
+    "body" : "See [all tickets marked for the 5.18.7 release](https://github.com/SDWebImage/SDWebImage/milestone/127)\r\n\r\n### Project\r\n- Added xcprivacy manifest to CocoaPods #3649\r\n- - Now all the 3 integration supports the privacy manifest. Check README about usage.",
+    "createdAt" : "2023-12-11T16:19:50+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAATIS84H8umU",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2023-12-11T16:20:50+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.7 - CocoaPods Privacy Manifest",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.7",
+    "version" : "5.18.7"
+  },
+  {
     "body" : "See [all tickets marked for the 5.18.0 release](https://github.com/SDWebImage/SDWebImage/milestone/119)\r\n\r\n### VisionOS\r\n- Support to build for visionOS (no package manager support) #3556\r\n- - Note this does not include CocoaPods/SwiftPM support. You need Xcode 15+ Beta to open SDWebImage project and build by yourself\r\n\r\n### Features\r\n#### UI Category\r\n- Added SDWebImageAvoidAutoCancelImage to avoid cancel loading image requests for the same operation key #3592 @mTz0206 \r\n- Add better support for stateful view (UIButton) for image URL/progres s state management #3576\r\n\r\n#### Downloader\r\n- Fix redundant requests for the same url during decoding time #3572 @Mervin1024\r\n\r\n#### Decoder\r\n- Expose the data and format when SDAnimatedImageRep created with APNG/GIF/WebP/HEICS #3573\r\n- Fix the CGImageCreateScaled to support 16/32 bit depth CGImage (RGB161616) and always preserve pixel format info #3575\r\n\r\n### Fixes\r\n- Add extra check for empty data during URLSession data callback #3587\r\n",
     "createdAt" : "2023-09-02T21:31:38+09:00",
     "fetchedFromAPIAt" : "2023-09-06T01:58:35+09:00",
@@ -706,5 +718,41 @@
     "title" : "5.18.5 - iOS 17 Workaround",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.5",
     "version" : "5.18.5"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.8 release](https://github.com/SDWebImage/SDWebImage/milestone/128)\r\n\r\n### Fixes\r\n- Fix the issue when using the sd_cancelCurrentImageLoad on non-stateful view (like UIImageView.image) #3653\r\n\r\n",
+    "createdAt" : "2023-12-27T22:16:47+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAATIS84IHUwk",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-01-08T16:42:35+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.8 - 5.8 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.8",
+    "version" : "5.18.8"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.9 release](https://github.com/SDWebImage/SDWebImage/milestone/129)\r\n\r\n### Fixes\r\n\r\n- Fix that PNG indexed color fix does not enable on Release Build configuration #3659 #3658\r\n- - The fix was introduced in 5.18.5, but accidentally only enabled in Debug configuration :)\r\n- Fix the behavior that query thumbnail from full size data does not sync back the thumbnail image into memory cache #3657 #3656\r\n- - The bug was introduced in 5.14.0, please upgrade if you use thumbnail decoding.\r\n- Temp remove the assert when thumbnail cache key used with thumbnail context , this may be changed later #3661\r\n\r\n### Project\r\n- Using os_log for our all log to replace the NSLog #3660",
+    "createdAt" : "2024-01-10T16:29:11+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAATIS84IId1t",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-01-10T16:30:23+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.9 - 5.8 Bugfix",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.9",
+    "version" : "5.18.9"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.10 release](https://github.com/SDWebImage/SDWebImage/milestone/130)\r\n\r\n### Warning\r\n\r\n- Fix the warning during clang-analyze #3664 #3663",
+    "createdAt" : "2024-01-11T15:46:57+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAATIS84IJGtT",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-01-11T15:48:18+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.10 - 5.8 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.10",
+    "version" : "5.18.10"
   }
 ]

@@ -130,5 +130,17 @@
     "title" : "4.3.3",
     "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.3.3",
     "version" : "4.3.3"
+  },
+  {
+    "body" : "## New features\r\n\r\n* Add privacy manifest (https://github.com/airbnb/lottie-ios/pull/2252)\r\n* Codesign Lottie.xcframework (https://github.com/airbnb/lottie-ios/pull/2259)\r\n* Add time remapping support to Core Animation rendering engine (https://github.com/airbnb/lottie-ios/pull/2286)\r\n* Add official visionOS support to lottie-ios repo (https://github.com/airbnb/lottie-ios/pull/2287)\r\n* lottie-spm now supports visionOS (https://github.com/airbnb/lottie-spm/pull/12)\r\n* Adopt policy on minimum supported Swift / Xcode version, update minimum versions to Swift 5.7 / Xcode 14.1 (https://github.com/airbnb/lottie-ios/pull/2260)\r\n\r\n## Bug fixes \r\n\r\n* Update LottieView to display placeholder using `overlay` instead of `ZStack` (https://github.com/airbnb/lottie-ios/pull/2289)\r\n* Fix issue where Core Animation rendering engine couldn't display last frame of animation when paused (https://github.com/airbnb/lottie-ios/pull/2254)\r\n* Do not create `DotLottieImageProvider` instance if there's no image files (https://github.com/airbnb/lottie-ios/pull/2271)\r\n* Mark DotLottieCache as Sendable (https://github.com/airbnb/lottie-ios/pull/2245)\r\n* Fix issue where AnimationKeypath in SolidLayer could be incorrect (https://github.com/airbnb/lottie-ios/pull/2278)\r\n* Fix issue where Repeater could be displayed incorrectly (https://github.com/airbnb/lottie-ios/pull/2276)\r\n* Include dSYMs in xcframework build (https://github.com/airbnb/lottie-ios/pull/2284)\r\n* Fix parsing issue, add support for DotLottieConfiguration in SwiftUI LottieView (https://github.com/airbnb/lottie-ios/pull/2277)\r\n* Fix issue where DotLottieImageProvider didn't handle base64 images (https://github.com/airbnb/lottie-ios/pull/2283)\r\n* Fix issue where manually interpolated keyframes could animate incorrectly (https://github.com/airbnb/lottie-ios/pull/2285)\r\n\r\n**Full Changelog**: https://github.com/airbnb/lottie-ios/compare/4.3.4...4.4.0",
+    "createdAt" : "2024-01-23T09:55:49+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOIwpDsc4IOszL",
+    "owner" : "airbnb",
+    "publishedAt" : "2024-01-23T09:57:43+09:00",
+    "repository" : "lottie-spm",
+    "title" : "4.4.0",
+    "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.4.0",
+    "version" : "4.4.0"
   }
 ]

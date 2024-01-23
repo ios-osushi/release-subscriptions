@@ -382,5 +382,17 @@
     "title" : "ArgumentParser 1.2.3",
     "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.3",
     "version" : "1.2.3"
+  },
+  {
+    "body" : "### Changes\r\n\r\n- The `@Option`, `@Argument`, `@Flag`, and `@OptionGroup` property wrappers now conditionally conform to `Sendable` when the wrapper's `Value` type conforms. With this change, you can mark `ParsableCommand` types as `Sendable` when you want to be able to pass a parsed command across concurrent contexts. (#582)\r\n\r\n   *Migration:* Users that aren't ready to resolve sendability warnings can add the `@preconcurrency` attribute to `import ArgumentParser` statements.\r\n\r\n- To support migration to `Sendable` annotation, the minimum Swift version for `swift-argument-parser` has been increased to Swift 5.7. Users of older Swift versions will be able to continue using version 1.2.3 of the library. (#582)\r\n\r\n### Additions\r\n\r\n- Help screens now include possible options for `ExpressibleByArgument` types with non empty `allValueStrings`. Types also conforming to `CaseIterable` do not need to manually implement `allValueStrings`, instead it is derived from `allCases`. (#594)\r\n\r\n### Fixes\r\n\r\n- The titles for nested option groups are preserved when embedded into commands without specifying a new title. (#592)\r\n- When wrapping help and error messages, the library now uses the `COLUMNS` environment variable when set, instead of immediately falling back to 80 columns. (#596)\r\n- Bash completion scripts now respect the extensions given in a `.file(...)` completion kind. (#590)\r\n- Bash completion scripts now properly escape command names that include hyphens. (#573)\r\n- Documentation improvements. (#572, #565, #602)\r\n\r\nThe 1.2.3 release includes contributions from @Alkenso, @compnerd, @gwynne,\r\n@kennyyork, @natecook1000, @rauhul, @robertmryan, and @vlm. Thank you!\r\n",
+    "createdAt" : "2023-12-07T02:30:44+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDODmuHYc4H7OWh",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-07T14:27:53+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.3.0",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.3.0",
+    "version" : "1.3.0"
   }
 ]

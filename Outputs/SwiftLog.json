@@ -166,5 +166,17 @@
     "title" : "1.5.3",
     "url" : "https://github.com/apple/swift-log/releases/tag/1.5.3",
     "version" : "1.5.3"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n### Cleanups & minor compatibility improvements\r\n* Don't assume localtime() result is non-nil by @gwynne in https://github.com/apple/swift-log/pull/280\r\n* Changes to build with Musl. by @al45tair in https://github.com/apple/swift-log/pull/283\r\n\r\n### Non code changes\r\n\r\n* Add CocoaLumberjack to list of logging backends by @ffried in https://github.com/apple/swift-log/pull/276\r\n* update CI script by @tomerd in https://github.com/apple/swift-log/pull/281\r\n* Update README.md by @0xTim in https://github.com/apple/swift-log/pull/279\r\n\r\n## New Contributors\r\n* @ffried made their first contribution in https://github.com/apple/swift-log/pull/276\r\n* @0xTim made their first contribution in https://github.com/apple/swift-log/pull/279\r\n* @al45tair made their first contribution in https://github.com/apple/swift-log/pull/283\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.5.3...1.5.4",
+    "createdAt" : "2024-01-22T19:49:41+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOCiSz584IOQ2g",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-22T19:50:52+09:00",
+    "repository" : "swift-log",
+    "title" : "1.5.4",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.5.4",
+    "version" : "1.5.4"
   }
 ]

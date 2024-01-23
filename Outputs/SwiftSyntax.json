@@ -142,5 +142,29 @@
     "title" : "509.0.2",
     "url" : "https://github.com/apple/swift-syntax/releases/tag/509.0.2",
     "version" : "509.0.2"
+  },
+  {
+    "body" : "- Supports [SE-0407 Member Macro Conformances](https://github.com/apple/swift-evolution/blob/main/proposals/0407-member-macro-conformances.md) by adding a new defaulted version of the `expansion` function in `MemberMacro` that receives the `conformingTo` parameter\r\n- Fixes a formatting bug not adding a space between a string/regex literal and a period (https://github.com/apple/swift-syntax/issues/2344)",
+    "createdAt" : "2024-01-09T09:18:49+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOCIc4qs4IHzPn",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-09T10:55:46+09:00",
+    "repository" : "swift-syntax",
+    "title" : "509.1.0",
+    "url" : "https://github.com/apple/swift-syntax/releases/tag/509.1.0",
+    "version" : "509.1.0"
+  },
+  {
+    "body" : "Fixes an issue that caused the `swift-parser-cli` target to not build on visionOS.",
+    "createdAt" : "2024-01-23T10:16:23+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOCIc4qs4IOtbM",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-23T10:41:45+09:00",
+    "repository" : "swift-syntax",
+    "title" : "509.1.1",
+    "url" : "https://github.com/apple/swift-syntax/releases/tag/509.1.1",
+    "version" : "509.1.1"
   }
 ]

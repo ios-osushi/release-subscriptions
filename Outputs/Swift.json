@@ -457,6 +457,18 @@
   },
   {
     "body" : "",
+    "createdAt" : "2023-12-10T18:52:09+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOAqwwJc4H9L6Z",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-12T06:19:40+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.9.2 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.9.2-RELEASE",
+    "version" : "swift-5.9.2-RELEASE"
+  },
+  {
+    "body" : "",
     "createdAt" : "2023-09-09T15:07:55+09:00",
     "fetchedFromAPIAt" : "2023-10-18T13:22:51+09:00",
     "id" : "RE_kwDOAqwwJc4HPxOs",

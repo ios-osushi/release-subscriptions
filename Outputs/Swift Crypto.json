@@ -406,5 +406,17 @@
     "title" : "Swift Crypto 3.1.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.1.0",
     "version" : "3.1.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add `pkcs8PEMRepresenation` for RSA private keys (#203, patch credit to @bjhomer)\r\n- Add support for CBC without padding (#210, patch credit to @lovetodream)\r\n- Add support for RSA OAEP with SHA256 (#206)\r\n- Add Sendable annotations to Crypto Extras (#211, #214)\r\n\r\n### SemVer Patch\r\n\r\n- Add extern C markers (#204, patch credit to @brianmichel)\r\n- Update `BoringSSLRSAPublicKey` to use `EVP_PKEY` API (#205)\r\n- Update BoringSSL to 7a813621dac6878ab53b6ed7392939a8982226e8 (#207, #215)\r\n\r\n### Other Changes\r\n\r\n- Add cxx interop build pipeline (#212)\r\n- Update availability annotations in tests (#213)",
+    "createdAt" : "2024-01-09T01:41:09+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOC9Swts4IHnqT",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-09T17:11:00+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.2.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.2.0",
+    "version" : "3.2.0"
   }
 ]

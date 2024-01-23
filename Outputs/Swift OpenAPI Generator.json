@@ -120,6 +120,18 @@
     "version" : "0.1.5"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n### 🎉 Check out the [full 1.0.0 announcement](https://forums.swift.org/t/swift-openapi-generator-1-0-0-released/68964) on the Swift Forums.\r\n\r\n👏 Special thanks to all the [contributors](https://github.com/apple/swift-openapi-generator/graphs/contributors) of Swift OpenAPI Generator!\r\n\r\n## What's Changed since 1.0.0-alpha.1\r\n\r\n### Other Changes\r\n\r\n* Many changes to documentation, tutorials, and examples.\r\n* Explicit dependency on HTTPTypes by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/413\r\n* Log the access modifier for clarity by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/421\r\n* Update minimum version of OpenAPIKit to 3.1.2 by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/439\r\n* Default the access modifier to internal by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/441\r\n* Update dependencies and use consistent package URL style by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/457\r\n* Update NOTICE.txt with projects used in examples by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/463\r\n* Proposal documentation cleanup and consistency by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/469\r\n* Add Github issue template forms by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/477\r\n* [Examples] Delete the original deprecated GreetingService examples by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/483\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.0.0-alpha.1...1.0.0\r\n",
+    "createdAt" : "2023-12-13T19:42:24+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWvis4H-HDc",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-13T19:53:15+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.0.0 🚀",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.0.0",
+    "version" : "1.0.0"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\nAnnouncement: https://forums.swift.org/t/swift-openapi-generator-1-0-0-alpha-1-release-candidate-released-multipart-base64-filtering-recursive-types-and-more/68703\r\n\r\n## What's Changed\r\n### SemVer Major ⚠️ API-breaking changes\r\n* [Generator] Multipart support by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/366\r\n* [Bug] Fix multipart schema inference for allOf/anyOf/oneOf of primitive types and non-binary arrays by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/391\r\n* Move to Swift 5.9 as the minimum version by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/394\r\n* Use the package access modifier for generated code by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/393\r\n### SemVer Minor\r\n* Add visionOS to Package.swift to emit useful compilation errors by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/398\r\n* Bump to 1.0.0-alpha.1 by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/400\r\n### SemVer Patch\r\n* Remove the base64 feature flag by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/401\r\n### Other Changes\r\n* SOAR-0009 - Typesafe multipart with streaming by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/369\r\n* Undeprecate tests that used to test deprecated code by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/395\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/0.3.5...1.0.0-alpha.1",
     "createdAt" : "2023-11-29T20:17:26+09:00",
     "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
@@ -240,6 +252,18 @@
     "version" : "0.3.0"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* [Bug] Fix mixed path components by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/491\r\n* [Generator] Add headerFields and body to UndocumentedPayload by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/488\r\n* Generate arrays with an optional element type for arrays with nullable items by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/492\r\n### Other Changes\r\n* [README] Add a version badge by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/486\r\n* Update compat suite OpenAPI documents to their latest versions by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/418\r\n* [Examples] Stop linking transitive dependencies in tests by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/487\r\n* examples: Flesh out Makefile-based example by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/489\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.0.0...1.1.0",
+    "createdAt" : "2023-12-16T01:56:47+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWvis4H_pOC",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-16T02:16:34+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.1.0",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Support base64-encoded data by @rnro in https://github.com/apple/swift-openapi-generator/pull/326\r\n* Add support for filtering OpenAPI document by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/319\r\n* Relax dependency on SwiftSyntax and SwiftFormat to 508..<510 by @mbrandonw in https://github.com/apple/swift-openapi-generator/pull/331\r\n* Support recursive types by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/330\r\n### Other Changes\r\n* Fixes #165 - Enable documentation comment validation in swift-format  by @PARAIPAN9 in https://github.com/apple/swift-openapi-generator/pull/188\r\n* Improve structured Swift representation for recursive type support by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/334\r\n* Add proposal SOAR-0008: OpenAPI document filtering by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/303\r\n\r\n## New Contributors\r\n* @rnro made their first contribution in https://github.com/apple/swift-openapi-generator/pull/326\r\n* @mbrandonw made their first contribution in https://github.com/apple/swift-openapi-generator/pull/331\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/0.3.0...0.3.1",
     "createdAt" : "2023-10-19T23:01:36+09:00",
     "fetchedFromAPIAt" : "2023-12-06T22:38:35+09:00",
@@ -298,5 +322,17 @@
     "title" : "Swift OpenAPI Generator 0.3.5",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/0.3.5",
     "version" : "0.3.5"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add examples for event streams by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/494\r\n* [SOAR-0010] Support for JSON Lines, JSON Sequence, and Server-sent Events by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/495\r\n### SemVer Patch\r\n* Validate content type strings in validateDoc by @PARAIPAN9 in https://github.com/apple/swift-openapi-generator/pull/471\r\n* Validate references in validateDoc by @PARAIPAN9 in https://github.com/apple/swift-openapi-generator/pull/500\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.1.0...1.2.0",
+    "createdAt" : "2024-01-09T06:51:02+09:00",
+    "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
+    "id" : "RE_kwDOJZWvis4IHvXj",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-09T18:34:35+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.2.0",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.2.0",
+    "version" : "1.2.0"
   }
 ]
