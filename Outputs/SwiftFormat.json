@@ -946,5 +946,41 @@
     "title" : "0.53.0",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.0",
     "version" : "0.53.0"
+  },
+  {
+    "body" : "- Fixed bug where `fileHeader` could duplicate headers containing a colon\r\n- The `redundantInternal` rule no longer strips `internal` from `import` statements\r\n- Fixed false positive with `unusedArguments` rule",
+    "createdAt" : "2024-01-27T03:35:30+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOA_OyXc4IRJN-",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-01-27T03:51:50+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.1",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.1",
+    "version" : "0.53.1"
+  },
+  {
+    "body" : "- Fixed bug where `hoistAwait` rule could move `await` before `try` keyword\r\n- Fixed bug where `redundantSelf` rule was confused by `@MainActor` annotation\r\n- Fixed edge case where `unusedArguments` removed required argument inside `guard`",
+    "createdAt" : "2024-02-17T21:38:55+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOA_OyXc4IfeDA",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-02-18T02:44:31+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.2",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.2",
+    "version" : "0.53.2"
+  },
+  {
+    "body" : "- The `preferForLoop` rule now correctly singularizes loop conditions that end with \"cases\"\r\n- Fixed bug where `preferForLoop` mangled throwing or async `forEach` expressions\r\n- Fixed extension body not being sorted if `organizeDeclarations` was enabled but excluded declaration type\r\n- Fixed conditionalAssignment bugs with `@unknown default` cases\r\n- Fixed some unsafe applications of the `enumNamespaces` rule\r\n- Add preliminary support for typed `throws`\r\n",
+    "createdAt" : "2024-03-02T20:01:19+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOA_OyXc4InNMh",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-03-02T20:27:57+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.3",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.3",
+    "version" : "0.53.3"
   }
 ]

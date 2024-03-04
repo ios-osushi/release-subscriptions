@@ -418,5 +418,17 @@
     "title" : "6.6.2",
     "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/6.6.2",
     "version" : "6.6.2"
+  },
+  {
+    "body" : "### Breaking Changes\n\n_None_\n\n### New Features\n\n* CLI: Added support for `--quiet` and `--verbose` flags to `swiftgen run`.  \n  [John Szumski](https://github.com/jszumski)\n  [#1007](https://github.com/SwiftGen/SwiftGen/issues/1007)\n  [#1008](https://github.com/SwiftGen/SwiftGen/pull/1008)\n\n### Bug Fixes\n\n* Build: Fixed the `rake cli:install` command and with it the Homebrew formula.  \n  [Liquidsoul](https://github.com/liquidsoul)\n  [#1030](https://github.com/SwiftGen/SwiftGen/issues/1030)\n  [#1104](https://github.com/SwiftGen/SwiftGen/issues/1104)\n  [#1105](https://github.com/SwiftGen/SwiftGen/pull/1105)\n\n### Internal Changes\n\n_None_",
+    "createdAt" : "2024-03-03T05:48:35+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAlWj5s4InRKf",
+    "owner" : "SwiftGen",
+    "publishedAt" : "2024-03-03T05:59:46+09:00",
+    "repository" : "SwiftGen",
+    "title" : "6.6.3",
+    "url" : "https://github.com/SwiftGen/SwiftGen/releases/tag/6.6.3",
+    "version" : "6.6.3"
   }
 ]

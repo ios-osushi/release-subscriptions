@@ -142,5 +142,17 @@
     "title" : "4.4.0",
     "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.4.0",
     "version" : "4.4.0"
+  },
+  {
+    "body" : "### Bug fixes in 4.4.1\r\n\r\n* Replace os check with canImport so classes are available on visionOS (https://github.com/airbnb/lottie-ios/pull/2294)\r\n* Omit privacy manifest from source files in podspec (https://github.com/airbnb/lottie-ios/pull/2307)\r\n* Fix crash in Main Thread rendering engine path interpolation implementation (https://github.com/airbnb/lottie-ios/pull/2305)\r\n* Fix warning from invalid character in Cocoapods resource bundle identifier (https://github.com/airbnb/lottie-ios/pull/2317)\r\n* Fix infinite loop when setting `LottieAnimationView.viewportFrame` (https://github.com/airbnb/lottie-ios/pull/2316)\r\n\r\n### New features in 4.4.0\r\n\r\n* Add privacy manifest (https://github.com/airbnb/lottie-ios/pull/2252)\r\n* Codesign Lottie.xcframework (https://github.com/airbnb/lottie-ios/pull/2259)\r\n* Add time remapping support to Core Animation rendering engine (https://github.com/airbnb/lottie-ios/pull/2286)\r\n* Add official visionOS support to lottie-ios repo (https://github.com/airbnb/lottie-ios/pull/2287)\r\n* lottie-spm now supports visionOS (https://github.com/airbnb/lottie-spm/pull/12)\r\n* Adopt policy on minimum supported Swift / Xcode version, update minimum versions to Swift 5.7 / Xcode 14.1 (https://github.com/airbnb/lottie-ios/pull/2260)\r\n\r\n**Full Changelog**: https://github.com/airbnb/lottie-ios/compare/4.4.0...4.4.1",
+    "createdAt" : "2024-02-22T05:09:16+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:32+09:00",
+    "id" : "RE_kwDOIwpDsc4IhtEG",
+    "owner" : "airbnb",
+    "publishedAt" : "2024-02-22T05:09:54+09:00",
+    "repository" : "lottie-spm",
+    "title" : "4.4.1",
+    "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.4.1",
+    "version" : "4.4.1"
   }
 ]

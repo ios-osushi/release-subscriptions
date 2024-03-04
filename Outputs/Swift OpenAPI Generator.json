@@ -334,5 +334,17 @@
     "title" : "1.2.0",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.2.0",
     "version" : "1.2.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Add macCatalyst to the PlatformChecks by @lennartkerkvliet in https://github.com/apple/swift-openapi-generator/pull/524\r\n### Other Changes\r\n* Fix tests to include content-length header, now included by runtime library by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/510\r\n* Update Project-scope-and-goals.md by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/509\r\n* Fix compiler warnings in example projects by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/506\r\n\r\n## New Contributors\r\n* @lennartkerkvliet made their first contribution in https://github.com/apple/swift-openapi-generator/pull/524\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.2.0...1.2.1",
+    "createdAt" : "2024-02-13T20:46:13+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOJZWvis4Ic5Ad",
+    "owner" : "apple",
+    "publishedAt" : "2024-02-13T20:49:43+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.2.1",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.2.1",
+    "version" : "1.2.1"
   }
 ]

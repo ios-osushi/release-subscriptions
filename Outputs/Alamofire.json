@@ -442,5 +442,17 @@
     "title" : "5.8.1",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.8.1",
     "version" : "5.8.1"
+  },
+  {
+    "body" : "Released on 2024-03-03. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/89?closed=1).\r\n\r\n### Added\r\n\r\n- [🔥 Experimental 🔥] `WebSocketRequest`, as a wrapper for `URLSessionWebSocketTask`. This preview release is undocumented behind `@_spi(WebSocket)`. Its API _will_ change in the future, especially to adopt typed throws, but it is largely feature complete, tested, and usable now. API feedback, missing use cases, and bug reports are much appreciated before it goes fully public.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3455](https://github.com/Alamofire/Alamofire/pull/3455).\r\n- `PrivacyInfo.xcprivacy` file and integration with SPM, CocoaPods, and Carthage.\r\n  - Added by [Dmitry Kuleshov](https://github.com/kdvmgn) and [Jon Shier](https://github.com/jshier) in Pull Requests [#3792](https://github.com/Alamofire/Alamofire/pull/3792), [#3831](https://github.com/Alamofire/Alamofire/pull/3831), and [#3839](https://github.com/Alamofire/Alamofire/pull/3839).\r\n- `AlamofireDynamic` target, to force dynamic linking in Xcode when using SPM. Only use when you know you need it.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3808](https://github.com/Alamofire/Alamofire/pull/3808).\r\n- `AFInfo` enum and a public `version` value to get Alamofire's current version, `AFInfo.version`.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3819](https://github.com/Alamofire/Alamofire/pull/3819).\r\n\r\n### Updated\r\n\r\n- Alamofire to require Swift 5.7.1.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3798](https://github.com/Alamofire/Alamofire/pull/3798).\r\n- Project structure to break apart large `Request.swift` file and consolidate various `Request` subclasses into their own files.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3798](https://github.com/Alamofire/Alamofire/pull/3798).\r\n- `Empty` type to be `Sendable`.\r\n  - Updated by [Antoine van der Lee](https://github.com/AvdLee) in Pull Request [#3816](https://github.com/Alamofire/Alamofire/pull/3816).\r\n- `.swiftformat` to remove duplicate rules.\r\n  - Updated by [Fourenn](https://github.com/giftbott) in Pull Request [#3835](https://github.com/Alamofire/Alamofire/pull/3835).\r\n\r\n### Fixed\r\n\r\n- Platform deprecation warnings in `Package.swift` in newer Xcode versions.\r\n  - Updated by [fess](https://github.com/apps4everyone) in Pull Request [#3823](https://github.com/Alamofire/Alamofire/pull/3823).\r\n- `Alamofire.podspec` after project restructuring.\r\n  - Updated by [mlch](https://github.com/mlch911) in Pull Request [#3825](https://github.com/Alamofire/Alamofire/pull/3825).\r\n- Various documentation typos.\r\n  - Fixed by [JaewoongLee-swift](https://github.com/JaewoongLee-swift), [TaeHyun](https://github.com/kth1210), and [hugo-syn](https://github.com/hugo-syn) in various Pull Requests.",
+    "createdAt" : "2024-03-04T11:17:59+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAVavk84InfO1",
+    "owner" : "Alamofire",
+    "publishedAt" : "2024-03-04T11:19:13+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.9.0",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.9.0",
+    "version" : "5.9.0"
   }
 ]

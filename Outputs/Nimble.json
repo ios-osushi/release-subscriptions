@@ -574,5 +574,17 @@
     "title" : "v13.2.0 - visionOS, map matcher.",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v13.2.0",
     "version" : "v13.2.0"
+  },
+  {
+    "body" : "Note: This version is not yet available in Cocoapods.\r\n\r\n## What's Changed\r\n* Bump cocoapods from 1.14.3 to 1.15.0 by @dependabot in https://github.com/Quick/Nimble/pull/1116\r\n* Bump cocoapods from 1.15.0 to 1.15.2 by @dependabot in https://github.com/Quick/Nimble/pull/1119\r\n* Fix bug where expect(nil).toAlways(equal(0)) would erroneously pass by @younata in https://github.com/Quick/Nimble/pull/1121\r\n\r\n\r\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v13.2.0...v13.2.1",
+    "createdAt" : "2024-02-25T15:28:46+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAUUIhc4IjdBF",
+    "owner" : "Quick",
+    "publishedAt" : "2024-02-25T15:30:43+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.2.1",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.2.1",
+    "version" : "v13.2.1"
   }
 ]

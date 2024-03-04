@@ -586,5 +586,17 @@
     "title" : "7.4.0",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.4.0",
     "version" : "7.4.0"
+  },
+  {
+    "body" : "- Fixes building on Xcode Cloud (thanks @Keitaro0226)\r\n- Add specific #if checks for building on Linux (thanks @gregormate)",
+    "createdAt" : "2024-02-05T03:42:47+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAamb-84IVYYO",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2024-02-05T03:48:26+09:00",
+    "repository" : "R.swift",
+    "title" : "7.5.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.5.0",
+    "version" : "7.5.0"
   }
 ]

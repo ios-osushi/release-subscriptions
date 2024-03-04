@@ -754,5 +754,41 @@
     "title" : "5.18.10 - 5.8 Patch",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.10",
     "version" : "5.18.10"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.11 release](https://github.com/SDWebImage/SDWebImage/milestone/131)\r\n\r\n### Fixes\r\n\r\n- Add missing break keyword while converting NSData to SDImageFormat #3672 @adamwangxx",
+    "createdAt" : "2024-02-13T15:54:29+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAATIS84IctI-",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-02-13T15:56:38+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.11 - 5.18 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.11",
+    "version" : "5.18.11"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.18.12 release](https://github.com/SDWebImage/SDWebImage/milestone/132)\r\n\r\n### Fixes\r\n\r\n- Fix the issue that iOS 17 indexed PNG workaround breaks the 16bit RGBA PNG #3678",
+    "createdAt" : "2024-02-24T15:15:51+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAATIS84IjSdS",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-02-24T15:16:24+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.18.12 - 5.8 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.18.12",
+    "version" : "5.18.12"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.19.0 release](https://github.com/SDWebImage/SDWebImage/milestone/123)\r\n\r\n### Project\r\n- [Part 2]Added the official visionOS support with CocoaPods, include Demo/Tests/CI #3673\r\n- This need CocoaPods 1.13.0+\r\n- Next: We'll bump other SDWebImage.org Pods, like `SDWebImageSwiftUI`, `SDWebImageWebPCoder`, `libwebp` on CocoaPods with the visionOS podspec support.\r\n\r\n### Features\r\n- Added SDWebImageWaitTransition to wait for transition finished and then callback completedBlock #3680\r\n\r\n### Changes\r\n- Formally deprecate `sd_cancelCurrentImageLoad` on UIView category, which cause misunderstanding for the same overloaded method in UIImageView category #3654",
+    "createdAt" : "2024-02-24T18:16:27+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAATIS84IjTjd",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-02-24T18:17:14+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.19.0 - CocoaPods X VisionOS",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.0",
+    "version" : "5.19.0"
   }
 ]

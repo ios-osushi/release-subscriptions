@@ -574,5 +574,77 @@
     "title" : "1.4.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/1.4.0",
     "version" : "1.4.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Introduce ParsingTests by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/235\r\n* Delete OutputType+CustomStringConvertible by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/239\r\n* Enable Dependabot by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/240\r\n* Treat Warnings as Errors by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/241\r\n* Drop Bazel Support by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/182\r\n* Delete Unnecessary Homebrew Formula by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/245\r\n* Clean Up Release Workflow by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/246\r\n* Bump Minimum Swift Version to 5.9 by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/218\r\n* Bump codecov/codecov-action from 3 to 4 by @dependabot in https://github.com/cpisciotta/xcbeautify/pull/247\r\n* Use Package Access Modifier by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/249\r\n* Introduce XCBeautifier by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/250\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/1.4.0...2.0.0-beta.1",
+    "createdAt" : "2024-02-18T14:34:34+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOCNUZc84IfiDi",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-02-18T14:37:00+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.0.0 (Beta 1)",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.0.0-beta.1",
+    "version" : "2.0.0-beta.1"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-02-26T04:52:06+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOCNUZc84Iji0Y",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-02-26T04:54:19+09:00",
+    "repository" : "xcbeautify",
+    "title" : "1.5.0 (Beta 1)",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/1.5.0-beta.1",
+    "version" : "1.5.0-beta.1"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-02-26T04:12:41+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOCNUZc84Ijily",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-02-26T04:21:47+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.0.0 (Beta 2)",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.0.0-beta.2",
+    "version" : "2.0.0-beta.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\nDrastically improve xcbeautify's performance (time and memory). Testing with a large xcodebuild log, this change dropped xcbeautify's execution time by ~90% and memory footprint by ~99%.\r\n\r\n- Reduce unnecessary type instantiations, namely NSRegularExpression.\r\n- Skip parsing empty lines.\r\n- Introduce time-tracking logic and large xcodebuild log test to (1) find and fix the existing issue and (2) prevent future performance regressions.\r\n\r\nSee testing results [here](https://github.com/cpisciotta/xcbeautify/pull/253).\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/1.4.0...1.5.0",
+    "createdAt" : "2024-02-26T05:27:23+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOCNUZc84IjjE6",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-02-26T05:27:34+09:00",
+    "repository" : "xcbeautify",
+    "title" : "1.5.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/1.5.0",
+    "version" : "1.5.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n- More speed improvements (see [here](https://github.com/cpisciotta/xcbeautify/pull/254#issue-2153104667))!\r\n- Add SwiftCompile Support by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/254\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/1.5.0...1.6.0",
+    "createdAt" : "2024-02-26T11:31:55+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOCNUZc84Ijmo2",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-02-26T11:32:05+09:00",
+    "repository" : "xcbeautify",
+    "title" : "1.6.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/1.6.0",
+    "version" : "1.6.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add SwiftCompile Support by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/254\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.0.0-beta.2...2.0.0-beta.3",
+    "createdAt" : "2024-02-26T11:26:35+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOCNUZc84Ilvb2",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-02-29T13:53:21+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.0.0 (Beta 3)",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.0.0-beta.3",
+    "version" : "2.0.0-beta.3"
   }
 ]

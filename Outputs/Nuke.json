@@ -922,5 +922,17 @@
     "title" : "Nuke 12.3",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.3.0",
     "version" : "12.3.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Enable visionOS support for all APIs by @zachwaugh in https://github.com/kean/Nuke/pull/752\r\n* Update documentation by @tkersey in https://github.com/kean/Nuke/pull/747\r\n\r\n## New Contributors\r\n* @tkersey made their first contribution in https://github.com/kean/Nuke/pull/747\r\n* @zachwaugh made their first contribution in https://github.com/kean/Nuke/pull/752",
+    "createdAt" : "2024-02-11T03:08:44+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAeh5z84Ibyls",
+    "owner" : "kean",
+    "publishedAt" : "2024-02-11T03:10:55+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.4",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.4.0",
+    "version" : "12.4.0"
   }
 ]

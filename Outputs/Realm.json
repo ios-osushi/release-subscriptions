@@ -850,5 +850,29 @@
     "title" : "v10.45.3",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.45.3",
     "version" : "v10.45.3"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* Add a privacy manifest to both frameworks.\r\n* Internal C++ symbols are no longer exported from Realm.framework when installing via CocoaPods, which reduces the size of the binary by ~5%, improves app startup time a little, and eliminates some warnings when linking the framework. This was already the case when using Carthage or a prebuilt framework ([PR #8464](https://github.com/realm/realm-swift/pull/8464)).\r\n* The `baseURL` field of `AppConfiguration` can now be updated, rather than the value being persisted between runs of the application in the metadata storage. ([Core #7201](https://github.com/realm/realm-core/issues/7201))\r\n* Allow in-memory synced Realms. This will allow setting an in-memory identifier on a flexible sync realm.\r\n\r\n### Fixed\r\n\r\n* `@Persisted`'s Encodable implementation did not allow the encoder to customize the encoding of values, which broke things like JSONEncoder's `dateEncodingStrategy` ([#8425](https://github.com/realm/realm-swift/issues/8425)).\r\n* Fix running Package.swift on Linux to support tools like Dependabot which need to build the package description but not the package itself ([#8458](https://github.com/realm/realm-swift/issues/8458), since v10.40.1).\r\n\r\n### Breaking Changes\r\n\r\n* The `schemaVersion` field of `Realm.Configuration` must now always be zero for synchronized Realms. Schema versions are currently not applicable to synchronized Realms and the field was previously not read.\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.2.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.2-15.2.0.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 13.25.1 to 13.26.0",
+    "createdAt" : "2024-01-24T11:51:02+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAD24W84IPasV",
+    "owner" : "realm",
+    "publishedAt" : "2024-01-24T11:57:26+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.46.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.46.0",
+    "version" : "v10.46.0"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* Added initial support for geospatial queries on points. There is no new dedicated type to store Geospatial points, instead points should be stored as ([GeoJson-shaped](https://www.mongodb.com/docs/manual/reference/geojson/)) embedded object, as the example below:\r\n  ```swift\r\n  public class Location: EmbeddedObject {\r\n    @Persisted private var coordinates: List<Double>\r\n    @Persisted private var type: String = \"Point\"\r\n\r\n    public var latitude: Double { return coordinates[1] }\r\n    public var longitude: Double { return coordinates[0] }\r\n\r\n    convenience init(_ latitude: Double, _ longitude: Double) {\r\n        self.init()\r\n        // Longitude comes first in the coordinates array of a GeoJson document\r\n        coordinates.append(objectsIn: [longitude, latitude])\r\n    }\r\n  }\r\n  ```\r\n  Geospatial queries (`geoWithin`) can only be executed on such a type of objects and will throw otherwise. The queries can be used to filter objects whose points lie within a certain area, using the following pre-established shapes (`GeoBox`, `GeoPolygon`, `GeoCircle`).\r\n  ```swift\r\n  class Person: Object {\r\n    @Persisted var name: String\r\n    @Persisted var location: Location? // GeoJson embedded object\r\n  }\r\n\r\n  let realm = realmWithTestPath()\r\n  try realm.write {\r\n    realm.add(PersonLocation(name: \"Maria\", location: Location(latitude: 55.6761, longitude: 12.5683)))\r\n  }\r\n\r\n  let shape = GeoBox(bottomLeft: (55.6281, 12.0826), topRight: (55.6762, 12.5684))!\r\n  let locations = realm.objects(PersonLocation.self).where { $0.location.geoWithin(shape) })\r\n  ```\r\n  A `filter` or `NSPredicate` can be used as well to perform a Geospatial query.\r\n  ```swift\r\n  let shape = GeoPolygon(outerRing: [(-2, -2), (-2, 2), (2, 2), (2, -2), (-2, -2)], holes: [[(0, 0), (1, 1), (-1, 1), (0, 0)]])!\r\n  let locations = realm.objects(PersonLocation.self).filter(\"location IN %@\", shape)\r\n\r\n  let locations = realm.objects(PersonLocation.self).filter(NSPredicate(format: \"location IN %@\", shape))\r\n  ```\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.2.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.2-15.2.0.\r\n\r\n### Internal\r\n\r\n* Migrated Release pipelines to Github Actions.\r\n",
+    "createdAt" : "2024-02-14T00:33:39+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAD24W84IdDLk",
+    "owner" : "realm",
+    "publishedAt" : "2024-02-14T00:34:57+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.47.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.47.0",
+    "version" : "v10.47.0"
   }
 ]
