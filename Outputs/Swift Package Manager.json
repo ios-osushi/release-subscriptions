@@ -130,5 +130,17 @@
     "title" : "Utility product release",
     "url" : "https://github.com/apple/swift-package-manager/releases/tag/0.1.0",
     "version" : "0.1.0"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-12-10T19:09:57+09:00",
+    "fetchedFromAPIAt" : "2024-03-04T22:15:33+09:00",
+    "id" : "RE_kwDOAqw0ac4If5fm",
+    "owner" : "apple",
+    "publishedAt" : "2024-02-19T21:02:57+09:00",
+    "repository" : "swift-package-manager",
+    "title" : "",
+    "url" : "https://github.com/apple/swift-package-manager/releases/tag/swift-5.9.2-RELEASE",
+    "version" : "swift-5.9.2-RELEASE"
   }
 ]
