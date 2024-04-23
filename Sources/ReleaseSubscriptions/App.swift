@@ -17,7 +17,10 @@ struct App: AsyncParsableCommand {
     
     @Option(name: .shortAndLong, help: "Slack Webhook URL (secondary) to be notified of updates.", transform: URL.init(string:))
     var secondarySlackURL: URL?
-    
+
+    @Option(name: .long, help: "GitHub API Token")
+    var apiToken: String?
+
     func run() async throws {
         defer {
             Logger.app.info("🎉 \(#function) finished")
@@ -32,7 +35,7 @@ struct App: AsyncParsableCommand {
             }
             let repositories = try Parser.parse()
             let oldContents = try FileHelper.load(repositories: repositories)
-            let newContents = try await Fetcher.fetch(repositories: repositories)
+            let newContents = try await Fetcher.fetch(repositories: repositories, apiToken: apiToken)
             let combinedContents = oldContents.merging(newContents) { ($0 + $1).identified().sorted() }
             let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
 //            try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)

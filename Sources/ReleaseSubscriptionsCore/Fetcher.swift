@@ -18,16 +18,26 @@ public struct Fetcher {
         return decoder
     }()
     
-    static func fetch(repository: GitHubRepository) async throws -> [Release] {
+    static func fetch(repository: GitHubRepository, apiToken: String?) async throws -> [Release] {
         Logger.shared.info("ℹ️ Fetching \(repository.apiURL)")
-        let url = repository.apiURL
-        let (data, _) = try await URLSession.shared.data(from: url)
-        let releases = try decoder.decode([Release].self, from: data)
-        Logger.shared.info("✅ Fetched \(repository.apiURL)")
-        return releases
+        var request = URLRequest(url: repository.apiURL)
+        if let apiToken {
+            request.allHTTPHeaderFields = [
+                "Authorization": "Bearer \(apiToken)"
+            ]
+        }
+        let (data, _) = try await URLSession.shared.data(for: request)
+        do {
+            let releases = try decoder.decode([Release].self, from: data)
+            Logger.shared.info("✅ Fetched \(repository.apiURL)")
+            return releases
+        } catch {
+            print(String(data: data, encoding: .utf8) ?? "")
+            throw error
+        }
     }
     
-    public static func fetch(repositories: [GitHubRepository]) async throws -> [GitHubRepository : [Release]] {
+    public static func fetch(repositories: [GitHubRepository], apiToken: String?) async throws -> [GitHubRepository : [Release]] {
         defer {
             Logger.shared.info("🎉 \(#function) finished")
         }
@@ -36,10 +46,10 @@ public struct Fetcher {
             for repository in repositories {
                 group.addTask {
                     do {
-                        let releases = try await fetch(repository: repository)
+                        let releases = try await fetch(repository: repository, apiToken: apiToken)
                         return (repository, releases)
                     } catch {
-                        Logger.shared.error("❌ \(#function) failed")
+                        Logger.shared.error("❌ \(#function) failed \(error)")
                         Logger.shared.error("❌ repository: \(repository)")
                         throw error
                     }
