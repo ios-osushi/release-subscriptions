@@ -646,5 +646,53 @@
     "title" : "2.0.0 (Beta 3)",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.0.0-beta.3",
     "version" : "2.0.0-beta.3"
+  },
+  {
+    "body" : "## Changes\r\n\r\n- Add WriteAuxiliaryFileCaptureGroup by @cpisciotta in #257 \r\n- Add CompilationResultCaptureGroup by @cpisciotta in #258 \r\n- Add SwiftDriverJobDiscoveryEmittingModuleCaptureGroup by @cpisciotta in #259 \r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/1.6.0...1.7.0",
+    "createdAt" : "2024-03-12T10:59:08+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOCNUZc84IsxA4",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-03-12T10:59:19+09:00",
+    "repository" : "xcbeautify",
+    "title" : "1.7.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/1.7.0",
+    "version" : "1.7.0"
+  },
+  {
+    "body" : "## Notice\r\n\r\nDescription with breaking changes and migration guide coming soon!\r\n\r\n## What's Changed\r\n* Introduce ParsingTests by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/235\r\n* Delete OutputType+CustomStringConvertible by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/239\r\n* Enable Dependabot by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/240\r\n* Treat Warnings as Errors by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/241\r\n* Drop Bazel Support by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/182\r\n* Delete Unnecessary Homebrew Formula by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/245\r\n* Clean Up Release Workflow by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/246\r\n* Bump Minimum Swift Version to 5.9 by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/218\r\n* Bump codecov/codecov-action from 3 to 4 by @dependabot in https://github.com/cpisciotta/xcbeautify/pull/247\r\n* Use Package Access Modifier by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/249\r\n* Introduce XCBeautifier by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/250\r\n* Add SwiftCompile Support by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/254\r\n* Delete .ruby-version by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/260\r\n* Bump Minimum SwiftFormat to 0.53.1 by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/261\r\n* Rename assets to .readme-images by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/262\r\n* Delete XCTestManifests.swift by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/263\r\n* Add measure script by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/264\r\n* Implement WriteAuxiliaryFileCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/257\r\n* Add CompilationResultCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/258\r\n* Add SwiftDriverJobDiscoveryEmittingModuleCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/259\r\n* Update README by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/266\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/1.4.0...2.0.0",
+    "createdAt" : "2024-03-12T12:20:39+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOCNUZc84Ivlbz",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-03-15T09:40:40+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.0.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.0.0",
+    "version" : "2.0.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix make package-darwin-universal  by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/269\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.0.0...2.0.1",
+    "createdAt" : "2024-03-15T10:32:45+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOCNUZc84IvoGv",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-03-15T10:32:55+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.0.1",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.0.1",
+    "version" : "2.0.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Bump github.com/apple/swift-argument-parser from 1.3.0 to 1.3.1 by @dependabot in https://github.com/cpisciotta/xcbeautify/pull/272\r\n* Added support for skipped tests by @alistra in https://github.com/cpisciotta/xcbeautify/pull/271\r\n* Move additionalLines as OutputRendering property by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/274\r\n\r\n## New Contributors\r\n* @alistra made their first contribution in https://github.com/cpisciotta/xcbeautify/pull/271\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.0.1...2.1.0",
+    "createdAt" : "2024-04-14T02:13:07+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOCNUZc84JAKoQ",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-04-14T02:13:17+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.1.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.1.0",
+    "version" : "2.1.0"
   }
 ]

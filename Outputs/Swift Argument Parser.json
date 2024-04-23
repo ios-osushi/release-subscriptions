@@ -394,5 +394,17 @@
     "title" : "ArgumentParser 1.3.0",
     "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.3.0",
     "version" : "1.3.0"
+  },
+  {
+    "body" : "### Changes\r\n\r\n- The `CommandConfigration` type is now designated as `Sendable`. (#615)\r\n- The library uses `internal` imports instead of `@_implementationOnly` annotations in Swift versions where permitted. (#616)\r\n\r\n### Fixes\r\n\r\n- `@Option`- and `@Argument`-annotated optional properties that use a `transform` closure for parsing can now be declared without ambiguity. (#619)\r\n\r\n- The help flag is now recognized more consistently when a default subcommand has been specified. (#612)\r\n\r\n- Options that use the `.upToNextOption` parsing strategy can now recognize an attached value (e.g. `--numbers=1 2 3`). (#610)\r\n\r\n- Generated completion scripts for `zsh` handle repeatable options correctly. (#614)\r\n\r\n- Documentation improvements and clarifications. (#607, #611, #617, #621) \r\n\r\n- Build improvements for CMake builds. (#606, #608)\r\n\r\nThe 1.3.1 release includes contributions from @Coeur, @compnerd, @keith, @MaxDesiatov, @mayoff, and @natecook1000. Thank you!\r\n",
+    "createdAt" : "2024-03-17T03:15:47+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDODmuHYc4IwYlm",
+    "owner" : "apple",
+    "publishedAt" : "2024-03-17T03:23:19+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.3.1",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.3.1",
+    "version" : "1.3.1"
   }
 ]

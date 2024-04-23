@@ -804,6 +804,30 @@
     "version" : "v10.44.0"
   },
   {
+    "body" : "This version introduces a new Realm file format version (v24). Opening existing\nRealm files will automatically upgrade the files, making them unable to be\nopened by older versions. This upgrade process should typically be very fast\nunless you have large Sets of AnyRealmValue, String, or Data, which have to be rewritten.\n\nA backup will automatically be created next to the Realm before performing the\nupgrade. Downgrading to older versions of Realm will attempt to automatically\nrestore the backup, or it will be deleted after three months.\n\n### Enhancements\n\n* Storage of Decimal128 properties has been optimised similarly to Int\n  properties so that the individual values will take up 0 bits (if all nulls),\n  32 bits, 64 bits or 128 bits depending on what is needed.\n  ([Core #6111](https://github.com/realm/realm-core/pull/6111))\n* Improve file compaction performance on arm64 platforms for encrypted files\n  between 16kB and 4MB in size. ([PR #7492](https://github.com/realm/realm-core/pull/7492)).\n\n### Fixed\n\n* Sorting on binary Data was done by comparing bytes as signed char rather than\n  unsigned char, resulting in very strange orders (since sorting on Data was\n  enabled in v6.0.4)\n* Sorting on AnyRealmValue did not use a valid total ordering, and certain\n  combinations of values could result in values not being sorted or potentially\n  even crashes. The resolution for this will result in some previously-valid\n  combinations of values of different types being sorted in different orders\n  than previously (since the introduction of AnyRealmValue in 10.8.0).\n* RLMSet/MutableSet was inconsistent about if it considered a String and a Data\n  containing the utf-8 encoded bytes of that String to be equivalent. They are\n  now always considered distinct. (since the introduction of sets in v10.8.0).\n* Equality queries on a Mixed property with an index could sometimes return\n  incorrect results if values of different types happened to have the same hash\n  code. ([Core 6407](https://github.com/realm/realm-core/issues/6407) since v10.8.0).\n* Creating more than 8388606 links pointing to a single object would crash.\n  ([Core #6577](https://github.com/realm/realm-core/issues/6577), since v5.0.0)\n* A Realm generated on a non-apple ARM 64 device and copied to another platform\n  (and vice-versa) were non-portable due to a sorting order difference. This\n  impacts strings or binaries that have their first difference at a non-ascii\n  character. These items may not be found in a set, or in an indexed column if\n  the strings had a long common prefix (> 200 characters).\n  ([Core #6670](https://github.com/realm/realm-core/pull/6670), since 2.0.0 for indexes, and since since the introduction of sets in v10.8.0)\n* Fix a spurious crash related to opening a Realm on background thread while\n  the process was in the middle of exiting ([Core #7420](https://github.com/realm/realm-core/pull/7420)).\n* Opening a Realm with a cached user while offline would fail to retry some\n  steps of the connection process and instead report a fatal error.\n  ([#7349](https://github.com/realm/realm-core/issues/7349), since v10.46.0)\n\n### Breaking Changes\n\n* Drop support for opening pre-v5.0.0 Realm files.\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.3.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.2-15.3.0. Note that we will be dropping support for Xcode 14 when\n  Apple begins requiring Xcode 15 for app store submissions on April 29.\n\n### Internal\n\n* Upgraded realm-core from 13.26.0 to 14.3.0",
+    "createdAt" : "2024-03-23T02:54:37+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOAD24W84I0a8F",
+    "owner" : "realm",
+    "publishedAt" : "2024-03-23T02:56:16+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.49.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.49.0",
+    "version" : "v10.49.0"
+  },
+  {
+    "body" : "### Enhancements\n\n* Improve file compaction performance on arm64 platforms for encrypted files\n  between 16kB and 4MB in size. ([PR #7492](https://github.com/realm/realm-core/pull/7492)).\n\n### Fixed\n\n* Opening a Realm with a cached user while offline would fail to retry some\n  steps of the connection process and instead report a fatal error.\n  ([#7349](https://github.com/realm/realm-core/issues/7349), since v10.46.0)\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.3.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.2-15.3.0.\n\n### Internal\n\n* Upgraded realm-core from v14.3.0 to 14.4.1",
+    "createdAt" : "2024-03-23T12:18:46+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOAD24W84I0rLX",
+    "owner" : "realm",
+    "publishedAt" : "2024-03-23T12:20:14+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.49.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.49.1",
+    "version" : "v10.49.1"
+  },
+  {
     "body" : "### Fixed\r\n\r\n* Exceptions thrown while applying the initial download for a sync subscription change terminated the program rather than being reported to the sync error handler ([Core #7196](https://github.com/realm/realm-core/issues/7196) and [Core #7197](https://github.com/realm/realm-core/pull/7197)).\r\n* Calling `SyncSession.reconnect()` while a reconnect after a non-fatal error was pending would result in an assertion failure mentioning \"!m_try_again_activation_timer\" if another non-fatal error was received ([Core #6961](https://github.com/realm/realm-core/issues/6961)).\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.1.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.1-15.1.0.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from 13.24.1 to 13.25.0",
     "createdAt" : "2023-12-19T12:51:06+09:00",
     "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
@@ -874,5 +898,41 @@
     "title" : "v10.47.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.47.0",
     "version" : "v10.47.0"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* Lifted a limitation that would prevent declaring a model with only computed properties. ([#8414](https://github.com/realm/realm-swift/issues/8414))\r\n* Add Xcode 15.3 to the release package ([PR #8502](https://github.com/realm/realm-swift/pull/8502)).\r\n\r\n### Fixed\r\n\r\n* Fix multiple arguments support via the `REALM_EXTRA_BUILD_ARGUMENTS` environment variable in `build.sh`. ([PR #8413](https://github.com/realm/realm-swift/pulls/8413)). Thanks, [@hisaac](https://github.com/hisaac)!\r\n* Fix some of the new sendability warnings introduced in Xcode 15.3 ([PR #8502](https://github.com/realm/realm-swift/pull/8502)).\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 14.0.1 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.3.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 14.2-15.3.0.",
+    "createdAt" : "2024-03-08T06:21:27+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOAD24W84IqfF4",
+    "owner" : "realm",
+    "publishedAt" : "2024-03-08T06:24:07+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.48.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.48.0",
+    "version" : "v10.48.0"
+  },
+  {
+    "body" : "### Fixed\n\n* The Realm.framework privacy manifest was missing\n  NSPrivacyAccessedAPICategoryDiskSpace, but we check free disk space before\n  attempting to automatically back up Realm files (since 10.46.0).\n\n### Compatibility\n\n* Realm Studio: 14.0.1 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.3.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.2-15.3.0.",
+    "createdAt" : "2024-03-16T05:12:21+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOAD24W84IwK5p",
+    "owner" : "realm",
+    "publishedAt" : "2024-03-16T05:14:55+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.48.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.48.1",
+    "version" : "v10.48.1"
+  },
+  {
+    "body" : "### Enhancements\n\n* The default base url in `AppConfiguration` has been updated to point to `services.cloud.mongodb.com`. See https://www.mongodb.com/docs/atlas/app-services/domain-migration/ for more information. ([#8512](https://github.com/realm/realm-swift/issues/8512))\n\n### Fixed\n\n* Fixed a crash that would occur when an http error 401 or 403 is returned upon\n  opening a watch stream for a MongoDB collection. ([#8519](https://github.com/realm/realm-swift/issues/8519))\n* Fix an assertion failure \"m_lock_info && m_lock_info->m_file.get_path() == m_filename\" that appears to be related to opening a Realm while the file is in the process of being closed on another thread. ([#8507](https://github.com/realm/realm-swift/issues/8507))\n* Fixed diverging history due to a bug in the replication code when setting default null values (embedded objects included). ([Core #7536](https://github.com/realm/realm-core/issues/7536))\n* Null pointer exception may be triggered when logging out and async commits callbacks not executed. ([Core #7434](https://github.com/realm/realm-core/issues/7434))\n* `AppConfiguration.baseUrl` will now return the default value of the url when not set rather than `nil`. ([#8512](https://github.com/realm/realm-swift/issues/8512))\n* Added privacy manifest to Core's Swift package ([Swift #8535](https://github.com/realm/realm-swift/issues/8535))\n* Fixed crash when integrating removal of already removed dictionary key ([Core #7488](https://github.com/realm/realm-core/issues/7488), since v10.0.0)\n\n### Compatibility\n\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.3.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 14.2-15.3.0.\n\n### Internal\n\n* Upgraded realm-core from 14.4.1 to 14.5.2",
+    "createdAt" : "2024-04-18T04:42:04+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOAD24W84JCZzL",
+    "owner" : "realm",
+    "publishedAt" : "2024-04-18T04:44:22+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.49.2",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.49.2",
+    "version" : "v10.49.2"
   }
 ]

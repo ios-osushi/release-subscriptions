@@ -22,5 +22,17 @@
     "title" : "Swift-Markdown 0.3.0",
     "url" : "https://github.com/apple/swift-markdown/releases/tag/0.3.0",
     "version" : "0.3.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* track inner indentation for doxygen commands by @QuietMisdreavus in https://github.com/apple/swift-markdown/pull/118\r\n* Fix crash parsing document tree dump as markdown content by @d-ronnqvist in https://github.com/apple/swift-markdown/pull/123\r\n* Refactored the `lex` function in the BlockDirectiveParser file. by @Mayank-84 in https://github.com/apple/swift-markdown/pull/128\r\n* fix: fix to issue #132 (implementation of child(through) by @georgemp in https://github.com/apple/swift-markdown/pull/133\r\n* Remove a expired link from README.md by @Ryu0118 in https://github.com/apple/swift-markdown/pull/138\r\n* Fix typo in markdown-tool validation error by @Samasaur1 in https://github.com/apple/swift-markdown/pull/104\r\n* Rename main.swift to MarkdownCommand.swift and add @main by @Kyle-Ye in https://github.com/apple/swift-markdown/pull/10\r\n* consider queued newlines when wrapping elements in MarkupFormatter by @QuietMisdreavus in https://github.com/apple/swift-markdown/pull/116\r\n* [5.10] Add link title support for commonmark by @Kyle-Ye in https://github.com/apple/swift-markdown/pull/147\r\n* [5.10] Fix multiline directive without content parsing range issue by @Kyle-Ye in https://github.com/apple/swift-markdown/pull/157\r\n* [5.10] Fix multi line symbol link source range issue by @Kyle-Ye in https://github.com/apple/swift-markdown/pull/156\r\n\r\n## New Contributors\r\n* @Mayank-84 made their first contribution in https://github.com/apple/swift-markdown/pull/128\r\n* @georgemp made their first contribution in https://github.com/apple/swift-markdown/pull/133\r\n* @Ryu0118 made their first contribution in https://github.com/apple/swift-markdown/pull/138\r\n* @Samasaur1 made their first contribution in https://github.com/apple/swift-markdown/pull/104\r\n\r\n**Full Changelog**: https://github.com/apple/swift-markdown/compare/swift-5.9.2-RELEASE...swift-5.10-RELEASE",
+    "createdAt" : "2023-11-14T23:40:15+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOFxlFeM4IpfXj",
+    "owner" : "apple",
+    "publishedAt" : "2024-03-07T01:14:40+09:00",
+    "repository" : "swift-markdown",
+    "title" : "Swift 5.10 Release",
+    "url" : "https://github.com/apple/swift-markdown/releases/tag/swift-5.10-RELEASE",
+    "version" : "swift-5.10-RELEASE"
   }
 ]

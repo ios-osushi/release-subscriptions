@@ -1210,5 +1210,29 @@
     "title" : "1.9.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.9.1",
     "version" : "1.9.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: The `BindableAction` dynamic case lookup added in 1.9 led to a regression in compile time performance that could break downstream builds. This has been reverted (https://github.com/pointfreeco/swift-composable-architecture/pull/2886).\r\n* Fixed: Support swift-syntax 510 (https://github.com/pointfreeco/swift-composable-architecture/pull/2884).\r\n* Infrastructure: Add Links to Migration Guides in README (thanks @jshier, https://github.com/pointfreeco/swift-composable-architecture/pull/2877).\r\n* Infrastructure: Fixed the article of tree-based navigation (thanks @takehilo, https://github.com/pointfreeco/swift-composable-architecture/pull/2882).\r\n* Infrastructure: Leverage dynamic case writability in example code (https://github.com/pointfreeco/swift-composable-architecture/pull/2885).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.9.1...1.9.2",
+    "createdAt" : "2024-03-05T15:18:31+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOD48kk84IoXYs",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-03-05T15:20:38+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.9.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.9.2",
+    "version" : "1.9.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: Added missing `StackActionOf<R>` type alias (thanks @d-date, https://github.com/pointfreeco/swift-composable-architecture/pull/2906).\r\n* Fixed: Cache scoped presentation stores where possible (thanks @lukeredpath, https://github.com/pointfreeco/swift-composable-architecture/pull/2908).\r\n* Fixed: Allow \"inert\" enum state to be observed by having an ever-changing ID (https://github.com/pointfreeco/swift-composable-architecture/pull/2910).\r\n* Fixed: Silence SwiftSyntax 510 / Xcode 15.3 warnings (https://github.com/pointfreeco/swift-composable-architecture/pull/2909).\r\n* Fixed: Restore `TestStore` autocompletion (https://github.com/pointfreeco/swift-composable-architecture/pull/2923).\r\n* Fixed: It is now possible to scope bindings of enum stores to non-reducer cases for sheets and other navigation (https://github.com/pointfreeco/swift-composable-architecture/pull/2943).\r\n* Fixed: `package` access modifier support in enum `@Reducer` macro (thanks @samrayner, https://github.com/pointfreeco/swift-composable-architecture/pull/2939).\r\n* Fixed: `Effect.publisher` is no longer escaping (https://github.com/pointfreeco/swift-composable-architecture/pull/2968).\r\n* Fixed: Add runtime warning diagnostic to catch nested calls to `observe` (https://github.com/pointfreeco/swift-composable-architecture/pull/2996).\r\n* Infrastructure: Fix documentation typos (thanks @takehilo, https://github.com/pointfreeco/swift-composable-architecture/pull/2898; https://github.com/pointfreeco/swift-composable-architecture/pull/2944); tutorial fixes (thanks @LRSnowX, https://github.com/pointfreeco/swift-composable-architecture/pull/2808); test store tutorial/documentation fixes (https://github.com/pointfreeco/swift-composable-architecture/pull/2912); fix favorites case study mocks (thanks @beribas, https://github.com/pointfreeco/swift-composable-architecture/pull/2962); improve docs for stack-based navigation (https://github.com/pointfreeco/swift-composable-architecture/pull/2967); fix dismissal in UIKit demos (https://github.com/pointfreeco/swift-composable-architecture/pull/2986) fix shared state case study (thanks @eltociear, https://github.com/pointfreeco/swift-composable-architecture/pull/2994).\r\n\r\n## New Contributors\r\n* @LRSnowX made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2808\r\n* @beribas made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2962\r\n* @samrayner made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2939\r\n* @eltociear made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2994\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.9.2...1.9.3",
+    "createdAt" : "2024-04-18T07:31:31+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOD48kk84JCf_L",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-04-18T09:06:07+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.9.3",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.9.3",
+    "version" : "1.9.3"
   }
 ]

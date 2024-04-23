@@ -912,6 +912,18 @@
     "version" : "12.2.0-beta.2"
   },
   {
+    "body" : "## What's Changed\r\n- Fix Xcode 15.3 concurrency warnings when using `Screen.scale` by @jszumski in https://github.com/kean/Nuke/pull/766\r\n- Add `showPlaceholderOnFailure` parameter to show placeholder in case of image loading failure by @mlight3 in https://github.com/kean/Nuke/pull/764\r\n- Fix image loading test on iOS 17 by @woxtu in https://github.com/kean/Nuke/pull/768\r\n- Update thumbnail key value for `ImageRequest` by @woxtu in https://github.com/kean/Nuke/pull/769\r\n- Remove trailing whitespaces by @woxtu in https://github.com/kean/Nuke/pull/767\r\n- Apply `if let` shorthand syntax by @mlight3 in https://github.com/kean/Nuke/pull/762\r\n\r\n## New Contributors\r\n- @AndrewSB made their first contribution in https://github.com/kean/Nuke/pull/755\r\n- @mlight3 made their first contribution in https://github.com/kean/Nuke/pull/762\r\n- @jszumski made their first contribution in https://github.com/kean/Nuke/pull/766\r\n\r\n**Full Changelog**: https://github.com/kean/Nuke/compare/12.4.0...12.5.0",
+    "createdAt" : "2024-03-23T22:17:13+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOAeh5z84I0wAi",
+    "owner" : "kean",
+    "publishedAt" : "2024-03-23T22:42:37+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.5",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.5.0",
+    "version" : "12.5.0"
+  },
+  {
     "body" : "## What's Changed\r\n* Add support for visionOS by @bobek-balinek in https://github.com/kean/Nuke/pull/743\r\n\r\n## New Contributors\r\n* @bobek-balinek made their first contribution in https://github.com/kean/Nuke/pull/743\r\n\r\n**Full Changelog**: https://github.com/kean/Nuke/compare/12.2.0...12.3.0",
     "createdAt" : "2024-01-07T05:18:14+09:00",
     "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",

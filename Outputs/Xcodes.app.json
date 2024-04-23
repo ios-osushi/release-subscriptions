@@ -226,5 +226,29 @@
     "title" : "2.0 - The Force Awakens",
     "url" : "https://github.com/XcodesOrg/XcodesApp/releases/tag/v2.0.2b23",
     "version" : "v2.0.2b23"
+  },
+  {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Replace AttributedText with markdown to fix the layout issues (#531) @huihuisang\r\n* replace default icon in info page (#530) @huihuisang\r\n* Improve Filter Button style (#526) @chickdan\r\n* Improve the layout of the sidebar (#504) @huihuisang\r\n* Improve signing experience when using non-english keyboard (#521) @LiYanan2004\r\n* Improvements in the layout of the Settings window (#506) @alladinian\r\n* Allow selecting text for version info (#503) @clementpadovani\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* fix runtime not appearing when multiple runtimes exist for same build (#523) @MattKiazyk\r\n* fix: adds back in sidebar toggle button so users don't get stuck (#499) @MattKiazyk\r\n\r\n## 🌎 Localization\r\n\r\n* chore: cleanup some localizeable.xcstrings (#532) @MattKiazyk\r\n* Updated german localization (#519) @Schr0eder\r\n* l10n(zh-Hant): Update translation for 2.0.2 (#502) @pan93412\r\n* Update Ukrainian localisation (#510) @kikiwora\r\n* Greek language localization (#505) @alladinian\r\n* Update zh_Hans Localizations. And more. (#482) @megabitsenmzq\r\n\r\n## 🧰 Maintenance\r\n\r\n* Remove outdated version checks (#527) @chickdan\r\n* Bump ruby/setup-ruby from 1.171.0 to 1.172.0 (#509) @dependabot\r\n* Bump actions/cache from 4.0.0 to 4.0.1 (#515) @dependabot\r\n* Bump release-drafter/release-drafter from 5 to 6 (#497) @dependabot\r\n* Bump ruby/setup-ruby from 1.169.0 to 1.171.0 (#495) @dependabot\r\n\r\n<!-- sparkle:edSignature=kChtCsch/u+2D023oWCVJYd4m9KbQRQ7o+P5TAuO3GZ/GWo2SK6zmreSLqPOBVgLoAuowy9Vm+rbZjVJamS7Dg== -->",
+    "createdAt" : "2024-03-17T10:39:24+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOEtMR_84IQxsL",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2024-03-17T09:43:52+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v2.1.1 - I'm just Xcodes",
+    "url" : "https://github.com/XcodesOrg/XcodesApp/releases/tag/v2.1.1b25",
+    "version" : "v2.1.1b25"
+  },
+  {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\n## Changes 2.1.2\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* fix: xcode list row text hidden on macOS 14.4 (#538) @vvisionnn\r\n\r\n## Changes 2.1.1\r\n\r\n## 🚀 Enhancements\r\n\r\n* Replace AttributedText with markdown to fix the layout issues (#531) @huihuisang\r\n* replace default icon in info page (#530) @huihuisang\r\n* Improve Filter Button style (#526) @chickdan\r\n* Improve the layout of the sidebar (#504) @huihuisang\r\n* Improve signing experience when using non-english keyboard (#521) @LiYanan2004\r\n* Improvements in the layout of the Settings window (#506) @alladinian\r\n* Allow selecting text for version info (#503) @clementpadovani\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* fix runtime not appearing when multiple runtimes exist for same build (#523) @MattKiazyk\r\n* fix: adds back in sidebar toggle button so users don't get stuck (#499) @MattKiazyk\r\n\r\n## 🌎 Localization\r\n\r\n* chore: cleanup some localizeable.xcstrings (#532) @MattKiazyk\r\n* Updated german localization (#519) @Schr0eder\r\n* l10n(zh-Hant): Update translation for 2.0.2 (#502) @pan93412\r\n* Update Ukrainian localisation (#510) @kikiwora\r\n* Greek language localization (#505) @alladinian\r\n* Update zh_Hans Localizations. And more. (#482) @megabitsenmzq\r\n\r\n## 🧰 Maintenance\r\n\r\n* Remove outdated version checks (#527) @chickdan\r\n* Bump ruby/setup-ruby from 1.171.0 to 1.172.0 (#509) @dependabot\r\n* Bump actions/cache from 4.0.0 to 4.0.1 (#515) @dependabot\r\n* Bump release-drafter/release-drafter from 5 to 6 (#497) @dependabot\r\n* Bump ruby/setup-ruby from 1.169.0 to 1.171.0 (#495) @dependabot\r\n\r\n<!-- sparkle:edSignature=H7jdc6r8REbcRBAb1VHjOfhUdsk04y6QH+IbOl6keL/kLn7Qog8k7oo3Edcx79hKJonPQXKDIa09eP7u3+zACw== -->\r\n",
+    "createdAt" : "2024-03-17T23:15:01+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOEtMR_84IwbhK",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2024-03-17T23:19:15+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v2.1.2 - I'm just Xcodes",
+    "url" : "https://github.com/XcodesOrg/XcodesApp/releases/tag/v2.1.2b26",
+    "version" : "v2.1.2b26"
   }
 ]

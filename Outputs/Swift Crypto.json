@@ -418,5 +418,17 @@
     "title" : "Swift Crypto 3.2.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.2.0",
     "version" : "3.2.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add support for AES CTR mode in _CryptoExtras (#220)\r\n- Raise minimum Swift version to 5.7 (#221)\r\n\r\n### SemVer Patch\r\n\r\n- Remove dtls1.h as part of removing libssl (#217, patch credit to @davidben)\r\n- Update BoringSSL to dbad745811195c00b729efd0ee0a09b7d9fce1d2 (#222)\r\n\r\n### Other Changes\r\n\r\n- Documentation: Update macOS development instructions (#216, patch credit to @coldjugular)",
+    "createdAt" : "2024-03-12T19:50:25+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOC9Swts4Is_7d",
+    "owner" : "apple",
+    "publishedAt" : "2024-03-12T20:05:16+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.3.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.3.0",
+    "version" : "3.3.0"
   }
 ]

@@ -132,6 +132,18 @@
     "version" : "1.0.4"
   },
   {
+    "body" : "This bugfix release improves compatibility with recent Swift versions, eliminating several compiler warnings on Swift 5.8 and 5.9. It contains no API-level changes.\r\n\r\n## What's Changed\r\n* build: add ARM64 to the architecture mappings for Windows by @compnerd in https://github.com/apple/swift-collections/pull/265\r\n* Fix deprecated UnsafeMutablePointer.assign(repeating:count) method by @FelixHerrmann in https://github.com/apple/swift-collections/pull/268\r\n* [1.0][test] Fix typename shadowing warning in Swift 5.9 by @lorentey in https://github.com/apple/swift-collections/pull/315\r\n* [1.0][benchmark] Update std::function syntax for current C++ by @lorentey in https://github.com/apple/swift-collections/pull/314\r\n\r\n## New Contributors\r\n* @FelixHerrmann made their first contribution in https://github.com/apple/swift-collections/pull/268\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.0.4...1.0.5\r\n\r\nThank you to everyone who contributed to this release!",
+    "createdAt" : "2023-10-03T13:27:26+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOFDfRzs4HW1Y9",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-03T13:37:45+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 1.0.5",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.0.5",
+    "version" : "1.0.5"
+  },
+  {
     "body" : "This bugfix release adds `Sendable` conformances to all public types (fixing compatibility with Swift's strict concurrency checking), and speeds up equality checks (`==`) of identical collection values.\r\n\r\n## What's Changed\r\n* Fix typos: OrderedSet Documentation by @kati-kms in https://github.com/apple/swift-collections/pull/322\r\n* [1.0] build: support building in Debug mode on Windows by @compnerd in https://github.com/apple/swift-collections/pull/337\r\n* build: tweak search path for embedding by @compnerd in https://github.com/apple/swift-collections/pull/338\r\n* [OrderedDictionary] forward ordered dictionary values equality to values property by @vanvoorden in https://github.com/apple/swift-collections/pull/335\r\n* [OrderedSet] forward ordered set equality to elements property by @vanvoorden in https://github.com/apple/swift-collections/pull/340\r\n* [Deque] check deque equality with buffer identity by @vanvoorden in https://github.com/apple/swift-collections/pull/341\r\n* [OrderedDictionary] Fix usage of deprecated API in index(forKey:) docs by @lorentey in https://github.com/apple/swift-collections/pull/342\r\n* [1.0] Backport Sendable conformances on all public types by @lorentey in https://github.com/apple/swift-collections/pull/343\r\n* OrderedSet: Fix sendable conformance on old swifts by @lorentey in https://github.com/apple/swift-collections/pull/346\r\n* Update CMake configuration by @lorentey in https://github.com/apple/swift-collections/pull/347\r\n\r\n## New Contributors\r\n* @kati-kms made their first contribution in https://github.com/apple/swift-collections/pull/322\r\n* @vanvoorden made their first contribution in https://github.com/apple/swift-collections/pull/335\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.0.5...1.0.6\r\n\r\nThank you to everyone who contributed to this release!\r\n",
     "createdAt" : "2023-12-20T10:50:54+09:00",
     "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",

@@ -406,5 +406,17 @@
     "title" : "2.0.1",
     "url" : "https://github.com/uber/mockolo/releases/tag/2.0.1",
     "version" : "2.0.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Support `Sendable` compliant protocols and classes by @nhiroyasu in https://github.com/uber/mockolo/pull/254\r\n* Add artifactbundle for build tools plugin by @sidepelican in https://github.com/uber/mockolo/pull/256\r\n\r\n## Maintenance changes\r\n* Update swift-syntax to 509.0.0 by @pablocornejo in https://github.com/uber/mockolo/pull/247\r\n* Fix the version code concerning release by @kabirkhaan in https://github.com/uber/mockolo/pull/253\r\n* Update swift-syntax 510 by @sidepelican in https://github.com/uber/mockolo/pull/255\r\n* Bump up version to 2.1.0 by @sidepelican in https://github.com/uber/mockolo/pull/257\r\n* Fix release ci by @sidepelican in https://github.com/uber/mockolo/pull/258\r\n\r\n## New Contributors\r\n* @kabirkhaan made their first contribution in https://github.com/uber/mockolo/pull/253\r\n* @nhiroyasu made their first contribution in https://github.com/uber/mockolo/pull/254\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/2.0.1...2.1.1\n```swift\n.binaryTarget(\n    name: \"mockolo\",\n    url: \"https://github.com/uber/mockolo/releases/download/2.1.1/mockolo.artifactbundle.zip\",\n    checksum: \"e3aa6e3aacec6b75ee971d7ba1ed326ff22372a8dc60a581cec742441cdbd9db\"\n),\n```\n",
+    "createdAt" : "2024-04-23T17:51:10+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOCaWADM4JFMBS",
+    "owner" : "uber",
+    "publishedAt" : "2024-04-23T17:57:25+09:00",
+    "repository" : "mockolo",
+    "title" : "2.1.1",
+    "url" : "https://github.com/uber/mockolo/releases/tag/2.1.1",
+    "version" : "2.1.1"
   }
 ]

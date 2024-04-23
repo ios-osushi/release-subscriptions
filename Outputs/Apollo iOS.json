@@ -828,6 +828,30 @@
     "version" : "1.7.1"
   },
   {
+    "body" : "### Fixed\r\n\r\n- **Fix injecting of context for UploadRequest:** Any request context passed into an upload request was not being added to the HTTP request and would not be available to the interceptor chain. See PR ([#302](https://github.com/apollographql/apollo-ios-dev/pull/302)). _Thanks to [@RobertDresler](https://github.com/RobertDresler) for the contribution._\r\n- **Added support for SPM Package.resolved format version 3 ([#3355](https://github.com/apollographql/apollo-ios/issues/3355)):** When using Xcode 15.3 the codegen CLI would fail the `generate` command with an error stating the Package.resolve file version is unsupported. Version 3 is now accepted as a valid file format for the codegen version checker. See PR ([#304](https://github.com/apollographql/apollo-ios-dev/pull/304)).\r\n- **PrivacyInfo.xcprivacy file is invalid for Apollo and ApolloApi ([#3359](https://github.com/apollographql/apollo-ios/issues/3359)):** We received reports that when submitting to the App Store the submission would fail with an error stating that the privacy manifests were invalid. We identified the error and updated the privacy files. See PR ([#309](https://github.com/apollographql/apollo-ios-dev/pull/309)). _Thanks to [@azilbershtein](https://github.com/azilbershtein) for raising the issue._\r\n\r\n### Improvement\r\n\r\n- **Provide a direct means to observe changes in ApolloStore:** `ApolloStore` now exposes it's subscriber mechanism publicly. This means you can now observe and receive notifications about changes to the store. See PR ([#300](https://github.com/apollographql/apollo-ios-dev/pull/300)). _Thanks to [@jamesonwilliams](https://github.com/jamesonwilliams) for the contribution._\r\n- **Remove redundant iteration in EntitySelectionTree merging algorithm:** The conditions for merging selections were revisited and we identified, and removed, a redundant iteration. This is a significant performance improvement as it removes an entire additional iteration through all the conditional scopes in the tree. See PR ([#308](https://github.com/apollographql/apollo-ios-dev/pull/308)).",
+    "createdAt" : "2024-03-23T05:29:05+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA9NCTc4I0jUf",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-03-23T05:36:20+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.9.3",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.9.3",
+    "version" : "1.9.3"
+  },
+  {
+    "body" : "This is the second preview release of `@defer` support in Apollo iOS which focuses on providing early access to using the `@defer` directive in your operations. During preview releases bugs can occur, if you do experience anything unexpected please report it to us.\r\n\r\n**Note:** Apollo supports a very specific version of the `@defer` directive proposal as documented [here](https://www.apollographql.com/docs/router/executing-operations/defer-support#specification-status). The `@defer` directive is still in the proposal stage and is not an official addition to the [GraphQL specification](https://spec.graphql.org/draft/) yet. This means that Apollo iOS may not work with all servers that currently support `@defer`.\r\n\r\n### In this release\r\n* Fixed: If your schema explicitly declared the `@defer` directive then an error about duplicate directives would be thrown during code generation.\r\n* Fixed: In some cases the operation metadata for deferred fragments may have been generated with incorrect Swift syntax resulting in a build error.\r\n\r\n### How to use it\r\nWe have a [sample schema/server that supports `@defer`](https://github.com/apollographql/client-router-e2e-tests/tree/main) and can be  launched using the [Docker configuration](https://github.com/apollographql/client-router-e2e-tests/blob/main/scripts/docker-compose.router.yml).\r\n\r\nOnce you have that service launched you can configure your Apollo iOS client to target the `apollo-ios` and `apollo-ios-codegen` dependency packages using the `preview-defer.2` tag. Below is an example query using `@defer` against the schema.\r\n```\r\nquery ExampleQuery {\r\n  allProducts {\r\n    sku\r\n    id\r\n    ... on Product @defer(label: \"additional\") {\r\n      dimensions {\r\n        size\r\n      }\r\n      variation {\r\n        id\r\n        name\r\n      }\r\n    }\r\n  }\r\n}\r\n```\r\n\r\nAlternatively [here](https://github.com/apollographql/apollo-ios/files/13845848/DeferExampleClient.zip) is a sample client to demonstrate the code generation and operation execution of the `@defer` directive.\r\n\r\n**Caveats in this preview release**\r\n* Caching is intentionally disabled for operations using `@defer`.",
+    "createdAt" : "2024-04-05T08:59:57+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA9NCTc4I7urj",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-04-05T11:31:11+09:00",
+    "repository" : "apollo-ios",
+    "title" : "preview-defer.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/preview-defer.2",
+    "version" : "preview-defer.2"
+  },
+  {
     "body" : "This is the first preview release of `@defer` support in Apollo iOS which focuses on providing early access to using the `@defer` directive in your operations. During preview releases bugs can occur, if you do experience anything unexpected please report it to us.\r\n\r\n**Note:** Apollo supports a very specific early RFC version of the `@defer` directive as documented [here](https://www.apollographql.com/docs/router/executing-operations/defer-support#specification-status). The `@defer` directive is still an RFC and is not an official addition to the [GraphQL specification](https://spec.graphql.org/draft/) yet. This means that Apollo iOS may not work with all servers that currently support `@defer`.\r\n\r\n**How to use it**\r\nWe have a [sample schema/server that supports `@defer`](https://github.com/apollographql/client-router-e2e-tests/tree/main) and can be  launched using the [Docker configuration](https://github.com/apollographql/client-router-e2e-tests/blob/main/scripts/docker-compose.router.yml).\r\n\r\nOnce you have that service launched you can configure your Apollo iOS client to target the `apollo-ios` and `apollo-ios-codegen` dependency packages using the `preview/defer` branch. Below is an example query using `@defer` against the schema.\r\n```\r\nquery ExampleQuery {\r\n  allProducts {\r\n    sku\r\n    id\r\n    ... on Product @defer(label: \"additional\") {\r\n      dimensions {\r\n        size\r\n      }\r\n      variation {\r\n        id\r\n        name\r\n      }\r\n    }\r\n  }\r\n}\r\n```\r\n\r\nAlternatively [here](https://github.com/apollographql/apollo-ios/files/13845848/DeferExampleClient.zip) is a sample client to demonstrate the code generation and operation execution of the `@defer` directive.\r\n\r\n**Caveats in this preview release**\r\n* Caching is intentionally disabled for operations using `@defer`.",
     "createdAt" : "2024-01-06T03:17:29+09:00",
     "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
@@ -862,5 +886,41 @@
     "title" : "1.9.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.9.0",
     "version" : "1.9.0"
+  },
+  {
+    "body" : "### Fixed\r\n\r\n- **`SelectionSet` generated initializers don't compile with `self` parameter ([#3330](https://github.com/apollographql/apollo-ios/issues/3330)):** Selection set initializers now use a local property name when the external property name is a Swift reserved word; see PR [#257](https://github.com/apollographql/apollo-ios-dev/pull/257). _Thanks to [@grantjbutler](https://github.com/grantjbutler) for raising the issue._\r\n- **asXXXXXXX property on a union never returning `nil` if selection set empty ([#3326](https://github.com/apollographql/apollo-ios/issues/3326)):** - The codegen logic to determine whether a selection set is composite or not has been improved to handle the case when `__typename` was the only field in the selection set; see PR [#261](https://github.com/apollographql/apollo-ios-dev/pull/261). _Thanks to [@vincentisambart](https://github.com/vincentisambart) for raising the issue._\r\n\r\n### Improvement\r\n\r\n- **Feature/ContextIdentifier for the mutate queries ([#281](https://github.com/apollographql/apollo-ios-dev/pull/281)):** Mutation operations can now be given a context identifier to be used later in the request. _Thanks to [@VladimirK-ah](https://github.com/VladimirK-ah) for the contribution._",
+    "createdAt" : "2024-03-05T05:05:03+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA9NCTc4IoD2T",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-03-05T05:34:32+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.9.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.9.1",
+    "version" : "1.9.1"
+  },
+  {
+    "body" : "Alongside the release of Apollo iOS 1.9.2, we are excited to announce the release of [Apollo iOS Pagination](https://github.com/apollographql/apollo-ios-pagination)! This package works alongside the Apollo iOS Client to make fetching and caching of paginated data a lot easier! Fetching paginated data has always been a pain point with our mobile clients, and an elegant solution for this has been a common feature request for many years. This library is feature rich and highly configurable, so we believe that it will be able to make this previously complex and difficult task a lot easier for our users!\r\n\r\nThis library supports:\r\n- Reading/Writing paginated data with an Apollo NormalizedCache\r\n- Watching paginated data for changes\r\n- Forward, Reverse, and Bi-directional pagination\r\n- Cursor-based, offset-based, and custom pagination mechanisms\r\n\r\nThis library is currently released as a 0.x version and is in active development. The API is subject to breaking changes until the stable 1.0 release. We hope that you will check it out and give us your feedback so that we can address any API improvements, edge cases, bugs, or valuable features we hadn’t considered before moving to a 1.0 release soon!\r\n\r\nTo learn more about Apollo iOS Pagination, see our [usage docs](https://www.apollographql.com/docs/ios/pagination/introduction).\r\n\r\n### Fixed\r\n\r\n- **Backwards Compatibility issues in 1.9.1:** 1.9.1 introduced a minor breaking change for some users who were creating a custom implementaiton of `ApolloClientProtocol`. Sorry about that! This patch release fixed the compatiblity. See PR [#290](https://github.com/apollographql/apollo-ios-dev/pull/290). _Thanks to [@michaelloo](https://github.com/michaelloo) for raising the issue._\r\n\r\n### Improvement\r\n\r\n- **Session and task descriptions parameters added to `URLSessionClient` ([#286](https://github.com/apollographql/apollo-ios-dev/pull/286)):** The `URLSessionClient` now allows you to set a `sessionDescription` on the session and `taskDescription` on each task. These are helpful when debugging, especially when analyzing HTTP traffic with Instruments. _Thanks to [@hishma](https://github.com/hishma) for the contribution._",
+    "createdAt" : "2024-03-09T06:56:14+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA9NCTc4IrTSi",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-03-09T07:02:16+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.9.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.9.2",
+    "version" : "1.9.2"
+  },
+  {
+    "body" : "### New\r\n\r\n- **Added support for visionOS ([#3320](https://github.com/apollographql/apollo-ios/issues/3320)):** All the dependecies that Apollo iOS requires have been updated to add support for visionOS, so we can now add official support for visionOS too. See PR [#333](https://github.com/apollographql/apollo-ios-dev/pull/333).\r\n\r\n### Improvement\r\n\r\n- **Add Sendable conformance to some basic SchemaTypes:** This adds `Sendable` conformance to the some of the generated schema types. This does not mean that all of the generated code is safe to use yet with complete concurrency checking of Swift 5.10 but it gets us closer to that goal. See PR [#322](https://github.com/apollographql/apollo-ios-dev/pull/322). _Thanks to [@bdbergeron](https://github.com/bdbergeron) for the contributon._",
+    "createdAt" : "2024-04-16T05:31:27+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA9NCTc4JA-Fj",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-04-16T05:41:07+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.10.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.10.0",
+    "version" : "1.10.0"
   }
 ]

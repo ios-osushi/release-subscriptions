@@ -936,6 +936,18 @@
     "version" : "0.52.10"
   },
   {
+    "body" : "- Fixed bug where a space was incorrectly added before a `.` operator inside attribute arguments\r\n- The `redundantType` rule no longer strips required explicit type from `@Model` class default values\r\n- Fixed issue where `redundantInit` didn't work on collection types\r\n- The `redundantParens` rule now correctly handles `@MainActor` closures\r\n- Fixed bug where required parens were removed around `each X` parameter pack expressions\r\n- Fixed issue where `--wrapreturntype if-multiline` didn't work with arrays, dictionaries, tuples, or generic types\r\n- The `spaceAroundParens/Brackets` rules now correctly insert a space after `borrowing`/`consuming` and `isolated`\r\n- Fixed spurious line breaks inserted between scoped `import` statements\r\n- Added `--doccomments preserve` option to preserve all doc comments, even if not followed by a declaration",
+    "createdAt" : "2024-04-11T14:00:30+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA_OyXc4I-0zo",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-04-11T14:03:38+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.6",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.6",
+    "version" : "0.53.6"
+  },
+  {
     "body" : "- Added `preferForLoop` rule to convert `forEach { ... }` calls to regular `for` loops\r\n- Added `wrapLoopBodies` rule to wrap single-line loop bodies over multiple lines\r\n- Added `noExplicitOwnership` rule to remove unwanted `borrowing` and `consuming` modifiers\r\n- Added `wrapMultilineConditionalAssignment` rule to wrap `if` or `switch` expressions to new line\r\n- The `wrapAttributes` rule no longer unwraps attributes if they would exceed `--maxwidth`\r\n- The `typeSugar` rule's `--shortoptionals` option now defaults to `except-properties`\r\n- Enabled `blankLinesBetweenChainedFunctions` rule by default\r\n- Enabled `blankLineAfterImports` rule by default\r\n- Fixed `self` being incorrectly inserted before `set` clause in computed properties\r\n- Fixed a bug in `parseType()` helper function where qualified types were not recognized\r\n- Fixed Xcode command plugin\r\n",
     "createdAt" : "2024-01-09T04:19:59+09:00",
     "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
@@ -982,5 +994,53 @@
     "title" : "0.53.3",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.3",
     "version" : "0.53.3"
+  },
+  {
+    "body" : "- The `enumNamespaces` rule is no longer applied to structs with attributes or macros\r\n- The new `nonisolated(unsafe)` modifier is now handled correctly\r\n- Added support for `do throws(Type) { ... }` clauses",
+    "createdAt" : "2024-03-09T17:07:35+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA_OyXc4IrdNN",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-03-09T17:29:42+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.4",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.4",
+    "version" : "0.53.4"
+  },
+  {
+    "body" : "- Fixed bug with trailing comma being inserted into wrapped capture list\r\n- Fixed bugs with parsing `nonisolated(unsafe)` modifiers\r\n- Fixed bug with hoisting `try` or `async` after a string literal expression\r\n- Fixed issue with parsing expressions containing generic arguments\r\n- Lint warnings are now displayed as errors when not running in `--lenient` mode\r\n- Improved error message for unexpected `static`/`class` modifiers\r\n- Added Swift 6.0 to list of supported Swift versions",
+    "createdAt" : "2024-03-17T18:50:39+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA_OyXc4Iwe2z",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-03-17T21:17:57+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.5",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.5",
+    "version" : "0.53.5"
+  },
+  {
+    "body" : "- Fixed bug with `redundantParens` where first parens inside a closure were spuriously removed\r\n- Fixed `wrapEnumCases` rule mangling unindented cases\r\n- The `wrapEnumCases` rule no longer wraps cases inside inline enum declarations\r\n- Improved the `redundantInit` metatype heuristic to reduce false positives \r\n",
+    "createdAt" : "2024-04-14T17:54:36+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA_OyXc4JAQKk",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-04-14T17:59:00+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.7",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.7",
+    "version" : "0.53.7"
+  },
+  {
+    "body" : "- Added `--strict` option to emit non-zero exit code after applying changes in formatting mode\r\n- The `enumNamespaces` rule is no longer applied to structs with macros that have generic arguments\r\n- The `opaqueGenericParameters` rule is no longer applied to structs with macros or attributes\r\n- Fixed another case where `redundantParens` spuriously removed parens inside a closure\r\n- Fixed bug where `redundantInit` mishandled a `.init` after a ternary operator ",
+    "createdAt" : "2024-04-23T03:26:03+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOA_OyXc4JE-9a",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-04-23T07:30:56+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.8",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.8",
+    "version" : "0.53.8"
   }
 ]

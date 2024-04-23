@@ -720,6 +720,18 @@
     "version" : "5.18.5"
   },
   {
+    "body" : "See [all tickets marked for the 5.19.1 release](https://github.com/SDWebImage/SDWebImage/milestone/133)\r\n\r\n### Features\r\n- Allows the transformer to preserve the UIImage metadata like image format #3688\r\n- Add a protect when NSString passed into sd_setImageWithURL API (which should be NSURL instance) #3686 @aasdsjk \r\n\r\n### Performance\r\n- Replace NSFileManager.enumeratorAtPath with enumeratorAtURL for performance and RAM saving #3690 @ChengzhiHuang \r\n\r\n### Warnings\r\n- mark SDWebImageCacheKeyFilter default initializer unavailable & add missing default case of SDCallbackQueue sync/async function #3683 @adamwangxx ",
+    "createdAt" : "2024-03-26T18:22:37+09:00",
+    "fetchedFromAPIAt" : "2024-04-23T22:42:10+09:00",
+    "id" : "RE_kwDOAATIS84I2OZr",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-03-26T18:24:54+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.19.1 - 5.9 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.1",
+    "version" : "5.19.1"
+  },
+  {
     "body" : "See [all tickets marked for the 5.18.8 release](https://github.com/SDWebImage/SDWebImage/milestone/128)\r\n\r\n### Fixes\r\n- Fix the issue when using the sd_cancelCurrentImageLoad on non-stateful view (like UIImageView.image) #3653\r\n\r\n",
     "createdAt" : "2023-12-27T22:16:47+09:00",
     "fetchedFromAPIAt" : "2024-01-23T13:39:16+09:00",
