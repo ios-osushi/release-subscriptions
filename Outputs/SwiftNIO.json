@@ -754,5 +754,17 @@
     "title" : "SwiftNIO 2.65.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.65.0",
     "version" : "2.65.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add `ByteBuffer` support to `BufferedWriter` (#2707)\r\n- Add `withTemporaryDirectory` (#2708)\r\n- Replace `R` with `ReturnType` (#2709)\r\n- Add a version of 'write' for `ByteBuffer` to `WritableFileHandleProtocol` (#2730)\r\n\r\n### SemVer Patch\r\n\r\n- Remove surplus `Sendable` requirements from FileSystem with methods (#2706)\r\n- concurrency takeover safe for 6.0 (#2710)\r\n- Release file handles back to caller on failure to take ownership (#2715)\r\n- clean up @retroactive conformances (#2719)\r\n- Remove storage indirection for FileSystemError (#2726)\r\n- Improve rename error (#2731)\r\n- Add a fallback path if renameat2 fails (#2733)\r\n\r\n### Other Changes\r\n\r\n- Fix race in TCPThroughputBenchmark (#2724, patch credit to @ser-0xff)\r\n- Exclude unused privacy manifests. (#2716)\r\n- No longer need test discovery command line. (#2717)\r\n- Update PosixSingletons+ConcurrencyTakeOver.swift (#2721)\r\n- Add slack to rst allocation tests (#2722)\r\n- testSimpleMPTCP should not fail for ENOPROTOOPT (#2725)",
+    "createdAt" : "2024-05-31T17:30:50+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOBy6rG84JdFBF",
+    "owner" : "apple",
+    "publishedAt" : "2024-06-04T00:25:00+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.66.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.66.0",
+    "version" : "2.66.0"
   }
 ]

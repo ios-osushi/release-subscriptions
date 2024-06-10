@@ -166,5 +166,17 @@
     "title" : "Swift Collections 1.1.0",
     "url" : "https://github.com/apple/swift-collections/releases/tag/1.1.0",
     "version" : "1.1.0"
+  },
+  {
+    "body" : "This patch release resolves issues uncovered since version 1.1.0 was published.\r\n\r\n## What's Changed\r\n\r\n- This version fixes a bogus assertion in `Deque` that can cause incorrect runtime traps in debug builds. (#381)\r\n- The unstable module `_CollectionsUtilities` was renamed to `InternalCollectionsUtilities` to work around an issue in shipping versions of Xcode. This renaming is not intended to make this module public -- it remains an unstable implementation detail. (#364)\r\n\r\n## New Contributors\r\n* @iCharlesHu made their first contribution in https://github.com/apple/swift-collections/pull/373\r\n* @jmschonfeld made their first contribution in https://github.com/apple/swift-collections/pull/385\r\n\r\nMany thanks to our contributors for their work!\r\n\r\n## List of Pull Requests\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.1.0...1.1.1\r\n\r\n* Update README by @lorentey in https://github.com/apple/swift-collections/pull/360\r\n* Add post-merge CI support for release/1.1 branch by @shahmishal in https://github.com/apple/swift-collections/pull/368\r\n* Rename RopeModule to _RopeModule in CMakeLists.txt to match Package.swift by @iCharlesHu in https://github.com/apple/swift-collections/pull/373\r\n* Fix the incorrect file name in OrderedCollections cmake file by @iCharlesHu in https://github.com/apple/swift-collections/pull/377\r\n* [Deque]: Fix bogus assert in Deque._Storage._ensureUnique by @lorentey in https://github.com/apple/swift-collections/pull/381\r\n* [test] TreeDictionary.Keys: Remove stray print that’s flooding test output by @lorentey in https://github.com/apple/swift-collections/pull/370\r\n* Rename _CollectionsUtilities to InternalCollectionsUtilities by @lorentey in https://github.com/apple/swift-collections/pull/382\r\n* [Rope] Fix copy-on-write violation in Rope.join by @lorentey in https://github.com/apple/swift-collections/pull/384\r\n* Add Single Module Build Mode to CMake for Foundation by @jmschonfeld in https://github.com/apple/swift-collections/pull/385\r\n",
+    "createdAt" : "2024-06-04T08:15:50+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:52+09:00",
+    "id" : "RE_kwDOFDfRzs4JfmL2",
+    "owner" : "apple",
+    "publishedAt" : "2024-06-08T08:33:23+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 1.1.1",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.1.1",
+    "version" : "1.1.1"
   }
 ]

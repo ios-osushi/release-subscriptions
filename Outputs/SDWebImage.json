@@ -802,5 +802,29 @@
     "title" : "5.19.0 - CocoaPods X VisionOS",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.0",
     "version" : "5.19.0"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.19.2 release](https://github.com/SDWebImage/SDWebImage/milestone/134)\r\n\r\n### Fixes\r\n- [Important] Fix some performance regression when SDAnimatedImage created with static format like JPEG #3708\r\n- Fix that colorSpaceGetDeviceRGB cache the color space even when active display changed #3712\r\n\r\n### Project\r\n- Added GitHub action to release XCFramework which is self-signed #3711 #3709\r\n- - This is the canonical release of binary framework. Import [certifacate](https://github.com/SDWebImage/SDWebImage/blob/master/Certificate/SDWebImage%20Signing%20Certificate.cer) and verify the [public key](https://github.com/SDWebImage/SDWebImage/blob/master/Certificate/SDWebImage%20Signing%20Certificate.pem) when you download the binary framework from unknown sources to avoid supply chain attack.\r\n- - For Carthage user who build its own SDWebImage binary framwork, you must sign yourself.\r\n- - See more in https://developer.apple.com/documentation/Xcode/verifying-the-origin-of-your-xcframeworks\r\n- Fix CocoaPods resource bundle when using only `SDWebImage/Core`",
+    "createdAt" : "2024-05-08T19:17:34+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAATIS84JOR51",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-05-08T18:46:30+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.19.2 - Canonical Binary XCFramework",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.2",
+    "version" : "5.19.2"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.19.3 release](https://github.com/SDWebImage/SDWebImage/milestone/135)\r\n\r\n### Fixes\r\n- Fix the detection of SVGImageRep on macOS AppKit #3716\r\n\r\n",
+    "createdAt" : "2024-05-30T15:43:39+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAATIS84JbKZq",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-05-30T15:56:35+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.19.3 - 5.19 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.3",
+    "version" : "5.19.3"
   }
 ]

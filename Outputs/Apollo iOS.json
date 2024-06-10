@@ -922,5 +922,53 @@
     "title" : "1.10.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.10.0",
     "version" : "1.10.0"
+  },
+  {
+    "body" : "### New\r\n\r\n- **Added `refetchOnFailedUpdates` option to `GraphQLQueryWatcher` ([#347](https://github.com/apollographql/apollo-ios-dev/pull/347)):** This allows you to configure the query watcher not to refetch it's query from the server when a cache read to update it's data fails.\r\n \r\n### Fixed\r\n\r\n- **Generated input objects have default `nil` value for parameters with a schema-defined default value ([#2997](https://github.com/apollographql/apollo-ios/issues/2997)):** When the schema defines a default value for an input parameter, you can now omit that parameter when initializing the input object and the default value will be used. This corrects feature parity with the Apollo Kotlin client. See PR [#358](https://github.com/apollographql/apollo-ios-dev/pull/358).\r\n\r\n- **Fix namespacing error in `InterfaceTemplate` ([#3375](https://github.com/apollographql/apollo-ios/issues/3375)):** This fixes an issue where having a schema type named `Interface` caused compilation errors in generated code. See PR [#359](https://github.com/apollographql/apollo-ios-dev/pull/359).\r\n",
+    "createdAt" : "2024-05-16T03:32:18+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOA9NCTc4JS200",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-05-16T03:29:51+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.11.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.11.0",
+    "version" : "1.11.0"
+  },
+  {
+    "body" : "### Fixed\r\n* **Rebuilt the CLI binary:** The CLI binary included in the `1.12.0` package was built with inconsistent SDK versions resulting in the linker signing not working correctly.",
+    "createdAt" : "2024-05-23T06:14:27+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOA9NCTc4JW6Ea",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-05-23T06:18:37+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.12.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.12.1",
+    "version" : "1.12.1"
+  },
+  {
+    "body" : "### New\r\n- **`ID` as a custom scalar ([#3379](https://github.com/apollographql/apollo-ios/issues/3379)):** This changes the generation of the built-in GraphQL `ID` scalar to be treated as a custom scalar that can be modified by the user. See PR [#363](https://github.com/apollographql/apollo-ios-dev/pull/363).\r\n\r\n### Fixed\r\n- **Adds visionOS deployment to ApolloTestSupport podspec ([#364](https://github.com/apollographql/apollo-ios-dev/pull/364)):** This adds the `visionOS` deployment target to the ApolloTestSupport podspec to match the other package managers.\r\n- **Add `@_spi(Execution)` to executor for import in test mocks ([#362](https://github.com/apollographql/apollo-ios-dev/pull/362)):** This replaces the use of `@testable` in ApolloTestSupport with specific `@_spi` scopes. This resolves a few issues that have been reported where the Apollo module could not be built for testing in non-debug configurations.",
+    "createdAt" : "2024-05-22T08:36:28+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOA9NCTc4JWEaD",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-05-22T08:38:19+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.12.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.12.0",
+    "version" : "1.12.0"
+  },
+  {
+    "body" : "### Fixed\r\n- **Rebuilt the CLI binary with the correct version number:** The CLI binary included in the `1.12.1` package was built with an incorrect version number causing a version mismatch when attempting to execute code generation.\r\n",
+    "createdAt" : "2024-05-24T05:20:58+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOA9NCTc4JXr9R",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-05-24T05:23:46+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.12.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.12.2",
+    "version" : "1.12.2"
   }
 ]

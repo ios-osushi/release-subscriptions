@@ -502,5 +502,17 @@
     "title" : "Swift 5.10 Release",
     "url" : "https://github.com/apple/swift/releases/tag/swift-5.10-RELEASE",
     "version" : "swift-5.10-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-06-06T13:26:30+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAqwwJc4JffHr",
+    "owner" : "apple",
+    "publishedAt" : "2024-06-07T03:25:16+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.10.1 Release",
+    "url" : "https://github.com/apple/swift/releases/tag/swift-5.10.1-RELEASE",
+    "version" : "swift-5.10.1-RELEASE"
   }
 ]

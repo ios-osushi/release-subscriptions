@@ -562,5 +562,17 @@
     "title" : "v7.4.1",
     "url" : "https://github.com/Quick/Quick/releases/tag/v7.4.1",
     "version" : "v7.4.1"
+  },
+  {
+    "body" : "# Highlights\r\n\r\n- Add QuickLint, a CLI tool & Xcode plugin to detect focus specs and remove the focus.\r\n- Async DSL: Marks the async version of `sharedExamples` as unavailable. Previously, `sharedExamples` would just not be found, and this clarifies that `sharedExamples` is intentionally unavailable in the async DSL.\r\n\r\n# Automated Changelog\r\n\r\n## What's Changed\r\n* Bump rake from 13.1.0 to 13.2.1 by @dependabot in https://github.com/Quick/Quick/pull/1281\r\n* named the context param aContext to match the actual protocol by @Noobish1 in https://github.com/Quick/Quick/pull/1283\r\n* Add QuickLint, a CLI tool to detect focused specs, and optionally remove the focus. by @younata in https://github.com/Quick/Quick/pull/1280\r\n\r\n## New Contributors\r\n* @Noobish1 made their first contribution in https://github.com/Quick/Quick/pull/1283\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v7.5.0...v7.6.0",
+    "createdAt" : "2024-05-13T01:43:49+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOATjllM4JQ0dY",
+    "owner" : "Quick",
+    "publishedAt" : "2024-05-13T01:45:19+09:00",
+    "repository" : "Quick",
+    "title" : "7.6.0 - QuickLint",
+    "url" : "https://github.com/Quick/Quick/releases/tag/v7.6.0",
+    "version" : "v7.6.0"
   }
 ]

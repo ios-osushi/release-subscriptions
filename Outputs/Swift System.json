@@ -94,5 +94,17 @@
     "title" : "System 1.2.1",
     "url" : "https://github.com/apple/swift-system/releases/tag/1.2.1",
     "version" : "1.2.1"
+  },
+  {
+    "body" : "1.3.0 release\r\n\r\nThis release primarily addresses a number of platform support issues.\r\n\r\n## What's New\r\n\r\n- Support for visionOS\r\n- Support for musl libc\r\n\r\n## What's Changed\r\n\r\n- swift-system now requires Swift 5.8\r\n- The `Collection` conformance of the  `SystemString` has been improved. This makes it compatible with the Swift 6.0 standard library, in which `Array`'s `replaceSubrange()` has become stricter about the correctness of the `Collection` types it handles.\r\n- The cmake configuration now understands more spellings for Arm64, improving compatibility with Windows compilers.\r\n- Adapted two syscall wrappers to support unusual nullability annotations in Android's NDK 26. The package needs this to build against recent NDKs.\r\n\r\n## New Contributors\r\n\r\n- [@MaxDesiatov](https://github.com/MaxDesiatov) made their first contribution in https://github.com/apple/swift-system/pull/133, cherry-picked here.\r\n- [@finagolfin](https://github.com/finagolfin) made their first contribution in https://github.com/apple/swift-system/pull/148, cherry-picked here.\r\n- [@hjyamauchi](https://github.com/hjyamauchi) made their first contribution in https://github.com/apple/swift-system/pull/151, cherry-picked here.\r\n- [@noahpistilli](https://github.com/noahpistilli) made their first contribution in https://github.com/apple/swift-system/pull/152, adapted here.\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.2.1...1.3.0",
+    "createdAt" : "2024-05-16T06:48:03+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:52+09:00",
+    "id" : "RE_kwDOEcmZD84JTGBP",
+    "owner" : "apple",
+    "publishedAt" : "2024-05-16T13:31:41+09:00",
+    "repository" : "swift-system",
+    "title" : "1.3.0",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.3.0",
+    "version" : "1.3.0"
   }
 ]

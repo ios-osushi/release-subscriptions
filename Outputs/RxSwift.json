@@ -382,5 +382,17 @@
     "title" : "Seder 🌾",
     "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.7.0",
     "version" : "6.7.0"
+  },
+  {
+    "body" : "RxSwift 6.7.1 🌾\r\n\r\n- Fixed an issue preventing RxSwift to build on visionOS ",
+    "createdAt" : "2024-05-01T18:40:09+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAgA5b84JKQHQ",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2024-05-02T00:50:41+09:00",
+    "repository" : "RxSwift",
+    "title" : "Seder.1 🌾",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.7.1",
+    "version" : "6.7.1"
   }
 ]

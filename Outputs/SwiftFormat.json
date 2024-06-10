@@ -1042,5 +1042,29 @@
     "title" : "0.53.8",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.8",
     "version" : "0.53.8"
+  },
+  {
+    "body" : "- Fixed bug in `unusedArguments` when shadowing function argument with conditional assignment declaration\r\n- Individual `--lint` errors are no longer shown in `--quiet` mode (restores pre-0.53.8 behavior)",
+    "createdAt" : "2024-05-13T03:51:19+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOA_OyXc4JQ1_w",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-05-13T05:26:10+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.9",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.9",
+    "version" : "0.53.9"
+  },
+  {
+    "body" : "- Fixed creation of spurious `stdout` directory when using `--output stdout`\r\n- Fixed `unusedArguments` false positive for multiline function call arguments\r\n- Fixed parsing of generic arguments containing attributes or `~` operator\r\n- Fixed spurious errors about missing `--report` or `--reporter` arguments\r\n- Fixed `strongifiedSelf` removing required backticks around nonisolated `self`\r\n- Deprecated explicit `default` value for `--reporter` (introduced in 0.53.9)\r\n- Added support for `sending` keyword \r\n",
+    "createdAt" : "2024-05-19T01:36:43+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOA_OyXc4JUjQm",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-05-19T03:12:39+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.53.10",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.10",
+    "version" : "0.53.10"
   }
 ]

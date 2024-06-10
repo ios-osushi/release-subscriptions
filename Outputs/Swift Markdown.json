@@ -34,5 +34,17 @@
     "title" : "Swift 5.10 Release",
     "url" : "https://github.com/apple/swift-markdown/releases/tag/swift-5.10-RELEASE",
     "version" : "swift-5.10-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-11-14T23:40:15+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOFxlFeM4JfguG",
+    "owner" : "apple",
+    "publishedAt" : "2024-06-07T04:11:19+09:00",
+    "repository" : "swift-markdown",
+    "title" : "Swift 5.10.1 Release",
+    "url" : "https://github.com/apple/swift-markdown/releases/tag/swift-5.10.1-RELEASE",
+    "version" : "swift-5.10.1-RELEASE"
   }
 ]

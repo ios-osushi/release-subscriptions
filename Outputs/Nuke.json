@@ -946,5 +946,65 @@
     "title" : "Nuke 12.4",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.4.0",
     "version" : "12.4.0"
+  },
+  {
+    "body" : "## Fixes\r\n\r\n- Fix an issue with an optimization that is supposed to skip decompression if one or more processors are applied\r\n- Fix a `[Decompressor] Error -17102 decompressing image -- possibly corrupt` console error message when using `ImagePipeline.Configuration.isUsingPrepareForDisplay` (disabled by default). The pipeline will now skip decompression for `.png`.  \r\n- Fix https://github.com/kean/Nuke/issues/705 with integration between thumbnail options (link) and original data caching: the original data is now stored without a thumbnail key\r\n- Fix an issue where `.storeAll` and `.automatic` cache policies would not store the thumbnail data\r\n- Fix https://github.com/kean/Nuke/issues/746 an issue with `ImageRequest.UserInfoKey.scaleKey` not interacting correctly with coalescing \r\n- Fix https://github.com/kean/Nuke/issues/763 SwiftUI Warning: Accessing StateObject's object without being installed on a View when using `onStart`\r\n\r\n## Changes\r\n\r\n- Add support for initializing `ImageProcessors.CoreImageFilter` with `CIFilter` instances (fixes https://github.com/kean/Nuke/issues/758 )\r\n- Add support for disk cache lookup for intermediate processed images (as opposed to only final and original as before)\r\n- Add an optimization that loads local resources with `file` and `data` schemes quickly without using `DataLoader` and `URLSession`. If you rely on the existing behavior, this optimization can be turned off using the `isLocalResourcesSupportEnabled` configuration option. https://github.com/kean/Nuke/pull/779\r\n- Update the infrastructure for coalescing image-processing tasks to use the task-dependency used for other operations\r\n\r\n## Deprecations\r\n\r\n- Deprecate `ImagePipeline.Configuration.dataCachingQueue` and perform data cache lookups on the pipeline's queue, reducing the amount of context switching",
+    "createdAt" : "2024-04-24T10:48:55+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAeh5z84JFxUE",
+    "owner" : "kean",
+    "publishedAt" : "2024-04-24T10:51:39+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.6",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.6.0",
+    "version" : "12.6.0"
+  },
+  {
+    "body" : "🐛 **Call for Testing**. This release contains some major internal changes to the core APIs. Please help with testing the newly introduced and the existing `ImagePipeline` APIs, and report any issues before it gets shipped.\r\n\r\nThis release contains some major improvements to the Structured Concurrency support and introduced a re-engineered `ImagePipeline`.\r\n\r\n- Add `previews: AsyncStream<ImageResponse>`, `progress: AsyncStream<Progress>`, `image: PlatformImage async` and `reponse: ImageResponse async` directly to `ImageTask` and deprecate `AsyncImageTask`. These APIs have zero cost unless you use them.\r\n- Add `ImageTask.Event` and add `events: AsyncStream<Event>` to `ImageTask` for observing _all_ events associated with the image loading.\r\n- Improve the support for `AsyncStream`: a new stream is created every time you access the respective property to make it easier to have multiple consumers. \r\n- Add `ImagePipelineDelegate/imageTask(:didReceiveEvent:pipeline:)` and deprecate the previous methods it replaced (context: these methods were introduced in [Nuke 11.0](https://github.com/kean/Nuke/releases/tag/11.0.0) as the initial and misguided attempt at Structured Concurrency support that tried to borrow from the `URLSession` API design)\r\n- (Internal) Rework `ImagePipeline` that accumulated a lot of cruft after the introduction of data tasks, Combine, Async/Await, and AsyncStream support in the previous releases.\r\n- Deprecate `ImagePipeline/loadData(with:)` and `ImagePipeline/data(with:)` methods that accept `URL` as parameters – use the `ImageRequest` variants instead (these are rarely used and low-level APIs that don't require convenience variants)\r\n- Remove `@discardableResult` from `ImagePipeline/data(with:) async throws` – it was never meant to be there \r\n- Rename `ImageTask/progress` to `ImageTask/currentProgress` (warning: this is a small breaking change in the API)\r\n- Fix some of the Strict Concurrency Checking & Swift 6 warnings preparing for the upcoming Swift releases\r\n- Fix documentation for `AsyncImageTask/previews` that was previously specifying that it was delivering the previews _and_ the final image – it's only the previews.",
+    "createdAt" : "2024-05-07T09:10:38+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAeh5z84JNWEi",
+    "owner" : "kean",
+    "publishedAt" : "2024-05-07T09:32:19+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.7 (Beta 1)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.7.0-beta.1",
+    "version" : "12.7.0-beta.1"
+  },
+  {
+    "body" : "This release contains major improvements to the Structured Concurrency support and `ImagePipeline` internals.\r\n\r\n- Add `previews: AsyncStream<ImageResponse>`, `progress: AsyncStream<Progress>`, `image: PlatformImage async` and `response: ImageResponse async` directly to `ImageTask` and deprecate `AsyncImageTask`. These APIs have zero cost unless you use them.\r\n- Add `ImageTask.Event` and add `events: AsyncStream<Event>` to `ImageTask` for observing _all_ events associated with the image loading.\r\n- Improve the support for `AsyncStream`: a new stream is created every time you access the respective property to make it easier to have multiple consumers. \r\n- Add `ImagePipelineDelegate/imageTask(:didReceiveEvent:pipeline:)` and deprecate the previous methods it replaced (context: these methods were introduced in [Nuke 11.0](https://github.com/kean/Nuke/releases/tag/11.0.0) as the initial and misguided attempt at Structured Concurrency support that tried to borrow from the `URLSession` API design)\r\n- (Internal) Rework `ImagePipeline` that accumulated a lot of cruft after the introduction of data tasks, Combine, Async/Await, and AsyncStream support in the previous releases.\r\n- Deprecate `ImagePipeline/loadData(with:)` and `ImagePipeline/data(with:)` methods that accept `URL` as parameters – use the `ImageRequest` variants instead (these are rarely used and low-level APIs that don't require convenience variants)\r\n- Remove `@discardableResult` from `ImagePipeline/data(with:) async throws` – it was never meant to be there \r\n- Rename `ImageTask/progress` to `ImageTask/currentProgress` (warning: this is a small breaking change in the API)\r\n- Fix some of the Strict Concurrency Checking & Swift 6 warnings preparing for the upcoming Swift releases\r\n- Fix documentation for `AsyncImageTask/previews` that was previously specifying that it was delivering the previews _and_ the final image – it's only the previews.\r\n- Fix https://github.com/kean/Nuke/issues/782, an issue with grayscale images (8 bpp) not being rendered correctly when `Resize` processor is used",
+    "createdAt" : "2024-05-18T22:11:03+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAeh5z84JUg-v",
+    "owner" : "kean",
+    "publishedAt" : "2024-05-18T22:21:50+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.7",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.7.0",
+    "version" : "12.7.0"
+  },
+  {
+    "body" : "- Fix fade transition in some scenarios by @ejensen in https://github.com/kean/Nuke/pull/786\r\n- Remove `taskDescription` from network tasks by @ejensen in https://github.com/kean/Nuke/pull/785\r\n- Temporarily revert the change introduced in v12.6 that would skip decompression for some image types – more info in https://github.com/kean/Nuke/issues/788\r\n",
+    "createdAt" : "2024-05-31T12:24:39+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAeh5z84Jbxuc",
+    "owner" : "kean",
+    "publishedAt" : "2024-05-31T12:31:50+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.7.1",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.7.1",
+    "version" : "12.7.1"
+  },
+  {
+    "body" : "- Fix https://github.com/kean/Nuke/issues/789, an issue with `ImageProcessors.Resize` failing to resize images with packed pixel formats",
+    "createdAt" : "2024-06-09T04:43:06+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAeh5z84Jgi1B",
+    "owner" : "kean",
+    "publishedAt" : "2024-06-09T04:46:16+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 12.7.2",
+    "url" : "https://github.com/kean/Nuke/releases/tag/12.7.2",
+    "version" : "12.7.2"
   }
 ]

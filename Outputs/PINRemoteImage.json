@@ -358,5 +358,17 @@
     "title" : "3.0 beta 13: Animated WebP support / better GIF handling",
     "url" : "https://github.com/pinterest/PINRemoteImage/releases/tag/3.0.0-beta.13",
     "version" : "3.0.0-beta.13"
+  },
+  {
+    "body" : "# Changelog\n\n## [releases/p12.19](https://github.com/Pinterest/PINRemoteImage/tree/releases/p12.19) (2024-04-29)\n\n[Full Changelog](https://github.com/Pinterest/PINRemoteImage/compare/releases/p12.20...releases/p12.19)\n\n",
+    "createdAt" : "2024-05-16T04:27:35+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOAltJz84JS5dj",
+    "owner" : "pinterest",
+    "publishedAt" : "2024-05-16T04:27:38+09:00",
+    "repository" : "PINRemoteImage",
+    "title" : "3.0.4",
+    "url" : "https://github.com/pinterest/PINRemoteImage/releases/tag/3.0.4",
+    "version" : "3.0.4"
   }
 ]

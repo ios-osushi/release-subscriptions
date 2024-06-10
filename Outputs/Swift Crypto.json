@@ -430,5 +430,17 @@
     "title" : "Swift Crypto 3.3.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.3.0",
     "version" : "3.3.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Update lower bound for RSA key sizes (#218, patch credit to @ptoffy)\r\n\r\n### SemVer Patch\r\n\r\n- Add empty privacy manifest files (#226)\r\n- Use BoringSSL implementation for `_CryptoExtras.AES._CTR` (#229)",
+    "createdAt" : "2024-05-08T00:10:20+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOC9Swts4JPNbz",
+    "owner" : "apple",
+    "publishedAt" : "2024-05-10T02:56:01+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.4.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.4.0",
+    "version" : "3.4.0"
   }
 ]

@@ -1234,5 +1234,77 @@
     "title" : "1.9.3",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.9.3",
     "version" : "1.9.3"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: All new state sharing tools, including the `@Shared` property wrapper and more (https://github.com/pointfreeco/swift-composable-architecture/pull/2858). (Thanks @NFulkerson, @hallee, @pyrtsa, @DandyLyons, @hiltonc, @lukeredpath, @andtie, @AlexKobachiJP, @ZevEisenberg, for their contributions!)\r\n* Updated: Bumped swift-collections to remove `@unchecked` from `StackState`'s `Sendable` conformance (thanks @rhysm94, https://github.com/pointfreeco/swift-composable-architecture/pull/2997).\r\n* Updated: Bumped swift-custom-dump to avoid a crash and leverage the latest tools for shared state (thanks @y-mimura, https://github.com/pointfreeco/swift-composable-architecture/pull/3008).\r\n* Infrastructure: Update README.md package addition wording to match latest Xcode (thanks @dafurman, https://github.com/pointfreeco/swift-composable-architecture/pull/2998).\r\n* Infrastructure: Tutorial fixes and updates (thanks @dafurman, https://github.com/pointfreeco/swift-composable-architecture/pull/3003).\r\n\r\n## New Contributors\r\n\r\n* @dafurman made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2998\r\n* @y-mimura made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3008\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.9.3...1.10.0",
+    "createdAt" : "2024-04-29T09:58:12+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOD48kk84JITOr",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-04-29T09:58:25+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.10.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.10.0",
+    "version" : "1.10.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Support nested enum reducers (thanks @sk409, https://github.com/pointfreeco/swift-composable-architecture/pull/2814).\r\n* Fixed: Add missing `NSPrivacyCollectedDataTypes` to PrivacyInfo.xcprivacy (thanks @DandyLyons, https://github.com/pointfreeco/swift-composable-architecture/pull/3027).\r\n* Fixed: Emit test failure when warning in release (https://github.com/pointfreeco/swift-composable-architecture/pull/3024).\r\n* Fixed: Bump Perception availability to support 1.1.6 (https://github.com/pointfreeco/swift-composable-architecture/pull/3025).\r\n* Infrastructure: Update README for TCA 1.10.0 (thanks @kalupas226, https://github.com/pointfreeco/swift-composable-architecture/pull/3019).\r\n* Infrastructure: Fix DocC organization of shared state tools (https://github.com/pointfreeco/swift-composable-architecture/pull/3022).\r\n* Infrastructure: Remove `Reducer._Body` workaround (https://github.com/pointfreeco/swift-composable-architecture/pull/3023).\r\n\r\n## New Contributors\r\n\r\n* @sk409 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/2814\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.10.0...1.10.1",
+    "createdAt" : "2024-04-30T05:12:03+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOD48kk84JI_XO",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-04-30T05:14:54+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.10.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.10.1",
+    "version" : "1.10.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: `@Shared(.appStorage)` initializer with explicit `= nil` should not crash (https://github.com/pointfreeco/swift-composable-architecture/pull/3035).\r\n* Fixed: Don't warn when dismissing two layers of tree-based navigation (https://github.com/pointfreeco/swift-composable-architecture/pull/3037).\r\n* Fixed: Don't emit perception warnings when deploying to 17.0.0 (https://github.com/pointfreeco/swift-composable-architecture/pull/3036).\r\n* Infrastructure: Fix typo in Reducers article (thanks @larryonoff, https://github.com/pointfreeco/swift-composable-architecture/pull/3034)\r\n\r\n## New Contributors\r\n\r\n* @larryonoff made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3034\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.10.1...1.10.2",
+    "createdAt" : "2024-05-01T03:43:39+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOD48kk84JJzWm",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-05-01T03:45:32+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.10.2",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.10.2",
+    "version" : "1.10.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Automatically cancel in-flight `TestStore` effects when its root feature is dismissed (https://github.com/pointfreeco/swift-composable-architecture/pull/3044).\r\n* Fixed: Propagate current dependencies to `Store.init` (https://github.com/pointfreeco/swift-composable-architecture/pull/3049).\r\n* Fixed: Runtime warn when stack integration is detected to be missing from store's reducer (https://github.com/pointfreeco/swift-composable-architecture/pull/3048).\r\n* Fixed: `TestStore.finish()` should assert against unreceived actions (https://github.com/pointfreeco/swift-composable-architecture/pull/3054).\r\n* Fixed: Precondition when conflicting persistence keys must match value by @stephencelis in https://github.com/pointfreeco/swift-composable-architecture/pull/3051.\r\n\r\n    > **Important:**\r\n    > If you have defined a custom persistence key, you may need to explicitly conform it to `Hashable` after upgrading to this version.\r\n* Fixed: `@Shared` no longer eagerly evaluates its initial value (thanks @seanmrich, https://github.com/pointfreeco/swift-composable-architecture/pull/3057).\r\n* Infrastructure: Added a brand new tutorial: Building SyncUps (https://github.com/pointfreeco/swift-composable-architecture/pull/3039).\r\n* Infrastructure: Add store invalidation test (https://github.com/pointfreeco/swift-composable-architecture/pull/3038).\r\n* Infrastructure: Document `@CasePathable @dynamicMemberLookup` in 1.4 migration guide (https://github.com/pointfreeco/swift-composable-architecture/pull/3043).\r\n* Infrastructure: Document nested enum reducers (https://github.com/pointfreeco/swift-composable-architecture/pull/3050).\r\n\r\n## New Contributors\r\n\r\n* @seanmrich made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3057\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.10.2...1.10.3",
+    "createdAt" : "2024-05-09T03:16:54+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOD48kk84JOnGI",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-05-09T03:22:13+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.10.3",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.10.3",
+    "version" : "1.10.3"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fixed: Compute warnings lazily by @heoblitz in https://github.com/pointfreeco/swift-composable-architecture/pull/3058\r\n* Fixed: Lazy loading of Shared initial values by @seanmrich in https://github.com/pointfreeco/swift-composable-architecture/pull/3060\r\n* Fixed: Fix for throttle logic. by @mbrandonw in https://github.com/pointfreeco/swift-composable-architecture/pull/3075\r\n\r\n## New Contributors\r\n* @heoblitz made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3058\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.10.3...1.10.4",
+    "createdAt" : "2024-05-12T06:57:32+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOD48kk84JQtPL",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-05-12T07:02:32+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.10.4",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.10.4",
+    "version" : "1.10.4"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: `Shared.withLock`, for mutating shared state from asynchronous contexts (https://github.com/pointfreeco/swift-composable-architecture/pull/3136). Direct mutations from asynchronous contexts is marked unavailable and will be an error in Swift 6.\r\n* Added: `SharedReader.constant` (https://github.com/pointfreeco/swift-composable-architecture/pull/3127).\r\n* Added: `$store.scope` will now emit a warning when a dismiss action doesn't `nil` out a child feature, suggesting a `Reducer.ifLet` (or parent integration) is missing (https://github.com/pointfreeco/swift-composable-architecture/pull/3089).\r\n* Deprecated: `Shared`'s optional dynamic member lookup overload has been deprecated in favor of a `Binding.init` that unwraps optional values (https://github.com/pointfreeco/swift-composable-architecture/pull/3145).\r\n* Fixed: Avoid crash when using `.appStorage` with a `URL` value (thanks @pwszebor, https://github.com/pointfreeco/swift-composable-architecture/pull/3098).\r\n* Fixed: Worked around a build failure when integrating with Tuist (https://github.com/pointfreeco/swift-composable-architecture/pull/3140).\r\n* Infrastructure: Tutorial fixes (https://github.com/pointfreeco/swift-composable-architecture/pull/3076; thanks @MartinMoizard, https://github.com/pointfreeco/swift-composable-architecture/pull/3078; https://github.com/pointfreeco/swift-composable-architecture/pull/3072; thanks @hmhv, https://github.com/pointfreeco/swift-composable-architecture/pull/3091; thanks @gibachan, https://github.com/pointfreeco/swift-composable-architecture/pull/3099; thanks @btr-better, https://github.com/pointfreeco/swift-composable-architecture/pull/3107; thanks @woxtu, https://github.com/pointfreeco/swift-composable-architecture/pull/3119, https://github.com/pointfreeco/swift-composable-architecture/pull/3123; https://github.com/pointfreeco/swift-composable-architecture/pull/3135; https://github.com/pointfreeco/swift-composable-architecture/pull/3141; https://github.com/pointfreeco/swift-composable-architecture/pull/3148); DocC fixes (https://github.com/pointfreeco/swift-composable-architecture/pull/3085; https://github.com/pointfreeco/swift-composable-architecture/pull/3087; thanks @JOyo246, https://github.com/pointfreeco/swift-composable-architecture/pull/3092; thanks @leeari95, https://github.com/pointfreeco/swift-composable-architecture/pull/3110; https://github.com/pointfreeco/swift-composable-architecture/pull/3138); README fixes (thanks @Matt54, https://github.com/pointfreeco/swift-composable-architecture/pull/3129); expose some navigation APIs with `@_spi(Internal)` (thanks @Alex293, https://github.com/pointfreeco/swift-composable-architecture/pull/3097).\r\n\r\n## New Contributors\r\n\r\n* @MartinMoizard made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3078\r\n* @JOyo246 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3092\r\n* @pwszebor made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3098\r\n* @Alex293 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3097\r\n* @gibachan made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3099\r\n* @leeari95 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3110\r\n* @btr-better made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3107\r\n* @Matt54 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3129\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.10.4...1.11.0",
+    "createdAt" : "2024-06-07T07:16:34+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOD48kk84Jfmxt",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-06-07T07:29:30+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.11.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.11.0",
+    "version" : "1.11.0"
   }
 ]

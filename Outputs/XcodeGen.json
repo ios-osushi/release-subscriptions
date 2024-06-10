@@ -538,5 +538,17 @@
     "title" : "2.39.1",
     "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.39.1",
     "version" : "2.39.1"
+  },
+  {
+    "body" : "### Added\r\n\r\n- Added `xcodegen cache` command that writes the cache. Useful for `post-commit` git hook integration #1476 @yonaskolb\r\n\r\n### Changed\r\n\r\n- Include folders in file sorting #1466 @jflan-dd\r\n\r\n### Fixed\r\n\r\n- Fixed `supportedDestinations` validation when it contains watchOS for multiplatform apps. #1470 @tatsuky",
+    "createdAt" : "2024-05-20T20:37:00+09:00",
+    "fetchedFromAPIAt" : "2024-06-11T05:13:53+09:00",
+    "id" : "RE_kwDOBdMHVM4JU_dk",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2024-05-20T20:41:27+09:00",
+    "repository" : "XcodeGen",
+    "title" : "2.41.0",
+    "url" : "https://github.com/yonaskolb/XcodeGen/releases/tag/2.41.0",
+    "version" : "2.41.0"
   }
 ]
