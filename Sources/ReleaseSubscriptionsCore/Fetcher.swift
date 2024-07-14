@@ -19,12 +19,23 @@ public struct Fetcher {
     }()
     
     static func fetch(repository: GitHubRepository) async throws -> [Release] {
-        Logger.shared.info("ℹ️ Fetching \(repository.apiURL)")
-        let url = repository.apiURL
-        let (data, _) = try await URLSession.shared.data(from: url)
-        let releases = try decoder.decode([Release].self, from: data)
-        Logger.shared.info("✅ Fetched \(repository.apiURL)")
-        return releases
+        do {
+            Logger.shared.info("ℹ️ Fetching \(repository.apiURL)")
+            let url = repository.apiURL
+            let (data, _) = try await URLSession.shared.data(from: url)
+            do {
+                Logger.shared.info("✅ Fetched \(repository.apiURL)")
+                let releases = try decoder.decode([Release].self, from: data)
+                Logger.shared.info("✅ Parsed \(repository.apiURL)")
+                return releases
+            } catch {
+                Logger.shared.info("❌ Parse failed \(repository.apiURL), error: \(error), data: \(String(data: data, encoding: .utf8) ?? "nil")")
+                throw error
+            }
+        } catch {
+            Logger.shared.info("❌ Fetch failed \(repository.apiURL), error: \(error)")
+            throw error
+        }
     }
     
     public static func fetch(repositories: [GitHubRepository]) async throws -> [GitHubRepository : [Release]] {
