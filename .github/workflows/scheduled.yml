@@ -26,7 +26,7 @@ jobs:
           ${{ runner.os }}-spm-
     - name: Run releaseSubscriptions
       run: |
-        swift run -c release releaseSubscriptions --primary-slack-url ${{ secrets.SLACK_WEBHOOK_PRIMARY_URL }} --secondary-slack-url ${{ secrets.SLACK_WEBHOOK_SECONDARY_URL }}
+        swift run -c release releaseSubscriptions --access-token ${{ secrets.RELEASE_SUBSCRIPTIONS_FINE_GRAINED_PAT }} --primary-slack-url ${{ secrets.SLACK_WEBHOOK_PRIMARY_URL }} --secondary-slack-url ${{ secrets.SLACK_WEBHOOK_SECONDARY_URL }}
     - name: Commit and push if needed
       run: |
         git config user.name github-actions[bot]
