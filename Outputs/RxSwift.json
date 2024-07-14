@@ -370,5 +370,29 @@
     "title" : "Onyx 🪨 ",
     "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.6.0",
     "version" : "6.6.0"
+  },
+  {
+    "body" : "## RxSwift 6.7.0 🌾\r\n\r\n- Add support for visionOS (Thanks @nighthawk) #2564\r\n- Align CocoaPods macOS deployment target to 10.10 (Like SPM)\r\n- Link XCTest weakly on CocoaPods to allow static linking (Thanks @mkj-is) #2587\r\n- Fix and align factory closure runtimes (Thanks @danielt1263) #2534\r\n- Fix a possible crash in RxDelegateProxy (Thanks @sejal-hotstar) #2546\r\n- Fix release build warning from missing explicit imports (Thanks @drewster99) #2555\r\n- Various code formatting and documentation fixes (Thanks @sanghun0724, @nicholaskim94, @fanqiaojun, @honghoker, @annie-gupta, @woin2ee, @danielt1263)",
+    "createdAt" : "2024-04-21T16:09:10+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAgA5b84JEI7k",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2024-04-21T17:46:53+09:00",
+    "repository" : "RxSwift",
+    "title" : "Seder 🌾",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.7.0",
+    "version" : "6.7.0"
+  },
+  {
+    "body" : "RxSwift 6.7.1 🌾\r\n\r\n- Fixed an issue preventing RxSwift to build on visionOS ",
+    "createdAt" : "2024-05-01T18:40:09+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAgA5b84JKQHQ",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2024-05-02T00:50:41+09:00",
+    "repository" : "RxSwift",
+    "title" : "Seder.1 🌾",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.7.1",
+    "version" : "6.7.1"
   }
 ]

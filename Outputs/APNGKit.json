@@ -382,5 +382,53 @@
     "title" : "2.2.2",
     "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.2",
     "version" : "2.2.2"
+  },
+  {
+    "body" : "### Fix\n\n- A timing issue that on iOS 17 a wrong timestamp might be used when the image starts to play when the app is just going to start up. It caused the image to be played at the wrong speed. [#140](https://github.com/onevcat/APNGKit/pull/140) @alexander-steel @devflow @onevcat",
+    "createdAt" : "2023-12-09T21:31:17+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAn3VYc4H8aYO",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-12-09T21:31:24+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.4",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.4",
+    "version" : "2.2.4"
+  },
+  {
+    "body" : "### Fix\n\n- A wrong condition check that caused the fix in 2.2.4 not to work as expected. [#141](https://github.com/onevcat/APNGKit/pull/141)",
+    "createdAt" : "2023-12-11T11:39:39+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAn3VYc4H8qgW",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-12-11T11:39:47+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.5",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.5",
+    "version" : "2.2.5"
+  },
+  {
+    "body" : "### Fix\n\n- Use an alpha bitmap context to render images with true color (PNG ColorType 2). This allows the `tRNS` chunk to be handled correctly. [#138](https://github.com/onevcat/APNGKit/pull/138)",
+    "createdAt" : "2023-10-09T13:46:49+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAn3VYc4HZzj5",
+    "owner" : "onevcat",
+    "publishedAt" : "2023-10-09T13:46:56+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.2.3",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.2.3",
+    "version" : "2.2.3"
+  },
+  {
+    "body" : "### Add\n\n- Support for visionOS. Now APNGKit can be used on visionOS in the native way. [#146](https://github.com/onevcat/APNGKit/pull/146)\n- Privacy Manifest support. Although APNGKit is not tracking any user information nor using any APIs that require declaration, an empty privacy manifest file was added to the project to prevent any potential warning. [#144](https://github.com/onevcat/APNGKit/pull/144)\n\n### Note\n\n- To align with the latest build environment and Xcode, APNGKit now increases the minimum deployment target to iOS 12, macOS 10.14 and tvOS 12. [#145](https://github.com/onevcat/APNGKit/pull/145)",
+    "createdAt" : "2024-03-19T23:45:19+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAn3VYc4IxvHt",
+    "owner" : "onevcat",
+    "publishedAt" : "2024-03-19T23:45:27+09:00",
+    "repository" : "APNGKit",
+    "title" : "2.3.0",
+    "url" : "https://github.com/onevcat/APNGKit/releases/tag/2.3.0",
+    "version" : "2.3.0"
   }
 ]

@@ -370,5 +370,53 @@
     "title" : "ArgumentParser 1.2.2",
     "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.2",
     "version" : "1.2.2"
+  },
+  {
+    "body" : "### Additions\r\n\r\n- You can now use ArgumentParser with Musl libc. (#574)\r\n\r\n### Fixes\r\n\r\n- Fixes a bug where single-page manuals did not include command abstracts for\r\n  subcommands. (#552)\r\n- Fixes a bug where non-optional properties in ParsableCommands could cause\r\n  ArgumentParser to crash. You can now include properties like dictionaries in\r\n  ParsableCommands without issue. (#554)\r\n- Fixes a configuration issue which would cause `ArgumentParserTestHelpers` to\r\n  fail to link when building for Windows. (#579)\r\n\r\nThe 1.2.3 release includes contributions from @compnerd, @gwynne,\r\n@MaxDesiatov, @natecook1000, and @rauhul. Thank you!",
+    "createdAt" : "2023-08-16T04:01:35+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDODmuHYc4G_qPq",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-16T04:04:53+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.2.3",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.2.3",
+    "version" : "1.2.3"
+  },
+  {
+    "body" : "### Changes\r\n\r\n- The `@Option`, `@Argument`, `@Flag`, and `@OptionGroup` property wrappers now conditionally conform to `Sendable` when the wrapper's `Value` type conforms. With this change, you can mark `ParsableCommand` types as `Sendable` when you want to be able to pass a parsed command across concurrent contexts. (#582)\r\n\r\n   *Migration:* Users that aren't ready to resolve sendability warnings can add the `@preconcurrency` attribute to `import ArgumentParser` statements.\r\n\r\n- To support migration to `Sendable` annotation, the minimum Swift version for `swift-argument-parser` has been increased to Swift 5.7. Users of older Swift versions will be able to continue using version 1.2.3 of the library. (#582)\r\n\r\n### Additions\r\n\r\n- Help screens now include possible options for `ExpressibleByArgument` types with non empty `allValueStrings`. Types also conforming to `CaseIterable` do not need to manually implement `allValueStrings`, instead it is derived from `allCases`. (#594)\r\n\r\n### Fixes\r\n\r\n- The titles for nested option groups are preserved when embedded into commands without specifying a new title. (#592)\r\n- When wrapping help and error messages, the library now uses the `COLUMNS` environment variable when set, instead of immediately falling back to 80 columns. (#596)\r\n- Bash completion scripts now respect the extensions given in a `.file(...)` completion kind. (#590)\r\n- Bash completion scripts now properly escape command names that include hyphens. (#573)\r\n- Documentation improvements. (#572, #565, #602)\r\n\r\nThe 1.2.3 release includes contributions from @Alkenso, @compnerd, @gwynne,\r\n@kennyyork, @natecook1000, @rauhul, @robertmryan, and @vlm. Thank you!\r\n",
+    "createdAt" : "2023-12-07T02:30:44+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDODmuHYc4H7OWh",
+    "owner" : "apple",
+    "publishedAt" : "2023-12-07T14:27:53+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.3.0",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.3.0",
+    "version" : "1.3.0"
+  },
+  {
+    "body" : "### Changes\r\n\r\n- The `CommandConfigration` type is now designated as `Sendable`. (#615)\r\n- The library uses `internal` imports instead of `@_implementationOnly` annotations in Swift versions where permitted. (#616)\r\n\r\n### Fixes\r\n\r\n- `@Option`- and `@Argument`-annotated optional properties that use a `transform` closure for parsing can now be declared without ambiguity. (#619)\r\n- The help flag is now recognized more consistently when a default subcommand has been specified. (#612)\r\n- Options that use the `.upToNextOption` parsing strategy can now recognize an attached value (e.g. `--numbers=1 2 3`). (#610)\r\n- Generated completion scripts for `zsh` handle repeatable options correctly. (#614)\r\n- Documentation improvements and clarifications. (#607, #611, #617, #621) \r\n- Build improvements for CMake builds. (#606, #608)\r\n\r\nThe 1.3.1 release includes contributions from @Coeur, @compnerd, @keith, @MaxDesiatov, @mayoff, and @natecook1000. Thank you!\r\n",
+    "createdAt" : "2024-03-17T03:15:47+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDODmuHYc4IwYlm",
+    "owner" : "apple",
+    "publishedAt" : "2024-03-17T03:23:19+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.3.1",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.3.1",
+    "version" : "1.3.1"
+  },
+  {
+    "body" : "### Additions\r\n\r\n- Adds support for subcommand aliases via a new `CommandConfiguration.aliases` parameter. Aliases are shown in help text and used during command parsing. For example, a subcommand like \"average\" from the example \"math\" tool can be defined with the aliases `[\"avg\"]`. The resulting subcommand can now be invoked with either of `math stats average` and ``math stats avg`. See the updated documentation and example for additional details. (#627)\r\n- Adds a new API `usageString` to `ParsableArguments` and `ParsableCommand` for retrieving their usage text, allowing for more flexible construction of error screens. (#634)\r\n- Adds support for passing custom arguments to `AsyncParsableCommand.main()` with a new `static func main(_ arguments: [String]?) async` method. (#568)\r\n\r\n### Fixes\r\n\r\n- Removes default parameter values from deprecated CommandConfiguration initializers to prevent them from being selected as overloads. Some niche invalid deprecation warnings should no longer occur. (#636)\r\n\r\nThe 1.4.0 release includes contributions from @Austinpayne, @dcantah, @KS1019, @natecook1000, @rauhul, and @revolter. Thank you!",
+    "createdAt" : "2024-05-22T07:49:59+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDODmuHYc4JWDtZ",
+    "owner" : "apple",
+    "publishedAt" : "2024-05-22T07:53:56+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.4.0",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.4.0",
+    "version" : "1.4.0"
   }
 ]

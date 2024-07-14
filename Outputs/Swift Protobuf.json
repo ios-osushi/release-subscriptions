@@ -442,5 +442,101 @@
     "title" : "1.22.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.22.0",
     "version" : "1.22.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Cherry pick XcodeProjectPlugin changes by @denil-ct in https://github.com/apple/swift-protobuf/pull/1413\r\n* Add a 5.8 Package.swift file for the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1429\r\n* Provide better errors for the SPM plugin (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1428\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.22.0...1.22.1",
+    "createdAt" : "2023-07-26T22:39:49+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4GxoVS",
+    "owner" : "apple",
+    "publishedAt" : "2023-07-26T22:41:26+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.22.1 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.22.1",
+    "version" : "1.22.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix ordering bug in MessageSet parsing (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1513\r\n* Version bump to do a release with the messageset fix. (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1515\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.25.1...1.25.2",
+    "createdAt" : "2023-11-30T03:02:30+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4H3bBv",
+    "owner" : "apple",
+    "publishedAt" : "2023-11-30T03:42:49+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.25.2 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.25.2",
+    "version" : "1.25.2"
+  },
+  {
+    "body" : "## What's Changed\r\n* Bring most of the protos shuffle/update over to the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1432\r\n* Fix docs errors (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1443\r\n* Fix allCases to generate a let by @gjcairo in https://github.com/apple/swift-protobuf/pull/1451\r\n* 1.x version bump for a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1452\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.22.1...1.23.0",
+    "createdAt" : "2023-09-01T01:29:40+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4HHxZ7",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-01T01:39:33+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.23.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.23.0",
+    "version" : "1.23.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* 5.9 sendable issues for the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1463\r\n* Block more things, #1469 but for the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1470\r\n* Add support for `package` visibility modifier by @thomasvl in https://github.com/apple/swift-protobuf/pull/1473\r\n* Version bump to ready a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1474\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.23.0...1.24.0",
+    "createdAt" : "2023-09-29T01:33:46+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4HVOxA",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-29T01:36:05+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.24.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.24.0",
+    "version" : "1.24.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* 1.x branch Better Plugin Support by @thomasvl in https://github.com/apple/swift-protobuf/pull/1485\r\n* Add `useDeterministicOrdering` opt-in option to JSON + Binary encoding by @rebello95 in https://github.com/apple/swift-protobuf/pull/1487\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.24.0...1.25.0",
+    "createdAt" : "2023-10-28T02:17:01+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4Hka08",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-28T02:23:19+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.25.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.25.0",
+    "version" : "1.25.0"
+  },
+  {
+    "body" : "No function changes, just fixes the checked in Xcode project file.\r\n\r\n## What's Changed\r\n* Add the new files for the Xcode project on the 1.x branch. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1494\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.25.0...1.25.1",
+    "createdAt" : "2023-10-31T23:34:45+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4Hl4hU",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-31T23:37:00+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.25.1 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.25.1",
+    "version" : "1.25.1"
+  },
+  {
+    "body" : "Note: This is the first release that includes support for a Privacy Manifest.\r\n\r\n## What's Changed\r\n* Update upstream proto files on the 1.x branch. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1523\r\n* Don't allow implementationOnly with package visibility. (1.x branch) by @thomasvl in https://github.com/apple/swift-protobuf/pull/1532\r\n* Update CI from 5.9.1 to 5.9.2 for the 1.x branch. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1534\r\n* Update the proto files from upstream for the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1538\r\n* Move to actions/checkout@v4 (on 1.x branch). by @thomasvl in https://github.com/apple/swift-protobuf/pull/1544\r\n* Add SwiftPM diagnose-api-breaking-changes check to 1_x branch. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1546\r\n* Update upstream protos 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1557\r\n* [1_x_release_branch] Include \"empty\" privacy manifest file by @tbkka in https://github.com/apple/swift-protobuf/pull/1566\r\n* make fuzz and sanitizer tests not break CI. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1578\r\n* Work around the Fuzz & Sanitizer issues on the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1581\r\n* Add swift 5.10 to CI to the 1.x branch. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1570\r\n* Drop a test on 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1591\r\n* Version bump to enable a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1584\r\n* Pull the concurrency warnings fixes to the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1583\r\n* Update xcodeproj on 1.x branch by @glbrntt in https://github.com/apple/swift-protobuf/pull/1593\r\n* Update proto files on the 1.x branch by @thomasvl in https://github.com/apple/swift-protobuf/pull/1600\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.25.2...1.26.0",
+    "createdAt" : "2024-03-28T00:33:30+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4I3W3l",
+    "owner" : "apple",
+    "publishedAt" : "2024-03-28T03:07:08+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.26.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.26.0",
+    "version" : "1.26.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\nThis release is the first one to be tagged from `main` in over two years. It includes many bug fixes, performance improvements, and new features that had not been made available on previous 1.x releases.\r\n\r\nYou can see the full changelog [here](https://github.com/apple/swift-protobuf/compare/1.26.0...1.27.0), but some of the highlights include:\r\n\r\n## Bug Fixes and deprecations\r\n\r\n- Enforce 2GB limit when decoding binary data: https://github.com/apple/swift-protobuf/issues/1377\r\n- Stop generating `has` and `clear` for repeated extension fields: https://github.com/apple/swift-protobuf/issues/944\r\n- The importPaths SPM option has been removed, since it caused some issues: https://github.com/apple/swift-protobuf/pull/1389\r\n- Remove 'u' suffix support from TextFormat: https://github.com/apple/swift-protobuf/pull/1642\r\n\r\n## New Features\r\n\r\n- Added an async sequence over binary-delimited protobuf: https://github.com/apple/swift-protobuf/pull/1434 (by @willtemperley)\r\n- Introduce a new SwiftProtobufContiguousBytes, to (de)serialise bytes from/into not just `Data`, but other bag of bytes types, such as `[UInt8]`\r\n- Support JSON and TextFormat encoding/decoding on group fields: https://github.com/apple/swift-protobuf/pull/1623 and https://github.com/apple/swift-protobuf/pull/1624\r\n- Support 'F' as a suffix for floating point in TextFormat: https://github.com/apple/swift-protobuf/pull/1640\r\n- Support field separators on the last field of a message field: https://github.com/apple/swift-protobuf/pull/1641\r\n- TextFormat decoding options to skip unknown fields/extensions: https://github.com/apple/swift-protobuf/pull/1643\r\n- Allow TextFormat to map extreme doubles to infinity: https://github.com/apple/swift-protobuf/pull/1648\r\n- Support \"-nan\" in TextFormat: https://github.com/apple/swift-protobuf/pull/1651\r\n\r\n## Other\r\n\r\n- Swift 5.8 is now the minimum supported Swift version: https://github.com/apple/swift-protobuf/issues/1210\r\n- Adopted Sendability throughout the project: https://github.com/apple/swift-protobuf/pull/1221\r\n",
+    "createdAt" : "2024-07-08T23:25:59+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBAEMEM4JzO5P",
+    "owner" : "apple",
+    "publishedAt" : "2024-07-08T23:29:28+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.27.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.27.0",
+    "version" : "1.27.0"
   }
 ]

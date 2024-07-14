@@ -454,5 +454,65 @@
     "title" : "Swift 5.8.1 Release",
     "url" : "https://github.com/apple/swift/releases/tag/swift-5.8.1-RELEASE",
     "version" : "swift-5.8.1-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-12-10T18:52:09+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAqwwJc4H9L6Z",
+    "owner" : "swiftlang",
+    "publishedAt" : "2023-12-12T06:19:40+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.9.2 Release",
+    "url" : "https://github.com/swiftlang/swift/releases/tag/swift-5.9.2-RELEASE",
+    "version" : "swift-5.9.2-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-09-09T15:07:55+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAqwwJc4HPxOs",
+    "owner" : "swiftlang",
+    "publishedAt" : "2023-09-19T02:41:31+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.9 Release",
+    "url" : "https://github.com/swiftlang/swift/releases/tag/swift-5.9-RELEASE",
+    "version" : "swift-5.9-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2023-10-17T11:41:15+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAqwwJc4HgJid",
+    "owner" : "swiftlang",
+    "publishedAt" : "2023-10-20T05:06:50+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.9.1 Release",
+    "url" : "https://github.com/swiftlang/swift/releases/tag/swift-5.9.1-RELEASE",
+    "version" : "swift-5.9.1-RELEASE"
+  },
+  {
+    "body" : "Blog post: https://www.swift.org/blog/swift-5.10-released/",
+    "createdAt" : "2024-03-04T17:05:19+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAqwwJc4Io9fb",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-03-06T07:01:03+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.10 Release",
+    "url" : "https://github.com/swiftlang/swift/releases/tag/swift-5.10-RELEASE",
+    "version" : "swift-5.10-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-06-06T13:26:30+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAqwwJc4JffHr",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-06-07T03:25:16+09:00",
+    "repository" : "swift",
+    "title" : "Swift 5.10.1 Release",
+    "url" : "https://github.com/swiftlang/swift/releases/tag/swift-5.10.1-RELEASE",
+    "version" : "swift-5.10.1-RELEASE"
   }
 ]

@@ -526,5 +526,41 @@
     "title" : "3.24.10",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.10",
     "version" : "3.24.10"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add `Source` key to the generated *.plist files by @nandodelauni in https://github.com/mono0926/LicensePlist/pull/219\r\n\r\n## New Contributors\r\n* @nandodelauni made their first contribution in https://github.com/mono0926/LicensePlist/pull/219\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.24.10...3.24.11",
+    "createdAt" : "2023-09-06T16:41:34+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBVhcvM4HKBcU",
+    "owner" : "mono0926",
+    "publishedAt" : "2023-09-06T16:41:42+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.24.11: Add `Source` key to the generated *.plist files",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.24.11",
+    "version" : "3.24.11"
+  },
+  {
+    "body" : "## What's Changed\r\n* Support for CSV output by @yassram in https://github.com/mono0926/LicensePlist/pull/223\r\n\r\n## New Contributors\r\n* @yassram made their first contribution in https://github.com/mono0926/LicensePlist/pull/223\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.24.11...3.25.0",
+    "createdAt" : "2023-11-09T17:33:03+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBVhcvM4Hq1Vv",
+    "owner" : "mono0926",
+    "publishedAt" : "2023-11-09T17:33:10+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.25.0: Support for CSV output",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.25.0",
+    "version" : "3.25.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Allow spaces in the path for acknowledgements by @gibachan in https://github.com/mono0926/LicensePlist/pull/224\r\n\r\n## New Contributors\r\n* @gibachan made their first contribution in https://github.com/mono0926/LicensePlist/pull/224\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.25.0...3.25.1",
+    "createdAt" : "2023-11-13T16:27:23+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOBVhcvM4HsetW",
+    "owner" : "mono0926",
+    "publishedAt" : "2023-11-13T16:27:30+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.25.1: Allow spaces in the path for acknowledgements",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.25.1",
+    "version" : "3.25.1"
   }
 ]
