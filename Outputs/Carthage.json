@@ -382,5 +382,17 @@
     "title" : "0.39.0",
     "url" : "https://github.com/Carthage/Carthage/releases/tag/0.39.0",
     "version" : "0.39.0"
+  },
+  {
+    "body" : "**Fixed**\r\n\r\n* Support visionOS by using -destination `xros`/`xrsimulator`. Make additive changes to `XCDBLD`’s `SDK`. (#3345).\r\n* Fix Makefile to only pass `-static-stdlib` when Xcodes are accommodated. (#3350).\r\n\r\n**Acknowledgments**\r\n\r\nThanks to all contributors.",
+    "createdAt" : "2023-09-19T01:44:17+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAX4-3M4HPvoz",
+    "owner" : "Carthage",
+    "publishedAt" : "2023-09-19T01:45:54+09:00",
+    "repository" : "Carthage",
+    "title" : "0.39.1",
+    "url" : "https://github.com/Carthage/Carthage/releases/tag/0.39.1",
+    "version" : "0.39.1"
   }
 ]

@@ -360,6 +360,18 @@
     "version" : "2.4.0"
   },
   {
+    "body" : "### Semver Minor\r\n\r\n- Add API providing basic RSA pubkey encrypt and privkey decrypt (#125, #191, patch credit to @gwynne)\r\n\r\n### Semver Patch\r\n\r\n- Switch to canImport instead of os conditions (#184, #192)\r\n- Update BoringSSL to 7ae2b910c13017b63f1a8bd6c8decfce692869b0 (#190, #193)\r\n\r\n### Other changes\r\n\r\n- Typo fixes (#179, patch credit to @joey-gm)\r\n- Update code of conduct (#182)",
+    "createdAt" : "2023-08-04T01:02:34+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4G4Un1",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-07T17:50:30+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 2.6.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/2.6.0",
+    "version" : "2.6.0"
+  },
+  {
     "body" : "### Semver Major\r\n\r\n- Update to the 2023 CryptoKit API (#181)\r\n\r\n### Other changes\r\n\r\n- Update code of conduct (#182)\r\n- Clean up documentation typos (#179) (patch credit to @joey-gm)",
     "createdAt" : "2023-06-14T02:27:01+09:00",
     "fetchedFromAPIAt" : "2023-06-14T09:45:21+09:00",
@@ -370,5 +382,101 @@
     "title" : "Swift Crypto 3.0.0-beta.1",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.0.0-beta.1",
     "version" : "3.0.0-beta.1"
+  },
+  {
+    "body" : "The only meaningful breaking change in this release is the addition of new cases in the `CryptoKitError` enum. The overwhelming majority of users can and should express a wider version range than usual: \"1.0.0\" ..< \"4.0.0\" is the recommended version range.\r\n\r\n### SemVer Major\r\n\r\n- Update to CryptoKit 2023 final API (#199)\r\n\r\n### SemVer Patch\r\n\r\n- Set missing Windows defines (#197) (patch credit to @compnerd)\r\n- Use `SecKeyGetBlockSize` instead of `kSecAttrKeySizeInBits` (#198)\r\n",
+    "createdAt" : "2023-09-13T20:03:22+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4HQwFK",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-20T18:06:28+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.0.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.0.0",
+    "version" : "3.0.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add support for AES-CBC in `_CryptoExtras` (#200)\r\n- Bump minimum Swift version to 5.7 (#201)",
+    "createdAt" : "2023-10-04T18:19:44+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4HX4O9",
+    "owner" : "apple",
+    "publishedAt" : "2023-10-04T23:32:11+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.1.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.1.0",
+    "version" : "3.1.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add `pkcs8PEMRepresenation` for RSA private keys (#203, patch credit to @bjhomer)\r\n- Add support for CBC without padding (#210, patch credit to @lovetodream)\r\n- Add support for RSA OAEP with SHA256 (#206)\r\n- Add Sendable annotations to Crypto Extras (#211, #214)\r\n\r\n### SemVer Patch\r\n\r\n- Add extern C markers (#204, patch credit to @brianmichel)\r\n- Update `BoringSSLRSAPublicKey` to use `EVP_PKEY` API (#205)\r\n- Update BoringSSL to 7a813621dac6878ab53b6ed7392939a8982226e8 (#207, #215)\r\n\r\n### Other Changes\r\n\r\n- Add cxx interop build pipeline (#212)\r\n- Update availability annotations in tests (#213)",
+    "createdAt" : "2024-01-09T01:41:09+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4IHnqT",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-09T17:11:00+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.2.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.2.0",
+    "version" : "3.2.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add support for AES CTR mode in _CryptoExtras (#220)\r\n- Raise minimum Swift version to 5.7 (#221)\r\n\r\n### SemVer Patch\r\n\r\n- Remove dtls1.h as part of removing libssl (#217, patch credit to @davidben)\r\n- Update BoringSSL to dbad745811195c00b729efd0ee0a09b7d9fce1d2 (#222)\r\n\r\n### Other Changes\r\n\r\n- Documentation: Update macOS development instructions (#216, patch credit to @coldjugular)",
+    "createdAt" : "2024-03-12T19:50:25+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4Is_7d",
+    "owner" : "apple",
+    "publishedAt" : "2024-03-12T20:05:16+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.3.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.3.0",
+    "version" : "3.3.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Update lower bound for RSA key sizes (#218, patch credit to @ptoffy)\r\n\r\n### SemVer Patch\r\n\r\n- Add empty privacy manifest files (#226)\r\n- Use BoringSSL implementation for `_CryptoExtras.AES._CTR` (#229)",
+    "createdAt" : "2024-05-08T00:10:20+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4JPNbz",
+    "owner" : "apple",
+    "publishedAt" : "2024-05-10T02:56:01+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.4.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.4.0",
+    "version" : "3.4.0"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- extras: Add APIs for RSA Blind Signatures (#232)\r\n\r\n### SemVer Patch\r\n\r\n- add support for riscv64 (#240, patch credit to @futurejones)\r\n- Move ArbitraryPrecisionInteger type to CryptoBoringWrapper module (#236)\r\n- Change inclusiveMin param of ArbitraryPrecisionInteger.random from UInt64 to UInt (#242)\r\n\r\n### Other Changes\r\n\r\n- Fix broken `DataProtocol.hexString` test utility (#230)\r\n- update README recommended versions (#233)",
+    "createdAt" : "2024-06-27T23:01:40+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4Js_t6",
+    "owner" : "apple",
+    "publishedAt" : "2024-06-27T23:45:26+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.5.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.5.0",
+    "version" : "3.5.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Revert to using @_implementationOnly for all BoringSSL modules (#246)",
+    "createdAt" : "2024-07-03T22:37:23+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4Jw6CY",
+    "owner" : "apple",
+    "publishedAt" : "2024-07-03T22:46:56+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.5.2",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.5.2",
+    "version" : "3.5.2"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- build: Add missing prefix to BoringSSL delete_if stack symbols (#245)",
+    "createdAt" : "2024-07-03T03:10:27+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOC9Swts4JwRHS",
+    "owner" : "apple",
+    "publishedAt" : "2024-07-03T04:32:02+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.5.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.5.1",
+    "version" : "3.5.1"
   }
 ]

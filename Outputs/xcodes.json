@@ -324,6 +324,18 @@
     "version" : "1.1.0"
   },
   {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade xcodesorg/made/xcodes`.\r\n\r\nDid you know that Xcodes CLI support downloading and installing Apple Runtimes!\r\n\r\n`xcodes runtimes --include-betas`\r\n`xcodes runtimes install \"visionOS 1.0-beta1\"`\r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* feat: add support for VisionOS runtime download (#300) @MattKiazyk\r\n\r\n## 🧰 Maintenance\r\n\r\n* Update README.md (#297) @ThePredators\r\n",
+    "createdAt" : "2023-06-24T00:24:52+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOCj_3JM4F-4e5",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2023-06-24T00:30:42+09:00",
+    "repository" : "xcodes",
+    "title" : "1.4.1 - May the Vision Pro be with you 🥽",
+    "url" : "https://github.com/XcodesOrg/xcodes/releases/tag/1.4.1",
+    "version" : "1.4.1"
+  },
+  {
     "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade robotsandpencils/made/xcodes`.\r\n\r\n⚠⚠ Apple has implemented a version of Hashcash when logging in, which caused previous versions to lock Apple ID's. This effect all tools that implemented the similar auth/signin api's. The fix should stop any new locks of Apple ID's. If your Apple ID is locked, you must reset your password. ⚠⚠\r\n\r\n## Changes\r\n## 🐛 Bug Fixes\r\n\r\n* Implement hashcash for AppleID Authentication (#276) @MattKiazyk\r\n\r\n## 🚀 Enhancements\r\n\r\n* Update unxip to use 1.1.3 code (#271) @MattKiazyk\r\n* Add support for Apple API sessions from Fastlane Spaceship (#257) @adamprice\r\n* Add a download runtimes command (#267) @StevenSorial\r\n* Better Handling of Apple Unauthorized errors (#249) @dmytro-kasianchuk-doordash\r\n* use simpler 'release' instead of 'non-prerelease' word in user-facing… (#239) @pastey\r\n",
     "createdAt" : "2023-03-04T10:40:04+09:00",
     "fetchedFromAPIAt" : "2023-03-04T13:24:18+09:00",
@@ -334,5 +346,17 @@
     "title" : "1.3.0 - Revenge of the Sith",
     "url" : "https://github.com/RobotsAndPencils/xcodes/releases/tag/1.3.0",
     "version" : "1.3.0"
+  },
+  {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade robotsandpencils/made/xcodes`.\r\n\r\niOS 18 runtimes are not supported downloading via the `xcodes runtimes` command. Apple has included a new way to download that is not supported. \r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Show proper error when authenticating with unsupported hardware keys (#294) @garrettmoon\r\n* Support parsing `.xcode-version` beta format (#307) @rzulkoski\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Quick fix to ignore new iOS 18 runtime downloadables (#370) @alvar-bolt\r\n* Always respect select flag during install (#310) @DylanBettermannDD\r\n\r\n## 🧰 Maintenance\r\n\r\n* Bump github.com/mxcl/promisekit from 6.8.5 to 6.22.1 (#342) @dependabot\r\n* Bump github.com/mxcl/legibleerror from 1.0.4 to 1.0.6 (#339) @dependabot\r\n* Bump release-drafter/release-drafter from 5 to 6 (#337) @dependabot\r\n* Add dependabot support for swift (#318) @kemchenj\r\n* Bump actions/checkout from 3 to 4 (#315) @dependabot\r\n",
+    "createdAt" : "2024-06-28T23:34:37+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOCj_3JM4IfBxZ",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2024-06-28T23:58:29+09:00",
+    "repository" : "xcodes",
+    "title" : "1.5.0",
+    "url" : "https://github.com/XcodesOrg/xcodes/releases/tag/1.5.0",
+    "version" : "1.5.0"
   }
 ]

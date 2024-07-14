@@ -418,5 +418,53 @@
     "title" : "5.7.1",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.7.1",
     "version" : "5.7.1"
+  },
+  {
+    "body" : "Released on 2023-08-31. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/87?closed=1).\r\n\r\n#### Added\r\n\r\n- visionOS support.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Requests [#3738](https://github.com/Alamofire/Alamofire/pull/3738) and [#3750](https://github.com/Alamofire/Alamofire/pull/3750).\r\n- Hooks for initial `HTTPURLResponse` values.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3762](https://github.com/Alamofire/Alamofire/pull/3738).\r\n- Android build support.\r\n  - Added by [Hugo Gonzalez](https://github.com/hggz) in Pull Request [#3744](https://github.com/Alamofire/Alamofire/pull/3744).\r\n\r\n#### Updated\r\n\r\n- Async integration to obey automatic cancellation by default.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3757](https://github.com/Alamofire/Alamofire/pull/3757).\r\n- Platform `#if` checks.\r\n  - Updated by [brenno](https://github.com/brennobemoura) in Pull Request [#3756](https://github.com/Alamofire/Alamofire/pull/3756).\r\n- Windows CI.\r\n  - Updated by [Saleem Abdulrasool](https://github.com/compnerd) in Pull Request [#3763](https://github.com/Alamofire/Alamofire/pull/3763).\r\n- `URL` conversion tests for 2023 `URL` changes.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3734](https://github.com/Alamofire/Alamofire/pull/3734).\r\n- for-loop to `contains`.\r\n  - Updated by [Mayank Kumar Gupta](https://github.com/Mayank-84) in Pull Request [#3726](https://github.com/Alamofire/Alamofire/pull/3726).\r\n\r\n#### Fixed\r\n\r\n- `MultipartFormData` stream to properly obey `bodyContentLength`.\r\n  - Fixed by [Henrique Valcanaia](https://github.com/hvsw) in Pull Request [#3730](https://github.com/Alamofire/Alamofire/pull/3730).\r\n- Unnecessary call to empty init.\r\n  - Fixed by [Shinolr](https://github.com/Shinolr) in Pull Request [#3742](https://github.com/Alamofire/Alamofire/pull/3742).\r\n- Documentation typos.\r\n  - Fixed by [Jenna](https://github.com/ueunli) in Pull Request [#3733](https://github.com/Alamofire/Alamofire/pull/3733).",
+    "createdAt" : "2023-09-01T07:50:52+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAVavk84HH90B",
+    "owner" : "Alamofire",
+    "publishedAt" : "2023-09-01T07:52:04+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.8.0",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.8.0",
+    "version" : "5.8.0"
+  },
+  {
+    "body" : "Released on 2023-10-26. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/88?closed=1).\r\n\r\n### Updated\r\n\r\n- Internal: `Protected` to no longer be a `@propertyWrapper`.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3777](https://github.com/Alamofire/Alamofire/pull/3777).\r\n\r\n### Fixed\r\n\r\n- `URLEncodedFormEncoder` encoding of `Encodable` values with optional properties using `encodeIfPresent`.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3779](https://github.com/Alamofire/Alamofire/pull/3779).\r\n- Missing \"Skip Install\" setting for visionOS target.\r\n  - Fixed by [Sai](https://github.com/Sai) in Pull Request [#3788](https://github.com/Alamofire/Alamofire/pull/3788).",
+    "createdAt" : "2023-10-27T04:47:55+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAVavk84Hj3pS",
+    "owner" : "Alamofire",
+    "publishedAt" : "2023-10-27T04:49:10+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.8.1",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.8.1",
+    "version" : "5.8.1"
+  },
+  {
+    "body" : "Released on 2024-03-30. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/90?closed=1).\r\n\r\n### Updated\r\n\r\n- `HTTPHeaders` and `HTTPHeader` to be `Sendable`.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3856](https://github.com/Alamofire/Alamofire/pull/3856).\r\n- `HTTPMethod` to be `Sendable`.\r\n  - Updated by [Galvin Li](https://github.com/bestwnh) in Pull Request [#3848](https://github.com/Alamofire/Alamofire/pull/3848).\r\n\r\n### Fixed\r\n\r\n- CocoaPods visionOS support by explicitly declaring it in podspec.\r\n  - Fixed by [Tamás Jäger](https://github.com/bestwnh) in Pull Request [#3845](https://github.com/Alamofire/Alamofire/pull/3845).",
+    "createdAt" : "2024-03-31T10:21:38+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAVavk84I42d6",
+    "owner" : "Alamofire",
+    "publishedAt" : "2024-03-31T10:22:33+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.9.1",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.9.1",
+    "version" : "5.9.1"
+  },
+  {
+    "body" : "Released on 2024-03-03. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/89?closed=1).\r\n\r\n### Added\r\n\r\n- [🔥 Experimental 🔥] `WebSocketRequest`, as a wrapper for `URLSessionWebSocketTask`. This preview release is undocumented behind `@_spi(WebSocket)`. Its API _will_ change in the future, especially to adopt typed throws, but it is largely feature complete, tested, and usable now. API feedback, missing use cases, and bug reports are much appreciated before it goes fully public.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3455](https://github.com/Alamofire/Alamofire/pull/3455).\r\n- `PrivacyInfo.xcprivacy` file and integration with SPM, CocoaPods, and Carthage.\r\n  - Added by [Dmitry Kuleshov](https://github.com/kdvmgn) and [Jon Shier](https://github.com/jshier) in Pull Requests [#3792](https://github.com/Alamofire/Alamofire/pull/3792), [#3831](https://github.com/Alamofire/Alamofire/pull/3831), and [#3839](https://github.com/Alamofire/Alamofire/pull/3839).\r\n- `AlamofireDynamic` target, to force dynamic linking in Xcode when using SPM. Only use when you know you need it.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3808](https://github.com/Alamofire/Alamofire/pull/3808).\r\n- `AFInfo` enum and a public `version` value to get Alamofire's current version, `AFInfo.version`.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3819](https://github.com/Alamofire/Alamofire/pull/3819).\r\n\r\n### Updated\r\n\r\n- Alamofire to require Swift 5.7.1.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3798](https://github.com/Alamofire/Alamofire/pull/3798).\r\n- Project structure to break apart large `Request.swift` file and consolidate various `Request` subclasses into their own files.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3798](https://github.com/Alamofire/Alamofire/pull/3798).\r\n- `Empty` type to be `Sendable`.\r\n  - Updated by [Antoine van der Lee](https://github.com/AvdLee) in Pull Request [#3816](https://github.com/Alamofire/Alamofire/pull/3816).\r\n- `.swiftformat` to remove duplicate rules.\r\n  - Updated by [Fourenn](https://github.com/giftbott) in Pull Request [#3835](https://github.com/Alamofire/Alamofire/pull/3835).\r\n\r\n### Fixed\r\n\r\n- Platform deprecation warnings in `Package.swift` in newer Xcode versions.\r\n  - Updated by [fess](https://github.com/apps4everyone) in Pull Request [#3823](https://github.com/Alamofire/Alamofire/pull/3823).\r\n- `Alamofire.podspec` after project restructuring.\r\n  - Updated by [mlch](https://github.com/mlch911) in Pull Request [#3825](https://github.com/Alamofire/Alamofire/pull/3825).\r\n- Various documentation typos.\r\n  - Fixed by [JaewoongLee-swift](https://github.com/JaewoongLee-swift), [TaeHyun](https://github.com/kth1210), and [hugo-syn](https://github.com/hugo-syn) in various Pull Requests.",
+    "createdAt" : "2024-03-04T11:17:59+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOAVavk84InfO1",
+    "owner" : "Alamofire",
+    "publishedAt" : "2024-03-04T11:19:13+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.9.0",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.9.0",
+    "version" : "5.9.0"
   }
 ]

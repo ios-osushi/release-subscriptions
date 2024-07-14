@@ -382,5 +382,101 @@
     "title" : "",
     "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.12.0",
     "version" : "1.12.0"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* Add `visionOS` as a new platform.  \r\n  [Gabriel Donadel](https://github.com/gabrieldonadel)\r\n  [#11965](https://github.com/CocoaPods/CocoaPods/pull/11965)\r\n\r\n* Extend `script_phase` DSL to support `always_out_of_date` attribute.  \r\n  [Alvar Hansen](https://github.com/alvarhansen)\r\n  [#12055](https://github.com/CocoaPods/CocoaPods/pull/12055)\r\n\r\n##### Bug Fixes\r\n\r\n* Use `safe_load` during custom YAML config loading.  \r\n  [Dimitris Koutsogiorgas](https://github.com/dnkoutso)\r\n  [#11974](https://github.com/CocoaPods/CocoaPods/pull/11974)\r\n\r\n* Xcode 15 fix: Replace `DT_TOOLCHAIN_DIR` with `TOOLCHAIN_DIR` when generating script.  \r\n  [Marcus Wu](https://github.com/marcuswu0814)\r\n  [#12009](https://github.com/CocoaPods/CocoaPods/pull/12009)",
+    "createdAt" : "2023-09-23T06:47:37+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4HSeii",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-09-23T06:48:49+09:00",
+    "repository" : "CocoaPods",
+    "title" : "1.13.0",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.13.0",
+    "version" : "1.13.0"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Fix a crash when attempting to `require 'cocoapods-core'` on specific versions of activesupport\r\n  [Eric Amorde](https://github.com/amorde)\r\n  [#12116](https://github.com/CocoaPods/CocoaPods/issues/12116)",
+    "createdAt" : "2023-10-27T05:34:42+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4Hj6P_",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-10-27T05:45:58+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.1",
+    "version" : "1.14.1"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Fix a crash when running with activesupport 7.1.0.  \r\n  [MCanhisares](https://github.com/MCanhisares)\r\n  [#12081](https://github.com/CocoaPods/CocoaPods/issues/12081)\r\n\r\n* Fix another crash when running with activesupport 7.1.0.  \r\n  [movila](https://github.com/movila)\r\n  [#12089](https://github.com/CocoaPods/CocoaPods/issues/12089)\r\n\r\n##### Other\r\n\r\n* Drop support for Ruby 2.6 (note: this may be reversed if possible so we can support macOS system ruby, but was a blocker at the time of release)\r\n\r\n* Drop support for bazaar SCM. \r\n",
+    "createdAt" : "2023-10-26T15:03:22+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4HjX1B",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-10-26T15:05:01+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.0",
+    "version" : "1.14.0"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Fix a bug when attempting to publish a Pod with `pod trunk push` in certain cases  \r\n  [Eric Amorde](https://github.com/amorde)\r\n  [CocoaPods/Core#729](https://github.com/CocoaPods/Core/pull/759)\r\n",
+    "createdAt" : "2023-10-27T10:28:51+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4Hj_V1",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-10-27T10:30:28+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.2",
+    "version" : "1.14.2"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Revert minimum required Ruby version to 2.6 to support macOS system Ruby  \r\n  [Eric Amorde](https://github.com/amorde)\r\n  [#12122](https://github.com/CocoaPods/CocoaPods/issues/12122)\r\n\r\n",
+    "createdAt" : "2023-11-20T06:24:31+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4HwzES",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2023-11-20T06:26:35+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.14.3",
+    "version" : "1.14.3"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* Optimize performance during uncached pod installation.  \r\n  [Dimitris Koutsogiorgas](https://github.com/dnkoutso)\r\n  [#12154](https://github.com/CocoaPods/CocoaPods/pull/12154)\r\n\r\n##### Bug Fixes\r\n\r\n* Fix pod install issue when git's `core.fsmonitor` feature is enabled  \r\n  [Justin Martin](https://github.com/justinseanmartin)\r\n  [#11640](https://github.com/CocoaPods/CocoaPods/issues/11640)\r\n\r\n* Don't use the `remove_destination` parameter in FileUtils.cp_r  \r\n  [Justin Martin](https://github.com/justinseanmartin)\r\n  [#12165](https://github.com/CocoaPods/CocoaPods/pull/12165)\r\n\r\n* Support `visionos` in `pod lib lint --platforms=` and use `xros` for `Fourflusher`  \r\n  [MagnificentMiles](https://github.com/MagnificentMiles)\r\n  [#12159](https://github.com/CocoaPods/CocoaPods/pull/12159)\r\n\r\n### Changes in [cocoapods-core 1.15.0](https://github.com/CocoaPods/Core/releases/tag/1.15.0)\r\n\r\n##### Enhancements\r\n\r\n* None.  \r\n\r\n##### Bug Fixes\r\n\r\n* Fix an issue updating spec repos in Podfile.lock when the key already exists  \r\n  [fnxpt](https://github.com/fnxpt)\r\n  [#748](https://github.com/CocoaPods/Core/issues/748)\r\n\r\n* Fix a crash when calling Specification#subspec_by_name on a deprecated specification with no name  \r\n  [sagiwei](https://github.com/sagiwei)\r\n  [#742](https://github.com/CocoaPods/Core/pull/742)\r\n",
+    "createdAt" : "2024-01-29T02:40:28+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4IRk_r",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2024-01-29T02:45:28+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.15.0",
+    "version" : "1.15.0"
+  },
+  {
+    "body" : "##### Enhancements\n\n* None.  \n\n##### Bug Fixes\n\n* Fix an issue when caching downloads of certain Pods.  \n  [Eric Amorde](https://github.com/amorde)\n  [#12226](https://github.com/CocoaPods/CocoaPods/issues/12226)",
+    "createdAt" : "2024-02-06T12:05:50+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4IWIUK",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2024-02-06T12:07:21+09:00",
+    "repository" : "CocoaPods",
+    "title" : "1.15.1",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.15.1",
+    "version" : "1.15.1"
+  },
+  {
+    "body" : "##### Enhancements\n\n* None.  \n\n##### Bug Fixes\n\n* Revert #12154, #12165, and #12158 to fix regressions in 1.15.0 and 1.15.1.  \n  [Paul Beusterien](https://github.com/paulb777)\n  [#12226](https://github.com/CocoaPods/CocoaPods/issues/12226)",
+    "createdAt" : "2024-02-07T03:12:35+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOACGf_c4IWnCY",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2024-02-07T03:12:59+09:00",
+    "repository" : "CocoaPods",
+    "title" : "1.15.2",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.15.2",
+    "version" : "1.15.2"
   }
 ]

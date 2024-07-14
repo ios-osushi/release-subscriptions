@@ -154,5 +154,53 @@
     "title" : "1.5.2",
     "url" : "https://github.com/apple/swift-log/releases/tag/1.5.2",
     "version" : "1.5.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n### Cleanups & minor compatibility improvements\r\n* Remove leftover 5.0 Package.swift; not supported since 1.5.0 by @ktoso in https://github.com/apple/swift-log/pull/259\r\n* Use #if canImport(Darwin) where possible by @FranzBusch in https://github.com/apple/swift-log/pull/269\r\n* docs: fix typos by @FannyGautierr in https://github.com/apple/swift-log/pull/272\r\n\r\n### Non code changes\r\n* Add DiscordBM/DiscordLogger to loggers list by @MahdiBM in https://github.com/apple/swift-log/pull/257\r\n* Update CI by @yim-lee in https://github.com/apple/swift-log/pull/264\r\n* update code of conduct by @tomerd in https://github.com/apple/swift-log/pull/268\r\n* Fix DiscordLogger link by @MahdiBM in https://github.com/apple/swift-log/pull/266\r\n* add kiliankoe/swift-log-matrix to list of backends by @kiliankoe in https://github.com/apple/swift-log/pull/263\r\n\r\n## New Contributors\r\n* @MahdiBM made their first contribution in https://github.com/apple/swift-log/pull/257\r\n* @kiliankoe made their first contribution in https://github.com/apple/swift-log/pull/263\r\n* @FannyGautierr made their first contribution in https://github.com/apple/swift-log/pull/272\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.5.2...1.5.3",
+    "createdAt" : "2023-08-11T15:37:26+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOCiSz584G6mDe",
+    "owner" : "apple",
+    "publishedAt" : "2023-08-11T15:52:51+09:00",
+    "repository" : "swift-log",
+    "title" : "1.5.3",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.5.3",
+    "version" : "1.5.3"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n### Cleanups & minor compatibility improvements\r\n* Don't assume localtime() result is non-nil by @gwynne in https://github.com/apple/swift-log/pull/280\r\n* Changes to build with Musl. by @al45tair in https://github.com/apple/swift-log/pull/283\r\n\r\n### Non code changes\r\n\r\n* Add CocoaLumberjack to list of logging backends by @ffried in https://github.com/apple/swift-log/pull/276\r\n* update CI script by @tomerd in https://github.com/apple/swift-log/pull/281\r\n* Update README.md by @0xTim in https://github.com/apple/swift-log/pull/279\r\n\r\n## New Contributors\r\n* @ffried made their first contribution in https://github.com/apple/swift-log/pull/276\r\n* @0xTim made their first contribution in https://github.com/apple/swift-log/pull/279\r\n* @al45tair made their first contribution in https://github.com/apple/swift-log/pull/283\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.5.3...1.5.4",
+    "createdAt" : "2024-01-22T19:49:41+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOCiSz584IOQ2g",
+    "owner" : "apple",
+    "publishedAt" : "2024-01-22T19:50:52+09:00",
+    "repository" : "swift-log",
+    "title" : "1.5.4",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.5.4",
+    "version" : "1.5.4"
+  },
+  {
+    "body" : "## SemVer Minor\r\n* Add Sendability annotations in https://github.com/apple/swift-log/pull/308\r\n* Fix deprecation warnings around default log implementations on handlers in https://github.com/apple/swift-log/pull/310\r\n* Drop Swift versions earlier than 5.8 in https://github.com/apple/swift-log/pull/299\r\n* Implement Copy-On-Write (CoW) behavior for Logger struct by @ayushi2103 in https://github.com/apple/swift-log/pull/297\r\n\r\n### SemVer Patch\r\n* Replace standardOutput to standardError by @ayushi2103 in https://github.com/apple/swift-log/pull/295\r\n* Use Set to spot duplicated log handler warnings in https://github.com/apple/swift-log/pull/306\r\n* Make protocol usage obvious using any and some keywords in https://github.com/apple/swift-log/pull/307\r\n* Remove documentation for non-existent arguments by @b1ackturtle in https://github.com/apple/swift-log/pull/309\r\n* Remove Docc plugin which is no longer required in https://github.com/apple/swift-log/pull/311\r\n\r\n### Other Changes\r\n* Remove archived repository in https://github.com/apple/swift-log/pull/292\r\n* Add CI for Swift 5.10 in https://github.com/apple/swift-log/pull/287\r\n* Added swift-log-ecs to README.md by @rwbutler in https://github.com/apple/swift-log/pull/298\r\n* Update README.md add shipbook as backend by @elishas in https://github.com/apple/swift-log/pull/304",
+    "createdAt" : "2024-06-20T21:18:55+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOCiSz584JoBO8",
+    "owner" : "apple",
+    "publishedAt" : "2024-06-24T17:27:07+09:00",
+    "repository" : "swift-log",
+    "title" : "1.6.0",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.6.0",
+    "version" : "1.6.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Disable existential any build setting (#312)",
+    "createdAt" : "2024-06-25T02:21:21+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOCiSz584Jqcjp",
+    "owner" : "apple",
+    "publishedAt" : "2024-06-25T02:37:08+09:00",
+    "repository" : "swift-log",
+    "title" : "Swift Log 1.6.1",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.6.1",
+    "version" : "1.6.1"
   }
 ]

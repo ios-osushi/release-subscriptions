@@ -58,5 +58,29 @@
     "title" : "1.0.0",
     "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/1.0.0",
     "version" : "1.0.0"
+  },
+  {
+    "body" : "- SDXL iOS and iPadOS Benchmarks\r\n- SDXL refiner Swift inference by @zachnagengast\r\n- SDXL base Python inference by @lopez-hector \r\n- CUDA RNG in Swift by @liuliu \r\n- Karras schedule for DPMSolver by @pcuenq \r\n- Other improvements",
+    "createdAt" : "2023-09-28T23:26:41+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOIcVD8s4HVHvO",
+    "owner" : "apple",
+    "publishedAt" : "2023-09-28T23:28:21+09:00",
+    "repository" : "ml-stable-diffusion",
+    "title" : "1.1.0",
+    "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/1.1.0",
+    "version" : "1.1.0"
+  },
+  {
+    "body" : "Changed the license to MIT\r\n\r\n## What else has Changed\r\n* Fix safety_checker dtype  by @ZachNagengast in https://github.com/apple/ml-stable-diffusion/pull/276\r\n* Fix  missing parameters ('mixed_bit_compression_apply', ) &  import pkg (mixed_bit_compression_pre_analysis) issues by @jiangdi0924 in https://github.com/apple/ml-stable-diffusion/pull/279\r\n* Fix pipeline.py for Python 3.8 by @TobyRoseman in https://github.com/apple/ml-stable-diffusion/pull/287\r\n* Compiled Models in Python by @TobyRoseman in https://github.com/apple/ml-stable-diffusion/pull/296\r\n* Use sRGB if available by @stuartjmoore in https://github.com/apple/ml-stable-diffusion/pull/301\r\n* Applying mixed bit compression using new optimize API by @TobyRoseman in https://github.com/apple/ml-stable-diffusion/pull/311\r\n* Update swift-argument-parser to latest minor version by @godly-devotion in https://github.com/apple/ml-stable-diffusion/pull/318\r\n\r\n## New Contributors\r\n* @stuartjmoore made their first contribution in https://github.com/apple/ml-stable-diffusion/pull/301\r\n\r\n**Full Changelog**: https://github.com/apple/ml-stable-diffusion/compare/1.1.0...1.1.1",
+    "createdAt" : "2024-05-04T10:03:21+09:00",
+    "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
+    "id" : "RE_kwDOIcVD8s4JMUdh",
+    "owner" : "apple",
+    "publishedAt" : "2024-05-04T10:05:33+09:00",
+    "repository" : "ml-stable-diffusion",
+    "title" : "1.1.1",
+    "url" : "https://github.com/apple/ml-stable-diffusion/releases/tag/1.1.1",
+    "version" : "1.1.1"
   }
 ]
