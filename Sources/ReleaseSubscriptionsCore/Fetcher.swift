@@ -18,11 +18,18 @@ public struct Fetcher {
         return decoder
     }()
     
-    static func fetch(repository: GitHubRepository) async throws -> [Release] {
+    static func fetch(repository: GitHubRepository, accessToken: String?) async throws -> [Release] {
         do {
             Logger.shared.info("ℹ️ Fetching \(repository.apiURL)")
             let url = repository.apiURL
-            let (data, _) = try await URLSession.shared.data(from: url)
+            var request = URLRequest(url: url)
+            request.setValue("application/vnd.github+json", forHTTPHeaderField: "Accept")
+            request.setValue("2022-11-28", forHTTPHeaderField: "X-GitHub-Api-Version")
+            if let accessToken {
+                request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+                Logger.shared.info("ℹ️ Set bearer token")
+            }
+            let (data, _) = try await URLSession.shared.data(for: request)
             do {
                 Logger.shared.info("✅ Fetched \(repository.apiURL)")
                 let releases = try decoder.decode([Release].self, from: data)
@@ -38,7 +45,7 @@ public struct Fetcher {
         }
     }
     
-    public static func fetch(repositories: [GitHubRepository]) async throws -> [GitHubRepository : [Release]] {
+    public static func fetch(repositories: [GitHubRepository], accessToken: String?) async throws -> [GitHubRepository : [Release]] {
         defer {
             Logger.shared.info("🎉 \(#function) finished")
         }
@@ -47,7 +54,7 @@ public struct Fetcher {
             for repository in repositories {
                 group.addTask {
                     do {
-                        let releases = try await fetch(repository: repository)
+                        let releases = try await fetch(repository: repository, accessToken: accessToken)
                         return (repository, releases)
                     } catch {
                         Logger.shared.error("❌ \(#function) failed")
