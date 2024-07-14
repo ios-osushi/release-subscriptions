@@ -148,6 +148,12 @@ repositories:
     owner: apple
     repo: swift-system
   
+  - kind: primary
+    case: tags
+    name: Swift Testing
+    owner: apple
+    repo: swift-testing
+  
   - kind: secondary
     case: releases
     name: Lottie for iOS, macOS
