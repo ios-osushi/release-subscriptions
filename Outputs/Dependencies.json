@@ -288,6 +288,18 @@
     "version" : "1.3.2"
   },
   {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Introduce more Swift 6 concurrency fixes (https://github.com/pointfreeco/swift-dependencies/pull/235; thanks @hallee for addressing Xcode 16 beta 3 compatibility).\r\n* Fixed: Remove incompatible JavaScript logging on SwiftWasm runtime warning code paths (https://github.com/pointfreeco/swift-dependencies/pull/242).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.3.2...1.3.3",
+    "createdAt" : "2024-07-16T06:35:38+09:00",
+    "fetchedFromAPIAt" : "2024-07-16T10:01:05+09:00",
+    "id" : "RE_kwDOIF_Mq84J3d0z",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-07-16T06:37:09+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.3.3",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.3.3",
+    "version" : "1.3.3"
+  },
+  {
     "body" : "## What's Changed\r\n\r\n* Added: `assert` and `precondition` dependencies, for making Swift assertions testable (https://github.com/pointfreeco/swift-dependencies/pull/213).\r\n* Fixed: `@DependencyClient` now ignores static properties (thanks @rhysm94, https://github.com/pointfreeco/swift-dependencies/pull/196).\r\n* Fixed: Improve runtime warning when no `liveValue` is defined (https://github.com/pointfreeco/swift-dependencies/pull/206).\r\n* Fixed: Address some strict concurrency sendable warnings (https://github.com/pointfreeco/swift-dependencies/pull/207).\r\n* Fixed: Improve `@DependencyEndpoint` failure messages by incorporating the type name (https://github.com/pointfreeco/swift-dependencies/pull/208).\r\n* Fixed: `@DependencyClient` support for the `package` access modifier (thanks @ivanlisovyi, https://github.com/pointfreeco/swift-dependencies/pull/209).\r\n* Fixed: `@DependencyClient` will now automatically ignore `@Dependency` properties via the new `@DependencyEndpointIgnored` marker macro (thanks @freak4pc, https://github.com/pointfreeco/swift-dependencies/pull/212).\r\n* Infrastructure: Fix documentation (thanks @gibachan, https://github.com/pointfreeco/swift-dependencies/pull/198).\r\n\r\n## New Contributors\r\n\r\n* @rhysm94 made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/196\r\n* @gibachan made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/198\r\n* @ivanlisovyi made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/209\r\n* @freak4pc made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/212\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.2.2...1.3.0",
     "createdAt" : "2024-05-08T10:49:57+09:00",
     "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",

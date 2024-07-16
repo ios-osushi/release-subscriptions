@@ -158,6 +158,18 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-07-16T10:01:04+09:00",
+    "id" : "REF_kwDOIpT9BrByZWZzL3RhZ3MvMC4xMS4w",
+    "owner" : "apple",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "0.11.0",
+    "url" : "https://github.com/apple/swift-testing/releases/tag/0.11.0",
+    "version" : "0.11.0"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2024-07-14T23:32:23+09:00",
     "id" : "REF_kwDOIpT9BrdyZWZzL3RhZ3MvMC4wLjAtaW5pdGlhbA",
     "owner" : "apple",
