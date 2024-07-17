@@ -72,6 +72,18 @@
     "version" : "0.0.5"
   },
   {
+    "body" : "This release contains various fixes for Cmake support for Windows.\r\n\r\n## What's Changed\r\n* [CMake] Copy headers to known directory for direct client test builds by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/26\r\n* [CMake] Remove direct link to stdc++ by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/27\r\n* [CMake] Update defines to indicate combined, dynamic module build by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/28\r\n* [CMake] Include GNUInstallDirs by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/29\r\n* [CMake] Add small conveniences by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/30\r\n* Use U_EXPORT instead of U_EXPORT2 for non-function symbol by @parkera in https://github.com/apple/swift-foundation-icu/pull/31\r\n\r\n## New Contributors\r\n* @jmschonfeld made their first contribution in https://github.com/apple/swift-foundation-icu/pull/26\r\n\r\n**Full Changelog**: https://github.com/apple/swift-foundation-icu/compare/0.0.8...0.0.9\r\n\r\n\r\n---\r\n### Corresponding ICU Version: `ICU 72.1`",
+    "createdAt" : "2024-07-16T04:58:17+09:00",
+    "fetchedFromAPIAt" : "2024-07-17T10:00:23+09:00",
+    "id" : "RE_kwDOIzpzt84J4Gqo",
+    "owner" : "apple",
+    "publishedAt" : "2024-07-17T03:00:35+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "FoundationICU 0.0.9",
+    "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.9",
+    "version" : "0.0.9"
+  },
+  {
     "body" : "This release renamed the FoundationICU's module name to `_FoundationICU` in preparation for cmake support.\r\n\r\n## What's Changed\r\n* build: Repair the build on WASI by @kateinoigakukun in https://github.com/apple/swift-foundation-icu/pull/21\r\n* Add library targets for the exported/import sub-modules of FoundationICU by @parkera in https://github.com/apple/swift-foundation-icu/pull/23\r\n* Add underscore prefix to all modules in prepration for cmake support by @iCharlesHu in https://github.com/apple/swift-foundation-icu/pull/24\r\n\r\n## New Contributors\r\n* @kateinoigakukun made their first contribution in https://github.com/apple/swift-foundation-icu/pull/21\r\n\r\n**Full Changelog**: https://github.com/apple/swift-foundation-icu/compare/0.0.6...0.0.7\r\n\r\n---\r\n### Corresponding ICU Version: `ICU 72.1`",
     "createdAt" : "2024-06-01T02:00:34+09:00",
     "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
