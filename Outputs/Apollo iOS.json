@@ -912,6 +912,18 @@
     "version" : "1.9.2"
   },
   {
+    "body" : "### New\r\n- **Experimental support for the `@defer` directive:** You can now use the `@defer` directive in your operations and code generation will generate models that support asynchronously receiving the deferred selection sets. There is a helpful property wrapper with a projected value to determine the state of the deferred selection set, and support for cache reads and writes. This feature is enabled by default but is considered [experimental](https://www.apollographql.com/docs/resources/product-launch-stages/#experimental-features). Please refer to the [documentation](https://www.apollographql.com/docs/ios/fetching/defer/) for further details.\r\n- **Add `debugDescription` to `SelectionSet` ([#3374](https://github.com/apollographql/apollo-ios/issues/3374)):** This adds the ability to easily print code generated models to the Xcode debugger console. See PR [#412](https://github.com/apollographql/apollo-ios-dev/pull/412). _Thanks to [@raymondk-nf](https://github.com/raymondk-nf) for raising the issue._\r\n- **Xcode 16 editor config files ([#3404](https://github.com/apollographql/apollo-ios/issues/3404)):** Xcode 16 introduced support for `.editorconfig` files that represent settings like spaces vs. tabs, how many spaces per tab, etc. We've added a `.editorconfig` file with the projects preferred settings, so that the editor will use them automatically. See PR [#419](https://github.com/apollographql/apollo-ios-dev/pull/419). _Thanks to [@TizianoCoroneo](https://github.com/TizianoCoroneo) for raising the issue._\r\n\r\n### Fixed\r\n- **Local cache mutation build error in Swift 6 ([#3398](https://github.com/apollographql/apollo-ios/issues/3398)):** Mutating a property of a fragment annotated with the `@apollo_client_ios_localCacheMutation` directive caused a compile time error in Xcode 16 with Swift 6. See PR [#417](https://github.com/apollographql/apollo-ios-dev/pull/417). _Thanks to [@martin-muller](https://github.com/martin-muller) for raising the issue._",
+    "createdAt" : "2024-07-20T06:48:54+09:00",
+    "fetchedFromAPIAt" : "2024-07-20T09:59:18+09:00",
+    "id" : "RE_kwDOA9NCTc4J6ahq",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-07-20T07:00:51+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.14.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.14.0",
+    "version" : "1.14.0"
+  },
+  {
     "body" : "### New\r\n\r\n- **Added support for visionOS ([#3320](https://github.com/apollographql/apollo-ios/issues/3320)):** All the dependecies that Apollo iOS requires have been updated to add support for visionOS, so we can now add official support for visionOS too. See PR [#333](https://github.com/apollographql/apollo-ios-dev/pull/333).\r\n\r\n### Improvement\r\n\r\n- **Add Sendable conformance to some basic SchemaTypes:** This adds `Sendable` conformance to the some of the generated schema types. This does not mean that all of the generated code is safe to use yet with complete concurrency checking of Swift 5.10 but it gets us closer to that goal. See PR [#322](https://github.com/apollographql/apollo-ios-dev/pull/322). _Thanks to [@bdbergeron](https://github.com/bdbergeron) for the contributon._",
     "createdAt" : "2024-04-16T05:31:27+09:00",
     "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
