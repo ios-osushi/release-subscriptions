@@ -348,6 +348,18 @@
     "version" : "1.3.1"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Swift 6 fixes by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/106\r\n* Fixing Issues with Async Upstream by @leogdion in https://github.com/apple/swift-openapi-runtime/pull/108\r\n* Support NSNull in OpenAPIContainer types by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/109\r\n* Improved encoding of NSNumber in OpenAPIValueContainer by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/110\r\n\r\n## New Contributors\r\n* @leogdion made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/108\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.4.0...1.4.1",
+    "createdAt" : "2024-07-19T20:31:59+09:00",
+    "fetchedFromAPIAt" : "2024-07-23T10:00:28+09:00",
+    "id" : "RE_kwDOJZWxLs4J7QQb",
+    "owner" : "apple",
+    "publishedAt" : "2024-07-22T23:29:38+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.4.1",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.4.1",
+    "version" : "1.4.1"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add support for `application/xml` body by @ugocottin in https://github.com/apple/swift-openapi-runtime/pull/102\r\n* Add support of `deepObject` style in query params by @kstefanou52 in https://github.com/apple/swift-openapi-runtime/pull/100\r\n### SemVer Patch\r\n* Fix empty `additionalProperties` dictionary encoding by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/103\r\n* Improve error message when encountering unexpected content-type headers by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/104\r\n### Other Changes\r\n* Update CI to use release 5.10 by @glbrntt in https://github.com/apple/swift-openapi-runtime/pull/101\r\n\r\n## New Contributors\r\n* @glbrntt made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/101\r\n* @ugocottin made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/102\r\n* @kstefanou52 made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/100\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.3.2...1.4.0",
     "createdAt" : "2024-04-16T18:51:05+09:00",
     "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
