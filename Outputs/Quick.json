@@ -564,6 +564,18 @@
     "version" : "v7.4.1"
   },
   {
+    "body" : "## What's Changed\n* Add nullability annotations to the objective-c header files by @younata in https://github.com/Quick/Quick/pull/1291\n\n\n**Full Changelog**: https://github.com/Quick/Quick/compare/v7.6.1...v7.6.2",
+    "createdAt" : "2024-07-24T01:06:58+09:00",
+    "fetchedFromAPIAt" : "2024-07-24T10:00:56+09:00",
+    "id" : "RE_kwDOATjllM4J8E2b",
+    "owner" : "Quick",
+    "publishedAt" : "2024-07-24T01:09:12+09:00",
+    "repository" : "Quick",
+    "title" : "v7.6.2",
+    "url" : "https://github.com/Quick/Quick/releases/tag/v7.6.2",
+    "version" : "v7.6.2"
+  },
+  {
     "body" : "# Highlights\r\n\r\n- Add QuickLint, a CLI tool & Xcode plugin to detect focus specs and remove the focus.\r\n- Async DSL: Marks the async version of `sharedExamples` as unavailable. Previously, `sharedExamples` would just not be found, and this clarifies that `sharedExamples` is intentionally unavailable in the async DSL.\r\n\r\n# Automated Changelog\r\n\r\n## What's Changed\r\n* Bump rake from 13.1.0 to 13.2.1 by @dependabot in https://github.com/Quick/Quick/pull/1281\r\n* named the context param aContext to match the actual protocol by @Noobish1 in https://github.com/Quick/Quick/pull/1283\r\n* Add QuickLint, a CLI tool to detect focused specs, and optionally remove the focus. by @younata in https://github.com/Quick/Quick/pull/1280\r\n\r\n## New Contributors\r\n* @Noobish1 made their first contribution in https://github.com/Quick/Quick/pull/1283\r\n\r\n**Full Changelog**: https://github.com/Quick/Quick/compare/v7.5.0...v7.6.0",
     "createdAt" : "2024-05-13T01:43:49+09:00",
     "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",

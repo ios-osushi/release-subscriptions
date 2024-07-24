@@ -346,5 +346,17 @@
     "title" : "1.2.1",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.2.1",
     "version" : "1.2.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add CaseIterable conformance for string, int enums by @PARAIPAN9 in https://github.com/apple/swift-openapi-generator/pull/559\r\n### SemVer Patch\r\n* Add the `frozen` keyword only to enums with the `public` or `package` modifiers by @ojun9 in https://github.com/apple/swift-openapi-generator/pull/595\r\n* Fix multipart + additionalProperties + string support by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/597\r\n* Correctly handle path params with a hyphen in the name by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/602\r\n### Other Changes\r\n* Update CI to use release 5.10 image by @glbrntt in https://github.com/apple/swift-openapi-generator/pull/539\r\n* [Docs] Add a link to the Lambda transport by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/544\r\n* Fix compat suite tests by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/561\r\n* Add test for OperationDescription.responseOutcomes by @mt-hodaka in https://github.com/apple/swift-openapi-generator/pull/554\r\n* Bidirectional stream events by @akbashev in https://github.com/apple/swift-openapi-generator/pull/583\r\n* updated examples docs by @akbashev in https://github.com/apple/swift-openapi-generator/pull/585\r\n* [GHA] Call the reusable package workflow by @FranzBusch in https://github.com/apple/swift-openapi-generator/pull/588\r\n* [GHA] Specify ref when calling workflow by @FranzBusch in https://github.com/apple/swift-openapi-generator/pull/590\r\n* Add example package using shared types in client and server by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/592\r\n* Fix typo in feature-request file by @ojun9 in https://github.com/apple/swift-openapi-generator/pull/600\r\n\r\n## New Contributors\r\n* @glbrntt made their first contribution in https://github.com/apple/swift-openapi-generator/pull/539\r\n* @mt-hodaka made their first contribution in https://github.com/apple/swift-openapi-generator/pull/554\r\n* @akbashev made their first contribution in https://github.com/apple/swift-openapi-generator/pull/583\r\n* @FranzBusch made their first contribution in https://github.com/apple/swift-openapi-generator/pull/588\r\n* @ojun9 made their first contribution in https://github.com/apple/swift-openapi-generator/pull/595\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.2.1...1.3.0",
+    "createdAt" : "2024-07-23T19:17:22+09:00",
+    "fetchedFromAPIAt" : "2024-07-24T10:00:56+09:00",
+    "id" : "RE_kwDOJZWvis4J70A7",
+    "owner" : "apple",
+    "publishedAt" : "2024-07-23T19:27:16+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.3.0",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.3.0",
+    "version" : "1.3.0"
   }
 ]
