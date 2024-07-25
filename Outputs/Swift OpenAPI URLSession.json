@@ -142,5 +142,17 @@
     "title" : "1.0.1",
     "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/1.0.1",
     "version" : "1.0.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Remove unnecessary self keyword by @Nao-RandD in https://github.com/apple/swift-openapi-urlsession/pull/48\r\n* Fix request and response translation by @guoye-zhang in https://github.com/apple/swift-openapi-urlsession/pull/51\r\n### Other Changes\r\n* Update CI to use release 5.10 image by @glbrntt in https://github.com/apple/swift-openapi-urlsession/pull/47\r\n* Change 'unsafeDowncast' to 'as!' by @glbrntt in https://github.com/apple/swift-openapi-urlsession/pull/52\r\n\r\n## New Contributors\r\n* @glbrntt made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/47\r\n* @Nao-RandD made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/48\r\n* @guoye-zhang made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/51\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/1.0.1...1.0.2",
+    "createdAt" : "2024-07-25T04:31:27+09:00",
+    "fetchedFromAPIAt" : "2024-07-25T10:00:31+09:00",
+    "id" : "RE_kwDOJZWyrc4JwtD4",
+    "owner" : "apple",
+    "publishedAt" : "2024-07-25T04:42:52+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "1.0.2",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/1.0.2",
+    "version" : "1.0.2"
   }
 ]
