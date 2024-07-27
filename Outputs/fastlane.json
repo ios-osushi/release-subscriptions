@@ -588,6 +588,18 @@
     "version" : "2.219.0"
   },
   {
+    "body" : "* [action][sh] fastlane sh with log set to false should respect a step name (#22151) via Daniel Jankowski (@mollyIV)\n* [scan][trainer] hotfix for float-type version acquisition of `xcresulttool version` fails (#22157) via David Dongkyu Kim (@dokimyj)\n* [gym] fix default result bundle path name (#22154) via Ignacio Calderon (@kronenthaler)\n* [scan][trainer] hotfix for xcresulttool spec changes >= XC16b3 (#22147) via David Dongkyu Kim (@dokimyj)\n* [action][ensure_git_status_clean] support empty spaces in `ignore_files` file paths (#21566) via Daniel Jankowski (@mollyIV)\n* [spaceship] add visionOS support for Connect API (#22032) via Frederik Seiffert (@triplef)\n* [spaceship] Add get app availabilities v2 request (#21901) via Lukasz Grabowski (@lucgrabowski)\n",
+    "createdAt" : "2024-07-27T05:25:21+09:00",
+    "fetchedFromAPIAt" : "2024-07-27T09:59:18+09:00",
+    "id" : "RE_kwDOAaK_F84J-sFz",
+    "owner" : "fastlane",
+    "publishedAt" : "2024-07-27T05:38:39+09:00",
+    "repository" : "fastlane",
+    "title" : "2.222.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.222.0",
+    "version" : "2.222.0"
+  },
+  {
     "body" : "* [produce] fix produce passing incorrect teamId when modifying capabilities (#21885) via Hiroto Nakamura (@Hiroto-N)\n* [spaceship] support individual API key (#21987) via Ryosuke Ito (@manicmaniac)\n* [pilot] fix ASC API error when `reject_build_waiting_for_review: true` (#21995) via Olivier Halligon (@AliSoftware)\n* [spaceship] use new app store statuses to filter app versions and app infos (#21895) via Lukasz Grabowski (@lucgrabowski)\n* [spaceship] move endpoint version from hostname to path (#21900) via Lukasz Grabowski (@lucgrabowski)\n* [fastlane] print better errors when exception occurring in Fastfile  (#21977) via Olivier Halligon (@AliSoftware)\n* [action][spm] add `--very-verbose` option (#21128) via Atsuto Yamashita (@att55)\n* [match] fix `fetch_provisioning_profile` when `output_path` is provided as a match option (#21946) via Jason Hagglund (@TheMetalCode)",
     "createdAt" : "2024-06-11T21:47:37+09:00",
     "fetchedFromAPIAt" : "2024-07-14T22:49:45+09:00",
