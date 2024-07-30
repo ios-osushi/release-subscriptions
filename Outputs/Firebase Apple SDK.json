@@ -850,5 +850,17 @@
     "title" : "Firebase Apple 10.29.0",
     "url" : "https://github.com/firebase/firebase-ios-sdk/releases/tag/10.29.0",
     "version" : "10.29.0"
+  },
+  {
+    "body" : "The Firebase Apple SDK (11.0.0) is now available. For more details, see\r\nthe [Firebase Apple SDK release notes.](https://firebase.google.com/support/release-notes/ios#11.0.0)\r\n\r\nTo install this SDK, see [Add Firebase to your project.](https://firebase.google.com/docs/ios/setup)",
+    "createdAt" : "2024-07-27T00:51:07+09:00",
+    "fetchedFromAPIAt" : "2024-07-31T02:05:00+09:00",
+    "id" : "RE_kwDOBU6LVM4KAX7I",
+    "owner" : "firebase",
+    "publishedAt" : "2024-07-30T23:50:21+09:00",
+    "repository" : "firebase-ios-sdk",
+    "title" : "Firebase Apple 11.0.0",
+    "url" : "https://github.com/firebase/firebase-ios-sdk/releases/tag/11.0.0",
+    "version" : "11.0.0"
   }
 ]
