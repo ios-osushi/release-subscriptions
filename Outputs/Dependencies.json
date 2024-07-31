@@ -346,5 +346,17 @@
     "title" : "1.3.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.3.1",
     "version" : "1.3.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fixed: Swift 6 snapshots. in https://github.com/pointfreeco/swift-dependencies/pull/252\r\n\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.3.5...1.3.6",
+    "createdAt" : "2024-07-27T08:33:18+09:00",
+    "fetchedFromAPIAt" : "2024-07-31T09:50:39+09:00",
+    "id" : "RE_kwDOIF_Mq84KAhfr",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-07-31T03:44:48+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.3.6",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.3.6",
+    "version" : "1.3.6"
   }
 ]
