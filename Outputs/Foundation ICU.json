@@ -106,5 +106,17 @@
     "title" : "FoundationICU 0.0.8",
     "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.8",
     "version" : "0.0.8"
+  },
+  {
+    "body" : "This release upgrades ICU to `74.04` and contains a important bug fix that resolves sporadic test failures due to uninitialized memory.\r\n\r\n## What's Changed\r\n* Silence deprecation warnings by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/32\r\n* [6.0] Add explicit modulemap path to take priority over modulemap from SDK by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/38\r\n* [6.0] Ensure that SimpleDateFormat::fUsePlainSpaces is always initialized by @jmschonfeld in https://github.com/apple/swift-foundation-icu/pull/41\r\n* [6.0] Upgrade to ICU 74 (#39) by @iCharlesHu in https://github.com/apple/swift-foundation-icu/pull/42\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-foundation-icu/compare/0.0.9...0.0.10\r\n\r\n---\r\n### Corresponding ICU Version: `ICU 74.0`",
+    "createdAt" : "2024-08-02T05:32:12+09:00",
+    "fetchedFromAPIAt" : "2024-08-02T10:00:02+09:00",
+    "id" : "RE_kwDOIzpzt84KCNgy",
+    "owner" : "apple",
+    "publishedAt" : "2024-08-02T08:14:54+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "FoundationICU 0.0.10",
+    "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.10",
+    "version" : "0.0.10"
   }
 ]
