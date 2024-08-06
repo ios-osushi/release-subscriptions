@@ -802,5 +802,17 @@
     "title" : "SwiftNIO 2.68.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.68.0",
     "version" : "2.68.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* `FileSystem.copyItem` can parallelise directory copy by @UncleMattHope in https://github.com/apple/swift-nio/pull/2806\r\n* `ChannelOption`: Allow types to be accessed with leading dot syntax by @ayush1794 in https://github.com/apple/swift-nio/pull/2816\r\n* Make `EventLoopPromise` conform to Equatable by @gjcairo in https://github.com/apple/swift-nio/pull/2714\r\n* Provide a default `CopyStrategy` overload for copyItem. by @UncleMattHope in https://github.com/apple/swift-nio/pull/2818\r\n### SemVer Patch\r\n* Better align shutdown semantics of testing event loops by @simonjbeaumont in https://github.com/apple/swift-nio/pull/2800\r\n* Clone files on Darwin rather than copying them by @rnro in https://github.com/apple/swift-nio/pull/2823\r\n### Other Changes\r\n* Fix compose file used in update-benchmark-thresholds script by @simonjbeaumont in https://github.com/apple/swift-nio/pull/2808\r\n* Remove advice to generate linux tests. by @PeterAdams-A in https://github.com/apple/swift-nio/pull/2807\r\n* Make `testInstantTCPConnectionResetThrowsError` more reliable by @hamzahrmalik in https://github.com/apple/swift-nio/pull/2810\r\n* [CI] Add `shellcheck` and fix up warnings by @FranzBusch in https://github.com/apple/swift-nio/pull/2809\r\n* [CI] Fix docs check by @FranzBusch in https://github.com/apple/swift-nio/pull/2811\r\n* [CI] Add Swift 6 language mode workflow by @FranzBusch in https://github.com/apple/swift-nio/pull/2812\r\n* Fix test compilation on non-macOS Darwin platforms by @simonjbeaumont in https://github.com/apple/swift-nio/pull/2817\r\n* Add `.index-build` to `.gitignore` by @MaxDesiatov in https://github.com/apple/swift-nio/pull/2819\r\n* [CI] Add action and workflow to check for semver label by @FranzBusch in https://github.com/apple/swift-nio/pull/2814\r\n* Update repository docs for swift-version support and recent CI check changes by @UncleMattHope in https://github.com/apple/swift-nio/pull/2815\r\n* Fix failing build for test by @ayush1794 in https://github.com/apple/swift-nio/pull/2824\r\n* Fix typo in comment in `WebSocketErrorCodes.swift` by @valeriyvan in https://github.com/apple/swift-nio/pull/2604\r\n* [CI] Add a scheduled workflow for tests and benchmarks by @FranzBusch in https://github.com/apple/swift-nio/pull/2822\r\n* [CI] Fix label check by @FranzBusch in https://github.com/apple/swift-nio/pull/2827\r\n\r\n## New Contributors\r\n* @UncleMattHope made their first contribution in https://github.com/apple/swift-nio/pull/2806\r\n* @ayush1794 made their first contribution in https://github.com/apple/swift-nio/pull/2816\r\n* @valeriyvan made their first contribution in https://github.com/apple/swift-nio/pull/2604\r\n\r\n**Full Changelog**: https://github.com/apple/swift-nio/compare/2.69.0...2.70.0",
+    "createdAt" : "2024-08-05T21:41:20+09:00",
+    "fetchedFromAPIAt" : "2024-08-06T10:00:45+09:00",
+    "id" : "RE_kwDOBy6rG84KDr89",
+    "owner" : "apple",
+    "publishedAt" : "2024-08-06T00:28:11+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.70.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.70.0",
+    "version" : "2.70.0"
   }
 ]
