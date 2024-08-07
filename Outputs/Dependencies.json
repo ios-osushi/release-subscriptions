@@ -358,5 +358,17 @@
     "title" : "1.3.6",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.3.6",
     "version" : "1.3.6"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Add explicit XCTestDynamicOverlay dependency to DependenciesMacros target (thanks @andriyslyusar, https://github.com/pointfreeco/swift-dependencies/pull/254).\r\n* Fixed: Address Swift 6 snapshot boundary issue (thanks @hallee, https://github.com/pointfreeco/swift-dependencies/pull/256).\r\n\r\n## New Contributors\r\n* @andriyslyusar made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/254\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.3.6...1.3.7",
+    "createdAt" : "2024-08-07T01:35:47+09:00",
+    "fetchedFromAPIAt" : "2024-08-07T10:01:18+09:00",
+    "id" : "RE_kwDOIF_Mq84KEfkU",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-08-07T01:39:03+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.3.7",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.3.7",
+    "version" : "1.3.7"
   }
 ]
