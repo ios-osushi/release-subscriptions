@@ -814,5 +814,29 @@
     "title" : "2.8.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.8.0",
     "version" : "2.8.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Update SwiftFormat Configuration by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/303\r\n* Add CopyFilesCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/294\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.8.0...2.9.0",
+    "createdAt" : "2024-08-07T12:28:11+09:00",
+    "fetchedFromAPIAt" : "2024-08-08T10:00:55+09:00",
+    "id" : "RE_kwDOCNUZc84KExJp",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-08-07T12:29:17+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.9.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.9.0",
+    "version" : "2.9.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add SwiftDriverJobDiscoveryCompilingCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/305\r\n* Fix SwiftCompileCaptureGroup Bug by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/306\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.9.0...2.10.0",
+    "createdAt" : "2024-08-08T09:30:33+09:00",
+    "fetchedFromAPIAt" : "2024-08-08T10:00:55+09:00",
+    "id" : "RE_kwDOCNUZc84KFjKR",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-08-08T09:30:46+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.10.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.10.0",
+    "version" : "2.10.0"
   }
 ]

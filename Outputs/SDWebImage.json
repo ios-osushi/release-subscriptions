@@ -850,5 +850,17 @@
     "title" : "5.19.4 - 5.19 Patch",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.4",
     "version" : "5.19.4"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.19.5 release](https://github.com/SDWebImage/SDWebImage/milestone/138)\r\n\r\n### Performance\r\n- Use the better way to detect lazy/non-lazy CGImage. Only do force decoding for lazy image (avoid thumbnail image been decoded twice) #3736\r\n\r\n### Fixes\r\n- Remove the unused code for iOS 10 polyfill #3735\r\n",
+    "createdAt" : "2024-08-07T16:52:07+09:00",
+    "fetchedFromAPIAt" : "2024-08-08T10:00:55+09:00",
+    "id" : "RE_kwDOAATIS84KE36o",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2024-08-07T17:00:49+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.19.6 - Thumbnail performance",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.6",
+    "version" : "5.19.6"
   }
 ]
