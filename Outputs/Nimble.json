@@ -598,5 +598,17 @@
     "title" : "v13.2.1",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v13.2.1",
     "version" : "v13.2.1"
+  },
+  {
+    "body" : "## What's Changed\n* Bump rexml from 3.2.6 to 3.2.8 by @dependabot in https://github.com/Quick/Nimble/pull/1143\n* BeLogical: fix retroactive conformance error. by @TomerHacohen in https://github.com/Quick/Nimble/pull/1149\n* Add a matcher to negate a passed in matcher by @younata in https://github.com/Quick/Nimble/pull/1151\n\n## New Contributors\n* @TomerHacohen made their first contribution in https://github.com/Quick/Nimble/pull/1149\n\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v13.3.0...v13.4.0",
+    "createdAt" : "2024-08-08T14:58:54+09:00",
+    "fetchedFromAPIAt" : "2024-08-09T10:02:18+09:00",
+    "id" : "RE_kwDOAUUIhc4KFpba",
+    "owner" : "Quick",
+    "publishedAt" : "2024-08-08T15:00:54+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.4.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.4.0",
+    "version" : "v13.4.0"
   }
 ]
