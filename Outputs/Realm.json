@@ -1018,5 +1018,17 @@
     "title" : "v10.52.1",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.52.1",
     "version" : "v10.52.1"
+  },
+  {
+    "body" : "### Enhancements\r\n\r\n* Improve performance of bulk object creation when the objects have embedded objects. This is particularly significant for applying sync bootstraps. ([Core #7945](https://github.com/realm/realm-core/issues/7945))\r\n* Client reset cycle detection now checks if the previous recovery attempt was made by the same version of Realm, and if not attempts recovery again ([Core #7944](https://github.com/realm/realm-core/pull/7944)).\r\n\r\n### Fixed\r\n\r\n* App change notifications were being sent too soon when a new user was logged in, resulting in the user's profile being empty if it was read from within the change notification (since v10.51.0).\r\n* A conflict resolution bug related to ArrayErase and Clear instructions could sometimes cause an \"Invalid prior_size\" exception when synchronizing ([Core #7893](https://github.com/realm/realm-core/issues/7893), since v10.51.0).\r\n* Sync merges which resulted in a changeset's reciprotal transformation being empty were handled incorrectly, possibly resulting in data divergence. No instances of this actually happening have been reported. ([Core #7955](https://github.com/realm/realm-core/pull/7955), since v10.51.0)\r\n* `Realm.writeCopy()` would sometimes incorrectly throw an exception claiming that there were unuploaded local changes when the source Realm is a synchronized Realm ([Core #7966](https://github.com/realm/realm-core/issues/7966), since v10.7.6).\r\n\r\n### Compatibility\r\n\r\n* Realm Studio: 15.0.0 or later.\r\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\r\n* Carthage release for Swift is built with Xcode 15.4.0.\r\n* CocoaPods: 1.10 or later.\r\n* Xcode: 15.1.0-16 beta 5.\r\n\r\n### Internal\r\n\r\n* Upgraded realm-core from v14.11.1 to 14.12.0",
+    "createdAt" : "2024-08-10T12:02:43+09:00",
+    "fetchedFromAPIAt" : "2024-08-11T10:06:01+09:00",
+    "id" : "RE_kwDOAD24W84KG_Rf",
+    "owner" : "realm",
+    "publishedAt" : "2024-08-10T12:03:57+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.52.3",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.52.3",
+    "version" : "v10.52.3"
   }
 ]
