@@ -490,5 +490,17 @@
     "title" : "Swift Crypto 3.6.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.6.0",
     "version" : "3.6.0"
+  },
+  {
+    "body" : "### SemVer Patch\r\n\r\n- Convert PrivacyInfo.xcprivacy symlinks to files (#251, patch credit to @jakepetroules)",
+    "createdAt" : "2024-08-13T15:53:29+09:00",
+    "fetchedFromAPIAt" : "2024-08-14T10:01:47+09:00",
+    "id" : "RE_kwDOC9Swts4KIIEx",
+    "owner" : "apple",
+    "publishedAt" : "2024-08-13T16:14:00+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.6.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.6.1",
+    "version" : "3.6.1"
   }
 ]
