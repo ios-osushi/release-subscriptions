@@ -838,5 +838,29 @@
     "title" : "2.10.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.10.0",
     "version" : "2.10.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Bump to Xcode 16 Beta 5 by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/308\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.10.0...2.10.1",
+    "createdAt" : "2024-08-15T00:28:08+09:00",
+    "fetchedFromAPIAt" : "2024-08-15T09:58:55+09:00",
+    "id" : "RE_kwDOCNUZc84KJSSe",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-08-15T00:28:20+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.10.1",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.10.1",
+    "version" : "2.10.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add ExplicitDependencyCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/307\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.10.1...2.11.0",
+    "createdAt" : "2024-08-15T01:03:10+09:00",
+    "fetchedFromAPIAt" : "2024-08-15T09:58:55+09:00",
+    "id" : "RE_kwDOCNUZc84KJT18",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-08-15T01:03:25+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.11.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.11.0",
+    "version" : "2.11.0"
   }
 ]
