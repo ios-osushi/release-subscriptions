@@ -250,5 +250,17 @@
     "title" : "510.0.3",
     "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/510.0.3",
     "version" : "510.0.3"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-08-13T06:52:03+09:00",
+    "fetchedFromAPIAt" : "2024-08-16T10:01:02+09:00",
+    "id" : "RE_kwDOCIc4qs4KJjKR",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-08-15T10:16:51+09:00",
+    "repository" : "swift-syntax",
+    "title" : "600.0.0-prerelease-2024-08-14",
+    "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/600.0.0-prerelease-2024-08-14",
+    "version" : "600.0.0-prerelease-2024-08-14"
   }
 ]

@@ -1210,5 +1210,17 @@
     "title" : "1.11.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.11.2",
     "version" : "1.11.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: UIKit navigation and binding tools (https://github.com/pointfreeco/swift-composable-architecture/pull/3180).\r\n* Fixed: Update `Shared` to invoke `reportIssue` (https://github.com/pointfreeco/swift-composable-architecture/pull/3258).\r\n* Fixed: Address a few compiler warnings (https://github.com/pointfreeco/swift-composable-architecture/pull/3279).\r\n* Fixed: Avoid crash when writing to shared user defaults on a background thread (thanks @larryonoff, https://github.com/pointfreeco/swift-composable-architecture/pull/3285).\r\n* Infrastructure: Typo fixes (thanks @hmhv, https://github.com/pointfreeco/swift-composable-architecture/pull/3267; @mltbnz, https://github.com/pointfreeco/swift-composable-architecture/pull/3268).\r\n* Infrastructure: Update swiftlang repository link (thanks @lamtrinhdev, https://github.com/pointfreeco/swift-composable-architecture/pull/3270).\r\n* Infrastructure: Updated a bunch of DocC references (https://github.com/pointfreeco/swift-composable-architecture/pull/3287).\r\n\r\n## New Contributors\r\n* @mltbnz made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3268\r\n* @lamtrinhdev made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3270\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.12.1...1.13.0",
+    "createdAt" : "2024-08-16T02:43:58+09:00",
+    "fetchedFromAPIAt" : "2024-08-16T10:01:02+09:00",
+    "id" : "RE_kwDOD48kk84KKExQ",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-08-16T03:17:21+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.13.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.13.0",
+    "version" : "1.13.0"
   }
 ]

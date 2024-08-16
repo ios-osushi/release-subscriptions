@@ -170,6 +170,18 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-08-16T10:01:01+09:00",
+    "id" : "REF_kwDOIpT9BrByZWZzL3RhZ3MvMC4xMi4w",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "0.12.0",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/0.12.0",
+    "version" : "0.12.0"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2024-07-14T23:32:23+09:00",
     "id" : "REF_kwDOIpT9BrdyZWZzL3RhZ3MvMC4wLjAtaW5pdGlhbA",
     "owner" : "apple",
