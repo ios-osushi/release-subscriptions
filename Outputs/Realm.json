@@ -1030,5 +1030,17 @@
     "title" : "v10.52.3",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.52.3",
     "version" : "v10.52.3"
+  },
+  {
+    "body" : "### Enhancements\n\n* Code sign our published xcframeworks. By Apple's requirements, we should sign our release\n  binaries so Xcode can validate it was signed by the same developer on every new version.\n  ([Apple](https://developer.apple.com/support/third-party-SDK-requirements/)).\n* Report sync warnings from the server such as sync being disabled server-side to the sync error handler.\n  ([#8020](https://github.com/realm/realm-swift/issues/8020)).\n* Add support for string comparison queries, which allows building string\n  queries with the following operators (`>`, `>=`, `<`, `<=`).\n  This is a case sensitive lexicographical comparison.\n  ([#8008](https://github.com/realm/realm-swift/issues/8008)).\n\n### Fixed\n\n* `-[RLMAsymmetricObject createObject:withValue:]` was marked as having a\n  non-null return value despite always returning `nil` (since v10.29.0).\n* Eliminate several clang static analyzer warnings which did not report actual\n  bugs.\n* The async and Future versions of `User.functions` only worked for functions\n  which took exactly one argument, which had to be an array ([#8669](https://github.com/realm/realm-swift/issues/8669), since 10.16.0).\n\n### Compatibility\n\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.4.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.1.0-16 beta 5.",
+    "createdAt" : "2024-08-21T06:39:42+09:00",
+    "fetchedFromAPIAt" : "2024-08-21T10:00:49+09:00",
+    "id" : "RE_kwDOAD24W84KM7HV",
+    "owner" : "realm",
+    "publishedAt" : "2024-08-21T06:41:03+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.53.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.53.0",
+    "version" : "v10.53.0"
   }
 ]
