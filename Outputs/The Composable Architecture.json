@@ -1222,5 +1222,17 @@
     "title" : "1.13.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.13.0",
     "version" : "1.13.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Address regression in which `observe` was limited to platforms that can import UIKit by bringing back an AppKit-compatible version (https://github.com/pointfreeco/swift-composable-architecture/pull/3295).\r\n* Infrastructure: Integration test fixes (https://github.com/pointfreeco/swift-composable-architecture/pull/3294).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.13.0...1.13.1",
+    "createdAt" : "2024-08-23T01:35:20+09:00",
+    "fetchedFromAPIAt" : "2024-08-23T10:01:31+09:00",
+    "id" : "RE_kwDOD48kk84KOSJv",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-08-23T01:36:49+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.13.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.13.1",
+    "version" : "1.13.1"
   }
 ]
