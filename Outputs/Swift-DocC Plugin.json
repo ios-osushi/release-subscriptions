@@ -58,5 +58,29 @@
     "title" : "Swift-DocC-Plugin 1.3.0",
     "url" : "https://github.com/apple/swift-docc-plugin/releases/tag/1.3.0",
     "version" : "1.3.0"
+  },
+  {
+    "body" : "### What's Changed\r\n\r\n- You can now customize the minimal access level of symbols to include in your documentation. The default access level continues to be \"public\" for libraries and \"internal\" for executables. To specify a custom minimal access level, pass the new `--symbol-graph-minimum-access-level` flag:\r\n  ```\r\n  swift package generate documentation \\\r\n    --symbol-graph-minimum-access-level internal \\\r\n    --target [target-name]\r\n  ```\r\n\r\n- You can now generate a combined documentation archive with the documentation for multiple targets when building with **Swift 6.0 or later**. Each target's documentation can link to its target dependencies' documentation. This is an opt-in, experimental feature that can used by passing the `--enable-experimental-combined-documentation` flag:\r\n  ```\r\n  swift package generate documentation \\\r\n    --enable-experimental-combined-documentation \\\r\n    --target [first-target-name] \\\r\n    --target [second-target-name] \\\r\n  ```\r\n\r\n- Using a custom `--output-path` when building documentation for more than one target no longer causes one target to write over the output of the other target. Instead, both targets write their output in subdirectories of the specified output path. When building documentation for a single target, or when building combined documentation, the plugin continues to write the output directly to the specified output path. \r\n\r\n- The help text in `swift package generate-documentation --help` now includes information about all the DocC options. The help text also organizes the symbol graph options into its own section.\r\n\r\n---\r\n\r\nThe `1.4.0` release includes contributions from @natikgadzhi, @d-ronnqvist, @JessyCatterwaul, @joey-gm, @dabrahams, @parispittman, @SwiftCoderJoe, and @Kyle-Ye. Thank you! ",
+    "createdAt" : "2024-08-23T16:52:59+09:00",
+    "fetchedFromAPIAt" : "2024-08-24T10:00:13+09:00",
+    "id" : "RE_kwDOGYmeSs4KOr7G",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-08-23T17:34:40+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "Swift-DocC-Plugin 1.4.0",
+    "url" : "https://github.com/swiftlang/swift-docc-plugin/releases/tag/1.4.0",
+    "version" : "1.4.0"
+  },
+  {
+    "body" : "### What's changed \r\n\r\nThis fixes a build failure with Swift versions before 6.0.",
+    "createdAt" : "2024-08-23T20:11:34+09:00",
+    "fetchedFromAPIAt" : "2024-08-24T10:00:13+09:00",
+    "id" : "RE_kwDOGYmeSs4KOyGc",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-08-23T20:17:35+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "Swift-DocC-Plugin 1.4.1",
+    "url" : "https://github.com/swiftlang/swift-docc-plugin/releases/tag/1.4.1",
+    "version" : "1.4.1"
   }
 ]
