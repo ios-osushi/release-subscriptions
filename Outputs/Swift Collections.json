@@ -190,5 +190,17 @@
     "title" : "Swift Collections 1.1.2",
     "url" : "https://github.com/apple/swift-collections/releases/tag/1.1.2",
     "version" : "1.1.2"
+  },
+  {
+    "body" : "This patch release ships bug fixes for issues discovered since 1.1.2.\r\n\r\n## What's Changed\r\n* [BigString] Fix accidentally quadratic `BigString.init` by @lorentey in https://github.com/apple/swift-collections/pull/405\r\n* add 'final' keyword to class by @quokkaKyu in https://github.com/apple/swift-collections/pull/403\r\n* [CMake] Add support for WebAssembly target architectures by @kateinoigakukun in https://github.com/apple/swift-collections/pull/408\r\n* [concurrency] conform Deque.Iterator to unchecked-Sendable by @glessard in https://github.com/apple/swift-collections/pull/414\r\n\r\n## New Contributors\r\n* @quokkaKyu made their first contribution in https://github.com/apple/swift-collections/pull/403\r\n* @kateinoigakukun made their first contribution in https://github.com/apple/swift-collections/pull/408\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.1.2...1.1.3",
+    "createdAt" : "2024-08-20T10:45:56+09:00",
+    "fetchedFromAPIAt" : "2024-08-27T10:02:32+09:00",
+    "id" : "RE_kwDOFDfRzs4KPLDU",
+    "owner" : "apple",
+    "publishedAt" : "2024-08-27T02:35:56+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 1.1.3",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.1.3",
+    "version" : "1.1.3"
   }
 ]

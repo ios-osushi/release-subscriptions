@@ -550,5 +550,17 @@
     "title" : "1.27.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.27.0",
     "version" : "1.27.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Update links for repositories moved to the swiftlang org on GitHub by @lamtrinhdev in https://github.com/apple/swift-protobuf/pull/1682\r\n* Add missing periods and correct the typos. by @lamtrinhdev in https://github.com/apple/swift-protobuf/pull/1684\r\n* Range check timestamps on all parsing paths. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1686\r\n* Enhance code block format in README.md by @lamtrinhdev in https://github.com/apple/swift-protobuf/pull/1687\r\n* Add a plugin api for extracting back out the descriptor proto. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1690\r\n* Rename CI checkout directory from main to swift-protobuf and update tools version in PluginExamples Package.swift by @gjcairo in https://github.com/apple/swift-protobuf/pull/1689\r\n* Support access level on import statements by @Skoti in https://github.com/apple/swift-protobuf/pull/1683\r\n* Disable swiftlint AND swift-format checking by @tbkka in https://github.com/apple/swift-protobuf/pull/1627\r\n* Add FieldMask utilities to Message types by @pouyayarandi in https://github.com/apple/swift-protobuf/pull/1505\r\n* Documentation for fieldmask utilities by @pouyayarandi in https://github.com/apple/swift-protobuf/pull/1693\r\n* Pin docc to a version that works for older swift versions. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1696\r\n\r\n## New Contributors\r\n* @lamtrinhdev made their first contribution in https://github.com/apple/swift-protobuf/pull/1682\r\n* @Skoti made their first contribution in https://github.com/apple/swift-protobuf/pull/1683\r\n* @pouyayarandi made their first contribution in https://github.com/apple/swift-protobuf/pull/1505\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.27.1...1.28.0",
+    "createdAt" : "2024-08-27T01:52:45+09:00",
+    "fetchedFromAPIAt" : "2024-08-27T10:02:32+09:00",
+    "id" : "RE_kwDOBAEMEM4KQE7T",
+    "owner" : "apple",
+    "publishedAt" : "2024-08-27T01:55:51+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.28.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.28.0",
+    "version" : "1.28.0"
   }
 ]
