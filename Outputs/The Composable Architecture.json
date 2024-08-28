@@ -1234,5 +1234,17 @@
     "title" : "1.13.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.13.1",
     "version" : "1.13.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: Isolate `Store`, `TestStore`, and various view helpers to the `@MainActor` (https://github.com/pointfreeco/swift-composable-architecture/pull/3277, https://github.com/pointfreeco/swift-composable-architecture/pull/3283). This has been done with `@preconcurrency` for backwards compatibility. If you are using strict concurrency it may require you add `@MainActor` annotations to any SwiftUI view helpers that access the store.\r\n* Fixed: Don't eagerly dismiss an alert presented by another (https://github.com/pointfreeco/swift-composable-architecture/pull/3309).\r\n* Infrastructure: Bump Swift Navigation version (https://github.com/pointfreeco/swift-composable-architecture/pull/3310).\r\n* Infrastructure: Documentation fixes (thanks @woohyunjin06, https://github.com/pointfreeco/swift-composable-architecture/pull/3296; @MaraMincho, https://github.com/pointfreeco/swift-composable-architecture/pull/3299).\r\n\r\n## New Contributors\r\n* @woohyunjin06 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3296\r\n* @MaraMincho made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3299\r\n* @qwerty3345 made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3305\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.13.1...1.14.0",
+    "createdAt" : "2024-08-28T04:31:43+09:00",
+    "fetchedFromAPIAt" : "2024-08-28T10:02:59+09:00",
+    "id" : "RE_kwDOD48kk84KQ-Zn",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-08-28T04:36:14+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.14.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.14.0",
+    "version" : "1.14.0"
   }
 ]
