@@ -82,5 +82,17 @@
     "title" : "Swift-DocC-Plugin 1.4.1",
     "url" : "https://github.com/swiftlang/swift-docc-plugin/releases/tag/1.4.1",
     "version" : "1.4.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\nFixes a build failure for Swift versions 5.7 and 5.8.\r\n\r\nSwift versions 5.6 and earlier are not supported, and `Package.swift` now reflects this as expected.",
+    "createdAt" : "2024-08-29T22:05:11+09:00",
+    "fetchedFromAPIAt" : "2024-08-30T10:04:04+09:00",
+    "id" : "RE_kwDOGYmeSs4KSROo",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-08-29T22:09:16+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "Swift-DocC-Plugin 1.4.2",
+    "url" : "https://github.com/swiftlang/swift-docc-plugin/releases/tag/1.4.2",
+    "version" : "1.4.2"
   }
 ]
