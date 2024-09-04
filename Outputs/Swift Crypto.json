@@ -502,5 +502,17 @@
     "title" : "Swift Crypto 3.6.1",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.6.1",
     "version" : "3.6.1"
+  },
+  {
+    "body" : "### SemVer Minor\r\n\r\n- Add support for AES CFB mode in _CryptoExtras (#252)",
+    "createdAt" : "2024-09-03T17:28:28+09:00",
+    "fetchedFromAPIAt" : "2024-09-04T10:04:25+09:00",
+    "id" : "RE_kwDOC9Swts4KUkHB",
+    "owner" : "apple",
+    "publishedAt" : "2024-09-03T17:36:35+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.7.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.7.0",
+    "version" : "3.7.0"
   }
 ]
