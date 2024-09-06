@@ -1042,5 +1042,17 @@
     "title" : "v10.53.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.53.0",
     "version" : "v10.53.0"
+  },
+  {
+    "body" : "### Enhancements\n\n* Add the file path to the exception thrown by File::rw_lock() when it fails to\n  open the file. ([Core #7999](https://github.com/realm/realm-core/issues/7999))\n\n### Fixed\n\n* Filtering notifications with a LinkingObjects property as the final element\n  could sometimes give wrong results\n  ([Core #7530](https://github.com/realm/realm-core/issues/7530), since v10.11.0)\n* Fix a potential crash during process termination when Logger log level is set\n  higher than Info. ([Core #7969](https://github.com/realm/realm-core/issues/7969), since v10.45.0)\n* The check for maximum path length was incorrect and lengths between 240 and\n  250 would fail to use the hashed fallback ([Core #8007](https://github.com/realm/realm-core/issues/8007), since v10.0.0).\n* API misuse resulting in an exception being thrown from within a callback\n  would sometimes terminate due to hitting `REALM_UNREACHABLE()` rather than\n  the exception being propagated to the caller\n  ([Core #7836](https://github.com/realm/realm-core/issues/7836)).\n\n### Compatibility\n\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.4.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.1.0-16 beta 5.\n\n### Internal\n\n* Upgraded realm-core from v14.12.0 to 14.12.1",
+    "createdAt" : "2024-09-06T05:16:09+09:00",
+    "fetchedFromAPIAt" : "2024-09-06T10:04:01+09:00",
+    "id" : "RE_kwDOAD24W84KWta1",
+    "owner" : "realm",
+    "publishedAt" : "2024-09-06T05:17:36+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.53.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.53.1",
+    "version" : "v10.53.1"
   }
 ]

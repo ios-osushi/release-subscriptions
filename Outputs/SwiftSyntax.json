@@ -262,5 +262,17 @@
     "title" : "600.0.0-prerelease-2024-08-14",
     "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/600.0.0-prerelease-2024-08-14",
     "version" : "600.0.0-prerelease-2024-08-14"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-08-13T06:52:03+09:00",
+    "fetchedFromAPIAt" : "2024-09-06T10:04:01+09:00",
+    "id" : "RE_kwDOCIc4qs4KWyoq",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-09-06T08:39:45+09:00",
+    "repository" : "swift-syntax",
+    "title" : "600.0.0-prerelease-2024-09-04",
+    "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/600.0.0-prerelease-2024-09-04",
+    "version" : "600.0.0-prerelease-2024-09-04"
   }
 ]
