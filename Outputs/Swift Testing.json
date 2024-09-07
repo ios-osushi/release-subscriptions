@@ -238,5 +238,17 @@
     "title" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-04-a",
     "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2024-09-04-a",
     "version" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-04-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-09-07T10:02:43+09:00",
+    "id" : "REF_kwDOIpT9BtoAMXJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDI0LTA5LTA1LWE",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-05-a",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2024-09-05-a",
+    "version" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-05-a"
   }
 ]

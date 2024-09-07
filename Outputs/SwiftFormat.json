@@ -1114,5 +1114,17 @@
     "title" : "0.54.0",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.0",
     "version" : "0.54.0"
+  },
+  {
+    "body" : "- Fixed bug where trailing comma was erroneously inserted into a wrapped array type extension\r\n- Fixed bug where `return` was incorrectly removed inside `catch` statement with `where` clause\r\n- Fixed `opaqueGenericParameters` rule being incorrectly applied to functions with typed `throws`\r\n- Fixed `spaceAroundBrackets` behaving incorrectly inside a macro invocation\r\n- Fixed `unusedArguments` false positive inside multiline string literal\r\n- Fixed a case where removing `return` resulted in non-compiling code for opaque return types\r\n- Redundant `Void` return type is now removed from functions in protocol declarations\r\n- Fixed a bug where `unusedArguments` didn't handle conditional assignment shadowing correctly\r\n- Fixed Xcode 16 Beta warnings related to unhandled files when building SwiftFormat package\r\n- The Swift runtime is now packaged with the installer on Windows as on Linux\r\n- The Windows installer now uses a more conventional directory structure\r\n- SwiftFormat for Windows now supports arm64",
+    "createdAt" : "2024-09-07T07:39:16+09:00",
+    "fetchedFromAPIAt" : "2024-09-07T10:02:43+09:00",
+    "id" : "RE_kwDOA_OyXc4KXhdj",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-09-07T07:54:00+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.54.4",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.4",
+    "version" : "0.54.4"
   }
 ]
