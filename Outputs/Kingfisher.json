@@ -658,5 +658,17 @@
     "title" : "8.0.0-alpha.2",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.0.0-alpha.2",
     "version" : "8.0.0-alpha.2"
+  },
+  {
+    "body" : "Kingfisher 8 is a major upgrade and contains breaking changes to previous versions. Check [this](https://github.com/onevcat/Kingfisher/releases/tag/8.0.0-alpha.1) for more information.\r\n\r\n#### Fix\r\n\r\n* Remove `@unchecked` Sendable by @NachoSoto in https://github.com/onevcat/Kingfisher/pull/2272\r\n* Change `swift(>=6)` to use `compiler` by @NachoSoto in https://github.com/onevcat/Kingfisher/pull/2273\r\n* Rewrite the blur rendering method without deprecated `UIGraphicsBeginImageContextWithOptions` by @onevcat in https://github.com/onevcat/Kingfisher/pull/2274\r\n* Update links for repositories moved to the swiftlang org on GitHub by @lamtrinhdev in https://github.com/onevcat/Kingfisher/pull/2275\r\n* Apply existential any to protocol for Swift 6 by @qwerty3345 in https://github.com/onevcat/Kingfisher/pull/2283",
+    "createdAt" : "2024-09-08T11:06:58+09:00",
+    "fetchedFromAPIAt" : "2024-09-09T10:06:29+09:00",
+    "id" : "RE_kwDOAf70wM4KXui_",
+    "owner" : "onevcat",
+    "publishedAt" : "2024-09-08T11:17:42+09:00",
+    "repository" : "Kingfisher",
+    "title" : "8.0.0-beta.1",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.0.0-beta.1",
+    "version" : "8.0.0-beta.1"
   }
 ]
