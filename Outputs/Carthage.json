@@ -394,5 +394,17 @@
     "title" : "0.39.1",
     "url" : "https://github.com/Carthage/Carthage/releases/tag/0.39.1",
     "version" : "0.39.1"
+  },
+  {
+    "body" : "**Changes**\r\n\r\n- Under all Xcodes and `xcodebuild`s — Carthage will pass `SUPPORTS_MACCATALYST=NO` just before `CARTHAGE=YES`.\r\n  - We consider adding that passed/hardcoded build setting safe — considering any likelihood ‘build setting chaining/interpolation’ using `SUPPORTS_MACCATALYST` is guessed to be almost entirely non-existent. Please file an issue if unexpected effects are seen.\r\n- Under all Xcode versions, all xcodebuild invocations of `-showBuildSettings` that return non-0 exit code and standardError matching `error[:] [^\\n]*Found no destinations for the scheme [^\\n]+ and action [^\\n]+[.]\\n` will see non-surfacing of those errors. Carthage proceeds as if that xcodebuild invocation never happened (which is essentially how Carthage behaved before it had one more non-0 exit code return to deal with.)\r\n- No longer (under Xcode 16 and above) prefix `-showBuildSettings` with solely the `archive` action. Carthage has long-standingly built `simulator` code under the `build` action.\r\n- Xcode Build Setting `OBJROOT` now appears to have more path components. We lop some path components off (only under Xcode 16 and above.)\r\n\r\n**Acknowledgements**\r\n\r\nThank you to @prassyy for a pull request!",
+    "createdAt" : "2024-09-09T23:40:30+09:00",
+    "fetchedFromAPIAt" : "2024-09-10T10:05:22+09:00",
+    "id" : "RE_kwDOAX4-3M4KYVRC",
+    "owner" : "Carthage",
+    "publishedAt" : "2024-09-09T23:53:24+09:00",
+    "repository" : "Carthage",
+    "title" : "0.40.0",
+    "url" : "https://github.com/Carthage/Carthage/releases/tag/0.40.0",
+    "version" : "0.40.0"
   }
 ]
