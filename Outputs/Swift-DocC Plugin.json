@@ -94,5 +94,17 @@
     "title" : "Swift-DocC-Plugin 1.4.2",
     "url" : "https://github.com/swiftlang/swift-docc-plugin/releases/tag/1.4.2",
     "version" : "1.4.2"
+  },
+  {
+    "body" : "### What's Changed\r\n\r\n- Fixes a bug with the experimental combined documentation feature where targets with multiple dependencies wasn't able to link to all their dependencies' documentation.\r\n\r\n- Support generating Swift documentation for C/C++/Objective-C targets.\r\n\r\n---\r\n\r\nThe `1.4.3` release includes contributions from @cmcgee1024, @sofiaromorales, and @d-ronnqvist. Thank you! \r\n\r\n",
+    "createdAt" : "2024-09-10T20:49:22+09:00",
+    "fetchedFromAPIAt" : "2024-09-11T10:04:33+09:00",
+    "id" : "RE_kwDOGYmeSs4KY-Rr",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-09-10T21:04:30+09:00",
+    "repository" : "swift-docc-plugin",
+    "title" : "Swift-DocC-Plugin 1.4.3",
+    "url" : "https://github.com/swiftlang/swift-docc-plugin/releases/tag/1.4.3",
+    "version" : "1.4.3"
   }
 ]
