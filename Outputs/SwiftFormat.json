@@ -1126,5 +1126,17 @@
     "title" : "0.54.4",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.4",
     "version" : "0.54.4"
+  },
+  {
+    "body" : "- Fixed crash in `unusedArguments` rule\r\n- Fixed bug where `preferForLoop` failed if `forEach` contains `guard ... else { return }`",
+    "createdAt" : "2024-09-12T03:39:45+09:00",
+    "fetchedFromAPIAt" : "2024-09-12T10:04:21+09:00",
+    "id" : "RE_kwDOA_OyXc4KaIkc",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-09-12T04:04:04+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.54.5",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.5",
+    "version" : "0.54.5"
   }
 ]
