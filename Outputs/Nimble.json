@@ -610,5 +610,17 @@
     "title" : "v13.4.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v13.4.0",
     "version" : "v13.4.0"
+  },
+  {
+    "body" : "## What's Changed\n* Bump rexml from 3.2.8 to 3.3.6 by @dependabot in https://github.com/Quick/Nimble/pull/1153\n* Basic swift testing support by @younata in https://github.com/Quick/Nimble/pull/1154\n\n\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v13.4.0...v13.5.0",
+    "createdAt" : "2024-09-13T04:00:32+09:00",
+    "fetchedFromAPIAt" : "2024-09-13T10:04:59+09:00",
+    "id" : "RE_kwDOAUUIhc4Ka66r",
+    "owner" : "Quick",
+    "publishedAt" : "2024-09-13T04:00:45+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.5.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.5.0",
+    "version" : "v13.5.0"
   }
 ]
