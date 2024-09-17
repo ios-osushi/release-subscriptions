@@ -514,5 +514,17 @@
     "title" : "Swift Crypto 3.7.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.7.0",
     "version" : "3.7.0"
+  },
+  {
+    "body" : "## What's Changed\r\n### SemVer Patch\r\n* Update BoringSSL to 6a2ccdcc2ed1d37a43a2183658d2ae61fd5ce208 by @Lukasa in https://github.com/apple/swift-crypto/pull/255\r\n### Other Changes\r\n* Add release.yml by @FranzBusch in https://github.com/apple/swift-crypto/pull/253\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-crypto/compare/3.7.0...3.7.1",
+    "createdAt" : "2024-09-16T18:02:51+09:00",
+    "fetchedFromAPIAt" : "2024-09-17T09:54:43+09:00",
+    "id" : "RE_kwDOC9Swts4KcTCI",
+    "owner" : "apple",
+    "publishedAt" : "2024-09-16T18:16:25+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.7.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.7.1",
+    "version" : "3.7.1"
   }
 ]

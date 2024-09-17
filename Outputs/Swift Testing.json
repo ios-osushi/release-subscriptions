@@ -194,6 +194,18 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-09-17T09:54:43+09:00",
+    "id" : "REF_kwDOIpT9BrtyZWZzL3RhZ3Mvc3dpZnQtNi4wLVJFTEVBU0U",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-6.0-RELEASE",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-6.0-RELEASE",
+    "version" : "swift-6.0-RELEASE"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2024-08-28T10:02:59+09:00",
     "id" : "REF_kwDOIpT9BtoAMXJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDI0LTA4LTI2LWE",
     "owner" : "swiftlang",
@@ -274,6 +286,18 @@
     "title" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-14-a",
     "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2024-09-14-a",
     "version" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-14-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-09-17T09:54:43+09:00",
+    "id" : "REF_kwDOIpT9BtoAMXJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDI0LTA5LTE1LWE",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-15-a",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2024-09-15-a",
+    "version" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-15-a"
   },
   {
     "body" : null,
