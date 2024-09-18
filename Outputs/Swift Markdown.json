@@ -58,5 +58,17 @@
     "title" : "Swift-Markdown 0.4.0",
     "url" : "https://github.com/swiftlang/swift-markdown/releases/tag/0.4.0",
     "version" : "0.4.0"
+  },
+  {
+    "body" : "This release is based on the code that shipped into Swift 6.0.\r\n\r\n## What's Changed\r\n* Add link title support for commonmark by @Kyle-Ye in https://github.com/swiftlang/swift-markdown/pull/140\r\n* Remove dependency on argument-parser by @ethan-kusters in https://github.com/swiftlang/swift-markdown/pull/149\r\n* Fix utf8 decode by @zunda-pixel in https://github.com/swiftlang/swift-markdown/pull/145\r\n* Fix multi line symbol link source range issue by @Kyle-Ye in https://github.com/swiftlang/swift-markdown/pull/151\r\n* Fix multiline directive without content parsing range issue by @Kyle-Ye in https://github.com/swiftlang/swift-markdown/pull/154\r\n* build: add a CMake based build by @compnerd in https://github.com/swiftlang/swift-markdown/pull/141\r\n* Add 2024 as an accepted year number by @Kyle-Ye in https://github.com/swiftlang/swift-markdown/pull/160\r\n* Fix Directive argument name and value ranges on non-first line by @Kyle-Ye in https://github.com/swiftlang/swift-markdown/pull/79\r\n* Add support for Doxygen discussion/note tags by @j-f1 in https://github.com/swiftlang/swift-markdown/pull/159\r\n* Add support for formatting the new Doxygen types using MarkupFormatter by @j-f1 in https://github.com/swiftlang/swift-markdown/pull/163\r\n* Support Windows ARM64 builds by @hjyamauchi in https://github.com/swiftlang/swift-markdown/pull/164\r\n* build: silence warning about CMakeLists.txt from SPM by @compnerd in https://github.com/swiftlang/swift-markdown/pull/167\r\n\r\n## New Contributors\r\n* @zunda-pixel made their first contribution in https://github.com/swiftlang/swift-markdown/pull/145\r\n* @j-f1 made their first contribution in https://github.com/swiftlang/swift-markdown/pull/159\r\n* @hjyamauchi made their first contribution in https://github.com/swiftlang/swift-markdown/pull/164\r\n\r\n**Full Changelog**: https://github.com/swiftlang/swift-markdown/compare/0.4.0...0.5.0",
+    "createdAt" : "2024-09-18T00:18:32+09:00",
+    "fetchedFromAPIAt" : "2024-09-18T10:04:47+09:00",
+    "id" : "RE_kwDOFxlFeM4KdbYk",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-09-18T00:20:33+09:00",
+    "repository" : "swift-markdown",
+    "title" : "Swift-Markdown 0.5.0",
+    "url" : "https://github.com/swiftlang/swift-markdown/releases/tag/0.5.0",
+    "version" : "0.5.0"
   }
 ]

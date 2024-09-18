@@ -146,6 +146,18 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-09-18T10:04:47+09:00",
+    "id" : "REF_kwDOIpT9BrByZWZzL3RhZ3MvMC45OS4w",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "0.99.0",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/0.99.0",
+    "version" : "0.99.0"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2024-07-14T23:32:23+09:00",
     "id" : "REF_kwDOIpT9BrByZWZzL3RhZ3MvMC4xMC4w",
     "owner" : "apple",
@@ -298,6 +310,18 @@
     "title" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-15-a",
     "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2024-09-15-a",
     "version" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-15-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-09-18T10:04:47+09:00",
+    "id" : "REF_kwDOIpT9BtoAMXJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDI0LTA5LTE2LWE",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-16-a",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2024-09-16-a",
+    "version" : "swift-DEVELOPMENT-SNAPSHOT-2024-09-16-a"
   },
   {
     "body" : null,
