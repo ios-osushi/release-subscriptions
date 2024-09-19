@@ -682,5 +682,17 @@
     "title" : "8.0.0 - Version 8",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.0.0",
     "version" : "8.0.0"
+  },
+  {
+    "body" : "#### Fix\n* A build issue in Xcode 15.2. Now the project builds and runs again in that old Xcode version. [#2289](https://github.com/onevcat/Kingfisher/pull/2289)\n\n",
+    "createdAt" : "2024-09-18T23:05:19+09:00",
+    "fetchedFromAPIAt" : "2024-09-19T10:05:39+09:00",
+    "id" : "RE_kwDOAf70wM4KeKHh",
+    "owner" : "onevcat",
+    "publishedAt" : "2024-09-18T23:07:30+09:00",
+    "repository" : "Kingfisher",
+    "title" : "8.0.1 - Old Friends Matter",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.0.1",
+    "version" : "8.0.1"
   }
 ]
