@@ -598,5 +598,41 @@
     "title" : "7.5.0",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.5.0",
     "version" : "7.5.0"
+  },
+  {
+    "body" : "Testing release",
+    "createdAt" : "2024-09-19T18:54:01+09:00",
+    "fetchedFromAPIAt" : "2024-09-20T10:05:55+09:00",
+    "id" : "RE_kwDOAamb-84Ke2w7",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2024-09-19T20:03:58+09:00",
+    "repository" : "R.swift",
+    "title" : "7.6.0-alpha.2",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.6.0-alpha.2",
+    "version" : "7.6.0-alpha.2"
+  },
+  {
+    "body" : "Testing release",
+    "createdAt" : "2024-09-20T03:00:04+09:00",
+    "fetchedFromAPIAt" : "2024-09-20T10:05:55+09:00",
+    "id" : "RE_kwDOAamb-84KfOZp",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2024-09-20T03:01:58+09:00",
+    "repository" : "R.swift",
+    "title" : "7.6.0-alpha.3",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.6.0-alpha.3",
+    "version" : "7.6.0-alpha.3"
+  },
+  {
+    "body" : "- Fixes for Xcode 16 projects",
+    "createdAt" : "2024-09-20T03:27:06+09:00",
+    "fetchedFromAPIAt" : "2024-09-20T10:05:55+09:00",
+    "id" : "RE_kwDOAamb-84KfQpU",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2024-09-20T03:51:23+09:00",
+    "repository" : "R.swift",
+    "title" : "7.6.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.6.0",
+    "version" : "7.6.0"
   }
 ]
