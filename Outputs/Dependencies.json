@@ -406,5 +406,17 @@
     "title" : "1.4.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.4.0",
     "version" : "1.4.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Explicitly link to `IssueReportingTestSupport` in `DependenciesTestSupport` to ensure a `@Test` or `@Suite` using the `.dependency` trait is applying the given dependency in an Xcode app target's `@Test`s (https://github.com/pointfreeco/swift-dependencies/pull/278).\r\n* Infrastructure: Update test example in `README` (thanks @mltbnz, https://github.com/pointfreeco/swift-dependencies/pull/275).\r\n* Infrastructure: Remove unneeded experimental feature in `Package.swift` (thanks @shimastripe, https://github.com/pointfreeco/swift-dependencies/pull/276).\r\n* Infrastructure: Update Xcode CI to 16 (https://github.com/pointfreeco/swift-dependencies/pull/277).\r\n\r\n## New Contributors\r\n* @mltbnz made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/275\r\n* @shimastripe made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/276\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.4.0...1.4.1",
+    "createdAt" : "2024-09-21T02:17:43+09:00",
+    "fetchedFromAPIAt" : "2024-09-21T10:04:30+09:00",
+    "id" : "RE_kwDOIF_Mq84Kf_2P",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-09-21T02:19:52+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.4.1",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.4.1",
+    "version" : "1.4.1"
   }
 ]
