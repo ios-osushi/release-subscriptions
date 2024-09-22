@@ -1066,5 +1066,17 @@
     "title" : "v20.0.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v20.0.0",
     "version" : "v20.0.0"
+  },
+  {
+    "body" : "The minimum supported version of Xcode is now 15.3.\n\n### Enhancements\n* Build in Swift 6 language mode when using Xcode 16. Libraries build in Swift\n  6 mode can be consumed by apps built in Swift 5 mode, so this should not have\n  any immediate effects beyond eliminating some warnings and ensuring that all\n  Realm APIs can be used in Swift 6 mode. Some notes about using Realm Swift in\n  Swift 6:\n  - `try await Realm(actor: actor)` has been replaced with `try await\n  Realm.open()` to work around isolated parameters not being implemented for\n  initializers (https://github.com/swiftlang/swift/issues/71174). The actor is\n  now automatically inferred and should not be manually passed in.\n  - `@ThreadSafe` is not usable as a property wrapper on local variables and\n  function arguments in Swift 6 mode. Sendability checking for property\n  wrappers never got implemented due to them being quietly deprecated in favor\n  of macros. It can still be used as a property wrapper for class properties\n  and as a manual wrapper locally, but note that it does not combine well with\n  actor-isolated Realms.\n  - In Swift 6 mode a few mongo client functions have changed from returning\n  `[AnyHashable: Any]` to `Document`. These should have been `Document` all\n  along, and the old return type no longer compiles due to not being Sendable.\n* Some SwiftUI components are now explicitly marked as `@MainActor`. These\n  types were implicitly `@MainActor` in Swift 5, but became nonisolated when\n  using Xcode 16 in Swift 5 mode due to the removal of implicit isolation when\n  using property wrappers on member variables. This resulted in some new\n  sendability warnings in Xcode 16 (or errors in Swift 6 mode).\n* Add Xcode 16 and 16.1 binaries to the release packages.\n\n### Fixed\n* Having a query with a number of predicates ORed together may result in a\n  crash on some platforms (strict weak ordering check failing on iphone)\n  ([#8028](https://github.com/realm/realm-core/issues/8028), since v10.50.0)\n\n### Compatibility\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.4.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.3.0-16.1 beta.\n\n### Internal\n* Upgraded realm-core from v14.12.1 to 14.13.0",
+    "createdAt" : "2024-09-22T02:53:01+09:00",
+    "fetchedFromAPIAt" : "2024-09-22T10:12:11+09:00",
+    "id" : "RE_kwDOAD24W84KgUNt",
+    "owner" : "realm",
+    "publishedAt" : "2024-09-22T02:54:58+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.54.0",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.0",
+    "version" : "v10.54.0"
   }
 ]

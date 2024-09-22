@@ -706,5 +706,17 @@
     "title" : "8.0.2 - Blur Scale",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.0.2",
     "version" : "8.0.2"
+  },
+  {
+    "body" : "#### Fix\n* A regression of iOS 18 that the `KFAnimatedImage` does not receive user interaction. [#2295](https://github.com/onevcat/Kingfisher/issues/2295) @onevcat @danieldaquino\n\n",
+    "createdAt" : "2024-09-21T23:54:26+09:00",
+    "fetchedFromAPIAt" : "2024-09-22T10:12:11+09:00",
+    "id" : "RE_kwDOAf70wM4KgSlA",
+    "owner" : "onevcat",
+    "publishedAt" : "2024-09-21T23:56:44+09:00",
+    "repository" : "Kingfisher",
+    "title" : "8.0.3 - Animated Image Hitting",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.0.3",
+    "version" : "8.0.3"
   }
 ]
