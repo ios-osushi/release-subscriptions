@@ -202,5 +202,17 @@
     "title" : "Swift Collections 1.1.3",
     "url" : "https://github.com/apple/swift-collections/releases/tag/1.1.3",
     "version" : "1.1.3"
+  },
+  {
+    "body" : "This patch release consists of changes to the (unstable) CMake configuration. It includes no code level modifications.\r\n\r\nThis is expected to be the last planned release in the 1.1 release series. The next tagged release will be 1.2.0, bumping the required Swift toolchain to 5.9.\r\n\r\n## What's Changed\r\n* Add more file in Sources/BitCollections/CMakeLists.txt by @lamtrinhdev in https://github.com/apple/swift-collections/pull/419\r\n* [Build] Use `SWIFT_SYSTEM_NAME` rather than just lowercasing. by @al45tair in https://github.com/apple/swift-collections/pull/421\r\n* [CMake] Handle riscv64 by @futurejones in https://github.com/apple/swift-collections/pull/422\r\n\r\n## New Contributors\r\n* @lamtrinhdev made their first contribution in https://github.com/apple/swift-collections/pull/419\r\n* @al45tair made their first contribution in https://github.com/apple/swift-collections/pull/421\r\n* @futurejones made their first contribution in https://github.com/apple/swift-collections/pull/422\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.1.3...1.1.4",
+    "createdAt" : "2024-09-25T08:12:49+09:00",
+    "fetchedFromAPIAt" : "2024-09-25T10:09:21+09:00",
+    "id" : "RE_kwDOFDfRzs4KiNFY",
+    "owner" : "apple",
+    "publishedAt" : "2024-09-25T08:21:03+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 1.1.4",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.1.4",
+    "version" : "1.1.4"
   }
 ]
