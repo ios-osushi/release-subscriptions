@@ -14,12 +14,12 @@ final class ReleaseSubscriptionsCoreTests: XCTestCase {
     }
     
     func testREADMELoading() throws {
-        _ = try FileHelper.readFromREADME()
+        _ = try OutputFileHelper.readFromREADME()
     }
     
     func testPastOutputsLoading() throws {
         let repositories = try Parser.parse()
-        _ = try FileHelper.load(repositories: repositories)
+        _ = try OutputFileHelper.load(repositories: repositories)
     }
     
     func testYamlSortOrderChecking() throws {

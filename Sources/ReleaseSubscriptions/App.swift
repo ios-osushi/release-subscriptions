@@ -42,7 +42,7 @@ struct App: AsyncParsableCommand {
             let repositories = try ReleaseSubscriptionsParser.parse()
 
             // 古いコンテンツをJSONから読み込む
-            let oldContents = try FileHelper.load(repositories: repositories)
+            let oldContents = try OutputFileHelper.load(repositories: repositories)
 
             // 新しいコンテンツをGitHubから取得する
             let newContents = try await Fetcher.fetch(repositories: repositories, accessToken: accessToken)
@@ -58,10 +58,10 @@ struct App: AsyncParsableCommand {
             try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
 
             // マージしたコンテンツを保存する
-            try FileHelper.save(contents: combinedContents)
+            try OutputFileHelper.save(contents: combinedContents)
 
             // READMEを更新する
-            try FileHelper.writeToREADME(repositories: repositories)
+            try OutputFileHelper.writeToREADME(repositories: repositories)
         } catch {
             Logger.app.error("❌ \(error)")
             throw error

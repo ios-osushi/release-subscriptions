@@ -11,7 +11,7 @@ import FoundationNetworking
 #endif
 import Logging
 
-public struct FileHelper {
+public struct OutputFileHelper {
     enum Error: Swift.Error {
         case invalidREADMEFormat
     }
