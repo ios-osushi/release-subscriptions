@@ -1,5 +1,7 @@
 import ArgumentParser
-import OpenAI
+import Foundation
+import ReleaseSummarizerCore
+import ReleaseSubscriptionsCore
 import Logging
 
 @main
@@ -13,47 +15,23 @@ struct App: AsyncParsableCommand {
             return
         }
 
-        let releaseNote = """
-        Added: Observation support (#2593), which both streamlines and soft-deprecates many concepts in the Composable Architecture. See the 1.7 migration guide for more information on how to apply these updates to your applications.
-        Infrastructure: Add CI for Swift 5.7.1 (#2701).
-        Infrastructure: Add docs for testing StackAction's case path subscript (thanks @lukeredpath, #2704).
-        Infrastructure: Fixed examples CI (#2715).
-        Infrastructure: Fixed TestStore.assert docs (#2720).
-        Infrastructure: Use XCTExpectFailure from XCTestDynamicOverlay (#2721).
-        Infrastructure: Documentation typo fix (thanks @JonCox, #2723).
-        Infrastructure: Fixed concurrency docs (thanks @hmhv, #2726).
-        Infrastructure: Fixed composing features tutorial (thanks @bricklife, #2698; thanks @Kyome22, #2727).
-        Infrastructure: Fixed 1.7 migration guide (thanks @Ryu0118, #2731).
-        """
-
+        let repositories = try Parser.parse()
+        let components = DateComponents(year: 2024, month: 9, day: 21)
+        let date = Calendar.current.date(from: components)
         let prompt = """
-以下はソフトウェアのリリース内容です。
-リリース内容をを要約してください。
-
-制約事項:
-- 日本語で出力する
-- 箇条書きで出力する
-- 1項目200文字以内で要約する
-- ソフトウェアへの変更内容のみに限定する
-- Markdown 形式で出力する
-- 丁寧語で出力する
-
-各項目は以下のフォーマットで出力してください。
-
-### 項目名
-- 説明
+次の文章はとあるライブラリのリリース情報です。
+この内容を短くわかりやすい表現で要約してください。
+要約の内容は
+・改善点
+・修正点
+・その他
+に分けて日本語で行ってください。
 """
 
+        let releases = try await ReleaseCollector.collect(for: repositories, from: date!)
+        let generatedContent = try await ReleaseSummarizeGenerator.generate(apiToken: apiToken, prompt: prompt, releases: releases)
 
-        let query = ChatQuery(model: .gpt3_5Turbo_1106, messages: [
-            Chat(role: .system, content: prompt),
-            Chat(role: .user, content: releaseNote),
-        ])
-        let result = try await OpenAI(apiToken: apiToken).chats(query: query)
-
-        for choice in result.choices {
-            print(choice.message.content!)
-        }
+        print(generatedContent)
     }
 }
 

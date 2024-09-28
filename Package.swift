@@ -34,8 +34,15 @@ let package = Package(
         .executableTarget(
             name: "ReleaseSummarizer",
             dependencies: [
-                "ReleaseSubscriptionsCore",
+                "ReleaseSummarizerCore",
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
+                .product(name: "Logging", package: "swift-log"),
+            ]
+        ),
+        .target(
+            name: "ReleaseSummarizerCore",
+            dependencies: [
+                "ReleaseSubscriptionsCore",
                 .product(name: "OpenAI", package: "OpenAI"),
                 .product(name: "Logging", package: "swift-log"),
             ]
