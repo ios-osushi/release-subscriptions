@@ -38,7 +38,7 @@ struct App: AsyncParsableCommand {
                 Logger.app.info("🔔 secondarySlackURL is nil")
             }
 
-            // 設定ファイルをパースする
+            // リリース購読ファイルをパースする
             let repositories = try ReleaseSubscriptionsParser.parse()
 
             // 古いコンテンツをJSONから読み込む
