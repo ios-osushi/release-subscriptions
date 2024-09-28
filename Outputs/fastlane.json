@@ -634,5 +634,17 @@
     "title" : "2.223.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.223.0",
     "version" : "2.223.0"
+  },
+  {
+    "body" : "* [core] fix duplicate builds being matched in BuildWatcher (#22256) via Josh Holtz (@joshdholtz)\n* [ci] adding one more github auth call to CI release process (#22253) via Josh Holtz (@joshdholtz)\n* [c] prevent rate limited when releasing fastlane on GitHub Actions (#22252) via Josh Holtz (@joshdholtz)",
+    "createdAt" : "2024-09-27T15:05:43+09:00",
+    "fetchedFromAPIAt" : "2024-09-28T10:07:39+09:00",
+    "id" : "RE_kwDOAaK_F84KkBjx",
+    "owner" : "fastlane",
+    "publishedAt" : "2024-09-27T15:17:47+09:00",
+    "repository" : "fastlane",
+    "title" : "2.223.1 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.223.1",
+    "version" : "2.223.1"
   }
 ]
