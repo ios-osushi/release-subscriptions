@@ -9,9 +9,9 @@ let package = Package(
         .executable(name: "releaseSubscriptions", targets: ["ReleaseSubscriptions"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser", exact: "1.1.1"),
-        .package(url: "https://github.com/apple/swift-log", exact: "1.4.2"),
-        .package(url: "https://github.com/apple/swift-markdown", branch: "main"),
+        .package(url: "https://github.com/apple/swift-argument-parser", exact: "1.5.0"),
+        .package(url: "https://github.com/apple/swift-log", exact: "1.6.1"),
+        .package(url: "https://github.com/swiftlang/swift-markdown", exact: "0.5.0"),
         .package(url: "https://github.com/behrang/YamlSwift", exact: "3.4.4"),
     ],
     targets: [

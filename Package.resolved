@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "82905286cc3f0fa8adc4674bf49437cab65a8373",
-        "version" : "1.1.1"
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-cmark.git",
       "state" : {
-        "branch" : "gfm",
-        "revision" : "792c1c3326327515ce9bf64c44196b7f4daab9a6"
+        "revision" : "3ccff77b2dc5b96b77db3da0d68d28068593fa53",
+        "version" : "0.5.0"
       }
     },
     {
@@ -23,17 +23,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log",
       "state" : {
-        "revision" : "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
-        "version" : "1.4.2"
+        "revision" : "9cb486020ebf03bfa5b5df985387a14a98744537",
+        "version" : "1.6.1"
       }
     },
     {
       "identity" : "swift-markdown",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-markdown",
+      "location" : "https://github.com/swiftlang/swift-markdown",
       "state" : {
-        "branch" : "main",
-        "revision" : "36cf89e36e94b025dbe37d82fe2a7da3f39d4204"
+        "revision" : "8f79cb175981458a0a27e76cb42fee8e17b1a993",
+        "version" : "0.5.0"
       }
     },
     {
