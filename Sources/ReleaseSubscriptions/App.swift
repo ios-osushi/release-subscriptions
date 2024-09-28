@@ -45,7 +45,7 @@ struct App: AsyncParsableCommand {
             let oldContents = try OutputFileHelper.load(repositories: repositories)
 
             // 新しいコンテンツをGitHubから取得する
-            let newContents = try await Fetcher.fetch(repositories: repositories, accessToken: accessToken)
+            let newContents = try await ReleaseFetcher.fetch(repositories: repositories, accessToken: accessToken)
 
             // 新旧のコンテンツをマージする
             // `newContents` だと古いリリース情報を一発で取得できないため、マージする

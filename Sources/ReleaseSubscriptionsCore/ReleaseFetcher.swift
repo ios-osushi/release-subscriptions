@@ -1,5 +1,5 @@
 //
-//  Fetcher.swift
+//  ReleaseFetcher.swift
 //  ReleaseSubscriptionsCore
 //
 //  Created by treastrain on 2022/04/02.
@@ -11,7 +11,7 @@ import FoundationNetworking
 #endif
 import Logging
 
-public struct Fetcher {
+public struct ReleaseFetcher {
     static let decoder: JSONDecoder = {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .iso8601
