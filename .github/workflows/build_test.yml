@@ -7,14 +7,14 @@ on:
 jobs:
   build:
     name: Build & Test
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     
     steps:
     - name: Show Swift Version
       run: |
         swift --version
         swift package --version
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Build
       run: |
         swift build -v
