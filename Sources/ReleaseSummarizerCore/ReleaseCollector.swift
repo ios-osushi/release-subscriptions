@@ -9,7 +9,7 @@ import Foundation
 import ReleaseSubscriptionsCore
 
 public struct ReleaseCollector {
-    public static func collect(for repositories: [GitHubRepository], from: Date, to: Date = Date()) async throws -> [(GitHubRepository, Release)] {
+    public static func collect(for repositories: [GitHubRepository], from: Date, to: Date) async throws -> [(GitHubRepository, Release)] {
         try OutputFileHelper.load(repositories: repositories)
             .flatMap { (repository, releases) in
                 releases.map { (repository, $0) }

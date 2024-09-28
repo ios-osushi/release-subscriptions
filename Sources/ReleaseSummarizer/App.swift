@@ -6,19 +6,59 @@ import Logging
 
 @main
 struct App: AsyncParsableCommand {
-    @Option(name: .shortAndLong, help: "OpenAI APIToken for generating summary of change log")
+
+    static var configuration: CommandConfiguration {
+        .init(
+            commandName: "releaseSummarizer"
+        )
+    }
+
+    @Option(
+        name: .shortAndLong,
+        help: "Gemini APIKey for generating summary of change log"
+    )
     var apiToken: String?
+
+    @Option(
+        name: .long,
+        help: "Generate article target date range from. yyyy/MM/dd date format string",
+        transform: ISO8601DateFormatter().date(from:)
+    )
+    var from: Date?
+
+    @Option(
+        name: .long,
+        help: "Generate article target date range to. yyyy/MM/dd date format string. default: today",
+        transform: ISO8601DateFormatter().date(from:)
+    )
+    var to: Date?
 
     func run() async throws {
         guard let apiToken = apiToken else {
-            Logger.app.error("An argument apiToken is needed. Please pass OpenAI apiKey.")
+            Logger.app.error("An argument apiToken is needed. Please pass Gemini apiKey.")
+            return
+        }
+
+        guard let from else {
+            Logger.app.error("An argument from is needed or invalid. Please pass date range from.")
             return
         }
 
         let repositories = try ReleaseSubscriptionsParser.parse()
-        let components = DateComponents(year: 2024, month: 9, day: 16)
-        let date = Calendar.current.date(from: components)
-        let prompt = """
+        let releases = try await ReleaseCollector.collect(
+            for: repositories,
+            from: from,
+            to: to ?? Date()
+        )
+        let generatedContent = try await ReleaseSummarizeGenerator.generate(apiToken: apiToken, prompt: prompt, releases: releases)
+
+        try ReleaseSummarizeFileHelper.writeToFile(fileContent: generatedContent)
+    }
+}
+
+extension App {
+    var prompt: String {
+"""
 次の文章はとあるライブラリのリリース情報です。
 この内容を短くわかりやすい表現で要約してください。
 要約の内容は
@@ -43,11 +83,6 @@ struct App: AsyncParsableCommand {
 
 内容
 """
-
-        let releases = try await ReleaseCollector.collect(for: repositories, from: date!)
-        let generatedContent = try await ReleaseSummarizeGenerator.generate(apiToken: apiToken, prompt: prompt, releases: releases)
-
-        try ReleaseSummarizeFileHelper.writeToFile(fileContent: generatedContent)
     }
 }
 
