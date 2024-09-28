@@ -9,12 +9,6 @@ repositories:
     name: Core ML Stable Diffusion
     owner: apple
     repo: ml-stable-diffusion
-
-  - kind: primary
-    case: releases
-    name: Swift
-    owner: apple
-    repo: swift
   
   - kind: primary
     case: releases
@@ -54,45 +48,9 @@ repositories:
   
   - kind: primary
     case: releases
-    name: Swift-DocC
-    owner: apple
-    repo: swift-docc
-  
-  - kind: primary
-    case: releases
-    name: Swift-DocC Plugin
-    owner: apple
-    repo: swift-docc-plugin
-  
-  - kind: primary
-    case: releases
-    name: swift-format
-    owner: apple
-    repo: swift-format
-  
-  - kind: primary
-    case: releases
-    name: Foundation
-    owner: apple
-    repo: swift-foundation
-  
-  - kind: primary
-    case: releases
-    name: Foundation ICU
-    owner: apple
-    repo: swift-foundation-icu
-  
-  - kind: primary
-    case: releases
     name: SwiftLog
     owner: apple
     repo: swift-log
-  
-  - kind: primary
-    case: releases
-    name: Swift Markdown
-    owner: apple
-    repo: swift-markdown
   
   - kind: primary
     case: releases
@@ -126,21 +84,9 @@ repositories:
   
   - kind: primary
     case: releases
-    name: Swift Package Manager
-    owner: apple
-    repo: swift-package-manager
-  
-  - kind: primary
-    case: releases
     name: Swift Protobuf
     owner: apple
     repo: swift-protobuf
-  
-  - kind: primary
-    case: releases
-    name: SwiftSyntax
-    owner: apple
-    repo: swift-syntax
   
   - kind: primary
     case: releases
@@ -149,9 +95,63 @@ repositories:
     repo: swift-system
   
   - kind: primary
+    case: releases
+    name: Swift
+    owner: swiftlang
+    repo: swift
+  
+  - kind: primary
+    case: releases
+    name: Swift-DocC
+    owner: swiftlang
+    repo: swift-docc
+  
+  - kind: primary
+    case: releases
+    name: Swift-DocC Plugin
+    owner: swiftlang
+    repo: swift-docc-plugin
+  
+  - kind: primary
+    case: releases
+    name: swift-format
+    owner: swiftlang
+    repo: swift-format
+  
+  - kind: primary
+    case: releases
+    name: Foundation
+    owner: swiftlang
+    repo: swift-foundation
+  
+  - kind: primary
+    case: releases
+    name: Foundation ICU
+    owner: swiftlang
+    repo: swift-foundation-icu
+  
+  - kind: primary
+    case: releases
+    name: Swift Markdown
+    owner: swiftlang
+    repo: swift-markdown
+  
+  - kind: primary
+    case: releases
+    name: Swift Package Manager
+    owner: swiftlang
+    repo: swift-package-manager
+  
+  - kind: primary
+    case: releases
+    name: SwiftSyntax
+    owner: swiftlang
+    repo: swift-syntax
+  
+  - kind: primary
     case: tags
     name: Swift Testing
-    owner: apple
+    owner: swiftlang
     repo: swift-testing
   
   - kind: secondary
@@ -159,7 +159,7 @@ repositories:
     name: Lottie for iOS, macOS
     owner: airbnb
     repo: lottie-ios
-
+  
   - kind: secondary
     case: releases
     name: Lottie for Swift Package Manager
@@ -279,7 +279,7 @@ repositories:
     name: Dependencies
     owner: pointfreeco
     repo: swift-dependencies
-
+  
   - kind: secondary
     case: releases
     name: Nimble
@@ -321,7 +321,7 @@ repositories:
     name: SwiftGen
     owner: SwiftGen
     repo: SwiftGen
-
+  
   - kind: secondary
     case: releases
     name: SwiftGenPlugin
@@ -339,7 +339,7 @@ repositories:
     name: Mockolo
     owner: uber
     repo: mockolo
-
+  
   - kind: secondary
     case: releases
     name: xcodes
