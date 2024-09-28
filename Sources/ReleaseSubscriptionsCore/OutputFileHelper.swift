@@ -1,5 +1,5 @@
 //
-//  FileHelper.swift
+//  OutputFileHelper.swift
 //  ReleaseSubscriptionsCore
 //
 //  Created by treastrain on 2022/04/03.
