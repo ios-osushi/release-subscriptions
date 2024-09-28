@@ -14,7 +14,7 @@ jobs:
       run: |
         swift --version
         swift package --version
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Build
       run: |
         swift build -v
