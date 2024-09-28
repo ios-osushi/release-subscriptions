@@ -39,7 +39,7 @@ struct App: AsyncParsableCommand {
             }
 
             // 設定ファイルをパースする
-            let repositories = try Parser.parse()
+            let repositories = try ReleaseSubscriptionsParser.parse()
 
             // 古いコンテンツをJSONから読み込む
             let oldContents = try FileHelper.load(repositories: repositories)
