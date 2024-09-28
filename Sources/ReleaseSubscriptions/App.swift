@@ -48,7 +48,7 @@ struct App: AsyncParsableCommand {
             let newContents = try await ReleaseFetcher.fetch(repositories: repositories, accessToken: accessToken)
 
             // 新旧のコンテンツをマージする
-            // `newContents` だと古いリリース情報を一発で取得できないため、マージする
+            // 新しいコンテンツのみだとリリース情報が多いと古いのが含まれないため、マージする
             let combinedContents = oldContents.merging(newContents) { ($0 + $1).identified().sorted() }
 
             // 古いコンテンツとマージされたコンテンツを比較して、更新されたコンテンツを抽出する
