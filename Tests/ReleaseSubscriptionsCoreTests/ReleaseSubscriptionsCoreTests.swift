@@ -10,20 +10,20 @@ import XCTest
 
 final class ReleaseSubscriptionsCoreTests: XCTestCase {
     func testYamlParsing() throws {
-        _ = try Parser.parse()
+        _ = try ReleaseSubscriptionsParser.parse()
     }
     
     func testREADMELoading() throws {
-        _ = try FileHelper.readFromREADME()
+        _ = try OutputFileHelper.readFromREADME()
     }
     
     func testPastOutputsLoading() throws {
-        let repositories = try Parser.parse()
-        _ = try FileHelper.load(repositories: repositories)
+        let repositories = try ReleaseSubscriptionsParser.parse()
+        _ = try OutputFileHelper.load(repositories: repositories)
     }
     
     func testYamlSortOrderChecking() throws {
-        let repositories = try Parser.parse()
+        let repositories = try ReleaseSubscriptionsParser.parse()
         let sortedRepositories = repositories
             .sorted { $0.repository.lowercased() < $1.repository.lowercased() }
             .sorted { $0.owner.lowercased() < $1.owner.lowercased() }

@@ -27,6 +27,7 @@ struct App: AsyncParsableCommand {
         }
         Logger.app.info("ℹ️ \(#function) started")
         do {
+            // 各オプションが空の場合、ログを出力する
             if accessToken == nil {
                 Logger.app.info("🔔 accessToken is nil")
             }
@@ -36,14 +37,31 @@ struct App: AsyncParsableCommand {
             if secondarySlackURL == nil {
                 Logger.app.info("🔔 secondarySlackURL is nil")
             }
-            let repositories = try Parser.parse()
-            let oldContents = try FileHelper.load(repositories: repositories)
-            let newContents = try await Fetcher.fetch(repositories: repositories, accessToken: accessToken)
+
+            // リリース購読ファイルをパースする
+            let repositories = try ReleaseSubscriptionsParser.parse()
+
+            // 古いコンテンツをJSONから読み込む
+            let oldContents = try OutputFileHelper.load(repositories: repositories)
+
+            // 新しいコンテンツをGitHubから取得する
+            let newContents = try await ReleaseFetcher.fetch(repositories: repositories, accessToken: accessToken)
+
+            // 新旧のコンテンツをマージする
+            // 新しいコンテンツのみだとリリース情報が多いと古いのが含まれないため、マージする
             let combinedContents = oldContents.merging(newContents) { ($0 + $1).identified().sorted() }
+
+            // 古いコンテンツとマージされたコンテンツを比較して、更新されたコンテンツを抽出する
             let updatedContents = DifferenceComparator.insertions(repositories: repositories, old: oldContents, new: combinedContents)
+
+            // 更新されたコンテンツをSlackに通知する
             try await SlackNotifier.notify(to: slackURLs(), updates: updatedContents)
-            try FileHelper.save(contents: combinedContents)
-            try FileHelper.writeToREADME(repositories: repositories)
+
+            // マージしたコンテンツを保存する
+            try OutputFileHelper.save(contents: combinedContents)
+
+            // READMEを更新する
+            try OutputFileHelper.writeToREADME(repositories: repositories)
         } catch {
             Logger.app.error("❌ \(error)")
             throw error

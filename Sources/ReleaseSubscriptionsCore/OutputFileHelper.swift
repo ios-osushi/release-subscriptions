@@ -1,5 +1,5 @@
 //
-//  FileHelper.swift
+//  OutputFileHelper.swift
 //  ReleaseSubscriptionsCore
 //
 //  Created by treastrain on 2022/04/03.
@@ -11,7 +11,7 @@ import FoundationNetworking
 #endif
 import Logging
 
-public struct FileHelper {
+public struct OutputFileHelper {
     enum Error: Swift.Error {
         case invalidREADMEFormat
     }

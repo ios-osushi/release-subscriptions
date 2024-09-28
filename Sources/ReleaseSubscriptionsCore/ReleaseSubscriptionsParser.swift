@@ -1,5 +1,5 @@
 //
-//  Parser.swift
+//  ReleaseSubscriptionsParser.swift
 //  ReleaseSubscriptionsCore
 //
 //  Created by treastrain on 2022/04/02.
@@ -9,7 +9,7 @@ import Foundation
 import Logging
 import Yaml
 
-public struct Parser {
+public struct ReleaseSubscriptionsParser {
     enum Error: Swift.Error {
         case invalidYamlFormat
         case unknownCase
