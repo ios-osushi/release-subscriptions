@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "ReleaseSubscriptions",
-    platforms: [.macOS(.v10_15)],
+    platforms: [.macOS(.v11)],
     products: [
         .executable(name: "releaseSubscriptions", targets: ["ReleaseSubscriptions"]),
         .executable(name: "releaseSummarizer", targets: ["ReleaseSummarizer"]),
@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-log", exact: "1.4.2"),
         .package(url: "https://github.com/apple/swift-markdown", branch: "main"),
         .package(url: "https://github.com/behrang/YamlSwift", exact: "3.4.4"),
-        .package(url: "https://github.com/MacPaw/OpenAI.git", exact: "0.2.5")
+        .package(url: "https://github.com/google-gemini/generative-ai-swift.git", exact: "0.5.6"),
     ],
     targets: [
         .executableTarget(
@@ -43,7 +43,7 @@ let package = Package(
             name: "ReleaseSummarizerCore",
             dependencies: [
                 "ReleaseSubscriptionsCore",
-                .product(name: "OpenAI", package: "OpenAI"),
+                .product(name: "GoogleGenerativeAI", package: "generative-ai-swift"),
                 .product(name: "Logging", package: "swift-log"),
             ]
         ),

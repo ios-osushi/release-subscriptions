@@ -15,8 +15,8 @@ struct App: AsyncParsableCommand {
             return
         }
 
-        let repositories = try Parser.parse()
-        let components = DateComponents(year: 2024, month: 9, day: 21)
+        let repositories = try ReleaseSubscriptionsParser.parse()
+        let components = DateComponents(year: 2024, month: 9, day: 16)
         let date = Calendar.current.date(from: components)
         let prompt = """
 次の文章はとあるライブラリのリリース情報です。
@@ -26,12 +26,28 @@ struct App: AsyncParsableCommand {
 ・修正点
 ・その他
 に分けて日本語で行ってください。
+内容は箇条書きの Markdown 形式で出力してください。
+また、各箇条書きの項目は50文字以内で収めて、ですます調で出力してください。
+
+出力例:
+
+##### 改善点
+
+内容
+
+##### 修正点
+
+内容
+
+##### その他
+
+内容
 """
 
         let releases = try await ReleaseCollector.collect(for: repositories, from: date!)
         let generatedContent = try await ReleaseSummarizeGenerator.generate(apiToken: apiToken, prompt: prompt, releases: releases)
 
-        print(generatedContent)
+        try ReleaseSummarizeFileHelper.writeToFile(fileContent: generatedContent)
     }
 }
 

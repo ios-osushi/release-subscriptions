@@ -5,7 +5,8 @@
 //  Created by 伊藤凌也 on 2024/09/28.
 //
 
-import OpenAI
+import GoogleGenerativeAI
+import Logging
 import ReleaseSubscriptionsCore
 
 public struct ReleaseSummarizeGenerator {
@@ -68,14 +69,16 @@ public struct ReleaseSummarizeGenerator {
             builder.addSection(destination: key)
 
             for release in releases {
-                let query = ChatQuery(model: .gpt3_5Turbo_1106, messages: [
-                    Chat(role: .system, content: prompt),
-                    Chat(role: .user, content: release.body),
-                ])
-                let result = try await OpenAI(apiToken: apiToken).chats(query: query)
-                let content = result.choices.compactMap(\.message.content).joined()
+                Logger.generator.info("Generating release content for \(release.owner)/\(release.repository) ...")
 
-                builder.addRelease(release: release, generatedContent: content)
+                let model = GenerativeModel(name: "gemini-1.5-flash-latest", apiKey: apiToken)
+                let result = try await model.generateContent(prompt, release.body ?? "")
+
+                if let content = result.text {
+                    builder.addRelease(release: release, generatedContent: content)
+                }
+
+                try await Task.sleep(nanoseconds: 5000_000_000)
             }
         }
 
@@ -99,22 +102,24 @@ iOS アプリ開発でよく使われている OSS のリリース情報です�
                 "サードパーティ"
             }
 
-            result.append("### \(title)")
+            result.append("### \(title)\n")
         }
 
         /// #### {バージョン} - ライブラリ名
         mutating func addRelease(release: Release, generatedContent: String) {
             let content = """
-#### \(release.version) - \(release.owner)/\(release.repository)")
+#### \(release.version) - \(release.owner)/\(release.repository)
 
 [\(release.url)](\(release.url)
 
 \(generatedContent)
-"""
 
-            result.append("#### \(release.version) - \(release.owner)/\(release.repository)")
-            result.append("")
-            result.append("[\(release.url)](\(release.url)")
+"""
+            result.append(content)
         }
     }
+}
+
+extension Logger {
+    fileprivate static let generator = Logger(label: "io.github.ios-osushi.releasesummarizer.generator")
 }
