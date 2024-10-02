@@ -1042,5 +1042,17 @@
     "title" : "1.15.1",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.15.1",
     "version" : "1.15.1"
+  },
+  {
+    "body" : "### Improvements\r\n- **Set `URLRequest` cache policy on GET requests ([#476](https://github.com/apollographql/apollo-ios-dev/pull/476)):** Uses the Apollo cache policy to set a comparable cache policy on `URLRequest`. Previously there was no way to opt-out of default `URLRequest` caching behaviour.\r\n- **Batch writing records to the SQLite store ([#498](https://github.com/apollographql/apollo-ios-dev/pull/498)):** Uses the `insertMany` to batch write records for a given operation vs previously performing a write for each individual record.\r\n\r\n### Fixed\r\n- **Fix `ListData` type check ([#473](https://github.com/apollographql/apollo-ios-dev/pull/473)):** Fixed bool type check in `ListData`.\r\n- **Remove local cache mutation type condition setter ([#485](https://github.com/apollographql/apollo-ios-dev/pull/485)):** Removes the setter for mutable inline fragments. The correct way to initialize with a type condition is to use `asRootEntityType`.",
+    "createdAt" : "2024-10-02T03:05:32+09:00",
+    "fetchedFromAPIAt" : "2024-10-02T10:07:10+09:00",
+    "id" : "RE_kwDOA9NCTc4KmgED",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-10-02T03:09:49+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.15.2",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.15.2",
+    "version" : "1.15.2"
   }
 ]
