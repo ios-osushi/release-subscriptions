@@ -574,5 +574,17 @@
     "title" : "1.28.1 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.28.1",
     "version" : "1.28.1"
+  },
+  {
+    "body" : "Despite the large diffs (caused by adopting swift-format), the actual changes are small:\r\n* Change default of useAccessLevelOnImports to always be false by @gjcairo in https://github.com/apple/swift-protobuf/pull/1711\r\n* Silence a warning when using Xcode 16/Swift6 toolchain. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1717\r\n\r\n## What's Changed\r\n* Make README clearer about `serializedBytes()` by @gjcairo in https://github.com/apple/swift-protobuf/pull/1710\r\n* Add CompileTests for InternalImportsByDefault by @gjcairo in https://github.com/apple/swift-protobuf/pull/1709\r\n* Change default of useAccessLevelOnImports to always be false by @gjcairo in https://github.com/apple/swift-protobuf/pull/1711\r\n* Set up for swift-format by @thomasvl in https://github.com/apple/swift-protobuf/pull/1712\r\n* Add a blame ignore for the formatting. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1713\r\n* Update proto files from upstream by @thomasvl in https://github.com/apple/swift-protobuf/pull/1714\r\n* Silence a warning when using Xcode 16/Swift6 toolchain. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1717\r\n* Add Swift 6 toolchains to CI. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1718\r\n* Drop docc dep. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1720\r\n* [docs] Fix typo for Xcode that is consistent with others at `PLUGIN.md`. by @lamtrinhdev in https://github.com/apple/swift-protobuf/pull/1722\r\n* Some swift-format lint fixes by @thomasvl in https://github.com/apple/swift-protobuf/pull/1721\r\n* Add two more formatting fixes to the blame ignore. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1723\r\n* Allow block comments for the table in the code. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1724\r\n* Resolve some more swift-format lint issues. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1725\r\n* Update proto files from upstream. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1726\r\n* Move the 6.0 workflows to 6.0.1. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1727\r\n* Version bump for a release. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1728\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.28.1...1.28.2",
+    "createdAt" : "2024-10-03T03:21:27+09:00",
+    "fetchedFromAPIAt" : "2024-10-03T10:07:47+09:00",
+    "id" : "RE_kwDOBAEMEM4KnSJc",
+    "owner" : "apple",
+    "publishedAt" : "2024-10-03T03:24:42+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.28.2 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.28.2",
+    "version" : "1.28.2"
   }
 ]

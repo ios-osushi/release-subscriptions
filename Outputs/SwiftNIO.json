@@ -850,5 +850,17 @@
     "title" : "2.73.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.73.0",
     "version" : "2.73.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add ByteBuffer Hex init & write by @ali-ahsan-ali in https://github.com/apple/swift-nio/pull/2837\r\n* Add functions for reading and writing length-prefixed data with customizable encodings for the length by @hamzahrmalik in https://github.com/apple/swift-nio/pull/2867\r\n### SemVer Patch\r\n* ConditionLock deallocs its pthread_cond_t in more cases by @rnro in https://github.com/apple/swift-nio/pull/2901\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-nio/compare/2.73.0...2.74.0",
+    "createdAt" : "2024-10-02T22:21:48+09:00",
+    "fetchedFromAPIAt" : "2024-10-03T10:07:47+09:00",
+    "id" : "RE_kwDOBy6rG84KnCTC",
+    "owner" : "apple",
+    "publishedAt" : "2024-10-03T00:46:23+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.74.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.74.0",
+    "version" : "2.74.0"
   }
 ]
