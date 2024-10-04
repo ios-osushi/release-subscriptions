@@ -646,5 +646,17 @@
     "title" : "2.223.1 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.223.1",
     "version" : "2.223.1"
+  },
+  {
+    "body" : "* [spaceship] Add support for Enterprise Program API (#22215) via GevaZeichner (@GevaZeichner)\n* Make test pass standalone (#22268) via Jerome Lacoste (@lacostej)\n* Add missing require 'ostruct' in erb_template_helper.rb to solve uninitialized constant Fastlane::OpenStruct (NameError)  (#21950) via Nicolas G (@nicgodoy)\n* [Fastlane.Swift] Allow overriding LaneFileProtocol lifecycles when subclassing LaneFile (#20563) via Sven Tiigi (@SvenTiigi)\n* [Match][S3] Only download (and decrypt) files in the subfolder of the provided TeamID (#22199) via Olivier Halligon (@AliSoftware)",
+    "createdAt" : "2024-10-04T05:28:44+09:00",
+    "fetchedFromAPIAt" : "2024-10-04T10:07:30+09:00",
+    "id" : "RE_kwDOAaK_F84KoJgm",
+    "owner" : "fastlane",
+    "publishedAt" : "2024-10-04T05:45:36+09:00",
+    "repository" : "fastlane",
+    "title" : "2.224.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.224.0",
+    "version" : "2.224.0"
   }
 ]
