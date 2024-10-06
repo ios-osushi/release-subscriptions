@@ -9,14 +9,14 @@ import Foundation
 
 public struct Release: Identifiable {
     public let id: String
-    let owner: String
-    let repository: String
-    let version: String
-    let title: String
-    @JSONNullable var body: String?
-    let url: URL
+    public let owner: String
+    public let repository: String
+    public let version: String
+    public let title: String
+    @JSONNullable public var body: String?
+    public let url: URL
     @JSONNullable var createdAt: Date?
-    @JSONNullable var publishedAt: Date?
+    @JSONNullable public var publishedAt: Date?
     let fetchedFromAPIAt: Date
 }
 
