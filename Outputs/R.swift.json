@@ -658,5 +658,17 @@
     "title" : "7.6.1",
     "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.6.1",
     "version" : "7.6.1"
+  },
+  {
+    "body" : "- Add conformance to Sendable for generated struct and for public types in RswiftResources",
+    "createdAt" : "2024-10-08T02:30:31+09:00",
+    "fetchedFromAPIAt" : "2024-10-08T10:07:05+09:00",
+    "id" : "RE_kwDOAamb-84Kp2AM",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2024-10-08T02:34:08+09:00",
+    "repository" : "R.swift",
+    "title" : "7.7.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.7.0",
+    "version" : "7.7.0"
   }
 ]

@@ -394,5 +394,17 @@
     "title" : "Seder.1 🌾",
     "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.7.1",
     "version" : "6.7.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* We've added an Empty Privacy Manifest to the framework. We are not actually required for a privacy manifest since we don't collect any information, but Apple keeps accidentally tagging the project as problematic, so we've added an empty one :) \r\n\r\n* You can now create a `Single` from an async piece of work, for example:\r\n\r\n```swift\r\nfunc doIncredibleWork() async throws -> AmazingResponse {\r\n    ...\r\n}\r\n\r\nlet single = Single.create {\r\n    try await doIncredibleWork()\r\n} // Single<AmazingResponse>\r\n```\r\n\r\nAlong with our other existing bridging methods - we now cover the full range of use cases for interchangeably working with RxSwift and Swift Concurrency in a code base (`AsyncStream` -> `Observable`, `Observable` -> `AsyncStream`, `Single` -> `await`able value, `await`able value -> Single).\r\n\r\nCheck out the [updated documentation](Documentation/SwiftConcurrency.md#wrapping-an-async-result-as-a-single) for more details.\r\n\r\n---\r\n\r\nMembers of the community have also made other bug fixes, updates, and contributions:\r\n\r\n* Add Sendable conformance to AtomicInt by @marcelofabri in https://github.com/ReactiveX/RxSwift/pull/2624\r\n* Add the deployment_target for visionOS in Podspec by @sanghun0724 in https://github.com/ReactiveX/RxSwift/pull/2603\r\n* Update links for repositories moved to the swiftlang org on GitHub by @lamtrinhdev in https://github.com/ReactiveX/RxSwift/pull/2614\r\n* Bump up swift-tools-version to 5.5 by @adincebic in https://github.com/ReactiveX/RxSwift/pull/2608\r\n* Support .editorConfig for consistent code formatting by @TTOzzi in https://github.com/ReactiveX/RxSwift/pull/2626\r\n* Tidied up some code using optional map by @BenMaer in https://github.com/ReactiveX/RxSwift/pull/2549\r\n* Fix a typo from SwiftConcurrency.md by @HeegeePark in https://github.com/ReactiveX/RxSwift/pull/2623\r\n* Don't retain receiver of Completable.andThen beyond its completion by @nikolaykasyanov in https://github.com/ReactiveX/RxSwift/pull/2604\r\n* Added some documentations to AsyncLock file by @herlandro in https://github.com/ReactiveX/RxSwift/pull/2627\r\n\r\n## New Contributors\r\n* @adincebic made their first contribution in https://github.com/ReactiveX/RxSwift/pull/2608\r\n* @lamtrinhdev made their first contribution in https://github.com/ReactiveX/RxSwift/pull/2614\r\n* @BenMaer made their first contribution in https://github.com/ReactiveX/RxSwift/pull/2549\r\n* @HeegeePark made their first contribution in https://github.com/ReactiveX/RxSwift/pull/2623\r\n* @nikolaykasyanov made their first contribution in https://github.com/ReactiveX/RxSwift/pull/2604\r\n* @herlandro made their first contribution in https://github.com/ReactiveX/RxSwift/pull/2627\r\n\r\n**Full Changelog**: https://github.com/ReactiveX/RxSwift/compare/6.7.1...6.8.0",
+    "createdAt" : "2024-10-07T04:40:21+09:00",
+    "fetchedFromAPIAt" : "2024-10-08T10:07:05+09:00",
+    "id" : "RE_kwDOAgA5b84KpOh2",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2024-10-07T16:07:22+09:00",
+    "repository" : "RxSwift",
+    "title" : "BringThemHome 🎗️",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.8.0",
+    "version" : "6.8.0"
   }
 ]
