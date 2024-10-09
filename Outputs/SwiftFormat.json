@@ -1138,5 +1138,17 @@
     "title" : "0.54.5",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.5",
     "version" : "0.54.5"
+  },
+  {
+    "body" : "- Fixed incorrect wrapping of conditional bodies inside single-line string literals\r\n- Fixed properties inside type with where clause being treated as local scope\r\n- Fixed regression in `wrapMultilineStatementBraces` rule\r\n- Fixed tokenizing of a throwing closure type in a generics clause\r\n- Fixed bug in `parseDeclarations` where incorrect tokens could cause rules to time out\r\n- Fixed issue where `organizeDeclarations` would add extra blank lines if type had blank lines with spaces\r\n- Added known issue to README for `preferForLoop` rule\r\n",
+    "createdAt" : "2024-10-09T02:12:30+09:00",
+    "fetchedFromAPIAt" : "2024-10-09T10:06:48+09:00",
+    "id" : "RE_kwDOA_OyXc4Kqqbv",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-10-09T02:43:57+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.54.6",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.6",
+    "version" : "0.54.6"
   }
 ]

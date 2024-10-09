@@ -202,5 +202,17 @@
     "title" : "601.0.0-prerelease-2024-10-01",
     "url" : "https://github.com/swiftlang/swift-format/releases/tag/601.0.0-prerelease-2024-10-01",
     "version" : "601.0.0-prerelease-2024-10-01"
+  },
+  {
+    "body" : null,
+    "createdAt" : "2024-10-09T10:06:31+09:00",
+    "fetchedFromAPIAt" : "2024-10-09T10:06:48+09:00",
+    "id" : "RE_kwDOC7ABTs4Kq3Q8",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-10-09T10:06:34+09:00",
+    "repository" : "swift-format",
+    "title" : "601.0.0-prerelease-2024-10-09",
+    "url" : "https://github.com/swiftlang/swift-format/releases/tag/601.0.0-prerelease-2024-10-09",
+    "version" : "601.0.0-prerelease-2024-10-09"
   }
 ]
