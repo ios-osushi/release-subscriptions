@@ -442,5 +442,17 @@
     "title" : "swift-6.0-DEVELOPMENT-SNAPSHOT-2024-09-17-a",
     "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-6.0-DEVELOPMENT-SNAPSHOT-2024-09-17-a",
     "version" : "swift-6.0-DEVELOPMENT-SNAPSHOT-2024-09-17-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-10-11T10:07:21+09:00",
+    "id" : "REF_kwDOIpT9BtoANXJlZnMvdGFncy9zd2lmdC02LjAtREVWRUxPUE1FTlQtU05BUFNIT1QtMjAyNC0xMC0wOC1h",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-6.0-DEVELOPMENT-SNAPSHOT-2024-10-08-a",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-6.0-DEVELOPMENT-SNAPSHOT-2024-10-08-a",
+    "version" : "swift-6.0-DEVELOPMENT-SNAPSHOT-2024-10-08-a"
   }
 ]
