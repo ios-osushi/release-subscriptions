@@ -466,5 +466,17 @@
     "title" : "5.9.0",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.9.0",
     "version" : "5.9.0"
+  },
+  {
+    "body" : "### Added\r\n- 🔥 Full Swift concurrency support with `Sendable` requirements. Most APIs are also marked `@preconcurrency`, so there should be no breaking changes. Swift 5.9 now required to build.\r\n  - Added by [Jon Shier](https://github.com/jshier) in Pull Request [#3880](https://github.com/Alamofire/Alamofire/pull/3880).\r\n- Existential `any` now required internally by Alamofire.\r\n  - Added by [Keita Watanabe](https://github.com/kitwtnb) in Pull Request [#3881](https://github.com/Alamofire/Alamofire/pull/3881).\r\n\r\n### Updated\r\n- 🔥 `Session.init(... eventMonitors:)` to allow no `EventMonitor`s at all, and `CompositeEventMonitor` to fix thread-safety. Potentially breaking if previously passing `[]` but still expecting `Notification`s to be posted. Pass `[AlamofireNotifications()]` if you need that behavior.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3894](https://github.com/Alamofire/Alamofire/pull/3894).\r\n- `DownloadRequest.validate` to read the `fileSize` rather than the whole file from disk.\r\n  - Updated by [Jon Shier](https://github.com/jshier) in Pull Request [#3899](https://github.com/Alamofire/Alamofire/pull/3899).\r\n- Links to `swiftlang` repositories.\r\n  - Updated by [LamTrinh.Dev](https://github.com/lamtrinhdev) in Pull Request [#3882](https://github.com/Alamofire/Alamofire/pull/3882).\r\n\r\n### Fixed\r\n- Various documentation typos.\r\n  - Fixed by [Alexander Cyon](https://github.com/Sajjon) in Pull Request [#3891](https://github.com/Alamofire/Alamofire/pull/3891).\r\n- Passing `queue` parameter to `DataStream` serializers.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3879](https://github.com/Alamofire/Alamofire/pull/3879).\r\n- `testThatDatesCanBeEncodedAsFormatted` when running with a non-Gregorian calendar.\r\n  - Fixed by [Kittisak Phetrungnapha](https://github.com/kittisak-phetrungnapha) in Pull Request [#3858](https://github.com/Alamofire/Alamofire/pull/3858).",
+    "createdAt" : "2024-10-14T07:22:05+09:00",
+    "fetchedFromAPIAt" : "2024-10-14T10:09:44+09:00",
+    "id" : "RE_kwDOAVavk84Kthuf",
+    "owner" : "Alamofire",
+    "publishedAt" : "2024-10-14T07:22:50+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.10.0",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.10.0",
+    "version" : "5.10.0"
   }
 ]

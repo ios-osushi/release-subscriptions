@@ -622,5 +622,17 @@
     "title" : "v13.5.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v13.5.0",
     "version" : "v13.5.0"
+  },
+  {
+    "body" : "## What's Changed\n* Allow unwrap and pollUnwrap to take in custom descriptions by @younata in https://github.com/Quick/Nimble/pull/1162\n* Add requireFail. Like fail(), but it also always throws an error by @younata in https://github.com/Quick/Nimble/pull/1163\n* Fix build error when using UI Tests by @younata in https://github.com/Quick/Nimble/pull/1164\n\n\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v13.5.0...v13.6.0",
+    "createdAt" : "2024-10-14T08:40:15+09:00",
+    "fetchedFromAPIAt" : "2024-10-14T10:09:44+09:00",
+    "id" : "RE_kwDOAUUIhc4KtinE",
+    "owner" : "Quick",
+    "publishedAt" : "2024-10-14T08:42:31+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.6.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.6.0",
+    "version" : "v13.6.0"
   }
 ]
