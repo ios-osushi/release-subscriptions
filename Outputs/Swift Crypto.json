@@ -538,5 +538,17 @@
     "title" : "Swift Crypto 3.8.0",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.8.0",
     "version" : "3.8.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Support loading RSAPSS public keys with parameters by @gautierdelorme in https://github.com/apple/swift-crypto/pull/268\r\n* Update BoringSSL to 76968bb3d53982560bcf08bcd0ba3e1865fe15cd by @Lukasa in https://github.com/apple/swift-crypto/pull/271\r\n* Refactor and adopt package access to remove symlinked files by @simonjbeaumont in https://github.com/apple/swift-crypto/pull/265\r\n\r\n## New Contributors\r\n* @gautierdelorme made their first contribution in https://github.com/apple/swift-crypto/pull/268\r\n\r\n**Full Changelog**: https://github.com/apple/swift-crypto/compare/3.8.0...3.8.1",
+    "createdAt" : "2024-10-08T22:10:48+09:00",
+    "fetchedFromAPIAt" : "2024-10-16T10:08:24+09:00",
+    "id" : "RE_kwDOC9Swts4Kt4We",
+    "owner" : "apple",
+    "publishedAt" : "2024-10-14T21:24:11+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.8.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.8.1",
+    "version" : "3.8.1"
   }
 ]

@@ -1258,5 +1258,17 @@
     "title" : "1.15.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.15.0",
     "version" : "1.15.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Xcode 16.1 beta 3 introduced a concurrency change that requires an explicit `@MainActor` on a NavigationLink initializer to build (thanks @chrisjrex, https://github.com/pointfreeco/swift-composable-architecture/pull/3430).\r\n* Fixed: Suppress Swift <6 warning (https://github.com/pointfreeco/swift-composable-architecture/pull/3445)\r\n* Deprecated: `@Reducer(state: .equatable)` has been soft-deprecated in Swift 6 now that the bug preventing `extension Feature.State: Equatable {}` has been fixed (https://github.com/pointfreeco/swift-composable-architecture/pull/3379).\r\n* Deprecated: `Store.ifLet` has been soft deprecated in favor of observation tools (https://github.com/pointfreeco/swift-composable-architecture/pull/3382).\r\n* Infrastructure: Added migration guide for 1.15 (https://github.com/pointfreeco/swift-composable-architecture/pull/3390)\r\n* Infrastructure: Update README documentation links for 1.15.0 (thanks @kgrigsby59, https://github.com/pointfreeco/swift-composable-architecture/pull/3397).\r\n* Infrastructure: Update case studies to run in Swift 6 mode (https://github.com/pointfreeco/swift-composable-architecture/pull/3394)/\r\n* Infrastructure: Update documentation and examples to use Swift Testing (https://github.com/pointfreeco/swift-composable-architecture/pull/3413).\r\n* Infrastructure: Add import modules on NavigationStack tutorial source code (thanks @loinsir, https://github.com/pointfreeco/swift-composable-architecture/pull/3409).\r\n* Infrastructure: Add Swift Macro Compatibility Check to CI (thanks @Matejkob, https://github.com/pointfreeco/swift-composable-architecture/pull/3406).\r\n* Infrastructure: Update benchmarks target (https://github.com/pointfreeco/swift-composable-architecture/pull/3424).\r\n* Infrastructure: Don't `xcbeautify` Swift Testing suites in CI (https://github.com/pointfreeco/swift-composable-architecture/pull/3425).\r\n* Infrastructure: Internally use `AnyHashableSendable` from Concurrency Extras (https://github.com/pointfreeco/swift-composable-architecture/pull/3428).\r\n* Infrastructure: Run sync ups tests with main serial executor (https://github.com/pointfreeco/swift-composable-architecture/pull/3431).\r\n* Infrastructure: Clean up key path bitcasting (https://github.com/pointfreeco/swift-composable-architecture/pull/3411).\r\n* Infrastructure: Address concurrency warnings in tests (https://github.com/pointfreeco/swift-composable-architecture/pull/3438).\r\n\r\n## New Contributors\r\n* @loinsir made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3409\r\n* @chrisjrex made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3430\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.15.0...1.15.1",
+    "createdAt" : "2024-10-16T02:03:23+09:00",
+    "fetchedFromAPIAt" : "2024-10-16T10:08:25+09:00",
+    "id" : "RE_kwDOD48kk84Ku5dg",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-10-16T02:09:22+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.15.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.15.1",
+    "version" : "1.15.1"
   }
 ]

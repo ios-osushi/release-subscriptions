@@ -862,5 +862,17 @@
     "title" : "SwiftNIO 2.74.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.74.0",
     "version" : "2.74.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add EventLoop APIs for simpler scheduling of callbacks by @simonjbeaumont in https://github.com/apple/swift-nio/pull/2759\r\n* Add convenience conformances to `ByteCount` by @clintonpi in https://github.com/apple/swift-nio/pull/2909\r\n* Add `removeHandler(context: ChannelHandlerContext)` to SynchronousOperations of ChannelPipeline by @supersonicbyte in https://github.com/apple/swift-nio/pull/2912\r\n* [NIOFileSystem] Provide an API to specify allowing unlimited sized reads by @clintonpi in https://github.com/apple/swift-nio/pull/2914\r\n### SemVer Patch\r\n* A DatagramChannelTest now waits for writes by @rnro in https://github.com/apple/swift-nio/pull/2905\r\n* Throw error when the max read amount is greater than `ByteBuffer` can tolerate by @clintonpi in https://github.com/apple/swift-nio/pull/2911\r\n### Other Changes\r\n* Make ByteBufferQUICBinaryEncodingStrategyTests compatible with 32-bit systems by @hamzahrmalik in https://github.com/apple/swift-nio/pull/2904\r\n* Fix broken link to swift-server performance documentation by @plemarquand in https://github.com/apple/swift-nio/pull/2907\r\n* [CI] Switch to reusable soundness by @FranzBusch in https://github.com/apple/swift-nio/pull/2913\r\n* [CI] Fix unit test yaml file by @FranzBusch in https://github.com/apple/swift-nio/pull/2915\r\n* [CI] Add back matrix CI script by @FranzBusch in https://github.com/apple/swift-nio/pull/2916\r\n* Re-add CXX compat check script by @PeterAdams-A in https://github.com/apple/swift-nio/pull/2919\r\n\r\n## New Contributors\r\n* @plemarquand made their first contribution in https://github.com/apple/swift-nio/pull/2907\r\n* @clintonpi made their first contribution in https://github.com/apple/swift-nio/pull/2909\r\n\r\n**Full Changelog**: https://github.com/apple/swift-nio/compare/2.74.0...2.75.0",
+    "createdAt" : "2024-10-14T19:09:35+09:00",
+    "fetchedFromAPIAt" : "2024-10-16T10:08:24+09:00",
+    "id" : "RE_kwDOBy6rG84Kt4o0",
+    "owner" : "apple",
+    "publishedAt" : "2024-10-14T21:35:22+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.75.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.75.0",
+    "version" : "2.75.0"
   }
 ]
