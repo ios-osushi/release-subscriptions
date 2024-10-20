@@ -886,5 +886,17 @@
     "title" : "2.13.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.13.0",
     "version" : "2.13.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Implement SwiftDriverCompilationTarget by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/321\r\n* Implement SwiftDriverCompilationRequirementsCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/322\r\n* Implement SwiftDriverTargetCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/323\r\n* Implement MkDirCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/324\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.13.0...2.14.0",
+    "createdAt" : "2024-10-20T06:16:20+09:00",
+    "fetchedFromAPIAt" : "2024-10-20T10:13:47+09:00",
+    "id" : "RE_kwDOCNUZc84Kx0C7",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-10-20T06:16:31+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.14.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.14.0",
+    "version" : "2.14.0"
   }
 ]

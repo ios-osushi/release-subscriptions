@@ -478,5 +478,17 @@
     "title" : "5.10.0",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.10.0",
     "version" : "5.10.0"
+  },
+  {
+    "body" : "Released on 2024-10-19. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/92?closed=1).\r\n\r\n### Fixed\r\n- `@Sendable` in `AdaptHandler` and `RetryHandler` types.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3906](https://github.com/Alamofire/Alamofire/pull/3906).\r\n- Downstream `JSONResponseSerializer` wrapper by reverting output type to just `Any`.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3903](https://github.com/Alamofire/Alamofire/pull/3903).\r\n- Missing `@Sendable` on `Authenticator.refresh`.\r\n  - Fixed by [rono23](https://github.com/rono23) in Pull Request [#3901](https://github.com/Alamofire/Alamofire/pull/3901).",
+    "createdAt" : "2024-10-20T04:29:09+09:00",
+    "fetchedFromAPIAt" : "2024-10-20T10:13:46+09:00",
+    "id" : "RE_kwDOAVavk84KxzJA",
+    "owner" : "Alamofire",
+    "publishedAt" : "2024-10-20T04:29:57+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.10.1",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.10.1",
+    "version" : "5.10.1"
   }
 ]
