@@ -898,5 +898,17 @@
     "title" : "2.14.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.14.0",
     "version" : "2.14.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Make capture groups work for swift testing in combination with XCTestcases in same target by @bobvoorneveld in https://github.com/cpisciotta/xcbeautify/pull/326\r\n\r\n## New Contributors\r\n* @bobvoorneveld made their first contribution in https://github.com/cpisciotta/xcbeautify/pull/326\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.14.0...2.14.1",
+    "createdAt" : "2024-10-22T02:24:16+09:00",
+    "fetchedFromAPIAt" : "2024-10-22T10:08:48+09:00",
+    "id" : "RE_kwDOCNUZc84KysgT",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-10-22T02:24:30+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.14.1",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.14.1",
+    "version" : "2.14.1"
   }
 ]
