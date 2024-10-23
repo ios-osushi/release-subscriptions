@@ -1078,5 +1078,17 @@
     "title" : "v10.54.0",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.0",
     "version" : "v10.54.0"
+  },
+  {
+    "body" : "### Enhancements\n* None.\n\n### Fixed\n* The events library would attempt to upload backup files created as part of\n  file format upgrades, causing backup copies of those backups to be made,\n  looping until the maximum file name size was reached\n  ([Core #8040](https://github.com/realm/realm-core/issues/8040), since v10.26.0).\n\n<!-- ### Breaking Changes - ONLY INCLUDE FOR NEW MAJOR version -->\n\n### Compatibility\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 15.4.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.3.0-16.1 beta.\n\n### Internal\n* Upgraded realm-core from v14.13.0 to 14.13.1",
+    "createdAt" : "2024-10-23T03:31:21+09:00",
+    "fetchedFromAPIAt" : "2024-10-23T10:07:31+09:00",
+    "id" : "RE_kwDOAD24W84KzlFf",
+    "owner" : "realm",
+    "publishedAt" : "2024-10-23T03:32:52+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.54.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.1",
+    "version" : "v10.54.1"
   }
 ]
