@@ -804,6 +804,18 @@
     "version" : "2.68.0"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* workaround Xcode 15.4 bug with swift build --arch x86_64 --arch arm64 by @weissi in https://github.com/apple/swift-nio/pull/2945\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-nio/compare/2.76.0...2.76.1",
+    "createdAt" : "2024-10-24T19:26:32+09:00",
+    "fetchedFromAPIAt" : "2024-10-27T10:13:13+09:00",
+    "id" : "RE_kwDOBy6rG84K0_Am",
+    "owner" : "apple",
+    "publishedAt" : "2024-10-24T21:27:08+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.76.1",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.76.1",
+    "version" : "2.76.1"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Drop support for Swift 5.8 by @FranzBusch in https://github.com/apple/swift-nio/pull/2924\r\n* Fix `EventLoopFuture` and `EventLoopPromise` under strict concurrency checking by @FranzBusch in https://github.com/apple/swift-nio/pull/2654\r\n* Provide APIs to read file into more data types by @clintonpi in https://github.com/apple/swift-nio/pull/2923\r\n### SemVer Patch\r\n* Adopt NIOThrowingAsyncSequenceProducer 2nd try by @rnro in https://github.com/apple/swift-nio/pull/2917\r\n* Add future wait benchmark to catch memory leaks by @rnro in https://github.com/apple/swift-nio/pull/2931\r\n* Fix Windows build break. by @jeffdav in https://github.com/apple/swift-nio/pull/2935\r\n* Fix withConnectedSocket in async mode by @Lukasa in https://github.com/apple/swift-nio/pull/2937\r\n* Fix Windows build for NIOCore. by @jeffdav in https://github.com/apple/swift-nio/pull/2938\r\n* NIOPosix on Darwin: inherit main thread QoS by @weissi in https://github.com/apple/swift-nio/pull/2944\r\n### Other Changes\r\n* [CI] Migrate to Swift 6.0 and drop 5.8 by @FranzBusch in https://github.com/apple/swift-nio/pull/2920\r\n* Disable semver label check locally by @rnro in https://github.com/apple/swift-nio/pull/2928\r\n* [CI] Fix python lint by @FranzBusch in https://github.com/apple/swift-nio/pull/2925\r\n* clean up 5.8 thresholds by @rnro in https://github.com/apple/swift-nio/pull/2932\r\n* [CI] Add Windows matrix build by @FranzBusch in https://github.com/apple/swift-nio/pull/2929\r\n* [CI] Small adjustments to the Windows actions by @FranzBusch in https://github.com/apple/swift-nio/pull/2939\r\n* [CI] Enable benchmarks & cxx Windows CI by @FranzBusch in https://github.com/apple/swift-nio/pull/2940\r\n* [CI] Fix the Windows 6.0 check name by @FranzBusch in https://github.com/apple/swift-nio/pull/2941\r\n\r\n## New Contributors\r\n* @jeffdav made their first contribution in https://github.com/apple/swift-nio/pull/2935\r\n\r\n**Full Changelog**: https://github.com/apple/swift-nio/compare/2.75.0...2.76.0",
     "createdAt" : "2024-10-24T01:14:35+09:00",
     "fetchedFromAPIAt" : "2024-10-24T10:07:42+09:00",
