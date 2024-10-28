@@ -146,6 +146,30 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-10-28T10:11:03+09:00",
+    "id" : "REF_kwDOIpT9Bq9yZWZzL3RhZ3MvNi4wLjA",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "6.0.0",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/6.0.0",
+    "version" : "6.0.0"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-10-28T10:11:03+09:00",
+    "id" : "REF_kwDOIpT9Bq9yZWZzL3RhZ3MvNi4wLjE",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "6.0.1",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/6.0.1",
+    "version" : "6.0.1"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2024-09-26T10:07:25+09:00",
     "id" : "REF_kwDOIpT9Br1yZWZzL3RhZ3Mvc3dpZnQtNi4wLjEtUkVMRUFTRQ",
     "owner" : "swiftlang",

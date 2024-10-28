@@ -1042,5 +1042,17 @@
     "title" : "Nuke 12.8 (Beta 1)",
     "url" : "https://github.com/kean/Nuke/releases/tag/12.8.0-beta.1",
     "version" : "12.8.0-beta.1"
+  },
+  {
+    "body" : "Nuke 13 is an incremental release that takes more advantage of Swift Concurrency and Data Race Safety by introducing a global `ImagePipelineActor` on which its subsystems are all synchronized. It ensures thread-safety, removes 20 usages of `@unchecked Sendable`, and makes the framework even leaner with ~5% less code in the main module. The future versions will completely switch to Swift Concurrency, but it will require a couple of more iterations.\r\n\r\n**Requirement**: Xcode 16.\r\n\r\n- Increase deployment targets to iOS 14, tvOS 14, macOS 11, watchOS 7\r\n- Add global actor `ImagePipelineActor`. `ImagePipeline,` `ImageTask`, `ImagePrefetcher`, and some other internal types are synchronized on the new actor.\r\n- Soft-deprecate closure-based `ImagePipeline` APIs\r\n- Soft-deprecate `ImagePipeline` Combine extension and move them to `NukeExtensions`\r\n- Remove `ImagePipeline.Configuration.callbackQueue`\r\n- Remove `queue` parameter from `ImagePipeline` `loadImage` and `loadData` method. The callbacks are now isolated to the `@MainActor` and are `@Sendable`.\r\n- Add `ImageTask.isCancelling` to make it easier to transition to Nuke 13 in case you were using `ImageTask.state` for checking for cancellation invoked by the client (this might change in the upcoming betas)\r\n- Rename `ImagePipelineDelegate` to `ImagePipeline.Delegate`\r\n- Remove `ImagePipeline.Delegate` `imageTaskDidStart` and other methods soft-deprecated in Nuke 12.7.\r\n- Remove `ImageRequest` initializers accepting `dataPublisher` (Combine) – use Swift Concurrency instead\r\n- Update `DataLoading` protocol to use Swift Concurrency instead of closures\r\n- Deprecate `FetchImage` Combine support\r\n",
+    "createdAt" : "2024-10-28T01:15:47+09:00",
+    "fetchedFromAPIAt" : "2024-10-28T10:11:03+09:00",
+    "id" : "RE_kwDOAeh5z84K2xz0",
+    "owner" : "kean",
+    "publishedAt" : "2024-10-28T01:17:31+09:00",
+    "repository" : "Nuke",
+    "title" : "Nuke 13.0 (Beta 1)",
+    "url" : "https://github.com/kean/Nuke/releases/tag/13.0.0-beta.1",
+    "version" : "13.0.0-beta.1"
   }
 ]
