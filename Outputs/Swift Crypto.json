@@ -480,6 +480,18 @@
     "version" : "3.5.1"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* PBKDF2 and scrypt by @admkopec in https://github.com/apple/swift-crypto/pull/98\r\n### SemVer Patch\r\n* wrapper: Move EC types and random bytes into CryptoBoringWrapper by @simonjbeaumont in https://github.com/apple/swift-crypto/pull/277\r\n* wrapper: Add modular arithmetic functions to ArbitraryPrecisionInteger by @simonjbeaumont in https://github.com/apple/swift-crypto/pull/284\r\n* Fix windows build and update BoringSSL to 2587c4974dbe9872451151c8e975f58567a1ce0d by @Lukasa in https://github.com/apple/swift-crypto/pull/279\r\n* Add support for new Android overlay, swiftlang/swift#74758 by @finagolfin in https://github.com/apple/swift-crypto/pull/286\r\n### Other Changes\r\n* [CI] Adopt GitHub actions by @FranzBusch in https://github.com/apple/swift-crypto/pull/280\r\n\r\n## New Contributors\r\n* @admkopec made their first contribution in https://github.com/apple/swift-crypto/pull/98\r\n\r\n**Full Changelog**: https://github.com/apple/swift-crypto/compare/3.8.1...3.9.0",
+    "createdAt" : "2024-10-22T00:30:06+09:00",
+    "fetchedFromAPIAt" : "2024-10-31T10:09:21+09:00",
+    "id" : "RE_kwDOC9Swts4K30pF",
+    "owner" : "apple",
+    "publishedAt" : "2024-10-29T18:22:57+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.9.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.9.0",
+    "version" : "3.9.0"
+  },
+  {
     "body" : "### SemVer Minor\r\n\r\n- extras: Provide initializers for RSA keys from RSA parameters (#247)\r\n\r\n### SemVer Patch\r\n\r\n- Reduce the number of heap allocations when computing hash digests (#238, patch credit to @baarde)",
     "createdAt" : "2024-07-22T20:01:44+09:00",
     "fetchedFromAPIAt" : "2024-08-07T10:01:18+09:00",

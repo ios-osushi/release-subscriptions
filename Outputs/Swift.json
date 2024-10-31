@@ -517,6 +517,18 @@
   },
   {
     "body" : "",
+    "createdAt" : "2024-10-16T15:46:24+09:00",
+    "fetchedFromAPIAt" : "2024-10-31T10:09:21+09:00",
+    "id" : "RE_kwDOAqwwJc4K3fUQ",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-10-29T03:16:10+09:00",
+    "repository" : "swift",
+    "title" : "Swift 6.0.2 Release",
+    "url" : "https://github.com/swiftlang/swift/releases/tag/swift-6.0.2-RELEASE",
+    "version" : "swift-6.0.2-RELEASE"
+  },
+  {
+    "body" : "",
     "createdAt" : "2024-09-12T13:13:31+09:00",
     "fetchedFromAPIAt" : "2024-09-18T10:04:47+09:00",
     "id" : "RE_kwDOAqwwJc4Kc5t2",

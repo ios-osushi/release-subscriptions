@@ -264,6 +264,18 @@
     "version" : "v2.1.2b26"
   },
   {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\nBig shout out to @abiligiri 🎉  for getting the new Apple SRP login changes over the line! 🙏 \r\n\r\n## Changes\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Support SRP Login (#640) @MattKiazyk\r\n* Add support for SRP Login (#638) @abiligiri\r\n\r\n## 🚀 Enhancements\r\n\r\n* Add preference keys for 'Restrict allowed versions' & hide 'Support Xcodes' (#632) @abiligiri\r\n\r\n<!-- sparkle:edSignature=sAWbFqtV6k5AZNsQ82sBhH/Rcy2cr6kU3UmWY2a5n1edM2/JhKekv2l3E1aGr6WLxvBuo+NvDw5pOM2R6ymIDA== -->",
+    "createdAt" : "2024-10-29T12:28:52+09:00",
+    "fetchedFromAPIAt" : "2024-10-31T10:09:21+09:00",
+    "id" : "RE_kwDOEtMR_84K3uLU",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2024-10-29T12:37:31+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v2.4.0 - Now with 100% more login",
+    "url" : "https://github.com/XcodesOrg/XcodesApp/releases/tag/v2.4.0b29",
+    "version" : "v2.4.0b29"
+  },
+  {
     "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\n## Changes\r\n\r\n2.3.0 brings back the ability to download **all** runtimes. Starting with iOS 18, tvOS 18, watchOS 11, visionOS 2, Apple removed the direct downloads and instead used the same architecture that is used in downloading OS updates. This change brings more security but also turns it into a black box. \r\n\r\nFortunately, starting with Xcode 16.1 Beta 3, `xcodebuild` provides a way to download a single version using the new way. In order for Xcodes to work, you must have at least Xcode 16.1 beta 3 + installed and selected. \r\n\r\nThanks to the Apple engineer who added that into `xcodebuild`. 🙏 \r\n\r\n## 🚀 Enhancements\r\n\r\n* allow cancelling of runtime downloads, cleanup (#628) @MattKiazyk\r\n* Terminate Xcodes app after last window closed (#621) @Kyle-Ye\r\n* Disallow changes to managed preferences (#569) @abiligiri\r\n* Implement Security Key Auth  (#617) @kinoroy\r\n* feat: support downloading of cryptex (ex iOS 18+) runtimes (#622) (Xcode 16 Beta 3+ required) @MattKiazyk\r\n* Add `authenticating` to the `XcodeInstallationStep` (#613) @chuganzy\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Update label for Cancel Install Button (#603) @LiYanan2004\r\n\r\n## 🌎 Localization\r\n\r\n* Update Localizable.xcstrings for Russian language (3) (#598) @duffpod\r\n* Update translation in zh-Hant (#593) @pan93412\r\n* Fix one Greek localization. Add one zh_Hans localization. (#609) @megabitsenmzq\r\n\r\n## 🧰 Maintenance\r\n\r\n* Bump ruby/setup-ruby from 1.190.0 to 1.197.0 (#629) @dependabot\r\n* Bump actions/cache from 4.0.2 to 4.1.1 (#625) @dependabot\r\n* Bump ruby/setup-ruby from 1.177.1 to 1.190.0 (#601) @dependabot\r\n* chore: update sparkle framework (#624) @MattKiazyk\r\n* chore: set CI to MacOS 14, Xcode 16 (#623) @MattKiazyk\r\n\r\n<!-- sparkle:edSignature=3RFJhxjS+sRFNOvF58p0tsv0EUV8t01z/GNess+wS6OJBI30VoPRF8EecHpRPhmqCaE+BvGVrG0tKEWj+ovpCw== -->",
     "createdAt" : "2024-10-18T22:54:59+09:00",
     "fetchedFromAPIAt" : "2024-10-19T10:06:55+09:00",

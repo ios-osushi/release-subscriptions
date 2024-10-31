@@ -478,5 +478,29 @@
     "title" : "1.15.2",
     "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.15.2",
     "version" : "1.15.2"
+  },
+  {
+    "body" : "##### Enhancements\r\n\r\n* Add Support for Xcode 14.3's ENABLE_MODULE_VERIFIER.  \r\n  [sharplet](https://github.com/sharplet)\r\n  [#12390](https://github.com/CocoaPods/CocoaPods/pull/12390)\r\n\r\n* Xcode 16 support.\r\n  * Bump minimum `xcodeproj` to `1.26.0`\r\n  * Update project generator to set `GENERATE_INFOPLIST_FILE = NO` on pod targets\r\n  * Update project generator to set `ENABLE_USER_SCRIPT_SANDBOXING = NO` = NO` on pod targets to fix build failures with vendored frameworks.  \r\n  * Update project generator to set `SWIFT_INSTALL_OBJC_HEADER = YES` on pod targets to enable consuming Swift pods from Objective-C.\r\n[Eric Amorde](https://github.com/amorde)\r\n[#12656](https://github.com/CocoaPods/CocoaPods/pull/12656)\r\n\r\n##### Bug Fixes\r\n\r\n* Fix pod install issue when git's `core.fsmonitor` feature is enabled (again)  \r\n  [Justin Martin](https://github.com/justinseanmartin)\r\n  [#12349](https://github.com/CocoaPods/CocoaPods/issues/12349)\r\n\r\n\r\n## Changes in [CocoaPods/Core](https://github.com/CocoaPods/Core/releases/tag/1.16.0)\r\n\r\n##### Enhancements\r\n\r\n* Add ability to configure max concurrency of CDN requests through environment variable.\r\n  [maikelvdh](https://github.com/maikelvdh)\r\n  [#773](https://github.com/CocoaPods/Core/pull/773)\r\n\r\n##### Bug Fixes\r\n\r\n* Fix an issue comparing mixed numeric and string prerelease version segments.  \r\n  [sagiwei](https://github.com/sagiwei)\r\n  [#752](https://github.com/CocoaPods/Core/issues/752)\r\n\r\n* Fix crash when attempting to load nonexistent CDN index shards on custom CDN repos.  \r\n  [santam85](https://github.com/santam85)\r\n  [#771](https://github.com/CocoaPods/Core/pull/771)",
+    "createdAt" : "2024-10-29T13:09:44+09:00",
+    "fetchedFromAPIAt" : "2024-10-31T10:09:21+09:00",
+    "id" : "RE_kwDOACGf_c4K3v3A",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2024-10-29T12:53:33+09:00",
+    "repository" : "CocoaPods",
+    "title" : "",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.16.0",
+    "version" : "1.16.0"
+  },
+  {
+    "body" : "##### Enhancements\n\n* None.  \n\n##### Bug Fixes\n\n* Fix an issue breaking `pod lib lint` / `pod spec lint` due to new `ENABLE_USER_SCRIPT_SANDBOXING` setting.  \n  [Eric Amorde](https://github.com/amorde)\n  [#12664](https://github.com/CocoaPods/CocoaPods/issues/12664)",
+    "createdAt" : "2024-10-30T04:09:04+09:00",
+    "fetchedFromAPIAt" : "2024-10-31T10:09:21+09:00",
+    "id" : "RE_kwDOACGf_c4K4WYu",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2024-10-30T04:09:42+09:00",
+    "repository" : "CocoaPods",
+    "title" : "1.16.1",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.16.1",
+    "version" : "1.16.1"
   }
 ]

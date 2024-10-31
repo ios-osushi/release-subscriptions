@@ -358,5 +358,17 @@
     "title" : "1.5.0",
     "url" : "https://github.com/XcodesOrg/xcodes/releases/tag/1.5.0",
     "version" : "1.5.0"
+  },
+  {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade xcodesorg/made/xcodes`.\r\n\r\nBig shout out to @abiligiri 🎉 for getting the new Apple SRP login changes over the line! 🙏\r\n\r\n## Changes\r\n\r\n## 🚀 Enhancements\r\n\r\n* Support Service Temporarily Unavailable response error (#389) @noppefoxwolf\r\n* Supports iOS 18+ runtime downloads (#391) @spadafiva\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Add support for SRP Apple login (#393) @MattKiazyk\r\n",
+    "createdAt" : "2024-10-30T11:53:22+09:00",
+    "fetchedFromAPIAt" : "2024-10-31T10:09:21+09:00",
+    "id" : "RE_kwDOCj_3JM4K4h6b",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2024-10-30T12:01:57+09:00",
+    "repository" : "xcodes",
+    "title" : "1.6.0 - Login Fixed and Cryptex Runtimes supported installing",
+    "url" : "https://github.com/XcodesOrg/xcodes/releases/tag/1.6.0",
+    "version" : "1.6.0"
   }
 ]
