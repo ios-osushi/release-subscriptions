@@ -382,5 +382,17 @@
     "title" : "1.5.0",
     "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.5.0",
     "version" : "1.5.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* EventStreams: Customisable Terminating Byte Sequence by @paulhdk in https://github.com/apple/swift-openapi-runtime/pull/115\r\n* Add Mac Catalyst support by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/124\r\n### SemVer Patch\r\n* Support nested arrays of primitive values inside of objects by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/120\r\n### Other Changes\r\n* Correct the link of sswg-security at SECURITY.md by @lamtrinhdev in https://github.com/apple/swift-openapi-runtime/pull/114\r\n* ci: Migrate to GitHub Actions and reusable workflows by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/116, https://github.com/apple/swift-openapi-runtime/pull/117, https://github.com/apple/swift-openapi-runtime/pull/118\r\n* benchmarks: Add subdirectory Benchmarks/ package by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/119\r\n* ci: Remove examples pipeline from scheduled workflow by @simonjbeaumont in https://github.com/apple/swift-openapi-runtime/pull/121\r\n* [CI] Update to Swift 6 CI by @FranzBusch in https://github.com/apple/swift-openapi-runtime/pull/122\r\n\r\n## New Contributors\r\n* @lamtrinhdev made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/114\r\n* @paulhdk made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/115\r\n* @FranzBusch made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/122\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.5.0...1.6.0",
+    "createdAt" : "2024-10-20T02:36:12+09:00",
+    "fetchedFromAPIAt" : "2024-11-01T10:13:37+09:00",
+    "id" : "RE_kwDOJZWxLs4Kw7L3",
+    "owner" : "apple",
+    "publishedAt" : "2024-10-31T18:34:43+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.6.0",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.6.0",
+    "version" : "1.6.0"
   }
 ]

@@ -502,5 +502,17 @@
     "title" : "1.16.1",
     "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.16.1",
     "version" : "1.16.1"
+  },
+  {
+    "body" : "##### Enhancements\n\n* None.  \n\n##### Bug Fixes\n\n* Bump min xcodeproj to 1.27.0 to include revert of breaking build setting changes.  \n  [Eric Amorde](https://github.com/amorde)\n  [#12675](https://github.com/CocoaPods/CocoaPods/pull/12675)",
+    "createdAt" : "2024-11-01T03:14:31+09:00",
+    "fetchedFromAPIAt" : "2024-11-01T10:13:37+09:00",
+    "id" : "RE_kwDOACGf_c4K6BeV",
+    "owner" : "CocoaPods",
+    "publishedAt" : "2024-11-01T03:15:18+09:00",
+    "repository" : "CocoaPods",
+    "title" : "1.16.2",
+    "url" : "https://github.com/CocoaPods/CocoaPods/releases/tag/1.16.2",
+    "version" : "1.16.2"
   }
 ]
