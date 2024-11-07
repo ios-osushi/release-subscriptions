@@ -624,6 +624,18 @@
     "version" : "7.7.1-alpha.1"
   },
   {
+    "body" : "Add support for Xcode 16 file system Folders (https://github.com/mac-cain13/R.swift/pull/921)",
+    "createdAt" : "2024-11-05T19:21:14+09:00",
+    "fetchedFromAPIAt" : "2024-11-07T10:06:53+09:00",
+    "id" : "RE_kwDOAamb-84K8OKM",
+    "owner" : "mac-cain13",
+    "publishedAt" : "2024-11-05T19:45:07+09:00",
+    "repository" : "R.swift",
+    "title" : "7.8.0",
+    "url" : "https://github.com/mac-cain13/R.swift/releases/tag/7.8.0",
+    "version" : "7.8.0"
+  },
+  {
     "body" : "Testing release",
     "createdAt" : "2024-09-19T18:54:01+09:00",
     "fetchedFromAPIAt" : "2024-09-20T10:05:55+09:00",
