@@ -910,5 +910,17 @@
     "title" : "2.14.1",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.14.1",
     "version" : "2.14.1"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-11-11T09:46:00+09:00",
+    "fetchedFromAPIAt" : "2024-11-11T10:08:29+09:00",
+    "id" : "RE_kwDOCNUZc84LAJZF",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-11-11T09:46:12+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.15.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.15.0",
+    "version" : "2.15.0"
   }
 ]

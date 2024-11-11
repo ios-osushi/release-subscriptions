@@ -1044,6 +1044,18 @@
     "version" : "1.15.1"
   },
   {
+    "body" : "### Improvements\r\n- **Stable sort schema types for SchemaMetadata ([#514](https://github.com/apollographql/apollo-ios-dev/pull/514)):** _Thank you to [@asmundg](https://github.com/asmundg) for the contribution._\r\n\r\n### Fixed\r\n- **Fix multipart delimter boundary parsing ([#502](https://github.com/apollographql/apollo-ios-dev/pull/502)):** The multipart message parsing code was not splitting message chunks at the correct boundary.\r\n- **Fix Websocket error broadcast for unsubscribed ID ([#506](https://github.com/apollographql/apollo-ios-dev/pull/506))** Only broadcast an error to all subscribers if there was no id field in the message.\r\n- **Fix bug with `AnyHashable` coercion for non-iOS platforms ([#517](https://github.com/apollographql/apollo-ios-dev/pull/517)):** Extended the _AnyHashableCanBeCoerced check to include macOS, watchOS, and tvOS with their respective minimum versions. _Thank you to [@VMLe](https://github.com/VMLe) for the fix._\r\n- **Fix assigning websocket callback queue before connecting ([#529](https://github.com/apollographql/apollo-ios-dev/pull/529)):** Fix an issue with assigning the websocket callback queue before connecting the websocket.\r\n- **Fix `GraphQLOperation` hash uniqueness ([#530](https://github.com/apollographql/apollo-ios-dev/pull/530)):** Adding uniqueness to GraphQLOperation hashing.",
+    "createdAt" : "2024-11-10T02:18:51+09:00",
+    "fetchedFromAPIAt" : "2024-11-11T10:08:29+09:00",
+    "id" : "RE_kwDOA9NCTc4K_45z",
+    "owner" : "apollographql",
+    "publishedAt" : "2024-11-10T02:25:23+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.15.3",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.15.3",
+    "version" : "1.15.3"
+  },
+  {
     "body" : "### Improvements\r\n- **Set `URLRequest` cache policy on GET requests ([#476](https://github.com/apollographql/apollo-ios-dev/pull/476)):** Uses the Apollo cache policy to set a comparable cache policy on `URLRequest`. Previously there was no way to opt-out of default `URLRequest` caching behaviour.\r\n- **Batch writing records to the SQLite store ([#498](https://github.com/apollographql/apollo-ios-dev/pull/498)):** Uses the `insertMany` to batch write records for a given operation vs previously performing a write for each individual record.\r\n\r\n### Fixed\r\n- **Fix `ListData` type check ([#473](https://github.com/apollographql/apollo-ios-dev/pull/473)):** Fixed bool type check in `ListData`.\r\n- **Remove local cache mutation type condition setter ([#485](https://github.com/apollographql/apollo-ios-dev/pull/485)):** Removes the setter for mutable inline fragments. The correct way to initialize with a type condition is to use `asRootEntityType`.",
     "createdAt" : "2024-10-02T03:05:32+09:00",
     "fetchedFromAPIAt" : "2024-10-02T10:07:10+09:00",
