@@ -418,5 +418,17 @@
     "title" : "1.4.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.4.1",
     "version" : "1.4.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: `prepareDependencies` (https://github.com/pointfreeco/swift-dependencies/pull/288). This API allows you to prepare dependencies globally at the entry point of your application. For Example:\r\n    ```swift\r\n    @main\r\n    struct MyApp: App {\r\n      init() {\r\n        prepareDependencies {\r\n          $0.analytics = AnalyticsClient(accessToken: mySecretToken)\r\n        }\r\n      }\r\n      // ...\r\n    }\r\n    ```\r\n* Fixed: Restore Library Evolution support for Xcode 16 (thanks @gemmakbarlow, https://github.com/pointfreeco/swift-dependencies/pull/279).\r\n* Fixed: Android support for Swift 6 (thanks @hyp, https://github.com/pointfreeco/swift-dependencies/pull/282).\r\n* Fixed: Update Package@swift-6.0.swift to silence warning (thanks @finestructure, https://github.com/pointfreeco/swift-dependencies/pull/291).\r\n* Fixed: Dependencies accessed in `withDependencies` update closure are now cached eagerly (https://github.com/pointfreeco/swift-dependencies/pull/287).\r\n* Fixed: Relax preview trait sendability requirement (https://github.com/pointfreeco/swift-dependencies/pull/299).\r\n* Infrastructure: Add Macro Compatibility Check to CI workflow (thanks @Matejkob, https://github.com/pointfreeco/swift-dependencies/pull/285).\r\n\r\n## New Contributors\r\n* @gemmakbarlow made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/279\r\n* @hyp made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/282\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.4.1...1.5.0",
+    "createdAt" : "2024-11-09T13:17:15+09:00",
+    "fetchedFromAPIAt" : "2024-11-12T10:06:06+09:00",
+    "id" : "RE_kwDOIF_Mq84LAuNd",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-11-12T03:38:36+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.5.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.5.0",
+    "version" : "1.5.0"
   }
 ]
