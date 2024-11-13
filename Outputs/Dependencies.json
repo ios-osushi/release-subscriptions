@@ -430,5 +430,17 @@
     "title" : "1.5.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.5.0",
     "version" : "1.5.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: A regression introduced in 1.5.0 that could cause previews with a dependency trait to crash has been fixed (https://github.com/pointfreeco/swift-dependencies/pull/306).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.5.0...1.5.1",
+    "createdAt" : "2024-11-13T02:21:30+09:00",
+    "fetchedFromAPIAt" : "2024-11-13T10:07:47+09:00",
+    "id" : "RE_kwDOIF_Mq84LBgZZ",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-11-13T02:47:03+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.5.1",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.5.1",
+    "version" : "1.5.1"
   }
 ]

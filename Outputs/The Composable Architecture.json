@@ -1282,5 +1282,17 @@
     "title" : "1.15.2",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.15.2",
     "version" : "1.15.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: support for `Date` values in shared app storage (thanks @rudedogdhc, https://github.com/pointfreeco/swift-composable-architecture/pull/3470).\r\n* Performance: Improved performance of shared app storage observation (https://github.com/pointfreeco/swift-composable-architecture/pull/3487).\r\n* Performance: Reduce amount of locking in the Combine subject powering the Store (thanks @iampatbrown, https://github.com/pointfreeco/swift-composable-architecture/pull/3476).\r\n* Fixed: Addressed a potential crash in shared app storage when many app storage variables are notified by notification center during a SwiftUI view body update (https://github.com/pointfreeco/swift-composable-architecture/pull/3487).\r\n* Fixed: Addressed a race condition in the Combine subject powering the Store (thanks @kabiroberai, https://github.com/pointfreeco/swift-composable-architecture/pull/3475).\r\n* Fixed: Better autocomplete for dynamic member lookup (https://github.com/pointfreeco/swift-composable-architecture/pull/3463).\r\n* Infrastructure: Capture existing `@Shared` test store behavior in test with a to-do for better behavior in the future (thanks @rcarver, https://github.com/pointfreeco/swift-composable-architecture/pull/3455).\r\n\r\n## New Contributors\r\n* @rudedogdhc made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3470\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.15.2...1.16.0",
+    "createdAt" : "2024-11-12T14:23:07+09:00",
+    "fetchedFromAPIAt" : "2024-11-13T10:07:47+09:00",
+    "id" : "RE_kwDOD48kk84LBg8A",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-11-13T02:57:20+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.16.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.16.0",
+    "version" : "1.16.0"
   }
 ]
