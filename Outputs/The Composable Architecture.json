@@ -1294,5 +1294,17 @@
     "title" : "1.16.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.16.0",
     "version" : "1.16.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Address a potential race condition in shared file storage (https://github.com/pointfreeco/swift-composable-architecture/pull/3479).\r\n* Fixed: Add `@ViewBuilder` to `NavigationStack` root view(thanks @joshrl, https://github.com/pointfreeco/swift-composable-architecture/pull/3493).\r\n* Fixed: Address potential crash in KVO shared app storage observation during cancellation (thanks @pyrtsa, https://github.com/pointfreeco/swift-composable-architecture/pull/3494).\r\n\r\n## New Contributors\r\n* @joshrl made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3493\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.16.0...1.16.1",
+    "createdAt" : "2024-11-15T04:14:20+09:00",
+    "fetchedFromAPIAt" : "2024-11-15T10:11:58+09:00",
+    "id" : "RE_kwDOD48kk84LDo4b",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-11-15T04:16:07+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.16.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.16.1",
+    "version" : "1.16.1"
   }
 ]

@@ -442,5 +442,17 @@
     "title" : "1.5.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.5.1",
     "version" : "1.5.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Address compile failure on non-Apple platforms (thanks @finestructure, https://github.com/pointfreeco/swift-dependencies/pull/304).\r\n* Infrastructure: Update GitHub Actions CI (https://github.com/pointfreeco/swift-dependencies/pull/307).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.5.1...1.5.2",
+    "createdAt" : "2024-11-13T11:29:57+09:00",
+    "fetchedFromAPIAt" : "2024-11-15T10:11:59+09:00",
+    "id" : "RE_kwDOIF_Mq84LDkuC",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-11-15T02:50:37+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.5.2",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.5.2",
+    "version" : "1.5.2"
   }
 ]
