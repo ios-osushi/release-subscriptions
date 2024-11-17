@@ -1150,5 +1150,17 @@
     "title" : "0.54.6",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.6",
     "version" : "0.54.6"
+  },
+  {
+    "body" : "- Added `docCommentsBeforeModifiers` rule to hoist doc comments above declaration modifiers\r\n- Added `unusedPrivateDeclarations` rule to remove unused `private` or `fileprivate` declarations\r\n- Added `propertyTypes` rule to control the use of inferred or explicit types for properties\r\n- Renamed the `--redundanttype` option to `--propertytypes` as it's shared by both rules\r\n- Added `--ranges preserve` and `--operatorfunc preserve` options\r\n- Added `--languagemode` option to specify if you are using Swift 5 or 6 language mode\r\n- The `organizeDeclarations` rule can now sort declarations by name/type/visibility/etc\r\n- Fixed `organizeDeclarations` bug where `--beforemarks` unexpectedly matched keywords in function bodies\r\n- Fixed missing lint output for `organizeDeclarations` rule\r\n- Fixed bug in `markTypes` rule for chained protocol extension names\r\n- Renamed the confusing `--onelineforeach` option to `--inlinedforeach`\r\n- Git info can now be used in header comments when formatting code from stdin\r\n- You can now use the `--outputtokens` option to print output as tokens in JSON format\r\n- Each rule and test is now defined in a separate file to make it easier to maintain/contribute\r\n- Updated minimum Swift version for building SwiftFormat to 5.3 (you can still format older Swift code)\r\n- Docker build now uses static Linux SDK",
+    "createdAt" : "2024-11-17T08:03:55+09:00",
+    "fetchedFromAPIAt" : "2024-11-17T10:15:20+09:00",
+    "id" : "RE_kwDOA_OyXc4LEr_t",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-11-17T08:08:42+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.55.0",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.0",
+    "version" : "0.55.0"
   }
 ]
