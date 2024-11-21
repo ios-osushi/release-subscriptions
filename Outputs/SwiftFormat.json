@@ -1162,5 +1162,17 @@
     "title" : "0.55.0",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.0",
     "version" : "0.55.0"
+  },
+  {
+    "body" : "- Fixed bug where `docCommentsBeforeModifiers` got confused by `enum` cases that match modifier names\r\n- Fixed bug where `wrapEnumCases` would mangle nested or successive `enum` declarations\r\n- Artifact Bundle now includes pre-built binary for ARM-based Linux systems\r\n",
+    "createdAt" : "2024-11-21T08:35:10+09:00",
+    "fetchedFromAPIAt" : "2024-11-21T10:11:04+09:00",
+    "id" : "RE_kwDOA_OyXc4LHi-8",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-11-21T08:41:26+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.55.1",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.1",
+    "version" : "0.55.1"
   }
 ]
