@@ -1174,5 +1174,17 @@
     "title" : "0.55.1",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.1",
     "version" : "0.55.1"
+  },
+  {
+    "body" : "- Fixed bug where `unusedArguments` failed to remove arguments that matched switch variable bindings\r\n- Fixed bug where `unusedArguments` failed to remove arguments that matched nested function call labels\r\n- Fixed spurious lint errors for `blankLinesAtStartOfScope` when using `organizeDeclarations` rule\r\n- Fixed bug where indentation errors were incorrectly reported as `wrap` rule lint errors\r\n- The `preferKeyPaths` rule now handles the `\\\\.self` case for Swift 5.10 and later\r\n- Fixed parsing of keyPaths beginning with `\\.?`\r\n",
+    "createdAt" : "2024-11-24T18:00:27+09:00",
+    "fetchedFromAPIAt" : "2024-11-25T10:12:51+09:00",
+    "id" : "RE_kwDOA_OyXc4LJ7rH",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-11-24T18:47:11+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.55.2",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.2",
+    "version" : "0.55.2"
   }
 ]
