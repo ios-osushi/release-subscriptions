@@ -574,5 +574,17 @@
     "title" : "Swift Crypto 3.8.1",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.8.1",
     "version" : "3.8.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* extras: Add EC toolbox abstractions and OPRF(P-384, SHA-384) VOPRF API by @simonjbeaumont in https://github.com/apple/swift-crypto/pull/292\r\n### SemVer Patch\r\n* Fix potentially inconsistent coordinate slicing by @dimitribouniol in https://github.com/apple/swift-crypto/pull/299\r\n### Other Changes\r\n* add .editorconfig file by @rnro in https://github.com/apple/swift-crypto/pull/296\r\n* add .spi.yml by @rnro in https://github.com/apple/swift-crypto/pull/297\r\n\r\n## New Contributors\r\n* @dimitribouniol made their first contribution in https://github.com/apple/swift-crypto/pull/299\r\n\r\n**Full Changelog**: https://github.com/apple/swift-crypto/compare/3.9.1...3.10.0",
+    "createdAt" : "2024-11-22T18:30:35+09:00",
+    "fetchedFromAPIAt" : "2024-11-27T10:13:41+09:00",
+    "id" : "RE_kwDOC9Swts4LKjc2",
+    "owner" : "apple",
+    "publishedAt" : "2024-11-26T00:09:38+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.10.0",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.10.0",
+    "version" : "3.10.0"
   }
 ]

@@ -202,5 +202,17 @@
     "title" : "Swift Log 1.6.1",
     "url" : "https://github.com/apple/swift-log/releases/tag/1.6.1",
     "version" : "1.6.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Fix Windows warnings by @FranzBusch in https://github.com/apple/swift-log/pull/331\r\n### Other Changes\r\n* [CI] Migrate to GHA by @FranzBusch in https://github.com/apple/swift-log/pull/328\r\n* Enhance swift code-block at README.md by @lamtrinhdev in https://github.com/apple/swift-log/pull/327\r\n* add .editorconfig file by @rnro in https://github.com/apple/swift-log/pull/338\r\n* Add Scout to the list of available backends by @kasianov-mikhail in https://github.com/apple/swift-log/pull/337\r\n\r\n## New Contributors\r\n* @lamtrinhdev made their first contribution in https://github.com/apple/swift-log/pull/318\r\n* @hyp made their first contribution in https://github.com/apple/swift-log/pull/325\r\n* @rnro made their first contribution in https://github.com/apple/swift-log/pull/338\r\n* @kasianov-mikhail made their first contribution in https://github.com/apple/swift-log/pull/337\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.6.1...1.6.2",
+    "createdAt" : "2024-11-26T02:24:15+09:00",
+    "fetchedFromAPIAt" : "2024-11-27T10:13:41+09:00",
+    "id" : "RE_kwDOCiSz584LLg6Z",
+    "owner" : "apple",
+    "publishedAt" : "2024-11-27T00:32:38+09:00",
+    "repository" : "swift-log",
+    "title" : "1.6.2",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.6.2",
+    "version" : "1.6.2"
   }
 ]

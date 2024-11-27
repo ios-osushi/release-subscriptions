@@ -382,5 +382,17 @@
     "title" : "1.4.0",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.4.0",
     "version" : "1.4.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add support for OpenAPI 3.0.4 and 3.1.1 by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/665\r\n### SemVer Patch\r\n* Fix printing to stderr - add a missing newline by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/657\r\n* Include path item parameters in filter by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/658\r\n* Skip duplicate enum values by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/674\r\n* Make error message for missing \"openapi\" key clearer. by @deirdresmtoo in https://github.com/apple/swift-openapi-generator/pull/678\r\n### Other Changes\r\n* [Docs] Update Xcode tutorial for Xcode 16 by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/662\r\n* unify scheduled and main yamls by @rnro in https://github.com/apple/swift-openapi-generator/pull/670\r\n* remove unused Swift 6 language mode workflow by @rnro in https://github.com/apple/swift-openapi-generator/pull/672\r\n* [Proposal] SOAR-0011: Improved error handling by @gayathrisairam in https://github.com/apple/swift-openapi-generator/pull/626\r\n* add .editorconfig file by @rnro in https://github.com/apple/swift-openapi-generator/pull/671\r\n* Add a note about an open issue with code generation and SourceKit-LSP by @t089 in https://github.com/apple/swift-openapi-generator/pull/642\r\n\r\n## New Contributors\r\n* @deirdresmtoo made their first contribution in https://github.com/apple/swift-openapi-generator/pull/678\r\n* @gayathrisairam made their first contribution in https://github.com/apple/swift-openapi-generator/pull/626\r\n* @t089 made their first contribution in https://github.com/apple/swift-openapi-generator/pull/642\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.4.0...1.5.0",
+    "createdAt" : "2024-11-23T23:20:27+09:00",
+    "fetchedFromAPIAt" : "2024-11-27T10:13:41+09:00",
+    "id" : "RE_kwDOJZWvis4LKkbW",
+    "owner" : "apple",
+    "publishedAt" : "2024-11-26T01:45:43+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.5.0",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.5.0",
+    "version" : "1.5.0"
   }
 ]

@@ -490,5 +490,17 @@
     "title" : "5.10.1",
     "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.10.1",
     "version" : "5.10.1"
+  },
+  {
+    "body" : "Released on 2024-11-249. All issues associated with this milestone can be found using this [filter](https://github.com/Alamofire/Alamofire/milestone/93?closed=1).\r\n\r\n### Fixed\r\n- Runtime crash when calling `validate` from a Swift 6-compiled target.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3920](https://github.com/Alamofire/Alamofire/pull/3920).\r\n- Swift 6.0 `Package.swift` deprecation warning.\r\n  - Fixed by [Jon Shier](https://github.com/jshier) in Pull Request [#3911](https://github.com/Alamofire/Alamofire/pull/3911).",
+    "createdAt" : "2024-11-26T00:10:32+09:00",
+    "fetchedFromAPIAt" : "2024-11-27T10:13:41+09:00",
+    "id" : "RE_kwDOAVavk84LKk5S",
+    "owner" : "Alamofire",
+    "publishedAt" : "2024-11-26T00:11:48+09:00",
+    "repository" : "Alamofire",
+    "title" : "5.10.2",
+    "url" : "https://github.com/Alamofire/Alamofire/releases/tag/5.10.2",
+    "version" : "5.10.2"
   }
 ]

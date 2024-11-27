@@ -1186,5 +1186,17 @@
     "title" : "0.55.2",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.2",
     "version" : "0.55.2"
+  },
+  {
+    "body" : "- Fixed bug where `sortTypealiases` rule could mangle generic types, or ones using the `any` keyword\r\n- The `preferKeyPaths` rule now only uses `\\\\.self` for Swift 6 and later (fix din't land yet in 5.10)\r\n- Added speculative fix for plugin `artifactbundle` not working on `ubuntu-latest`\r\n",
+    "createdAt" : "2024-11-27T08:58:45+09:00",
+    "fetchedFromAPIAt" : "2024-11-27T10:13:41+09:00",
+    "id" : "RE_kwDOA_OyXc4LL4Rs",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-11-27T09:12:21+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.55.3",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.3",
+    "version" : "0.55.3"
   }
 ]

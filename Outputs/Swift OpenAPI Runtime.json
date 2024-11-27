@@ -394,5 +394,17 @@
     "title" : "1.6.0",
     "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.6.0",
     "version" : "1.6.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add error conversion protocols and middleware ([SOAR-0011](https://swiftpackageindex.com/apple/swift-openapi-generator/main/documentation/swift-openapi-generator/soar-0011)) by @gayathrisairam in https://github.com/apple/swift-openapi-runtime/pull/126\r\n### SemVer Patch\r\n* Improve parameter handling of MIME types in content types by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/113\r\n* Refactor URIDecoder/URIParser to improve handling of the deepObject style by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/127\r\n### Other Changes\r\n* Unify scheduled and main yamls by @rnro in https://github.com/apple/swift-openapi-runtime/pull/128\r\n* Remove unused Swift 6 language mode workflow by @rnro in https://github.com/apple/swift-openapi-runtime/pull/130\r\n* Add .editorconfig file by @rnro in https://github.com/apple/swift-openapi-runtime/pull/129\r\n\r\n## New Contributors\r\n* @gayathrisairam made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/126\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.6.0...1.7.0",
+    "createdAt" : "2024-11-22T02:19:20+09:00",
+    "fetchedFromAPIAt" : "2024-11-27T10:13:41+09:00",
+    "id" : "RE_kwDOJZWxLs4LKiGk",
+    "owner" : "apple",
+    "publishedAt" : "2024-11-25T23:55:19+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.7.0",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.7.0",
+    "version" : "1.7.0"
   }
 ]
