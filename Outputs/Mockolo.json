@@ -418,5 +418,17 @@
     "title" : "2.1.1",
     "url" : "https://github.com/uber/mockolo/releases/tag/2.1.1",
     "version" : "2.1.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Compilation fix for a mock where the return type of a closure is an opaque type by @omarzl in https://github.com/uber/mockolo/pull/259\r\n* Speed up aarch64 builds using Static Linux SDK by @sidepelican in https://github.com/uber/mockolo/pull/265\r\n* Add support for `Actor` protocol. by @sidepelican in https://github.com/uber/mockolo/pull/266\r\n* Add async and throwing property support by @sidepelican in https://github.com/uber/mockolo/pull/267\r\n* Correct the `throws` clause in the closure within template logic to support TypedThrow. by @fummicc1 in https://github.com/uber/mockolo/pull/262\r\n* Add Nested protocol support by @sidepelican in https://github.com/uber/mockolo/pull/270\r\n* Fix to avoid using global actors as default values by @sidepelican in https://github.com/uber/mockolo/pull/269\r\n* Remove redundant tuple in handler type by @sidepelican in https://github.com/uber/mockolo/pull/275\r\n\r\n## Maintenances\r\n\r\n* Update swift-syntax to 600 by @sidepelican in https://github.com/uber/mockolo/pull/264\r\n* Add test for read-only computed property in class by @sidepelican in https://github.com/uber/mockolo/pull/268\r\n* Remove dead codes by @sidepelican in https://github.com/uber/mockolo/pull/271\r\n* Organize the arguments of Model.render. by @sidepelican in https://github.com/uber/mockolo/pull/272\r\n* Bump up version to 2.2.0 by @sidepelican in https://github.com/uber/mockolo/pull/277\r\n\r\n## New Contributors\r\n* @omarzl made their first contribution in https://github.com/uber/mockolo/pull/259\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/2.1.1...2.2.0\n----\n\n## For Build Tools Plugin (artifactbundle)\n\n- full version (linux and macos)\n\n```swift\n.binaryTarget(\n    name: \"mockolo\",\n    url: \"https://github.com/uber/mockolo/releases/download/2.2.0/mockolo.artifactbundle.zip\",\n    checksum: \"75ec5806ca70c99f0acd9f527c3892d62fe8a585e74ca4736842a2efab981ef6\"\n),\n```\n\n- lightweight version (macos only)\n\n```swift\n.binaryTarget(\n    name: \"mockolo\",\n    url: \"https://github.com/uber/mockolo/releases/download/2.2.0/mockolo-macos.artifactbundle.zip\",\n    checksum: \"26aa998f46cc6e814accf6014571116368fd7f772ce060de63ac8b36069d33fe\"\n),\n```\n",
+    "createdAt" : "2024-11-29T15:30:54+09:00",
+    "fetchedFromAPIAt" : "2024-12-01T10:24:23+09:00",
+    "id" : "RE_kwDOCaWADM4LOOmg",
+    "owner" : "uber",
+    "publishedAt" : "2024-11-30T13:33:18+09:00",
+    "repository" : "mockolo",
+    "title" : "2.2.0",
+    "url" : "https://github.com/uber/mockolo/releases/tag/2.2.0",
+    "version" : "2.2.0"
   }
 ]
