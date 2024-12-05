@@ -478,5 +478,17 @@
     "title" : "1.6.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.6.1",
     "version" : "1.6.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fixed: prepareDependencies when using TestDependencyKey. https://github.com/pointfreeco/swift-dependencies/pull/315\r\n\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.6.1...1.6.2",
+    "createdAt" : "2024-12-04T01:20:00+09:00",
+    "fetchedFromAPIAt" : "2024-12-05T10:14:31+09:00",
+    "id" : "RE_kwDOIF_Mq84LQBeO",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-12-04T01:20:35+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.6.2",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.6.2",
+    "version" : "1.6.2"
   }
 ]

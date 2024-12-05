@@ -1306,5 +1306,17 @@
     "title" : "1.16.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.16.1",
     "version" : "1.16.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Added: Add Sharing dependency. https://github.com/pointfreeco/swift-composable-architecture/pull/3517\r\n* Fixed: Fix the infinite loop issue when WebSocket returns an error message in the example case. by @LukeWei in https://github.com/pointfreeco/swift-composable-architecture/pull/3508\r\n* Fixed: Fix obsolete detail on StackElementID documentation by @pyrtsa in https://github.com/pointfreeco/swift-composable-architecture/pull/3509\r\n* Infrastructure: Add a test to document how 'task tree' cancellation  happens. https://github.com/pointfreeco/swift-composable-architecture/pull/3499\r\n* Infrastructure: Add migration guide for 1.16. https://github.com/pointfreeco/swift-composable-architecture/pull/3491\r\n\r\n## New Contributors\r\n* @LukeWei made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3508\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.16.1...1.17.0",
+    "createdAt" : "2024-12-04T04:10:34+09:00",
+    "fetchedFromAPIAt" : "2024-12-05T10:14:31+09:00",
+    "id" : "RE_kwDOD48kk84LQKPs",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-12-04T04:30:37+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.17.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.17.0",
+    "version" : "1.17.0"
   }
 ]

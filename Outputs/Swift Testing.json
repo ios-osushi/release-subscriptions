@@ -694,5 +694,29 @@
     "title" : "swift-6.1-DEVELOPMENT-SNAPSHOT-2024-11-21-a",
     "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-6.1-DEVELOPMENT-SNAPSHOT-2024-11-21-a",
     "version" : "swift-6.1-DEVELOPMENT-SNAPSHOT-2024-11-21-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-12-05T10:14:31+09:00",
+    "id" : "REF_kwDOIpT9BtoANXJlZnMvdGFncy9zd2lmdC02LjEtREVWRUxPUE1FTlQtU05BUFNIT1QtMjAyNC0xMi0wMi1h",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-6.1-DEVELOPMENT-SNAPSHOT-2024-12-02-a",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-6.1-DEVELOPMENT-SNAPSHOT-2024-12-02-a",
+    "version" : "swift-6.1-DEVELOPMENT-SNAPSHOT-2024-12-02-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-12-05T10:14:31+09:00",
+    "id" : "REF_kwDOIpT9BtoANXJlZnMvdGFncy9zd2lmdC02LjEtREVWRUxPUE1FTlQtU05BUFNIT1QtMjAyNC0xMi0wMy1h",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-6.1-DEVELOPMENT-SNAPSHOT-2024-12-03-a",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-6.1-DEVELOPMENT-SNAPSHOT-2024-12-03-a",
+    "version" : "swift-6.1-DEVELOPMENT-SNAPSHOT-2024-12-03-a"
   }
 ]
