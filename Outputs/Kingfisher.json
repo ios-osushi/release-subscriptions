@@ -742,5 +742,17 @@
     "title" : "8.1.1 - Clean Completion",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.1.1",
     "version" : "8.1.1"
+  },
+  {
+    "body" : "#### Fix\n* Fix a race condition when downloading and reading the image data in session. It should improve the stability. @meisbedi @onevcat [#2327](https://github.com/onevcat/Kingfisher/pull/2327)\n\n",
+    "createdAt" : "2024-12-07T00:27:36+09:00",
+    "fetchedFromAPIAt" : "2024-12-08T10:19:27+09:00",
+    "id" : "RE_kwDOAf70wM4LSntv",
+    "owner" : "onevcat",
+    "publishedAt" : "2024-12-07T00:29:51+09:00",
+    "repository" : "Kingfisher",
+    "title" : "8.1.2 - Data Racing",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.1.2",
+    "version" : "8.1.2"
   }
 ]
