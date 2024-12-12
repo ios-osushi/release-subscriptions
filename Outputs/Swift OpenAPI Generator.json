@@ -394,5 +394,17 @@
     "title" : "1.5.0",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.5.0",
     "version" : "1.5.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* [Generator] Improve parameter handling of MIME types in content types by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/646\r\n* Enable strict concurrency by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/686\r\n* Assign to properties with explicit self in `init(from decoder:)` by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/696\r\n* Access properties with explicit self in `encode(to encoder:)` by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/699\r\n### Other Changes\r\n* Add GitHub action to check for Semantic Version label by @FranzBusch in https://github.com/apple/swift-openapi-generator/pull/684\r\n* Updated examples and integration test with the new servers syntax by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/688\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.5.0...1.5.1",
+    "createdAt" : "2024-12-11T19:06:21+09:00",
+    "fetchedFromAPIAt" : "2024-12-12T10:14:11+09:00",
+    "id" : "RE_kwDOJZWvis4LVZ2z",
+    "owner" : "apple",
+    "publishedAt" : "2024-12-11T19:18:32+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.5.1",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.5.1",
+    "version" : "1.5.1"
   }
 ]

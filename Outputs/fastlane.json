@@ -670,5 +670,17 @@
     "title" : "2.225.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.225.0",
     "version" : "2.225.0"
+  },
+  {
+    "body" : "* [Supply] Allow promoting draft release to inProgress with initial rollout (#28960) via Olivier Halligon (@AliSoftware)\n* Fix incomplete options being allowed for some parameters (#28804) via Iulian Onofrei (@revolter)\n* [testfairy] Added support for folder_name and other parameters (#22290) via Gil Megidish (@gmegidish-saucelabs)\n* Bump xcpretty to version 0.4.0 (#26657) via Iulian Onofrei (@revolter)\n* [import_from_git] Add Git basic authorization support (#22135) via Jens Kuhr Jørgensen (@jenskuhrjorgensen)",
+    "createdAt" : "2024-12-10T19:41:04+09:00",
+    "fetchedFromAPIAt" : "2024-12-12T10:14:11+09:00",
+    "id" : "RE_kwDOAaK_F84LUgkn",
+    "owner" : "fastlane",
+    "publishedAt" : "2024-12-10T19:50:20+09:00",
+    "repository" : "fastlane",
+    "title" : "2.226.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.226.0",
+    "version" : "2.226.0"
   }
 ]

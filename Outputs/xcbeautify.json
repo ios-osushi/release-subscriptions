@@ -922,5 +922,17 @@
     "title" : "2.15.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.15.0",
     "version" : "2.15.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add A Renderer For Azure DevOps Pipeline by @weisunOW in https://github.com/cpisciotta/xcbeautify/pull/338\r\n* Fix GitHubActionsRenderer Annotation Values by @weisunOW in https://github.com/cpisciotta/xcbeautify/pull/340\r\n* Update GitHub Actions Workflows by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/334\r\n\r\n## New Contributors\r\n* @weisunOW made their first contribution in https://github.com/cpisciotta/xcbeautify/pull/340\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.15.0...2.16.0",
+    "createdAt" : "2024-12-11T08:58:13+09:00",
+    "fetchedFromAPIAt" : "2024-12-12T10:14:11+09:00",
+    "id" : "RE_kwDOCNUZc84LVH4L",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-12-11T08:58:26+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.16.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.16.0",
+    "version" : "2.16.0"
   }
 ]

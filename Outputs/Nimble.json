@@ -658,5 +658,17 @@
     "title" : "v13.6.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v13.6.0",
     "version" : "v13.6.0"
+  },
+  {
+    "body" : "## What's Changed\n* Bump the ruby version used in github workflows by @younata in https://github.com/Quick/Nimble/pull/1175\n* Bump cocoapods from 1.15.2 to 1.16.2 by @dependabot in https://github.com/Quick/Nimble/pull/1172\n* Bump jazzy from 0.14.4 to 0.15.3 by @dependabot in https://github.com/Quick/Nimble/pull/1170\n* Fix error message grammar in DSL+Wait.swift by @ianrahman in https://github.com/Quick/Nimble/pull/1176\n* Fix expected text in waitUntil stall test by @younata in https://github.com/Quick/Nimble/pull/1179\n* Allow beIdenticalTo and be matchers to be used as composed matchers by @younata in https://github.com/Quick/Nimble/pull/1178\n* Add an overload of map that allows you to fail the conversion by returning nil. by @younata in https://github.com/Quick/Nimble/pull/1177\n* Rename the failable map overload to compactMap by @younata in https://github.com/Quick/Nimble/pull/1180\n\n## New Contributors\n* @ianrahman made their first contribution in https://github.com/Quick/Nimble/pull/1176\n\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v13.6.2...v13.7.0",
+    "createdAt" : "2024-12-12T09:53:37+09:00",
+    "fetchedFromAPIAt" : "2024-12-12T10:14:11+09:00",
+    "id" : "RE_kwDOAUUIhc4LWCz3",
+    "owner" : "Quick",
+    "publishedAt" : "2024-12-12T09:56:09+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.7.0",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.7.0",
+    "version" : "v13.7.0"
   }
 ]
