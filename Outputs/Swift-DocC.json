@@ -22,5 +22,17 @@
     "title" : "Swift 5.10.1 Release",
     "url" : "https://github.com/swiftlang/swift-docc/releases/tag/swift-5.10.1-RELEASE",
     "version" : "swift-5.10.1-RELEASE"
+  },
+  {
+    "body" : "## What's Changed\r\n* 🍒 Make `NavigatorIndex.Builder` ignore language variants when requested by @daniel-grumberg in https://github.com/swiftlang/swift-docc/pull/1078\r\n\r\n\r\n**Full Changelog**: https://github.com/swiftlang/swift-docc/compare/swift-6.0.2-RELEASE...swift-6.0.3-RELEASE",
+    "createdAt" : "2024-10-26T02:12:44+09:00",
+    "fetchedFromAPIAt" : "2024-12-16T10:16:45+09:00",
+    "id" : "RE_kwDOFxlCRc4LXCGX",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-12-13T16:07:55+09:00",
+    "repository" : "swift-docc",
+    "title" : "Swift 6.0.3 Release",
+    "url" : "https://github.com/swiftlang/swift-docc/releases/tag/swift-6.0.3-RELEASE",
+    "version" : "swift-6.0.3-RELEASE"
   }
 ]

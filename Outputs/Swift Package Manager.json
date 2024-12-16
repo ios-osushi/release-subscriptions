@@ -190,5 +190,17 @@
     "title" : "Swift 6.0.1 Release",
     "url" : "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.0.1-RELEASE",
     "version" : "swift-6.0.1-RELEASE"
+  },
+  {
+    "body" : "## What's Changed\r\n* [6.0] Disable part of a test that fails with Swift Testing in the toolchain. by @grynspan in https://github.com/swiftlang/swift-package-manager/pull/7901\r\n* [6.0][PackageModel] Toolchain: Split SwiftTesting flags between swift compiler and linker by @xedin in https://github.com/swiftlang/swift-package-manager/pull/7907\r\n* [6.0] Update package templates to use Swift Testing in the toolchain rather than as a package dependency. by @grynspan in https://github.com/swiftlang/swift-package-manager/pull/7910\r\n* [6.0] Temporarily disable new Swift Testing tests by @bnbarham in https://github.com/swiftlang/swift-package-manager/pull/7917\r\n* [6.0][PackageModel] Inject swift-testing flags only if toolchain is target… by @xedin in https://github.com/swiftlang/swift-package-manager/pull/7921\r\n* [6.0] Add 2024 Darwin OS versions to `SupportedPlatforms` by @MaxDesiatov in https://github.com/swiftlang/swift-package-manager/pull/7972\r\n* [6.0] Remove `@MainActor` from XCTest glue. by @grynspan in https://github.com/swiftlang/swift-package-manager/pull/7988\r\n* Bump the Swift version to 6.0.3 by @shahmishal in https://github.com/swiftlang/swift-package-manager/pull/8017\r\n* [6.0.3] Fix compiling test runners for Android by using the full overlay by @finagolfin in https://github.com/swiftlang/swift-package-manager/pull/8019\r\n* [6.0][PackageModel] UserToolchain: Add -F when building with CommandLineTools by @bnbarham in https://github.com/swiftlang/swift-package-manager/pull/8035\r\n* Disable SwiftVersion development mode by @bkhouri in https://github.com/swiftlang/swift-package-manager/pull/8074\r\n\r\n\r\n**Full Changelog**: https://github.com/swiftlang/swift-package-manager/compare/swift-6.0.2-RELEASE...swift-6.0.3-RELEASE",
+    "createdAt" : "2024-11-01T22:31:37+09:00",
+    "fetchedFromAPIAt" : "2024-12-16T10:16:45+09:00",
+    "id" : "RE_kwDOAqw0ac4LXCWQ",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-12-13T16:18:07+09:00",
+    "repository" : "swift-package-manager",
+    "title" : "Swift 6.0.3 Release",
+    "url" : "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.0.3-RELEASE",
+    "version" : "swift-6.0.3-RELEASE"
   }
 ]
