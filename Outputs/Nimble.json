@@ -670,5 +670,17 @@
     "title" : "v13.7.0",
     "url" : "https://github.com/Quick/Nimble/releases/tag/v13.7.0",
     "version" : "v13.7.0"
+  },
+  {
+    "body" : "## What's Changed\n* done compatible with Sendable by @soranoba in https://github.com/Quick/Nimble/pull/1159\n* add an explicit test that NSObject with custom equality works by @younata in https://github.com/Quick/Nimble/pull/1181\n* Fix regression where be and beIdenticalTo matchers stopped matching against AnyObject protocols by @younata in https://github.com/Quick/Nimble/pull/1183\n\n\n**Full Changelog**: https://github.com/Quick/Nimble/compare/v13.7.0...v13.7.1",
+    "createdAt" : "2024-12-16T12:52:39+09:00",
+    "fetchedFromAPIAt" : "2024-12-17T10:14:34+09:00",
+    "id" : "RE_kwDOAUUIhc4LYGdH",
+    "owner" : "Quick",
+    "publishedAt" : "2024-12-16T12:52:53+09:00",
+    "repository" : "Nimble",
+    "title" : "v13.7.1",
+    "url" : "https://github.com/Quick/Nimble/releases/tag/v13.7.1",
+    "version" : "v13.7.1"
   }
 ]
