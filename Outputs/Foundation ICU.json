@@ -118,5 +118,17 @@
     "title" : "FoundationICU 0.0.10",
     "url" : "https://github.com/apple/swift-foundation-icu/releases/tag/0.0.10",
     "version" : "0.0.10"
+  },
+  {
+    "body" : "**Full Changelog**: https://github.com/swiftlang/swift-foundation-icu/compare/swift-6.0.2-RELEASE...swift-6.0.3-RELEASE",
+    "createdAt" : "2024-08-08T02:17:44+09:00",
+    "fetchedFromAPIAt" : "2024-12-18T10:11:26+09:00",
+    "id" : "RE_kwDOIzpzt84LZxqj",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-12-18T09:25:34+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "Swift 6.0.3 Release",
+    "url" : "https://github.com/swiftlang/swift-foundation-icu/releases/tag/swift-6.0.3-RELEASE",
+    "version" : "swift-6.0.3-RELEASE"
   }
 ]

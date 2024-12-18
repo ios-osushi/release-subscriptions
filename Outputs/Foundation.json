@@ -1,3 +1,14 @@
 [
-
+  {
+    "body" : "## What's Changed\r\n* [6.0] Fix hard-coded path to `FoundationEssentialsTests` resources by @xedin in https://github.com/swiftlang/swift-foundation/pull/887\r\n* 6.0: Fix WASI support  by @MaxDesiatov in https://github.com/swiftlang/swift-foundation/pull/825\r\n* [6.x] Set SWIFT_SYSTEM_NAME for macro project in CMake by @jmschonfeld in https://github.com/swiftlang/swift-foundation/pull/898\r\n* [6.0] URL.host should not return percent-encoded host by @jrflat in https://github.com/swiftlang/swift-foundation/pull/902\r\n* [6.0] URLComponents: support http(s)+unix schemes by @jrflat in https://github.com/swiftlang/swift-foundation/pull/903\r\n* [6.0.x] Fix windows creation of relative symlinks to directories by @jmschonfeld in https://github.com/swiftlang/swift-foundation/pull/940\r\n* [6.0][Android] Enable more code and tests (#871) by @finagolfin in https://github.com/swiftlang/swift-foundation/pull/923\r\n* [6.0.x] [Windows] Fix incorrect TimeZone.current lookup logic by @jmschonfeld in https://github.com/swiftlang/swift-foundation/pull/978\r\n* [6.0.x] `URL` path bug fixes by @jrflat in https://github.com/swiftlang/swift-foundation/pull/969\r\n* [6.0.x] Fetching user/group info causes race conditions (#994) by @jmschonfeld in https://github.com/swiftlang/swift-foundation/pull/998\r\n* [6.0.x] URL: Appending to an empty file path results in an absolute path (#988) by @jrflat in https://github.com/swiftlang/swift-foundation/pull/1019\r\n* [6.0.x] String+Path performance improvements and bug fixes by @jrflat in https://github.com/swiftlang/swift-foundation/pull/1013\r\n* [6.0.x] URL.deletingLastPathComponent() should append .. in special cases by @jrflat in https://github.com/swiftlang/swift-foundation/pull/1022\r\n* [6.0.x] Restore URL.host bracket stripping for compatibility by @jrflat in https://github.com/swiftlang/swift-foundation/pull/1023\r\n\r\n\r\n**Full Changelog**: https://github.com/swiftlang/swift-foundation/compare/swift-6.0.2-RELEASE...swift-6.0.3-RELEASE",
+    "createdAt" : "2024-11-05T07:45:06+09:00",
+    "fetchedFromAPIAt" : "2024-12-18T10:11:26+09:00",
+    "id" : "RE_kwDOIzpyy84LZxok",
+    "owner" : "swiftlang",
+    "publishedAt" : "2024-12-18T09:24:33+09:00",
+    "repository" : "swift-foundation",
+    "title" : "Swift 6.0.3 Release",
+    "url" : "https://github.com/swiftlang/swift-foundation/releases/tag/swift-6.0.3-RELEASE",
+    "version" : "swift-6.0.3-RELEASE"
+  }
 ]
