@@ -406,5 +406,17 @@
     "title" : "1.5.1",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.5.1",
     "version" : "1.5.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Idiomatic naming strategy as opt-in by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/679\r\n### SemVer Patch\r\n* Use self for member access/assignment in all initializers, decoders, and encoders by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/700\r\n* Bullet Format File Error Message by @LePips in https://github.com/apple/swift-openapi-generator/pull/697\r\n### Other Changes\r\n* Enable MemberImportVisibility check on all targets by @rnro in https://github.com/apple/swift-openapi-generator/pull/694\r\n* Update release.yml by @FranzBusch in https://github.com/apple/swift-openapi-generator/pull/705\r\n\r\n## New Contributors\r\n* @LePips made their first contribution in https://github.com/apple/swift-openapi-generator/pull/697\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.5.1...1.6.0",
+    "createdAt" : "2024-12-19T01:11:58+09:00",
+    "fetchedFromAPIAt" : "2024-12-22T10:13:48+09:00",
+    "id" : "RE_kwDOJZWvis4La45A",
+    "owner" : "apple",
+    "publishedAt" : "2024-12-19T17:04:15+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.6.0",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.6.0",
+    "version" : "1.6.0"
   }
 ]

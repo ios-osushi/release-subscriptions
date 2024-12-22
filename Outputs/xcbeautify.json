@@ -934,5 +934,29 @@
     "title" : "2.16.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.16.0",
     "version" : "2.16.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Update Swift Installation Steps by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/345\r\n* Bump codecov/codecov-action from 4 to 5 by @dependabot in https://github.com/cpisciotta/xcbeautify/pull/337\r\n* Bump to SwiftFormat 0.55.3 by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/346\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.16.0...2.16.1",
+    "createdAt" : "2024-12-22T06:56:22+09:00",
+    "fetchedFromAPIAt" : "2024-12-22T10:13:48+09:00",
+    "id" : "RE_kwDOCNUZc84LcXgn",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-12-22T06:56:33+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.16.1",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.16.1",
+    "version" : "2.16.1"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2024-12-22T07:05:23+09:00",
+    "fetchedFromAPIAt" : "2024-12-22T10:13:48+09:00",
+    "id" : "RE_kwDOCNUZc84LcXkU",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2024-12-22T07:05:35+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.17.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.17.0",
+    "version" : "2.17.0"
   }
 ]

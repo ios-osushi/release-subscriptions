@@ -638,6 +638,18 @@
   {
     "body" : null,
     "createdAt" : null,
+    "fetchedFromAPIAt" : "2024-12-22T10:13:48+09:00",
+    "id" : "REF_kwDOIpT9BtoAMXJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDI0LTEyLTE5LWE",
+    "owner" : "swiftlang",
+    "publishedAt" : null,
+    "repository" : "swift-testing",
+    "title" : "swift-DEVELOPMENT-SNAPSHOT-2024-12-19-a",
+    "url" : "https://github.com/swiftlang/swift-testing/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2024-12-19-a",
+    "version" : "swift-DEVELOPMENT-SNAPSHOT-2024-12-19-a"
+  },
+  {
+    "body" : null,
+    "createdAt" : null,
     "fetchedFromAPIAt" : "2024-12-12T10:14:11+09:00",
     "id" : "REF_kwDOIpT9BtoAMXJlZnMvdGFncy9zd2lmdC1ERVZFTE9QTUVOVC1TTkFQU0hPVC0yMDI0LTEyLTEwLWE",
     "owner" : "swiftlang",
