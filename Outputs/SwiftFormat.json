@@ -1210,5 +1210,17 @@
     "title" : "0.55.3",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.3",
     "version" : "0.55.3"
+  },
+  {
+    "body" : "- Fixed inconsistent indenting of wrapped `where` clause for `switch ... case` statements\r\n- Fixed bug where `unusedArguments` could remove required arguments in some cases\r\n- The `sortTypealiases` rule now correctly handles `any` keyword",
+    "createdAt" : "2024-12-23T01:08:03+09:00",
+    "fetchedFromAPIAt" : "2024-12-25T10:07:21+09:00",
+    "id" : "RE_kwDOA_OyXc4LcgPb",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2024-12-23T01:37:28+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.55.4",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.4",
+    "version" : "0.55.4"
   }
 ]
