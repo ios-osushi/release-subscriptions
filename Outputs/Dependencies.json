@@ -490,5 +490,17 @@
     "title" : "1.6.2",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.6.2",
     "version" : "1.6.2"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Support throwing dependency traits by (https://github.com/pointfreeco/swift-dependencies/pull/320).\r\n* Fixed: Avoid caching app entry point dependencies in previews (https://github.com/pointfreeco/swift-dependencies/pull/321).\r\n* Infrastructure: Improve app entry point documentation (thanks @acosmicflamingo, https://github.com/pointfreeco/swift-dependencies/pull/316).\r\n\r\n## New Contributors\r\n* @acosmicflamingo made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/316\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.6.2...1.6.3",
+    "createdAt" : "2024-12-27T05:36:53+09:00",
+    "fetchedFromAPIAt" : "2024-12-28T10:06:36+09:00",
+    "id" : "RE_kwDOIF_Mq84LeDWk",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2024-12-27T10:21:43+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.6.3",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.6.3",
+    "version" : "1.6.3"
   }
 ]

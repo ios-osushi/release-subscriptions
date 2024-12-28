@@ -1102,5 +1102,17 @@
     "title" : "v10.54.2",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.2",
     "version" : "v10.54.2"
+  },
+  {
+    "body" : "### Enhancements\n\n* Update build scripts for Xcode 16.2.\n\n### Fixed\n\n* A query with a number of predicates ORed together may result in a\n  crash on some platforms (strict weak ordering check failing on iphone)\n  ([#8028](https://github.com/realm/realm-core/issues/8028), since v10.50.0).\n\n### Compatibility\n\n* Realm Studio: 15.0.0 or later.\n* Carthage release for Swift is built with Xcode 16.2.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.3.0-16.2.\n\n### Internal\n\n* Upgraded realm-core from v20.0.0 to 20.1.0",
+    "createdAt" : "2024-12-28T05:40:37+09:00",
+    "fetchedFromAPIAt" : "2024-12-28T10:06:36+09:00",
+    "id" : "RE_kwDOAD24W84LeYX2",
+    "owner" : "realm",
+    "publishedAt" : "2024-12-28T05:42:00+09:00",
+    "repository" : "realm-swift",
+    "title" : "v20.0.1",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v20.0.1",
+    "version" : "v20.0.1"
   }
 ]
