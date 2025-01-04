@@ -634,5 +634,17 @@
     "title" : "4.4.3",
     "url" : "https://github.com/airbnb/lottie-ios/releases/tag/4.4.3",
     "version" : "4.4.3"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add additional dynamic library product to Package.swift by @JensK611 in https://github.com/airbnb/lottie-ios/pull/2507\r\n* Fix frame conversion in `LottieAnimationLayer.pause(at: .marker(...))` by @calda in https://github.com/airbnb/lottie-ios/pull/2469\r\n* Add possibility to remove ValueProvider by @batanus in https://github.com/airbnb/lottie-ios/pull/2474\r\n* Xcode 16: fix warnings for types that inherit `@unchecked Sendable` by @jszumski in https://github.com/airbnb/lottie-ios/pull/2477\r\n* Trim shape default type value by @alexallah in https://github.com/airbnb/lottie-ios/pull/2478\r\n* do not crash if value is false by @DarkSatyr in https://github.com/airbnb/lottie-ios/pull/2482\r\n\r\n**Full Changelog**: https://github.com/airbnb/lottie-ios/compare/4.5.0...4.5.1",
+    "createdAt" : "2025-01-04T05:37:27+09:00",
+    "fetchedFromAPIAt" : "2025-01-04T10:08:28+09:00",
+    "id" : "RE_kwDOBC8liM4LgsjK",
+    "owner" : "airbnb",
+    "publishedAt" : "2025-01-04T05:38:35+09:00",
+    "repository" : "lottie-ios",
+    "title" : "4.5.1",
+    "url" : "https://github.com/airbnb/lottie-ios/releases/tag/4.5.1",
+    "version" : "4.5.1"
   }
 ]
