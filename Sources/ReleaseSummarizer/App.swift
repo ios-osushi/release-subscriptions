@@ -6,6 +6,11 @@ import Logging
 
 @main
 struct App: AsyncParsableCommand {
+    static let dateFormatter: DateFormatter = {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy/MM/dd"
+        return dateFormatter
+    }()
 
     static var configuration: CommandConfiguration {
         .init(
@@ -22,14 +27,14 @@ struct App: AsyncParsableCommand {
     @Option(
         name: .long,
         help: "Generate article target date range from. yyyy/MM/dd date format string",
-        transform: ISO8601DateFormatter().date(from:)
+        transform: dateFormatter.date(from:)
     )
     var from: Date?
 
     @Option(
         name: .long,
         help: "Generate article target date range to. yyyy/MM/dd date format string. default: today",
-        transform: ISO8601DateFormatter().date(from:)
+        transform: dateFormatter.date(from:)
     )
     var to: Date?
 
