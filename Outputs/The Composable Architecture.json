@@ -1318,5 +1318,17 @@
     "title" : "1.17.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.17.0",
     "version" : "1.17.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Record state access when constructing store collections (https://github.com/pointfreeco/swift-composable-architecture/pull/3521).\r\n* Fixed: Don't report unasserted shared changes in `Reducer._printChanges()` (https://github.com/pointfreeco/swift-composable-architecture/pull/3528).\r\n* Fixed: Relax [Sharing](https://github.com/pointfreeco/swift-sharing) requirement to include major 2.0 version (https://github.com/pointfreeco/swift-composable-architecture/pull/3546).\r\n* Infrastructure: Documentation fixes (thanks @takehilo, https://github.com/pointfreeco/swift-composable-architecture/pull/3540).\r\n* Infrastructure: Unit test fixes for Xcode 16 and older iOS destinations (thanks @pyrtsa, https://github.com/pointfreeco/swift-composable-architecture/pull/3537).\r\n\r\nSee [the migration guide](https://github.com/pointfreeco/swift-composable-architecture/blob/main/Sources/ComposableArchitecture/Documentation.docc/Articles/MigrationGuides/MigratingTo1.17.1.md) for more details.\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.17.0...1.17.1",
+    "createdAt" : "2025-01-08T02:25:12+09:00",
+    "fetchedFromAPIAt" : "2025-01-10T10:10:18+09:00",
+    "id" : "RE_kwDOD48kk84LiYdO",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-01-08T04:16:12+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.17.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.17.1",
+    "version" : "1.17.1"
   }
 ]
