@@ -406,5 +406,17 @@
     "title" : "1.7.0",
     "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.7.0",
     "version" : "1.7.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Conform RuntimeError to HTTPResponseConvertible by @gayathrisairam in https://github.com/apple/swift-openapi-runtime/pull/135\r\n### Other Changes\r\n* Add GitHub action to check for Semantic Version label by @FranzBusch in https://github.com/apple/swift-openapi-runtime/pull/132\r\n* Enable MemberImportVisibility check on all targets by @rnro in https://github.com/apple/swift-openapi-runtime/pull/133\r\n* Update release.yml by @FranzBusch in https://github.com/apple/swift-openapi-runtime/pull/136\r\n* [CI] Enable Linux nightly main on PRs by @czechboy0 in https://github.com/apple/swift-openapi-runtime/pull/137\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.7.0...1.8.0",
+    "createdAt" : "2025-01-02T21:12:25+09:00",
+    "fetchedFromAPIAt" : "2025-01-14T10:05:12+09:00",
+    "id" : "RE_kwDOJZWxLs4Lld7C",
+    "owner" : "apple",
+    "publishedAt" : "2025-01-13T17:31:02+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.8.0",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.8.0",
+    "version" : "1.8.0"
   }
 ]

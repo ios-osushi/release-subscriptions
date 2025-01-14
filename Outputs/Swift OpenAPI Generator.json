@@ -418,5 +418,17 @@
     "title" : "1.6.0",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.6.0",
     "version" : "1.6.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add a CLI option for selecting the naming strategy by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/708\r\n### SemVer Patch\r\n* Add missing imports to fix Swift 6.1+ by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/709\r\n* [Cleanup] Make Config's namingStrategy and accessModifier params consistent by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/713\r\n### Other Changes\r\n* [SOAR-0013] Idiomatic naming strategy by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/683\r\n* Update Examples and IntegrationTest to use idiomatic naming by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/706\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.6.0...1.7.0",
+    "createdAt" : "2025-01-06T23:47:10+09:00",
+    "fetchedFromAPIAt" : "2025-01-14T10:05:12+09:00",
+    "id" : "RE_kwDOJZWvis4LldFd",
+    "owner" : "apple",
+    "publishedAt" : "2025-01-13T17:21:12+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.7.0",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.7.0",
+    "version" : "1.7.0"
   }
 ]
