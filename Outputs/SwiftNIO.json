@@ -922,5 +922,17 @@
     "title" : "SwiftNIO 2.78.0",
     "url" : "https://github.com/apple/swift-nio/releases/tag/2.78.0",
     "version" : "2.78.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add Sendability annotations on SocketOptionProvider by @Lukasa in https://github.com/apple/swift-nio/pull/3034\r\n* Add channel initializer closure to NIOAsyncTestingChannel.init by @hamzahrmalik in https://github.com/apple/swift-nio/pull/3053\r\n* Fix compiling on 6.1 by @Lukasa in https://github.com/apple/swift-nio/pull/3057\r\n* Add some trivial Sendable annotations in NIOPosix by @Lukasa in https://github.com/apple/swift-nio/pull/3060\r\n### SemVer Patch\r\n* unchecked Sendable annotations for the Channels by @Lukasa in https://github.com/apple/swift-nio/pull/3050\r\n* Avoid abstraction overheads on isolated ELF by @Lukasa in https://github.com/apple/swift-nio/pull/3055\r\n* NIOAsyncWriter: Fix suspending yield when writer is finished by @orobio in https://github.com/apple/swift-nio/pull/3044\r\n* Clean up sendability in the bootstraps by @Lukasa in https://github.com/apple/swift-nio/pull/3051\r\n### Other Changes\r\n* Test allocations of isolated ELF views by @Lukasa in https://github.com/apple/swift-nio/pull/3054\r\n* Clarify docs on EventLoopFuture/assumeIsolatedUnsafeUnchecked by @hamzahrmalik in https://github.com/apple/swift-nio/pull/3058\r\n* Remove unnecessary 'FIXME' comment by @orobio in https://github.com/apple/swift-nio/pull/3059\r\n\r\n## New Contributors\r\n* @orobio made their first contribution in https://github.com/apple/swift-nio/pull/3044\r\n\r\n**Full Changelog**: https://github.com/apple/swift-nio/compare/2.78.0...2.79.0",
+    "createdAt" : "2025-01-15T18:41:12+09:00",
+    "fetchedFromAPIAt" : "2025-01-18T10:04:28+09:00",
+    "id" : "RE_kwDOBy6rG84LnaFp",
+    "owner" : "apple",
+    "publishedAt" : "2025-01-15T22:38:52+09:00",
+    "repository" : "swift-nio",
+    "title" : "SwiftNIO 2.79.0",
+    "url" : "https://github.com/apple/swift-nio/releases/tag/2.79.0",
+    "version" : "2.79.0"
   }
 ]
