@@ -958,5 +958,77 @@
     "title" : "2.17.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.17.0",
     "version" : "2.17.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Bump CI to macOS 15 by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/351\r\n* Add PrecompileModule Capture Group by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/350\r\n* Add ScanDependencies Capture Group by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/352\r\n* Capture Additional Ld Capture Group Output by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/353\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.17.0...2.18.0",
+    "createdAt" : "2025-01-21T03:26:36+09:00",
+    "fetchedFromAPIAt" : "2025-01-23T10:06:39+09:00",
+    "id" : "RE_kwDOCNUZc84Lqi0C",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-01-21T03:26:46+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.18.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.18.0",
+    "version" : "2.18.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add SwiftEmitModule and EmitSwiftModule Capture Groups by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/354\r\n* Add Signing Capture Group by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/355\r\n* Add RegisterExecutionPolicyExceptionCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/356\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.18.0...2.19.0",
+    "createdAt" : "2025-01-21T07:53:50+09:00",
+    "fetchedFromAPIAt" : "2025-01-23T10:06:39+09:00",
+    "id" : "RE_kwDOCNUZc84Lqpwy",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-01-21T07:54:00+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.19.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.19.0",
+    "version" : "2.19.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Ignore Whitespace-Only Lines by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/357\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.19.0...2.20.0",
+    "createdAt" : "2025-01-22T02:53:04+09:00",
+    "fetchedFromAPIAt" : "2025-01-23T10:06:39+09:00",
+    "id" : "RE_kwDOCNUZc84LrUka",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-01-22T02:53:19+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.20.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.20.0",
+    "version" : "2.20.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add SwiftMergeGeneratedHeadersCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/359\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.20.0...2.21.0",
+    "createdAt" : "2025-01-22T05:16:23+09:00",
+    "fetchedFromAPIAt" : "2025-01-23T10:06:39+09:00",
+    "id" : "RE_kwDOCNUZc84Lraea",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-01-22T05:16:35+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.21.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.21.0",
+    "version" : "2.21.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add Architecture Enum by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/360\r\n* Add CreateUniversalBinaryCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/362\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.21.0...2.22.0",
+    "createdAt" : "2025-01-22T11:36:21+09:00",
+    "fetchedFromAPIAt" : "2025-01-23T10:06:39+09:00",
+    "id" : "RE_kwDOCNUZc84Lrkky",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-01-22T11:36:33+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.22.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.22.0",
+    "version" : "2.22.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Add CompileXCStringsCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/363\r\n* Add DetectedEncodingCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/364\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.22.0...2.23.0",
+    "createdAt" : "2025-01-23T02:58:16+09:00",
+    "fetchedFromAPIAt" : "2025-01-23T10:06:39+09:00",
+    "id" : "RE_kwDOCNUZc84LsQJR",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-01-23T02:58:30+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.23.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.23.0",
+    "version" : "2.23.0"
   }
 ]

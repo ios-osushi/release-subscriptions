@@ -1078,5 +1078,17 @@
     "title" : "1.16.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.16.0",
     "version" : "1.16.0"
+  },
+  {
+    "body" : "### Fixed\r\n- **Web socket data race crash fixed ([#578](https://github.com/apollographql/apollo-ios-dev/pull/578)):** A data race in the web socket layer was causing crashes in some rare circumstances.\r\n\r\n- **Added support for GraphQL over HTTP media type([#558](https://github.com/apollographql/apollo-ios-dev/pull/558)):** Apollo iOS now supports the `content-type` header with a type of `application/graphql-response+json`.",
+    "createdAt" : "2025-01-22T05:57:52+09:00",
+    "fetchedFromAPIAt" : "2025-01-23T10:06:39+09:00",
+    "id" : "RE_kwDOA9NCTc4LrcSX",
+    "owner" : "apollographql",
+    "publishedAt" : "2025-01-22T06:10:55+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.16.1",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.16.1",
+    "version" : "1.16.1"
   }
 ]
