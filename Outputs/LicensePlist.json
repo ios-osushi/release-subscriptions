@@ -562,5 +562,17 @@
     "title" : "3.25.1: Allow spaces in the path for acknowledgements",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.25.1",
     "version" : "3.25.1"
+  },
+  {
+    "body" : "## What's Changed\r\n* Swift 6 by @gibachan in https://github.com/mono0926/LicensePlist/pull/233\r\n* Use `githubLicenses` for the latest_result.txt output by @skw398 in https://github.com/mono0926/LicensePlist/pull/228\r\n* add: cd $SRCROOT by @Ryunosuke1114 in https://github.com/mono0926/LicensePlist/pull/230\r\n\r\n## New Contributors\r\n* @skw398 made their first contribution in https://github.com/mono0926/LicensePlist/pull/228\r\n* @Ryunosuke1114 made their first contribution in https://github.com/mono0926/LicensePlist/pull/230\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.25.1...3.26.0",
+    "createdAt" : "2025-01-24T14:43:24+09:00",
+    "fetchedFromAPIAt" : "2025-01-26T10:08:44+09:00",
+    "id" : "RE_kwDOBVhcvM4Lt3bw",
+    "owner" : "mono0926",
+    "publishedAt" : "2025-01-24T14:43:29+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.26.0: Swift 6, etc.",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.26.0",
+    "version" : "3.26.0"
   }
 ]
