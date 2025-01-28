@@ -502,5 +502,17 @@
     "title" : "1.6.3",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.6.3",
     "version" : "1.6.3"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Deprecated: Preview traits have been deprecated in favor of `prepareDependencies` due to a quirk of Xcode previews that allows dependencies to bleed across previews when multiple are contained in the same file (https://github.com/pointfreeco/swift-dependencies/pull/323).\r\n* Fixed: Bump swift-syntax from prerelease (thanks @Andrewangeta, https://github.com/pointfreeco/swift-dependencies/pull/326).\r\n* Fixed: Allow `prepareDependencies` to override the full dependency context (https://github.com/pointfreeco/swift-dependencies/pull/327). This can be useful for running an Xcode preview using live dependencies:\r\n    ```swift\r\n    #Preview {\r\n      let _ = prepareDependencies { $0.context = .live }\r\n      ContentView()\r\n    }\r\n    ```\r\n* Infrastructure: Fix unit tests on Xcode 16 (thanks @pyrtsa, https://github.com/pointfreeco/swift-dependencies/pull/330).\r\n\r\n## New Contributors\r\n* @Andrewangeta made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/326\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.6.3...1.6.4",
+    "createdAt" : "2025-01-15T01:34:14+09:00",
+    "fetchedFromAPIAt" : "2025-01-28T10:06:34+09:00",
+    "id" : "RE_kwDOIF_Mq84Lvj85",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-01-28T05:22:30+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.6.4",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.6.4",
+    "version" : "1.6.4"
   }
 ]
