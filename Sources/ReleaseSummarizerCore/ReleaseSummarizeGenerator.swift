@@ -110,7 +110,7 @@ iOS アプリ開発でよく使われている OSS のリリース情報です�
             let content = """
 #### \(release.version) - \(release.owner)/\(release.repository)
 
-[\(release.url)](\(release.url)
+[\(release.url)](\(release.url))
 
 \(generatedContent)
 
