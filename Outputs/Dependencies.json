@@ -514,5 +514,17 @@
     "title" : "1.6.4",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.6.4",
     "version" : "1.6.4"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: `prepareDependencies` now propagates its return value (https://github.com/pointfreeco/swift-dependencies/pull/332).\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.6.4...1.7.0",
+    "createdAt" : "2025-01-29T04:56:02+09:00",
+    "fetchedFromAPIAt" : "2025-01-31T10:06:49+09:00",
+    "id" : "RE_kwDOIF_Mq84LxRx4",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-01-30T07:28:09+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.7.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.7.0",
+    "version" : "1.7.0"
   }
 ]
