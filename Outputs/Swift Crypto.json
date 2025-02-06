@@ -576,6 +576,18 @@
     "version" : "3.8.1"
   },
   {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Update BoringSSL to aefa5d24da34ef77ac797bdbe684734e5bd870f4 by @Lukasa in https://github.com/apple/swift-crypto/pull/303 and https://github.com/apple/swift-crypto/pull/312\r\n* FreeBSD support by @michael-yuji in https://github.com/apple/swift-crypto/pull/315\r\n* Enable MemberImportVisibility check on all targets by @rnro in https://github.com/apple/swift-crypto/pull/310\r\n### Other Changes\r\n* Aligning semantic version label check name by @FranzBusch in https://github.com/apple/swift-crypto/pull/309\r\n* Enable swift-format in CI by @simonjbeaumont in https://github.com/apple/swift-crypto/pull/302\r\n* Add Intial DocC docs by @0xTim in https://github.com/apple/swift-crypto/pull/283\r\n* Fix DocC generation by @0xTim in https://github.com/apple/swift-crypto/pull/311\r\n* Improve DocC landing pages by @fpseverino in https://github.com/apple/swift-crypto/pull/313\r\n* Update release.yml by @FranzBusch in https://github.com/apple/swift-crypto/pull/316\r\n* CI use 6.1 nightlies by @rnro in https://github.com/apple/swift-crypto/pull/321\r\n\r\n## New Contributors\r\n* @michael-yuji made their first contribution in https://github.com/apple/swift-crypto/pull/315\r\n* @fpseverino made their first contribution in https://github.com/apple/swift-crypto/pull/313\r\n\r\n**Full Changelog**: https://github.com/apple/swift-crypto/compare/3.10.0...3.10.1",
+    "createdAt" : "2025-01-30T18:45:03+09:00",
+    "fetchedFromAPIAt" : "2025-02-06T10:07:46+09:00",
+    "id" : "RE_kwDOC9Swts4L1juN",
+    "owner" : "apple",
+    "publishedAt" : "2025-02-06T00:58:39+09:00",
+    "repository" : "swift-crypto",
+    "title" : "Swift Crypto 3.10.1",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.10.1",
+    "version" : "3.10.1"
+  },
+  {
     "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* extras: Add EC toolbox abstractions and OPRF(P-384, SHA-384) VOPRF API by @simonjbeaumont in https://github.com/apple/swift-crypto/pull/292\r\n### SemVer Patch\r\n* Fix potentially inconsistent coordinate slicing by @dimitribouniol in https://github.com/apple/swift-crypto/pull/299\r\n### Other Changes\r\n* add .editorconfig file by @rnro in https://github.com/apple/swift-crypto/pull/296\r\n* add .spi.yml by @rnro in https://github.com/apple/swift-crypto/pull/297\r\n\r\n## New Contributors\r\n* @dimitribouniol made their first contribution in https://github.com/apple/swift-crypto/pull/299\r\n\r\n**Full Changelog**: https://github.com/apple/swift-crypto/compare/3.9.1...3.10.0",
     "createdAt" : "2024-11-22T18:30:35+09:00",
     "fetchedFromAPIAt" : "2024-11-27T10:13:41+09:00",
