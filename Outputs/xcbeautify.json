@@ -912,6 +912,30 @@
     "version" : "2.14.1"
   },
   {
+    "body" : "## What's Changed\r\n* Remove Unexpected Leading Whitespace from JUnit Test Input by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/366\r\n* [New Output] Support Note Output by @ikelax in https://github.com/cpisciotta/xcbeautify/pull/311\r\n* Delete LinkerDuplicateSymbolsLocationCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/368\r\n* Move Logs to TestData Directory by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/369\r\n* Prevent Duplicate CaptureGroup Registrations by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/370\r\n* Delete Duplicate TestSuiteStartCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/371\r\n* Prevent Unwanted CompileErrorCaptureGroup Matches by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/372\r\n* Fix Swift Testing Capture Groups by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/373\r\n* Delete TestCasePendingCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/376\r\n* Fix SwiftTestingTestStartedCaptureGroup Matching by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/375\r\n* Fix Swift Testing Issue Conflicts by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/377\r\n* Update ShellCommandCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/379\r\n* Test for Unique Capture Group Parsing by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/365\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.23.0...2.24.0",
+    "createdAt" : "2025-02-11T12:25:48+09:00",
+    "fetchedFromAPIAt" : "2025-02-13T10:08:26+09:00",
+    "id" : "RE_kwDOCNUZc84L5FaY",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-02-11T12:26:01+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.24.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.24.0",
+    "version" : "2.24.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* impr: use enum definitions to explain options in usage by @armcknight in https://github.com/cpisciotta/xcbeautify/pull/374\r\n\r\n## New Contributors\r\n* @armcknight made their first contribution in https://github.com/cpisciotta/xcbeautify/pull/374\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.24.0...2.25.0",
+    "createdAt" : "2025-02-13T09:49:18+09:00",
+    "fetchedFromAPIAt" : "2025-02-13T10:08:26+09:00",
+    "id" : "RE_kwDOCNUZc84L66ie",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-02-13T09:49:29+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.25.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.25.0",
+    "version" : "2.25.0"
+  },
+  {
     "body" : "",
     "createdAt" : "2024-11-11T09:46:00+09:00",
     "fetchedFromAPIAt" : "2024-11-11T10:08:29+09:00",

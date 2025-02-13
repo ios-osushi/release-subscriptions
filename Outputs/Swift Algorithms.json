@@ -130,5 +130,17 @@
     "title" : "Swift Algorithms 1.2.0",
     "url" : "https://github.com/apple/swift-algorithms/releases/tag/1.2.0",
     "version" : "1.2.0"
+  },
+  {
+    "body" : "### Changes\r\n\r\n- The package now has a minimum Swift version of Swift 5.7. (#240)\r\n- Adds a project for building with Xcode. (#246)\r\n\r\n### Fixes\r\n\r\n- Fix for Swift 6 language mode errors. (#230)\r\n- Minor improvements to documentation and performance. (#220, #222, #223, #225, #227, #228)\r\n\r\nThe 1.2.1 release includes contributions from @b1ackturtle, @CheATSlark, @dabrahams, @glessard, @j-f1, @marcosgriselli, @mrs1669, @natecook1000, @rex4539, and @schlagelk. Thank you!\r\n",
+    "createdAt" : "2025-02-11T05:43:52+09:00",
+    "fetchedFromAPIAt" : "2025-02-13T10:08:26+09:00",
+    "id" : "RE_kwDOEeO1ns4L4_e4",
+    "owner" : "apple",
+    "publishedAt" : "2025-02-11T07:36:31+09:00",
+    "repository" : "swift-algorithms",
+    "title" : "Swift Algorithms 1.2.1",
+    "url" : "https://github.com/apple/swift-algorithms/releases/tag/1.2.1",
+    "version" : "1.2.1"
   }
 ]
