@@ -406,5 +406,17 @@
     "title" : "BringThemHome 🎗️",
     "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.8.0",
     "version" : "6.8.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\nMembers of the community made bug fixes, updates, and contributions:\r\n\r\n* Fix missing PrivacyInfo.xcprivacy in Carthage/xcframework by @pallzoltan in https://github.com/ReactiveX/RxSwift/pull/2652\r\n* Fix possibly stack overflow in merge operators by @geoffmacd in https://github.com/ReactiveX/RxSwift/pull/2616\r\n* Allow VirtualTimeScheduler to run on any thread (swift-testing enabler) by @danielt1263 in https://github.com/ReactiveX/RxSwift/pull/2610\r\n* Fix missing CoreFoundation import for NSLock in Linux builds by @clackary in https://github.com/ReactiveX/RxSwift/pull/2643\r\n* Hardcode light appearance in example app by @VAndrJ in https://github.com/ReactiveX/RxSwift/pull/2612\r\n* Fix a typo in SwiftConcurrency docs by @chagmn in https://github.com/ReactiveX/RxSwift/pull/2644\r\n",
+    "createdAt" : "2025-02-17T23:13:17+09:00",
+    "fetchedFromAPIAt" : "2025-02-18T10:07:47+09:00",
+    "id" : "RE_kwDOAgA5b84L9vTa",
+    "owner" : "ReactiveX",
+    "publishedAt" : "2025-02-18T00:23:25+09:00",
+    "repository" : "RxSwift",
+    "title" : "500 💔",
+    "url" : "https://github.com/ReactiveX/RxSwift/releases/tag/6.9.0",
+    "version" : "6.9.0"
   }
 ]

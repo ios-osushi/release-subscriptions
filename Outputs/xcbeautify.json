@@ -936,6 +936,18 @@
     "version" : "2.25.0"
   },
   {
+    "body" : "## What's Changed\r\n* Fix Swift Testing Regular Expression Bugs by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/383\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.25.0...2.25.1",
+    "createdAt" : "2025-02-18T03:31:42+09:00",
+    "fetchedFromAPIAt" : "2025-02-18T10:07:47+09:00",
+    "id" : "RE_kwDOCNUZc84L930_",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-02-18T03:31:53+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.25.1",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.25.1",
+    "version" : "2.25.1"
+  },
+  {
     "body" : "",
     "createdAt" : "2024-11-11T09:46:00+09:00",
     "fetchedFromAPIAt" : "2024-11-11T10:08:29+09:00",

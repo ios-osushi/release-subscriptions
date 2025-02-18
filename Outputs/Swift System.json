@@ -142,5 +142,17 @@
     "title" : "System 1.4.0",
     "url" : "https://github.com/apple/swift-system/releases/tag/1.4.0",
     "version" : "1.4.0"
+  },
+  {
+    "body" : "This is a bug-fix release for Windows targets.\r\n\r\n## What's Changed\r\n\r\n* Use `GetTempPathW` instead of `GetTempPath2W`, as it is more widely available.\r\n\r\n## New Contributors\r\n\r\n* [@xtyxtyx](https://github.com/xtyxtyx) made their first contribution in https://github.com/apple/swift-system/pull/211\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.4.0...1.4.1",
+    "createdAt" : "2025-02-18T07:04:33+09:00",
+    "fetchedFromAPIAt" : "2025-02-18T10:07:46+09:00",
+    "id" : "RE_kwDOEcmZD84L9_If",
+    "owner" : "apple",
+    "publishedAt" : "2025-02-18T07:14:55+09:00",
+    "repository" : "swift-system",
+    "title" : "System 1.4.1",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.4.1",
+    "version" : "1.4.1"
   }
 ]
