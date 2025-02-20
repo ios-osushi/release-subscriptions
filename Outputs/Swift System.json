@@ -144,6 +144,18 @@
     "version" : "1.4.0"
   },
   {
+    "body" : "This release adds preliminary support for FreeBSD and OpenBSD targets.\r\n\r\n## What's Changed\r\n* Remove non-breaking spaces from Windows syscall adapter by @ADKaster in https://github.com/apple/swift-system/pull/210\r\n* Guard errnos not available on FreeBSD by @michael-yuji in https://github.com/apple/swift-system/pull/212\r\n* CSystem: Set build and install interfaces on included headers by @ADKaster in https://github.com/apple/swift-system/pull/209\r\n* Add FreeBSD errno and open options by @michael-yuji in https://github.com/apple/swift-system/pull/214\r\n* [cmake] Install libraries in standard directories by @Steelskin in https://github.com/apple/swift-system/pull/213\r\n* OpenBSD support. by @3405691582 in https://github.com/apple/swift-system/pull/215\r\n\r\n## New Contributors\r\n* @ADKaster made their first contribution in https://github.com/apple/swift-system/pull/210\r\n* @michael-yuji made their first contribution in https://github.com/apple/swift-system/pull/212\r\n* @Steelskin made their first contribution in https://github.com/apple/swift-system/pull/213\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.4.1...1.4.2",
+    "createdAt" : "2025-02-19T08:35:23+09:00",
+    "fetchedFromAPIAt" : "2025-02-20T10:08:36+09:00",
+    "id" : "RE_kwDOEcmZD84L-6tU",
+    "owner" : "apple",
+    "publishedAt" : "2025-02-19T08:42:34+09:00",
+    "repository" : "swift-system",
+    "title" : "System 1.4.2",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.4.2",
+    "version" : "1.4.2"
+  },
+  {
     "body" : "This is a bug-fix release for Windows targets.\r\n\r\n## What's Changed\r\n\r\n* Use `GetTempPathW` instead of `GetTempPath2W`, as it is more widely available.\r\n\r\n## New Contributors\r\n\r\n* [@xtyxtyx](https://github.com/xtyxtyx) made their first contribution in https://github.com/apple/swift-system/pull/211\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.4.0...1.4.1",
     "createdAt" : "2025-02-18T07:04:33+09:00",
     "fetchedFromAPIAt" : "2025-02-18T10:07:46+09:00",
