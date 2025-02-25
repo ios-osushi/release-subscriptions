@@ -1066,5 +1066,17 @@
     "title" : "2.23.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.23.0",
     "version" : "2.23.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Bump Minimum SwiftFormat to 0.55.4 by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/347\r\n* Add CreateBuildDirectoryCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/384\r\n* Add CompileAssetCatalogCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/385\r\n* Add GenerateAssetSymbolsCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/386\r\n* Add SymLinkCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/387\r\n* Add ValidateCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/389\r\n* Add ExtractAppIntentsMetadataCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/388\r\n* Add ValidateEmbeddedBinaryCaptureGroup by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/390\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.25.1...2.26.0",
+    "createdAt" : "2025-02-23T06:02:53+09:00",
+    "fetchedFromAPIAt" : "2025-02-25T10:09:53+09:00",
+    "id" : "RE_kwDOCNUZc84MCC-1",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-02-23T06:03:06+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.26.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.26.0",
+    "version" : "2.26.0"
   }
 ]

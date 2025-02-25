@@ -886,5 +886,29 @@
     "title" : "5.19.7 - 5.19 Patch",
     "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.7",
     "version" : "5.19.7"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.20.1 release](https://github.com/SDWebImage/SDWebImage/milestone/141)\r\n\r\n### Fixes\r\n- (macOS) Fix SDAnimatedImagePlayer leaking SDDisplayLink instances and leaving CVDisplayLink threads running #3776 #3779\r\n- Fix the issue that previous optimization for special case (multiple same URL in prefetcher list) breaks the queryCacheType option sematic #3788\r\n\r\n",
+    "createdAt" : "2025-02-20T22:55:37+09:00",
+    "fetchedFromAPIAt" : "2025-02-25T10:09:53+09:00",
+    "id" : "RE_kwDOAATIS84MAaU0",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2025-02-20T22:57:35+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.20.1 - 5.20 Patch",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.20.1",
+    "version" : "5.20.1"
+  },
+  {
+    "body" : "See [all tickets marked for the 5.21.0 release](https://github.com/SDWebImage/SDWebImage/milestone/142)\r\n\r\n### Features\r\n#### HDR Decoding\r\n- Supports HDR decoding on Apple ImageIO coder (avif/heic/jpeg-xl, etc) #3778\r\n- - Note: Defaults to always use SDR, if you want HDR decoding, pass `SDWebImageContextDecodeToHDR: @(YES)` to context option. Pay attention even decoded CGImage is HDR ready, full rendering require display hardware support and per-image-view level control, it's recommended to read [WWDC23](https://developer.apple.com/videos/play/wwdc2023/10181/) and use proper API to check for current display headroom to turn on HDR.\r\n- - Note: Apple ImageIO coder requires macOS 14/iOS 17+ for HDR decoding. For lower firmware you can consider AVIF/HEIF/JPEG-XL [third-party codec](https://github.com/SDWebImage/SDWebImage/wiki/Coder-Plugin-List)\r\n\r\n#### HDR Encoding\r\n- Supports HDR encoding on Apple ImageIO coder #3799\r\n- - Note: Defaults to always use SDR, if you want HDR dencoding, pass `SDImageCoderEncodeToHDR: @(SDImageHDRTypeISOHDR)` for ISO HDR encoding. And `SDImageHDRTypeISOGainMap` for ISO Gain Map based HDR encoding (like JPEG for compatibility)\r\n- - Note: Apple ImageIO coder requires macOS 15/iOS 18+ for HDR encoding. For lower firmware you can consider AVIF/HEIF/JPEG-XL [third-party codec](https://github.com/SDWebImage/SDWebImage/wiki/Coder-Plugin-List)\r\n\r\n### Transformer\r\n- Allows user to directly customize preserveImageMetadata for our built-in transformers #3796\r\n\r\n### UI Category\r\n- Change the default callback queue policy to SafeAsyncMainThread, don't need main queue check at all #3797\r\n- - Note: This should make `sd_setImageWithURL` related UI API to work on case like `UICollectionViewDiffableDataSource` , which is running on main thread but not main queue.\r\n\r\n### Fixes\r\n- fix: sd_colorAtPoint/sd_colorsWithRect should early return when pixel format is not supported #3798\r\n- - Note: In history this may return a wrong color for RGB10/RGB16 pixel format. Now it just return nil, which may supported in the future.\r\n",
+    "createdAt" : "2025-02-24T18:15:48+09:00",
+    "fetchedFromAPIAt" : "2025-02-25T10:09:53+09:00",
+    "id" : "RE_kwDOAATIS84MCdQh",
+    "owner" : "SDWebImage",
+    "publishedAt" : "2025-02-24T18:16:46+09:00",
+    "repository" : "SDWebImage",
+    "title" : "5.21.0 - HDR Support",
+    "url" : "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.0",
+    "version" : "5.21.0"
   }
 ]

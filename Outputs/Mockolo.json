@@ -430,5 +430,17 @@
     "title" : "2.2.0",
     "url" : "https://github.com/uber/mockolo/releases/tag/2.2.0",
     "version" : "2.2.0"
+  },
+  {
+    "body" : "## New features\r\n* Avoid duplicated variable under if-macro syntax by @fummicc1 in https://github.com/uber/mockolo/pull/279\r\n* Concurrency safe handler by @sidepelican in https://github.com/uber/mockolo/pull/276\r\n  - (computed variable handlers are not concurrency safe yet.)\r\n* Add labels to history tuple array by @sidepelican in https://github.com/uber/mockolo/pull/284\r\n\r\n## Maintenances\r\n* Update README.md by @daeho-ro in https://github.com/uber/mockolo/pull/278\r\n* Make fixture verification a bit strict by @sidepelican in https://github.com/uber/mockolo/pull/280\r\n* Fix undetectable mock annotations with attributes above. by @sidepelican in https://github.com/uber/mockolo/pull/281\r\n* Compile fixture code with macro by @sidepelican in https://github.com/uber/mockolo/pull/282\r\n* Bump up version to 2.3.0 by @sidepelican in https://github.com/uber/mockolo/pull/287\r\n\r\n## New Contributors\r\n* @daeho-ro made their first contribution in https://github.com/uber/mockolo/pull/278\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/2.2.0...2.3.0\r\n----\r\n\r\n## For Build Tools Plugin (artifactbundle)\r\n\r\n- full version (linux and macos)\r\n\r\n```swift\r\n.binaryTarget(\r\n    name: \"mockolo\",\r\n    url: \"https://github.com/uber/mockolo/releases/download/2.3.0/mockolo.artifactbundle.zip\",\r\n    checksum: \"526ead91c62daac83c8d7bbad7e75508ed5bbb4f513b72c38e148213b69167c6\"\r\n),\r\n```\r\n\r\n- lightweight version (macos only)\r\n\r\n```swift\r\n.binaryTarget(\r\n    name: \"mockolo\",\r\n    url: \"https://github.com/uber/mockolo/releases/download/2.3.0/mockolo-macos.artifactbundle.zip\",\r\n    checksum: \"a444621a5db5b09fb0829cafd964734ce99770e8800e0d81fe8d9bb6ab880348\"\r\n),\r\n```\r\n",
+    "createdAt" : "2025-02-22T16:46:18+09:00",
+    "fetchedFromAPIAt" : "2025-02-25T10:09:53+09:00",
+    "id" : "RE_kwDOCaWADM4MCHoO",
+    "owner" : "uber",
+    "publishedAt" : "2025-02-23T14:12:28+09:00",
+    "repository" : "mockolo",
+    "title" : "2.3.0",
+    "url" : "https://github.com/uber/mockolo/releases/tag/2.3.0",
+    "version" : "2.3.0"
   }
 ]
