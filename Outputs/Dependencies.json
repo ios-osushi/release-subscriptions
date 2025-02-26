@@ -526,5 +526,17 @@
     "title" : "1.7.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.7.0",
     "version" : "1.7.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: Test trait enhancements (https://github.com/pointfreeco/swift-dependencies/pull/342, https://github.com/pointfreeco/swift-dependencies/pull/344).\r\n\r\n    The `.dependencies` and `.dependency` test traits now use Swift 6.1's `TestScoping` when available, leading to more reliable dependency injection.\r\n\r\n    The `.dependencies` trait can also now be used in a \"bare\" fashion on a base test suite to ensure all tests are given a unique set of dependencies by default:\r\n\r\n    ```swift\r\n    @Suite(.dependencies) struct BaseTests {}\r\n    ```\r\n\r\n* Fixed: Avoid test data race in dependency cache (https://github.com/pointfreeco/swift-dependencies/pull/303).\r\n* Infrastructure: Update .spi.yml (thanks @finestructure, https://github.com/pointfreeco/swift-dependencies/pull/336).\r\n* Infrastructure: Add Swift 6.0 to Linux test matrix (thanks @finestructure, https://github.com/pointfreeco/swift-dependencies/pull/303).\r\n* Infrastructure: Added tests for `prepareDependencies` and updated docs (https://github.com/pointfreeco/swift-dependencies/pull/337)\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.7.0...1.8.0",
+    "createdAt" : "2025-02-26T04:53:44+09:00",
+    "fetchedFromAPIAt" : "2025-02-26T10:09:39+09:00",
+    "id" : "RE_kwDOIF_Mq84MEFQ2",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-02-26T04:54:14+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.8.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.8.0",
+    "version" : "1.8.0"
   }
 ]
