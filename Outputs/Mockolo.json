@@ -442,5 +442,17 @@
     "title" : "2.3.0",
     "url" : "https://github.com/uber/mockolo/releases/tag/2.3.0",
     "version" : "2.3.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix compile error in Sendable mock with labeled history by @sidepelican in https://github.com/uber/mockolo/pull/289\r\n\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/2.3.0...2.3.1\n----\n\n## For Build Tools Plugin (artifactbundle)\n\n- full version (linux and macos)\n\n```swift\n.binaryTarget(\n    name: \"mockolo\",\n    url: \"https://github.com/uber/mockolo/releases/download/2.3.1/mockolo.artifactbundle.zip\",\n    checksum: \"f75d3778a3de8e5c540aa0a4480a6e8e2b21f84a759d64a41da96f6f37823ac1\"\n),\n```\n\n- lightweight version (macos only)\n\n```swift\n.binaryTarget(\n    name: \"mockolo\",\n    url: \"https://github.com/uber/mockolo/releases/download/2.3.1/mockolo-macos.artifactbundle.zip\",\n    checksum: \"daefaebdb24bf0f0a5f830523330b81850e9e95a3e2fc2011a50054309a55eae\"\n),\n```\n",
+    "createdAt" : "2025-02-26T22:52:38+09:00",
+    "fetchedFromAPIAt" : "2025-03-01T10:15:03+09:00",
+    "id" : "RE_kwDOCaWADM4MErmC",
+    "owner" : "uber",
+    "publishedAt" : "2025-02-26T22:56:26+09:00",
+    "repository" : "mockolo",
+    "title" : "2.3.1",
+    "url" : "https://github.com/uber/mockolo/releases/tag/2.3.1",
+    "version" : "2.3.1"
   }
 ]
