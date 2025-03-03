@@ -1078,5 +1078,17 @@
     "title" : "2.26.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.26.0",
     "version" : "2.26.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Delete line parameter by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/391\r\n* Refactor JUnitReporter by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/367\r\n* Fix FileMissingErrorCaptureGroup Collisions by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/395\r\n* Fix LDWarningCaptureGroup Collisions by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/396\r\n* Fix XcodebuildErrorCaptureGroup Collisions by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/397\r\n* Fix UIFailingTestCaptureGroup Collisions by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/398\r\n* Update License Information by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/399\r\n* Update Regex Pattern Matching by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/378\r\n* Update Release Script by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/400\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.26.0...2.27.0",
+    "createdAt" : "2025-03-03T06:16:48+09:00",
+    "fetchedFromAPIAt" : "2025-03-03T10:12:18+09:00",
+    "id" : "RE_kwDOCNUZc84MHTHG",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-03-03T06:17:00+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.27.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.27.0",
+    "version" : "2.27.0"
   }
 ]
