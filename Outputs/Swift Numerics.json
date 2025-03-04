@@ -154,5 +154,17 @@
     "title" : "CMake build support for arm64/macOS",
     "url" : "https://github.com/apple/swift-numerics/releases/tag/1.0.2",
     "version" : "1.0.2"
+  },
+  {
+    "body" : "This release contains the following changes to public modules:\r\n- The `Complex` type is now conditionally Sendable\r\n- Explicitly links the system math library when building `RealModule` for Linux and Android (https://github.com/apple/swift-numerics/commit/aa76ee56583504f2c8d641dd25d420b5122ee3ec)\r\n- `pow(_: Real, _: Int)` edge cases are brought in line with the IEEE 754 (2008) `powr` and `pown` functions (https://github.com/apple/swift-numerics/commit/e0ec0f5f3af6f3e4d5e7a19d2af26b481acb6ba8)\r\n\r\nand the following bug fixes for the internal `_TestSupport` module:\r\n- Corrects availability tvOS and watchOS (https://github.com/apple/swift-numerics/commit/db4ef5686ad1e4006dcd3cee6bc43a112d2cbe93)\r\n- Adds an explicit import of RealModule to silence a Swift 6 warning (https://github.com/apple/swift-numerics/commit/ba43341621f84c36c4f8fbf635529ab6e145b7dd)",
+    "createdAt" : "2025-03-04T01:13:12+09:00",
+    "fetchedFromAPIAt" : "2025-03-04T10:10:57+09:00",
+    "id" : "RE_kwDOCGqgm84MH4Yi",
+    "owner" : "apple",
+    "publishedAt" : "2025-03-04T01:35:15+09:00",
+    "repository" : "swift-numerics",
+    "title" : "1.0 maintenance + sendable Complex",
+    "url" : "https://github.com/apple/swift-numerics/releases/tag/1.0.3-prerelease",
+    "version" : "1.0.3-prerelease"
   }
 ]
