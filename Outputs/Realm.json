@@ -1114,5 +1114,17 @@
     "title" : "v20.0.1",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v20.0.1",
     "version" : "v20.0.1"
+  },
+  {
+    "body" : "### Enhancements\n\n* Enable automatic client reset handling for Events Realms. These Realms\n  typically do not trigger client resets, but may if sync is restarted when one\n  is partially uploaded. ([Core #8072](https://github.com/realm/realm-core/pull/8072)).\n\n### Compatibility\n\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 16.2.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.3.0-16.2.\n\n### Internal\n\n* Upgraded realm-core from v14.13.1 to 14.14.0",
+    "createdAt" : "2025-03-08T13:05:23+09:00",
+    "fetchedFromAPIAt" : "2025-03-09T10:02:16+09:00",
+    "id" : "RE_kwDOAD24W84MMKBd",
+    "owner" : "realm",
+    "publishedAt" : "2025-03-08T13:06:51+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.54.3",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.3",
+    "version" : "v10.54.3"
   }
 ]

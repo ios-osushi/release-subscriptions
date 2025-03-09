@@ -538,5 +538,17 @@
     "title" : "1.8.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.8.0",
     "version" : "1.8.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fixed: Strip trailing comments from endpoints. https://github.com/pointfreeco/swift-dependencies/pull/347\r\n* Infrastructure: responsibly -> responsible in Testing article by @agarrharr. https://github.com/pointfreeco/swift-dependencies/pull/345\r\n\r\n## New Contributors\r\n* @agarrharr made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/345\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.8.0...1.8.1",
+    "createdAt" : "2025-03-07T02:46:29+09:00",
+    "fetchedFromAPIAt" : "2025-03-09T10:02:16+09:00",
+    "id" : "RE_kwDOIF_Mq84MK58f",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-03-07T03:05:55+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.8.1",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.8.1",
+    "version" : "1.8.1"
   }
 ]
