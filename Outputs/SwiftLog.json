@@ -214,5 +214,17 @@
     "title" : "1.6.2",
     "url" : "https://github.com/apple/swift-log/releases/tag/1.6.2",
     "version" : "1.6.2"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Enable strict concurrency by @czechboy0 in https://github.com/apple/swift-log/pull/342\r\n* Fix building on Fedora 39 and Ubuntu 24.04 by @czechboy0 in https://github.com/apple/swift-log/pull/354\r\n### Other Changes\r\n* Aligning semantic version label check name by @FranzBusch in https://github.com/apple/swift-log/pull/341\r\n* Add AndroidLogging to the list of available backends by @lhoward in https://github.com/apple/swift-log/pull/340\r\n* Enable MemberImportVisibility check on all targets by @rnro in https://github.com/apple/swift-log/pull/343\r\n* Update release.yml by @FranzBusch in https://github.com/apple/swift-log/pull/344\r\n* Add swift-log-systemd.git to the list of available backends (#345) by @lhoward in https://github.com/apple/swift-log/pull/345\r\n* fix: fix typo by @SunsetWan in https://github.com/apple/swift-log/pull/333\r\n* Add swift-log-systemd has moved (#345) by @lhoward in https://github.com/apple/swift-log/pull/346\r\n* CI use 6.1 nightlies by @rnro in https://github.com/apple/swift-log/pull/348\r\n* Rename nightly_6_1 params to nightly_next by @rnro in https://github.com/apple/swift-log/pull/352\r\n* Only apply standard swift settings on valid targets by @rnro in https://github.com/apple/swift-log/pull/353\r\n\r\n## New Contributors\r\n* @lhoward made their first contribution in https://github.com/apple/swift-log/pull/340\r\n* @czechboy0 made their first contribution in https://github.com/apple/swift-log/pull/342\r\n* @SunsetWan made their first contribution in https://github.com/apple/swift-log/pull/333\r\n\r\n**Full Changelog**: https://github.com/apple/swift-log/compare/1.6.2...1.6.3",
+    "createdAt" : "2025-03-12T20:48:26+09:00",
+    "fetchedFromAPIAt" : "2025-03-14T10:11:04+09:00",
+    "id" : "RE_kwDOCiSz584MP6ky",
+    "owner" : "apple",
+    "publishedAt" : "2025-03-13T18:31:50+09:00",
+    "repository" : "swift-log",
+    "title" : "1.6.3",
+    "url" : "https://github.com/apple/swift-log/releases/tag/1.6.3",
+    "version" : "1.6.3"
   }
 ]

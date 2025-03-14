@@ -430,5 +430,17 @@
     "title" : "1.7.0",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.7.0",
     "version" : "1.7.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* examples: Add streaming ChatGPT proxy from FOSDEM 2025 by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/723\r\n* Adjust the platform-based linkage check by @jakepetroules in https://github.com/apple/swift-openapi-generator/pull/737\r\n### Other Changes\r\n* CI use 6.1 nightlies by @rnro in https://github.com/apple/swift-openapi-generator/pull/722\r\n* examples: Add talks section to covering README by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/725\r\n* Update README.md by @bdiesel in https://github.com/apple/swift-openapi-generator/pull/731\r\n* [README] Update the SSWG badge by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/714\r\n* Rename nightly_6_1 params to nightly_next by @rnro in https://github.com/apple/swift-openapi-generator/pull/740\r\n* Only apply standard swift settings on valid targets by @rnro in https://github.com/apple/swift-openapi-generator/pull/742\r\n\r\n## New Contributors\r\n* @bdiesel made their first contribution in https://github.com/apple/swift-openapi-generator/pull/731\r\n* @jakepetroules made their first contribution in https://github.com/apple/swift-openapi-generator/pull/737\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.7.0...1.7.1",
+    "createdAt" : "2025-03-08T01:25:56+09:00",
+    "fetchedFromAPIAt" : "2025-03-14T10:11:04+09:00",
+    "id" : "RE_kwDOJZWvis4MP6wd",
+    "owner" : "apple",
+    "publishedAt" : "2025-03-13T18:25:13+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.7.1",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.7.1",
+    "version" : "1.7.1"
   }
 ]
