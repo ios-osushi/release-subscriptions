@@ -802,5 +802,17 @@
     "title" : "8.3.0 - Progressive Loading Improvement",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.3.0",
     "version" : "8.3.0"
+  },
+  {
+    "body" : "#### Fix\n* Fix a potential deadlock in disk cache. It might happen on older devices & systems when preparing the cache file list. @onevcat @xbk713 [#2371](https://github.com/onevcat/Kingfisher/pull/2371)\n\n",
+    "createdAt" : "2025-03-15T18:06:32+09:00",
+    "fetchedFromAPIAt" : "2025-03-17T10:14:15+09:00",
+    "id" : "RE_kwDOAf70wM4MR3cV",
+    "owner" : "onevcat",
+    "publishedAt" : "2025-03-15T18:09:04+09:00",
+    "repository" : "Kingfisher",
+    "title" : "8.3.1 - Potential Cache Deadlock",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.3.1",
+    "version" : "8.3.1"
   }
 ]
