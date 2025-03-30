@@ -1114,5 +1114,17 @@
     "title" : "1.17.0",
     "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.17.0",
     "version" : "1.17.0"
+  },
+  {
+    "body" : "### New\r\n- **New function to mutate the properties of a local cache mutation fragment. ([#3433](https://github.com/apollographql/apollo-ios/issues/3443)):** Removal of the setter for type conditions made it difficult to work with the properties on those types. A new `mutateIfFulfilled` function was added to facilitate that workflow while still preventing a fragment from being added or removed from an existing model. See PR [#608](https://github.com/apollographql/apollo-ios-dev/pull/608).\r\n- **Configure `URLRequest` timeout interval ([#3522](https://github.com/apollographql/apollo-ios/issues/3522)):** Added a request context specialization protocol (`RequestContextTimeoutConfigurable`) that specifies options for configuring the timeout interval of a `URLRequest`. See PR [#618](https://github.com/apollographql/apollo-ios-dev/pull/618).",
+    "createdAt" : "2025-03-27T03:40:23+09:00",
+    "fetchedFromAPIAt" : "2025-03-30T10:18:34+09:00",
+    "id" : "RE_kwDOA9NCTc4MbWEg",
+    "owner" : "apollographql",
+    "publishedAt" : "2025-03-27T04:03:45+09:00",
+    "repository" : "apollo-ios",
+    "title" : "1.19.0",
+    "url" : "https://github.com/apollographql/apollo-ios/releases/tag/1.19.0",
+    "version" : "1.19.0"
   }
 ]

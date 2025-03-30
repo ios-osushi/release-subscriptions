@@ -574,5 +574,29 @@
     "title" : "3.26.0: Swift 6, etc.",
     "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.26.0",
     "version" : "3.26.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix install.sh by @mono0926 in https://github.com/mono0926/LicensePlist/pull/235\r\n* Support nestfile by @Econa77 in https://github.com/mono0926/LicensePlist/pull/238\r\n\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.26.0...3.27.0",
+    "createdAt" : "2025-03-27T10:44:14+09:00",
+    "fetchedFromAPIAt" : "2025-03-30T10:18:34+09:00",
+    "id" : "RE_kwDOBVhcvM4Mbkn9",
+    "owner" : "mono0926",
+    "publishedAt" : "2025-03-27T10:44:20+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.27.0",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.27.0",
+    "version" : "3.27.0"
+  },
+  {
+    "body" : "3.27.1\r\n\r\n## What's Changed\r\n* Workaround for SourcePackages directory on Xcode 16.3 by @lukepistrol in https://github.com/mono0926/LicensePlist/pull/241\r\n\r\n## New Contributors\r\n* @lukepistrol made their first contribution in https://github.com/mono0926/LicensePlist/pull/241\r\n\r\n**Full Changelog**: https://github.com/mono0926/LicensePlist/compare/3.27.0...3.27.1",
+    "createdAt" : "2025-03-28T10:19:35+09:00",
+    "fetchedFromAPIAt" : "2025-03-30T10:18:34+09:00",
+    "id" : "RE_kwDOBVhcvM4Mcov5",
+    "owner" : "mono0926",
+    "publishedAt" : "2025-03-28T10:19:41+09:00",
+    "repository" : "LicensePlist",
+    "title" : "3.27.1",
+    "url" : "https://github.com/mono0926/LicensePlist/releases/tag/3.27.1",
+    "version" : "3.27.1"
   }
 ]
