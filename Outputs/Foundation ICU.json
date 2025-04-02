@@ -130,5 +130,17 @@
     "title" : "Swift 6.0.3 Release",
     "url" : "https://github.com/swiftlang/swift-foundation-icu/releases/tag/swift-6.0.3-RELEASE",
     "version" : "swift-6.0.3-RELEASE"
+  },
+  {
+    "body" : "## What's Changed\r\n* [CMake] Resolve module map conflict with duplicate in SDK by @jmschonfeld in https://github.com/swiftlang/swift-foundation-icu/pull/36\r\n* [6.0] Add explicit modulemap path to take priority over modulemap from SDK by @jmschonfeld in https://github.com/swiftlang/swift-foundation-icu/pull/37\r\n* Hide all ICU public C++ Symbols by @iCharlesHu in https://github.com/swiftlang/swift-foundation-icu/pull/34\r\n* Ensure that SimpleDateFormat::fUsePlainSpaces is always initialized by @jmschonfeld in https://github.com/swiftlang/swift-foundation-icu/pull/40\r\n* Upgrade to ICU 74 by @iCharlesHu in https://github.com/swiftlang/swift-foundation-icu/pull/39\r\n* Apply WASI support patch against ICU source tree by @kateinoigakukun in https://github.com/swiftlang/swift-foundation-icu/pull/35\r\n* CMake: Fix accidental variable expansion of `WASI` by @kateinoigakukun in https://github.com/swiftlang/swift-foundation-icu/pull/45\r\n* Delete CODE_OF_CONDUCT.md by @parispittman in https://github.com/swiftlang/swift-foundation-icu/pull/46\r\n* Update CONTRIBUTING.md by @parispittman in https://github.com/swiftlang/swift-foundation-icu/pull/48\r\n\r\n## New Contributors\r\n* @parispittman made their first contribution in https://github.com/swiftlang/swift-foundation-icu/pull/46\r\n\r\n**Full Changelog**: https://github.com/swiftlang/swift-foundation-icu/compare/swift-6.0.3-RELEASE...swift-6.1-RELEASE",
+    "createdAt" : "2024-09-21T08:07:29+09:00",
+    "fetchedFromAPIAt" : "2025-04-02T10:14:31+09:00",
+    "id" : "RE_kwDOIzpzt84MfTIr",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-04-01T17:18:22+09:00",
+    "repository" : "swift-foundation-icu",
+    "title" : "Swift 6.1 Release",
+    "url" : "https://github.com/swiftlang/swift-foundation-icu/releases/tag/swift-6.1-RELEASE",
+    "version" : "swift-6.1-RELEASE"
   }
 ]

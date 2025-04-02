@@ -550,5 +550,17 @@
     "title" : "1.8.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.8.1",
     "version" : "1.8.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Added: `shouldReportUnimplemented`, for detecting if a test value should report an issue upon access (https://github.com/pointfreeco/swift-dependencies/pull/352).\r\n* Fixed: Use proper access control when `@DependencyEndpoint` macro generates method with `package` (thanks @gsl-sebastienpecoul, https://github.com/pointfreeco/swift-dependencies/pull/350).\r\n* Fixed: Undeprecate preview traits (https://github.com/pointfreeco/swift-dependencies/pull/353). We have discovered a workaround for the bug causing their initial deprecation.\r\n\r\n## New Contributors\r\n* @gsl-sebastienpecoul made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/350\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.8.1...1.9.0",
+    "createdAt" : "2025-04-01T08:44:49+09:00",
+    "fetchedFromAPIAt" : "2025-04-02T10:14:31+09:00",
+    "id" : "RE_kwDOIF_Mq84MfD0o",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-04-01T08:50:29+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.9.0",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.9.0",
+    "version" : "1.9.0"
   }
 ]

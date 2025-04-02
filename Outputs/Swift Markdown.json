@@ -70,5 +70,17 @@
     "title" : "Swift-Markdown 0.5.0",
     "url" : "https://github.com/swiftlang/swift-markdown/releases/tag/0.5.0",
     "version" : "0.5.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Fix whitespace issues with block directive formatting by @mportiz08 in https://github.com/swiftlang/swift-markdown/pull/177\r\n* Add primary associated type for MarkupVisitor by @Kyle-Ye in https://github.com/swiftlang/swift-markdown/pull/135\r\n* add support for riscv64 by @futurejones in https://github.com/swiftlang/swift-markdown/pull/181\r\n* Update swift-syntax links to swiftlang/swift-syntax by @ahoppen in https://github.com/swiftlang/swift-markdown/pull/184\r\n* Update `swift-cmark` reference to `swiftlang` org by @NachoSoto in https://github.com/swiftlang/swift-markdown/pull/186\r\n* Update README.md by @parispittman in https://github.com/swiftlang/swift-markdown/pull/188\r\n* Update README.md by @anferbui in https://github.com/swiftlang/swift-markdown/pull/189\r\n* Delete CODE_OF_CONDUCT.md by @parispittman in https://github.com/swiftlang/swift-markdown/pull/187\r\n* add an HTML formatter and converter tool by @QuietMisdreavus in https://github.com/swiftlang/swift-markdown/pull/106\r\n* add optional Aside intiailizer that bails if it can't find a tag by @QuietMisdreavus in https://github.com/swiftlang/swift-markdown/pull/196\r\n* mark CAtomic import as internal or implementation-only by @QuietMisdreavus in https://github.com/swiftlang/swift-markdown/pull/200\r\n* don't automatically transfer the child elements' ranges to the parent by @QuietMisdreavus in https://github.com/swiftlang/swift-markdown/pull/202\r\n* Update repository URLs in README by @woxtu in https://github.com/swiftlang/swift-markdown/pull/203\r\n* [cmake] Recognize \"arm64\" as a supported arch by @Steelskin in https://github.com/swiftlang/swift-markdown/pull/207\r\n* parameter updates in documentation by @heckj in https://github.com/swiftlang/swift-markdown/pull/206\r\n\r\n## New Contributors\r\n* @mportiz08 made their first contribution in https://github.com/swiftlang/swift-markdown/pull/177\r\n* @futurejones made their first contribution in https://github.com/swiftlang/swift-markdown/pull/181\r\n* @ahoppen made their first contribution in https://github.com/swiftlang/swift-markdown/pull/184\r\n* @NachoSoto made their first contribution in https://github.com/swiftlang/swift-markdown/pull/186\r\n* @parispittman made their first contribution in https://github.com/swiftlang/swift-markdown/pull/188\r\n* @anferbui made their first contribution in https://github.com/swiftlang/swift-markdown/pull/189\r\n* @woxtu made their first contribution in https://github.com/swiftlang/swift-markdown/pull/203\r\n* @Steelskin made their first contribution in https://github.com/swiftlang/swift-markdown/pull/207\r\n* @heckj made their first contribution in https://github.com/swiftlang/swift-markdown/pull/206\r\n\r\n**Full Changelog**: https://github.com/swiftlang/swift-markdown/compare/0.5.0...0.6.0",
+    "createdAt" : "2025-04-02T01:42:29+09:00",
+    "fetchedFromAPIAt" : "2025-04-02T10:14:31+09:00",
+    "id" : "RE_kwDOFxlFeM4Mfyp9",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-04-02T01:45:13+09:00",
+    "repository" : "swift-markdown",
+    "title" : "Swift-Markdown 0.6.0",
+    "url" : "https://github.com/swiftlang/swift-markdown/releases/tag/0.6.0",
+    "version" : "0.6.0"
   }
 ]

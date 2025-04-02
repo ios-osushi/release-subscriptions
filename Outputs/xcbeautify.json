@@ -1090,5 +1090,17 @@
     "title" : "2.27.0",
     "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.27.0",
     "version" : "2.27.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* Reintroduce testIndentedClangDoesNotMatchShellCommand by @cpisciotta in https://github.com/cpisciotta/xcbeautify/pull/401\r\n* Add support for DataModelCodegen Output by @ikelax in https://github.com/cpisciotta/xcbeautify/pull/405\r\n\r\n\r\n**Full Changelog**: https://github.com/cpisciotta/xcbeautify/compare/2.27.0...2.28.0",
+    "createdAt" : "2025-03-31T10:37:46+09:00",
+    "fetchedFromAPIAt" : "2025-04-02T10:14:31+09:00",
+    "id" : "RE_kwDOCNUZc84MeLx2",
+    "owner" : "cpisciotta",
+    "publishedAt" : "2025-03-31T10:37:58+09:00",
+    "repository" : "xcbeautify",
+    "title" : "2.28.0",
+    "url" : "https://github.com/cpisciotta/xcbeautify/releases/tag/2.28.0",
+    "version" : "2.28.0"
   }
 ]

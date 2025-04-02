@@ -1342,5 +1342,17 @@
     "title" : "1.18.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.18.0",
     "version" : "1.18.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n> [!IMPORTANT]\r\n> This release includes a significant rewrite of the store's scoping internals for better performance and memory management. Please test your application thoroughly when upgrading to this release.\r\n\r\n* Added: Store now conforms to the `ObservableObject` (https://github.com/pointfreeco/swift-composable-architecture/pull/3625). This conformance does not provide any observation via `@ObservedObject`, and is provided as a convenience to allow stores to be held in `@StateObject`s. Store observation should continue to be done via the Observation framework (or Perception package) and the `@ObservableState` macro.\r\n* Fixed: Store internals have been rewritten for performance and better memory management (https://github.com/pointfreeco/swift-composable-architecture/pull/3460; thanks @arnauddorgans , https://github.com/pointfreeco/swift-composable-architecture/pull/3638).\r\n* Fixed: swift-syntax 6.1 support (thanks @shimastripe, https://github.com/pointfreeco/swift-composable-architecture/pull/3639).\r\n* Fixed: Don't allow actions to be sent to invalidated scoped stores in release (thanks @lukeredpath, https://github.com/pointfreeco/swift-composable-architecture/pull/3640).\r\n* Infrastructure: Update demo apps to declare store as static to avoid interference with Xcode previews (thanks @meltsplit, https://github.com/pointfreeco/swift-composable-architecture/pull/3618).\r\n* Infrastructure: Fix broken article link (thanks @bradhowes, https://github.com/pointfreeco/swift-composable-architecture/pull/3626).\r\n* Infrastructure: Improve Performance article (thanks @arnauddorgans, https://github.com/pointfreeco/swift-composable-architecture/pull/3631).\r\n* Infrastructure: Utilize `swift-navigation` internally for presenting alerts and action sheets (thanks @juliensagot, https://github.com/pointfreeco/swift-composable-architecture/pull/3623)\r\n* Infrastructure: CI Improvements to minimize flakiness of GitHub actions (https://github.com/pointfreeco/swift-composable-architecture/pull/3641).\r\n\r\n## New Contributors\r\n* @bradhowes made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3626\r\n* @arnauddorgans made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3631\r\n* @shimastripe made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3639\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.18.0...1.19.0",
+    "createdAt" : "2025-04-02T09:06:38+09:00",
+    "fetchedFromAPIAt" : "2025-04-02T10:14:31+09:00",
+    "id" : "RE_kwDOD48kk84MgDcd",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-04-02T09:07:02+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.19.0",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.19.0",
+    "version" : "1.19.0"
   }
 ]
