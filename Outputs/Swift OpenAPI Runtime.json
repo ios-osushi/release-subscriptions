@@ -430,5 +430,17 @@
     "title" : "1.8.1",
     "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.8.1",
     "version" : "1.8.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Add support for Windows by @jakepetroules in https://github.com/apple/swift-openapi-runtime/pull/148\r\n### Other Changes\r\n* Add static SDK CI workflow by @rnro in https://github.com/apple/swift-openapi-runtime/pull/146\r\n* Enable macOS CI on merge to main and daily timer by @rnro in https://github.com/apple/swift-openapi-runtime/pull/147\r\n* Enable macOS CI on pull requests by @rnro in https://github.com/apple/swift-openapi-runtime/pull/149\r\n\r\n## New Contributors\r\n* @jakepetroules made their first contribution in https://github.com/apple/swift-openapi-runtime/pull/148\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-runtime/compare/1.8.1...1.8.2",
+    "createdAt" : "2025-04-02T04:15:59+09:00",
+    "fetchedFromAPIAt" : "2025-04-05T10:12:19+09:00",
+    "id" : "RE_kwDOJZWxLs4Mf7Yg",
+    "owner" : "apple",
+    "publishedAt" : "2025-04-02T15:51:40+09:00",
+    "repository" : "swift-openapi-runtime",
+    "title" : "1.8.2",
+    "url" : "https://github.com/apple/swift-openapi-runtime/releases/tag/1.8.2",
+    "version" : "1.8.2"
   }
 ]

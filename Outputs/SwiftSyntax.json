@@ -310,5 +310,17 @@
     "title" : "601.0.0",
     "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/601.0.0",
     "version" : "601.0.0"
+  },
+  {
+    "body" : "Fixes a missing dependency from SwiftSyntax to SwiftSyntax601 which prevented its use in `#if canImport`.",
+    "createdAt" : "2025-04-03T05:32:36+09:00",
+    "fetchedFromAPIAt" : "2025-04-05T10:12:19+09:00",
+    "id" : "RE_kwDOCIc4qs4Mg5oB",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-04-03T05:39:19+09:00",
+    "repository" : "swift-syntax",
+    "title" : "601.0.1",
+    "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/601.0.1",
+    "version" : "601.0.1"
   }
 ]

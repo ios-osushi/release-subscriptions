@@ -154,5 +154,17 @@
     "title" : "1.0.2",
     "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/1.0.2",
     "version" : "1.0.2"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at 1.1.0 -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Add support for opting out of streaming HTTP bodies by @hactar in https://github.com/apple/swift-openapi-urlsession/pull/68\r\n### SemVer Patch\r\n* Add support for Windows by @jakepetroules in https://github.com/apple/swift-openapi-urlsession/pull/71\r\n### Other Changes\r\n* ci: Move to GitHub Actions by @simonjbeaumont in https://github.com/apple/swift-openapi-urlsession/pull/57\r\n* add .editorconfig file by @rnro in https://github.com/apple/swift-openapi-urlsession/pull/58\r\n* Aligning semantic version label check name by @FranzBusch in https://github.com/apple/swift-openapi-urlsession/pull/61\r\n* Enable MemberImportVisibility check on all targets by @rnro in https://github.com/apple/swift-openapi-urlsession/pull/62\r\n* Update release.yml by @FranzBusch in https://github.com/apple/swift-openapi-urlsession/pull/63\r\n* CI use 6.1 nightlies by @rnro in https://github.com/apple/swift-openapi-urlsession/pull/64\r\n* Rename nightly_6_1 params to nightly_next by @rnro in https://github.com/apple/swift-openapi-urlsession/pull/65\r\n* Only apply standard swift settings on valid targets by @rnro in https://github.com/apple/swift-openapi-urlsession/pull/66\r\n* Enable macOS CI on merge to main and daily timer by @rnro in https://github.com/apple/swift-openapi-urlsession/pull/69\r\n* Enable macOS CI on pull requests by @rnro in https://github.com/apple/swift-openapi-urlsession/pull/72\r\n\r\n## New Contributors\r\n* @lamtrinhdev made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/53\r\n* @rnro made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/58\r\n* @FranzBusch made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/61\r\n* @hactar made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/68\r\n* @jakepetroules made their first contribution in https://github.com/apple/swift-openapi-urlsession/pull/71\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-urlsession/compare/1.0.2...1.1.0",
+    "createdAt" : "2025-04-04T23:31:51+09:00",
+    "fetchedFromAPIAt" : "2025-04-05T10:12:19+09:00",
+    "id" : "RE_kwDOJZWyrc4Mi1xz",
+    "owner" : "apple",
+    "publishedAt" : "2025-04-05T05:01:10+09:00",
+    "repository" : "swift-openapi-urlsession",
+    "title" : "1.1.0",
+    "url" : "https://github.com/apple/swift-openapi-urlsession/releases/tag/1.1.0",
+    "version" : "1.1.0"
   }
 ]
