@@ -442,5 +442,17 @@
     "title" : "1.7.1",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.7.1",
     "version" : "1.7.1"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Add support for Windows by @jakepetroules in https://github.com/apple/swift-openapi-generator/pull/753\r\n### Other Changes\r\n* Enable macOS CI on merge to main and daily timer by @rnro in https://github.com/apple/swift-openapi-generator/pull/750\r\n* Update main.yml indentation by @rnro in https://github.com/apple/swift-openapi-generator/pull/751\r\n* Only run Darwin CI on macOS targets by @rnro in https://github.com/apple/swift-openapi-generator/pull/752\r\n* Enable macOS CI on pull requests by @rnro in https://github.com/apple/swift-openapi-generator/pull/754\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.7.1...1.7.2",
+    "createdAt" : "2025-04-05T04:27:16+09:00",
+    "fetchedFromAPIAt" : "2025-04-08T10:13:51+09:00",
+    "id" : "RE_kwDOJZWvis4MjsBX",
+    "owner" : "apple",
+    "publishedAt" : "2025-04-07T19:40:56+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.7.2",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.7.2",
+    "version" : "1.7.2"
   }
 ]

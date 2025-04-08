@@ -562,5 +562,17 @@
     "title" : "1.9.0",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.9.0",
     "version" : "1.9.0"
+  },
+  {
+    "body" : "## What's Changed\r\n* [Fixed]: Resolves issue with endpoints not reporting errors when there's a custom closure by @gpambrozio in https://github.com/pointfreeco/swift-dependencies/pull/355\r\n\r\n## New Contributors\r\n* @gpambrozio made their first contribution in https://github.com/pointfreeco/swift-dependencies/pull/355\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.9.0...1.9.1",
+    "createdAt" : "2025-04-08T04:23:07+09:00",
+    "fetchedFromAPIAt" : "2025-04-08T10:13:51+09:00",
+    "id" : "RE_kwDOIF_Mq84MkTwD",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-04-08T04:23:38+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.9.1",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.9.1",
+    "version" : "1.9.1"
   }
 ]

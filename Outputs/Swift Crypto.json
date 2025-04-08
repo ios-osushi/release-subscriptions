@@ -682,5 +682,17 @@
     "title" : "3.12.2",
     "url" : "https://github.com/apple/swift-crypto/releases/tag/3.12.2",
     "version" : "3.12.2"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Patch\r\n* Add macCatalyst and visionOS to available platforms by @gjcairo in https://github.com/apple/swift-crypto/pull/348\r\n### Other Changes\r\n* Use centralized CMake checks by @rnro in https://github.com/apple/swift-crypto/pull/342\r\n* CONTRIBUTING.md CMake checks docs tweaks by @rnro in https://github.com/apple/swift-crypto/pull/343\r\n* Enable macOS CI on merge to main and daily timer by @rnro in https://github.com/apple/swift-crypto/pull/345\r\n* Enable macOS CI on pull requests by @rnro in https://github.com/apple/swift-crypto/pull/347\r\n\r\n\r\n**Full Changelog**: https://github.com/apple/swift-crypto/compare/3.12.2...3.12.3",
+    "createdAt" : "2025-04-08T00:01:52+09:00",
+    "fetchedFromAPIAt" : "2025-04-08T10:13:51+09:00",
+    "id" : "RE_kwDOC9Swts4MkEWV",
+    "owner" : "apple",
+    "publishedAt" : "2025-04-08T00:05:09+09:00",
+    "repository" : "swift-crypto",
+    "title" : "3.12.3",
+    "url" : "https://github.com/apple/swift-crypto/releases/tag/3.12.3",
+    "version" : "3.12.3"
   }
 ]
