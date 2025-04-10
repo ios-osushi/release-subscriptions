@@ -694,5 +694,17 @@
     "title" : "2.227.0 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.227.0",
     "version" : "2.227.0"
+  },
+  {
+    "body" : "* [match] fix error with universal provisioning filter (\"'UNIVERSAL' is not a valid filter value\") (#29500) via Michael Neeley (@redreceipt)\n* Bump xcpretty to version 0.4.1 (#29516) via Iulian Onofrei (@revolter)\n* [scan] Remove unnecessary shellescape when generating -resultBundlePath option (#22285) via Junfeng (@hujunfeng)",
+    "createdAt" : "2025-04-09T10:15:48+09:00",
+    "fetchedFromAPIAt" : "2025-04-10T10:13:54+09:00",
+    "id" : "RE_kwDOAaK_F84Mlitt",
+    "owner" : "fastlane",
+    "publishedAt" : "2025-04-09T10:31:14+09:00",
+    "repository" : "fastlane",
+    "title" : "2.227.1 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.227.1",
+    "version" : "2.227.1"
   }
 ]
