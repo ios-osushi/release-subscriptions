@@ -1126,5 +1126,17 @@
     "title" : "v10.54.3",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.3",
     "version" : "v10.54.3"
+  },
+  {
+    "body" : "### Enhancements\n\n* Add Xcode 16.3 binaries.\n\n### Compatibility\n\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 16.3.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.3.0-16.3.",
+    "createdAt" : "2025-04-10T13:34:43+09:00",
+    "fetchedFromAPIAt" : "2025-04-11T10:14:25+09:00",
+    "id" : "RE_kwDOAD24W84MmkuP",
+    "owner" : "realm",
+    "publishedAt" : "2025-04-10T13:36:06+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.54.4",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.4",
+    "version" : "v10.54.4"
   }
 ]

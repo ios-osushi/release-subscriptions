@@ -322,5 +322,17 @@
     "title" : "601.0.1",
     "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/601.0.1",
     "version" : "601.0.1"
+  },
+  {
+    "body" : null,
+    "createdAt" : "2025-04-11T00:03:40+09:00",
+    "fetchedFromAPIAt" : "2025-04-11T10:14:24+09:00",
+    "id" : "RE_kwDOCIc4qs4MnN8W",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-04-11T00:38:05+09:00",
+    "repository" : "swift-syntax",
+    "title" : "602.0.0-prerelease-2025-04-10",
+    "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/602.0.0-prerelease-2025-04-10",
+    "version" : "602.0.0-prerelease-2025-04-10"
   }
 ]
