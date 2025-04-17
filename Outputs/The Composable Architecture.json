@@ -1354,5 +1354,17 @@
     "title" : "1.19.0",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.19.0",
     "version" : "1.19.0"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Updated outdated runtime warning text (https://github.com/pointfreeco/swift-composable-architecture/pull/3643).\r\n* Fixed: Invalidate child store subscriptions when child store is invalidated (https://github.com/pointfreeco/swift-composable-architecture/pull/3646). This should improve the performance of applications that scope many child stores.\r\n* Fixed: Support SwiftSyntax 601.0.0 (thanks @jszumski, https://github.com/pointfreeco/swift-composable-architecture/pull/3649).\r\n* Fixed: Remove hashable requirement from `UIPushAction` (https://github.com/pointfreeco/swift-composable-architecture/pull/3652).\r\n* Infrastructure: Expose navigation stack helper behind SPI (thanks @Alex293, https://github.com/pointfreeco/swift-composable-architecture/pull/3657).\r\n\r\n## New Contributors\r\n* @jszumski made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3649\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.19.0...1.19.1",
+    "createdAt" : "2025-04-17T03:05:49+09:00",
+    "fetchedFromAPIAt" : "2025-04-17T10:14:55+09:00",
+    "id" : "RE_kwDOD48kk84MsQef",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-04-17T06:20:32+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.19.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.19.1",
+    "version" : "1.19.1"
   }
 ]

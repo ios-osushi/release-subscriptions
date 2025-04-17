@@ -418,5 +418,17 @@
     "title" : "602.0.0-prerelease-2025-04-10",
     "url" : "https://github.com/swiftlang/swift-format/releases/tag/602.0.0-prerelease-2025-04-10",
     "version" : "602.0.0-prerelease-2025-04-10"
+  },
+  {
+    "body" : null,
+    "createdAt" : "2025-04-17T05:43:35+09:00",
+    "fetchedFromAPIAt" : "2025-04-17T10:14:55+09:00",
+    "id" : "RE_kwDOC7ABTs4MsOxv",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-04-17T05:43:49+09:00",
+    "repository" : "swift-format",
+    "title" : "602.0.0-prerelease-2025-04-16",
+    "url" : "https://github.com/swiftlang/swift-format/releases/tag/602.0.0-prerelease-2025-04-16",
+    "version" : "602.0.0-prerelease-2025-04-16"
   }
 ]
