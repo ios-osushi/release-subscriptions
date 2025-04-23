@@ -574,5 +574,17 @@
     "title" : "1.9.1",
     "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.9.1",
     "version" : "1.9.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* [Fixed] Allow dependencies test trait to throw. https://github.com/pointfreeco/swift-dependencies/pull/359\r\n* [Infrastructure] Remove no longer relevant warning in Designing dependencies documentation page by @gsl-sebastienpecoul in https://github.com/pointfreeco/swift-dependencies/pull/357\r\n\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-dependencies/compare/1.9.1...1.9.2",
+    "createdAt" : "2025-04-17T02:06:45+09:00",
+    "fetchedFromAPIAt" : "2025-04-23T10:15:39+09:00",
+    "id" : "RE_kwDOIF_Mq84MwXra",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-04-23T02:58:33+09:00",
+    "repository" : "swift-dependencies",
+    "title" : "1.9.2",
+    "url" : "https://github.com/pointfreeco/swift-dependencies/releases/tag/1.9.2",
+    "version" : "1.9.2"
   }
 ]
