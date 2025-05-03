@@ -1234,5 +1234,17 @@
     "title" : "0.55.5",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.5",
     "version" : "0.55.5"
+  },
+  {
+    "body" : "- Fixed parsing bugs related to parameter packs (`repeat`, `each` keywords)\r\n- Fixed bug where `propertyTypes` rule could cause build failure in properties with `some` type\r\n- Fixed bug where `--callsiteparen balanced` would have no effect when using `--closingparen same-line`\r\n- Fatal error messages now include the name of the currently-running rule\r\n- Docker build now uses Swift 6.0.3",
+    "createdAt" : "2025-05-03T06:32:07+09:00",
+    "fetchedFromAPIAt" : "2025-05-03T10:15:03+09:00",
+    "id" : "RE_kwDOA_OyXc4M49Vq",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2025-05-03T06:44:11+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.55.6",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.6",
+    "version" : "0.55.6"
   }
 ]
