@@ -1246,5 +1246,29 @@
     "title" : "0.55.6",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.55.6",
     "version" : "0.55.6"
+  },
+  {
+    "body" : "- Added `wrapMultilineFunctionChains` rule to wrap chained method calls\r\n- Added `environmentEntry` rule to update SwiftUI `EnvironmentValues` definitions to use the `@Entry` macro\r\n- Added `redundantEquatable` rule to remove explicit `Equatable` conformances that would be compiler-synthesized\r\n- Added `preferSwiftTesting` rule to migrate XCTest-based tests to Swift Testing\r\n- Added `swiftTestingTestCaseNames` rule to remove redundant \"test\" prefix from Swift Testing test case methods\r\n- Added `preferCountWhere` rule to prefer `count(where:)` over `filter(_:).count`\r\n- Added `fileMacro` rule to prefer either `#file` or `#fileID`, which have the same behavior in Swift 6 and later\r\n- Added `blankLinesAfterGuardStatements` rule to remove blank lines between consecuitve guard statements, and add blank line after last guard statement.\r\n- Added `privateStateVariables` rule to add `private` access control to `@State` properties\r\n- Added `emptyExtensions` rule to remove extensions that contain no declarations or conformances\r\n- Added `--preserveacronyms` option to `acronyms` rule\r\n- Added `--wrapreturntype never` option to `wrapArguments` rule\r\n- Updated `trailingCommas` to support Swift 6.1 trailing comma functionality\r\n- `opaqueGenericParameters` now supports protocol requirements without a body\r\n- `--wrapeffects` and `--wrapreturntype` now support protocol requirements and closure types\r\n- Fixed indentation of trailing closures after chained multiline method call when using same-line closing parens\r\n- `blankLinesAtStartOfScope` rule now supports switch cases and closure capture / parameter lists\r\n- Fixed issue where type under `organizeDeclarations` line count threshold would ignore `swiftformat:sort` directives\r\n- Fixed issue where `organizeDeclarations` rule would unexpectedly remove non-mark comments\r\n- Compiling SwiftFormat now requires Swift 5.7+\r\n- SwiftFormat prerelease builds can now be installed via Homebrew using `brew install swiftformat --head`. Prerelease builds are subject to breaking changes.",
+    "createdAt" : "2025-05-13T12:19:20+09:00",
+    "fetchedFromAPIAt" : "2025-05-15T10:15:51+09:00",
+    "id" : "RE_kwDOA_OyXc4NAIn8",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2025-05-13T12:21:07+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.56.0",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.0",
+    "version" : "0.56.0"
+  },
+  {
+    "body" : "- Fixed several issues where `trailingCommas` rule would insert commas in places not actually supported by Swift 6.1\r\n- Fixed issue where `--wrapeffects` option would incorrectly unwrap `async let` properties following function call\r\n- Fixed issue where `redundantEquatable` rule would incorrectly remove `==` implementation in favor of synthesized implementation even if type contained non-Equatable properties like tuples\r\n- Fixed issue where `extensionAccessControl` rule would incorrectly hoist `public` ACL in `@preconcurrency` conformances\r\n- Fixed issue where `organizeDeclarations` rule would sometimes break property declarations with if expression values",
+    "createdAt" : "2025-05-14T11:56:50+09:00",
+    "fetchedFromAPIAt" : "2025-05-15T10:15:51+09:00",
+    "id" : "RE_kwDOA_OyXc4NBRo4",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2025-05-14T11:58:17+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.56.1",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.1",
+    "version" : "0.56.1"
   }
 ]
