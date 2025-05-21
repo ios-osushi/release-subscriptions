@@ -214,5 +214,17 @@
     "title" : "Swift Collections 1.1.4",
     "url" : "https://github.com/apple/swift-collections/releases/tag/1.1.4",
     "version" : "1.1.4"
+  },
+  {
+    "body" : "This feature release includes the following improvements:\r\n\r\n- The package now compiles without warnings using Swift 6.0 and 6.1.\r\n- New functionality:\r\n    - `Heap.removeAll(where:)` (#454)\r\n    - `OrderedSet.appending(contentsOf:)` (#452)\r\n- Bug fixes and performance improvements:\r\n    - `Heap` operations now agree on the identity of the maximal element, even if it has duplicates (#439)\r\n    - `OrderedSet` now runs faster in unspecialized generic contexts (#433)\r\n    - Building on OpenBSD no longer requires `ManagedBuffer.capacity` (#456)\r\n\r\nThis version supports Swift toolchain versions 5.10, 6.0 and 6.1.\r\n\r\n## What's Changed\r\n* Set up release/1.2 branch by @lorentey in https://github.com/apple/swift-collections/pull/423\r\n* Optimize unspecialized `OrderedSet.init` and `OrderedSet.firstIndex(of:)` by @dnadoba in https://github.com/apple/swift-collections/pull/433\r\n* fix amd64 support by @michael-yuji in https://github.com/apple/swift-collections/pull/447\r\n* [cmake] Install libraries in standard directories by @Steelskin in https://github.com/apple/swift-collections/pull/446\r\n* [1.2][OrderedDictionary] fix a typo by @lorentey in https://github.com/apple/swift-collections/pull/449\r\n* [release/1.2] [CI] Add support for GitHub Actions by @shahmishal in https://github.com/apple/swift-collections/pull/453\r\n* Reimplement `_specialize(_:for:)` for the 5.9 stdlib by @lorentey in https://github.com/apple/swift-collections/pull/472\r\n* Add .editorconfig by @lorentey in https://github.com/apple/swift-collections/pull/471\r\n* Cherry pick recent PRs destined for 1.2 by @lorentey in https://github.com/apple/swift-collections/pull/473\r\n* Drop support for the Swift 5.9.* toolchains by @lorentey in https://github.com/apple/swift-collections/pull/475\r\n* [Rope] Resolve deprecation warnings on `String.Index._description` by @lorentey in https://github.com/apple/swift-collections/pull/474\r\n\r\n## New Contributors\r\n* @dnadoba made their first contribution in https://github.com/apple/swift-collections/pull/433\r\n* @michael-yuji made their first contribution in https://github.com/apple/swift-collections/pull/447\r\n* @Steelskin made their first contribution in https://github.com/apple/swift-collections/pull/446\r\n\r\n**Full Changelog**: https://github.com/apple/swift-collections/compare/1.1.4...1.2.0",
+    "createdAt" : "2025-05-17T11:05:50+09:00",
+    "fetchedFromAPIAt" : "2025-05-21T10:19:11+09:00",
+    "id" : "RE_kwDOFDfRzs4NEMYO",
+    "owner" : "apple",
+    "publishedAt" : "2025-05-20T03:12:17+09:00",
+    "repository" : "swift-collections",
+    "title" : "Swift Collections 1.2.0",
+    "url" : "https://github.com/apple/swift-collections/releases/tag/1.2.0",
+    "version" : "1.2.0"
   }
 ]
