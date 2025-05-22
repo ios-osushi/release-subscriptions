@@ -454,5 +454,17 @@
     "title" : "2.3.1",
     "url" : "https://github.com/uber/mockolo/releases/tag/2.3.1",
     "version" : "2.3.1"
+  },
+  {
+    "body" : "\r\n\r\n## New features\r\n* When associatedtype has constraints, mock class becomes generic by @sidepelican in https://github.com/uber/mockolo/pull/294\r\n\r\n```swift\r\n/// @mockable\r\nprotocol Foo {\r\n    associatedtype T: StringProtocol\r\n}\r\n\r\n// before\r\nclass FooMock: Foo {\r\n    typealias T = StringProtocol // 🤪 StringProtocol is not conforms to StringProtocol. Protocols don't conform to itself.\r\n    init() { }\r\n}\r\n\r\n// after\r\nclass FooMock<T: StringProtocol>: Foo {\r\n    init() { }\r\n}\r\n```\r\n\r\n## Fix bugs\r\n* Avoid Special Handling of the \"Unknown\" Type Name by @sidepelican in https://github.com/uber/mockolo/pull/299\r\n* Remove `metadata` from NominalModel, resulting correct Rx SubjectType in mock's init. by @sidepelican in https://github.com/uber/mockolo/pull/292\r\n\r\n## Maintenances\r\n* Use @Fixture in VarTests by @sidepelican in https://github.com/uber/mockolo/pull/291\r\n* Use `@Fixture` in Rx Tests and remove `use-mock-observable` flag by @fummicc1 in https://github.com/uber/mockolo/pull/297\r\n* Remove `cast` property from `SwiftType` by @sidepelican in https://github.com/uber/mockolo/pull/300\r\n* Rewrite GenericFuncTests with @Fixture by @sidepelican in https://github.com/uber/mockolo/pull/301\r\n* Update CI Configuration by @sidepelican in https://github.com/uber/mockolo/pull/308\r\n* Fix matrix name in builds.yml by @fummicc1 in https://github.com/uber/mockolo/pull/310\r\n* Better test verification by @sidepelican in https://github.com/uber/mockolo/pull/304\r\n* Bump up version to 2.4.0 by @sidepelican in https://github.com/uber/mockolo/pull/311\r\n\r\n**Full Changelog**: https://github.com/uber/mockolo/compare/2.3.1...2.4.0\n----\n\n## For Build Tools Plugin (artifactbundle)\n\n```swift\n.binaryTarget(\n    name: \"mockolo\",\n    url: \"https://github.com/uber/mockolo/releases/download/2.4.0/mockolo.artifactbundle.zip\",\n    checksum: \"740787a5c532dc1a16e9b6940c7ef844caa1f7c02cb85b740e4f44f49a25dc68\"\n),\n```\n",
+    "createdAt" : "2025-05-21T11:09:22+09:00",
+    "fetchedFromAPIAt" : "2025-05-22T10:18:44+09:00",
+    "id" : "RE_kwDOCaWADM4NHN4u",
+    "owner" : "uber",
+    "publishedAt" : "2025-05-21T17:25:24+09:00",
+    "repository" : "mockolo",
+    "title" : "2.4.0",
+    "url" : "https://github.com/uber/mockolo/releases/tag/2.4.0",
+    "version" : "2.4.0"
   }
 ]
