@@ -1366,5 +1366,17 @@
     "title" : "1.19.1",
     "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.19.1",
     "version" : "1.19.1"
+  },
+  {
+    "body" : "## What's Changed\r\n\r\n* Fixed: Ignore new property wrappers with @ObservableState. https://github.com/pointfreeco/swift-composable-architecture/pull/3666\r\n* Fixed: Isolate cancellation in root stores. https://github.com/pointfreeco/swift-composable-architecture/pull/3660\r\n* Fixed: Prevent reduce function from being optimized by @AndrewBardallis in https://github.com/pointfreeco/swift-composable-architecture/pull/3683\r\n* Infrastructure: Fix build error occurs in navigation tutorial and Remove unnecessary button actions  by @Ryota-Kurokawa in https://github.com/pointfreeco/swift-composable-architecture/pull/3668\r\n* Infrastructure: Change Counter to CounterFeature in StackBasedNavigation docs by @BruceMcRooster in https://github.com/pointfreeco/swift-composable-architecture/pull/3670\r\n* Infrastructure: Adjust documentation for binding action by @johankool in https://github.com/pointfreeco/swift-composable-architecture/pull/3661\r\n* Infrastructure: Fix typo by @shoujiaxin in https://github.com/pointfreeco/swift-composable-architecture/pull/3684\r\n\r\n## New Contributors\r\n* @BruceMcRooster made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3670\r\n* @Ryota-Kurokawa made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3668\r\n* @shoujiaxin made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3684\r\n* @AndrewBardallis made their first contribution in https://github.com/pointfreeco/swift-composable-architecture/pull/3683\r\n\r\n**Full Changelog**: https://github.com/pointfreeco/swift-composable-architecture/compare/1.19.1...1.20.0",
+    "createdAt" : "2025-05-23T02:06:03+09:00",
+    "fetchedFromAPIAt" : "2025-05-24T10:15:45+09:00",
+    "id" : "RE_kwDOD48kk84NJ0vN",
+    "owner" : "pointfreeco",
+    "publishedAt" : "2025-05-24T00:26:57+09:00",
+    "repository" : "swift-composable-architecture",
+    "title" : "1.20.1",
+    "url" : "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.20.1",
+    "version" : "1.20.1"
   }
 ]
