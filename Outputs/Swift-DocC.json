@@ -46,5 +46,17 @@
     "title" : "Swift 6.1 Release",
     "url" : "https://github.com/swiftlang/swift-docc/releases/tag/swift-6.1-RELEASE",
     "version" : "swift-6.1-RELEASE"
+  },
+  {
+    "body" : "",
+    "createdAt" : "2025-02-18T01:06:47+09:00",
+    "fetchedFromAPIAt" : "2025-05-25T10:25:24+09:00",
+    "id" : "RE_kwDOFxlCRc4NKMir",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-05-24T17:04:30+09:00",
+    "repository" : "swift-docc",
+    "title" : "Swift 6.1.1 Release",
+    "url" : "https://github.com/swiftlang/swift-docc/releases/tag/swift-6.1.1-RELEASE",
+    "version" : "swift-6.1.1-RELEASE"
   }
 ]

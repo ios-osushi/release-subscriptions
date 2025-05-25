@@ -82,5 +82,17 @@
     "title" : "Swift-Markdown 0.6.0",
     "url" : "https://github.com/swiftlang/swift-markdown/releases/tag/0.6.0",
     "version" : "0.6.0"
+  },
+  {
+    "body" : "**Full Changelog**: https://github.com/swiftlang/swift-markdown/compare/swift-6.1-RELEASE...swift-6.1.1-RELEASE",
+    "createdAt" : "2024-11-17T18:22:50+09:00",
+    "fetchedFromAPIAt" : "2025-05-25T10:25:24+09:00",
+    "id" : "RE_kwDOFxlFeM4NKMmL",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-05-24T17:08:56+09:00",
+    "repository" : "swift-markdown",
+    "title" : "Swift 6.1.1 Release",
+    "url" : "https://github.com/swiftlang/swift-markdown/releases/tag/swift-6.1.1-RELEASE",
+    "version" : "swift-6.1.1-RELEASE"
   }
 ]
