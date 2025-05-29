@@ -166,5 +166,17 @@
     "title" : "System 1.4.1",
     "url" : "https://github.com/apple/swift-system/releases/tag/1.4.1",
     "version" : "1.4.1"
+  },
+  {
+    "body" : "This release includes a few changes for Windows support. In particular, @jakepetroules added support for extended path handling in Win32 API, which by itself justifies a minor version change.\r\n\r\n## What's Changed\r\n* Enable Windows CI by @jakepetroules in https://github.com/apple/swift-system/pull/227\r\n* Transparently add the `\\\\?\\` prefix to Win32 calls for extended length path handling by @jakepetroules in https://github.com/apple/swift-system/pull/226\r\n* Fix Windows path parsing when the package is built in release configuration by @owenv in https://github.com/apple/swift-system/pull/230\r\n* Add Android imports to tests by @marcprux in https://github.com/apple/swift-system/pull/225\r\n\r\n## New Contributors\r\n* @jakepetroules made their first contribution in https://github.com/apple/swift-system/pull/227\r\n* @owenv made their first contribution in https://github.com/apple/swift-system/pull/230\r\n* @marcprux made their first contribution in https://github.com/apple/swift-system/pull/225\r\n\r\n**Full Changelog**: https://github.com/apple/swift-system/compare/1.4.2...1.5.0",
+    "createdAt" : "2025-05-29T08:25:04+09:00",
+    "fetchedFromAPIAt" : "2025-05-29T10:19:11+09:00",
+    "id" : "RE_kwDOEcmZD84NNs5I",
+    "owner" : "apple",
+    "publishedAt" : "2025-05-29T08:34:56+09:00",
+    "repository" : "swift-system",
+    "title" : "1.5.0",
+    "url" : "https://github.com/apple/swift-system/releases/tag/1.5.0",
+    "version" : "1.5.0"
   }
 ]

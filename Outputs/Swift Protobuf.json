@@ -598,5 +598,17 @@
     "title" : "1.29.0 Release",
     "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.29.0",
     "version" : "1.29.0"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Deprecate FieldDescriptor.isOptional. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1764\r\n* Deprecate `FieldDescriptor` `label` by @thomasvl in https://github.com/apple/swift-protobuf/pull/1766\r\n* Drop Swift 5.9 by @rnro in https://github.com/apple/swift-protobuf/pull/1775\r\n* Textformat reserved by @thomasvl in https://github.com/apple/swift-protobuf/pull/1774\r\n### SemVer Patch\r\n* Track some more upstream changes moving off `label`. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1769\r\n### Other Changes\r\n* Update the RELEASING docs to cover the current state of things. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1759\r\n* Move off `label` and use `isRepeated`/`isRequired`. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1765\r\n* Swift 6.1 on CI by @thomasvl in https://github.com/apple/swift-protobuf/pull/1768\r\n* Update protos from upstream and record new conformance failure by @thomasvl in https://github.com/apple/swift-protobuf/pull/1772\r\n* Some small cleanups. by @thomasvl in https://github.com/apple/swift-protobuf/pull/1773\r\n* Like the plugin, use `.rawValue` by @thomasvl in https://github.com/apple/swift-protobuf/pull/1779\r\n* Version bump to prep for a release by @thomasvl in https://github.com/apple/swift-protobuf/pull/1781\r\n\r\n## New Contributors\r\n* @rnro made their first contribution in https://github.com/apple/swift-protobuf/pull/1775\r\n\r\n**Full Changelog**: https://github.com/apple/swift-protobuf/compare/1.29.0...1.30.0",
+    "createdAt" : "2025-05-28T00:27:23+09:00",
+    "fetchedFromAPIAt" : "2025-05-29T10:19:11+09:00",
+    "id" : "RE_kwDOBAEMEM4NNlEq",
+    "owner" : "apple",
+    "publishedAt" : "2025-05-29T05:04:33+09:00",
+    "repository" : "swift-protobuf",
+    "title" : "1.30.0 Release",
+    "url" : "https://github.com/apple/swift-protobuf/releases/tag/1.30.0",
+    "version" : "1.30.0"
   }
 ]

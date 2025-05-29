@@ -1270,5 +1270,17 @@
     "title" : "0.56.1",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.1",
     "version" : "0.56.1"
+  },
+  {
+    "body" : "- Fixed issues where `trailingCommas` rule would insert commas in `@escpaing` or `@Sendable` closure types (not supported in Swift 6.1)\r\n- Fixed issue where `privateStateVariables` rule handled `@Previewable` attributes on previous line incorrectly",
+    "createdAt" : "2025-05-27T22:34:55+09:00",
+    "fetchedFromAPIAt" : "2025-05-29T10:19:11+09:00",
+    "id" : "RE_kwDOA_OyXc4NMCyB",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2025-05-27T22:36:35+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.56.2",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.2",
+    "version" : "0.56.2"
   }
 ]

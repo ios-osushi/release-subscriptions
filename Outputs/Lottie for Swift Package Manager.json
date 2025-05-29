@@ -202,5 +202,17 @@
     "title" : "4.5.1",
     "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.5.1",
     "version" : "4.5.1"
+  },
+  {
+    "body" : "* Adds support for `.lottie` v2 file format by @eharrison in https://github.com/airbnb/lottie-ios/pull/2564\r\n* Support customizing `contentsScale` of text layer by @calda in https://github.com/airbnb/lottie-ios/pull/2559\r\n* Fix issue where animation with justified text justification would fail to parse by @calda in https://github.com/airbnb/lottie-ios/pull/2553\r\n* Adds static framework generation on CI by @Loupehope in https://github.com/airbnb/lottie-ios/pull/2561\r\n\r\n**Full Changelog**: https://github.com/airbnb/lottie-ios/compare/4.5.1...4.5.2",
+    "createdAt" : "2025-05-28T06:22:20+09:00",
+    "fetchedFromAPIAt" : "2025-05-29T10:19:11+09:00",
+    "id" : "RE_kwDOIwpDsc4NMhAR",
+    "owner" : "airbnb",
+    "publishedAt" : "2025-05-28T06:26:48+09:00",
+    "repository" : "lottie-spm",
+    "title" : "4.5.2",
+    "url" : "https://github.com/airbnb/lottie-spm/releases/tag/4.5.2",
+    "version" : "4.5.2"
   }
 ]
