@@ -454,5 +454,17 @@
     "title" : "1.7.2",
     "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.7.2",
     "version" : "1.7.2"
+  },
+  {
+    "body" : "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### SemVer Minor\r\n* Drop Swift 5.9 by @rnro in https://github.com/apple/swift-openapi-generator/pull/765\r\n* Add support for configurable comments in generated files by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/773\r\n### SemVer Patch\r\n* Increase the upper version on Yams to include the new 6.0.0 by @czechboy0 in https://github.com/apple/swift-openapi-generator/pull/770\r\n### Other Changes\r\n* Switch integration tests & examples to new matrix by @rnro in https://github.com/apple/swift-openapi-generator/pull/758\r\n* examples: Update streaming ChatGPT example for Swift 6.1 by @simonjbeaumont in https://github.com/apple/swift-openapi-generator/pull/759\r\n* Enable Swift 6.1 jobs in CI by @rnro in https://github.com/apple/swift-openapi-generator/pull/761\r\n* docs: Delete instructions to run non-existent soundness.sh by @euanh in https://github.com/apple/swift-openapi-generator/pull/763\r\n\r\n## New Contributors\r\n* @euanh made their first contribution in https://github.com/apple/swift-openapi-generator/pull/763\r\n\r\n**Full Changelog**: https://github.com/apple/swift-openapi-generator/compare/1.7.2...1.8.0",
+    "createdAt" : "2025-05-24T01:01:47+09:00",
+    "fetchedFromAPIAt" : "2025-05-31T10:17:22+09:00",
+    "id" : "RE_kwDOJZWvis4NOD5E",
+    "owner" : "apple",
+    "publishedAt" : "2025-05-29T22:51:17+09:00",
+    "repository" : "swift-openapi-generator",
+    "title" : "1.8.0",
+    "url" : "https://github.com/apple/swift-openapi-generator/releases/tag/1.8.0",
+    "version" : "1.8.0"
   }
 ]

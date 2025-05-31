@@ -430,5 +430,17 @@
     "title" : "ArgumentParser 1.4.0",
     "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.4.0",
     "version" : "1.4.0"
+  },
+  {
+    "body" : "### Fixes\r\n\r\n- Relax the CMake build system to allow implicit linking of Foundation and XCTest when not explicitly given the associated build tree. (#783)\r\n\r\nThe 1.5.1 release includes a contribution from @compnerd. Thank you!\r\n",
+    "createdAt" : "2025-05-29T12:40:34+09:00",
+    "fetchedFromAPIAt" : "2025-05-31T10:17:22+09:00",
+    "id" : "RE_kwDODmuHYc4NNzHy",
+    "owner" : "apple",
+    "publishedAt" : "2025-05-29T12:57:31+09:00",
+    "repository" : "swift-argument-parser",
+    "title" : "ArgumentParser 1.5.1",
+    "url" : "https://github.com/apple/swift-argument-parser/releases/tag/1.5.1",
+    "version" : "1.5.1"
   }
 ]
