@@ -382,5 +382,17 @@
     "title" : "0.17.5",
     "url" : "https://github.com/yonaskolb/Mint/releases/tag/0.17.5",
     "version" : "0.17.5"
+  },
+  {
+    "body" : "### Added\r\n- Added `outdated` command for listing outdated packages in a Mintfile [#237](https://github.com/yonaskolb/Mint/pull/237) @AF-cgi\r\n- Globally installed packages can now access their own resource artifacts, as they are also linked [#265](https://github.com/yonaskolb/Mint/pull/265) @jagreenwood\r\n\r\n### Fixed\r\n- Fixed binary copying when customized `MINT_PATH` or `MINT_LINK_PATH` contained spaces [#269](https://github.com/yonaskolb/Mint/pull/269) @olejnjak\r\n\r\n### Internal\r\n- Update the package to Swift 5.9 [#275](https://github.com/yonaskolb/Mint/pull/275) @yonaskolb",
+    "createdAt" : "2025-06-04T23:06:09+09:00",
+    "fetchedFromAPIAt" : "2025-06-09T10:23:53+09:00",
+    "id" : "RE_kwDOBkFB884NTA65",
+    "owner" : "yonaskolb",
+    "publishedAt" : "2025-06-04T23:08:30+09:00",
+    "repository" : "Mint",
+    "title" : "0.18.0",
+    "url" : "https://github.com/yonaskolb/Mint/releases/tag/0.18.0",
+    "version" : "0.18.0"
   }
 ]

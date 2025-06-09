@@ -106,5 +106,17 @@
     "title" : "Swift Atomics 1.2.0",
     "url" : "https://github.com/apple/swift-atomics/releases/tag/1.2.0",
     "version" : "1.2.0"
+  },
+  {
+    "body" : "This minor release fixes [a severe miscompilation issue when the experimental LTO feature is enabled](https://github.com/apple/swift-atomics/issues/108). It also bumps the minimum supported toolchain to Swift 5.10, removing the obsolete atomics implementation that used to import operations from standard C.\r\n\r\nThere were no API-level changes. Clients on older toolchains will not be harmed by this tag -- they will continue to get version 1.2 (or 1.0, 1.1, depending on their toolchain version and dependency specification).\r\n\r\n## What's Changed\r\n* _sa_retain_n/_sa_release_n: Use C calling convention in package builds by @lorentey in https://github.com/apple/swift-atomics/pull/109\r\n* [native] Stop using @_implementationOnly import in package configs by @lorentey in https://github.com/apple/swift-atomics/pull/110\r\n* add support for riscv64 by @futurejones in https://github.com/apple/swift-atomics/pull/113\r\n* [CI] Add support for GitHub Actions by @shahmishal in https://github.com/apple/swift-atomics/pull/115\r\n* Make AtomicsShims compatible with C++ interop by @egorzhdan in https://github.com/apple/swift-atomics/pull/118\r\n* Update README.md by @wanbok in https://github.com/apple/swift-atomics/pull/114\r\n* Remove executable bit from 2 Markdown files by @rgoldberg in https://github.com/apple/swift-atomics/pull/117\r\n* Bump required toolchain to Swift 5.10 by @lorentey in https://github.com/apple/swift-atomics/pull/119\r\n* Update Xcode project by @lorentey in https://github.com/apple/swift-atomics/pull/120\r\n\r\n## New Contributors\r\n* @futurejones made their first contribution in https://github.com/apple/swift-atomics/pull/113\r\n* @shahmishal made their first contribution in https://github.com/apple/swift-atomics/pull/115\r\n* @egorzhdan made their first contribution in https://github.com/apple/swift-atomics/pull/118\r\n* @wanbok made their first contribution in https://github.com/apple/swift-atomics/pull/114\r\n* @rgoldberg made their first contribution in https://github.com/apple/swift-atomics/pull/117\r\n\r\n**Full Changelog**: https://github.com/apple/swift-atomics/compare/1.2.0...1.3.0",
+    "createdAt" : "2025-06-05T04:56:01+09:00",
+    "fetchedFromAPIAt" : "2025-06-09T10:23:53+09:00",
+    "id" : "RE_kwDOEeiD3M4NTY-t",
+    "owner" : "apple",
+    "publishedAt" : "2025-06-05T05:09:26+09:00",
+    "repository" : "swift-atomics",
+    "title" : "Swift Atomics 1.3.0",
+    "url" : "https://github.com/apple/swift-atomics/releases/tag/1.3.0",
+    "version" : "1.3.0"
   }
 ]

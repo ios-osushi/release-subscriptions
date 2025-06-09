@@ -1282,5 +1282,17 @@
     "title" : "0.56.2",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.2",
     "version" : "0.56.2"
+  },
+  {
+    "body" : "- Fixed issue where `trailingCommas` rule would insert commas in closure types and tuple types used in typealaises (not supported in Swift 6.1)",
+    "createdAt" : "2025-06-05T10:13:32+09:00",
+    "fetchedFromAPIAt" : "2025-06-09T10:23:53+09:00",
+    "id" : "RE_kwDOA_OyXc4NTmHP",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2025-06-05T10:16:58+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.56.3",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.3",
+    "version" : "0.56.3"
   }
 ]
