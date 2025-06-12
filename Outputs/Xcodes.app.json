@@ -298,5 +298,17 @@
     "title" : "v2.3.0 - Welcome back runtimes",
     "url" : "https://github.com/XcodesOrg/XcodesApp/releases/tag/v2.3.0b28",
     "version" : "v2.3.0b28"
+  },
+  {
+    "body" : "Install Xcodes using one of the methods listed [here](https://github.com/RobotsAndPencils/XcodesApp#installation).\r\nUpdate Xcodes by selecting Check for Updates... in the Xcodes menu in the menu bar.\r\n\r\n## Changes\r\n\r\n* send usernames as lowercase to prevent some login failures (#678) @mahadshahib\r\n* Support FIDO2 authentication with devices that don’t have a PIN code (#655) @MultiColourPixel\r\n\r\n<!-- sparkle:edSignature=7lyLaPMpJ8SZ0CXNh0nZncHh+nj1JPupk1wl1iuE83Junr1bn8k52F+xTNIuP5O5k042IY2YhuPuq2iuClk1AA== -->",
+    "createdAt" : "2025-06-10T12:22:07+09:00",
+    "fetchedFromAPIAt" : "2025-06-12T10:19:53+09:00",
+    "id" : "RE_kwDOEtMR_84NXMOZ",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2025-06-10T12:28:33+09:00",
+    "repository" : "XcodesApp",
+    "title" : "v2.4.2 - or is it v26? ",
+    "url" : "https://github.com/XcodesOrg/XcodesApp/releases/tag/v2.4.2b31",
+    "version" : "v2.4.2b31"
   }
 ]

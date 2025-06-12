@@ -718,5 +718,17 @@
     "title" : "2.227.1 Improvements",
     "url" : "https://github.com/fastlane/fastlane/releases/tag/2.227.1",
     "version" : "2.227.1"
+  },
+  {
+    "body" : "* [sigh][match] fix issue where unknown attribute `template_name` is being sent when creating provisioning profiles (#29591) via Florentin Luca Rieger (@visuallization)\r\n* [action][hipchat] remove hipchat action (#29558) via Eitan Adler (@grimreaper)\r\n\r\n---\r\n\r\n> [!IMPORTANT]\r\n> If your app relies on managed capabilities (previously referred to as custom entitlements or the `template_name` parameter in _match_), you are impacted by a change that Apple made to their APIs in the last 2 weeks.\r\n> Please check out the ongoing discussion at https://github.com/fastlane/fastlane/discussions/29609 for the latest updates. Your insights and contributions are welcome!",
+    "createdAt" : "2025-06-10T11:31:58+09:00",
+    "fetchedFromAPIAt" : "2025-06-12T10:19:53+09:00",
+    "id" : "RE_kwDOAaK_F84NXLeS",
+    "owner" : "fastlane",
+    "publishedAt" : "2025-06-10T11:35:38+09:00",
+    "repository" : "fastlane",
+    "title" : "2.228.0 Improvements",
+    "url" : "https://github.com/fastlane/fastlane/releases/tag/2.228.0",
+    "version" : "2.228.0"
   }
 ]

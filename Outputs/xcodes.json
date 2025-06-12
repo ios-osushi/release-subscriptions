@@ -370,5 +370,29 @@
     "title" : "1.6.0 - Login Fixed and Cryptex Runtimes supported installing",
     "url" : "https://github.com/XcodesOrg/xcodes/releases/tag/1.6.0",
     "version" : "1.6.0"
+  },
+  {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade robotsandpencils/made/xcodes`.\r\n\r\n## Changes\r\n\r\n* Add support for local cryptex disk images (#423) @pennig\r\n",
+    "createdAt" : "2025-06-10T11:46:50+09:00",
+    "fetchedFromAPIAt" : "2025-06-12T10:19:53+09:00",
+    "id" : "RE_kwDOCj_3JM4NXLpm",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2025-06-10T11:52:13+09:00",
+    "repository" : "xcodes",
+    "title" : "Cryptex Runtime error fix",
+    "url" : "https://github.com/XcodesOrg/xcodes/releases/tag/1.6.1",
+    "version" : "1.6.1"
+  },
+  {
+    "body" : "If you installed xcodes with homebrew you can upgrade with `brew upgrade xcodesorg/made/xcodes`.\r\n\r\n## Changes\r\n\r\n* Add patchable cryptex disk image handling (#430) @pennig\r\n\r\n## 🧰 Maintenance\r\n\r\n* use the correct org name (#429) @pastey\r\n",
+    "createdAt" : "2025-06-11T11:30:13+09:00",
+    "fetchedFromAPIAt" : "2025-06-12T10:19:53+09:00",
+    "id" : "RE_kwDOCj_3JM4NYT6Z",
+    "owner" : "XcodesOrg",
+    "publishedAt" : "2025-06-11T11:34:24+09:00",
+    "repository" : "xcodes",
+    "title" : "1.6.2 More Patchable Cryptex Fixes",
+    "url" : "https://github.com/XcodesOrg/xcodes/releases/tag/1.6.2",
+    "version" : "1.6.2"
   }
 ]
