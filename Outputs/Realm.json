@@ -1150,5 +1150,29 @@
     "title" : "v20.0.2",
     "url" : "https://github.com/realm/realm-swift/releases/tag/v20.0.2",
     "version" : "v20.0.2"
+  },
+  {
+    "body" : "### Enhancements\n\n* Add Xcode 16.4 binaries.\n* Add support for building with Xcode 26 beta 1.\n\n### Compatibility\n\n* Realm Studio: 15.0.0 or later.\n* APIs are backwards compatible with all previous releases in the 10.x.y series.\n* Carthage release for Swift is built with Xcode 16.4.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.3.0-26 beta 1.",
+    "createdAt" : "2025-06-16T09:16:08+09:00",
+    "fetchedFromAPIAt" : "2025-06-18T10:20:11+09:00",
+    "id" : "RE_kwDOAD24W84Nb8TO",
+    "owner" : "realm",
+    "publishedAt" : "2025-06-16T09:17:08+09:00",
+    "repository" : "realm-swift",
+    "title" : "v10.54.5",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v10.54.5",
+    "version" : "v10.54.5"
+  },
+  {
+    "body" : "### Enhancements\n\n* Update build scripts for Xcode 16.4.\n* Add support for building with Xcode 26 beta 1.\n\n### Compatibility\n\n* Carthage release for Swift is built with Xcode 16.4.0.\n* CocoaPods: 1.10 or later.\n* Xcode: 15.3.0-26 beta 1.",
+    "createdAt" : "2025-06-16T13:11:22+09:00",
+    "fetchedFromAPIAt" : "2025-06-18T10:20:11+09:00",
+    "id" : "RE_kwDOAD24W84NcBFj",
+    "owner" : "realm",
+    "publishedAt" : "2025-06-16T13:12:11+09:00",
+    "repository" : "realm-swift",
+    "title" : "v20.0.3",
+    "url" : "https://github.com/realm/realm-swift/releases/tag/v20.0.3",
+    "version" : "v20.0.3"
   }
 ]

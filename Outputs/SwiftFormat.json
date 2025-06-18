@@ -1294,5 +1294,17 @@
     "title" : "0.56.3",
     "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.3",
     "version" : "0.56.3"
+  },
+  {
+    "body" : "- Fixed issue where `trailingCommas` rule would not insert trailing commas in function declarations with return type\r\n- Fixed issue where `trailingCommas` rule would not insert trailing commas in array literals following `!` operator\r\n- Fixed issue where `unusedArguments` rule would ignore function declarations with trailing commas\r\n- Fixed issue where `void` rule would not handle `()` types in typealiases\r\n- Fixed issue where `redundantLet` rule did not detect code inside result builders when nested in conditional compilation blocks",
+    "createdAt" : "2025-06-16T01:12:56+09:00",
+    "fetchedFromAPIAt" : "2025-06-18T10:20:11+09:00",
+    "id" : "RE_kwDOA_OyXc4Nb3NV",
+    "owner" : "nicklockwood",
+    "publishedAt" : "2025-06-16T01:16:52+09:00",
+    "repository" : "SwiftFormat",
+    "title" : "0.56.4",
+    "url" : "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.56.4",
+    "version" : "0.56.4"
   }
 ]
