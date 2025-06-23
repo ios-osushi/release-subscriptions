@@ -826,5 +826,17 @@
     "title" : "8.3.2 - Tariffisher",
     "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.3.2",
     "version" : "8.3.2"
+  },
+  {
+    "body" : "#### Add\r\n* Update Carthage support for both watchOS and iOS platforms for earlier versions of v8 temporarily [#2399](https://github.com/onevcat/Kingfisher/pull/2399) @wolfcon\r\n\r\n#### Fix\r\n* Fix Swift Task Continuation Misuse issue with Swift 6 compatible solution [#2398](https://github.com/onevcat/Kingfisher/pull/2398) @VladimirHorky @onevcat\r\n* Fix ThumbnailImageDataProvider image orientation issue [#2396](https://github.com/onevcat/Kingfisher/pull/2396) @gongzhang @onevcat\r\n* Remove incorrect watchOS available declaration [#2382](https://github.com/onevcat/Kingfisher/pull/2382) @wolfcon @onevcat",
+    "createdAt" : "2025-06-22T10:45:36+09:00",
+    "fetchedFromAPIAt" : "2025-06-23T10:25:23+09:00",
+    "id" : "RE_kwDOAf70wM4NhcHl",
+    "owner" : "onevcat",
+    "publishedAt" : "2025-06-22T10:56:54+09:00",
+    "repository" : "Kingfisher",
+    "title" : "8.3.3 - Swift Harmony",
+    "url" : "https://github.com/onevcat/Kingfisher/releases/tag/8.3.3",
+    "version" : "8.3.3"
   }
 ]
