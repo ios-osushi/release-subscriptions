@@ -358,5 +358,29 @@
     "title" : "602.0.0-prerelease-2025-05-29",
     "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/602.0.0-prerelease-2025-05-29",
     "version" : "602.0.0-prerelease-2025-05-29"
+  },
+  {
+    "body" : null,
+    "createdAt" : "2025-06-26T03:02:03+09:00",
+    "fetchedFromAPIAt" : "2025-06-28T10:18:50+09:00",
+    "id" : "RE_kwDOCIc4qs4NlQ-Y",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-06-26T10:26:58+09:00",
+    "repository" : "swift-syntax",
+    "title" : "603.0.0-prerelease-2025-06-26",
+    "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/603.0.0-prerelease-2025-06-26",
+    "version" : "603.0.0-prerelease-2025-06-26"
+  },
+  {
+    "body" : null,
+    "createdAt" : "2025-06-19T05:23:15+09:00",
+    "fetchedFromAPIAt" : "2025-06-28T10:18:50+09:00",
+    "id" : "RE_kwDOCIc4qs4NlQ7g",
+    "owner" : "swiftlang",
+    "publishedAt" : "2025-06-26T10:24:39+09:00",
+    "repository" : "swift-syntax",
+    "title" : "602.0.0-prerelease-2025-06-26",
+    "url" : "https://github.com/swiftlang/swift-syntax/releases/tag/602.0.0-prerelease-2025-06-26",
+    "version" : "602.0.0-prerelease-2025-06-26"
   }
 ]
